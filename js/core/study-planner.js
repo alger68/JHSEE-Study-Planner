@@ -82,13 +82,15 @@ export function planDay({ date, dailyMinutes = 75, priorities = {}, dueReviews =
   }
 
   if (remaining > 0) {
-    const schoolEntry = Object.entries(currentScopes).find(([, scope]) => Boolean(scope));
-    if (schoolEntry) {
-      const [subject, topic] = schoolEntry;
+    const schoolCandidate = ranked
+      .filter(item => Boolean(currentScopes[item.subject]))
+      .sort((a, b) => daysSince(recentTouches[b.subject], date) - daysSince(recentTouches[a.subject], date) || b.score - a.score)[0];
+    if (schoolCandidate) {
+      const subject = schoolCandidate.subject;
       tasks.push(makeTask(date, index++, {
         subject,
         type: 'current-school',
-        topic,
+        topic: currentScopes[subject],
         plannedMinutes: remaining,
         note: '同步目前學校進度'
       }));

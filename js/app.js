@@ -2,8 +2,8 @@ import { createRouter, startRouter } from './router.js';
 import { createStorage } from './core/storage.js';
 import { latestBaseline, validateDiagnostic } from './core/diagnostics.js';
 import { summarizeSubjectRecent } from './core/mastery.js';
-import { calculatePriority } from './core/priority.js';
-import { getDueReviews, recordReviewResult } from './core/spaced-review.js';
+import { applyMaintenanceBoost, calculatePriority } from './core/priority.js';
+import { createReviewItem, getDueReviews, recordReviewResult, reviewResultToPracticeLog } from './core/spaced-review.js';
 import { completeTask, planDay, rescheduleUnfinished } from './core/study-planner.js';
 import { exportPlannerData, parseExternalPracticeImport, parsePlannerImport } from './core/import-export.js';
 import { renderHomePage } from './ui/home.js';
@@ -28,6 +28,14 @@ function recentTouches(logs) {
   return result;
 }
 
+function learningTouches() {
+  const practice = storage.get('practiceLogs', []);
+  const completedTasks = storage.get('dailyTasks', [])
+    .filter(task => task.status === 'completed' && task.subject && task.completedAt)
+    .map(task => ({ subject:task.subject, date:task.completedAt.slice(0,10) }));
+  return recentTouches([...practice, ...completedTasks]);
+}
+
 function getPriorities() {
   const diagnostics = storage.get('diagnostics', []);
   const baseline = latestBaseline(diagnostics);
@@ -45,7 +53,7 @@ function getPriorities() {
     const weakness = recent.sampleSize >= 5 ? Math.max(0, Math.min(1, 1 - recent.accuracy / 100)) : baseline[subject];
     priorities[subject] = calculatePriority({ weakness, overdue:Math.min(1,dueCount/5), negativeTrend, upcomingExamWeight:examWeight });
   }
-  return priorities;
+  return applyMaintenanceBoost(priorities, learningTouches(), today());
 }
 
 let refresh = () => {};
@@ -55,6 +63,8 @@ const context = {
   validateDiagnostic,
   getDueReviews,
   recordReviewResult,
+  reviewResultToPracticeLog,
+  createReviewItem,
   parsePlannerImport,
   parseExternalPracticeImport,
   getPriorities,
@@ -69,7 +79,7 @@ const context = {
       priorities:getPriorities(),
       dueReviews:getDueReviews(storage.get('reviewSchedule', []), today()),
       currentScopes:settings.currentScopes ?? {},
-      recentTouches:recentTouches(storage.get('practiceLogs', []))
+      recentTouches:learningTouches()
     });
   },
   exportSnapshot() {

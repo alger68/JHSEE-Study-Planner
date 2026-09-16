@@ -53,3 +53,17 @@ export function getDueReviews(items, date) {
     .filter(item => !item.deleted && typeof item.nextReviewAt === 'string' && item.nextReviewAt <= date)
     .sort((a, b) => a.nextReviewAt.localeCompare(b.nextReviewAt) || (b.lapseCount ?? 0) - (a.lapseCount ?? 0));
 }
+
+export function reviewResultToPracticeLog(item, correct, date) {
+  if (!item?.itemId || !item?.subject) throw new Error('review item is required');
+  if (typeof correct !== 'boolean') throw new Error('correct must be boolean');
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date ?? '')) throw new Error('date must be YYYY-MM-DD');
+  return {
+    date,
+    subject: item.subject,
+    topic: item.topic ?? 'review',
+    correct,
+    source: 'spaced-review',
+    itemId: item.itemId
+  };
+}

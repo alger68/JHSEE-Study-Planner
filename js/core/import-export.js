@@ -5,6 +5,9 @@ const PLANNER_FIELDS = [
   'profile', 'diagnostics', 'settings', 'dailyTasks', 'practiceLogs',
   'reviewSchedule', 'miniChecks', 'mastery', 'ui'
 ];
+const ARRAY_FIELDS = new Set(['diagnostics','dailyTasks','practiceLogs','reviewSchedule','miniChecks']);
+const OBJECT_FIELDS = new Set(['profile','settings','ui']);
+const SUBJECTS = new Set(['chinese','english','math','social','science']);
 
 function parseJson(text) {
   try {
@@ -24,7 +27,14 @@ export function exportPlannerData(data = {}) {
 export function parsePlannerImport(text) {
   const parsed = parseJson(text);
   if (parsed?.schema !== EXPORT_SCHEMA) throw new Error('unsupported schema');
-  const data = parsed.data && typeof parsed.data === 'object' ? parsed.data : {};
+  const data = parsed.data && typeof parsed.data === 'object' && !Array.isArray(parsed.data) ? parsed.data : {};
+  for (const key of PLANNER_FIELDS) {
+    if (!Object.prototype.hasOwnProperty.call(data, key)) continue;
+    const value = data[key];
+    if (ARRAY_FIELDS.has(key) && !Array.isArray(value)) throw new Error('invalid planner data');
+    if (OBJECT_FIELDS.has(key) && (value === null || typeof value !== 'object' || Array.isArray(value))) throw new Error('invalid planner data');
+    if (key === 'mastery' && (value === null || typeof value !== 'object')) throw new Error('invalid planner data');
+  }
   const safe = Object.fromEntries(PLANNER_FIELDS
     .filter(key => Object.prototype.hasOwnProperty.call(data, key))
     .map(key => [key, data[key]]));
@@ -40,7 +50,7 @@ export function parseExternalPracticeImport(text) {
     const correct = Number(record.correct);
     const total = Number(record.total);
     const valid = /^\d{4}-\d{2}-\d{2}$/.test(record.date ?? '')
-      && typeof record.subject === 'string' && record.subject
+      && typeof record.subject === 'string' && SUBJECTS.has(record.subject)
       && typeof record.topic === 'string' && record.topic
       && Number.isInteger(correct) && Number.isInteger(total)
       && total > 0 && correct >= 0 && correct <= total;

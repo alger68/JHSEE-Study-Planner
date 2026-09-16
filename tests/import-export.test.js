@@ -29,3 +29,13 @@ it('rejects invalid correct and total values', () => {
   });
   expect(() => parseExternalPracticeImport(text)).toThrow('invalid practice record');
 });
+
+it('rejects planner backup with invalid field types', () => {
+  const text=JSON.stringify({schema:'jhsee-study-planner/v1',data:{dailyTasks:'not-an-array'}});
+  expect(()=>parsePlannerImport(text)).toThrow('invalid planner data');
+});
+
+it('rejects external practice records with unknown subject', () => {
+  const text=JSON.stringify({schema:'jhsee-practice-summary/v1',records:[{date:'2026-09-17',subject:'unknown',topic:'x',correct:1,total:1}]});
+  expect(()=>parseExternalPracticeImport(text)).toThrow('invalid practice record');
+});
