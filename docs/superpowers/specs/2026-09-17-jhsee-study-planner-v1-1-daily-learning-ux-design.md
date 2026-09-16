@@ -28,9 +28,16 @@ V1.1 保留 V1 核心規則與資料隔離：
 
 ## 2. 核心使用流程
 
-### 2.1 新使用者
+### 2.1 新使用者判定
 
-首次進站若 `settings.onboardingCompleted !== true`，直接進入三步設定精靈，不先顯示完整 Dashboard。
+只有在以下條件全部成立時，視為真正的新使用者並強制進 onboarding：
+
+- `settings.onboardingCompleted !== true`
+- `diagnostics` 為空
+- `dailyTasks` 為空
+- `practiceLogs` 為空
+- `miniChecks` 為空
+- `settings.dailyMinutes` 不存在
 
 流程：
 
@@ -48,11 +55,14 @@ Step 3 下一次考試與目前進度
 
 ### 2.2 舊使用者
 
-若已有 V1 資料：
+只要已存在任何 V1 有效資料，即視為舊使用者，不得強制阻斷既有流程。
 
-- 不刪除、不重置既有 LocalStorage。
-- 若已有 diagnostics 與 settings，但沒有 `onboardingCompleted`，系統可視為「舊使用者」，顯示一次非阻斷式導引卡：`完成 V1.1 快速設定`。
-- 完成後寫入 `settings.onboardingCompleted = true`。
+舊使用者若沒有 `onboardingCompleted`：
+
+- 不刪除、不重置任何既有 LocalStorage。
+- 首頁顯示一次非阻斷式導引卡：`完成 V1.1 快速設定`。
+- 使用者可以稍後處理。
+- 完成快速設定後寫入 `settings.onboardingCompleted = true` 與 `settings.onboardingVersion = "1.1"`。
 
 ### 2.3 每日使用
 
@@ -147,10 +157,11 @@ Step 3 下一次考試與目前進度
 完成時：
 
 1. `settings.onboardingCompleted = true`
-2. 儲存 settings
-3. 呼叫現有 `generateTodayPlan()`
-4. 將今日計畫寫入 `dailyTasks`
-5. 導向 `#/today`
+2. `settings.onboardingVersion = "1.1"`
+3. 儲存 settings
+4. 若今天尚無任何 `dailyTasks`，呼叫現有 `generateTodayPlan()` 並寫入今日任務
+5. 若今天已有任務，不覆寫、不重建，避免 onboarding 造成重複任務
+6. 導向 `#/today`
 
 ---
 
@@ -184,7 +195,22 @@ V1.1 首頁的第一優先不是分析，而是執行。
 [ 產生今天的學習計畫 ]
 ```
 
-### 4.2 今日三大區塊
+### 4.2 剩餘分鐘定義
+
+V1.1 不做即時計時，因此「剩餘分鐘」採預估值，而不是用實際經過時間扣除。
+
+定義：
+
+```text
+remainingMinutes =
+  所有 status = pending 或 active 的任務 plannedMinutes 總和
+```
+
+- `completed` 任務不再計入剩餘分鐘，不論 actualMinutes 大於或小於 plannedMinutes。
+- `skipped` 任務不計入當天剩餘分鐘。
+- actualMinutes 只用於歷史統計與近 7 天 / 本週完成分鐘。
+
+### 4.3 今日三大區塊
 
 首頁主體最多先顯示：
 
@@ -194,7 +220,7 @@ V1.1 首頁的第一優先不是分析，而是執行。
 
 詳細 analytics 放到「進度」。
 
-### 4.3 今日任務卡
+### 4.4 今日任務卡
 
 每張任務卡至少顯示：
 
@@ -234,9 +260,17 @@ V1.1 首頁的第一優先不是分析，而是執行。
 - 下一次考試 currentScopes
 - 今日剩餘時間
 
-### 5.3 `reason[]`
+### 5.3 Canonical 行為
 
-V1.1 任務可新增 optional 欄位：
+理由以純函式即時計算為主，不把 `reason[]` 當成權威資料來源：
+
+```text
+explainTask(task, context) -> string[]
+```
+
+Task 可以保留 optional `reason[]` 作為產生當下的 snapshot，但 UI 顯示時優先呼叫 `explainTask()`。這樣當錯題到期數、mastery 或 priority 改變時，理由不會過期。
+
+### 5.4 `reason[]` optional 欄位
 
 ```json
 {
@@ -251,12 +285,12 @@ V1.1 任務可新增 optional 欄位：
 
 `reason` 為衍生資訊，不作為 priority 計算輸入；即使沒有 `reason`，舊任務仍可正常顯示。
 
-### 5.4 顯示規則
+### 5.5 顯示規則
 
 - 任務卡預設只顯示第一個 reason。
 - 展開後最多顯示 4 個 reason。
 - 沒有細部 topic 資料時，不虛構細部弱點。
-- sample < 5 時只能寫「資料不足」，不能寫成弱點百分比結論。
+- sample < 5 時只能寫「此主題資料不足」，不能寫成弱點百分比結論。
 
 ---
 
@@ -293,9 +327,10 @@ pending → active → completed
 按開始後：
 
 - 將 status 改為 `active`
-- 可記錄 `startedAt`
+- 記錄 `startedAt`
 - 頁面將此任務置頂或高亮
-- 不需要真的做倒數計時器（V1.1 不做 timer）
+- 同一時間最多只能有一個 `active` 任務；開始另一項時，原 active 任務回到 pending
+- 不做倒數計時器（V1.1 不做 timer）
 
 ### 6.4 完成
 
@@ -307,6 +342,7 @@ pending → active → completed
 
 - 即時更新剩餘分鐘
 - 即時更新首頁完成率
+- actualMinutes 納入歷史統計
 - 不自動建立成績正確率，除非該任務本身有練習結果資料
 
 ### 6.5 略過
@@ -368,7 +404,7 @@ priority >= 0.60 → 優先加強
 
 ---
 
-## 9. 手機導覽
+## 9. 手機導覽與路由
 
 ### 9.1 高頻四入口
 
@@ -380,7 +416,7 @@ priority >= 0.60 → 優先加強
 
 對應：
 
-- 今日 → `#/today`，同時承擔主要首頁角色
+- 今日 → `#/today`
 - 進度 → `#/progress`
 - 錯題 → `#/review`
 - 更多 → `#/more`
@@ -413,12 +449,12 @@ V1.1 新增：
 - `#/onboarding`
 - `#/more`
 
-`#/` 的行為：
+V1.1 將路由行為定死如下：
 
-- 未 onboarding → redirect/render onboarding
-- 已 onboarding → render Today-first home 或直接導向 `#/today`
-
-實作時兩者擇一，但必須避免 hash redirect loop。
+- `#/today`：主要 Today-first 頁面。
+- `#/`：若為真正新使用者，render onboarding；否則 render 與 `#/today` 相同的 Today-first 頁面。
+- `#/onboarding`：永遠可手動進入 onboarding / 快速設定。
+- 不使用 `#/` → `#/today` 的自動 hash redirect，因此不存在 redirect loop。
 
 ---
 
@@ -448,7 +484,7 @@ V1.1 新增：
 }
 ```
 
-所有欄位 optional，避免破壞 V1 既有任務。
+所有新欄位 optional，避免破壞 V1 既有任務。
 
 ### 10.3 Migration 原則
 
@@ -456,15 +492,16 @@ V1.1 新增：
 
 讀取舊資料時：
 
-- 缺 `onboardingCompleted` → 根據現有資料判斷是否提示快速設定。
-- 缺 `reason` → UI 用即時 explain function 產生或顯示泛化原因。
-- 缺 `startedAt` / `skipReason` → 視為 null。
+- 缺 `onboardingCompleted`，依 2.1 / 2.2 的新舊使用者規則判斷。
+- 缺 `reason`，UI 即時呼叫 `explainTask()`。
+- 缺 `startedAt` / `skipReason`，視為 null。
+- 任何既有 diagnostics、tasks、practiceLogs、reviewSchedule、miniChecks 不得因升級被清空。
 
 ---
 
 ## 11. Explain Function 邊界
 
-新增純函式概念：
+新增純函式：
 
 ```text
 explainTask(task, context) -> string[]
@@ -487,6 +524,7 @@ explainTask(task, context) -> string[]
 - 不呼叫 AI API。
 - 不產生不存在的 topic。
 - 不把 platform priority 翻譯成官方 A/B/C。
+- 同一輸入必須得到穩定輸出，方便測試。
 
 ---
 
@@ -510,6 +548,7 @@ explainTask(task, context) -> string[]
 - 表單都有可見 label。
 - 等級選擇按鈕需要 keyboard focus 狀態。
 - 進度資訊同時有文字數值。
+- bottom nav 必須標示目前所在頁。
 
 ---
 
@@ -535,26 +574,30 @@ explainTask(task, context) -> string[]
 
 至少新增以下情境：
 
-1. 新使用者進站 → 顯示 onboarding。
-2. onboarding Step 1 未填完整五科 → 不可下一步。
-3. dailyMinutes quick choice 75 → settings=75。
-4. Step 3 可完全略過。
-5. onboarding 完成 → `onboardingCompleted=true`。
-6. onboarding 完成 → 會產生今日計畫。
-7. 舊使用者資料不被清空。
-8. V1 舊 task 沒有 `reason` 仍可 render。
-9. `explainTask` 不會把 sample<5 topic 說成正式弱點。
-10. 4A1B 診斷時，英文任務理由可包含「最高優先科」。
-11. due review 任務理由可包含到期題數。
-12. 7 天未碰科目可產生維持原因。
-13. active → completed 正確記錄 startedAt / actualMinutes。
-14. skipped 任務不計入 completed。
-15. 20 分鐘短模式仍只保留核心任務。
-16. 首頁剩餘分鐘 = planned - completed actual/planned policy 按規格一致計算。
-17. 本週趨勢少於 2 點 → 資料不足。
-18. `#/more` 可進 diagnostics/settings/data。
-19. `#/` 不會 redirect loop。
-20. LocalStorage 仍只使用 `jhseePlanner.v1.*`。
+1. 全新使用者進 `#/` → 顯示 onboarding。
+2. 已有任何 V1 有效資料、但沒有 onboarding flag → 不阻斷，顯示快速設定提示。
+3. onboarding Step 1 未填完整五科 → 不可下一步。
+4. dailyMinutes quick choice 75 → settings=75。
+5. Step 3 可完全略過。
+6. onboarding 完成 → `onboardingCompleted=true`、`onboardingVersion=1.1`。
+7. onboarding 完成且今天無 tasks → 產生今日計畫。
+8. onboarding 完成且今天已有 tasks → 不重複產生、不覆寫。
+9. 舊使用者資料不被清空。
+10. V1 舊 task 沒有 `reason` 仍可 render。
+11. `explainTask` 不會把 sample<5 topic 說成正式弱點。
+12. 4A1B 診斷時，英文任務理由可包含「目前為最高優先科」。
+13. due review 任務理由可包含到期題數。
+14. 7 天未碰科目可產生維持原因。
+15. pending → active → completed 正確記錄 startedAt / actualMinutes。
+16. 同一時間最多一個 active task。
+17. skipped 任務不計入 completed，也不計入 remainingMinutes。
+18. 20 分鐘短模式仍只保留核心任務。
+19. remainingMinutes = pending + active 的 plannedMinutes 總和。
+20. actualMinutes 不影響當天 remainingMinutes，只影響歷史統計。
+21. 本週趨勢少於 2 點 → 資料不足。
+22. `#/more` 可進 diagnostics/settings/data。
+23. `#/` 與 `#/today` 在非新使用者時 render 同一 Today-first 體驗，且無 redirect loop。
+24. LocalStorage 仍只使用 `jhseePlanner.v1.*`。
 
 ---
 
@@ -563,7 +606,7 @@ explainTask(task, context) -> string[]
 V1.1 完成需同時滿足：
 
 1. 新使用者可在 3 步內完成首次設定。
-2. 設定完成後可直接得到第一份今日計畫。
+2. 設定完成後可直接得到第一份今日計畫；已有今日計畫時不重複建立。
 3. 每天首頁首屏能看見：總分鐘、完成進度、剩餘分鐘、下一任務。
 4. 每個主要任務能顯示至少一個可驗證理由；資料不足時不得虛構。
 5. 手機導覽縮成 今日 / 進度 / 錯題 / 更多。
