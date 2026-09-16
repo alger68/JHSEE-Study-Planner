@@ -25,3 +25,25 @@ it('uses only due review plus top priority in short mode', () => {
   expect(result.totalMinutes).toBeLessThanOrEqual(20);
   expect(result.tasks.every(t => ['review-due','weakness-drill'].includes(t.type))).toBe(true);
 });
+
+it('records actual completion data without mutating the original task', async () => {
+  const { completeTask } = await import('../js/core/study-planner.js');
+  const task={id:'t1',date:'2026-09-17',subject:'english',type:'weakness-drill',plannedMinutes:30,status:'pending'};
+  const result=completeTask(task,24,'2026-09-17T12:00:00.000Z');
+  expect(result).toMatchObject({status:'completed',actualMinutes:24,completedAt:'2026-09-17T12:00:00.000Z'});
+  expect(task.status).toBe('pending');
+});
+
+it('reschedules only review and weakness tasks and does not create maintenance backlog', async () => {
+  const { rescheduleUnfinished } = await import('../js/core/study-planner.js');
+  const tasks=[
+    {id:'r1',date:'2026-09-16',subject:'english',type:'review-due',plannedMinutes:10,status:'pending'},
+    {id:'w1',date:'2026-09-16',subject:'english',type:'weakness-drill',plannedMinutes:20,status:'skipped'},
+    {id:'m1',date:'2026-09-16',subject:'math',type:'maintenance',plannedMinutes:10,status:'pending'},
+    {id:'s1',date:'2026-09-16',subject:'science',type:'current-school',plannedMinutes:10,status:'pending'},
+    {id:'done',date:'2026-09-16',subject:'english',type:'review-due',plannedMinutes:10,status:'completed'}
+  ];
+  const result=rescheduleUnfinished(tasks,'2026-09-17');
+  expect(result.map(t=>t.type)).toEqual(['review-due','weakness-drill']);
+  expect(result.every(t=>t.date==='2026-09-17'&&t.status==='pending')).toBe(true);
+});

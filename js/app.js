@@ -4,7 +4,7 @@ import { latestBaseline, validateDiagnostic } from './core/diagnostics.js';
 import { summarizeSubjectRecent } from './core/mastery.js';
 import { calculatePriority } from './core/priority.js';
 import { getDueReviews, recordReviewResult } from './core/spaced-review.js';
-import { planDay } from './core/study-planner.js';
+import { completeTask, planDay, rescheduleUnfinished } from './core/study-planner.js';
 import { exportPlannerData, parseExternalPracticeImport, parsePlannerImport } from './core/import-export.js';
 import { renderHomePage } from './ui/home.js';
 import { renderDiagnosticsPage } from './ui/diagnostics-page.js';
@@ -58,6 +58,8 @@ const context = {
   parsePlannerImport,
   parseExternalPracticeImport,
   getPriorities,
+  completeTask,
+  rescheduleUnfinished,
   refresh: () => refresh(),
   generateTodayPlan() {
     const settings = storage.get('settings', { dailyMinutes:75, currentScopes:{} });

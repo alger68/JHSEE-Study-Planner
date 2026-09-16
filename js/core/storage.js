@@ -11,7 +11,7 @@ export function createStorage(storage = window.localStorage) {
     return key.startsWith(PREFIX) ? key : `${PREFIX}${key}`;
   };
 
-  return {
+  const api = {
     get(key, fallback = null) {
       try {
         const raw = storage.getItem(fullKey(key));
@@ -29,6 +29,11 @@ export function createStorage(storage = window.localStorage) {
         return { ok: false, error };
       }
     },
+    append(key, value) {
+      const current = api.get(key, []);
+      if (!Array.isArray(current)) return { ok: false, error: new Error('storage value is not an array') };
+      return api.set(key, [...current, value]);
+    },
     remove(key) {
       storage.removeItem(fullKey(key));
     },
@@ -36,4 +41,5 @@ export function createStorage(storage = window.localStorage) {
       return ALLOWED_KEYS.map(fullKey);
     }
   };
+  return api;
 }

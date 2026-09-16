@@ -37,3 +37,11 @@ it('returns an error object when storage quota fails', () => {
   expect(result.ok).toBe(false);
   expect(result.error).toBe(error);
 });
+
+it('append stores a value in an array key', () => {
+  const fake = memoryStorage();
+  const store = createStorage(fake);
+  store.append('miniChecks', { week:'2026-W38' });
+  store.append('miniChecks', { week:'2026-W39' });
+  expect(store.get('miniChecks', []).map(x => x.week)).toEqual(['2026-W38','2026-W39']);
+});

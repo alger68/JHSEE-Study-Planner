@@ -103,3 +103,27 @@ export function planDay({ date, dailyMinutes = 75, priorities = {}, dueReviews =
 
   return { totalMinutes: tasks.reduce((sum, task) => sum + task.plannedMinutes, 0), tasks };
 }
+
+export function completeTask(task, actualMinutes, completedAt) {
+  if (!task || typeof task !== 'object') throw new Error('task is required');
+  const minutes = Number(actualMinutes);
+  if (!Number.isFinite(minutes) || minutes < 0) throw new Error('actualMinutes must be a non-negative number');
+  if (typeof completedAt !== 'string' || !completedAt) throw new Error('completedAt is required');
+  return { ...task, status: 'completed', actualMinutes: minutes, completedAt };
+}
+
+export function rescheduleUnfinished(tasks, nextDate) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(nextDate ?? '')) throw new Error('nextDate must be YYYY-MM-DD');
+  const allowed = new Set(['review-due', 'weakness-drill']);
+  return (Array.isArray(tasks) ? tasks : [])
+    .filter(task => allowed.has(task.type) && ['pending', 'skipped'].includes(task.status) && !task.rescheduledTo)
+    .map((task, index) => ({
+      ...task,
+      id: `task-${nextDate}-retry-${String(index + 1).padStart(3, '0')}`,
+      date: nextDate,
+      status: 'pending',
+      rescheduledFrom: task.id,
+      completedAt: undefined,
+      actualMinutes: undefined
+    }));
+}

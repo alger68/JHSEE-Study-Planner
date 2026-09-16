@@ -39,7 +39,7 @@ export function renderProgressPage(context) {
     if (Object.values(subjects).some(row=>!Number.isFinite(row.accuracy)||row.accuracy<0||row.accuracy>100)) {
       msg.textContent='正確率必須介於 0～100。'; msg.dataset.state='error'; return;
     }
-    context.storage.set('miniChecks',[...checks,{week:String(data.get('week')),subjects}]);
+    context.storage.append('miniChecks',{week:String(data.get('week')),subjects});
     context.refresh();
   });
   root.append(form); return root;
