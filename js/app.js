@@ -6,6 +6,8 @@ import { applyMaintenanceBoost, calculatePriority } from './core/priority.js';
 import { createReviewItem, getDueReviews, recordReviewResult, reviewResultToPracticeLog } from './core/spaced-review.js';
 import { completeTask, planDay, rescheduleUnfinished } from './core/study-planner.js';
 import { exportPlannerData, parseExternalPracticeImport, parsePlannerImport } from './core/import-export.js';
+import { isBrandNewUser, needsV11Nudge, completeOnboarding } from './core/onboarding.js';
+import { startTask, skipTask } from './core/task-status.js';
 import { renderHomePage } from './ui/home.js';
 import { renderDiagnosticsPage } from './ui/diagnostics-page.js';
 import { renderTodayPage } from './ui/today-page.js';
@@ -13,12 +15,17 @@ import { renderReviewPage } from './ui/review-page.js';
 import { renderProgressPage } from './ui/progress-page.js';
 import { renderSettingsPage } from './ui/settings-page.js';
 import { renderImportExportPage } from './ui/import-export-page.js';
+import { renderOnboardingPage } from './ui/onboarding-page.js';
+import { renderMorePage } from './ui/more-page.js';
 
 const app = document.querySelector('#app');
 const storage = createStorage();
 const subjectCodes = ['chinese','english','math','social','science'];
 const today = () => new Date().toISOString().slice(0,10);
 
+function plannerSnapshot() {
+  return Object.fromEntries(['settings','diagnostics','dailyTasks','practiceLogs','miniChecks'].map(key => [key, storage.get(key, key === 'settings' ? {} : [])]));
+}
 function recentTouches(logs) {
   const result = {};
   for (const log of logs) {
@@ -27,15 +34,11 @@ function recentTouches(logs) {
   }
   return result;
 }
-
 function learningTouches() {
   const practice = storage.get('practiceLogs', []);
-  const completedTasks = storage.get('dailyTasks', [])
-    .filter(task => task.status === 'completed' && task.subject && task.completedAt)
-    .map(task => ({ subject:task.subject, date:task.completedAt.slice(0,10) }));
+  const completedTasks = storage.get('dailyTasks', []).filter(task => task.status === 'completed' && task.subject && task.completedAt).map(task => ({ subject:task.subject, date:task.completedAt.slice(0,10) }));
   return recentTouches([...practice, ...completedTasks]);
 }
-
 function getPriorities() {
   const diagnostics = storage.get('diagnostics', []);
   const baseline = latestBaseline(diagnostics);
@@ -58,60 +61,49 @@ function getPriorities() {
 
 let refresh = () => {};
 const context = {
-  storage,
-  today,
-  validateDiagnostic,
-  getDueReviews,
-  recordReviewResult,
-  reviewResultToPracticeLog,
-  createReviewItem,
-  parsePlannerImport,
-  parseExternalPracticeImport,
-  getPriorities,
-  completeTask,
-  rescheduleUnfinished,
+  storage, today, validateDiagnostic, getDueReviews, recordReviewResult, reviewResultToPracticeLog, createReviewItem,
+  parsePlannerImport, parseExternalPracticeImport, getPriorities, completeTask, rescheduleUnfinished,
+  needsV11Nudge: () => needsV11Nudge(plannerSnapshot()),
   refresh: () => refresh(),
   generateTodayPlan() {
     const settings = storage.get('settings', { dailyMinutes:75, currentScopes:{} });
-    return planDay({
-      date:today(),
-      dailyMinutes:settings.dailyMinutes ?? 75,
-      priorities:getPriorities(),
-      dueReviews:getDueReviews(storage.get('reviewSchedule', []), today()),
-      currentScopes:settings.currentScopes ?? {},
-      recentTouches:learningTouches()
-    });
+    return planDay({ date:today(), dailyMinutes:settings.dailyMinutes ?? 75, priorities:getPriorities(), dueReviews:getDueReviews(storage.get('reviewSchedule', []), today()), currentScopes:settings.currentScopes ?? {}, recentTouches:learningTouches() });
+  },
+  startDailyTask(id) {
+    const all=storage.get('dailyTasks', []); storage.set('dailyTasks', startTask(all,id,new Date().toISOString())); this.refresh();
+  },
+  skipDailyTask(id, reason='') {
+    const all=storage.get('dailyTasks', []); storage.set('dailyTasks', skipTask(all,id,reason)); this.refresh();
+  },
+  finishOnboarding({ diagnostic, settingsPatch }) {
+    const checked=validateDiagnostic(diagnostic); if(!checked.ok) return checked;
+    const diagnostics=storage.get('diagnostics', []);
+    if(!diagnostics.some(row => row.id === diagnostic.id)) storage.set('diagnostics',[...diagnostics,diagnostic]);
+    storage.set('settings', completeOnboarding(storage.get('settings', {}), settingsPatch));
+    const all=storage.get('dailyTasks', []);
+    if(!all.some(task => task.date === today())) { const plan=this.generateTodayPlan(); storage.set('dailyTasks',[...all,...plan.tasks]); }
+    window.location.hash='#/today'; return { ok:true, errors:[] };
   },
   exportSnapshot() {
-    const data = {};
-    for (const key of ['profile','diagnostics','settings','dailyTasks','practiceLogs','reviewSchedule','miniChecks','mastery','ui']) {
-      data[key] = storage.get(key, key === 'settings' ? {} : []);
-    }
+    const data = {}; for (const key of ['profile','diagnostics','settings','dailyTasks','practiceLogs','reviewSchedule','miniChecks','mastery','ui']) data[key] = storage.get(key, key === 'settings' ? {} : []);
     return exportPlannerData(data);
   }
 };
 
 const routes = createRouter({
-  '#/': () => renderHomePage(context),
+  '#/': () => isBrandNewUser(plannerSnapshot()) ? renderOnboardingPage(context) : renderTodayPage(context),
+  '#/onboarding': () => renderOnboardingPage(context),
   '#/diagnostics': () => renderDiagnosticsPage(context),
-  '#/today': () => renderTodayPage(context),
-  '#/review': () => renderReviewPage(context),
-  '#/progress': () => renderProgressPage(context),
-  '#/settings': () => renderSettingsPage(context),
-  '#/data': () => renderImportExportPage(context)
+  '#/today': () => isBrandNewUser(plannerSnapshot()) ? renderOnboardingPage(context) : renderTodayPage(context),
+  '#/review': () => renderReviewPage(context), '#/progress': () => renderProgressPage(context), '#/settings': () => renderSettingsPage(context), '#/data': () => renderImportExportPage(context), '#/more': () => renderMorePage(context),
+  '#/home': () => renderHomePage(context)
 });
 
 function navigation() {
   const nav=document.createElement('nav'); nav.className='app-nav'; nav.setAttribute('aria-label','主要導覽');
-  nav.innerHTML=`
-    <a href="#/">首頁</a><a href="#/today">今日</a><a href="#/diagnostics">模考</a>
-    <a href="#/review">錯題</a><a href="#/progress">進度</a><a href="#/settings">設定</a><a href="#/data">資料</a>`;
+  nav.innerHTML='<a href="#/today">今日</a><a href="#/progress">進度</a><a href="#/review">錯題</a><a href="#/more">更多</a>';
   return nav;
 }
-
-function renderPage(page) {
-  app.replaceChildren(navigation(), page);
-}
-
+function renderPage(page) { app.replaceChildren(navigation(), page); }
 refresh = () => renderPage(routes.resolve(window.location.hash || '#/')());
 startRouter(routes, renderPage);
