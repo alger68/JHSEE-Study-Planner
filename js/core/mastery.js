@@ -40,3 +40,24 @@ export function summarizeSubjectRecent(logs, subject, now, days = 30) {
   const accuracy = sampleSize === 0 ? 0 : (correct / sampleSize) * 100;
   return { sampleSize, correct, accuracy };
 }
+
+const ENGLISH_REQUIRED_TOPICS = ['vocabulary', 'grammar', 'cloze', 'reading', 'listening'];
+
+export function getEnglishStage(topicSummaries = {}, timedSummary = null, weeklyEnglish = []) {
+  const required = ENGLISH_REQUIRED_TOPICS.map(topic => topicSummaries?.[topic]).filter(Boolean);
+  if (required.length !== ENGLISH_REQUIRED_TOPICS.length || required.some(summary => (summary.sampleSize ?? 0) < 5)) {
+    return 'Diagnose';
+  }
+
+  const stable = required.every(summary => (summary.sampleSize ?? 0) >= 20 && (summary.accuracy ?? 0) >= 75);
+  if (!stable) return 'Stabilize';
+
+  const mixed = topicSummaries?.mixed;
+  if (!mixed || (mixed.sampleSize ?? 0) < 30 || (mixed.accuracy ?? 0) < 80) return 'Mixed';
+
+  if (!timedSummary || (timedSummary.sampleSize ?? 0) < 30 || (timedSummary.accuracy ?? 0) < 80) return 'Timed';
+
+  const recentWeeks = (Array.isArray(weeklyEnglish) ? weeklyEnglish : []).slice(-3);
+  const maintained = recentWeeks.length === 3 && recentWeeks.every(entry => (entry.accuracy ?? 0) >= 80);
+  return maintained ? 'Maintain' : 'Timed';
+}
