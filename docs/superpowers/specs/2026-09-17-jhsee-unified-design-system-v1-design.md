@@ -1,7 +1,7 @@
 # JHSEE Unified Design System V1
 
 Date: 2026-09-17
-Status: Design approved in chat, implementation not started
+Status: Visual direction approved in chat; written specification pending final review
 Scope: JHSEE-Study-Planner, JHSEE-All-Subjects, JHSEE-English-Adventure
 
 ## 1. Product family
@@ -70,7 +70,7 @@ Shared semantic colors:
 
 ### 3.3 All Subjects Focus Mode
 
-Only the formal mock-exam answering flow may switch to dark Focus Mode.
+Focus Mode is used only while a learner is inside an active formal mock-exam session, including the pre-submit answer-check screen for that same session. Paper selection, setup, result analysis and post-exam review use the common light shell.
 
 Focus Mode characteristics:
 - Deep navy background.
@@ -78,7 +78,7 @@ Focus Mode characteristics:
 - Minimal navigation.
 - Timer, question number, bookmark/mark, answer sheet, previous/next and submit remain visible.
 - Hide gamification, dashboards, unrelated statistics, app switcher and promotional surfaces.
-- Exiting/submitting exam returns to the shared light shell.
+- Submitting or leaving the exam session returns to the shared light shell.
 
 Focus Mode is an exam-state theme, not the All Subjects brand theme.
 
@@ -312,7 +312,7 @@ Light shell for:
 - wrong-question review
 - setup/settings
 
-Dark Focus Mode only during formal exam answering/check flow where appropriate.
+Dark Focus Mode only for an active formal mock session and its pre-submit answer-check screen.
 
 Current neon/grid styling should not remain as the default product shell.
 
@@ -408,7 +408,7 @@ Add UI contract tests where practical for:
 - product accent/theme class
 - shared status labels
 - minimum required routes/components
-- Focus Mode only in All Subjects exam routes
+- Focus Mode only in active formal mock-session UI
 - App Switcher target URLs
 - no regression to LocalStorage namespace isolation
 
