@@ -63,3 +63,14 @@ textarea { resize:vertical; min-height:120px; }
   body{padding-bottom:84px;}
   .minute-choices{grid-template-columns:repeat(3,1fr);}
 }
+
+.quick-start-card { gap:var(--jh-space-5); padding:clamp(20px,4vw,30px); }
+.quick-grade-input { display:grid; gap:8px; }
+.quick-grade-input span, .quick-start-help, .quick-custom-minutes { color:var(--text-muted); font-size:.9rem; }
+.quick-grade-input input { font-size:1.1rem; font-weight:750; letter-spacing:.08em; text-transform:uppercase; }
+.quick-grade-preview { display:flex; flex-wrap:wrap; gap:8px; }
+.quick-grade-preview span { padding:6px 10px; border-radius:999px; background:var(--jh-primary-soft); color:var(--accent); font-weight:800; font-size:.82rem; }
+.quick-start-cta { min-height:52px; padding-inline:24px; font-size:1rem; }
+.quick-start-help { margin:0; line-height:1.7; }
+.quick-start-help a { color:var(--accent); font-weight:700; }
+.quick-custom-minutes { display:grid; gap:8px; }
