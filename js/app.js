@@ -17,6 +17,7 @@ import { renderSettingsPage } from './ui/settings-page.js';
 import { renderImportExportPage } from './ui/import-export-page.js';
 import { renderOnboardingPage } from './ui/onboarding-page.js';
 import { renderMorePage } from './ui/more-page.js';
+import { renderAppShell, STUDY_PLANNER_NAV, SUITE_LINKS } from './ui/app-shell.js';
 
 const app = document.querySelector('#app');
 const storage = createStorage();
@@ -99,11 +100,13 @@ const routes = createRouter({
   '#/home': () => renderHomePage(context)
 });
 
-function navigation() {
-  const nav=document.createElement('nav'); nav.className='app-nav'; nav.setAttribute('aria-label','主要導覽');
-  nav.innerHTML='<a href="#/today">今日</a><a href="#/progress">進度</a><a href="#/review">錯題</a><a href="#/more">更多</a>';
-  return nav;
+function renderPage(page) {
+  app.replaceChildren(renderAppShell({
+    product:'Study Planner',
+    page,
+    navItems:STUDY_PLANNER_NAV,
+    switcherItems:SUITE_LINKS
+  }));
 }
-function renderPage(page) { app.replaceChildren(navigation(), page); }
 refresh = () => renderPage(routes.resolve(window.location.hash || '#/')());
 startRouter(routes, renderPage);
