@@ -12,7 +12,7 @@
 .jh-context { color:var(--text-muted); font-size:.78rem; }
 .jh-product-name { grid-column:1/-1; font-size:1.15rem; color:var(--text); }
 .jh-app-switcher { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px; }
-.jh-app-switcher a { min-height:40px; display:inline-flex; align-items:center; padding:0 10px; border-radius:999px; border:1px solid var(--border); background:var(--surface); text-decoration:none; font-size:.78rem; font-weight:700; }
+.jh-app-switcher a { min-height:44px; display:inline-flex; align-items:center; padding:0 10px; border-radius:999px; border:1px solid var(--border); background:var(--surface); text-decoration:none; font-size:.78rem; font-weight:700; }
 .jh-app-switcher a[aria-current="page"] { background:var(--jh-primary-soft); border-color:color-mix(in srgb,var(--accent) 35%,var(--border)); color:var(--accent); }
 .jh-page-content { min-width:0; }
 
@@ -101,3 +101,6 @@ textarea { resize:vertical; min-height:120px; }
     scroll-behavior:auto !important;
   }
 }
+
+.jh-suite-links { display:flex; flex-wrap:wrap; gap:10px; margin-top:var(--jh-space-4); }
+.jh-suite-links .button { flex:1 1 180px; }
