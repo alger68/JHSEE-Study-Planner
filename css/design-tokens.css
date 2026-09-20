@@ -1,0 +1,43 @@
+/* JHSEE Design System v1.0 */
+:root {
+  color-scheme: light;
+
+  --jh-bg: #F6F7FB;
+  --jh-surface: #FFFFFF;
+  --jh-surface-muted: #F1F5F9;
+  --jh-text: #172033;
+  --jh-muted: #64748B;
+  --jh-border: #E2E8F0;
+
+  --jh-primary: #4F46E5;
+  --jh-primary-strong: #4338CA;
+  --jh-primary-soft: #EEF2FF;
+
+  --jh-success: #15803D;
+  --jh-warning: #B45309;
+  --jh-danger: #B91C1C;
+  --jh-info: #2563EB;
+
+  --jh-radius-card: 18px;
+  --jh-radius-control: 11px;
+  --jh-radius-pill: 999px;
+
+  --jh-shadow-card: 0 8px 24px rgba(15, 23, 42, 0.055);
+  --jh-shadow-raised: 0 16px 40px rgba(15, 23, 42, 0.09);
+
+  --jh-space-1: 4px;
+  --jh-space-2: 8px;
+  --jh-space-3: 12px;
+  --jh-space-4: 16px;
+  --jh-space-5: 20px;
+  --jh-space-6: 24px;
+  --jh-space-8: 32px;
+  --jh-space-10: 40px;
+  --jh-space-12: 48px;
+
+  --jh-content-max: 1180px;
+  --jh-motion-fast: 160ms;
+  --jh-motion-standard: 200ms;
+
+  font-family: Inter, "Noto Sans TC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
