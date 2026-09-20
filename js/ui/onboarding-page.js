@@ -1,65 +1,162 @@
+import { parseQuickGrades } from '../core/onboarding.js';
+
 const SUBJECTS = [
   ['chinese','國文'], ['english','英語'], ['math','數學'], ['social','社會'], ['science','自然']
 ];
-const GRADES = ['A++','A+','A','B++','B+','B','C'];
 const QUICK_MINUTES = [30,45,60,75,90];
 
 function button(text, onClick, className = 'button') {
   const el = document.createElement('button');
-  el.type = 'button'; el.className = className; el.textContent = text; el.addEventListener('click', onClick);
+  el.type = 'button';
+  el.className = className;
+  el.textContent = text;
+  el.addEventListener('click', onClick);
   return el;
 }
 
 export function renderOnboardingPage(context) {
-  let step = 1;
-  const state = {
-    grades:Object.fromEntries(SUBJECTS.map(([key]) => [key, key === 'english' ? 'B' : 'A'])),
-    dailyMinutes:75,
-    writingLevel:null,
-    nextExamLabel:'', nextExamDate:'', currentScopes:{}
-  };
-  const root = document.createElement('section'); root.className = 'page-stack onboarding';
+  const state = { quickInput:'A B A A A', dailyMinutes:75 };
+  const root=document.createElement('section');
+  root.className='page-stack onboarding quick-start';
 
-  function render() {
-    root.replaceChildren();
-    const head = document.createElement('header');
-    head.innerHTML = `<p class="eyebrow">首次設定 · ${step}/3</p><h1>${step === 1 ? '最近一次模考' : step === 2 ? '每天可以讀多久？' : '下一次考試與目前進度'}</h1>`;
-    root.append(head);
-    const card = document.createElement('section'); card.className = 'card onboarding-card'; root.append(card);
+  const head=document.createElement('header');
+  head.className='quick-start__header';
+  head.innerHTML='<p class="eyebrow">30 秒快速開始</p><h1>只填必要資訊，今天就開始</h1><p>先告訴我最近一次五科成績與每天大概能讀多久，其餘資料之後再補。</p>';
+  root.append(head);
 
-    if (step === 1) {
-      for (const [key,label] of SUBJECTS) {
-        const row = document.createElement('label'); row.className='grade-row';
-        const name=document.createElement('strong'); name.textContent=label;
-        const select=document.createElement('select'); select.dataset.subject=key;
-        for (const grade of GRADES) { const option=document.createElement('option'); option.value=grade; option.textContent=grade; option.selected=state.grades[key]===grade; select.append(option); }
-        select.addEventListener('change', () => { state.grades[key]=select.value; });
-        row.append(name,select); card.append(row);
-      }
-      const writing=document.createElement('label'); writing.textContent='作文級分（可略過）';
-      const w=document.createElement('select'); w.innerHTML='<option value="">未填</option>';
-      for(let i=1;i<=6;i++){ const o=document.createElement('option'); o.value=String(i); o.textContent=`${i} 級`; w.append(o); }
-      w.addEventListener('change',()=>{ state.writingLevel=w.value ? Number(w.value) : null; }); writing.append(w); card.append(writing);
-      card.append(button('下一步',()=>{ step=2; render(); }));
-    } else if (step === 2) {
-      const choices=document.createElement('div'); choices.className='minute-choices';
-      for(const minutes of QUICK_MINUTES) choices.append(button(`${minutes} 分`,()=>{ state.dailyMinutes=minutes; render(); }, state.dailyMinutes===minutes?'button':'button button--secondary'));
-      card.append(choices);
-      const custom=document.createElement('label'); custom.textContent='自訂 20～180 分鐘';
-      const input=document.createElement('input'); input.type='number'; input.min='20'; input.max='180'; input.value=String(state.dailyMinutes); input.addEventListener('change',()=>{ state.dailyMinutes=Math.max(20,Math.min(180,Number(input.value)||75)); }); custom.append(input); card.append(custom);
-      const actions=document.createElement('div'); actions.className='button-row'; actions.append(button('上一步',()=>{step=1;render();},'button button--secondary'),button('下一步',()=>{step=3;render();})); card.append(actions);
-    } else {
-      const fields=[['nextExamLabel','下一次考試名稱','text'],['nextExamDate','下一次考試日期','date']];
-      for(const [key,label,type] of fields){ const wrap=document.createElement('label'); wrap.textContent=label; const input=document.createElement('input'); input.type=type; input.value=state[key]; input.addEventListener('input',()=>{state[key]=input.value;}); wrap.append(input); card.append(wrap); }
-      for(const [key,label] of SUBJECTS){ const wrap=document.createElement('label'); wrap.textContent=`${label}目前進度（可略過）`; const input=document.createElement('input'); input.value=state.currentScopes[key]??''; input.addEventListener('input',()=>{state.currentScopes[key]=input.value;}); wrap.append(input); card.append(wrap); }
-      const message=document.createElement('p'); message.className='form-message'; card.append(message);
-      const actions=document.createElement('div'); actions.className='button-row';
-      actions.append(button('上一步',()=>{step=2;render();},'button button--secondary'),button('完成設定',()=>{
-        const subjects=Object.fromEntries(SUBJECTS.map(([key])=>[key,{grade:state.grades[key]}]));
-        const result=context.finishOnboarding({ diagnostic:{ id:`diag-${context.today()}`, date:context.today(), label:'最近一次模擬考', subjects, writingLevel:state.writingLevel }, settingsPatch:{ dailyMinutes:state.dailyMinutes, nextExamLabel:state.nextExamLabel, nextExamDate:state.nextExamDate, currentScopes:state.currentScopes } });
-        if (!result?.ok) { message.textContent=result?.errors?.join('、') || '設定失敗'; message.dataset.state='error'; }
-      })); card.append(actions);
+  const card=document.createElement('section');
+  card.className='card onboarding-card quick-start__card';
+
+  const gradeBlock=document.createElement('div');
+  gradeBlock.className='quick-start__block';
+
+  const gradeLabel=document.createElement('label');
+  gradeLabel.className='quick-start__label';
+  gradeLabel.innerHTML='<strong>最近一次五科成績</strong><span>依序：國文・英語・數學・社會・自然</span>';
+
+  const input=document.createElement('input');
+  input.type='text';
+  input.autocomplete='off';
+  input.value=state.quickInput;
+  input.placeholder='例如：A B A A A';
+  input.setAttribute('aria-describedby','quick-grade-help');
+
+  const help=document.createElement('p');
+  help.id='quick-grade-help';
+  help.className='form-message quick-start__help';
+
+  const preview=document.createElement('div');
+  preview.className='quick-grade-preview';
+
+  function syncGradePreview() {
+    state.quickInput=input.value;
+    const parsed=parseQuickGrades(state.quickInput);
+    preview.replaceChildren();
+    if (!parsed.ok) {
+      help.textContent=parsed.error;
+      help.dataset.state='error';
+      return parsed;
+    }
+    help.textContent='可以直接開始，不需要再填作文、模考日期或各科進度。';
+    help.dataset.state='success';
+    for (const [key,label] of SUBJECTS) {
+      const chip=document.createElement('span');
+      chip.className='quick-grade-chip';
+      const small=document.createElement('small');
+      small.textContent=label;
+      const strong=document.createElement('strong');
+      strong.textContent=parsed.grades[key];
+      chip.append(small,strong);
+      preview.append(chip);
+    }
+    return parsed;
+  }
+
+  input.addEventListener('input', syncGradePreview);
+  gradeLabel.append(input);
+  gradeBlock.append(gradeLabel, help, preview);
+
+  const presets=document.createElement('div');
+  presets.className='button-row quick-start__presets';
+  presets.append(
+    button('4A1B・英文 B',()=>{ input.value='A B A A A'; syncGradePreview(); },'button button--secondary'),
+    button('5A',()=>{ input.value='A A A A A'; syncGradePreview(); },'button button--secondary')
+  );
+  gradeBlock.append(presets);
+  card.append(gradeBlock);
+
+  const timeBlock=document.createElement('div');
+  timeBlock.className='quick-start__block';
+  const timeTitle=document.createElement('div');
+  timeTitle.className='quick-start__label';
+  timeTitle.innerHTML='<strong>平常一天可以讀多久？</strong><span>之後每天仍可臨時調整。</span>';
+
+  const choices=document.createElement('div');
+  choices.className='minute-choices';
+
+  function renderMinutes() {
+    choices.replaceChildren();
+    for (const minutes of QUICK_MINUTES) {
+      choices.append(button(
+        minutes + ' 分',
+        ()=>{ state.dailyMinutes=minutes; customInput.value=String(minutes); renderMinutes(); },
+        state.dailyMinutes===minutes ? 'button' : 'button button--secondary'
+      ));
     }
   }
-  render(); return root;
+
+  const custom=document.createElement('label');
+  custom.className='quick-start__custom';
+  custom.textContent='自訂分鐘';
+  const customInput=document.createElement('input');
+  customInput.type='number';
+  customInput.min='20';
+  customInput.max='180';
+  customInput.value=String(state.dailyMinutes);
+  customInput.addEventListener('change',()=>{
+    state.dailyMinutes=Math.max(20,Math.min(180,Number(customInput.value)||75));
+    customInput.value=String(state.dailyMinutes);
+    renderMinutes();
+  });
+  custom.append(customInput);
+  renderMinutes();
+
+  timeBlock.append(timeTitle,choices,custom);
+  card.append(timeBlock);
+
+  const message=document.createElement('p');
+  message.className='form-message';
+
+  const start=button('開始今天的學習',()=>{
+    const parsed=syncGradePreview();
+    if(!parsed.ok) return;
+
+    const subjects=Object.fromEntries(
+      SUBJECTS.map(([key])=>[key,{ grade:parsed.grades[key] }])
+    );
+    const result=context.finishOnboarding({
+      diagnostic:{
+        id:'diag-' + context.today(),
+        date:context.today(),
+        label:'最近一次模擬考',
+        subjects,
+        writingLevel:null
+      },
+      settingsPatch:{ dailyMinutes:state.dailyMinutes }
+    });
+    if(!result?.ok) {
+      message.textContent=result?.errors?.join('、') || '設定失敗，請再試一次。';
+      message.dataset.state='error';
+    }
+  });
+  start.className='button quick-start__cta';
+
+  const foot=document.createElement('p');
+  foot.className='quick-start__footnote';
+  foot.textContent='下一次模考日期、作文級分、學校進度等都可之後在「更多 → 設定」補充。';
+
+  card.append(message,start,foot);
+  root.append(card);
+  syncGradePreview();
+  return root;
 }
