@@ -8,7 +8,7 @@ function button(text, onClick, className = 'button') {
 }
 
 export function renderOnboardingPage(context) {
-  const state={ quickGrades:'A B A A A', dailyMinutes:75 };
+  const state={ quickGrades:'', dailyMinutes:75 };
   const root=document.createElement('section'); root.className='page-stack onboarding';
   const header=document.createElement('header');
   header.innerHTML='<p class="eyebrow">30 秒快速開始</p><h1>先給我兩個資訊，其他之後再補</h1><p>依序輸入國文、英語、數學、社會、自然。例：A B A A A</p>';
