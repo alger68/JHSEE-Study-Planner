@@ -82,3 +82,8 @@ textarea { resize:vertical; min-height:120px; }
 .jh-task-heading h2 { min-width:0; }
 .jh-status-badge { flex:0 0 auto; background:var(--jh-primary-soft); color:var(--accent); }
 .jh-task-meta { margin:.25rem 0 .6rem; }
+
+.jh-page-header { display:grid; gap:6px; padding:2px 2px 4px; }
+.jh-page-header h1 { margin:.15em 0 0; font-size:clamp(1.6rem,5vw,2.15rem); letter-spacing:-.02em; }
+.jh-page-header p { margin:0; color:var(--text-muted); line-height:1.7; }
+.jh-card { border-color:var(--jh-border); box-shadow:var(--jh-shadow-card); }
