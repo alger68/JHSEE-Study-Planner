@@ -20,13 +20,13 @@ export function renderSettingsPage(context) {
   const settings=context.storage.get('settings',{dailyMinutes:75,currentScopes:{}});
   const root=document.createElement('section');
   root.className='page-stack';
-  const header=document.createElement('header');
+  const header=document.createElement('header'); header.className='jh-page-header';
   const eyebrow=document.createElement('p'); eyebrow.className='eyebrow'; eyebrow.textContent='設定';
   const title=document.createElement('h1'); title.textContent='讀書時間與考試進度';
   header.append(eyebrow,title); root.append(header);
 
   const form=document.createElement('form');
-  form.className='card form-grid';
+  form.className='card jh-card form-grid';
   form.append(
     labeledInput('每日可用分鐘',{name:'dailyMinutes',type:'number',value:settings.dailyMinutes ?? 75,min:20,max:180}),
     labeledInput('學期',{name:'term',value:settings.term ?? 'grade9-semester1'}),
