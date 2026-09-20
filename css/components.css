@@ -74,3 +74,11 @@ textarea { resize:vertical; min-height:120px; }
 .quick-start-help { margin:0; line-height:1.7; }
 .quick-start-help a { color:var(--accent); font-weight:700; }
 .quick-custom-minutes { display:grid; gap:8px; }
+
+.jh-hero { border-color:color-mix(in srgb,var(--accent) 18%,var(--border)); background:linear-gradient(135deg,var(--surface),var(--jh-primary-soft)); }
+.jh-hero-next { margin:.35rem 0 0; color:var(--text-muted); }
+.jh-primary-cta { margin-top:var(--jh-space-4); min-height:50px; }
+.jh-task-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+.jh-task-heading h2 { min-width:0; }
+.jh-status-badge { flex:0 0 auto; background:var(--jh-primary-soft); color:var(--accent); }
+.jh-task-meta { margin:.25rem 0 .6rem; }
