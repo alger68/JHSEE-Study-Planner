@@ -48,14 +48,14 @@ export function renderTodayPage(context) {
   eyebrow.className='eyebrow';
   eyebrow.textContent='今日學習計畫';
   const h1=document.createElement('h1');
-  h1.textContent=summary.total ? \`今天 \${summary.completed} / \${summary.total} 完成\` : '今天還沒有計畫';
+  h1.textContent=summary.total ? `今天 ${summary.completed} / ${summary.total} 完成` : '今天還沒有計畫';
   const remain=document.createElement('p');
   remain.className='today-remaining';
-  remain.textContent=\`剩餘 \${summary.remainingMinutes} 分鐘\`;
+  remain.textContent=`剩餘 ${summary.remainingMinutes} 分鐘`;
   const next=document.createElement('p');
   next.className='jh-hero-next';
   next.textContent=summary.nextTask
-    ? \`下一個：\${LABELS[summary.nextTask.subject]??'綜合'} · \${summary.nextTask.plannedMinutes} 分鐘\`
+    ? `下一個：${LABELS[summary.nextTask.subject]??'綜合'} · ${summary.nextTask.plannedMinutes} 分鐘`
     : '今天的任務已處理完成。';
   hero.append(eyebrow,h1,remain,next);
 
@@ -68,7 +68,7 @@ export function renderTodayPage(context) {
       if(summary.nextTask.status==='pending') {
         context.startDailyTask(summary.nextTask.id);
       } else {
-        document.getElementById(\`task-\${summary.nextTask.id}\`)?.scrollIntoView({ behavior:'smooth', block:'center' });
+        document.getElementById(`task-${summary.nextTask.id}`)?.scrollIntoView({ behavior:'smooth', block:'center' });
       }
     });
     hero.append(primary);
@@ -88,13 +88,13 @@ export function renderTodayPage(context) {
 
   for(const task of tasks){
     const item=document.createElement('article');
-    item.id=\`task-\${task.id}\`;
-    item.className=\`card task-card jh-task-card \${task.status==='completed'?'is-complete':''} \${task.status==='active'?'is-active':''}\`;
+    item.id=`task-${task.id}`;
+    item.className=`card task-card jh-task-card ${task.status==='completed'?'is-complete':''} ${task.status==='active'?'is-active':''}`;
 
     const heading=document.createElement('div');
     heading.className='jh-task-heading';
     const title=document.createElement('h2');
-    title.textContent=\`\${LABELS[task.subject]??'綜合'} · \${task.type}\`;
+    title.textContent=`${LABELS[task.subject]??'綜合'} · ${task.type}`;
     const status=document.createElement('span');
     status.className='badge jh-status-badge';
     status.textContent=statusForPriority(priorities?.[task.subject]);
@@ -102,7 +102,7 @@ export function renderTodayPage(context) {
 
     const meta=document.createElement('p');
     meta.className='jh-task-meta';
-    meta.textContent=\`\${task.plannedMinutes} 分鐘\${task.topic?\` · \${task.topic}\`:''}\`;
+    meta.textContent=`${task.plannedMinutes} 分鐘${task.topic?` · ${task.topic}`:''}`;
 
     const practice=context.storage.get('practiceLogs',[]);
     const mastery={};
@@ -122,7 +122,7 @@ export function renderTodayPage(context) {
     if(reasons.length){
       const details=document.createElement('details');
       const s=document.createElement('summary');
-      s.textContent=\`安排原因：\${reasons[0]}\`;
+      s.textContent=`安排原因：${reasons[0]}`;
       const ul=document.createElement('ul');
       reasons.forEach(reason=>{ const li=document.createElement('li'); li.textContent=reason; ul.append(li); });
       details.append(s,ul);
@@ -135,7 +135,7 @@ export function renderTodayPage(context) {
     if(task.status==='completed'){
       const done=document.createElement('span');
       done.className='badge';
-      done.textContent=\`已完成 \${task.actualMinutes??task.plannedMinutes} 分鐘\`;
+      done.textContent=`已完成 ${task.actualMinutes??task.plannedMinutes} 分鐘`;
       actions.append(done);
     } else if(task.status==='skipped'){
       const skipped=document.createElement('span');
