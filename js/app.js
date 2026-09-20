@@ -8,6 +8,7 @@ import { completeTask, planDay, rescheduleUnfinished } from './core/study-planne
 import { exportPlannerData, parseExternalPracticeImport, parsePlannerImport } from './core/import-export.js';
 import { isBrandNewUser, needsV11Nudge, completeOnboarding } from './core/onboarding.js';
 import { startTask, skipTask } from './core/task-status.js';
+import { renderAppShell } from './ui/app-shell.js';
 import { renderHomePage } from './ui/home.js';
 import { renderDiagnosticsPage } from './ui/diagnostics-page.js';
 import { renderTodayPage } from './ui/today-page.js';
@@ -99,11 +100,15 @@ const routes = createRouter({
   '#/home': () => renderHomePage(context)
 });
 
-function navigation() {
-  const nav=document.createElement('nav'); nav.className='app-nav'; nav.setAttribute('aria-label','主要導覽');
-  nav.innerHTML='<a href="#/today">今日</a><a href="#/progress">進度</a><a href="#/review">錯題</a><a href="#/more">更多</a>';
-  return nav;
+const navItems = [['#/today','今日'],['#/progress','進度'],['#/review','錯題'],['#/more','更多']];
+const switcherItems = [
+  ['https://alger68.github.io/JHSEE-Study-Planner/','Study Planner'],
+  ['https://alger68.github.io/JHSEE-All-Subjects/','All Subjects'],
+  ['https://alger68.github.io/JHSEE-English-Adventure/','English Adventure']
+];
+
+function renderPage(page) {
+  app.replaceChildren(renderAppShell({ product:'Study Planner', page, navItems, switcherItems }));
 }
-function renderPage(page) { app.replaceChildren(navigation(), page); }
 refresh = () => renderPage(routes.resolve(window.location.hash || '#/')());
 startRouter(routes, renderPage);
