@@ -6,9 +6,9 @@ const LABELS={chinese:'國文',english:'英語',math:'數學',social:'社會',sc
 
 export function renderProgressPage(context) {
   const root=document.createElement('section'); root.className='page-stack';
-  root.innerHTML='<header><p class="eyebrow">進度</p><h1>每週 Mini Check</h1><p>至少兩週資料才顯示趨勢。</p></header>';
+  root.innerHTML='<header class="jh-page-header"><p class="eyebrow">進度</p><h1>每週 Mini Check</h1><p>至少兩週資料才顯示趨勢。</p></header>';
   const checks=context.storage.get('miniChecks',[]);
-  const trendCard=document.createElement('section'); trendCard.className='card subject-grid';
+  const trendCard=document.createElement('section'); trendCard.className='card jh-card subject-grid';
   for (const subject of SUBJECTS) {
     const t=subjectTrend(checks,subject); const div=document.createElement('div'); div.className='subject-chip';
     div.textContent=t.status==='ready'?`${LABELS[subject]} ${t.latest}% (${t.delta>0?'+':''}${t.delta})`:`${LABELS[subject]} 資料不足`;
@@ -18,13 +18,13 @@ export function renderProgressPage(context) {
 
   const logs=context.storage.get('practiceLogs',[]);
   const topicKeys=[...new Set(logs.filter(log=>log.subject&&log.topic).map(log=>`${log.subject}:${log.topic}`))];
-  const topicCard=document.createElement('section'); topicCard.className='card'; topicCard.innerHTML='<h2>Topic 熟練度</h2>';
+  const topicCard=document.createElement('section'); topicCard.className='card jh-card'; topicCard.innerHTML='<h2>Topic 熟練度</h2>';
   const topicList=document.createElement('ul');
   if (!topicKeys.length) { const li=document.createElement('li'); li.textContent='資料不足'; topicList.append(li); }
   for (const key of topicKeys) { const [subject,topic]=key.split(':'); const summary=summarizeTopic(logs,subject,topic); const li=document.createElement('li'); li.textContent=`${LABELS[subject]??subject} · ${topic}：${summary.state==='insufficient'?'資料不足':`${Math.round(summary.accuracy)}% · ${summary.state}`}`; topicList.append(li); }
   topicCard.append(topicList); root.append(topicCard);
 
-  const form=document.createElement('form'); form.className='card form-grid';
+  const form=document.createElement('form'); form.className='card jh-card form-grid';
   form.innerHTML='<h2>新增本週結果</h2><label>週次<input name="week" placeholder="2026-W38" required></label>';
   for (const subject of SUBJECTS) {
     const label=document.createElement('label'); label.textContent=`${LABELS[subject]} 正確率`;

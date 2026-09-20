@@ -5,16 +5,16 @@ const LABELS={chinese:'國文',english:'英語',math:'數學',social:'社會',sc
 export function renderReviewPage(context) {
   const root = document.createElement('section');
   root.className = 'page-stack';
-  root.innerHTML = '<header><p class="eyebrow">錯題複習</p><h1>今天到期的錯題</h1></header>';
+  root.innerHTML = '<header class="jh-page-header"><p class="eyebrow">錯題複習</p><h1>今天到期的錯題</h1></header>';
   const today = context.today();
   const items = context.getDueReviews(context.storage.get('reviewSchedule', []), today);
   const list = document.createElement('div');
   list.className='task-list';
-  if (!items.length) list.innerHTML='<div class="card empty-state">今天沒有到期錯題。</div>';
+  if (!items.length) list.innerHTML='<div class="card jh-card empty-state">今天沒有到期錯題。</div>';
 
   for (const item of items) {
     const card = document.createElement('article');
-    card.className='card task-card';
+    card.className='card jh-card task-card';
     const title = document.createElement('h2');
     title.textContent=`${LABELS[item.subject] ?? item.subject} · ${item.topic || '錯題'}`;
     const meta = document.createElement('p');
@@ -41,7 +41,7 @@ export function renderReviewPage(context) {
   root.append(list);
 
   const form=document.createElement('form');
-  form.className='card form-grid';
+  form.className='card jh-card form-grid';
   const heading=document.createElement('h2');
   heading.textContent='手動加入錯題';
   const idLabel=document.createElement('label');
