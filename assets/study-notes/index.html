@@ -1714,4 +1714,101 @@ window.STUDY_DATA = {
 })();
 
 </script>
+
+<style id="practice-addon-style">
+.practice-launch{margin-top:8px}.practice-wrap{max-width:1080px;margin:0 auto}.practice-hero{border:1px solid var(--line);background:#fff;border-radius:20px;padding:26px;margin-bottom:20px}.practice-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end;margin-top:18px}.practice-filters label{font-size:12px;color:var(--muted);display:grid;gap:6px}.practice-filters select{min-height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:8px 12px}.practice-grid{display:grid;gap:16px}.practice-q{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}.practice-q h3{font-size:17px;margin:12px 0}.practice-topic{font-size:10px;color:var(--green);background:var(--soft);padding:3px 8px;border-radius:99px}.practice-options{display:grid;gap:8px}.practice-option{border:1px solid var(--line);background:#fff;border-radius:11px;padding:11px 13px;text-align:left;min-height:46px}.practice-option.selected{border:2px solid var(--green);background:#f0f6ef;padding:10px 12px}.practice-option.correct{border:2px solid #3e7952;background:#edf7ed;padding:10px 12px}.practice-option.incorrect{border:2px solid #b57961;background:#fbefea;padding:10px 12px}.practice-explain{margin-top:12px;padding:12px;background:#f5f7f3;border-radius:10px;font-size:13px}.practice-actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.practice-score{padding:16px;background:#edf3e8;border:1px solid #dce8d6;border-radius:13px;margin:16px 0;font-weight:700}.curriculum-table td small{display:block;color:var(--muted);font-size:10px}.version-ok{color:#2d6b47;font-weight:700}.version-pending{color:#8a6a22;font-weight:700}
+@media(max-width:720px){.practice-filters{grid-template-columns:1fr}.practice-q{padding:16px}}
+</style>
+<script>
+/* PRACTICE_ADDON_V110 */
+(function(){
+'use strict';
+var SUBJECTS=[
+{id:'chinese',name:'國文',short:'文'},{id:'english',name:'英語',short:'Aa'},{id:'math',name:'數學',short:'π'},
+{id:'science',name:'自然',short:'理'},{id:'social',name:'社會',short:'世'},{id:'health',name:'健康與體育',short:'健'},
+{id:'arts',name:'藝術',short:'藝'},{id:'integrated',name:'綜合活動',short:'綜'},{id:'technology',name:'科技',short:'科'}];
+var VERIFIED={
+'7/english':['康軒','115學年參考書版本資料可查到永和國中七年級英語列於康軒適用學校。'],
+'7/science':['翰林','115學年參考書版本資料可查到永和國中七年級自然列於翰林適用學校。'],
+'8/math':['康軒','115學年參考書版本資料可查到永和國中八年級數學列於康軒適用學校。'],
+'9/social':['康軒','115學年參考書版本資料可查到永和國中九年級社會列於康軒適用學校。']};
+var CATALOG=[];[7,8,9].forEach(function(g){SUBJECTS.forEach(function(s){var v=VERIFIED[g+'/'+s.id];CATALOG.push({grade:g,subject:s.id,name:s.name,publisher:v?v[0]:'校方115版本待逐科轉錄',verified:!!v,note:v?v[1]:'永和國中官網已公告115學年度教科書版本，但公告表為圖片；本站不猜測尚未逐科讀出的出版社。'});});});
+function rng(seed){var x=(Number(seed)||1)>>>0;return function(){x=(x*1664525+1013904223)>>>0;return x/4294967296;};}
+function shuf(a,r){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(r()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;}
+function q(question,correct,wrongs,explanation,topic){return{question:question,correct:String(correct),wrongs:wrongs.map(String),explanation:explanation,topic:topic};}
+var STATIC={
+chinese:[
+q('「畫蛇添足」最接近哪個意思？','多做不必要的事反而壞事',['做事很快','保持沉默','事前準備充分'],'畫蛇添足比喻多此一舉，反而把事情弄壞。','成語'),
+q('哪一句較符合設問修辭？','難道努力真的沒有意義嗎？',['天空像藍布','風在窗邊唱歌','他跑得像風'],'設問以問題形式引發思考。','修辭'),
+q('判斷文章主旨，最適合先找什麼？','反覆出現的核心觀點',['最長句子','所有形容詞','生字筆畫'],'主旨通常由全文反覆發展的核心觀點統整。','閱讀'),
+q('「雖然很累，但是他仍完成訓練。」呈現何種關係？','轉折',['因果','遞進','並列'],'雖然…但是…是典型轉折。','語文'),
+q('下列何者較適合作為正式書面語？','敬請於期限內完成繳交',['快點交一交啦','趕快弄好','有空再交'],'正式書面語講求清楚、禮貌與精確。','語用'),
+q('判斷人物心情，最可靠的做法是？','結合言行與情境線索',['只看第一個字','只看標點數量','只看文章長度'],'人物心情常需從行為、對話與事件推論。','閱讀'),
+q('摘要文章較好的做法是？','保留核心資訊並刪除枝節',['逐字抄全文','只留標題','加入自己的故事'],'摘要應濃縮原文核心。','閱讀'),
+q('「月亮偷偷躲進雲後」較接近哪種修辭？','擬人',['排比','引用','層遞'],'把月亮寫成會躲的人，屬於擬人。','修辭')],
+social:[
+q('地圖比例尺愈大，通常表示？','較小範圍、較多細節',['較大範圍、較少細節','一定看不到道路','與細節無關'],'大比例尺涵蓋範圍較小、細節較多。','地理'),
+q('研究歷史事件較可靠的做法是？','比較不同來源並檢查背景',['只信單一傳聞','只看最晚資料','忽略作者'],'史料判讀重視來源與互證。','歷史'),
+q('民主社會的權利與責任較合理的理解是？','行使權利時也尊重他人權利',['權利沒有界線','只有政府有責任','合法就不用管他人'],'權利與公共責任相互關聯。','公民'),
+q('人口密度描述的是？','單位面積內平均人口數',['平均年齡','總收入','氣溫變化'],'人口密度＝人口數÷面積。','地理'),
+q('物價普遍上升、所得不變，通常代表？','購買力下降',['購買力上升','人人變富','與生活無關'],'同額金錢可購買的商品變少。','公民'),
+q('判讀公共政策較完整的方式是？','同看目的、成本、對象與結果',['只看標題','只看支持者','只看反對者'],'政策分析要兼顧多方影響。','公民'),
+q('季風形成通常與什麼最相關？','海陸受熱差異造成氣壓變化',['月相','磁場消失','河川流向'],'海陸熱力差異造成季節性風向。','地理'),
+q('第一手史料通常是？','事件當時留下的原始資料',['後人教科書','任何網路資料','虛構小說'],'第一手史料與事件同時期或直接相關。','歷史')],
+health:[
+q('運動前暖身主要目的之一是？','逐步提高身體活動準備度',['讓心跳最低','避免所有傷害','取代正式訓練'],'暖身能逐步提升活動準備。','運動安全'),
+q('均衡飲食較重要的原則是？','多樣化並依需求適量攝取',['只吃蛋白質','完全不吃澱粉','只喝維生素飲料'],'均衡飲食重視多樣與適量。','健康'),
+q('運動中若明顯頭暈胸悶，應？','停止活動並尋求協助',['繼續硬撐','立刻衝刺','不告訴任何人'],'明顯不適時優先安全。','運動安全'),
+q('足夠睡眠對青少年有何幫助？','注意力與身體恢復',['睡越少越好','與學習無關','週末不睡可補回'],'睡眠與認知、情緒及恢復相關。','健康'),
+q('團隊運動良好溝通最有助於？','協調分工與降低誤解',['保證獲勝','讓規則失效','只讓一人決定'],'溝通可提升合作效率。','體育'),
+q('運動後補水主要是？','補回水分流失',['體溫永遠固定','取代所有營養','越多越好'],'補水需配合活動量與個人狀況。','健康'),
+q('阻力訓練較重要的是？','動作正確並循序增加負荷',['一次最大重量','忽略姿勢','只追速度'],'正確動作與循序負荷較安全。','體育'),
+q('網路健康資訊較好的查核方式是？','檢查來源並與可靠資訊比對',['分享多就信','只看標題','不看來源'],'健康資訊需要查核來源。','健康')],
+arts:[
+q('互補色通常指？','色相環上相對位置的色彩',['完全相同的色彩','只有黑白','任何兩個暖色'],'互補色具有強烈對比。','視覺藝術'),
+q('音樂中的節拍主要幫助感受？','規律的時間脈動',['畫面透視','雕塑材質','文字押韻'],'節拍是音樂時間組織基礎。','音樂'),
+q('理解角色動機最有助於？','讓表演行動更一致',['台詞自動變短','取消調度','不需合作'],'角色動機幫助建立合理行動。','表演藝術'),
+q('構圖中的留白可能有何效果？','引導視線並創造呼吸感',['代表沒完成','只能黑白','沒有功能'],'留白也是構圖元素。','視覺藝術'),
+q('較完整的藝術欣賞方式是？','觀察形式、內容與背景',['只看價格','只看大小','只看知名度'],'可從形式、意義與文化理解作品。','藝術欣賞'),
+q('音樂強弱變化主要影響？','表情與張力',['音高名稱','樂器數量','歌詞字數'],'力度變化可塑造音樂表情。','音樂'),
+q('海報資訊層級主要目的？','讓讀者先看到重要訊息',['所有字一樣大','塞滿版面','不用留白'],'資訊層級建立閱讀順序。','視覺設計'),
+q('舞台上的走位安排通常稱為？','舞台調度',['透視法','配色法','押韻法'],'舞台調度安排演員位置與移動。','表演藝術')],
+integrated:[
+q('小組合作前先分工主要好處是？','釐清責任並提升效率',['保證沒衝突','一人做全部','不需溝通'],'清楚分工方便協調。','合作'),
+q('規劃戶外活動第一優先通常是？','安全、天候與風險評估',['拍照地點','按讚數','紀念品價格'],'戶外活動應先評估安全。','生活'),
+q('面對生涯選擇較好的做法是？','了解自己並蒐集多元資訊',['跟朋友選','只看排名','不考慮興趣'],'生涯探索需要自我理解。','生涯'),
+q('團隊意見衝突時較適合？','釐清彼此需求再討論方案',['立刻中止','聲音大者決定','忽略問題'],'衝突管理重點是共同找解法。','合作'),
+q('把大任務拆成小步驟有何優點？','降低啟動難度並追蹤進度',['任務自動完成','不需期限','完全不拖延'],'拆解任務能讓行動更具體。','學習'),
+q('服務學習重要精神之一是？','理解需求並在服務後反思',['只累積時數','只做最容易','不互動'],'服務學習結合實際服務與反思。','服務'),
+q('列出方案優缺點主要是在？','比較不同方案可能影響',['增加選項數量','避免思考','取消責任'],'決策需要比較利弊。','生活'),
+q('戶外活動後較負責任的做法是？','帶走垃圾並恢復場地',['埋垃圾','倒進河川','留下器材'],'應減少環境衝擊。','生活')],
+technology:[
+q('演算法最接近？','解決問題的一連串明確步驟',['電腦品牌','螢幕解析度','網路速度'],'演算法是一套可執行的步驟。','資訊科技'),
+q('試算表公式通常以什麼開始？','=',['#','@','&'],'多數試算表以等號表示公式開始。','資訊科技'),
+q('產品原型主要目的之一是？','先驗證功能與使用方式',['取代所有測試','只求漂亮','避免回饋'],'原型可在正式製作前測試想法。','生活科技'),
+q('密碼安全較好的做法是？','不同服務使用不同且難猜的密碼',['全部共用簡單密碼','公開貼桌上','只用生日'],'重複密碼會放大外洩風險。','資訊安全'),
+q('串聯電路一處斷路，常見結果是？','整個回路電流中斷',['其他部分完全不受影響','電壓一定為零','電池自動充電'],'串聯只有單一路徑。','生活科技'),
+q('程式中的條件判斷主要用來？','依不同情況執行不同步驟',['永久關閉程式','讓輸入相同','只顯示圖片'],'條件判斷可選擇不同流程。','資訊科技'),
+q('工程設計的限制條件是？','必須遵守的資源或規格邊界',['設計者姓名','顏色偏好而已','完成後裝飾'],'成本、尺寸、安全都可能是限制。','生活科技'),
+q('看到可疑連結較安全的做法是？','先確認來源與網址',['立刻輸入密碼','轉傳所有人','關閉防毒'],'可疑連結需先查核。','資訊安全')]};
+function mathPool(g,r){var a=[],N=function(x,y){return Math.floor(r()*(y-x+1))+x;};for(var i=0;i<12;i++){if(g===7){var x=N(-12,12),y=N(-12,12),z=x+y;a.push(q(x+' + ('+y+') = ?',z,[z+1,z-1,-z],'整數加法要同時注意數值與正負號。','整數運算'));}else if(g===8){var m=N(2,9),b=N(1,9),ans=N(1,8),c=m*ans+b;a.push(q('若 '+m+'x + '+b+' = '+c+'，則 x = ?',ans,[ans+1,Math.max(0,ans-1),m],'先減去常數，再除以 x 的係數。','代數'));}else{var p=N(1,6),n=N(1,6);a.push(q('方程式 (x-'+p+')(x-'+n+')=0 的解之一不可能是？',p+n,[p,n,p===n?p+1:n],'零乘積性質給出 x='+p+' 或 x='+n+'。','二次方程式'));}}return a;}
+function sciencePool(g,r){var a=g===7?[q('光合作用主要目的最接近？','製造有機養分',['製造二氧化碳','把水變成土壤','讓根停止吸水'],'光合作用製造有機養分並儲存能量。','生物'),q('木質部主要運輸？','水與無機鹽',['澱粉粒','氧氣泡','DNA'],'木質部主要運輸水與無機鹽。','生物')]:g===8?[q('物體速度改變時代表？','物體有加速度',['物體一定靜止','質量變零','時間停止'],'速度大小或方向改變都代表有加速度。','物理'),q('化學變化與物理變化主要差異之一是？','是否形成新物質',['是否有顏色','是否放熱','是否發光'],'化學變化核心是形成新物質。','化學')]:[q('家庭電路通常採並聯主要理由之一是？','各電器可較獨立運作',['只能一起開','電壓永遠為零','避免任何電流'],'並聯支路可獨立控制。','電學'),q('地震規模主要描述？','地震釋放能量大小',['各地搖晃程度','氣溫變化','降雨量'],'規模偏向震源釋放能量。','地球科學')];var N=function(x,y){return Math.floor(r()*(y-x+1))+x;};while(a.length<12){var v=N(2,12),t=N(2,8),d=v*t;a.push(q('某物體以平均速度 '+v+' m/s 運動 '+t+' s，路程約為多少？',d+' m',[d+v+' m',Math.max(0,d-v)+' m',(v+t)+' m'],'路程＝速度×時間。','科學計算'));}return a;}
+function englishPool(g,r){var names=['Amy','Ben','Cindy','David','Eric','Fiona'],a=[];for(var i=0;i<12;i++){var n=names[Math.floor(r()*names.length)];if(g===7)a.push(q(n+' ___ a student.','is',['are','am','be'],'第三人稱單數主詞搭配 is。','文法'));else if(g===8)a.push(q(n+' ___ TV when I called last night.','was watching',['watched now','is watching','watch'],'過去某時間正在進行可用 was/were + V-ing。','文法'));else a.push(q('The book ___ by many students last week.','was read',['is read yesterday','readed','was reading by'],'被動語態為 be + 過去分詞；last week 用過去式。','文法'));}return a;}
+function materialize(x,r,i){var raw=[{t:x.correct,c:1}].concat(x.wrongs.slice(0,3).map(function(w){return{t:String(w),c:0};}));var mix=shuf(raw,r).map(function(o,j){return{id:String.fromCharCode(97+j),text:o.t,c:o.c};});return{id:'p'+(i+1),question:x.question,options:mix.map(function(o){return{id:o.id,text:o.text};}),answer:mix.filter(function(o){return o.c;})[0].id,explanation:x.explanation,topic:x.topic};}
+function generate(g,s,count,seed){var r=rng(seed),pool=s==='math'?mathPool(g,r):s==='science'?sciencePool(g,r):s==='english'?englishPool(g,r):(STATIC[s]||[]);pool=shuf(pool,r);var out=[];for(var i=0;i<count;i++)out.push(materialize(pool[i%pool.length],r,i));return out;}
+window.PracticeEngine={subjects:SUBJECTS,catalog:CATALOG,generate:generate};
+var picks={},checked={};
+function esc(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function params(){var h=location.hash.slice(1),q=h.split('?')[1]||'',p=new URLSearchParams(q),g=Number(p.get('g'));if([7,8,9].indexOf(g)<0)g=7;var s=p.get('s');if(!SUBJECTS.some(function(x){return x.id===s;}))s='science';return{grade:g,subject:s,seed:Number(p.get('seed'))||20260924};}
+function key(p){return p.grade+'/'+p.subject+'/'+p.seed;}
+function heading(t,d){return '<div class="section-heading"><h2>'+esc(t)+'</h2><p>'+esc(d)+'</p></div>';}
+function versions(){var rows=CATALOG.map(function(x){return '<tr><td>'+x.grade+'年級</td><td>'+esc(x.name)+'</td><td>'+esc(x.publisher)+'<small>'+esc(x.note)+'</small></td><td class="'+(x.verified?'version-ok':'version-pending')+'">'+(x.verified?'已由第二來源核對':'待逐科轉錄')+'</td></tr>';}).join('');return '<div class="practice-wrap">'+heading('永和國中 115 學年度教材版本','校方官網已公告版本表；本站只把可逐科確認的出版社直接標示，其餘不猜測。')+'<section class="panel"><p>七、八、九年級九大科目入口都已建立。版本矩陣與題庫分離，後續核對出版社只需更新版本資料。</p><div class="table-scroll curriculum-table"><table><thead><tr><th>年級</th><th>科目</th><th>115教材版本</th><th>狀態</th></tr></thead><tbody>'+rows+'</tbody></table></div><div class="actions"><a class="btn primary" href="#/practice">開始全科測驗</a><a class="btn secondary" href="#/home">回首頁</a></div></section></div>';}
+function page(){var p=params(),qs=generate(p.grade,p.subject,8,p.seed),k=key(p),a=picks[k]||{},done=!!checked[k],correct=qs.filter(function(x){return a[x.id]===x.answer;}).length,answered=Object.keys(a).length;var cards=qs.map(function(x,i){var oi=x.options.map(function(o,j){var sel=a[x.id]===o.id,cl=done?(o.id===x.answer?' correct':sel?' incorrect':''):sel?' selected':'';return '<button class="practice-option'+cl+'" data-pq="'+x.id+'" data-po="'+o.id+'" '+(done?'disabled':'')+'>'+String.fromCharCode(65+j)+'. '+esc(o.text)+'</button>';}).join('');return '<article class="practice-q"><div><span class="practice-topic">'+esc(x.topic)+'</span> <span class="badge">第 '+(i+1)+' 題</span></div><h3>'+esc(x.question)+'</h3><div class="practice-options">'+oi+'</div>'+(done?'<div class="practice-explain"><strong>答案：'+String.fromCharCode(65+x.options.findIndex(function(o){return o.id===x.answer;}))+'</strong>　'+esc(x.explanation)+'</div>':'')+'</article>';}).join('');return '<div class="practice-wrap">'+heading('七～九年級全科自我檢測','本站原創題；數學與部分自然、英語會改變數值或情境，其他科目以抽題與選項洗牌變化。')+'<section class="practice-hero"><div class="eyebrow">ADAPTIVE PRACTICE</div><h2>選年級、選科目，立即出一份 8 題練習</h2><div class="practice-filters"><label>年級<select id="pg">'+[7,8,9].map(function(g){return '<option value="'+g+'" '+(g===p.grade?'selected':'')+'>'+g+' 年級</option>';}).join('')+'</select></label><label>科目<select id="ps">'+SUBJECTS.map(function(s){return '<option value="'+s.id+'" '+(s.id===p.subject?'selected':'')+'>'+esc(s.name)+'</option>';}).join('')+'</select></label><button class="btn primary" data-pa="new">換一份題目 ↻</button></div></section>'+(done?'<div class="practice-score">本次 '+correct+' / '+qs.length+' 題正確'+(answered<qs.length?'（尚有 '+(qs.length-answered)+' 題未作答）':'')+'</div>':'')+'<div class="practice-grid">'+cards+'</div><div class="practice-actions">'+(done?'<button class="btn primary" data-pa="new">再出一份不同題目 ↻</button>':'<button class="btn primary" data-pa="check">交卷看解析</button>')+'<a class="btn secondary" href="#/practice/versions">查看永和國中115版本表</a></div></div>';}
+function ensureNav(){var side=document.querySelector('#sidebar .nav-group');if(side&&!document.querySelector('[data-practice-nav]')){var a=document.createElement('a');a.className='nav-item practice-launch';a.href='#/practice';a.dataset.practiceNav='1';a.innerHTML='<span class="nav-icon">✎</span>全科測驗<span class="end">7–9</span>';side.appendChild(a);}var mn=document.getElementById('mobile-nav');if(mn&&!mn.querySelector('[data-practice-nav]')){var b=document.createElement('a');b.href='#/practice';b.dataset.practiceNav='1';b.innerHTML='<span>✎</span>題庫';mn.appendChild(b);}}
+function handle(){setTimeout(function(){ensureNav();var h=location.hash||'#/home';if(h.indexOf('#/practice')===0){var m=document.getElementById('main');if(m){m.innerHTML=h.indexOf('#/practice/versions')===0?versions():page();document.getElementById('breadcrumb').textContent=h.indexOf('/versions')>0?'教材版本':'全科測驗';document.title='全科自我檢測｜知識小站';window.scrollTo(0,0);}}else if(h==='#/home'||h===''||h==='#'){var hero=document.querySelector('.hero .desc');if(hero&&!document.querySelector('.practice-home-cta')){var c=document.createElement('p');c.className='practice-home-cta';c.innerHTML='<a class="btn secondary" href="#/practice">✎ 七～九年級全科自我檢測</a>';hero.insertAdjacentElement('afterend',c);}}},0);}
+document.addEventListener('click',function(e){var o=e.target.closest('[data-pq]');if(o){var p=params(),k=key(p);if(checked[k])return;picks[k]=Object.assign({},picks[k]||{});picks[k][o.dataset.pq]=o.dataset.po;document.getElementById('main').innerHTML=page();return;}var b=e.target.closest('[data-pa]');if(!b)return;var p=params(),k=key(p);if(b.dataset.pa==='check'){checked[k]=1;document.getElementById('main').innerHTML=page();}if(b.dataset.pa==='new'){location.hash='#/practice?g='+p.grade+'&s='+encodeURIComponent(p.subject)+'&seed='+(Date.now()%2147483647);}});
+document.addEventListener('change',function(e){if(e.target.id==='pg'||e.target.id==='ps'){var g=Number(document.getElementById('pg').value),s=document.getElementById('ps').value;location.hash='#/practice?g='+g+'&s='+encodeURIComponent(s)+'&seed='+(Date.now()%2147483647);}});
+window.addEventListener('hashchange',handle);handle();
+})();
+</script>
 </body></html>
