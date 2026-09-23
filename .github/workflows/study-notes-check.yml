@@ -1,0 +1,46 @@
+name: Study Notes checks
+on:
+  push:
+    branches: [main, 'notes/**']
+    paths: ['assets/study-notes/**', '.github/workflows/study-notes-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  school-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read official public textbook announcement
+        run: |
+          python - <<'PY'
+          import urllib.request, re, json
+          from html.parser import HTMLParser
+          from urllib.parse import urljoin
+          url = 'https://www.jhjhs.ntpc.edu.tw/p/405-1000-15182,c178.php'
+          class Images(HTMLParser):
+              def handle_starttag(self, tag, attrs):
+                  d = dict(attrs)
+                  if tag == 'img':
+                      print('SCHOOL_IMAGE', json.dumps({k: urljoin(url,v) if k in ('src','data-src') else v for k,v in d.items() if k in ('src','data-src','alt','title')}, ensure_ascii=False))
+          try:
+              req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
+              body = urllib.request.urlopen(req, timeout=30).read().decode('utf-8')
+              print('SCHOOL_TITLE', re.findall(r'<title>(.*?)</title>', body, re.S))
+              Images().feed(body)
+          except Exception as exc:
+              print('SCHOOL_SOURCE_UNAVAILABLE', type(exc).__name__, str(exc))
+          PY
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Study notes tests
+        run: |
+          if [ -f assets/study-notes/tests/engine.test.cjs ]; then
+            node --test assets/study-notes/tests/*.test.cjs
+          else
+            echo 'Diagnostic-only commit: study-notes tests are not installed yet.'
+          fi
