@@ -1,0 +1,42 @@
+@7/1|基本句型與日常表達
+人稱與be動詞|I配am；he、she、it配is；you、we、they配are。|否定句在be後加not；問句把be移到主詞前。|She is a student. → Is she a student?|第三人稱單數一律使用are。|My sister ___ a student.（現在簡單式）|is|are|am|be|My sister是第三人稱單數，現在式be用is。|be
+名詞單複數|可數名詞用a/an或數量表達單複數，常見複數加s或es。|冠詞a/an由下一個發音決定，不只看字母；不可數名詞通常不直接加a。|an apple；a book；two boxes。|所有複數名詞都只在字尾加s。|下列哪一個是正確寫法？|three boxes|three box|a apples|an book|box的複數為boxes；數字three後用複數。|plural
+所有格|my、your、his、her等所有格形容詞後要接名詞。|名詞所有格可用's；不要把her book與she book混用。|This is her bag. 的her修飾bag。|she可以直接放在book前表示她的書。|This is ___ book.（她的）|her|she|he|they|her是所有格形容詞，可放在book前。|possessive
+指示詞與位置|this/that指單數，these/those指複數；in/on/under等介系詞表達位置。|指示詞還有遠近差別；位置詞要配合題目的圖或描述。|These are my shoes.；The ball is under the desk.|these可以直接搭配單數be動詞is。|___ are my pencils.（近處、複數）|These|This|That|It|近處複數用these，並搭配are。|demonstrative
+祈使句與can|祈使句常以原形動詞開始；can後接原形動詞。|否定祈使句用Don't加原形動詞；can不因第三人稱而加s。|Please sit down.；He can swim.|He can swims.是正確句型。|She can ___ very well.|sing|sings|singing|sang|助動詞can後面必須用原形sing。|can
+疑問詞與回應|who問人、where問地點、when問時間、what問事物。|先看回答提供哪一種資訊，再判斷疑問詞；不要只看單字相似。|Where is Tom? — In the library.|where用來詢問年齡。|___ is your bag? — On the chair.|Where|Who|When|Why|回答是位置，因此用Where。|wh
+@7/2|習慣、頻率與生活閱讀
+現在簡單式|表示習慣或一般事實；第三人稱單數的肯定句，主要動詞常加s/es。|一般動詞問句用do/does；用了does後，主要動詞回原形。|He plays basketball. → Does he play basketball?|Does後的主要動詞仍要加s。|Does Amy ___ to school by bus?|go|goes|going|went|does已表達第三人稱單數，後面的go用原形。|do
+現在進行式|am/is/are＋V-ing，常用來表達此刻正在進行的動作。|先判斷主詞單複數，再選be；不能只放V-ing而漏be。|They are reading now.|現在進行式只需要V-ing，不用be。|Look! The children ___ in the park.|are playing|plays|is playing|play yesterday|children是複數，現在正在進行用are playing。|continuous
+頻率副詞|always、usually、often、sometimes、never描述發生頻率。|一般放在主要動詞前、be動詞後；頻率高低要配合語境。|He usually walks to school.；She is always early.|頻率副詞固定放在所有句子的最後。|He ___ late.（他從不遲到。）|is never|never is a|never are|are never|主詞He搭配is，頻率副詞never一般放在be後。|frequency
+數量與詢價|How many問可數複數數量；How much問不可數數量或價格。|few/a few搭配可數名詞，little/a little搭配不可數名詞；需留意有無a的語意。|How many apples?；How much water?|How many可以直接修飾不可數名詞water。|___ milk do we need?|How much|How many|How often|How old|milk在此為不可數名詞，問量用How much。|quantity
+時間、日期與活動|in常接月份或年份，on接特定日期或星期，at接具體時刻。|理解時間表先找日期、開始時間和地點，再核對問題。|at seven；on Monday；in July。|星期名稱前一律用at。|We have a meeting ___ Friday.|on|at|in|to|星期幾通常使用介系詞on。|time
+短文找線索|讀題先判斷問人、時、地、事，再回原文找證據。|推論不能超出原文；看到相同單字仍要確認整句意思。|Notice: The library closes at five. 可知5點關閉。|選項出現原文單字就一定正確。|The shop opens at nine and closes at six. 依文意哪個正確？|It opens at nine.|It opens at six.|It never closes.|It closes at nine.|原文直接寫opens at nine；opens與closes不可看反。|reading
+@8/1|過去時間與敘事
+過去簡單式|描述已完成的過去事件，動詞使用過去式。|規則動詞常加ed，不規則動詞須另外學習，例如go→went。|We visited the museum yesterday.|所有動詞過去式都只要加ed。|Tom ___ to the park yesterday.|went|go|goes|going|yesterday指出過去；go的過去式是went。|past
+did問句與否定|過去式一般動詞問句、否定句使用did/didn't加原形動詞。|過去時間已由did表達，主要動詞不再用過去式。|Did you see the film?；I didn't see it.|Did you saw the film?是正確問句。|Did she ___ the letter?|write|wrote|written|writing|did後接原形write，不用wrote。|did
+過去進行式|was/were＋V-ing強調過去某時正在進行的動作。|常用來描述背景，另一已完成事件則可用過去簡單式。|I was reading when the phone rang.|was/were之後直接放動詞過去式就是進行式。|At eight last night, I ___.（請填過去進行式）|was studying|am studying|study|studied now|過去進行式為was/were加V-ing；I配was。|past-continuous
+連接詞與因果|because引導原因，so引導結果；先釐清前因後果。|標準書面句通常不用because和so重複連接同一組子句。|I stayed home because it rained.|because與so可在同一個簡單因果句任意重複。|I was late ___ the bus broke down.|because|but|or|although|公車故障是遲到原因，用because。|because
+不定詞與動名詞|不同動詞後有不同接法，例如want to read、enjoy reading。|不能將所有動詞後面都統一接to V；要連同常見搭配一起記。|She enjoys cooking.；He wants to learn.|enjoy後一律接to V。|They enjoy ___ basketball.|playing|to play|play|played|enjoy後的動詞作受詞時常用動名詞playing。|gerund
+旅行與事件順序|時間副詞及連接詞first、then、finally能協助重建事件先後。|敘事題要分清楚發生時間和文章描述順序，有時文章會倒敘。|First we bought tickets. Then we entered the museum.|文章先寫的事件一定最先發生。|We bought tickets before entering the zoo. 何者先發生？|Buying tickets|Entering the zoo|Leaving the zoo|Having dinner|before entering表示買票發生在入園之前。|sequence-reading
+@8/2|比較、未來與生活表達
+形容詞比較級|兩者比較常用比較級＋than；短字常加er，較長字常用more。|須注意不規則變化，如good→better；不把more和er重複使用。|This bag is heavier than that one.|more taller是一般正確比較級。|My bag is ___ than yours.|heavier|heavy|heaviest|more heavier|兩者比較用heavier；不能用more heavier重複標示。|comparative
+最高級|比較三者或一個群體時可用最高級，常搭配the。|比較範圍需清楚，最高級與比較級的語意不同。|She is the tallest student in the class.|the taller適用所有最高級情境。|Ben is the ___ of the three boys.|tallest|taller|tall|more tall|三人之中最高，用最高級tallest。|superlative
+未來表達|will＋原形動詞，或be going to＋原形動詞，可以表達未來。|will不因主詞改變形式；be going to中的be須配合主詞。|We will visit the park tomorrow.|will之後的第三人稱單數動詞要加s。|She will ___ us tomorrow.|join|joins|joined|joining|will後接原形join。|future
+授與動詞|give等動詞可使用「人＋物」或「物＋to＋人」的結構。|不同動詞可能搭配to或for，不能全部套用同一介系詞。|He gave me a book.＝He gave a book to me.|He gave to me a book是本課的標準授與句型。|She gave a card ___ her friend.|to|at|on|from|give a thing to a person表示把物品給某人。|ditransitive
+感官與情態|look、sound、taste等連綴用法後常接形容詞。|must、should等助動詞後接原形；語氣強弱要與情境配合。|The soup tastes good.；You should rest.|連綴動詞後描述主詞一律用副詞。|The music sounds ___.|beautiful|beautifully|beauty|beautify|sounds在此為連綴動詞，後接形容詞beautiful。|linking
+閱讀比較與推論|整合兩份資訊時，先找共同欄位再比較差異。|票價、時間、適用對象等限制不可漏看；推論要有文字支持。|兩場電影同價，但開始時間不同，要依可到達時間選場次。|只比較價格，不必看時間限制。|A bus leaves at 8:00; another leaves at 8:30. Which leaves later?|The 8:30 bus|The 8:00 bus|Both leave together|Neither leaves|8:30在8:00之後，所以較晚出發。|reading-compare
+@9/1|完成式、被動與複句
+現在完成式|have/has＋過去分詞，連結過去經驗或狀態與現在。|since接起點、for接一段時間；特定過去時間如yesterday常改用過去簡單式。|She has lived here for three years.|since three years是標準的時間長度用法。|He ___ here for ten years.（填現在完成式）|has lived|have lived|is lived|has live|He配has，後接過去分詞lived。|perfect
+被動語態|受事者當主詞時，常用be＋過去分詞表達被動。|be的時態與單複數要正確；不是be＋V-ing。|The window was cleaned yesterday.|The window was cleaning by Tom.是過去被動式。|The letter ___ yesterday.（填過去式被動語態）|was written|is writing|were written|has write|letter為單數，過去被動用was written。|passive
+關係子句|關係子句修飾前面的名詞，先找先行詞是人、物或地點。|who可指人，which可指物；主詞與受詞位置須依完整句子判斷。|The girl who sits near me is kind.|關係子句不需要與先行詞有意義關聯。|The boy ___ is wearing a cap is my cousin.|who|where|when|whose book|先行詞是boy，子句缺主詞，使用who。|relative
+名詞子句|整個子句可當名詞使用；間接問句通常採主詞在動詞前的語序。|I know where he lives. 不是把直接問句的倒裝整個搬入。|Can you tell me where the station is?|間接問句一律保持Where is...的倒裝。|I know where ___.|she lives|does she live|is she live|she live does|間接問句使用敘述句語序she lives。|embedded
+分詞與感受|人感到無聊常用bored，事物令人無聊常用boring。|ed/ing形容詞要看是在描述感受者，還是引發感受的事物。|I am interested in this interesting story.|bored與boring可以不看主詞任意互換。|The movie is ___. I feel ___.|boring; bored|bored; boring|bore; boring|bored; bore|電影令人無聊用boring；人的感受用bored。|participles
+文本目的與證據|辨認通知、廣告、敘事或說明，再判讀作者主要目的。|把事實、推論、個人意見分開；答題應能指出原文依據。|Open daily from 9 to 5. 是提供營業資訊。|所有含有數字的文字都是廣告。|A notice says: Please return books by Friday. Its purpose is to ___.|remind readers of a deadline|tell a funny story|describe the weather|sell books|通知的重點是提醒還書期限。|purpose
+@9/2|條件、整合閱讀與總複習
+真實條件句|談未來可能情況時，常用If＋現在式，主要子句用will＋原形。|本結構中的if子句通常不直接用will；要先看是條件還是其他用法。|If it rains, we will stay home.|表達未來條件時，if子句一律用will。|If it ___ tomorrow, we will stay home.|rains|will rain|rain|raining|本句的條件子句用現在簡單式，it配rains。|conditional
+附加問句|常見原則是前肯定、後否定；前否定、後肯定。|附加問句的助動詞與主詞代名詞，要和前面句子相配。|You are ready, aren't you?|附加問句只要句尾加isn't it就好。|She is a teacher, ___?|isn't she|is she|doesn't she|isn't he|前句肯定、be為is、主詞she，因此isn't she。|tag
+對等連接|both...and...、either...or...、neither...nor...用來連接平行結構。|比較或連接的兩邊語法地位要對應，避免一邊名詞、一邊不完整子句。|Both Amy and Ben like music.|both只能連接兩個相反意思的句子。|___ Amy and Ben are here.|Both|Either|Neither|Whether|Both A and B表示A與B兩者都。|both
+時態整合|先找時間線索與事件關係，再決定簡單式、進行式、完成式或被動。|不要只因看到for就機械地選完成式；仍要讀完整句意。|yesterday指明過去事件，right now提示此刻動作。|每一個有for的句子都必須用現在完成式。|She ___ her homework yesterday.|finished|has finish|is finishing now|finishes tomorrow|yesterday為明確過去時間，使用finished。|tense-review
+篇章連貫|代名詞、連接詞與重複概念，可幫助找出段落之間的關係。|推論代名詞指誰要看語意與數量，不能只選最近的名詞。|Mia gave Tina a pen. Tina thanked her. 這裡her指Mia。|代名詞永遠指前面最近的名詞。|Leo lost his keys, so he could not open the door. Why couldn't he open it?|He lost his keys.|He bought a door.|He found new keys.|He was reading.|so引出結果，失去鑰匙是無法開門的原因。|coherence
+會考式閱讀策略|先理解題目，再定位、整合及檢查文本證據。|遇到不熟的字先看上下文；不能因一個單字就跳過整段。|比較選項時，刪掉與文本矛盾或擴大結論的說法。|閱讀測驗必須先把每個生字都翻譯完。|The cafe is closed on Mondays. Which statement is supported?|It is not open on Mondays.|It is never open.|It opens only on Mondays.|It closes every day.|原文只支持星期一不營業，不能擴大成每天都休息。|evidence
