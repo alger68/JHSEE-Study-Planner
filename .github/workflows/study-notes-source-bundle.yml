@@ -2,20 +2,33 @@ name: Study notes source bundle
 on:
   push:
     branches: [study-notes-v120]
-    paths: ['.github/workflows/study-notes-source-bundle.yml']
+    paths: ['.github/workflows/study-notes-source-bundle.yml', 'assets/study-notes/v120/**']
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: notes-source-verification
+  cancel-in-progress: true
 jobs:
   bundle:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
       - name: Archive tracked source only
         run: git archive --format=tar HEAD > study-notes-source.tar
+      - name: Verify questions, full coverage, backups and build
+        run: node --test assets/study-notes/v120/tests/resumption-acceptance.cjs
+      - name: Build offline HTML
+        run: node assets/study-notes/v120/build.cjs assets/study-notes/index.html notes-preview/index.html
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: study-notes-resume-source
-          path: study-notes-source.tar
+          path: |
+            study-notes-source.tar
+            notes-preview/
           retention-days: 7
