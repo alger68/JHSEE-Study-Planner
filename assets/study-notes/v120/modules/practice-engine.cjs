@@ -1,7 +1,7 @@
 /* Seeded practice engine. Pure functions; no network, DOM, or eval. */
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.PracticeV2=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
 'use strict';
-const VERSION='1.3.0', APP='jh-study-practice';
+const VERSION='1.3.1', APP='jh-study-practice';
 const plain=x=>x!==null&&typeof x==='object'&&!Array.isArray(x);
 const clean=x=>String(x).normalize('NFKC').trim();
 const hash=s=>{let h=2166136261;for(const c of String(s)){h^=c.codePointAt(0);h=Math.imul(h,16777619);}return (h>>>0).toString(36);};
@@ -144,6 +144,15 @@ function migrateState(s){
 }
 function conceptKey(q){return q.unitId+'#'+(q.concept||q.tag||q.templateId);}
 function weakness(state,q){const x=(state.conceptStats||{})[conceptKey(q)]||{right:0,wrong:0};return x.wrong*3-Math.min(x.right,3);}
+function examGenerate(D,cfg,state){
+ if(!plain(cfg)||!Array.isArray(cfg.unitIds)||!cfg.unitIds.length)throw Error('段考至少選一個章節');
+ const ids=[...new Set(cfg.unitIds)].filter(id=>D.units.some(u=>u.id===id));if(ids.length!==new Set(cfg.unitIds).size)throw Error('段考章節範圍無效');
+ const count=cfg.count,seed=String(cfg.seed||'');if(!Number.isInteger(count)||count<1||count>40||!seed)throw Error('段考題數或種子無效');
+ const per=Math.max(1,Math.ceil(count/ids.length)),pool=[];
+ for(const id of ids){const d=generate(D,{unitId:id,count:Math.min(20,per+3),seed:seed+'/'+id});pool.push(...d.questions);}
+ const r=rng(seed+'/exam'),seen=new Set(),out=[];for(const q of shuffle(pool,r).sort((a,b)=>weakness(state||newState(),b)-weakness(state||newState(),a))){if(seen.has(clean(q.question)))continue;seen.add(clean(q.question));out.push(q);if(out.length===count)break;}
+ return{version:VERSION,seed,requested:count,unitIds:ids,questions:out,limited:out.length<count,exam:true};
+}
 function adaptiveGenerate(D,cfg,state){
  const base=generate(D,cfg),stats=state?.conceptStats||{};
  if(!Object.keys(stats).length)return base;
@@ -169,5 +178,5 @@ function validateState(s,D){
  for(const h of s.history)if(!plain(h)||typeof h.date!=='string'||!Number.isInteger(h.correct)||!Number.isInteger(h.total)||h.correct<0||h.correct>h.total||h.total>20)throw Error('紀錄無效');
  return JSON.parse(JSON.stringify(s));
 }
-return{VERSION,generate,adaptiveGenerate,validateQuestion,newState,migrateState,record,score,validateState,available,candidate,conceptKey,weakness};
+return{VERSION,generate,examGenerate,adaptiveGenerate,validateQuestion,newState,migrateState,record,score,validateState,available,candidate,conceptKey,weakness};
 });
