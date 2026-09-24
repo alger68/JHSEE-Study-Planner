@@ -1,7 +1,7 @@
 /* Seeded practice engine. Pure functions; no network, DOM, or eval. */
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.PracticeV2=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
 'use strict';
-const VERSION='1.2.0', APP='jh-study-practice';
+const VERSION='1.3.0', APP='jh-study-practice';
 const plain=x=>x!==null&&typeof x==='object'&&!Array.isArray(x);
 const clean=x=>String(x).normalize('NFKC').trim();
 const hash=s=>{let h=2166136261;for(const c of String(s)){h^=c.codePointAt(0);h=Math.imul(h,16777619);}return (h>>>0).toString(36);};
@@ -136,15 +136,38 @@ function generate(D,cfg){
  return {version:VERSION,seed,requested:cfg.count,unitIds:us.map(u=>u.id),questions:out,limited:out.length<cfg.count};
 }
 function validateQuestion(q){return !!(plain(q)&&typeof q.id==='string'&&typeof q.unitId==='string'&&typeof q.question==='string'&&q.question.length&&typeof q.explanation==='string'&&Array.isArray(q.options)&&q.options.length===4&&q.options.every(o=>plain(o)&&typeof o.id==='string'&&typeof o.text==='string'&&o.text.trim())&&new Set(q.options.map(o=>clean(o.text))).size===4&&new Set(q.options.map(o=>o.id)).size===4&&q.options.filter(o=>o.id===q.answer).length===1&&!/NaN|undefined|Infinity/.test(JSON.stringify(q)));}
-function newState(){return{app:APP,schema:2,version:VERSION,answers:{},mistakes:[],history:[]};}
-function record(state,q,answer){if(!validateQuestion(q)||!q.options.some(o=>o.id===answer))throw Error('作答格式錯誤');const mistakes=state.mistakes.filter(x=>x.q.id!==q.id);if(answer!==q.answer)mistakes.push({q:JSON.parse(JSON.stringify(q)),selected:answer});return {...state,answers:{...state.answers,[q.id]:answer},mistakes:mistakes.slice(-200)};}
+function newState(){return{app:APP,schema:3,version:VERSION,answers:{},mistakes:[],history:[],conceptStats:{}};}
+function migrateState(s){
+ if(!plain(s)||s.app!==APP)return s;
+ if(s.schema===2){return{...s,schema:3,version:VERSION,conceptStats:{}};}
+ return s;
+}
+function conceptKey(q){return q.unitId+'#'+(q.concept||q.tag||q.templateId);}
+function weakness(state,q){const x=(state.conceptStats||{})[conceptKey(q)]||{right:0,wrong:0};return x.wrong*3-Math.min(x.right,3);}
+function adaptiveGenerate(D,cfg,state){
+ const base=generate(D,cfg),stats=state?.conceptStats||{};
+ if(!Object.keys(stats).length)return base;
+ const ranked=base.questions.slice().sort((a,b)=>weakness(state,b)-weakness(state,a));
+ return {...base,questions:ranked,adaptive:true};
+}
+function record(state,q,answer){
+ state=migrateState(state);
+ if(!validateQuestion(q)||!q.options.some(o=>o.id===answer))throw Error('作答格式錯誤');
+ const mistakes=state.mistakes.filter(x=>x.q.id!==q.id),right=answer===q.answer;
+ if(!right)mistakes.push({q:JSON.parse(JSON.stringify(q)),selected:answer});
+ const key=conceptKey(q),prev=state.conceptStats[key]||{right:0,wrong:0,last:null};
+ const conceptStats={...state.conceptStats,[key]:{right:prev.right+(right?1:0),wrong:prev.wrong+(right?0:1),last:right?'right':'wrong'}};
+ return {...state,answers:{...state.answers,[q.id]:answer},mistakes:mistakes.slice(-200),conceptStats};
+}
 function score(questions,answers){let answered=0,correct=0;for(const q of questions){const a=answers[q.id];if(!q.options.some(o=>o.id===a))continue;answered++;if(a===q.answer)correct++;}return{answered,correct,total:questions.length};}
 function validateState(s,D){
- if(!plain(s)||s.app!==APP||s.schema!==2||s.version!==VERSION||!plain(s.answers)||!Array.isArray(s.mistakes)||!Array.isArray(s.history)||s.mistakes.length>200||s.history.length>50||Object.keys(s.answers).length>10000)throw Error('備份格式或版本不符');
+ s=migrateState(s);
+ if(!plain(s)||s.app!==APP||s.schema!==3||s.version!==VERSION||!plain(s.answers)||!plain(s.conceptStats)||!Array.isArray(s.mistakes)||!Array.isArray(s.history)||s.mistakes.length>200||s.history.length>50||Object.keys(s.answers).length>10000||Object.keys(s.conceptStats).length>1000)throw Error('備份格式或版本不符');
+ for(const [k,v] of Object.entries(s.conceptStats))if(!/^[-a-z0-9]+#[a-z0-9]+$/i.test(k)||!plain(v)||!Number.isInteger(v.right)||!Number.isInteger(v.wrong)||v.right<0||v.wrong<0||v.right+v.wrong>10000||!['right','wrong',null].includes(v.last))throw Error('弱點統計無效');
  for(const [key,value]of Object.entries(s.answers))if(!/^[a-z0-9/-]+$/.test(key)||!['a','b','c','d'].includes(value))throw Error('作答資料無效');
  const ids=new Set();for(const x of s.mistakes){if(!plain(x)||!validateQuestion(x.q)||ids.has(x.q.id)||!x.q.options.some(o=>o.id===x.selected)||x.selected===x.q.answer)throw Error('錯題格式無效');ids.add(x.q.id);const u=D.units.find(u=>u.id===x.q.unitId),p=x.q.provenance;if(!u||!plain(p)||p.version!==VERSION||typeof p.seed!=='string'||!p.seed||p.seed.length>80||!Number.isInteger(p.index)||p.index<0||p.index>500||!['static','generated'].includes(p.kind))throw Error('錯題來源無效');const b=u.quiz.find(b=>b.id===x.q.templateId);if(!b||JSON.stringify(candidate(u,b,p.seed,p.index,p.kind))!==JSON.stringify(x.q))throw Error('錯題快照已更動或版本不符');}
  for(const h of s.history)if(!plain(h)||typeof h.date!=='string'||!Number.isInteger(h.correct)||!Number.isInteger(h.total)||h.correct<0||h.correct>h.total||h.total>20)throw Error('紀錄無效');
  return JSON.parse(JSON.stringify(s));
 }
-return{VERSION,generate,validateQuestion,newState,record,score,validateState,available,candidate};
+return{VERSION,generate,adaptiveGenerate,validateQuestion,newState,migrateState,record,score,validateState,available,candidate,conceptKey,weakness};
 });
