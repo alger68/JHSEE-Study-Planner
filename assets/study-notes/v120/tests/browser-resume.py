@@ -12,12 +12,12 @@ def check(name,fn):
  except Exception as exc:issues.append({'name':name,'error':str(exc)[:900]})
 def eq(a,b):assert a==b,(a,b)
 with sync_playwright() as p:
- browser=p.chromium.launch(headless=True,args=['--no-sandbox'])
+ browser=p.chromium.launch(headless=True,args=['--no-sandbox'],executable_path=os.environ.get('CHROMIUM_PATH'))
  ctx=browser.new_context(viewport={'width':1366,'height':960},accept_downloads=True);page=ctx.new_page();errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)));page.on('dialog',lambda d:d.accept());page.goto(url);page.wait_for_timeout(100)
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(50)
- check('V1.3.1 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.3.1'))
- check('64 readable units',lambda:eq(page.evaluate('window.STUDY_DATA.units.length'),64))
+ check('V1.4.0 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.4.0'))
+ check('72 readable units',lambda:eq(page.evaluate('window.STUDY_DATA.units.length'),72))
  ids=page.evaluate('window.STUDY_DATA.units.map(u=>u.id)')
  def scan():
   for uid in ids:
