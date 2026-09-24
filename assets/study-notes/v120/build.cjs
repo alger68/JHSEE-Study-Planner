@@ -20,7 +20,7 @@ function build(input){
  D.subjects=extra.subjects;D.versions=extra.versions;D.units=[...original,...extra.units];
  const levels=['基礎','觀念','應用','易錯'];
  for(const u of D.units){u.quiz.forEach((q,i)=>{q.difficulty=q.difficulty||levels[i%levels.length];q.ability=q.ability||(u.subject==='math'?'運算與推理':u.subject==='english'?'語言理解與應用':u.subject==='science'?'科學概念與探究':'閱讀理解與應用');q.chapterLabel=(u.chapterPath||[]).join(' › ');});}
- D.appVersion='1.3.0';D.updated='2026-09-24';
+ D.appVersion='1.3.1';D.updated='2026-09-24';
  D.sourceNotice='115學年度出版社已依永和國中官方原圖核對。新增62份自編核心／語言學習指南，保留2份生物專題；不是各出版社全部課本的逐課摘要。';
  D.sources=[...D.sources.filter(s=>s.id!=='school-old'),...extra.sources];
  const box={module:{exports:{}},URL};vm.runInNewContext(cs[1],box);const errors=box.module.exports.validateData(D);if(errors.length)throw Error(errors.join('\n'));
@@ -30,8 +30,8 @@ function build(input){
  app=replaceOne(app,"    return result;","    if(result.view==='practice'&&result.id==='versions')result.view='versions';\n    return result;");
  app=replaceOne(app,'<div class="nav-group"><div class="nav-label">學科目錄</div>','<div class="nav-group"><a class="nav-item${active(\'practice\')}" href="#/practice"><span class="nav-icon">✎</span>變化題練習</a><a class="nav-item${active(\'versions\')}" href="#/versions"><span class="nav-icon">▤</span>官方教材版本</a><div class="nav-label">學科目錄</div>');
  app=replaceOne(app,"[['home','⌂','首頁'],['review','☆','複習'],['search','⌕','搜尋'],['help','☷','使用說明']]","[['home','⌂','首頁'],['practice','✎','練習'],['review','☆','複習'],['search','⌕','搜尋'],['help','☷','備份']]");
- app=replaceOne(app,"const labels = {home:","const labels = {practice:'變化題練習',versions:'官方教材版本',home:");
- app=replaceOne(app,"    else if(route.view==='help') main.innerHTML=help();","    else if(route.view==='help') main.innerHTML=help();\n    else if(route.view==='practice') main.innerHTML=academy.practice(route.params);\n    else if(route.view==='versions') main.innerHTML=academy.versions();");
+ app=replaceOne(app,"const labels = {home:","const labels = {exam:'段考組卷',practice:'變化題練習',versions:'官方教材版本',home:");
+ app=replaceOne(app,"    else if(route.view==='help') main.innerHTML=help();","    else if(route.view==='help') main.innerHTML=help();\n    else if(route.view==='practice') main.innerHTML=academy.practice(route.params);\n    else if(route.view==='exam') main.innerHTML=academy.examPage(route.params);\n    else if(route.view==='versions') main.innerHTML=academy.versions();");
  app=replaceOne(app,"  document.addEventListener('click',e=>{","  document.addEventListener('click',e=>{\n    if(academy.click(e))return;");
  app=replaceOne(app,"document.addEventListener('change',e=>{if(e.target.id==='backup-file')","document.addEventListener('change',e=>{academy.change(e);if(e.target.id==='backup-file')");
  app=replaceOne(app,'<button class="btn secondary" data-action="print-open">▤ 列印本節</button>','<button class="btn secondary" data-action="print-open">▤ 列印本節</button><a class="btn secondary" href="#/practice?unit=${u.id}&n=8&seed=20260924">本節變化練習 ↗</a>');
@@ -53,5 +53,5 @@ function build(input){
  if(html.includes('PRACTICE_ADDON_V110'))throw Error('old generator survived');
  return html;
 }
-if(require.main===module){const input=process.argv[2],out=process.argv[3];if(!input||!out)throw Error('Usage: node build.cjs original.html output.html');const result=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(out)),{recursive:true});fs.writeFileSync(out,result);console.log(`Built V1.3.0: ${Buffer.byteLength(result)} bytes; 64 guides, 382 fixed questions.`);}
+if(require.main===module){const input=process.argv[2],out=process.argv[3];if(!input||!out)throw Error('Usage: node build.cjs original.html output.html');const result=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(out)),{recursive:true});fs.writeFileSync(out,result);console.log(`Built V1.3.1: ${Buffer.byteLength(result)} bytes; 64 guides, 382 fixed questions.`);}
 module.exports={build};
