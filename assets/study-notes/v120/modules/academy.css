@@ -2,3 +2,7 @@
 @media(max-width:850px){.practice-grid{grid-template-columns:1fr}.academy-hero{padding:24px;gap:15px}.academy-hero h1{font-size:32px}}
 @media(max-width:600px){.academy-hero{grid-template-columns:1fr}.academy-numbers{flex-direction:row;gap:8px}.academy-numbers div{flex:1;flex-direction:column;text-align:center;padding:10px 5px;gap:3px}.academy-numbers span{font-size:10px}.academy-numbers b{font-size:23px}.filter-grid{grid-template-columns:1fr 1fr}.practice-card{padding:17px}.practice-bottom{bottom:73px}.scope-note{font-size:11px}.mobile-nav{grid-template-columns:repeat(5,1fr)}.mobile-nav a{font-size:10px}.chapter-number{font-size:27px}.table-scroll th,.table-scroll td{min-width:80px}.unit-hero h1{font-size:24px}}
 @media print{.scope-note{border:1px solid #888;background:white}.practice-bottom,.practice-backup{display:none!important}}
+/* Keep all eleven subject links reachable on shorter desktop screens. */
+.sidebar{overflow-y:auto}.sidebar .brand,.sidebar .nav-group,.sidebar-bottom{flex-shrink:0}
+.chapter-number{font-size:clamp(27px,3vw,45px)}
+@media(min-width:601px) and (max-width:900px){.mobile-nav{grid-template-columns:repeat(5,1fr)}.practice-bottom{bottom:78px}}
