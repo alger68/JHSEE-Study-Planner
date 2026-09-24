@@ -16,7 +16,7 @@ with sync_playwright() as p:
  ctx=browser.new_context(viewport={'width':1366,'height':960},accept_downloads=True);page=ctx.new_page();errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)));page.on('dialog',lambda d:d.accept());page.goto(url);page.wait_for_timeout(100)
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(50)
- check('V1.2 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.2.0'))
+ check('V1.3 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.3.0'))
  check('64 readable units',lambda:eq(page.evaluate('window.STUDY_DATA.units.length'),64))
  ids=page.evaluate('window.STUDY_DATA.units.map(u=>u.id)')
  def scan():
