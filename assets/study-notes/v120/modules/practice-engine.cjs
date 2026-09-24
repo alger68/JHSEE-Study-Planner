@@ -139,7 +139,7 @@ function validateQuestion(q){return !!(plain(q)&&typeof q.id==='string'&&typeof 
 function newState(){return{app:APP,schema:3,version:VERSION,answers:{},mistakes:[],history:[],conceptStats:{}};}
 function migrateState(s){
  if(!plain(s)||s.app!==APP)return s;
- if(s.schema===2){return{...s,schema:3,version:VERSION,conceptStats:{}};}
+ if(s.schema===2){return{...s,schema:3,version:VERSION,mistakes:[],conceptStats:{}};}
  return s;
 }
 function conceptKey(q){return q.unitId+'#'+(q.concept||q.tag||q.templateId);}
