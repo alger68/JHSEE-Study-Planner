@@ -50,6 +50,10 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Native study-notes browser acceptance
         run: python assets/study-notes/v120/tests/browser-resume.py .pages/assets/study-notes/index.html notes-browser-evidence
+      - name: Full exam and session reliability
+        run: python assets/study-notes/v120/tests/reliability-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/reliability
+      - name: Archive tracked study-notes source
+        run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -100,10 +104,12 @@ jobs:
                   assert len(data['units'])==64
                   assert sum(len(u['quiz']) for u in data['units'])==382
                   assert 'PRACTICE_ADDON_V110' not in html
+                  assert 'function validateSession(s,D)' in html, 'Session reliability update missing'
+                  assert 'data-ac="exam-start"' in html, 'Full exam answering update missing'
                   with urllib.request.urlopen(base,timeout=25) as r:
                       planner=r.read().decode('utf-8')
                   assert 'js/app.js' in planner, 'Planner entry not preserved'
-                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':64,'fixedQuestions':382,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
+                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':64,'fixedQuestions':382,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
                   break
               except Exception as error:
                   if attempt==11:raise

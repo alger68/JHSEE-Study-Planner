@@ -126,7 +126,7 @@ function generate(D,cfg){
  const seed=String(cfg.seed??'');if(!seed||seed.length>80)throw Error('種子需1至80個字元');
  if(!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>20)throw Error('題數需1至20');
  let us;
- if(cfg.unitId)us=D.units.filter(u=>u.id===cfg.unitId);
+ if(cfg.unitId){us=D.units.filter(u=>u.id===cfg.unitId&&u.status==='published');if(us.length&&['grade','semester','subject'].some(k=>cfg[k]!==undefined&&cfg[k]!==us[0][k]))throw Error('指定講義不屬於所選年級、學期或科目');}
  else{if(![7,8,9].includes(cfg.grade)||![1,2].includes(cfg.semester)||!D.subjects.some(s=>s.id===cfg.subject))throw Error('無效年級、學期或科目');us=D.units.filter(u=>u.grade===cfg.grade&&u.semester===cfg.semester&&u.subject===cfg.subject&&u.status==='published');}
  if(!us.length)throw Error('此範圍尚無教材');
  const r=rng(seed+'/deck'),pool=[];
@@ -145,19 +145,51 @@ function migrateState(s){
 function conceptKey(q){return q.unitId+'#'+(q.concept||q.tag||q.templateId);}
 function weakness(state,q){const x=(state.conceptStats||{})[conceptKey(q)]||{right:0,wrong:0};return x.wrong*3-Math.min(x.right,3);}
 function examGenerate(D,cfg,state){
- if(!plain(cfg)||!Array.isArray(cfg.unitIds)||!cfg.unitIds.length)throw Error('段考至少選一個章節');
- const ids=[...new Set(cfg.unitIds)].filter(id=>D.units.some(u=>u.id===id));if(ids.length!==new Set(cfg.unitIds).size)throw Error('段考章節範圍無效');
- const count=cfg.count,seed=String(cfg.seed||'');if(!Number.isInteger(count)||count<1||count>40||!seed)throw Error('段考題數或種子無效');
- const per=Math.max(1,Math.ceil(count/ids.length)),pool=[];
- for(const id of ids){const d=generate(D,{unitId:id,count:Math.min(20,per+3),seed:seed+'/'+id});pool.push(...d.questions);}
- const r=rng(seed+'/exam'),seen=new Set(),out=[];for(const q of shuffle(pool,r).sort((a,b)=>weakness(state||newState(),b)-weakness(state||newState(),a))){if(seen.has(clean(q.question)))continue;seen.add(clean(q.question));out.push(q);if(out.length===count)break;}
+ if(!plain(cfg)||!Array.isArray(cfg.unitIds)||!cfg.unitIds.length||cfg.unitIds.length>64||cfg.unitIds.some(x=>typeof x!=='string'))throw Error('段考至少選一個有效章節');
+ const ids=[...new Set(cfg.unitIds)],valid=D.units.filter(u=>u.status==='published');
+ if(ids.some(id=>!valid.some(u=>u.id===id)))throw Error('段考章節範圍無效');
+ const count=cfg.count,seed=String(cfg.seed??'');if(!Number.isInteger(count)||count<1||count>40||!seed||seed.length>80)throw Error('段考題數需1至40，種子需1至80個字元');
+ const buckets=ids.map(id=>{
+  const qs=[],seen=new Set(),u=valid.find(u=>u.id===id),target=count;
+  for(let i=0;i<6&&qs.length<target;i++){
+   const batch=generate(D,{unitId:id,count:20,seed:'exam-'+hash(seed+'/'+id+'/'+i)});
+   for(const q of batch.questions){const stem=clean(q.question);if(!seen.has(stem)){seen.add(stem);qs.push(q);}}
+   if(!available(u).length)break;
+  }
+  return qs.sort((a,b)=>weakness(state||newState(),b)-weakness(state||newState(),a));
+ });
+ const r=rng(seed+'/exam'),order=shuffle(ids.map((_,i)=>i),r),seen=new Set(),out=[];
+ // Round-robin coverage: each selected unit contributes before a unit gets its next question.
+ while(out.length<count){let added=false;for(const i of order){let q;while(buckets[i].length){const next=buckets[i].shift();if(!seen.has(clean(next.question))){q=next;break;}}if(q){seen.add(clean(q.question));out.push(q);added=true;if(out.length===count)break;}}if(!added)break;}
  return{version:VERSION,seed,requested:count,unitIds:ids,questions:out,limited:out.length<count,exam:true};
 }
 function adaptiveGenerate(D,cfg,state){
- const base=generate(D,cfg),stats=state?.conceptStats||{};
- if(!Object.keys(stats).length)return base;
- const ranked=base.questions.slice().sort((a,b)=>weakness(state,b)-weakness(state,a));
- return {...base,questions:ranked,adaptive:true};
+ const base=generate(D,cfg),stats=state?.conceptStats||{};if(!Object.keys(stats).length)return base;
+ const pool=generate(D,{...cfg,count:20}),n=Math.min(cfg.count,pool.questions.length);
+ const weak=pool.questions.filter(q=>weakness(state,q)>0).sort((a,b)=>weakness(state,b)-weakness(state,a));
+ const regular=pool.questions.filter(q=>weakness(state,q)<=0),take=Math.min(Math.ceil(n*.6),weak.length);
+ const selected=[...weak.slice(0,take),...regular.slice(0,n-take)],used=new Set(selected.map(q=>q.id));
+ for(const q of pool.questions)if(selected.length<n&&!used.has(q.id)){selected.push(q);used.add(q.id);}
+ return{...base,questions:selected,limited:selected.length<cfg.count,adaptive:true};
+}
+function validateSession(s,D){
+ const fail=()=>{throw Error('未交卷紀錄無效，原始學習紀錄未變更');};
+ if(!plain(s)||s.app!=='jh-study-practice-session'||s.schema!==1||s.version!==VERSION||typeof s.signature!=='string'||s.signature.length>2000||typeof s.submitted!=='boolean'||typeof s.retry!=='boolean'||!plain(s.selections))fail();
+ let cfg;try{cfg=JSON.parse(s.signature);}catch{fail();}if(!plain(cfg))fail();
+ const d=s.deck;if(!plain(d)||!Array.isArray(d.questions)||!d.questions.length||d.questions.length>40||!Number.isInteger(d.requested)||d.requested<1||d.requested>40||typeof d.limited!=='boolean'||typeof d.seed!=='string'||d.seed.length>80)fail();
+ let allowed;
+ if(s.retry)allowed=D.units.filter(u=>u.status==='published').map(u=>u.id);
+ else if(Array.isArray(cfg.unitIds)){if(!cfg.unitIds.length||cfg.unitIds.length>64||!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>40)fail();allowed=cfg.unitIds;}
+ else if(cfg.unitId)allowed=[cfg.unitId];
+ else allowed=D.units.filter(u=>u.grade===cfg.grade&&u.semester===cfg.semester&&u.subject===cfg.subject&&u.status==='published').map(u=>u.id);
+ if(!allowed.length||allowed.some(id=>!D.units.some(u=>u.id===id&&u.status==='published')))fail();
+ if(!s.retry&&(!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>(Array.isArray(cfg.unitIds)?40:20)||String(cfg.seed??'').length<1||String(cfg.seed).length>80))fail();
+ const seen=new Set();for(const q of d.questions){if(!validateQuestion(q)||seen.has(q.id)||!allowed.includes(q.unitId))fail();seen.add(q.id);const u=D.units.find(u=>u.id===q.unitId),b=u.quiz.find(b=>b.id===q.templateId),p=q.provenance;
+  if(!b||!plain(p)||p.version!==VERSION||typeof p.seed!=='string'||!p.seed||p.seed.length>80||!Number.isInteger(p.index)||p.index<0||p.index>500||!['static','generated'].includes(p.kind))fail();
+  if(JSON.stringify(candidate(u,b,p.seed,p.index,p.kind))!==JSON.stringify(q))fail();
+ }
+ for(const [id,value]of Object.entries(s.selections)){const q=d.questions.find(q=>q.id===id);if(!q||!q.options.some(o=>o.id===value))fail();}
+ return JSON.parse(JSON.stringify(s));
 }
 function record(state,q,answer){
  state=migrateState(state);
@@ -166,7 +198,8 @@ function record(state,q,answer){
  if(!right)mistakes.push({q:JSON.parse(JSON.stringify(q)),selected:answer});
  const key=conceptKey(q),prev=state.conceptStats[key]||{right:0,wrong:0,last:null};
  const conceptStats={...state.conceptStats,[key]:{right:prev.right+(right?1:0),wrong:prev.wrong+(right?0:1),last:right?'right':'wrong'}};
- return {...state,answers:{...state.answers,[q.id]:answer},mistakes:mistakes.slice(-200),conceptStats};
+ const answers={...state.answers};delete answers[q.id];answers[q.id]=answer;for(const id of Object.keys(answers).slice(0,Math.max(0,Object.keys(answers).length-10000)))delete answers[id];
+ return {...state,answers,mistakes:mistakes.slice(-200),conceptStats};
 }
 function score(questions,answers){let answered=0,correct=0;for(const q of questions){const a=answers[q.id];if(!q.options.some(o=>o.id===a))continue;answered++;if(a===q.answer)correct++;}return{answered,correct,total:questions.length};}
 function validateState(s,D){
@@ -175,8 +208,8 @@ function validateState(s,D){
  for(const [k,v] of Object.entries(s.conceptStats))if(!/^[-a-z0-9]+#[a-z0-9]+$/i.test(k)||!plain(v)||!Number.isInteger(v.right)||!Number.isInteger(v.wrong)||v.right<0||v.wrong<0||v.right+v.wrong>10000||!['right','wrong',null].includes(v.last))throw Error('弱點統計無效');
  for(const [key,value]of Object.entries(s.answers))if(!/^[a-z0-9/-]+$/.test(key)||!['a','b','c','d'].includes(value))throw Error('作答資料無效');
  const ids=new Set();for(const x of s.mistakes){if(!plain(x)||!validateQuestion(x.q)||ids.has(x.q.id)||!x.q.options.some(o=>o.id===x.selected)||x.selected===x.q.answer)throw Error('錯題格式無效');ids.add(x.q.id);const u=D.units.find(u=>u.id===x.q.unitId),p=x.q.provenance;if(!u||!plain(p)||p.version!==VERSION||typeof p.seed!=='string'||!p.seed||p.seed.length>80||!Number.isInteger(p.index)||p.index<0||p.index>500||!['static','generated'].includes(p.kind))throw Error('錯題來源無效');const b=u.quiz.find(b=>b.id===x.q.templateId);if(!b||JSON.stringify(candidate(u,b,p.seed,p.index,p.kind))!==JSON.stringify(x.q))throw Error('錯題快照已更動或版本不符');}
- for(const h of s.history)if(!plain(h)||typeof h.date!=='string'||!Number.isInteger(h.correct)||!Number.isInteger(h.total)||h.correct<0||h.correct>h.total||h.total>20)throw Error('紀錄無效');
+ for(const h of s.history)if(!plain(h)||typeof h.date!=='string'||!Number.isInteger(h.correct)||!Number.isInteger(h.total)||h.correct<0||h.correct>h.total||h.total<1||h.total>40)throw Error('紀錄無效');
  return JSON.parse(JSON.stringify(s));
 }
-return{VERSION,generate,examGenerate,adaptiveGenerate,validateQuestion,newState,migrateState,record,score,validateState,available,candidate,conceptKey,weakness};
+return{VERSION,generate,examGenerate,adaptiveGenerate,validateQuestion,newState,migrateState,record,score,validateState,available,candidate,conceptKey,weakness,validateSession};
 });
