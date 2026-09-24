@@ -96,7 +96,7 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='1.2.0', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='1.3.0', 'Pages cache still holds earlier version'
                   assert len(data['units'])==64
                   assert sum(len(u['quiz']) for u in data['units'])==382
                   assert 'PRACTICE_ADDON_V110' not in html
