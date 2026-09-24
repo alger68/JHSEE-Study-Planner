@@ -15,8 +15,12 @@ function build(input){
  const D=JSON.parse(dataText),extra=require('./modules/curriculum.cjs').load();
  const original=D.units.filter(u=>['bio-3-3','bio-4-2'].includes(u.id));
  if(original.length!==2)throw Error('Legacy chapters missing');
- for(const u of original){u.publisher='翰林';u.schoolYear=115;u.reviewNote='原有生物專題；出版社已依115官方表核對。課文頁碼與教師範圍仍須對照實際課本。';u.coverage='detailed-topic';}
- D.subjects=extra.subjects;D.versions=extra.versions;D.units=[...original,...extra.units];D.appVersion='1.2.0';D.updated='2026-09-24';
+ for(const u of original){u.publisher='翰林';u.schoolYear=115;u.book='第一冊';u.chapterPath=u.id==='bio-3-3'?['第3章','3-3 植物如何製造養分']:['第4章','4-2 植物體內物質的運輸'];u.reviewNote='原有生物專題；出版社已依115官方表核對。課文頁碼與教師範圍仍須對照實際課本。';u.coverage='detailed-topic';}
+ for(const u of extra.units){u.book='第'+((u.grade-7)*2+u.semester)+'冊';u.chapterPath=[u.chapter,u.title];}
+ D.subjects=extra.subjects;D.versions=extra.versions;D.units=[...original,...extra.units];
+ const levels=['基礎','觀念','應用','易錯'];
+ for(const u of D.units){u.quiz.forEach((q,i)=>{q.difficulty=q.difficulty||levels[i%levels.length];q.ability=q.ability||(u.subject==='math'?'運算與推理':u.subject==='english'?'語言理解與應用':u.subject==='science'?'科學概念與探究':'閱讀理解與應用');q.chapterLabel=(u.chapterPath||[]).join(' › ');});}
+ D.appVersion='1.3.0';D.updated='2026-09-24';
  D.sourceNotice='115學年度出版社已依永和國中官方原圖核對。新增62份自編核心／語言學習指南，保留2份生物專題；不是各出版社全部課本的逐課摘要。';
  D.sources=[...D.sources.filter(s=>s.id!=='school-old'),...extra.sources];
  const box={module:{exports:{}},URL};vm.runInNewContext(cs[1],box);const errors=box.module.exports.validateData(D);if(errors.length)throw Error(errors.join('\n'));
@@ -49,5 +53,5 @@ function build(input){
  if(html.includes('PRACTICE_ADDON_V110'))throw Error('old generator survived');
  return html;
 }
-if(require.main===module){const input=process.argv[2],out=process.argv[3];if(!input||!out)throw Error('Usage: node build.cjs original.html output.html');const result=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(out)),{recursive:true});fs.writeFileSync(out,result);console.log(`Built V1.2.0: ${Buffer.byteLength(result)} bytes; 64 guides, 382 fixed questions.`);}
+if(require.main===module){const input=process.argv[2],out=process.argv[3];if(!input||!out)throw Error('Usage: node build.cjs original.html output.html');const result=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(out)),{recursive:true});fs.writeFileSync(out,result);console.log(`Built V1.3.0: ${Buffer.byteLength(result)} bytes; 64 guides, 382 fixed questions.`);}
 module.exports={build};
