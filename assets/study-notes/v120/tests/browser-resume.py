@@ -16,7 +16,7 @@ with sync_playwright() as p:
  ctx=browser.new_context(viewport={'width':1366,'height':960},accept_downloads=True);page=ctx.new_page();errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)));page.on('dialog',lambda d:d.accept());page.goto(url);page.wait_for_timeout(100)
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(50)
- check('V1.4.0 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.4.0'))
+ check('V1.5.0 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.5.0'))
  check('72 readable units',lambda:eq(page.evaluate('window.STUDY_DATA.units.length'),72))
  ids=page.evaluate('window.STUDY_DATA.units.map(u=>u.id)')
  def scan():
@@ -73,5 +73,5 @@ with sync_playwright() as p:
  page.set_viewport_size({'width':390,'height':844});page.screenshot(path=str(out/'mobile-home.png'),full_page=False)
  check('no uncaught script errors',lambda:eq(errors,[]))
  fp=ctx.new_page();fp.goto(site.as_uri());fp.wait_for_timeout(80)
- check('standalone HTML opens without server',lambda:eq(fp.locator('[data-view="library"]').count(),1));fp.close();browser.close()
+ check('standalone HTML opens without server',lambda:eq(fp.locator('[data-view="home"]').count(),1));fp.close();browser.close()
 server.shutdown();result={'passed':len(checks),'failed':len(issues),'checks':checks,'issues':issues};(out/'browser-results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps(result,ensure_ascii=False,indent=2));sys.exit(bool(issues))

@@ -23,7 +23,8 @@ function build(input){
  D.appVersion='1.3.1';D.updated='2026-09-24';
  D.sourceNotice='115學年度出版社已依永和國中官方原圖核對。新增62份自編核心／語言學習指南，保留2份生物專題；不是各出版社全部課本的逐課摘要。';
  D.sources=[...D.sources.filter(s=>s.id!=='school-old'),...extra.sources];
- const upgrade=require('./modules/chapter-upgrade.cjs');upgrade.data(D);
+ const upgrade=require('./modules/chapter-upgrade.cjs');upgrade.data(D);D.appVersion='1.5.0';
+ const navigation=require('./modules/navigation-upgrade.cjs');
  const box={module:{exports:{}},URL};vm.runInNewContext(cs[1],box);const errors=box.module.exports.validateData(D);if(errors.length)throw Error(errors.join('\n'));
  let app=as[1];
  app=replaceOne(app,'  const sessions = new Map();','  const sessions = new Map();\n  const academy=window.AcademyUI.create({D,C,unitCard,getLegacy:()=>state,navigate,render,toast});');
@@ -47,13 +48,13 @@ function build(input){
  app=replaceOne(app,'學校115學年度選書、實際頁碼與教師範圍待核對。','115出版社已核對；本站核心指南非課本完整逐課摘要，實際頁碼與教師範圍須對照。');
  app=replaceOne(app,'<section class="panel help-section"><h3>資料與隱私</h3>','${academy.backupPanel()}<section class="panel help-section"><h3>資料與隱私</h3>');
  html=html.replace(ds[0],()=>'<script>\nwindow.STUDY_DATA = '+JSON.stringify(D).replace(/</g,'\\u003c')+';\n</script>');
- app=upgrade.app(app);
- const code=[read('modules/practice-engine.cjs'),upgrade.academy(read('modules/academy-ui.js')),read('modules/chapters-ui.js'),app].map(s=>s.replace(/<\/script/gi,'<\\/script')).join('\n');
+ app=navigation.app(upgrade.app(app));
+ const code=[read('modules/practice-engine.cjs'),read('modules/navigation-ui.cjs'),navigation.academy(upgrade.academy(read('modules/academy-ui.js'))),read('modules/chapters-ui.js'),app].map(s=>s.replace(/<\/script/gi,'<\\/script')).join('\n');
  html=html.replace(as[0],()=>'<script>\n'+code+'\n</script>');
- html=replaceOne(html,'</head>','<style>\n'+read('modules/academy.css')+'\n'+upgrade.css+'\n</style>\n</head>');
+ html=replaceOne(html,'</head>','<style>\n'+read('modules/academy.css')+'\n'+upgrade.css+'\n'+read('modules/navigation.css')+'\n</style>\n</head>');
  html=html.replace('首批收錄生物3-3與4-2。','115官方出版社分流，62份核心指南與生物專題，附變化題與錯題練習。');
  if(html.includes('PRACTICE_ADDON_V110'))throw Error('old generator survived');
  return html;
 }
-if(require.main===module){const input=process.argv[2],out=process.argv[3];if(!input||!out)throw Error('Usage: node build.cjs original.html output.html');const result=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(out)),{recursive:true});fs.writeFileSync(out,result);console.log(`Built V1.4.0: ${Buffer.byteLength(result)} bytes; 72 guides, 406 fixed questions; 105 verified numbered sections.`);}
+if(require.main===module){const input=process.argv[2],out=process.argv[3];if(!input||!out)throw Error('Usage: node build.cjs original.html output.html');const result=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(out)),{recursive:true});fs.writeFileSync(out,result);console.log(`Built V1.5.0: ${Buffer.byteLength(result)} bytes; 72 guides, 406 fixed questions; 105 verified numbered sections.`);}
 module.exports={build};

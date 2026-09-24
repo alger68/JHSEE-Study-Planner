@@ -15,12 +15,12 @@ with sync_playwright() as p:
     context=browser.new_context(viewport={'width':1400,'height':950})
     if FIXTURE: context.route('https://example.com/**',lambda route:route.fulfill(status=200,content_type='text/html',body=(ROOT/'site/index.html').read_text()))
     page=context.new_page(); errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.on('dialog',lambda d:d.accept())
-    page.goto(BASE);page.locator('[data-view="library"]').wait_for()
+    page.goto(BASE);page.locator('[data-view="home"]').wait_for()
     ok('完整來源載入72指南',page.evaluate('STUDY_DATA.units.length')==72)
     ok('舊add-on已移除',not page.evaluate("document.documentElement.innerHTML.includes('PRACTICE_ADDON_V110')"))
     ok('官方31格版本',page.evaluate('Object.values(STUDY_DATA.versions.mapping).flat().filter(Boolean).length')==31)
     page.screenshot(path=str(ROOT/'evidence/desktop-home.png'),full_page=True)
-    page.select_option('#library-grade','9');page.select_option('#library-subject','science');
+    page.goto(BASE+'#/library?g=7&term=all&s=all');page.select_option('#library-grade','9');page.select_option('#library-subject','science');
     ok('九年級自然篩選含新增專題',page.locator('[data-unit-card]').count()==page.evaluate("STUDY_DATA.units.filter(u=>u.grade===9&&u.subject==='science').length"))
     ok('九年級南一版本',all('南一' in t for t in page.locator('.unit-card-body').all_text_contents()))
     page.goto(BASE+'#/unit/math-8-1/notes');page.locator('[data-concept-card]').first.wait_for();ok('每本六重點',page.locator('[data-concept-card]').count()==6)
@@ -54,7 +54,7 @@ with sync_playwright() as p:
     file=download.value.path();backup=json.loads(pathlib.Path(file).read_text());ok('可下載合法備份',backup['app']=='jh-study-practice')
     page.locator('#practice-import').set_input_files(file);page.wait_for_timeout(150);ok('有效備份匯入', '備份無效' not in page.locator('#notice').inner_text())
     for width in [360,390,768]:
-        page.set_viewport_size({'width':width,'height':844});page.goto(BASE+'#/home');page.locator('[data-view="library"]').wait_for()
+        page.set_viewport_size({'width':width,'height':844});page.goto(BASE+'#/home');page.locator('[data-view="home"]').wait_for()
         ok(f'{width}px首頁無橫向溢位',page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'))
         if width==390:page.screenshot(path=str(ROOT/'evidence/mobile-home.png'),full_page=True)
         page.goto(BASE+'#/practice?g=9&s=math&term=2&n=8&seed=mobile');page.locator('.practice-card').first.wait_for()

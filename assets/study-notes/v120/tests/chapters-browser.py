@@ -21,8 +21,8 @@ with sync_playwright() as p:
   page.set_content(site.read_text())
  else:page.goto(url)
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(60)
- check('chapter entry present on homepage',page.locator('.chapter-banner a').count()==1)
- page.locator('.chapter-banner a').click();page.wait_for_selector('[data-view="chapters"]')
+ check('chapter entry present on homepage',page.locator('.home-meta a[href="#/chapters"]').count()==1)
+ page.locator('.home-meta a[href="#/chapters"]').click();page.wait_for_selector('[data-view="chapters"]')
  check('school chapter route not fallback homepage',page.locator('.chapter-row').count()==22)
  books=page.evaluate('STUDY_DATA.courseMap.books')
  for b in books:

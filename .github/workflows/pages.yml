@@ -54,6 +54,8 @@ jobs:
         run: python assets/study-notes/v120/tests/reliability-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/reliability
       - name: Verified chapter navigation and new lesson acceptance
         run: python assets/study-notes/v120/tests/chapters-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/chapters
+      - name: Homepage and catalog navigation acceptance
+        run: python assets/study-notes/v120/tests/home-navigation-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/home-navigation
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -102,11 +104,12 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='1.4.0', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='1.5.0', 'Pages cache still holds earlier version'
                   assert len(data['units'])==72
                   assert sum(len(u['quiz']) for u in data['units'])==406
                   assert sum(len(b['sections']) for b in data['courseMap']['books'])==105
                   assert len(data['courseMap']['books'])==6
+                  assert 'home-welcome' in html and 'LibraryNavigation.normalizeRoute' in html, 'Home/catalog separation missing'
                   assert 'PRACTICE_ADDON_V110' not in html
                   assert 'function validateSession(s,D)' in html, 'Session reliability update missing'
                   assert 'data-ac="exam-start"' in html, 'Full exam answering update missing'
