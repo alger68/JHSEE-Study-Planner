@@ -38,3 +38,6 @@ python assets/study-notes/v120/tests/reliability-browser.py out/index.html evide
 新增 15 項 Node 回歸測試，以及 14 項整卷與保存瀏覽器檢查。瀏覽器腳本預設走 HTTP 和真實 localStorage；`--isolated` 僅供受限環境的 DOM／儲存替身測試，不能代替原生測試。GitHub Pages workflow 使用原生模式，通過才會發布；正式網址發布後再檢查新功能標記、教材總數，以及 Study Planner 入口。
 
 實際是否通過以該 commit 的 Actions 結果與 notes-verification artifact 為準。本次不聲稱經實體 iPhone Safari、所有印表機或教師全面審題。
+
+
+<!-- source-bundle verification trigger: 2026-09-24 -->
