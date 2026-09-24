@@ -12,7 +12,7 @@ concurrency:
 jobs:
   bundle:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,6 +24,15 @@ jobs:
         run: node --test assets/study-notes/v120/tests/resumption-acceptance.cjs
       - name: Build offline HTML
         run: node assets/study-notes/v120/build.cjs assets/study-notes/index.html notes-preview/index.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser test dependency
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Native browser acceptance
+        run: python assets/study-notes/v120/tests/browser-resume.py notes-preview/index.html notes-browser-evidence
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -31,4 +40,5 @@ jobs:
           path: |
             study-notes-source.tar
             notes-preview/
+            notes-browser-evidence/
           retention-days: 7
