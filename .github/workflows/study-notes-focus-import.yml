@@ -1,0 +1,115 @@
+name: Import and verify focused topic release
+
+on:
+  push:
+    branches: [feat/study-notes-focus-v140]
+    paths: [.github/workflows/study-notes-focus-import.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-and-verify:
+    if: github.ref == 'refs/heads/feat/study-notes-focus-v140'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Download and verify intended-public source archive
+        env:
+          SOURCE_URL: 'https://sdmntprkoreacentral.oaiusercontent.com/files/00000000-3348-8206-99d9-44376e32f5ed/raw?se=2026-09-24T05%3A43%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=03f75bfb-d706-5006-a9ea-c524e8052fdc&skoid=0765b554-4b90-4fa2-9d6d-0055a2427910&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-23T22%3A54%3A16Z&ske=2026-09-24T22%3A54%3A16Z&sks=b&skv=2026-02-06&sig=w9T7u3biWpd2UYKfkmK2RKU2Tg1/CigAdTiWcY9FfUw%3D'
+        run: |
+          python - <<'PY'
+          import os, io, hashlib, zipfile, pathlib
+          import urllib.request
+          with urllib.request.urlopen(os.environ['SOURCE_URL'], timeout=60) as response:
+              payload=response.read()
+          assert hashlib.sha256(payload).hexdigest()=='2ac490e185953078a2b0ccf33395ef65c64f42f3c41836aa1297b1762116daea'
+          target=pathlib.Path(os.environ['RUNNER_TEMP'])/'notes-v140-import'
+          target.mkdir()
+          allowed={'integrate.py','focus.cjs','assets/data.js','assets/engine.js','tests/merge.test.cjs','tests/data.test.cjs','tests/engine.test.cjs'}
+          with zipfile.ZipFile(io.BytesIO(payload)) as z:
+              assert set(z.namelist())==allowed
+              assert sum(f.file_size for f in z.infolist())<2000000
+              for f in z.infolist():
+                  assert not pathlib.PurePosixPath(f.filename).is_absolute()
+                  assert '..' not in pathlib.PurePosixPath(f.filename).parts
+                  assert (f.external_attr>>16)&0o170000 != 0o120000
+                  out=target/f.filename
+                  out.parent.mkdir(parents=True,exist_ok=True)
+                  out.write_bytes(z.read(f))
+          script=target/'integrate.py'
+          text=script.read_text().replace('没有','沒有').replace('宣称','宣稱').replace('独立','獨立')
+          script.write_text(text)
+          print('Archive checksum and path allowlist verified.')
+          PY
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Integrate after observing the new acceptance test fail
+        run: |
+          mkdir -p focus-evidence
+          python "$RUNNER_TEMP/notes-v140-import/integrate.py" 2>&1 | tee focus-evidence/integration.log
+          cp tdd-red.log focus-evidence/
+          cp .github/workflows/pages.yml focus-evidence/modified-pages.yml
+      - name: Preserve parent application tests
+        run: |
+          npm install --no-audit --no-fund
+          npm test 2>&1 | tee focus-evidence/planner-tests.log
+      - name: Run original and added notes tests
+        run: |
+          node --test assets/study-notes/v120/tests/*.test.cjs assets/study-notes/v120/tests/resumption-acceptance.cjs assets/study-notes/v140/tests/*.test.cjs 2>&1 | tee focus-evidence/notes-tests.log
+      - name: Build the integrated standalone site
+        run: node assets/study-notes/v120/build.cjs assets/study-notes/index.html focus-evidence/index.html
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare native Chromium acceptance
+        run: |
+          python -m pip install playwright==1.57.0
+          python -m playwright install --with-deps chromium
+      - name: Verify real HTTP, file, storage, exam and 166-topic UI
+        run: python assets/study-notes/v120/tests/browser-resume.py focus-evidence/index.html focus-evidence
+      - name: Read current official edition image for evidence
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import urllib.request, pathlib, hashlib, json
+          v=json.loads(pathlib.Path('assets/study-notes/v120/modules/versions.json').read_text())
+          data=urllib.request.urlopen(v['image'],timeout=40).read()
+          pathlib.Path('focus-evidence/official-115.png').write_bytes(data)
+          print('OFFICIAL_IMAGE_SHA256',hashlib.sha256(data).hexdigest())
+          print('MATCHES_PREVIOUS_VERIFICATION',hashlib.sha256(data).hexdigest()==v['imageSha256'])
+          PY
+      - name: Package editable notes source without school PDFs or personal data
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, ZIP_DEFLATED
+          root=Path('assets/study-notes')
+          with ZipFile('focus-evidence/JH-Study-Notes_v1.4.0_source.zip','w',ZIP_DEFLATED) as z:
+              for file in sorted(root.rglob('*')):
+                  if file.is_file() and '__pycache__' not in file.parts and file.suffix!='.pyc':
+                      z.write(file,file.relative_to(root))
+          PY
+      - name: Commit only verified notes assets to the isolated branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/study-notes/v120 assets/study-notes/v140
+          git diff --cached --stat
+          git commit -m 'feat(notes): add 102 focused topics and 204 original questions after acceptance'
+          git push origin HEAD:feat/study-notes-focus-v140
+          git rev-parse HEAD | tee focus-evidence/verified-commit.txt
+      - name: Upload verification and downloadable site
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: notes-v140-import-evidence
+          path: |
+            focus-evidence/
+            tdd-red.log
+          retention-days: 14
