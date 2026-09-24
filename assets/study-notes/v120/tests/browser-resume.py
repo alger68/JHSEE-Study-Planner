@@ -16,7 +16,7 @@ with sync_playwright() as p:
  ctx=browser.new_context(viewport={'width':1366,'height':960},accept_downloads=True);page=ctx.new_page();errors=[]
  page.on('pageerror',lambda e:errors.append(str(e)));page.on('dialog',lambda d:d.accept());page.goto(url);page.wait_for_timeout(100)
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(50)
- check('V1.3 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.3.0'))
+ check('V1.3.1 loaded',lambda:eq(page.evaluate('window.STUDY_DATA.appVersion'),'1.3.1'))
  check('64 readable units',lambda:eq(page.evaluate('window.STUDY_DATA.units.length'),64))
  ids=page.evaluate('window.STUDY_DATA.units.map(u=>u.id)')
  def scan():
@@ -26,6 +26,10 @@ with sync_playwright() as p:
     assert page.locator('#unit-content').inner_text().strip(),uid+'/'+tab
     assert not page.locator('#main').get_by_text('教材資料需要修正',exact=True).count(),uid
  check('every unit and all five tabs render',scan)
+ go('#/exam?g=7&term=1&s=science&n=10');check('exam range selector visible',lambda: page.locator('[data-exam-unit]').count()>=1)
+ for cb in page.locator('[data-exam-unit]').all():cb.check()
+ page.locator('[data-ac="exam-build"]').click();page.wait_for_timeout(80)
+ check('exam paper builds selected scope',lambda: page.locator('section.panel ol li').count()>0)
  go('#/practice/versions');check('legacy version URL works',lambda:eq(page.locator('[data-view="versions"]').count(),1))
  go('#/practice?unit=math-7-1&n=8&seed=unfinished');page.locator('[data-ac-option]').first.click()
  go('#/practice?unit=math-7-2&n=8&seed=other');go('#/practice?unit=math-7-1&n=8&seed=unfinished')
