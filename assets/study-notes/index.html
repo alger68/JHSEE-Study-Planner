@@ -1,1814 +1,505 @@
 <!doctype html>
-<html lang="zh-Hant" data-font="0">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#245a4f">
-<meta name="description" content="國中各科重點整理。先讀懂觀念，再用小測驗確認理解。首批收錄生物3-3與4-2。">
-<title>知識小站｜國中學習重點庫</title>
-<style>
-:root{--ink:#243f39;--muted:#63766f;--green:#245a4f;--green-dark:#184439;--line:#dbe5df;--paper:#fff;--bg:#f5f7f3;--soft:#eaf2e8;--blue:#e9f1f6;--gold:#936e22;--gold-bg:#fbf3de;--radius:20px;--body-size:16px;color-scheme:light;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK TC","Microsoft JhengHei",sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:110px}html[data-font="1"]{--body-size:18px}html[data-font="2"]{--body-size:20px}body{margin:0;background:var(--bg);color:var(--ink);font-size:var(--body-size);line-height:1.85}button,input,select{font:inherit}button,a,input{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}a{color:var(--green);text-underline-offset:4px}a:hover{text-decoration-thickness:2px}button,a,input,summary{outline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #bb8b35}button{color:inherit}h1,h2,h3,h4,p{margin:0}h1,h2,h3,h4{line-height:1.45;letter-spacing:-.025em}h1{font-size:2rem}h2{font-size:1.35rem}h3{font-size:1.14rem}p+p{margin-top:12px}.muted{color:var(--muted)}.small-text{font-size:.8rem}.eyebrow{font-size:.73rem;font-weight:750;letter-spacing:.08em;color:var(--green);text-transform:uppercase}.skip{position:fixed;top:-70px;left:16px;z-index:100;background:var(--green);color:white;padding:12px}.skip:focus{top:12px}[hidden]{display:none!important}
-.sidebar{position:fixed;inset:0 auto 0 0;width:234px;padding:32px 22px 20px;background:white;border-right:1px solid var(--line);display:flex;flex-direction:column;z-index:30}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;margin:0 0 36px}.brand-mark{background:var(--green);color:#fff;width:43px;height:43px;display:grid;place-items:center;border-radius:12px;font-size:25px;font-weight:750;box-shadow:0 5px 12px #245a4f16}.brand-mark.small{width:34px;height:34px;font-size:21px;border-radius:9px}.brand-name{display:block;font-size:21px;font-weight:750;color:var(--ink);line-height:1.4}.brand-sub{display:block;font-size:10px;letter-spacing:.2em;color:var(--muted);margin-top:3px}.nav-group{display:grid;gap:7px}.nav-label{color:var(--muted);font-size:11px;font-weight:650;letter-spacing:.06em;margin:27px 12px 10px}.nav-item{min-height:46px;padding:10px 12px;display:flex;gap:12px;align-items:center;border-radius:10px;text-decoration:none;color:var(--ink);font-size:14px}.nav-item.active{background:#eaf2ec;font-weight:750;color:var(--green)}.nav-item:hover{background:var(--bg)}.nav-item.dim{color:#8a9891}.nav-item .end{margin-left:auto;font-size:10px;white-space:nowrap}.nav-icon{display:grid;place-items:center;width:22px;font-size:20px}.sidebar-bottom{margin-top:auto;padding-top:25px}.local-note{border:1px solid var(--line);border-radius:12px;padding:12px;font-size:11px;color:var(--muted);line-height:1.7}.local-note strong{font-size:12px;display:block;color:var(--ink);margin-bottom:4px}.version-line{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:12px}.topbar{margin-left:234px;height:76px;background:#ffffffed;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:20px;padding:0 38px;position:sticky;top:0;z-index:20;backdrop-filter:blur(12px)}.breadcrumb{font-size:12px;font-weight:650;flex:1;min-width:0}.header-search{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:12px;background:#f8faf7;padding:0 10px;height:44px;width:295px;color:var(--muted)}.header-search input{border:0;background:transparent;min-width:0;width:100%;font-size:13px;color:var(--ink);outline:0}.search-submit{border:0;background:transparent;color:var(--muted);padding:5px}.icon-btn{width:44px;min-width:44px;min-height:44px;border-radius:11px;border:1px solid var(--line);background:#fff;font-size:15px;font-weight:650;display:inline-grid;place-items:center}.mobile-brand{display:none}.storage-warning{margin-left:234px;background:var(--gold-bg);padding:12px 35px;color:#674a17;font-size:13px;border-bottom:1px solid #ead6a4}
-main{margin:0 0 0 234px;padding:36px 38px 0;min-height:70vh}main:focus{outline:0}.page{max-width:1080px;margin:0 auto}.intro-line{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:12px;margin:0 0 24px;gap:20px}.intro-line strong{color:var(--green);font-size:12px}.intro-line strong:before{content:"";display:inline-block;width:24px;height:1px;background:var(--green);vertical-align:middle;margin-right:12px}.hero{background:#edf3e8;border:1px solid #e1eadb;border-radius:26px;padding:44px;display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:30px;min-height:320px;overflow:hidden}.hero h1{font-size:36px;margin:18px 0 5px;font-weight:800}.hero .hero-second{font-size:36px;color:#42744e;font-weight:800;line-height:1.4;margin:0 0 20px;letter-spacing:-.03em}.hero .desc{font-size:14px;color:var(--muted);line-height:1.9;margin-bottom:24px}.btn{min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:11px;border:1px solid var(--line);padding:10px 17px;font-size:14px;font-weight:650;text-decoration:none;line-height:1.6;background:#fff;color:var(--ink)}.btn.primary{background:var(--green);color:white;border-color:var(--green)}.btn.primary:hover{background:var(--green-dark)}.btn.secondary{background:white}.btn.ghost{background:transparent}.btn .arrow{font-size:23px;line-height:1}.hero-art{position:relative;min-height:247px;display:grid;place-items:center}.hero-art:before{content:"";position:absolute;width:225px;height:225px;top:15px;border-radius:50%;background:#dfead5;transform:rotate(-15deg);z-index:0}.paper-card{position:relative;background:#fffffc;border:1px solid #d7e4d1;width:265px;border-radius:16px;padding:22px;transform:rotate(-5deg);box-shadow:8px 12px 0 #c4d2b829;z-index:1}.paper-top{display:flex;justify-content:space-between;gap:12px;font-size:10px;color:var(--green);border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:14px}.paper-card h3{font-size:16px}.paper-equation{display:flex;flex-direction:column;gap:9px;align-items:center;margin:15px 0;font-size:12px}.paper-equation span{background:#eff4eb;padding:10px 9px;border-radius:6px}.paper-note{font-size:11px;text-align:center;background:#eff4eb;padding:9px;border-radius:6px}.sticky-note{position:absolute;z-index:2;right:-3px;bottom:2px;background:#fbf3dc;border:1px solid #e7cf92;border-radius:10px;padding:12px 15px;font-size:11px;font-weight:650;transform:rotate(5deg)}.sun{position:absolute;top:8px;right:5px;color:#b5943e;font-size:34px}.stats{margin:24px 0 32px;border:1px solid var(--line);border-radius:18px;background:white;display:grid;grid-template-columns:repeat(3,1fr);padding:20px 0}.stat{display:flex;align-items:center;gap:12px;padding:0 25px}.stat+.stat{border-left:1px solid var(--line)}.stat-symbol{width:40px;height:40px;display:grid;place-items:center;background:#eff5ed;border-radius:12px;font-size:21px;color:var(--green)}.stat strong{font-size:23px}.stat small{font-size:12px;color:var(--muted)}.stat p{font-size:11px;color:var(--muted);line-height:1.6}.section-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 20px}.section-top p{color:var(--muted);font-size:13px;margin-top:4px}.chips{display:flex;gap:8px;flex-wrap:wrap;margin:17px 0 24px}.chip{font-size:12px;padding:7px 13px;min-height:36px;border:1px solid var(--line);border-radius:9px;background:#fff;text-decoration:none;color:var(--muted)}.chip.active{color:white;background:var(--green);border-color:var(--green)}.chip.dim{background:transparent;color:#8b9690}.unit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.unit-card{border-radius:20px;overflow:hidden;border:1px solid var(--line);background:white;display:flex;flex-direction:column}.unit-card a{text-decoration:none}.unit-cover{padding:22px 26px;height:145px;position:relative;background:#eaf2e6;overflow:hidden}.unit-cover.blue{background:#e8f1f6}.chapter-number{display:block;margin-top:8px;font-size:57px;font-weight:800;letter-spacing:-.075em;line-height:1.15;color:#739a76}.blue .chapter-number{color:#729bab}.unit-cover p{font-size:11px;color:#53705a;margin-top:9px}.blue p{color:#4e7383}.cover-symbol{position:absolute;right:30px;top:17px;font-size:70px;font-weight:250;opacity:.45;color:#5a8958}.blue .cover-symbol{color:#437d8d}.unit-card-body{padding:23px 26px;flex:1}.badge-row{display:flex;flex-wrap:wrap;gap:7px;align-items:center}.badge{display:inline-flex;align-items:center;font-size:10px;line-height:1.7;padding:3px 8px;border-radius:20px;border:1px solid var(--line);background:white;font-weight:600;color:var(--muted)}.badge.green{background:#eaf2ed;color:var(--green);border-color:#eaf2ed}.unit-card h3{font-size:21px;margin:14px 0 8px;color:var(--ink)}.unit-card-body p{font-size:13px;color:var(--muted)}.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{font-size:10px;background:#f1f5ee;color:var(--muted);padding:3px 7px;border-radius:4px}.unit-card-foot{border-top:1px solid #ebefeb;padding:15px 26px;display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted)}.unit-card-foot a{color:var(--green);font-weight:750;font-size:12px;min-height:32px;display:flex;align-items:center}.unit-card:hover{box-shadow:0 7px 25px #294a3810;border-color:#b4cbb9}.two-tips{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;margin:24px 0}.tip-box{padding:23px 26px;border:1px solid var(--line);border-radius:18px;background:#fff}.tip-box h3{font-size:15px}.tip-box p{font-size:13px;color:var(--muted);margin-top:10px}.steps-inline{font-size:12px;display:flex;justify-content:space-between;margin-top:18px;color:var(--muted)}.steps-inline b{padding:2px 6px;border-radius:50%;background:var(--soft);margin-right:5px;color:var(--green)}.version-note{font-size:12px;color:#74623a;padding:14px 17px;background:#fbf8ec;border:1px solid #ede4c7;border-radius:12px;margin-top:22px;line-height:1.7}.site-footer{margin:35px 38px 0 272px;padding:28px 0 36px;display:flex;justify-content:space-between;gap:20px;font-size:10px;color:var(--muted)}.site-footer a{color:var(--muted)}.mobile-nav{display:none}
-.back-link{display:inline-flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);text-decoration:none;margin-bottom:20px;min-height:30px}.unit-hero{position:relative;border-radius:21px;padding:30px 34px;background:#ebf3e8;border:1px solid #dfe9dc;overflow:hidden}.unit-hero.blue{background:#eaf2f6;border-color:#dce6ed}.unit-hero h1{font-size:29px;margin:14px 0 12px;max-width:90%}.unit-hero p{color:var(--muted);font-size:14px;max-width:760px;position:relative}.unit-hero .watermark{position:absolute;right:25px;top:15px;font-size:100px;font-weight:800;opacity:.06;line-height:1;pointer-events:none}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}.actions .btn{font-size:12px;min-height:41px;padding:9px 13px}.tabs{position:sticky;top:86px;z-index:10;border:1px solid var(--line);border-radius:14px;padding:6px;display:flex;gap:4px;background:#fff;box-shadow:0 3px 15px #24423606;margin:23px 0 28px;overflow:auto;scrollbar-width:thin}.tab{flex:1;text-align:center;min-width:105px;padding:10px 12px;border-radius:9px;text-decoration:none;font-size:13px;font-weight:600;white-space:nowrap;min-height:44px;display:flex;align-items:center;justify-content:center}.tab.active{background:var(--green);color:white}.tab:hover:not(.active){background:var(--bg)}.section-heading{margin:10px 0 22px}.section-heading p{color:var(--muted);font-size:13px;margin-top:6px}.concept-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.concept-card{border:1px solid var(--line);border-radius:18px;background:#fff;padding:25px;scroll-margin-top:160px;position:relative}.concept-top{display:flex;align-items:center;gap:10px;margin-bottom:14px;justify-content:space-between}.index-pill{font-size:12px;font-weight:750;color:var(--green);background:#edf4ea;border-radius:8px;padding:4px 9px}.star-btn{background:transparent;border:1px solid var(--line);border-radius:10px;width:44px;height:44px;font-size:23px;line-height:1;color:var(--muted)}.star-btn.saved{background:var(--gold-bg);color:#906617;border-color:#e6d3a1}.concept-card h3{font-size:19px;margin:0 0 14px}.lead{color:var(--green);font-weight:650;font-size:1em;padding-bottom:14px}.concept-body p{font-size:.9em;color:#4e645b;margin-top:12px}.example{border-left:3px solid #c3d6be;padding:10px 12px;background:#f4f7f0;font-size:.8em;margin-top:18px;color:#5c6e57}.source-line{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:18px;color:#758379;font-size:10px;line-height:1.5}.source-line a{font-size:11px;color:#607469;text-decoration:underline}.content-end{margin:25px 0 0;padding:17px;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}.content-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}.panel{border:1px solid var(--line);border-radius:18px;background:#fff;padding:25px;margin-bottom:20px}.panel h3{margin-bottom:10px}.panel>p,.diagram-note{font-size:12px;color:var(--muted);line-height:1.8}.diagram{min-width:0}.condition-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:18px 0}.condition{font-size:11px;padding:7px 9px;color:#8f6c2f;border:1px solid #ebd799;background:var(--gold-bg);border-radius:8px}.equation-pair{display:grid;grid-template-columns:1fr 22px 1fr;gap:10px;align-items:center;margin:12px 0}.equation-box{border:1px solid #dce7d6;background:#f0f5eb;border-radius:13px;padding:18px 6px;text-align:center}.equation-box strong{display:block;font-size:21px}.equation-box small{display:block;font-size:10px;color:var(--muted);margin-top:5px}.outputs .equation-box{background:#fbf5e7;border-color:#eee0b8}.reaction-arrow{display:flex;flex-direction:column;align-items:center;line-height:1.5;margin:8px 0;color:var(--green)}.reaction-arrow small{font-size:10px}.reaction-arrow span{font-size:26px}.diagram-note{margin-top:18px;padding-top:15px;border-top:1px solid #eef1e9}.layers{display:grid;gap:7px;margin:22px 0}.layer{border:1px solid #d5dfc3;border-radius:9px;background:#edf2dc;text-align:center;padding:12px 8px;position:relative;font-size:13px}.layer:nth-child(3n){background:#c6dbae}.layer:nth-child(4n){background:#e9e3d2;border-color:#ddd2b3}.layer strong,.layer small{display:block}.layer small{font-size:10px;line-height:1.7;margin-top:4px;font-weight:400}.layer:last-child{background:#f2f7f1}.flow-list{margin-top:20px}.flow-node{display:flex;gap:13px;align-items:center;padding:12px;border:1px solid #dbe5e8;background:#f0f6f8;border-radius:12px}.flow-node b{border-radius:50%;width:28px;height:28px;background:#dce9ed;display:grid;place-items:center;color:#467482;font-size:12px;flex-shrink:0}.flow-node strong{display:block;font-size:14px}.flow-node small{font-size:11px;color:var(--muted)}.flow-arrow{text-align:center;font-size:23px;color:#67919a;height:28px;line-height:1.2}.branch-center{padding:18px;background:#edf3e7;border:1px solid #d6e2cc;border-radius:12px;text-align:center;margin:20px 0 10px}.branch-center strong,.branch-center small{display:block}.branch-center small{font-size:11px}.branch-label{text-align:center;font-size:12px;color:var(--green);margin:12px}.branch-node{margin:9px 0;padding:13px;border-left:3px solid #91b07a;background:#f4f7ef;border-radius:0 8px 8px 0;font-size:13px}.branch-node strong,.branch-node small{display:block}.branch-node small{font-size:11px;color:var(--muted)}.table-scroll{overflow:auto;margin:18px 0 0;border:1px solid var(--line);border-radius:12px;max-width:100%}table{border-collapse:collapse;width:100%;font-size:.82em;text-align:left;line-height:1.9}th{background:#eaf2e7;color:var(--green);font-size:.85em;font-weight:750}th,td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top;min-width:85px}tr:last-child td{border:0}td:first-child{font-weight:650}tbody tr:nth-child(even){background:#fafbf8}.table-note{font-size:12px;color:var(--muted);margin-top:15px}.experiments{margin-top:27px}.experiment{border:1px solid var(--line);border-radius:17px;background:white;margin-bottom:15px;padding:0 24px}.experiment summary{display:flex;align-items:center;gap:10px;cursor:pointer;padding:19px 0;list-style:none;font-weight:650;font-size:15px}.experiment summary::-webkit-details-marker{display:none}.experiment summary:after{content:"＋";margin-left:auto;color:var(--green)}.experiment[open] summary:after{content:"−"}.experiment-content{padding-bottom:22px}.experiment-question{color:var(--green);font-weight:650;font-size:14px;margin:5px 0 15px}.step{display:flex;align-items:start;gap:10px;margin:12px 0;font-size:.87em}.step span{min-width:25px;height:25px;line-height:23px;text-align:center;border:1px solid var(--line);border-radius:50%;font-size:11px}.answer-box{padding:14px 16px;margin-top:15px;background:#f0f5ed;border-radius:11px;font-size:.87em}.answer-box.blue{background:#edf3f6}.answer-box strong{display:block;font-size:12px;margin-bottom:6px;color:var(--green)}.warning{border-left:3px solid #d2b166;background:#fffaf0;color:#836628;padding:11px 14px;margin-top:17px;font-size:12px;line-height:1.8}.trap-card{display:grid;gap:14px;padding:24px;background:white;border:1px solid var(--line);border-radius:17px;margin-bottom:17px}.trap-line{display:flex;gap:13px;font-size:.94em;align-items:flex-start}.trap-symbol{flex:0 0 27px;height:27px;border-radius:50%;display:grid;place-items:center;line-height:1;background:#f7eae3;color:#9a5543}.trap-line.right .trap-symbol{color:var(--green);background:#e6f2e8}.trap-line.right{font-weight:650}.trap-why{padding-left:40px;font-size:.83em;color:var(--muted)}.quick-grid{display:grid;gap:12px}.quick-line{background:#fff;border:1px solid var(--line);border-radius:13px;display:flex;gap:16px;padding:18px 21px;align-items:flex-start}.quick-line b{font-size:13px;color:var(--green);background:var(--soft);border-radius:7px;padding:3px 8px;flex-shrink:0}.quick-line span{font-size:.95em}.mantra{margin:20px 0;border-radius:17px;padding:23px;background:#edf3e5;border:1px solid #dfe9d9}.mantra p{font-size:15px;color:#49674e}.quiz-meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);gap:15px;margin-bottom:20px}.quiz-progress{height:5px;background:#e6ece4;border-radius:10px;overflow:hidden;margin:15px 0 22px}.quiz-progress span{height:100%;display:block;background:var(--green)}.question-text{font-size:20px;white-space:pre-line;line-height:1.8;margin:20px 0}.options{display:grid;gap:12px}.option-btn{width:100%;border:1px solid var(--line);padding:14px 17px;border-radius:13px;background:white;text-align:left;display:flex;gap:12px;align-items:center;min-height:58px;font-size:.94em;line-height:1.7}.option-letter{width:28px;height:28px;background:#f0f4ed;border-radius:8px;display:grid;place-items:center;font-size:12px;font-weight:650;flex:0 0 28px}.option-btn.selected{border:2px solid var(--green);background:#f0f5ef;padding:13px 16px}.option-btn.correct{border:2px solid #3e7952;background:#edf7ed;padding:13px 16px}.option-btn.incorrect{border:2px solid #b57961;background:#fbefea;padding:13px 16px}.option-btn:disabled{opacity:1;cursor:default}.option-status{margin-left:auto;font-size:12px;font-weight:650;min-width:26px}.feedback{border-radius:13px;background:#edf5e8;border:1px solid #d6e5ce;padding:20px;margin-top:20px}.feedback.wrong{background:#fff4e8;border-color:#eed5b2}.feedback strong{font-size:17px}.feedback p{font-size:.9em;margin-top:8px}.feedback a{font-size:12px;display:inline-block;margin-top:12px}.quiz-controls{display:flex;justify-content:space-between;gap:10px;margin-top:24px}.quiz-controls .btn{min-width:130px}.question-pips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.question-pips a{border:1px solid var(--line);border-radius:9px;min-width:42px;min-height:42px;display:grid;place-items:center;text-decoration:none;font-size:12px;background:#fff}.question-pips .done{background:var(--soft);border-color:#bad0b5}.question-pips .current{border:2px solid var(--green);font-weight:750}.quiz-result{text-align:center;padding:35px 24px;background:#fff;border:1px solid var(--line);border-radius:20px}.result-icon{width:62px;height:62px;display:grid;place-items:center;background:var(--soft);border-radius:50%;font-size:31px;color:var(--green);margin:0 auto 15px}.result-score{font-size:48px;line-height:1.4;font-weight:800;color:var(--green);margin:12px 0}.result-note{color:var(--muted);font-size:13px}.result-actions{justify-content:center}.review-answers{text-align:left;margin-top:24px}.review-answers details{border-top:1px solid var(--line);padding:15px 0}.review-answers summary{cursor:pointer;font-size:14px}.review-answers p{font-size:13px;padding:12px 0;white-space:pre-line}.search-box{display:flex;gap:10px;border:1px solid #b8cbbc;background:white;padding:8px 15px;border-radius:14px;margin:24px 0}.search-box input{background:transparent;border:0;outline:none;width:100%;min-height:42px;color:var(--ink);font-size:16px}.search-result{display:block;margin:12px 0;padding:20px;background:white;border:1px solid var(--line);border-radius:15px;text-decoration:none}.search-result h3{font-size:17px;margin:5px 0 9px}.search-result p{font-size:13px;color:var(--muted)}.empty{border:1px dashed #bfcdbf;border-radius:20px;padding:50px 25px;text-align:center;background:#fff;margin:20px 0}.empty-symbol{font-size:32px;color:#809d7c;margin:0 0 12px}.empty h2,.empty h1{font-size:23px}.empty p{font-size:14px;color:var(--muted);margin:13px auto;max-width:530px}.help-section{margin:20px 0}.help-section h2{margin-bottom:15px}.help-section p{font-size:.9em;color:#4d635b;margin:12px 0}.file-label{position:relative;cursor:pointer}.file-label input{position:absolute;inset:0;opacity:0;width:100%;cursor:pointer}.source-item{padding:13px 0;border-top:1px solid var(--line);font-size:13px}.source-item small{display:block;font-size:11px;color:var(--muted);line-height:1.8;margin:6px 0}.source-item a{overflow-wrap:anywhere}.version-row{display:flex;align-items:center;gap:10px;margin:15px 0;flex-wrap:wrap}.review-toolbar{display:flex;align-items:center;justify-content:space-between;margin:20px 0;gap:15px}.notice{position:fixed;left:calc(50% + 117px);transform:translate(-50%,20px);bottom:30px;background:#233f35;color:white;padding:13px 20px;border-radius:12px;box-shadow:0 7px 25px #19332324;font-size:13px;z-index:100;opacity:0;pointer-events:none;max-width:calc(100% - 40px);transition:opacity .18s,transform .18s}.notice.visible{opacity:1;transform:translate(-50%,0)}dialog{border:1px solid var(--line);border-radius:20px;padding:28px;color:var(--ink);max-width:480px;width:calc(100% - 36px);background:white}dialog::backdrop{background:#1d352960}dialog p{font-size:14px;color:var(--muted);margin:15px 0}.check-line{font-size:14px;display:flex;align-items:center;gap:10px;margin:20px 0}.check-line input{width:20px;height:20px;accent-color:var(--green)}#print-root{display:none}.highlight-card{outline:3px solid #c6ad65;outline-offset:3px}
-@media(min-width:1600px){main{padding-left:65px;padding-right:65px}.topbar{padding-left:65px;padding-right:65px}.site-footer{max-width:1080px;margin-left:auto;margin-right:65px}}
-@media(max-width:1100px){.sidebar{width:204px;padding:28px 15px}.topbar{margin-left:204px;padding:0 25px}main{margin-left:204px;padding:28px 25px 0}.site-footer{margin-left:229px;margin-right:25px}.hero{padding:32px;gap:20px}.hero h1,.hero .hero-second{font-size:31px}.paper-card{width:228px;padding:18px}.sticky-note{right:-18px}.unit-card h3{font-size:19px}.unit-card-body{padding:21px}.stats .stat{padding:0 16px}.concept-card,.panel{padding:21px}.storage-warning{margin-left:204px}.notice{left:calc(50% + 102px)}}
-@media(max-width:900px){.sidebar{display:none}.topbar{margin-left:0;height:65px;padding:0 22px;gap:14px}.mobile-brand{display:block;text-decoration:none}.breadcrumb{font-size:11px}.header-search{width:240px}.storage-warning{margin-left:0}main{margin-left:0;padding:27px 24px 0}.site-footer{margin:25px 24px 95px;padding-bottom:25px}.mobile-nav{position:fixed;display:grid;grid-template-columns:repeat(4,1fr);inset:auto 0 0;background:#fffffffa;border-top:1px solid var(--line);padding:8px 10px calc(7px + env(safe-area-inset-bottom));z-index:30;backdrop-filter:blur(10px)}.mobile-nav a{display:flex;flex-direction:column;align-items:center;font-size:10px;line-height:1.7;text-decoration:none;color:var(--muted);min-height:43px;justify-content:center;gap:2px}.mobile-nav a.active{color:var(--green);font-weight:750}.mobile-nav .nav-icon{font-size:19px}.notice{left:50%;bottom:calc(84px + env(safe-area-inset-bottom))}.tabs{top:74px}.unit-hero h1{font-size:27px}.unit-card h3{font-size:20px}.site-footer{font-size:11px}}
-@media(max-width:600px){body{line-height:1.85}.topbar{height:62px;padding:0 16px;gap:10px}.header-search{width:130px;height:38px;border:0;background:transparent;padding:0;gap:5px}.header-search input{font-size:11px}.header-search>span{font-size:20px}.search-submit{display:none}.breadcrumb{font-size:10px;line-height:1.4;max-width:90px}.topbar>.icon-btn{min-width:38px;width:38px;min-height:38px}.topbar .brand-mark{width:30px;height:30px;font-size:18px}.storage-warning{padding:12px 16px;font-size:12px}main{padding:23px 17px 0}.intro-line{font-size:10px;margin-bottom:18px}.intro-line strong{font-size:11px}.intro-line strong:before{width:16px;margin-right:8px}.intro-line>span{display:none}.hero{grid-template-columns:1fr;padding:28px 25px;gap:14px;border-radius:21px;min-height:0}.hero h1{font-size:30px;margin-top:15px}.hero .hero-second{font-size:30px;margin-bottom:15px}.hero .desc{font-size:13px;margin-bottom:19px}.hero-art{display:none}.hero .btn{font-size:13px;min-height:45px}.stats{padding:18px 0;margin:18px 0 28px;border-radius:15px}.stat{gap:7px!important;padding:0 10px!important;flex-direction:column;align-items:flex-start}.stat-symbol{display:none}.stat strong{font-size:23px}.stat small{font-size:10px}.stat p{font-size:10px}.section-top h2{font-size:20px}.section-top p{font-size:12px}.section-top>.badge{display:none}.chips{gap:6px;margin:17px 0}.chip{font-size:11px;padding:7px 10px;min-height:35px}.unit-grid{grid-template-columns:1fr;gap:17px}.unit-cover{height:138px;padding:20px 23px}.chapter-number{font-size:49px}.cover-symbol{font-size:65px;right:28px}.unit-card-body{padding:20px 23px}.unit-card h3{font-size:22px;margin:12px 0 8px}.unit-card-body p{font-size:13px}.tag{font-size:10px}.unit-card-foot{padding:13px 23px}.two-tips{grid-template-columns:1fr;gap:15px}.tip-box{padding:22px}.tip-box p{font-size:13px}.version-note{font-size:11px;padding:14px}.site-footer{margin:18px 17px 100px;display:grid;gap:12px;font-size:10px}.back-link{font-size:11px;margin-bottom:13px}.unit-hero{padding:24px 22px;border-radius:18px}.unit-hero .badge{font-size:9px;padding:3px 7px}.unit-hero h1{font-size:25px;max-width:100%;margin:15px 0 12px;position:relative}.unit-hero p{font-size:13px}.unit-hero .watermark{font-size:80px}.actions{gap:7px}.actions .btn{font-size:11px;padding:9px 10px;min-height:41px}.tabs{top:71px;margin:19px 0 24px;gap:1px;padding:5px;border-radius:12px}.tab{font-size:11px;min-width:88px;min-height:43px;padding:10px 6px;flex:1 0 88px}.concept-grid{grid-template-columns:1fr;gap:16px}.concept-card{padding:22px}.concept-card h3{font-size:21px}.concept-top{margin-bottom:10px}.concept-body p{font-size:.92em}.lead{font-size:.98em}.content-grid{grid-template-columns:1fr;gap:0}.panel{padding:21px;margin-bottom:17px}.panel h3{font-size:20px}.table-scroll{margin-top:16px}table{font-size:.8em}td,th{padding:11px 9px;min-width:80px}.section-heading h2{font-size:22px}.section-heading p{font-size:12px}.experiment{padding:0 20px}.experiment summary{font-size:15px}.trap-card{padding:22px 19px}.trap-line{gap:10px}.trap-why{padding-left:37px}.question-text{font-size:19px}.option-btn{font-size:.91em;padding:14px 12px}.option-btn.selected,.option-btn.correct,.option-btn.incorrect{padding:13px 11px}.quiz-meta{font-size:10px}.quiz-controls{gap:8px}.quiz-controls .btn{font-size:12px;min-width:115px}.feedback{padding:17px}.quick-line{padding:17px;gap:12px}.quick-line span{font-size:.92em}.review-toolbar{font-size:12px}.empty{padding:40px 23px}.empty h1,.empty h2{font-size:22px}.notice{font-size:12px;width:max-content}.content-end{padding:14px 0;font-size:10px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-@media print{@page{size:A4;margin:16mm 14mm}html,body{background:#fff;font-size:10.5pt;color:#172f26}#app-shell,.notice,dialog,.skip,noscript{display:none!important}#print-root{display:block!important}.print-header{padding:0 0 14px;border-bottom:2px solid #42634b;margin-bottom:20px}.print-header h1{font-size:22pt}.print-header p{font-size:9pt;color:#4d6253}.print-section{margin:22px 0}.print-section>h2{font-size:16pt;margin-bottom:13px;break-after:avoid}.concept-grid,.content-grid{display:block}.concept-card,.panel,.trap-card,.quick-line{break-inside:avoid;border:1px solid #bac8bc;padding:13px;margin-bottom:12px;border-radius:8px;background:#fff}.concept-card h3,.panel h3{font-size:13pt}.concept-card p,.lead,.trap-line,.quick-line span{font-size:10pt}.concept-top,.star-btn,.actions,.content-end{display:none!important}.source-line{font-size:7pt;margin-top:8px}.source-line a{font-size:7pt}a{color:#233f35}.experiment{break-inside:avoid;margin:12px 0;border-radius:8px;padding:0 13px}.experiment-content{display:block!important}.experiment summary{font-size:12pt;list-style:none}.experiment summary:after{display:none}.table-scroll{overflow:visible}table{font-size:9pt}th,td{min-width:0;padding:8px}.diagram-note,.table-note{font-size:8pt}.source-item{font-size:8pt;break-inside:avoid}.source-item a{overflow-wrap:anywhere}.print-question{break-inside:avoid;margin:16px 0}.print-question h3{font-size:11pt;white-space:pre-line}.print-question p{font-size:10pt;white-space:pre-line;margin:8px 0}.print-answer{border-top:1px dashed #bbc9be;padding-top:8px}.equation-box{padding:10px}.layers{gap:5px}.layer{padding:7px}.flow-node{padding:8px}.flow-arrow{height:18px;font-size:18px}}
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#245a4f"><title>知識小站 V1.2｜國中三年核心學習</title><meta name="description" content="七至九年級九領域，54個核心主題、重點整理、原創練習與受控變化題。正式學校版本及逐課對照另列查核狀態。"><style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK TC","Microsoft JhengHei",sans-serif;color:#243f39;background:#f5f7f3;line-height:1.85;font-size:16px;color-scheme:light;--green:#245a4f;--border:#d8e3da;--muted:#586e62}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit;color:inherit}button,a{touch-action:manipulation}button{cursor:pointer}a{color:var(--green);text-underline-offset:4px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #a97726;outline-offset:3px}button:disabled{opacity:.55;cursor:default}[hidden]{display:none!important}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.45}h1{font-size:2rem;letter-spacing:-.02em}h2{font-size:1.4rem}h3{font-size:1.1rem}p+p{margin-top:12px}.skip{position:absolute;top:-100px}.skip:focus{top:10px;left:10px;z-index:99;background:white;padding:12px}header{position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:24px;padding:16px max(24px,calc((100vw - 1160px)/2));background:#fffefc;border-bottom:1px solid var(--border)}.brand{display:flex;gap:12px;align-items:center;text-decoration:none;white-space:nowrap;font-weight:750;font-size:1.2rem}.brand b{background:var(--green);color:white;border-radius:12px;width:45px;height:45px;display:grid;place-items:center}.brand small{display:block;color:var(--muted);font-size:.65rem;font-weight:500;letter-spacing:.07em}nav{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}nav a{font-size:.85rem;text-decoration:none;border-radius:9px;padding:8px 12px;min-height:44px;display:flex;align-items:center}nav a.active{background:#e9f1e7;font-weight:750}main{max-width:1120px;margin:32px auto;padding:0 24px;min-height:70vh}main:focus{outline:0}footer{text-align:center;font-size:.72rem;color:var(--muted);padding:32px 24px}.btn,.icon{border:1px solid var(--border);border-radius:10px;min-height:44px;padding:9px 16px;background:white;text-decoration:none;display:inline-flex;justify-content:center;align-items:center;gap:7px;font-size:.85rem;font-weight:650}.primary{background:var(--green);color:white;border-color:var(--green)}.icon{padding:8px 12px}.hero{border:1px solid #dce5d7;background:#edf3e7;border-radius:24px;padding:34px;margin-bottom:22px;position:relative}.hero h1{max-width:650px;margin:12px 0}.hero p{color:var(--muted);max-width:820px}.eyebrow{color:var(--green);font-size:.74rem;font-weight:700;letter-spacing:.08em}.muted{color:var(--muted)}.small{font-size:.8rem}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0}.stat,.panel{background:white;border:1px solid var(--border);border-radius:17px;padding:22px}.stat b{font-size:1.6rem;color:var(--green);display:block}.stat span{font-size:.8rem;color:var(--muted)}.panel{margin:18px 0}.panel p{margin-top:12px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.notice{border:1px solid var(--border);background:white;border-radius:12px;padding:14px 18px;font-size:.82rem;margin:18px 0}.warning{background:#fff8e8;border-color:#e9d8ab;color:#75551c}.scope{font-size:.8rem;color:#6c592e;border-left:3px solid #ceb06c;padding:10px 14px;margin-top:20px;background:#fff9ec}#storage-warning{max-width:1080px;margin:16px auto}.filters{display:grid;grid-template-columns:1fr 1fr 1.4fr 2fr;gap:12px;background:white;border:1px solid var(--border);border-radius:16px;padding:20px;margin:22px 0}.filters label,.form-grid label{display:grid;gap:6px;font-size:.78rem;font-weight:650}select,input{width:100%;min-width:0;border:1px solid #b9cabb;border-radius:9px;padding:10px;background:white;min-height:44px}.result-line{display:flex;justify-content:space-between;align-items:center;margin:18px 0;font-size:.85rem;gap:12px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{border:1px solid var(--border);background:white;border-radius:17px;padding:22px;display:flex;flex-direction:column;min-width:0}.card h3{margin:13px 0 10px}.card p{font-size:.83rem;color:var(--muted);margin-bottom:16px}.card .actions{margin-top:auto}.badge{font-size:.68rem;padding:4px 8px;border-radius:7px;background:#e9f2e8;color:var(--green);display:inline-block;margin:0 5px 4px 0}.badge.pending{background:#fff4d6;color:#795c22}.badge.gray{background:#f1f3ef;color:#52645a}.grid-two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.point{background:white;border:1px solid var(--border);border-radius:16px;padding:23px;margin:0;min-width:0}.point-top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:15px}.point p{font-size:.92rem;line-height:1.9}.star{min-width:44px;background:white;border:1px solid var(--border);border-radius:10px;font-size:1.25rem;height:44px}.star.on{background:#fff2cf;color:#77550a}.step-line{margin-top:16px;font-size:.8rem;color:var(--muted)}.back{display:inline-block;margin-bottom:16px;font-size:.85rem}.form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.form-grid .wide{grid-column:1/-1}.quiz-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.progress{height:6px;background:#e5ece1;border-radius:6px;margin:20px 0;overflow:hidden}.progress i{display:block;height:100%;background:var(--green)}.stem{font-size:1.15rem;line-height:1.85;margin:22px 0;white-space:pre-wrap}.options{display:grid;gap:11px}.option{display:flex;gap:14px;align-items:center;text-align:left;border:1px solid var(--border);background:white;border-radius:12px;padding:14px 16px;min-height:57px;line-height:1.75}.option b{background:#f0f5ec;border-radius:7px;padding:1px 9px;font-size:.8rem;flex-shrink:0}.option.selected{border:2px solid var(--green);padding:13px 15px;background:#f1f7ee}.answer-map{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.answer-map button{width:40px;min-height:40px;background:white;border:1px solid var(--border);border-radius:8px}.answer-map .filled{background:#e6f2e2}.answer-map .current{border:2px solid var(--green)}.score{font-size:2.1rem;line-height:1.4;font-weight:750;color:var(--green)}.explain{border-left:3px solid #94b688;background:#f0f6ec;padding:14px;margin-top:16px;font-size:.87rem}.explain.wrong{border-color:#c19b6e;background:#fff7e8}.review-row{margin:14px 0;background:white;border:1px solid var(--border);border-radius:14px;padding:20px}.review-row h3{font-size:1rem}.review-row p{margin-top:10px;font-size:.88rem}.source-links{margin-top:20px;font-size:.78rem}.source-links a{display:inline-block;margin:5px 12px 5px 0}.table-wrap{overflow:auto;max-width:100%;margin:20px 0;border:1px solid var(--border);border-radius:12px}table{border-collapse:collapse;width:100%;font-size:.82rem;text-align:left}th,td{padding:11px 14px;border-bottom:1px solid var(--border);white-space:normal;min-width:70px;vertical-align:top}th{background:#eaf2e6}td a{overflow-wrap:anywhere}code{font-family:ui-monospace,monospace;font-size:.8em;background:#f0f3eb;padding:2px 5px;border-radius:5px;overflow-wrap:anywhere}details{margin-top:15px}summary{cursor:pointer;min-height:44px;padding:8px 0}.empty{text-align:center;padding:40px 20px;background:white;border:1px solid var(--border);border-radius:18px}#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#243f39;color:white;border-radius:10px;padding:12px 18px;font-size:.85rem;z-index:100;max-width:90%;display:none}#toast.visible{display:block}.checkline{display:flex!important;align-items:center;gap:10px;font-size:.86rem}.checkline input{width:20px;min-height:20px}.print-only{display:none}.quick-list p{padding:12px 0;border-bottom:1px solid var(--border);font-size:.88rem}.quick-list p:last-child{border:0}
+@media(max-width:850px){header{gap:12px;padding:12px 20px;flex-wrap:wrap}.brand{flex:1}nav{order:3;width:100%;justify-content:space-between;margin:0}nav a{padding:5px 9px}main{margin-top:24px}.cards{grid-template-columns:1fr 1fr}.filters{grid-template-columns:1fr 1fr}.form-grid{grid-template-columns:1fr 1fr}h1{font-size:1.8rem}}
+@media(max-width:540px){header{position:static;padding:13px 16px}main{padding:0 16px;margin-top:20px}.hero{padding:24px}.hero h1{font-size:1.65rem}.stats{grid-template-columns:1fr 1fr}.stat{padding:17px}.cards,.grid-two,.form-grid{grid-template-columns:1fr}.panel{padding:20px}.filters{padding:16px}.filters label:last-child{grid-column:1/-1}.form-grid .wide{grid-column:auto}nav a{font-size:.78rem;padding:6px}.brand small{font-size:.62rem}.stem{font-size:1.04rem}.option{padding:13px}.option.selected{padding:12px}.point{padding:20px}.actions .btn{flex-grow:1}.result-line{align-items:flex-start}footer{font-size:.68rem}}
+@media print{header,footer,.no-print,.back,.actions,.star,.filters,#toast,#storage-warning{display:none!important}:root{background:white;color:black;font-size:12pt}main{max-width:none;margin:0;padding:0}.hero,.panel,.point{box-shadow:none;background:white;border-color:#999;break-inside:avoid}h1{font-size:20pt}.grid-two{display:block}.point{margin-bottom:14px}.print-only{display:block}.source-links{font-size:9pt}.hide-print-answer .explain{display:none!important}}
 
-.options .option-btn:disabled{opacity:1;cursor:default}.brand>span:last-child{min-width:0}.paper-equation b{color:var(--gold)}
-
-</style>
-</head>
-<body>
-<a class="skip" href="#main">跳至主要內容</a>
-<div id="app-shell">
-<aside id="sidebar" class="sidebar" aria-label="網站選單"></aside>
-<header class="topbar">
-  <a class="mobile-brand" href="#/home" aria-label="知識小站首頁"><span class="brand-mark small">知</span></a>
-  <div id="breadcrumb" class="breadcrumb">學習首頁</div>
-  <form id="header-search" class="header-search" role="search"><span aria-hidden="true">⌕</span><input id="global-search" type="search" aria-label="搜尋教材" placeholder="搜尋重點，例如：木質部" maxlength="100"><button type="submit" class="search-submit" aria-label="搜尋">↵</button></form>
-  <button class="icon-btn" data-action="font" aria-label="調整字級" title="調整字級">A⁺</button>
-</header>
-<div id="storage-warning" class="storage-warning" role="alert" hidden></div>
-<main id="main" tabindex="-1"><div class="empty"><h1>正在載入教材</h1><p>若未顯示內容，請確認 assets 資料夾已一併上傳；或改開單檔離線版。</p></div></main>
-<footer class="site-footer"><span>知識小站 · 自主學習整理，非官方教材</span><a href="#/help">版本、來源與使用說明</a></footer>
-<nav id="mobile-nav" class="mobile-nav" aria-label="手機主要導覽"></nav>
-</div>
-<div id="notice" class="notice" role="status" aria-live="polite"></div>
-<dialog id="print-dialog" aria-labelledby="print-title"><h2 id="print-title">列印本節筆記</h2><p>將展開全部重點、圖解、實驗與自我檢測。</p><label class="check-line"><input id="print-answers" type="checkbox"> 包含測驗參考答案與解析</label><div class="actions"><button class="btn secondary" data-action="print-close">取消</button><button class="btn primary" data-action="print-go">開啟列印</button></div></dialog>
-<div id="print-root"></div>
-<noscript><p class="empty">這個網站需要開啟 JavaScript 才能顯示教材與測驗。</p></noscript>
-<script>
-/* Shared pure functions. No DOM access; also used by Node tests and the builder. */
-(function (root, factory) {
-  const api = factory();
-  if (typeof module === 'object' && module.exports) module.exports = api;
-  else root.StudyCore = api;
-})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
-  'use strict';
-  const APP = 'jh-study-notes';
-  const ID = /^[a-z0-9][a-z0-9-]*$/;
-  const object = x => x !== null && typeof x === 'object' && !Array.isArray(x);
-  const text = x => typeof x === 'string' && x.trim().length > 0;
-  const escapeHTML = x => String(x ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  function safeURL(value) {
-    try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? u.href : null; }
-    catch (_) { return null; }
-  }
-  function defaultState() { return {app:APP, schemaVersion:1, read:[], starred:[], answers:{}, font:0}; }
-  function toggle(state, key, id) {
-    if (!['read','starred'].includes(key)) throw new Error('不支援的進度類型');
-    const items = state[key];
-    return {...state, [key]:items.includes(id) ? items.filter(x=>x!==id) : [...items,id]};
-  }
-  function score(unit, answers) {
-    const out = {total:unit.quiz.length, answered:0, correct:0, wrong:[]};
-    unit.quiz.forEach(q => {
-      const selected = answers[`${unit.id}/${q.id}`];
-      if (!q.options.some(o=>o.id===selected)) return;
-      out.answered++;
-      if (selected===q.answer) out.correct++; else out.wrong.push(q.id);
-    });
-    return out;
-  }
-  const normalize = value => String(value ?? '').normalize('NFKC').toLowerCase().trim();
-  function search(data, query) {
-    const tokens = normalize(query).split(/\s+/).filter(Boolean);
-    if (!tokens.length) return [];
-    const hits = [];
-    data.units.filter(u=>u.status==='published').forEach(u=>{
-      const matches = value => tokens.every(t=>normalize(value).includes(t));
-      const head = [u.title,u.chapter,u.publisher,u.summary,...u.tags].join(' ');
-      let found = false;
-      u.concepts.forEach(c=>{
-        if(matches([head,c.title,c.lead,...c.body].join(' '))) {
-          hits.push({unit:u.id,concept:c.id,title:c.title,snippet:c.lead,chapter:u.chapter}); found=true;
-        }
-      });
-      if(!found && matches(JSON.stringify(u))) hits.push({unit:u.id,concept:null,title:u.title,snippet:u.summary,chapter:u.chapter});
-    });
-    return hits;
-  }
-  function validateData(data) {
-    const errors=[];
-    if (!object(data) || !Array.isArray(data.units) || !Array.isArray(data.sources) || !Array.isArray(data.subjects)) return ['資料必須包含 units、sources、subjects'];
-    const sourceIds=new Set(), unitIds=new Set(), subjectIds=new Set();
-    data.subjects.forEach(s=>{if(!object(s)||!ID.test(s.id)||!text(s.name)||subjectIds.has(s.id))errors.push('subject invalid');else subjectIds.add(s.id);});
-    data.sources.forEach(s=>{if(!object(s)){errors.push('source invalid');return;}if(!text(s.id)||sourceIds.has(s.id)||!safeURL(s.url)||!text(s.title)) errors.push(`source invalid: ${s.id}`);sourceIds.add(s.id);});
-    const checkRefs=(refs,at)=>{
-      if(!Array.isArray(refs)||!refs.length) errors.push(`source missing: ${at}`);
-      else refs.forEach(s=>{if(!sourceIds.has(s)) errors.push(`source unknown: ${at}/${s}`);});
-    };
-    data.units.forEach(u=>{
-      if(!object(u)){errors.push('unit invalid');return;}
-      if(!Array.isArray(u.tags)||!u.tags.every(text))errors.push(`tags invalid: ${u.id}`);
-      if(!ID.test(u.id)||unitIds.has(u.id)) errors.push(`duplicate or invalid unit: ${u.id}`);unitIds.add(u.id);
-      if(!subjectIds.has(u.subject)) errors.push(`subject unknown: ${u.id}`);
-      ['title','chapter','publisher','summary'].forEach(k=>{if(!text(u[k])) errors.push(`${u.id} missing ${k}`);});
-      if(![7,8,9].includes(u.grade)||![1,2].includes(u.semester)) errors.push(`grade/semester invalid: ${u.id}`);
-      if(!['draft','published'].includes(u.status)) errors.push(`status invalid: ${u.id}`);
-      if(!Array.isArray(u.concepts)||!u.concepts.length||!Array.isArray(u.quiz)||!u.quiz.length) {errors.push(`empty concepts/quiz: ${u.id}`);return;}
-      const cids=new Set(), qids=new Set();
-      u.concepts.forEach(c=>{
-        if(!object(c)){errors.push('concept invalid');return;}
-        if(!ID.test(c.id)||cids.has(c.id)) errors.push(`duplicate concept: ${u.id}/${c.id}`);cids.add(c.id);
-        if(!text(c.title)||!text(c.lead)||!Array.isArray(c.body)||!c.body.every(text)) errors.push(`concept text invalid: ${u.id}/${c.id}`);
-        checkRefs(c.sources,`${u.id}/${c.id}`);
-      });
-      u.quiz.forEach(q=>{
-        if(!object(q)){errors.push('question invalid');return;}
-        if(!ID.test(q.id)||qids.has(q.id)) errors.push(`duplicate question: ${u.id}/${q.id}`);qids.add(q.id);
-        if(!cids.has(q.concept)||!text(q.question)) errors.push(`question invalid: ${u.id}/${q.id}`);
-        if(!Array.isArray(q.options)||q.options.length<2) {errors.push(`options missing: ${q.id}`);return;}
-        const opts=new Set();
-        q.options.forEach(o=>{if(!object(o)){errors.push(`option invalid: ${q.id}`);return;}if(!ID.test(o.id)||opts.has(o.id)||!text(o.text)||!text(o.explanation)) errors.push(`option invalid: ${q.id}`);opts.add(o.id);});
-        if(!opts.has(q.answer)) errors.push(`answer invalid: ${u.id}/${q.id}`);
-        checkRefs(q.sources,`${u.id}/${q.id}`);
-      });
-      ['diagrams','tables','traps','experiments'].forEach(k=>{
-        if(!Array.isArray(u[k])) errors.push(`array missing: ${u.id}/${k}`);
-        else u[k].forEach((x,i)=>{
-          if(!object(x)){errors.push(`block invalid: ${u.id}/${k}/${i}`);return;}
-          const at=`${u.id}/${k}/${i}`;
-          checkRefs(x.sources,at);
-          const pair=value=>Array.isArray(value)&&value.length===2&&value.every(text);
-          const pairs=value=>Array.isArray(value)&&value.length>0&&value.every(pair);
-          const texts=value=>Array.isArray(value)&&value.every(text);
-          if(k==='diagrams') {
-            if(!text(x.title)||!text(x.note))errors.push(`diagram text invalid: ${at}`);
-            const valid={equation:()=>texts(x.conditions)&&pairs(x.inputs)&&pairs(x.outputs),
-              layers:()=>pairs(x.items),flow:()=>pairs(x.items),
-              branches:()=>pair(x.center)&&pairs(x.branches)&&text(x.label)};
-            if(!Object.hasOwn(valid,x.kind)||!valid[x.kind]())errors.push(`diagram shape invalid: ${at}`);
-          }
-          if(k==='tables'&&(!text(x.title)||!texts(x.headers)||!x.headers.length||!Array.isArray(x.rows)||!x.rows.every(r=>texts(r)&&r.length===x.headers.length)))errors.push(`table invalid: ${at}`);
-          if(k==='traps'&&!['wrong','right','why'].every(key=>text(x[key])))errors.push(`trap invalid: ${at}`);
-          if(k==='experiments'&&(!['title','question','result','conclusion','warning'].every(key=>text(x[key]))||!texts(x.steps)||!x.steps.length))errors.push(`experiment invalid: ${at}`);
-        });
-      });
-      if(!Array.isArray(u.quick)||!u.quick.every(text)) errors.push(`quick invalid: ${u.id}`);
-    });
-    return errors;
-  }
-  function validateBackup(input, data) {
-    const fail=()=>{throw new Error('備份格式或教材版本不符；原有進度未變更。');};
-    if(!object(input)||input.app!==APP||input.schemaVersion!==1) fail();
-    if(!Array.isArray(input.read)||!Array.isArray(input.starred)||!object(input.answers)||![0,1,2].includes(input.font)) fail();
-    const unitIds=new Set(data.units.map(u=>u.id));
-    const conceptIds=new Set(data.units.flatMap(u=>u.concepts.map(c=>`${u.id}/${c.id}`)));
-    const questions=new Map(data.units.flatMap(u=>u.quiz.map(q=>[`${u.id}/${q.id}`,q])));
-    if(input.read.some(x=>!unitIds.has(x))||input.starred.some(x=>!conceptIds.has(x))) fail();
-    const answers={};
-    for(const [key, value] of Object.entries(input.answers)) {
-      const q=questions.get(key);
-      if(!q||!q.options.some(o=>o.id===value)) fail();
-      answers[key]=value;
-    }
-    return {app:APP,schemaVersion:1,read:[...new Set(input.read)],starred:[...new Set(input.starred)],answers,font:input.font};
-  }
-  return {APP,defaultState,toggle,score,search,validateData,validateBackup,escapeHTML,safeURL};
+</style><script>
+/* Original cross-edition study notes. Grouping is suggested, not a textbook TOC. */
+(function(root,f){const d=f();if(typeof module==='object'&&module.exports)module.exports=d;else root.JHContent=d;})(globalThis,function(){
+'use strict';
+const subjects=[['chinese','國文'],['english','英語'],['math','數學'],['science','自然'],['social','社會'],['health','健康與體育'],['arts','藝術'],['integrated','綜合活動'],['technology','科技']].map(([id,name])=>({id,name}));
+const units=[];
+function add(subject,grade,term,title,notes,scene){units.push({id:`${subject}-${grade}-${term}`,subject,grade,term,title,points:notes.trim().split('\n').map((s,i)=>{const [name,body]=s.split('::');return{id:'c'+i,name,body};}),scene:{stem:scene[0],options:scene.slice(1,5),answer:0,explanation:scene[5]},mapping:'跨版本核心主題；建議學期分組，非正式課本目錄'});}
+add('chinese',7,1,'閱讀、敘事與修辭',`
+主旨::把全文最主要的意思統整成一句話；不要把單一例子當成整篇主旨。
+記敘要素::讀故事可整理人物、時間、地點、事件起因、經過與結果，建立事情的發展脈絡。
+譬喻::利用兩種事物的相似處作比較；「雲像棉花」用棉花的外觀描寫雲。
+擬人::把非人的事物寫得具有人的動作或情感；「路燈守候旅人」讓路燈像人。
+語境::同一詞語在不同句子中可能意思不同，應結合前後文判斷，不只套第一個字義。`,['「雨滴敲著窗，催我起床。」主要用了哪種修辭？','擬人','引用','排比','回文','雨滴被寫成會催促人的角色，因此是擬人，不是引用他人話語。']);
+add('chinese',7,2,'詩文、段落與表達',`
+感官描寫::透過視覺、聽覺、嗅覺、味覺或觸覺，使讀者能具體感受場景。
+轉折關係::前後意思有轉向或相反，如「雖然下雨，但是活動照常」。轉折後常是作者強調處。
+因果關係::區分原因與結果，如「因為連日乾旱，所以水位下降」；先後發生不一定有因果。
+對偶::把字數相等、結構相近且意義相對或相關的兩句並列；不是所有兩句話都是對偶。
+摘要::保留中心訊息與重要關係，刪去重複細節，用自己的話濃縮，不加原文沒有的結論。`,['摘要寫到「作者一定討厭旅行」，但原文只說那天很累，問題在哪？','加入原文證據不足的推論','摘要字數太少就必然錯','沒有逐字照抄','沒有列出所有標點','摘要須忠於原文；一次疲累不足以證明作者一概討厭旅行。']);
+add('chinese',8,1,'文言文與人物判讀',`
+文言實詞::文言文中承載主要意義的詞，常包括名詞、動詞與形容詞；要按上下文選字義。
+文言虛詞::「之、其、而、以」等詞常表示關係或語氣，也可能有其他用法，不能永遠只用同一翻譯。
+省略主語::文言句常省去前文可知的人物；翻譯時先找動作由誰做，再補成通順句子。
+人物側寫::透過其他人的反應、場景與事件呈現人物特質，不一定直接寫「他很勇敢」。
+文本證據::對人物或作者下判斷時，指出相應語句；有感覺不等於已有證據。`,['文中「乃歸」沒有直接寫誰回家，首先應怎麼做？','從前後文找行動者','一律補成皇帝','判定這句沒有意義','一律當成命令句','先辨識前後文的主語，才能合理補回省略成分。']);
+add('chinese',8,2,'論說、結構與寫作',`
+論點::作者想使讀者接受的主要主張；回答「作者主張什麼」。
+論據::支持主張的事例、數據或理由；回答「憑什麼這樣主張」。
+論證::把理由與主張連接起來的推理過程；例子要真的能支持所談的結論。
+段落銜接::運用代詞、關聯詞與前後主題連接句段，使讀者知道內容是延續、轉折或補充。
+修改文章::先檢查立意、證據與結構，再修語句、用字與標點；改漂亮不等於改正確。`,['「我認為應設閱讀角；班級調查顯示多數同學缺安靜閱讀處。」後一句的作用？','提供支持主張的論據','改變故事人稱','交代小說結局','證明所有學校都相同','調查資料在此用來支持班級需求，不能直接外推到所有學校。']);
+add('chinese',9,1,'比較閱讀與觀點',`
+觀點比較::閱讀兩篇文章時，分別記下議題、立場與理由，再找相同與相異，不只比字數。
+事實與意見::可查核的描述與個人評價要分開；「今天下雨」和「下雨真討厭」性質不同。
+象徵::具體形象在文本中承載抽象意義；須依作品語境理解，不把所有意象套成固定答案。
+反諷::字面意思與實際要表達的意思形成反差；判斷時須有情境或語氣支持。
+語氣判讀::從用詞、句式與上下文辨識讚賞、質疑或遺憾；驚嘆號並不只代表開心。`,['甲主張節水，乙討論改善漏水管線。合理的比較是？','兩者都可關注水資源，但處理方式不同','兩篇必然完全對立','乙一定反對節水','有不同例子就沒有共同點','先比較議題與作法，不能只因方法不同便認定立場對立。']);
+add('chinese',9,2,'會考閱讀與整合寫作',`
+資訊擷取::先確認題目要求，再從文字、圖表或註記找出直接相關資訊，避免只憑印象作答。
+跨文本統整::整合不同文本時，要先確認時間、對象與名詞定義是否相同，再合併訊息。
+合理推論::推論須由已知線索支持，力度不能超過證據；「可能」不能任意改成「必然」。
+圖表閱讀::先看標題、單位、座標與圖例，再比較數值；截短座標可能放大視覺差異。
+作文審題::圈出題目限制、對象與關鍵詞，再安排段落，讓事例確實回應題旨。`,['圖表甲記錄「每月總量」，乙記錄「每日平均」，能直接比數字大小嗎？','不能，須先統一時間基準','可以，數字大就一定更多','只看顏色即可','只要同一年就可以','兩張圖的統計時間基準不同，必須先換算或明確區分。']);
+add('english',7,1,'be動詞、名詞與問句',`
+be動詞::現在式常用 I am、you/we/they are、he/she/it is；主詞變化時，動詞要一起檢查。
+名詞單複數::可數名詞多於一個通常要用複數形；a book 和 two books 的名詞形式不同。
+指示詞::this/that 配單數，these/those 配複數；也要注意遠近和 be 動詞一致。
+所有格::my、your、his、her、our、their 通常放在名詞前，表示所屬關係。
+疑問詞::who 問人、where 問地點、what 問事物；先看問題要問哪一種資訊。`,['These ___ my notebooks.','are','is','am','be','These 指複數事物，現在式 be 動詞用 are。']);
+add('english',7,2,'日常活動、時間與數量',`
+現在簡單式::描述習慣或一般事實；第三人稱單數肯定句的主要動詞通常加 s 或 es。
+助動詞do::現在簡單式問句和否定句可用 do/does；用了 does 後，主要動詞回原形。
+現在進行式::用 am/is/are 加 V-ing 表示此刻正在進行的活動；不要省略 be 動詞。
+頻率副詞::always、usually、sometimes、never 描述頻率；常放一般動詞前、be 動詞後。
+可數與不可數::many 常搭可數複數，much 常搭不可數名詞；問水量可用 how much water。`,['Does Mia ___ to school every day?','walk','walks','walking','walked','Does 已負責第三人稱單數形式，後面的動詞用原形 walk。']);
+add('english',8,1,'過去、未來與不定詞',`
+過去簡單式::描述已結束的過去事件；規則動詞常加 ed，不規則動詞需確認形式，如 go→went。
+過去式否定::用 did not 加原形動詞；didn't go 正確，不能再把 go 寫成 went。
+過去進行式::was/were 加 V-ing，表示過去某時正在進行的活動，常與另一事件搭配。
+未來表達::will 加原形動詞；be going to 加原形動詞常表達計畫或依現況的預測。
+動詞接續::want 後常接 to V；enjoy 後接 V-ing。不能把所有動詞套成同一接法。`,['Leo did not ___ the game yesterday.','watch','watched','watches','watching','did not 後接原形動詞 watch；yesterday 不會使這個動詞再變過去式。']);
+add('english',8,2,'比較、感官與連接詞',`
+比較級::比較兩者時常用比較級加 than；短形容詞常加 er，部分形容詞用 more。
+最高級::在指定群體中比較時常用 the 加最高級；應讀清楚比較範圍。
+同等比較::as 加形容詞原級加 as 表示同等程度，如 as tall as；中間不用 taller。
+感官動詞::look、sound、smell、taste、feel 描述感受時可接形容詞，如 The soup smells good。
+連接詞::because 引出原因，although 引出讓步；標準句型避免把 because…so 或 although…but 重複堆疊。`,['This box is as ___ as that one.','heavy','heavier','heaviest','more heavy','as…as 的中間用形容詞原級 heavy，而不是比較級。']);
+add('english',9,1,'完成式、被動與關係子句',`
+現在完成式::have/has 加過去分詞，連結過去事件與現在；明確已結束的過去時間通常用過去簡單式。
+since與for::since 常接起點，for 常接持續長度；since Monday 與 for three days 意義不同。
+被動語態::用 be 加過去分詞，讓承受動作的對象當主詞；be 的時態仍須符合情境。
+關係子句::用 who、which、that 等連接對名詞的補充或限定描述，先確認被修飾的先行詞。
+間接問句::問句放進較大句子後，常改為疑問詞加主詞加動詞，如 where he lives。`,['The window ___ by a ball yesterday.','was broken','is breaking','broke by','was broke','yesterday 指過去；窗戶承受打破的動作，用 was 加過去分詞 broken。']);
+add('english',9,2,'條件句、閱讀與整合',`
+未來條件句::表達可能的未來條件時，if 子句常用現在簡單式，主要子句可用 will 加原形動詞。
+代名詞指涉::看到 it、they、this 等代名詞，回看前文找合理對象，同時核對單複數與語意。
+上下文猜字::從定義、對比、例子與前後因果推測陌生字義，不只看字形相似。
+閱讀推論::答案必須由文章支持；常識可能是真的，但未必回答這篇文章的問題。
+通知資訊::讀告示或行程時，分開整理時間、地點、對象、條件與例外，特別注意否定詞。`,['If it ___ tomorrow, we will stay indoors.','rains','will rain','rained yesterday','raining','此處是可能的未來條件，if 子句用現在簡單式 rains。']);
+add('math',7,1,'數與一元一次方程式',`
+整數加減::減去一個數等於加上它的相反數；先保留括號與正負號，再計算。
+分數運算::加減先通分，乘法分子分母分別相乘；除以非零分數等於乘它的倒數。
+因數與倍數::因數能整除該整數；公因數同時整除兩數，最小公倍數則是兩數共同倍數中的最小正數。
+指數記法::a的n次方表示n個a相乘；(-2)²＝4，而-2²＝-4，括號會改變計算範圍。
+一元一次方程式::等號兩邊做相同合法運算仍保持相等；解出後代回原式檢驗。`,['3x＋5＝20，x等於多少？','5','15','25','3','等號兩邊減5得3x＝15，再除以3，x＝5；代回得20。']);
+add('math',7,2,'比例、聯立與幾何',`
+正比::兩量成正比時，y/x固定，可寫成y＝kx；不能只因兩量同增就判定正比。
+二元一次聯立::找同時滿足兩個方程式的數對；代入法與加減消去法都要回代檢驗。
+不等式::兩邊同乘或同除以負數時，不等號方向反轉；乘除正數則不反轉。
+直角坐標::點寫成(x,y)，先看水平再看垂直；x與y對調一般會變成另一點。
+面積與周長::面積量度平面範圍，周長量度邊界長度；長方形分別為長×寬與2×(長＋寬)。`,['-2x＞6，兩邊除以-2後得到？','x＜-3','x＞-3','x＜3','x＞3','除以負數時不等號要反向，所以得到x＜-3。']);
+add('math',8,1,'多項式、根式與二次方程式',`
+乘法公式::(a＋b)²＝a²＋2ab＋b²；平方和不能漏掉中間的2ab項。
+平方根::非負數a的算術平方根記為√a；x²＝a在a＞0時有正負兩個解。
+畢氏定理::直角三角形兩股平方和等於斜邊平方；一定先確認直角與斜邊位置。
+因式分解::把多項式寫成因式的乘積，可用提公因式或公式；完成後展開檢查。
+零乘積性質::若AB＝0，則A＝0或B＝0；二次方程式須先移項使一邊為0才可直接使用。`,['(x-2)(x-5)＝0的兩個解為？','2與5','-2與-5','0與7','只有10','乘積為0時至少一個因式為0，分別解得x＝2或x＝5。']);
+add('math',8,2,'數列、函數與平面幾何',`
+等差數列::相鄰兩項差固定為d，第n項為a₁＋(n-1)d；第一項到第n項只有n-1次間隔。
+一次函數::y＝ax＋b的圖形是直線；a描述斜率，b是與y軸交點的y坐標。
+三角形內角和::平面三角形三內角和為180°；外角等於不相鄰的兩內角和。
+全等::形狀與大小都相同，對應邊與對應角相等；只知道三角相等只能判相似。
+平行四邊形::兩組對邊分別平行，其對邊等長、對角相等，對角線互相平分。`,['等差數列首項4、公差3，第5項為？','16','19','15','12','第5項＝4＋(5-1)×3＝16；不是把公差加5次。']);
+add('math',9,1,'相似、圓與二次函數',`
+相似形::對應角相等、對應邊成比例；邊長比k時，面積比為k²，不是k。
+圓周與圓面積::半徑r的圓，周長為2πr、面積為πr²；直徑等於2r。
+圓周角::同弧所對的圓周角是圓心角的一半；先確認比較的是同一段弧。
+圓的切線::切線與通往切點的半徑互相垂直；垂直條件要對準切點。
+二次函數::y＝a(x-h)²＋k的頂點是(h,k)，對稱軸是x＝h；a正負決定開口方向。`,['相似三角形邊長放大3倍，面積變成幾倍？','9倍','3倍','6倍','27倍','面積比例是邊長比例的平方，3²＝9。']);
+add('math',9,2,'統計、機率與空間',`
+平均數::資料總和除以筆數；極端值可能明顯改變平均，因此不能單靠平均理解全部分布。
+中位數::先排序再找中間位置；偶數筆時取中間兩數的平均，不是最大最小平均。
+古典機率::在各結果等可能時，機率＝符合條件的結果數÷所有結果數；先確認等可能假設。
+柱體體積::直柱體體積＝底面積×高；長方體是長×寬×高，單位要用立方。
+模型檢驗::算出答案後核對單位、正負與情境限制；代數解不一定都適合實際問題。`,['資料2、3、4、7、24的中位數是多少？','4','8','13','24','排序後第3個數是4；8是平均數，不是中位數。']);
+add('science',7,1,'細胞、養分與運輸',`
+細胞::是生物構造與功能的基本單位；細胞膜控制物質進出，不同細胞構造會有差異。
+光合作用::常見綠色植物在葉綠體利用光能，將水與二氧化碳製成有機養分；釋出的氧氣來自水。
+植物運輸::木質部主要運水與無機鹽，韌皮部運有機養分；養分依來源與使用部位移動。
+消化與吸收::消化把較大養分分解成可吸收的小分子；吸收是物質穿過消化道壁進入體內。
+恆定性::生物藉調節維持體內條件相對穩定；不是所有數值永久不變。`,['葉片滴碘液變藍黑色，直接證明什麼？','檢驗時含有澱粉','直接驗出葡萄糖','所有葉細胞都有葉綠體','氧氣必然由二氧化碳分解而來','碘液檢驗澱粉。要進一步推論光的作用，仍須消除原有澱粉干擾並控制條件。']);
+add('science',7,2,'生殖、遺傳與生態',`
+有性生殖::涉及配子結合，子代遺傳組合可能與親代不同；不是必定比無性生殖快。
+遺傳與環境::性狀可能同時受基因與環境影響；看到親子相似不代表所有性狀只由單一基因決定。
+自然選擇::族群原有差異在環境中造成生存與繁殖差異，跨世代改變特徵比例；不是個體因需要立即進化。
+食物網::多條食物鏈交織成網；能量沿攝食關係傳遞並散失，不能像物質一樣完全循環。
+生物多樣性::包含基因、物種與生態系等層次；保護環境不只是在數物種名稱。`,['「動物因為需要飛，就在一生中長出翅膀。」問題在哪？','把族群跨世代改變誤當個體按需要改變','忽略動物一定不能繁殖','證明所有差異都後天形成','說明食物網只有一條鏈','自然選擇作用於既有差異，影響跨世代繁殖結果，不是有需要便立即長出構造。']);
+add('science',8,1,'測量、波動與物質',`
+測量與單位::數值必須搭配單位才有完整意義；先統一單位再計算，並注意量具解析度。
+密度::密度＝質量÷體積；同物質在相近條件下，較大一塊不代表密度較大。
+波的特徵::頻率描述每秒振動次數，振幅描述最大偏離；聲音音調主要與頻率有關。
+光的反射::反射角等於入射角，兩角都從法線量起，不是從鏡面量起。
+原子與分子::原子可組成分子；元素由同種原子構成，化合物含不同元素且有一定組成。`,['質量60g、體積20cm³的物體，密度是多少？','3g/cm³','1200g/cm³','40g/cm³','80g/cm³','密度＝60÷20＝3g/cm³；質量與體積不能相加。']);
+add('science',8,2,'反應、酸鹼與力',`
+質量守恆::在物質不進出的封閉系統內，化學反應前後總質量相同；氣體逸出會影響開放容器秤量。
+酸鹼指示::指示劑顏色與酸鹼性相關；不能把所有指示劑的變色規則視為相同。
+反應速率::可由單位時間的反應物減少或產物增加衡量；比較實驗須控制其他條件。
+氧化還原::國中可先從氧的獲得與失去理解部分反應；更一般的判斷涉及電子轉移。
+壓力::平均壓力＝垂直作用力÷受力面積；力相同時，接觸面積越小，壓力越大。`,['同重物放在相同材料上，接觸面積縮為一半，平均壓力如何？','變成2倍','變成一半','不變','變成4倍','力固定時，壓力與面積成反比，除以原先一半的面積便加倍。']);
+add('science',9,1,'運動、能量與電路',`
+平均速率::總路程除以總時間；平均速度則用位移除以時間，往返時兩者可能不同。
+牛頓第二定律::質量固定時，合力與加速度關係為F＝ma；合力為零不代表一定靜止。
+功::力沿位移方向時，功＝力×位移；沒有位移，即使費力也不代表對物體做了這種機械功。
+歐姆定律::對符合歐姆定律且條件固定的元件，V＝IR；單位為伏特、安培與歐姆。
+串並聯::串聯各元件電流相同，並聯各支路兩端電壓相同；不能混用兩種規則。`,['對符合歐姆定律的4Ω電阻施加12V，電流是多少？','3A','48A','16A','8A','由I＝V/R＝12/4＝3A，不能用電壓乘電阻。']);
+add('science',9,2,'電磁、地球與宇宙',`
+電磁感應::穿過線圈的磁通量改變時可產生感應電動勢；有磁鐵不代表一定有持續感應電流。
+板塊運動::岩石圈分成板塊並相對移動，邊界常與地震、火山或造山活動相關。
+天氣與氣候::天氣描述短時間的大氣狀態，氣候描述較長期的統計特性；單日寒冷不能直接否定長期趨勢。
+月相::月球受太陽照亮的一面大致不變，地球觀測方向改變造成可見亮面比例變化，普通月相不是地球影子。
+規模與震度::規模描述地震大小，震度描述各地搖晃程度；同次地震不同地點的震度可能不同。`,['同次地震甲地4級、乙地2級，是什麼不同？','兩地震度不同','同一震源同時具有兩個不同規模','月相不同造成規模改變','表示乙地沒有地震波','這是在比較兩地震度，不是把地震規模分成兩個。']);
+add('social',7,1,'臺灣的地理與史料入門',`
+相對位置::用某地與其他地點的方位或距離描述位置；會隨參照點改變。
+絕對位置::用經緯度等坐標系統定位；讀坐標要確認東西經與南北緯。
+等高線::連接相同海拔的點；在相同比例尺下，線越密通常坡越陡。
+史料來源::閱讀歷史資料要查作者、時間、目的與背景，第一手資料也可能有立場或限制。
+文化多樣::不同族群與社群可有不同生活方式；避免用單一印象代表所有成員。`,['同一張等高線圖，甲地線距比乙地密，通常表示？','甲地坡度較陡','甲地一定海拔較低','乙地一定有河流','兩地坡度必然相同','相同比例尺和等高距下，相同高度差在較短水平距離內完成，坡較陡。']);
+add('social',7,2,'人口、產業與生活社會',`
+人口密度::人口數除以面積，描述平均疏密；不能單憑總人口判定密度。
+人口遷移::需分辨遷入與遷出，並從工作、交通、環境與家庭等條件分析，不只找單一原因。
+產業分工::原料取得、加工製造與服務提供各有功能，同一商品往往連結多種產業。
+社會規範::家庭、學校與社會中有不同規範；閱讀情境先確認適用對象與目的。
+歷史變遷::比較不同時期的交通、產業與生活，區分延續與改變；發生較晚不代表由前事單獨造成。`,['甲地1000人、10km²；乙地1500人、30km²，何者密度較高？','甲地','乙地','兩地相同','只知道總人口就能確定乙地較高','甲100人/km²，乙50人/km²，須除以面積後再比較。']);
+add('social',8,1,'區域比較與制度觀察',`
+氣候圖::先讀月均溫曲線與降水量柱，分辨年溫差、雨季與乾季，不把兩個單位混讀。
+區域差異::比較自然環境、人口與產業的組合；不能由同一國家推定所有地區條件相同。
+制度變遷::分析規則或組織如何隨時代改變，並以史料比較前後，避免只靠朝代名稱背誦。
+權利與責任::情境分析要同時注意個人可以主張什麼、對他人應負哪些責任。
+證據互證::比較不同作者、不同類型資料是否相互支持；資料一致也要留意是否源自同一轉載。`,['三個網站逐字轉貼同一篇文章，能算三份獨立證據嗎？','不能，來源可能只有同一份','能，網址不同就一定獨立','能，字數越多越可靠','不能，網路資料全部不能用','要追查最初來源；多次轉載不會自動變成多份獨立證據。']);
+add('social',8,2,'交流、貿易與公共議題',`
+跨區交流::人口、商品與觀念可沿交通或貿易網流動；分析時同看交流管道與受到的影響。
+供給與需求::價格變動要看供需條件；分析某一因素時，需說明其他條件是否不變。
+機會成本::選擇某方案而放棄的最佳替代方案之價值，不是把所有放棄方案價值相加。
+公共議題分析::分開整理議題事實、不同需求、方案與可能影響；評估資料品質而非只看聲量。
+圖表基準::比較比率前確認分母、期間與樣本；高成長率不一定代表增加的絕對數較多。`,['讀書或練琴只能選一個時，選讀書的機會成本主要是？','放棄的練琴機會價值','兩件事情價值全部相加','已經買書的價錢必然等於機會成本','任何選擇都沒有成本','此情境只有一個最佳被放棄替代方案：練琴。']);
+add('social',9,1,'世界區域與近代變遷',`
+都市化::都市人口或都市生活影響擴大，分析時要看人口比例、空間與產業，不只數高樓。
+工業化::生產組織與技術朝機械化等方式改變，會牽動勞動、交通與聚落；影響因地區而異。
+全球連結::商品供應鏈可能跨越多地；一地變動能影響其他地方，不能只看最後組裝地。
+史觀比較::作者選用的問題、材料與視角可能不同；比較解釋須回到具體證據。
+地圖投影::把球面畫成平面必有某些變形，面積、角度或距離不能全部無失真。`,['世界地圖上某高緯度地區看起來很大，比較真實面積前應注意？','地圖投影可能造成面積變形','紙越大國土就越大','所有地圖面積都完全正確','只看顏色深淺','地圖投影有不同特性，不能直接用所有平面地圖的視覺面積比較真實大小。']);
+add('social',9,2,'永續、文化與社會科整合',`
+永續思考::同時考量環境、社會與經濟，以及當代與未來需求；不是只算短期收入。
+文化理解::先理解行為的歷史與生活脈絡，再比較差異，避免以刻板印象取代資料。
+資料可信度::看作者、方法、日期、原始資料與是否能核查，人氣高不等於內容正確。
+因果辨識::兩件事相關不一定一方造成另一方，也可能受第三因素影響。
+多尺度分析::同一議題可分個人、社區、區域與全球層次，避免把不同範圍資料直接混用。`,['冰品銷售與戲水人數同時增加，就能說吃冰造成戲水嗎？','不能，氣溫可能同時影響兩者','可以，相關必定就是因果','可以，不需其他證據','不能，任何資料都無法研究關係','共同的第三因素如氣溫可能影響兩者，需要更多研究才可支持因果。']);
+add('health',7,1,'健康識讀與運動安全',`
+健康資訊識讀::先檢查資訊來源、日期與證據，不把網路傳言當成個人診斷。
+身體界線::每個人都可以表達不舒服與拒絕不適當接觸；尊重他人的意願與隱私。
+暖身::正式運動前逐步增加活動，讓身體進入準備狀態；暖身不能保證完全不受傷。
+活動補水::運動會流失水分，補水須依活動與環境調整，不以硬撐口渴作為訓練目標。
+安全求助::明顯受傷或不舒服時應停止逞強並告知教師或可信任成人，必要時尋求醫療協助。`,['同學運動時突然明顯頭暈，課堂中較適合的處理？','停止活動並通知老師協助','要求他立刻衝刺','不告訴任何人','把不適當成一定正常','優先停止冒險活動並求助，不由同學自行猜診斷或要求硬撐。']);
+add('health',7,2,'營養、體適能與合作',`
+均衡飲食::攝取多樣食物並依個人需要調整；單一食物不能提供身體所需的一切。
+營養標示::先看每份量及包裝份數，再計算實際吃下的量；一包不一定只是一份。
+心肺耐力::與持續活動時供應及利用氧氣的能力有關，不能只靠一次短距離衝刺判定。
+肌力與肌耐力::肌力偏向一次能施出的力量，肌耐力偏向持續或反覆出力的能力。
+運動合作::分工、溝通與尊重規則能協助團隊完成目標，勝負不是唯一學習成果。`,['飲料每份糖10g、一瓶有2份，喝整瓶攝取糖多少？','20g','10g','5g','12g','實際攝取量＝每份10g×2份＝20g。']);
+add('health',8,1,'訓練、恢復與情緒',`
+循序漸進::活動負荷逐步增加並觀察反應，而非一次把強度與時間大幅提高。
+恢復::訓練之間的休息與睡眠屬於訓練安排的一部分，不是越疲累越有進步。
+情緒辨識::先分辨自己的感受及觸發情境，再選擇合宜表達，不把情緒等同於行動命令。
+壓力因應::可透過安排時間、與可信任者討論及尋求協助處理壓力，不必獨自承擔所有困難。
+動作回饋::觀察與修正動作時，聚焦具體姿勢與節奏，不用嘲笑身體外表代替技術指導。`,['練習連續多天越練越疲累，最應檢查哪項安排？','負荷與恢復是否平衡','如何把休息完全取消','怎樣忽略所有不適','如何只看別人的成績','應檢查訓練與恢復，而不是把疲累一律解讀為進步。']);
+add('health',8,2,'人際、媒體與比賽策略',`
+同儕壓力::別人的要求可能影響決定；先確認自己的意願、安全與界線，再選擇是否配合。
+媒體身體形象::照片與影片可能經挑選、修圖或剪輯，不應視為所有人的身體標準。
+拒絕技巧::清楚表達不願意、離開不安全情境並求助，拒絕不必以傷害自己為代價。
+比賽策略::依場上位置、隊友與對手反應選擇行動，不是每次都重複同一招。
+公平競賽::遵守共同規則、尊重參與者並以合宜方式處理爭議，不以作弊換取成績。`,['同學說「不敢做危險挑戰就不是朋友」，較合宜的回應？','拒絕危險要求，必要時離開並求助','為證明友情立刻照做','隱瞞受傷繼續挑戰','把所有責任交給起鬨的人','友情不能取代安全與自主界線；可拒絕並找成人協助。']);
+add('health',9,1,'生活選擇與運動計畫',`
+目標設定::把目標寫成具體可觀察的行動，再安排實行時間；不只寫「我要變強」。
+訓練紀錄::記下內容、負荷與身體反應，才有依據比較調整，單次好壞不能代表長期趨勢。
+風險評估::先查看場地、器材、天候與自身狀態，再選擇合適活動。
+消費辨識::辨別產品宣稱、證據與廣告目的；價格高或名人推薦不等於必然適合自己。
+心理求助::持續困擾影響生活時，可向師長、輔導人員或專業者求助，不以羞辱否定困難。`,['哪個學習目標最容易追蹤是否做到？','本週三天各完成10分鐘動作練習並記錄','永遠比所有人強','每天一定都很開心','明年再想要做什麼','第一項有時間、頻率、行動與紀錄，方便確認執行情況。']);
+add('health',9,2,'終身活動與健康決策',`
+終身活動::選擇能長期維持且適合自身條件的身體活動，而非只為一次測驗或比賽。
+久坐中斷::安排活動間隔，減少長時間持續坐著；不能把一次運動當成其他時段完全不動的理由。
+健康決策::先確認問題、取得可靠資訊、比較選項與後果，再評估結果，必要時請專業者協助。
+尊重差異::不同身體條件與能力的人可用調整後的方式參與，不把差異當成排斥理由。
+緊急應變::遇危急狀況先確保現場安全並求救，依受過的訓練與專業指示行動。`,['同一運動班有不同能力的學生，較合宜的安排？','調整難度與方式讓學生安全參與','所有人不論狀況都做同一最高強度','能力不同就一律排除','完全不需要任何安全規範','尊重差異可以透過負荷和方式調整落實；安全仍是共同要求。']);
+add('arts',7,1,'視覺、音樂與表演入門',`
+線條::方向、粗細與疏密可引導視線或形成節奏，不只用來描外框。
+色彩三屬性::色相描述哪一類顏色，明度描述明暗，彩度描述鮮豔程度；三者不能混為一談。
+節拍::音樂中有規律的時間脈動，可作為組織節奏的基礎。
+節奏::音的長短與出現時機的組合；不同節奏可以建立在同一節拍上。
+角色::表演中先理解人物身分、需求與處境，再決定動作與語氣。`,['把同一紅色逐漸加入白色，最直接可見哪項提升？','明度','節拍數','角色年齡','畫紙面積','加白通常使顏色更亮；明度是描述明暗的屬性。']);
+add('arts',7,2,'構圖、旋律與舞台',`
+構圖::安排畫面元素的位置、大小與關係，引導閱讀順序與重點。
+留白::未放滿元素的空間也有作用，可突出主體並調整畫面節奏。
+旋律::不同高低與長短的音依序形成樂句，不只是聲音大小變化。
+力度::音樂的強弱變化可營造表情；和音高、速度是不同面向。
+舞台調度::安排表演者的站位、移動與互動，使觀眾理解場景及人物關係。`,['海報標題、時間、地點全用同樣大小且擠在一起，最需要改善？','資訊層級與留白','只增加更多裝飾','把重要時間刪掉','把所有字再縮小','安排閱讀順序與空間，能幫助讀者先找到重要資訊。']);
+add('arts',8,1,'空間、合奏與即興',`
+透視::運用空間線索表現遠近；近大遠小是常見線索，但仍要看觀察位置。
+明暗塑形::以亮面、暗面與陰影表現物體立體感，陰影方向應與光源相符。
+音色::使人能分辨不同樂器或發聲方式的聲音特性，不等於音量大小。
+合奏::同時注意自己的聲部與整體速度、音量和進入時機，需要傾聽其他人。
+即興::在情境或規則內當下創作，仍需回應同伴與共同脈絡，不是完全沒有組織。`,['兩種樂器演奏相同音高、相近音量，仍可區分，主要依據？','音色','畫面透視','紙張明度','舞台台詞字數','不同樂器的聲音質地不同，這種特性稱音色。']);
+add('arts',8,2,'設計、曲式與劇場合作',`
+設計功能::先理解使用者與傳達目的，再決定形式；漂亮不代表資訊一定清楚。
+視覺對比::運用大小、明暗、色彩或形狀差異形成重點，需配合內容目的。
+曲式::音樂段落的組織方式；可從重複與對比辨認結構，如ABA。
+劇場分工::演員、導演、燈光、音響與舞台等工作相互配合，影響整體呈現。
+創作回饋::指出觀察到的特徵與效果，再提出具體修改建議，不只說好看或難看。`,['曲子第一段A、第二段B、最後回到A，結構可記為？','ABA','ABC','AAAA','只有B','最後回到最初材料，呈現A-B-A的重現結構。']);
+add('arts',9,1,'媒體、文化與作品詮釋',`
+藝術脈絡::理解作品時可考察創作時代、媒材與用途，不只看外觀或價格。
+影像剪輯::鏡頭順序與長短能改變敘事節奏及觀眾推論，同一素材可被不同方式組合。
+聲畫關係::音樂、環境聲與畫面可互相支持或形成反差，會影響觀看感受。
+文化借用::創作參考不同文化時，需理解來源與脈絡並尊重原有意義，避免只截取刻板符號。
+詮釋依據::說明作品感受時，連結具體形式或內容；不同解讀也需要作品線索支持。`,['同一風景畫面配輕快或緊張音樂，觀眾感受不同，說明什麼？','聲畫組合影響詮釋','畫面像素必然改變','兩種音樂的音高必然完全相同','影像不需要任何脈絡','聲音能提供情緒與敘事線索，影響對相同畫面的理解。']);
+add('arts',9,2,'專題創作與展演',`
+創作提案::先交代主題、對象、媒材與預期表達，再規劃執行，而非先堆滿效果。
+作品集::整理作品、過程與反思，能呈現決策和進步，不只是最後成品照片。
+展演動線::安排觀眾行走、觀看與停留方式，並注意安全與資訊可讀性。
+自我評量::依原定目標與具體標準檢查作品，區分已達成與待修改部分。
+授權標示::使用他人素材前查明許可與使用條件；註明作者不等於取得所有使用授權。`,['從網路取得一張照片，標作者姓名就一定可任意商用嗎？','不一定，仍須確認授權範圍','一定可以，署名即可','一定可以，圖片小就無限制','只要改色就不用管授權','署名與授權不同；使用範圍要按實際許可條件查明。']);
+add('integrated',7,1,'自我認識與學習管理',`
+自我觀察::從實際經驗記錄興趣、優勢與困難，避免只靠一次成績定義自己。
+任務拆解::把大目標拆成可以開始的小步驟，再安排順序，降低不知道從哪做起的困難。
+時間規劃::同時列出任務、可用時間與期限，預留調整空間，不把行程排到完全無緩衝。
+傾聽::先理解對方真正意思，可用自己的話重述確認，不急著替對方下結論。
+求助資源::認識可協助的師長、同學與校內資源；提出具體問題更容易獲得適當支援。`,['「準備報告」太大而遲遲沒開始，哪個第一步最具體？','先列三個要查的問題','等有完美想法才做','把期限忘掉','只責怪自己沒能力','可執行的小步驟讓工作有起點，之後再依進度調整。']);
+add('integrated',7,2,'家庭生活與戶外合作',`
+生活分工::共同生活需要協調任務、時間與能力，而非讓固定某人負責全部事情。
+溝通表達::描述事實、自己的感受與需求，有助對方理解；避免用人身攻擊替代問題討論。
+戶外準備::先確認路線、天候、裝備與聯絡方式，行程應符合參與者能力。
+無痕行動::減少對環境的影響，妥善處理垃圾並尊重場域規定，不隨意留下物品。
+合作規則::在活動前釐清角色、目標與決策方式，活動中仍需持續確認與調整。`,['小組出遊前最應先確認哪一組資訊？','路線、天候、能力與安全安排','按讚數和照片濾鏡','只看餐廳甜點','只看誰帶最新手機','戶外計畫先處理安全和執行條件，娛樂安排不能取代必要準備。']);
+add('integrated',8,1,'生涯探索與價值選擇',`
+生涯探索::蒐集不同學習與工作資訊並認識自己，逐步形成選擇，不必由一次測驗定終身。
+興趣與能力::喜歡的事與目前擅長的事不一定完全相同，能力也能透過學習改變。
+價值澄清::辨認自己在決策中重視什麼，例如合作、創作或穩定，再看選項是否符合。
+資訊訪談::事前準備具體問題，訪談後核對與整理；單一受訪者經驗不等於整個職業。
+選項比較::用相同條件比較各方案的需求、代價與可能成果，不只看名稱或印象。`,['一位從業者說工作很辛苦，能直接推論所有相關工作都不適合自己嗎？','不能，需結合其他資訊與自身條件','可以，一個人代表全部','可以，辛苦表示毫無價值','不用蒐集任何其他資訊','訪談提供一種經驗，仍須比較不同情境與自己的需求。']);
+add('integrated',8,2,'服務、決策與資源',`
+需求評估::先了解被服務者真正的需要，再設計活動，而不是只做自己想做的事。
+服務反思::檢視行動的效果、遇到的問題與自己的學習，讓服務經驗轉成可改進的理解。
+資源盤點::整理可用人力、時間、工具與經費，確認缺口，再決定可行方案。
+決策步驟::釐清問題、蒐集資訊、比較方案、執行並回顧，決策不只是在選項上打勾。
+衝突協商::找出各方需求與共同目標，討論可接受的作法，不只爭誰的聲音大。`,['服務活動前，最應先做什麼？','了解服務對象的實際需求','只挑拍照最漂亮的事','先假設對方想要什麼','只計算能拿多少時數','服務計畫應以真實需求為起點，才能檢查是否產生幫助。']);
+add('integrated',9,1,'轉銜與自主學習',`
+升學資訊查核::確認資料學年度、招生對象與官方來源；歷年規則不一定適用今年。
+自主學習::設定問題、選擇資源、實行與檢查理解，而不只是沒有人提醒地坐在書桌前。
+學習監控::用實際作答或說明概念檢查會不會，不只計算讀了幾頁。
+備案思考::預先考慮條件變動時的替代方式，降低單一計畫失效後無從調整的風險。
+經驗整理::把做過的事轉成具體行動、成果與反思，比空泛說自己很努力更有內容。`,['要確認是否真的懂一個公式，哪種做法最直接？','不用看筆記解一題並說明每一步','只看過一次就打勾','只數筆記頁數','抄得越漂亮就視為懂','實際提取與應用能暴露理解缺口，閱讀時間本身不能保證掌握。']);
+add('integrated',9,2,'專題整合與生活實踐',`
+專題管理::把目標、分工、期限與成果要求連成可執行計畫，過程中追蹤偏差。
+成果溝通::依聽眾需求呈現問題、方法與結果，讓別人知道做了什麼與證據在哪。
+限制說明::成果報告要指出樣本、資源或方法的限制，不把未驗證部分說成已完成。
+回饋修正::把收到的意見轉成可檢查的修改項目，再看修正是否解決原問題。
+持續實踐::把學習所得轉為可維持的日常行動，並按環境改變定期調整。`,['專題只訪問5位同學，報告應如何描述結果？','說明這5人的結果及樣本限制','宣稱全校每個人都相同','把沒有訪問的人也列入','刪掉所有方法說明','成果與推論範圍應相符，小樣本不能直接代表全校所有人。']);
+add('technology',7,1,'運算思維與設計入門',`
+演算法::把解決問題的方法寫成明確且可執行的步驟，順序與條件都要清楚。
+輸入處理輸出::系統接收資料，依規則處理，再產生結果；先分清楚每個部分的角色。
+流程圖::用圖形與箭頭表示流程，判斷分支要標清條件，避免只有圖卻沒有可執行順序。
+工程需求::先說明使用者的問題與期待功能，不把選用某種工具誤當問題本身。
+工具安全::依指導正確使用器材並注意防護，不為速度而跳過安全步驟。`,['「把成績輸入程式，程式算平均，再顯示結果」，計算平均屬於？','處理','輸入','輸出','未連線就不存在','成績是輸入，平均計算是處理，顯示平均是輸出。']);
+add('technology',7,2,'程式控制與材料',`
+循序執行::指令依安排的先後順序執行，前一步結果可能影響後一步。
+條件判斷::依條件真假選擇不同流程，需想清楚邊界值與未符合條件時如何處理。
+迴圈::重複執行一組指令；要確認重複次數或終止條件，避免永遠停不下來。
+材料特性::比較強度、重量、加工與環境適用性，不只以外觀決定材料。
+原型::先製作可測試的版本檢查想法，依回饋修正，原型不等於全部測試已通過。`,['程式「重複3次，每次把總數加2」，初值為0，結果是？','6','3','2','8','三次各加2，所以0＋2＋2＋2＝6。']);
+add('technology',8,1,'資料、程式與機構',`
+變數::用名稱保存可使用的資料；同一變數被重新指定後，要依最新值計算。
+串列::把多筆有順序的資料組織在一起，讀取位置時要依所用語言的索引規則。
+測試案例::用具體輸入與預期結果檢查程式，包含一般值、邊界與異常，不只測一筆成功例。
+機構::以零件間的運動關係傳遞或改變動作，例如齒輪、連桿與滑輪的組合。
+傳動比例::齒輪轉速與齒數關係需依嚙合方式判斷；理想一對齒輪的轉速比與齒數比互為倒數。`,['理想外嚙合齒輪A有10齒、B有20齒，A轉2圈時B轉幾圈？','1圈','2圈','4圈','10圈','經過的齒數相同，A的20齒次對應B一整圈。']);
+add('technology',8,2,'網路、電路與設計測試',`
+網路傳輸::裝置依通訊規則交換資料，資料可被分成封包傳送，連上網路不代表內容可信。
+身分驗證::確認使用者身分；強且不重複的密碼與多因素驗證可降低部分帳號風險。
+串聯電路::同一路徑上的元件電流相同；一處斷路可能使整個回路電流中斷。
+並聯電路::支路接在相同兩端時，兩端電壓相同；各支路電流不一定相等。
+設計測試::把測試結果與原先功能及限制比較，記錄失敗條件，才能有根據地改進。`,['同一串聯回路中的兩個電阻，穩態時何者相同？','流過的電流','兩端電壓一定相同','電阻值一定相同','溫度一定相同','串聯只有同一電流路徑；電壓則與各電阻值有關。']);
+add('technology',9,1,'資料素養與控制',`
+資料品質::分析前檢查缺值、重複、錯誤與單位，輸入有問題會影響結果。
+感測器::把環境物理量轉成可讀取的訊號，需考慮量測範圍與誤差。
+回授控制::把量測結果與目標比較後調整動作；要先知道回授訊號代表什麼。
+模型限制::模型以部分條件描述現實；測試範圍外的輸入不一定能可靠處理。
+AI結果查核::生成式系統可能產生流暢但錯誤的內容；需要核對來源、計算與實際測試。`,['自動風扇讀取溫度後調整轉速，溫度量測的用途？','提供控制所需的回授資訊','保證永遠沒有誤差','取代所有安全保護','讓電源不再需要','控制器利用量測與目標或規則比較後調節；仍要考慮誤差與保護。']);
+add('technology',9,2,'整合實作、資安與影響',`
+系統整合::確認不同模組的輸入輸出格式與時序相容，不只把各自能動的零件接在一起。
+版本管理::記錄檔案變動與原因，方便比較、回溯和協作；不是只有最新一份檔案。
+最小權限::只提供完成工作所必需的存取權，減少誤操作或帳號外洩的影響範圍。
+資料備份::保留可還原的資料副本並實際測試還原；看到備份檔存在不等於一定能恢復。
+科技影響評估::除了功能，也比較資源耗用、隱私、可近用性與環境影響，並說明取捨。`,['網站顯示部署成功後，還需要做哪項檢查？','開啟正式網址確認內容與互動','不再看任何畫面','只數程式檔案大小','直接宣稱每部手機都已測過','建置成功只涵蓋流程的一部分，實際網址及互動仍須驗證。']);
+const resources={
+chinese:[['教育部國語辭典','https://dict.revised.moe.edu.tw/']],
+english:[['British Council 青少年文法','https://learnenglishteens.britishcouncil.org/grammar'],['British Council 條件句','https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second']],
+math:[['OpenStax Prealgebra 2e','https://openstax.org/books/prealgebra-2e/pages/1-introduction'],['OpenStax 二次方程式','https://openstax.org/books/elementary-algebra-2e/pages/7-6-quadratic-equations']],
+science:[['OpenStax Biology 2e','https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis'],['中央氣象署地震百問','https://scweb.cwa.gov.tw/zh-tw/guidance/faqdetail/26']],
+social:[['國家教育研究院課綱資料','https://www.naer.edu.tw/PageSyllabus?fid=52']],
+health:[['國民健康署','https://www.hpa.gov.tw/'],['國家教育研究院課綱資料','https://www.naer.edu.tw/PageSyllabus?fid=52']],
+arts:[['國家教育研究院課綱資料','https://www.naer.edu.tw/PageSyllabus?fid=52']],
+integrated:[['國家教育研究院課綱資料','https://www.naer.edu.tw/PageSyllabus?fid=52']],
+technology:[['CISA Secure Our World','https://www.cisa.gov/secure-our-world'],['國家教育研究院課綱資料','https://www.naer.edu.tw/PageSyllabus?fid=52']]
+};
+const school={year:115,checked:'2026-09-24',url:'https://www.jhjhs.ntpc.edu.tw/p/412-1000-178.php',status:'pending',note:'搜尋摘要顯示115學年度；實際可讀列表及附件卻是114／113舊內容，尚未取得可核對的115完整版本表。未將舊表或書商線索列為官方已確認。',rows:[7,8,9].flatMap(grade=>subjects.map(s=>({grade,subject:s.id,publisher:null,status:'pending'})))};
+return{version:'1.2.0',date:'2026-09-24',subjects,units,resources,school,scope:'54個跨版本核心主題群，不是全部課本逐課內容。學期為建議複習分組；本土語文、校訂課程及115正式版本／章節對照尚未完成。'};
 });
 
-</script>
-<script>
-/* Generated by scripts/build.cjs; edit data/*.json instead. */
-window.STUDY_DATA = {
-  "schemaVersion": 1,
-  "appVersion": "1.0.1",
-  "name": "知識小站",
-  "updated": "2026-09-24",
-  "sourceNotice": "先依翰林概念整理生物3-3與4-2。永和國中115學年度選書與課本頁碼待核對；本網站不是學校或出版社官方教材。",
-  "subjects": [
-    {
-      "id": "science",
-      "name": "自然",
-      "short": "理",
-      "status": "published"
-    },
-    {
-      "id": "chinese",
-      "name": "國文",
-      "short": "文",
-      "status": "planned"
-    },
-    {
-      "id": "english",
-      "name": "英語",
-      "short": "Aa",
-      "status": "planned"
-    },
-    {
-      "id": "math",
-      "name": "數學",
-      "short": "π",
-      "status": "planned"
-    },
-    {
-      "id": "social",
-      "name": "社會",
-      "short": "世",
-      "status": "planned"
-    }
-  ],
-  "unitFiles": [
-    "units/bio-3-3.json",
-    "units/bio-4-2.json"
-  ],
-  "sources": [
-    {
-      "id": "photo",
-      "title": "翰林雲端學院｜光合作用",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/光合作用.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "chloroplast",
-      "title": "翰林雲端學院｜葉綠體",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/葉綠體.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "pigment",
-      "title": "翰林雲端學院｜葉綠素",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/葉綠素.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "leaf",
-      "title": "翰林雲端學院｜葉片",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/葉片.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "guard",
-      "title": "翰林雲端學院｜保衛細胞",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/保衛細胞.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "mesophyll",
-      "title": "翰林雲端學院｜葉肉組織",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/葉肉組織.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "stoma",
-      "title": "翰林雲端學院｜氣孔",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/氣孔.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "iodine",
-      "title": "翰林雲端學院｜碘液",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/碘液.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "transpire",
-      "title": "翰林雲端學院｜蒸散作用",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/蒸散作用.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "phloem",
-      "title": "翰林雲端學院｜韌皮部",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/韌皮部.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "bundle",
-      "title": "翰林雲端學院｜莖的維管束",
-      "url": "https://www.ehanlin.com.tw/app/keyword/國中/生物/莖的維管束.html",
-      "note": "",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "transport",
-      "title": "OpenStax Biology 2e §30.5｜植物水分與溶質運輸",
-      "url": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
-      "note": "用於校核運輸方向、蒸散與糖的來源／使用部位；不是國中指定課本。",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "photo-review",
-      "title": "OpenStax Biology 2e §8.1｜光合作用概觀",
-      "url": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
-      "note": "用於校核能量轉換與物質來源；本文為自行整理，非原文翻譯或轉載。",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "moe-transport",
-      "title": "教育大市集｜看見自然 EP204：植物的運輸構造",
-      "url": "https://market.cloud.edu.tw/resources/video/1838967",
-      "note": "教育部委辦數位內容，製作單位：明志科技大學。",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "school-old",
-      "title": "永和國中｜113學年度教科書版本（歷史公告）",
-      "url": "https://www.jhjhs.ntpc.edu.tw/p/405-1000-15182,c178.php",
-      "note": "更正：此前誤將本網址當成115學年度證據。它不能確認115學年度採用版本。",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "github",
-      "title": "GitHub Docs｜設定 Pages 發布來源",
-      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
-      "note": "平台操作說明，不是生物教材來源。",
-      "checked": "2026-09-24"
-    },
-    {
-      "id": "storage",
-      "title": "MDN｜localStorage",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
-      "note": "記錄只保留於同一瀏覽器儲存環境，非跨裝置同步。",
-      "checked": "2026-09-24"
-    }
-  ],
-  "units": [
-    {
-      "id": "bio-3-3",
-      "subject": "science",
-      "domain": "生物",
-      "grade": 7,
-      "semester": 1,
-      "publisher": "翰林概念整理",
-      "schoolYear": "115（學校選書待核對）",
-      "chapter": "3-3",
-      "title": "植物如何製造養分",
-      "summary": "把二氧化碳和水製成養分，並把光能轉成化學能；葉肉是葉片進行光合作用的主要部位。",
-      "tagline": "一束光，一片葉，一份養分。",
-      "tags": [
-        "光合作用",
-        "葉片構造",
-        "實驗判讀"
-      ],
-      "tone": "green",
-      "minutes": 12,
-      "version": "1.0.1",
-      "updated": "2026-09-24",
-      "status": "published",
-      "reviewNote": "已依公開教育資料校核核心概念與題解；115學年度實際課本版本、頁碼及教師指定範圍待核對。",
-      "concepts": [
-        {
-          "id": "purpose",
-          "title": "光合作用，重點是製造養分",
-          "lead": "主要功能：製造葡萄糖等有機養分，不是只為了產生氧氣。",
-          "body": [
-            "植物利用光能，把簡單的原料製成可利用的有機物；能量儲存在有機物中。",
-            "氧氣是過程中的產物。考題問「主要目的」時，要選製造養分。"
-          ],
-          "sources": [
-            "photo",
-            "photo-review"
-          ],
-          "example": "想像葉片是一間用光能工作的工廠：要製造的產品是養分。"
-        },
-        {
-          "id": "ingredients",
-          "title": "原料、條件、產物要分開",
-          "lead": "原料是二氧化碳和水；光提供能量，葉綠素吸收光能。",
-          "body": [
-            "國中簡化式：二氧化碳＋水 → 葡萄糖＋氧氣；箭頭上標示光及葉綠素。",
-            "二氧化碳供應糖中的碳；光合作用釋出的氧氣來自水，而不是把二氧化碳直接拆成氧氣。"
-          ],
-          "sources": [
-            "photo",
-            "pigment",
-            "photo-review"
-          ]
-        },
-        {
-          "id": "chloroplasts",
-          "title": "葉綠體不是葉綠素",
-          "lead": "葉綠體是細胞內的構造；葉綠素是其中能吸收光能的色素。",
-          "body": [
-            "常見綠色植物的光合作用在葉綠體內進行。不是所有植物細胞都有葉綠體，例如根部多數細胞沒有。",
-            "紅色或紫色的葉片可能也有葉綠素，只是被其他色素掩蓋；不能只憑外表顏色判斷。"
-          ],
-          "sources": [
-            "chloroplast",
-            "pigment",
-            "photo-review"
-          ]
-        },
-        {
-          "id": "leaf-structure",
-          "title": "葉肉製造，表皮保護，葉脈運送",
-          "lead": "葉肉細胞有許多葉綠體，是葉片製造養分的主力。",
-          "body": [
-            "一般表皮細胞通常沒有葉綠體；但表皮中的保衛細胞具有葉綠體，是常考的例外。",
-            "兩個保衛細胞之間的空隙是氣孔。氣孔不是細胞；保衛細胞能調節其開閉。",
-            "葉脈內的木質部和韌皮部負責運輸，會在4-2再學到。"
-          ],
-          "sources": [
-            "leaf",
-            "mesophyll",
-            "guard",
-            "stoma",
-            "bundle"
-          ]
-        },
-        {
-          "id": "starch",
-          "title": "葡萄糖可以轉成澱粉儲存",
-          "lead": "碘液檢驗的是澱粉，不是直接檢驗葡萄糖。",
-          "body": [
-            "葡萄糖可以供細胞使用，也能轉變成澱粉儲存；碘液遇到澱粉會出現藍黑色或深藍色。",
-            "直接驗出澱粉，只能證明檢驗時有澱粉。要推論光照的作用，還要先排除原有澱粉並控制其他條件。"
-          ],
-          "sources": [
-            "iodine",
-            "photo",
-            "transport"
-          ]
-        },
-        {
-          "id": "experiments",
-          "title": "實驗題：先找「哪一個條件不同」",
-          "lead": "比較照光與遮光，要讓葉片其他條件盡量相同。",
-          "body": [
-            "先在暗處處理植物，降低原先儲存的澱粉干擾；再讓同一片葉的不同部位照光或遮光。",
-            "在適當條件下，照光處驗出澱粉、遮光處沒有，才支持「光是製造養分所需的條件」。",
-            "比較綠色與已確認缺乏葉綠素的白色部分，則是在研究葉綠素；不可把「看起來非綠色」一概當成沒有葉綠素。"
-          ],
-          "sources": [
-            "photo",
-            "pigment",
-            "iodine"
-          ]
-        }
-      ],
-      "diagrams": [
-        {
-          "kind": "equation",
-          "title": "光合作用，先記住這條路",
-          "note": "這是國中簡化的物質關係，不是完整反應機制。光是能量來源，不是質量的來源。",
-          "conditions": [
-            "光：提供能量",
-            "葉綠素：吸收光能"
-          ],
-          "inputs": [
-            [
-              "CO₂",
-              "二氧化碳・原料"
-            ],
-            [
-              "水",
-              "原料"
-            ]
-          ],
-          "outputs": [
-            [
-              "葡萄糖",
-              "有機養分"
-            ],
-            [
-              "O₂",
-              "氧氣・產物"
-            ]
-          ],
-          "sources": [
-            "photo",
-            "pigment",
-            "photo-review"
-          ]
-        },
-        {
-          "kind": "layers",
-          "title": "從葉片外面，走到裡面",
-          "note": "排列是功能示意，非顯微鏡照片，也不按實際比例繪製。",
-          "items": [
-            [
-              "角質層",
-              "減少水分散失"
-            ],
-            [
-              "上表皮",
-              "保護與透光；一般細胞通常無葉綠體"
-            ],
-            [
-              "葉肉組織",
-              "含許多葉綠體；主要光合作用部位"
-            ],
-            [
-              "葉脈穿行於葉肉中",
-              "木質部運水；韌皮部運養分"
-            ],
-            [
-              "下表皮",
-              "具有保護功能"
-            ],
-            [
-              "保衛細胞 → 氣孔 ← 保衛細胞",
-              "有葉綠體的是保衛細胞；中間空隙不是細胞"
-            ]
-          ],
-          "sources": [
-            "leaf",
-            "mesophyll",
-            "guard",
-            "stoma",
-            "bundle"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "葉片構造，一次分清楚",
-          "headers": [
-            "構造",
-            "葉綠體",
-            "主要功能"
-          ],
-          "rows": [
-            [
-              "一般表皮細胞",
-              "通常沒有",
-              "保護、讓光線穿透"
-            ],
-            [
-              "葉肉細胞",
-              "多",
-              "光合作用"
-            ],
-            [
-              "保衛細胞",
-              "有",
-              "調節氣孔開閉"
-            ],
-            [
-              "氣孔",
-              "不是細胞",
-              "氣體與水蒸氣進出的通道"
-            ],
-            [
-              "葉脈",
-              "不是判讀重點",
-              "運輸水分與養分"
-            ]
-          ],
-          "note": "「表皮通常沒有葉綠體」指一般表皮細胞，不能把保衛細胞也排除。",
-          "sources": [
-            "leaf",
-            "mesophyll",
-            "guard",
-            "stoma",
-            "bundle"
-          ]
-        }
-      ],
-      "experiments": [
-        {
-          "title": "光與光合作用",
-          "question": "光照是否影響葉片形成澱粉？",
-          "steps": [
-            "先在暗處處理，排除原有澱粉的干擾。",
-            "同一片葉部分遮光、部分照光，其他條件盡量相同。",
-            "經教師指導完成脫色、清洗及碘液檢測。"
-          ],
-          "result": "條件適當且實驗成功時，照光處呈藍黑色，遮光處不呈藍黑色。",
-          "conclusion": "支持光是本實驗中製造養分所需的條件。",
-          "warning": "酒精易燃，脫色須由教師指導並採隔水加熱；不可直接用火加熱酒精。",
-          "sources": [
-            "photo",
-            "iodine"
-          ]
-        },
-        {
-          "title": "葉綠素與光合作用",
-          "question": "綠色與缺乏葉綠素的白色區域有何差異？",
-          "steps": [
-            "先標記同一片斑葉的綠色和白色部位。",
-            "排除原有澱粉後，讓兩部位接受相同光照。",
-            "脫色後檢驗澱粉，對照先前的標記判讀。"
-          ],
-          "result": "在控制良好的實驗中，綠色部分有澱粉，缺乏葉綠素的白色部分沒有。",
-          "conclusion": "支持葉綠素對光合作用的重要性；不同的變因是葉綠素，不是光。",
-          "warning": "紅色葉片未必缺乏葉綠素；要依題目提供的實驗條件判斷。",
-          "sources": [
-            "pigment",
-            "chloroplast",
-            "iodine"
-          ]
-        }
-      ],
-      "traps": [
-        {
-          "wrong": "光合作用的主要目的是製造氧氣。",
-          "right": "主要功能是製造有機養分。",
-          "why": "氧氣是產物，不能把副產物當成這題所問的主要目的。",
-          "sources": [
-            "photo"
-          ]
-        },
-        {
-          "wrong": "分解水會釋放二氧化碳。",
-          "right": "光合作用釋出的氧氣來自水。",
-          "why": "二氧化碳是合成糖的原料，不是水分解後的氣體。",
-          "sources": [
-            "photo",
-            "photo-review"
-          ]
-        },
-        {
-          "wrong": "所有植物細胞都能光合作用。",
-          "right": "常見植物中，有葉綠體的細胞才能進行光合作用。",
-          "why": "多數根細胞與一般表皮細胞沒有葉綠體；葉肉和保衛細胞則有。",
-          "sources": [
-            "chloroplast",
-            "mesophyll",
-            "guard"
-          ]
-        },
-        {
-          "wrong": "滴碘液變藍黑色，就直接驗出葡萄糖。",
-          "right": "直接驗出的是澱粉。",
-          "why": "還需要適當的實驗設計，才可推論光合作用與實驗條件的關係。",
-          "sources": [
-            "iodine"
-          ]
-        },
-        {
-          "wrong": "「光合作用通常在葉綠體中進行」是錯的。",
-          "right": "這句在本節常見植物的情境中是正確的。",
-          "why": "不要把「不是所有細胞都有葉綠體」誤當成「光合作用不在葉綠體內進行」。",
-          "sources": [
-            "chloroplast"
-          ]
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "concept": "purpose",
-          "question": "植物進行光合作用的主要功能是什麼？",
-          "options": [
-            {
-              "id": "oxygen",
-              "text": "製造氧氣",
-              "explanation": "氧氣是產物，但不是本題所問的主要功能。"
-            },
-            {
-              "id": "food",
-              "text": "製造有機養分",
-              "explanation": "正確。植物利用光能製造葡萄糖等有機養分。"
-            },
-            {
-              "id": "water",
-              "text": "製造水供根吸收",
-              "explanation": "水主要由根自土壤吸收，且是光合作用原料之一。"
-            },
-            {
-              "id": "minerals",
-              "text": "把光變成無機鹽",
-              "explanation": "光提供能量，不會轉變成無機鹽。"
-            }
-          ],
-          "answer": "food",
-          "sources": [
-            "photo"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q2",
-          "concept": "ingredients",
-          "question": "光合作用過程中，釋出的氧氣主要來自哪一種原料？",
-          "options": [
-            {
-              "id": "co2",
-              "text": "二氧化碳",
-              "explanation": "二氧化碳供應形成糖所需的碳，釋放的氧氣並非來自它。"
-            },
-            {
-              "id": "soil",
-              "text": "土壤中的沙粒",
-              "explanation": "沙粒不是光合作用產生氧氣的來源。"
-            },
-            {
-              "id": "water",
-              "text": "水",
-              "explanation": "正確。水在光合作用過程中被分解，釋出氧氣。"
-            },
-            {
-              "id": "sugar",
-              "text": "澱粉",
-              "explanation": "澱粉是植物儲存養分的形式，不是釋氧來源。"
-            }
-          ],
-          "answer": "water",
-          "sources": [
-            "photo",
-            "photo-review"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q3",
-          "concept": "leaf-structure",
-          "question": "下列哪一個是「通常具有葉綠體，並調節氣孔開閉」的細胞？",
-          "options": [
-            {
-              "id": "guard",
-              "text": "保衛細胞",
-              "explanation": "正確。保衛細胞有葉綠體，主要功能是調節氣孔開閉。"
-            },
-            {
-              "id": "epidermis",
-              "text": "一般表皮細胞",
-              "explanation": "一般表皮細胞通常沒有葉綠體。"
-            },
-            {
-              "id": "root",
-              "text": "根部多數細胞",
-              "explanation": "多數根細胞沒有葉綠體，也不負責氣孔開閉。"
-            },
-            {
-              "id": "pore",
-              "text": "氣孔",
-              "explanation": "氣孔是兩個保衛細胞間的空隙，不是一個細胞。"
-            }
-          ],
-          "answer": "guard",
-          "sources": [
-            "guard",
-            "stoma"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q4",
-          "concept": "experiments",
-          "question": "先排除原有澱粉，再讓同一片葉部分遮光、部分照光。照光處加碘液變藍黑色，遮光處沒有。最適當的推論是？",
-          "options": [
-            {
-              "id": "oxygen",
-              "text": "氧氣是光合作用必要原料",
-              "explanation": "這個實驗沒有操縱氧氣，也不能得出此結論。"
-            },
-            {
-              "id": "chlorophyll",
-              "text": "遮光處一定沒有葉綠素",
-              "explanation": "遮光不等於沒有葉綠素。"
-            },
-            {
-              "id": "all",
-              "text": "所有細胞都能光合作用",
-              "explanation": "不同處理的同一片葉，不能證明所有植物細胞都有這個能力。"
-            },
-            {
-              "id": "light",
-              "text": "光是這個實驗中形成養分所需的條件",
-              "explanation": "正確。兩部位主要差別是光照，檢測結果則是澱粉有無。"
-            }
-          ],
-          "answer": "light",
-          "sources": [
-            "photo",
-            "iodine"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q5",
-          "concept": "chloroplasts",
-          "question": "下列哪些敘述錯誤？\n甲：光合作用主要為了製造氧氣。\n乙：葡萄糖能轉成澱粉儲存。\n丙：常見植物的光合作用在葉綠體中進行。\n丁：水分解後釋出二氧化碳。\n戊：所有植物細胞都能進行光合作用。",
-          "options": [
-            {
-              "id": "a",
-              "text": "甲、丁、戊",
-              "explanation": "正確。甲應為製造養分；丁應釋出氧氣；戊忽略許多細胞沒有葉綠體。乙與丙皆正確。"
-            },
-            {
-              "id": "b",
-              "text": "乙、丙",
-              "explanation": "乙與丙是正確敘述，不應選為錯誤。"
-            },
-            {
-              "id": "c",
-              "text": "甲、丙、戊",
-              "explanation": "甲與戊錯，但丙正確；這組漏掉了錯誤的丁。"
-            },
-            {
-              "id": "d",
-              "text": "丙、丁、戊",
-              "explanation": "丁與戊錯，但丙正確；這組漏掉了錯誤的甲。"
-            }
-          ],
-          "answer": "a",
-          "sources": [
-            "photo",
-            "chloroplast",
-            "iodine",
-            "photo-review"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        }
-      ],
-      "quick": [
-        "主要功能：製造有機養分；氧氣是產物。",
-        "原料：二氧化碳＋水；條件：光與葉綠素。",
-        "能量：光能 → 養分中的化學能。",
-        "葉綠體是構造，葉綠素是色素。",
-        "葉肉細胞葉綠體多；保衛細胞也有；一般表皮細胞通常沒有。",
-        "氣孔是空隙，不是一個細胞。",
-        "葡萄糖可轉成澱粉；碘液遇澱粉呈藍黑色。",
-        "實驗先排除原有澱粉，再找「唯一不同的條件」。",
-        "遇到原第6題那組敘述：甲、丁、戊錯，乙、丙對；答案是A。"
-      ]
-    },
-    {
-      "id": "bio-4-2",
-      "subject": "science",
-      "domain": "生物",
-      "grade": 7,
-      "semester": 1,
-      "publisher": "翰林概念整理",
-      "schoolYear": "115（學校選書待核對）",
-      "chapter": "4-2",
-      "title": "植物體內物質的運輸",
-      "summary": "根吸收的水分與無機鹽主要走木質部；有機養分走韌皮部；蒸散作用促進水分上升。",
-      "tagline": "水與養分，各有路線。",
-      "tags": [
-        "木質部與韌皮部",
-        "蒸散作用",
-        "維管束"
-      ],
-      "tone": "blue",
-      "minutes": 12,
-      "version": "1.0.1",
-      "updated": "2026-09-24",
-      "status": "published",
-      "reviewNote": "已依公開教育資料校核核心概念與題解；115學年度實際課本版本、頁碼及教師指定範圍待核對。",
-      "concepts": [
-        {
-          "id": "root",
-          "title": "根吸收水分，也吸收無機鹽",
-          "lead": "根毛增加接觸土壤的面積，有利於吸收。",
-          "body": [
-            "水和溶在水中的無機鹽由根進入植物。水進入根細胞與滲透作用有關。",
-            "土壤不是把葡萄糖送給根。植物主要透過光合作用製造有機養分；肥料提供的是生長所需的礦物元素。"
-          ],
-          "sources": [
-            "transport",
-            "moe-transport"
-          ]
-        },
-        {
-          "id": "xylem",
-          "title": "木質部：水與無機鹽的上行路線",
-          "lead": "在本節正常根到葉的情境中，水分主要由下往上運輸。",
-          "body": [
-            "根吸收的水分與無機鹽，經根、莖、葉相通的木質部送到上部。",
-            "有色水實驗常見木質部被染色，顯示它是水分運輸的通路。"
-          ],
-          "sources": [
-            "transport",
-            "moe-transport"
-          ],
-          "example": "記憶提示：木運水，根到葉。"
-        },
-        {
-          "id": "phloem",
-          "title": "韌皮部：把養分送到需要的部位",
-          "lead": "整株植物的養分運輸可向上，也可向下；不是只會往根送。",
-          "body": [
-            "養分由供應部位送往正在生長或儲存的部位，例如芽、根、果實。",
-            "補充：長距離運輸的糖主要是蔗糖，不是把整粒澱粉送進管道。不同運輸路線的方向可以不同。"
-          ],
-          "sources": [
-            "phloem",
-            "transport"
-          ],
-          "example": "記憶提示：韌運糖，送到需要的地方。"
-        },
-        {
-          "id": "transpiration",
-          "title": "蒸散作用：水先蒸發，再逸出葉片",
-          "lead": "植物體內水分以水蒸氣形式散失，主要經過氣孔。",
-          "body": [
-            "葉片散失水分會形成拉力，促進木質部內的水由根向上運送。",
-            "蒸散不是光合作用，也不是植物把液態水「吐出來」。套袋後的水珠是水蒸氣凝結的結果。"
-          ],
-          "sources": [
-            "transpire",
-            "stoma",
-            "transport"
-          ]
-        },
-        {
-          "id": "environment",
-          "title": "乾燥、有風，通常更容易失水",
-          "lead": "比較環境時，須假設其他條件相近且植物沒有嚴重缺水。",
-          "body": [
-            "一般而言，空氣乾燥、氣流增強或溫度升高，會增加蒸散的趨勢；潮濕則降低散失。",
-            "但嚴重缺水時氣孔可能關閉，蒸散會下降。因此不能背成「越熱，蒸散一定越快」。"
-          ],
-          "sources": [
-            "transport",
-            "transpire",
-            "guard"
-          ]
-        },
-        {
-          "id": "vascular",
-          "title": "維管束：木質部和韌皮部一起看",
-          "lead": "典型雙子葉植物莖的維管束中，木質部偏內、韌皮部偏外。",
-          "body": [
-            "雙子葉植物莖的維管束通常呈環狀排列；單子葉植物通常呈散生排列。雙子葉植物兩者間可有形成層。",
-            "補充題型：若環狀剝除含韌皮部的樹皮而木質部仍完整，養分往下運送受阻；短期內水仍能往上。"
-          ],
-          "sources": [
-            "bundle",
-            "phloem",
-            "transport"
-          ]
-        }
-      ],
-      "diagrams": [
-        {
-          "kind": "flow",
-          "title": "水的旅程：土壤 → 葉片 → 空氣",
-          "note": "根到葉主要走木質部；水在葉內蒸發，再以水蒸氣經氣孔逸散。",
-          "items": [
-            [
-              "土壤",
-              "水＋無機鹽"
-            ],
-            [
-              "根／根毛",
-              "吸收"
-            ],
-            [
-              "根與莖的木質部",
-              "主要向上運輸"
-            ],
-            [
-              "葉片",
-              "水在葉內蒸發"
-            ],
-            [
-              "氣孔 → 空氣",
-              "水蒸氣散失：蒸散作用"
-            ]
-          ],
-          "sources": [
-            "transport",
-            "transpire",
-            "stoma",
-            "moe-transport"
-          ]
-        },
-        {
-          "kind": "branches",
-          "title": "養分不是只往下送",
-          "note": "箭頭表示整株的不同運輸路線，不是同一條管道在同一時刻相向流動。",
-          "center": [
-            "葉片等供應部位",
-            "可運輸的有機養分"
-          ],
-          "branches": [
-            [
-              "向上：芽與幼葉",
-              "生長需要"
-            ],
-            [
-              "向其他部位：果實、種子",
-              "發育或儲存"
-            ],
-            [
-              "向下：根與地下儲藏器官",
-              "生長或儲存"
-            ]
-          ],
-          "label": "韌皮部",
-          "sources": [
-            "phloem",
-            "transport"
-          ]
-        },
-        {
-          "kind": "layers",
-          "title": "典型雙子葉植物莖：從外到內",
-          "note": "只是維管束內外關係示意，並非樹幹所有組織的完整橫切圖。",
-          "items": [
-            [
-              "偏外側：韌皮部",
-              "運輸有機養分"
-            ],
-            [
-              "中間：形成層",
-              "可產生新的運輸組織"
-            ],
-            [
-              "偏內側：木質部",
-              "運輸水分與無機鹽"
-            ]
-          ],
-          "sources": [
-            "bundle"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "木質部 vs. 韌皮部",
-          "headers": [
-            "比較",
-            "木質部",
-            "韌皮部"
-          ],
-          "rows": [
-            [
-              "主要運送",
-              "水＋無機鹽",
-              "有機養分（主要以蔗糖運送）"
-            ],
-            [
-              "方向",
-              "根到葉，主要向上",
-              "依供應和需求，可向上或向下"
-            ],
-            [
-              "常見來源",
-              "根吸收",
-              "葉製造，或儲藏器官釋出"
-            ],
-            [
-              "典型雙子葉莖位置",
-              "偏內側",
-              "偏外側"
-            ],
-            [
-              "考題線索",
-              "有色水染色",
-              "環狀剝皮阻礙養分"
-            ]
-          ],
-          "note": "「養分」在此專指有機養分；兩種運輸液都含水，不能延伸成韌皮部裡完全沒有水。",
-          "sources": [
-            "moe-transport",
-            "phloem",
-            "bundle",
-            "transport"
-          ]
-        },
-        {
-          "title": "環境對蒸散的影響",
-          "headers": [
-            "條件改變",
-            "一般趨勢",
-            "判斷前提"
-          ],
-          "rows": [
-            [
-              "空氣更乾燥",
-              "較強",
-              "水分供應、氣孔狀態相近"
-            ],
-            [
-              "空氣更潮濕",
-              "較弱",
-              "其他條件相近"
-            ],
-            [
-              "風速增加",
-              "通常較強",
-              "不造成嚴重失水或氣孔關閉"
-            ],
-            [
-              "溫度升高",
-              "通常較強",
-              "在適當生理範圍內"
-            ],
-            [
-              "氣孔關閉",
-              "降低",
-              "不代表完全沒有水分散失"
-            ]
-          ],
-          "note": "不能只看單一因素下結論；遇到缺水情境，要先考慮氣孔調節。",
-          "sources": [
-            "transport",
-            "transpire",
-            "guard"
-          ]
-        }
-      ],
-      "experiments": [
-        {
-          "title": "有色水找運輸通道",
-          "question": "水在莖內沿哪一種構造運輸？",
-          "steps": [
-            "讓植物切下的莖吸收有色水。",
-            "觀察莖的橫切面與縱切面中被染色的位置。",
-            "把染色部分與維管束位置對照。"
-          ],
-          "result": "在合適操作下，主要可觀察到木質部的染色路徑。",
-          "conclusion": "支持木質部是水分向上運送的通路。",
-          "warning": "切片由教師指導；不是整根莖被染色就能直接區分各種組織。",
-          "sources": [
-            "moe-transport",
-            "transport"
-          ]
-        },
-        {
-          "title": "葉片套袋觀察蒸散",
-          "question": "袋內的水珠是否可能來自葉片？",
-          "steps": [
-            "使用乾燥透明袋套住葉枝，避免把濕土一併包入。",
-            "另設無葉或空袋對照，控制環境與時間。",
-            "觀察袋內凝結的水珠並比較對照。"
-          ],
-          "result": "有葉枝袋中可出現較明顯水珠；水蒸氣散出後凝結。",
-          "conclusion": "排除其他水氣來源後，支持葉片會散失水分。",
-          "warning": "袋內水珠本身不是氣孔排出的液滴；它們經過水蒸氣凝結而成。",
-          "sources": [
-            "transpire",
-            "stoma"
-          ]
-        },
-        {
-          "title": "環狀剝皮的思考題（補充）",
-          "question": "木質部仍完整，為什麼傷口上方可能膨大？",
-          "steps": [
-            "題目前提：剝除一圈含韌皮部的樹皮。",
-            "先追蹤葉片製造的養分往根的路徑是否中斷。",
-            "再分開判斷完整木質部是否仍能送水。"
-          ],
-          "result": "養分向下運輸受阻，可能在剝除處上方累積；短期水分上運仍可持續。",
-          "conclusion": "水與養分主要走不同的運輸組織；長期根部缺乏養分仍會傷害整株。",
-          "warning": "這是題型解析，不建議自行剝樹皮；是否列入考試以老師範圍為準。",
-          "sources": [
-            "phloem",
-            "bundle",
-            "transport"
-          ]
-        }
-      ],
-      "traps": [
-        {
-          "wrong": "木質部主要運送葡萄糖。",
-          "right": "木質部主要運水與無機鹽；韌皮部主要運有機養分。",
-          "why": "先分清運什麼，再判斷方向。",
-          "sources": [
-            "moe-transport",
-            "phloem"
-          ]
-        },
-        {
-          "wrong": "韌皮部只會由上往下運輸。",
-          "right": "養分可以由供應處向上或向下送到需要的部位。",
-          "why": "芽可能在葉片上方，根則在下方，兩者都需要有機養分。",
-          "sources": [
-            "phloem",
-            "transport"
-          ]
-        },
-        {
-          "wrong": "蒸散就是植物把液態水從氣孔排出去。",
-          "right": "蒸散是水以水蒸氣形式散失。",
-          "why": "套袋裡看見的液滴，是散出的水蒸氣凝結而成。",
-          "sources": [
-            "transpire",
-            "stoma"
-          ]
-        },
-        {
-          "wrong": "越炎熱，蒸散一定越強。",
-          "right": "其他條件相近時通常較強；嚴重缺水可能使氣孔關閉。",
-          "why": "題目若有缺水條件，不能忽略植物的調節。",
-          "sources": [
-            "transport",
-            "guard"
-          ]
-        },
-        {
-          "wrong": "剝掉一圈樹皮，水立即完全上不去。",
-          "right": "若木質部完整，短期水分仍可向上；先受阻的是養分運輸。",
-          "why": "長期根部得不到養分，才會逐步影響整株。",
-          "sources": [
-            "phloem",
-            "bundle",
-            "transport"
-          ]
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "concept": "xylem",
-          "question": "根吸收的水與無機鹽，主要經哪種組織送到葉片？",
-          "options": [
-            {
-              "id": "phloem",
-              "text": "韌皮部",
-              "explanation": "韌皮部主要運送有機養分，不是此題的水與無機鹽上運通道。"
-            },
-            {
-              "id": "xylem",
-              "text": "木質部",
-              "explanation": "正確。根、莖、葉相通的木質部負責這項運輸。"
-            },
-            {
-              "id": "pore",
-              "text": "氣孔",
-              "explanation": "氣孔是葉片上的開口，不是從根延伸到葉片的管道。"
-            },
-            {
-              "id": "skin",
-              "text": "一般表皮",
-              "explanation": "表皮主要保護，並非主要長距離運輸通道。"
-            }
-          ],
-          "answer": "xylem",
-          "sources": [
-            "moe-transport",
-            "transport"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q2",
-          "concept": "phloem",
-          "question": "葉片製造的養分要送到它上方的嫩芽，哪一個敘述最適當？",
-          "options": [
-            {
-              "id": "down",
-              "text": "韌皮部只能向下，所以送不到",
-              "explanation": "韌皮部不是只能向下運送。"
-            },
-            {
-              "id": "water",
-              "text": "改由木質部運送澱粉粒",
-              "explanation": "木質部主要運水與無機鹽；澱粉粒也不是長距離運輸的糖形式。"
-            },
-            {
-              "id": "up",
-              "text": "可經韌皮部向上送往嫩芽",
-              "explanation": "正確。方向依供應部位與需要部位而定。"
-            },
-            {
-              "id": "air",
-              "text": "全部直接由氣孔吸入",
-              "explanation": "氣孔進出的氣體不能直接取代運輸來的有機養分。"
-            }
-          ],
-          "answer": "up",
-          "sources": [
-            "phloem",
-            "transport"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q3",
-          "concept": "transpiration",
-          "question": "葉片套乾燥透明袋，排除濕土等干擾後袋內出現水珠，最適當的解釋是？",
-          "options": [
-            {
-              "id": "vapour",
-              "text": "葉片散出的水蒸氣在袋內凝結",
-              "explanation": "正確。蒸散是水蒸氣散失，之後才凝結成看見的水珠。"
-            },
-            {
-              "id": "oxygen",
-              "text": "氧氣變成水珠",
-              "explanation": "氧氣不會因套袋就自行凝結成水。"
-            },
-            {
-              "id": "sugar",
-              "text": "葡萄糖從氣孔流出",
-              "explanation": "這不是套袋水珠的形成原因。"
-            },
-            {
-              "id": "solid",
-              "text": "無機鹽變成水",
-              "explanation": "無機鹽不會轉變成水。"
-            }
-          ],
-          "answer": "vapour",
-          "sources": [
-            "transpire",
-            "stoma"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q4",
-          "concept": "environment",
-          "question": "同種植物、土壤水分充足、氣孔開啟程度相近，哪一種空氣條件通常讓蒸散較旺盛？",
-          "options": [
-            {
-              "id": "humid",
-              "text": "潮濕且無風",
-              "explanation": "潮濕且空氣流動小，通常較不利水蒸氣散失。"
-            },
-            {
-              "id": "closed",
-              "text": "完全密閉且接近飽和濕度",
-              "explanation": "水蒸氣差異小，通常使蒸散降低。"
-            },
-            {
-              "id": "cold",
-              "text": "較冷且潮濕",
-              "explanation": "一般不會比乾燥有風時更旺盛。"
-            },
-            {
-              "id": "dry",
-              "text": "較乾燥且有適度氣流",
-              "explanation": "正確。在題目控制的條件下，較有利水蒸氣散失。"
-            }
-          ],
-          "answer": "dry",
-          "sources": [
-            "transport",
-            "transpire"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        },
-        {
-          "id": "q5",
-          "concept": "vascular",
-          "question": "典型雙子葉植物莖的同一束維管束中，從外側往內側依序是哪一組？",
-          "options": [
-            {
-              "id": "a",
-              "text": "木質部 → 形成層 → 韌皮部",
-              "explanation": "內外顛倒了，木質部偏內側。"
-            },
-            {
-              "id": "b",
-              "text": "韌皮部 → 形成層 → 木質部",
-              "explanation": "正確。韌皮部偏外，木質部偏內，兩者間可有形成層。"
-            },
-            {
-              "id": "c",
-              "text": "形成層 → 木質部 → 韌皮部",
-              "explanation": "形成層的位置不在兩種運輸組織的外面。"
-            },
-            {
-              "id": "d",
-              "text": "氣孔 → 保衛細胞 → 葉肉",
-              "explanation": "這組是葉片構造，不是莖的維管束排列。"
-            }
-          ],
-          "answer": "b",
-          "sources": [
-            "bundle"
-          ],
-          "origin": "本站原創觀念檢測；非官方會考真題"
-        }
-      ],
-      "quick": [
-        "根吸收：水與無機鹽；根毛增加接觸面積。",
-        "木質部：水＋無機鹽，正常根到葉的情境主要向上。",
-        "韌皮部：有機養分，由供應部位送到需要部位，可上可下。",
-        "補充：長距離運輸的糖主要是蔗糖，不是澱粉粒。",
-        "蒸散：水以水蒸氣散出，主要經氣孔。",
-        "蒸散促進木質部的水上升；套袋水珠是凝結的結果。",
-        "乾燥、有風通常較易失水；嚴重缺水可能使氣孔關閉。",
-        "典型雙子葉莖：韌皮部在外、形成層在中、木質部在內。",
-        "有色水找木質部；環狀剝皮題先追蹤韌皮部的養分路徑。"
-      ]
-    }
-  ]
-};
-
-</script>
-<script>
-/* Knowledge Station: data-driven, dependency-free, local-only study UI. */
-(() => {
-  'use strict';
-  const C = window.StudyCore;
-  const D = window.STUDY_DATA;
-  const $ = (s, scope = document) => scope.querySelector(s);
-  const main = $('#main');
-  if (!C || !D) return;
-  const errors = C.validateData(D);
-  const E = C.escapeHTML;
-  if (errors.length) {
-    main.innerHTML = `<div class="empty"><h1>教材資料需要修正</h1><p>${E(errors.join('；'))}</p><p>請恢復上一份有效資料後再開啟。</p></div>`;
-    return;
-  }
-  const KEY = 'jh-study-notes.progress.v1';
-  const units = D.units.filter(u => u.status === 'published');
-  const sources = new Map(D.sources.map(s => [s.id, s]));
-  const tabs = [['notes','重點整理'], ['diagrams','圖解比較'], ['traps','易錯觀念'], ['quiz','自我檢測'], ['quick','考前三分鐘']];
-  let state = C.defaultState();
-  let persistent = true;
-  let storageConflict = false;
-  let route = {view:'home'};
-  let noticeTimer;
-  const sessions = new Map();
-
-  function warnStorage(message) {
-    $('#storage-warning').hidden = false;
-    $('#storage-warning').textContent = message;
-  }
-  try {
-    const raw = window.localStorage.getItem(KEY);
-    if (raw) {
-      try { state = C.validateBackup(JSON.parse(raw), D); }
-      catch (_) {
-        storageConflict = true;
-        persistent = false;
-        warnStorage('原有進度格式與目前教材不符，尚未覆寫。現在使用暫存模式；可在「使用與備份」匯出暫存進度或匯入有效備份。');
-      }
-    }
-  } catch (_) {
-    persistent = false;
-    warnStorage('此瀏覽器目前不允許儲存進度。閱讀與測驗仍可使用；離開前請至「使用與備份」匯出進度。');
-  }
-  function toast(message) {
-    const n = $('#notice'); n.textContent = message; n.classList.add('visible');
-    clearTimeout(noticeTimer); noticeTimer = setTimeout(() => n.classList.remove('visible'), 4200);
-  }
-  function save() {
-    if (!persistent) return;
-    try { window.localStorage.setItem(KEY, JSON.stringify(state)); }
-    catch (_) {
-      persistent = false;
-      warnStorage('進度儲存失敗（可能是空間不足或瀏覽器限制）。目前進度仍在本頁，請先匯出備份再離開。');
-    }
-  }
-  function setFont() { document.documentElement.dataset.font = String(state.font); }
-  setFont();
-  function sourceLine(ids) {
-    const links = [...new Set(ids)].map(id => {
-      const s = sources.get(id), url = s && C.safeURL(s.url);
-      return url ? `<a href="${E(url)}" target="_blank" rel="noopener noreferrer">${E(s.title)}</a>` : '';
-    }).filter(Boolean);
-    return links.length ? `<div class="source-line">資料參考：${links.join(' · ')}</div>` : '';
-  }
-  function subjectName(u) { return D.subjects.find(s=>s.id===u.subject)?.name || '學科'; }
-  function gradeLabel(u) { return ({7:'七',8:'八',9:'九'}[u.grade] || u.grade)+'年級'+(u.semester===1?'上':'下')+'學期'; }
-  function unitLabel(u, separator=' · ') { return subjectName(u)+(u.domain&&u.domain!==subjectName(u)?separator+u.domain:'')+' '+u.chapter; }
-  function hitLabel(h) {const u=units.find(u=>u.id===h.unit);return u?unitLabel(u):h.chapter;}
-  function unitURL(u, tab='notes') { return `#/unit/${u.id}/${tab}`; }
-  function getUnit() { return units.find(u => u.id === route.id); }
-  function routeFromHash() {
-    const hash = location.hash.slice(1) || '/home';
-    const [path, query=''] = hash.split('?');
-    const parts = path.split('/').filter(Boolean);
-    const result = {view:parts[0] || 'home', id:parts[1], tab:parts[2] || 'notes', params:new URLSearchParams(query)};
-    if (result.view === 'unit' && !tabs.some(t => t[0] === result.tab)) result.tab = 'notes';
-    return result;
-  }
-  function navigate(hash) {
-    if (location.hash === hash) render(); else location.hash = hash;
-  }
-  function navigation() {
-    const active = type => route.view === type ? ' active' : '';
-    $('#sidebar').innerHTML = `<a href="#/home" class="brand"><span class="brand-mark">知</span><span><span class="brand-name">知識小站</span><span class="brand-sub">STUDY NOTES</span></span></a>
-      <div class="nav-group"><div class="nav-label">我的學習</div>
-      <a class="nav-item${active('home')}" href="#/home"><span class="nav-icon">⌂</span>學習首頁</a>
-      <a class="nav-item${active('review')}" href="#/review"><span class="nav-icon">☆</span>我的複習<span class="end">${state.starred.length}</span></a></div>
-      <div class="nav-group"><div class="nav-label">學科目錄</div>${D.subjects.map(s => {
-        const ready = units.some(u => u.subject === s.id);
-        return ready ? `<a class="nav-item${(route.view === 'unit' || route.view === 'subject') && (getUnit()?.subject === s.id || route.id === s.id) ? ' active':''}" href="#/subject/${E(s.id)}"><span class="nav-icon">${E(s.short)}</span>${E(s.name)}<span class="end">${units.filter(u=>u.subject===s.id).length}</span></a>` : `<div class="nav-item dim" aria-disabled="true"><span class="nav-icon">${E(s.short)}</span>${E(s.name)}<span class="end">待新增</span></div>`;
-      }).join('')}</div><div class="sidebar-bottom"><a class="nav-item${active('help')}" href="#/help"><span class="nav-icon">☷</span>使用與備份</a><div class="local-note">進度只存在這個瀏覽器<br>定期備份，安心複習。</div><div class="version-line">V${E(D.appVersion)} · ${E(D.updated)}</div></div>`;
-    $('#mobile-nav').innerHTML = [['home','⌂','首頁'],['review','☆','複習'],['search','⌕','搜尋'],['help','☷','使用說明']].map(([id,icon,label])=>`<a href="#/${id}" class="${route.view===id?'active':''}"><span aria-hidden="true">${icon}</span>${label}</a>`).join('');
-    const labels = {home:'學習首頁',review:'我的複習',search:'搜尋教材',help:'使用與備份',subject:'學科目錄'};
-    $('#breadcrumb').textContent = route.view === 'unit' ? (getUnit()?unitLabel(getUnit(),' ／ '):'學習章節') : labels[route.view] || '知識小站';
-  }
-  function heading(title, description='') {
-    return `<div class="section-heading"><h2>${E(title)}</h2>${description ? `<p>${E(description)}</p>` : ''}</div>`;
-  }
-  function unitCard(u) {
-    const s = C.score(u, state.answers);
-    return `<article class="unit-card" data-unit-card="${u.id}"><a href="${unitURL(u)}" class="unit-cover ${u.tone==='blue'?'blue':''}" aria-label="開啟${E(u.chapter+' '+u.title)}"><span class="eyebrow">${E(subjectName(u)+(u.domain?" · "+u.domain:""))}</span><span class="chapter-number">${E(u.chapter)}</span><span class="cover-symbol" aria-hidden="true">${u.tone==='blue'?'↟':'☘'}</span></a>
-      <div class="unit-card-body"><div class="badge-row"><span class="badge green">${E(gradeLabel(u))}</span><span class="badge">${E(u.publisher)}</span></div><h3><a href="${unitURL(u)}">${E(u.title)}</a></h3><p>${E(u.summary)}</p><div class="tag-row">${u.tags.map(x=>`<span class="tag">${E(x)}</span>`).join('')}</div></div>
-      <div class="unit-card-foot"><span>${state.read.includes(u.id)?'✓ 已讀完':`${u.concepts.length} 個重點 · 約 ${u.minutes} 分鐘`}${s.answered ? ` · 測驗 ${s.correct}/${s.total}`:''}</span><a href="${unitURL(u)}">開始學習 <span aria-hidden="true">↗</span></a></div></article>`;
-  }
-  function home(subject) {
-    const showing = subject ? units.filter(u => u.subject === subject.id) : units;
-    const readCount = units.filter(u=>state.read.includes(u.id)).length;
-    const answerCount = units.reduce((n,u)=>n+C.score(u,state.answers).answered,0);
-    return `<div data-view="home"><div class="intro-line"><strong>今天，也讀懂一點點。</strong><span>國中學習重點庫 · V${E(D.appVersion)}</span></div>
-      ${!subject ? `<section class="hero"><div><div class="eyebrow">YOUR EVERYDAY STUDY SPACE</div><h1>把重點讀懂，</h1><div class="hero-second">把觀念記牢。</div><p class="desc">把一章拆成幾個小重點。<br>用圖解串起觀念，用測驗確認真的懂了。</p><a href="${unitURL(units.find(u=>!state.read.includes(u.id)) || units[0])}" class="btn primary">開始今天的學習 <span class="arrow">↗</span></a></div><div class="hero-art" aria-hidden="true"><div class="sun">☼</div><div class="paper-card"><div class="paper-top">BIOLOGY NOTES <span>3-3</span></div><h3>一束光，一份養分。</h3><div class="paper-equation"><span>水＋CO₂</span><b>↓ 光</b><strong>葡萄糖＋O₂</strong></div><div class="paper-note">先分清楚原料，再記住產物。</div></div><div class="sticky-note">讀懂，比背熟更重要。</div></div></section>
-      <section class="stats" aria-label="學習概況"><div class="stat"><span class="stat-symbol">▤</span><div><strong>${units.length} <small>個章節</small></strong><p>已備好重點與圖解</p></div></div><div class="stat"><span class="stat-symbol">✓</span><div><strong>${readCount} <small>個已讀完</small></strong><p>依你的步調，一節一節來</p></div></div><div class="stat"><span class="stat-symbol">✎</span><div><strong>${answerCount} <small>題已練習</small></strong><p>每題都有完整解析</p></div></div></section>` : ''}
-      <div class="section-top"><div><h2>${subject ? E(subject.name)+'學習目錄' : '從這一章開始'}</h2><p>選一節重點，讓今天的學習有個小成果。</p></div><span class="badge">第一批 · 生物 3-3 / 4-2</span></div>
-      <div class="chips"><a href="#/home" class="chip ${!subject?'active':''}">全部 ${units.length}</a>${D.subjects.map(s=>units.some(u=>u.subject===s.id)?`<a href="#/subject/${s.id}" class="chip ${subject?.id===s.id?'active':''}">${E(s.name)}</a>`:`<span class="chip dim">${E(s.name)} · 待新增</span>`).join('')}</div>
-      <div class="unit-grid">${showing.map(unitCard).join('')}</div>
-      <div class="two-tips"><section class="tip-box"><div class="eyebrow">A SMALL ROUTINE</div><h3>不用一次背完，先走完三步。</h3><div class="steps-inline"><span>① 看重點</span><span>② 懂圖解</span><span>③ 做檢測</span></div><p>遇到不熟的觀念，點選星號放進「我的複習」。</p></section><section class="tip-box"><div class="eyebrow">ONE TEMPLATE, MANY SUBJECTS</div><h3>同一個小站，持續累積各科。</h3><p>目前有生物兩節。其他科目尚未建立，之後可沿用同一套版型新增教材。</p><a href="#/help">查看內容版本與使用方式 ↗</a></section></div>
-      <div class="version-note">${E(D.sourceNotice)} <a href="#/help">查看核對紀錄</a></div></div>`;
-  }
-  function conceptCard(u,c,i) {
-    const key = `${u.id}/${c.id}`, saved=state.starred.includes(key);
-    return `<article class="concept-card" data-concept-card="${E(c.id)}" id="concept-${E(c.id)}"><div class="concept-top"><span class="index-pill">重點 ${String(i+1).padStart(2,'0')}</span><button type="button" class="star-btn${saved?' saved':''}" data-star="${E(key)}" aria-pressed="${saved}" aria-label="${saved?'移除複習':'加入複習'}：${E(c.title)}">${saved?'★':'☆'}</button></div><h3>${E(c.title)}</h3><p class="lead">${E(c.lead)}</p><div class="concept-body">${c.body.map(p=>`<p>${E(p)}</p>`).join('')}</div>${c.example?`<div class="example">${E(c.example)}</div>`:''}${sourceLine(c.sources)}</article>`;
-  }
-  function notes(u) {
-    return `${heading('先讀懂這 '+u.concepts.length+' 個重點','每張卡片只解決一個觀念。還不熟的，點星號留待複習。')}<div class="concept-grid">${u.concepts.map((c,i)=>conceptCard(u,c,i)).join('')}</div>`;
-  }
-  function diagram(d) {
-    let body='';
-    if (d.kind==='equation') {
-      body=`<div class="condition-row">${d.conditions.map(x=>`<span class="condition">${E(x)}</span>`).join('')}</div><div class="equation-pair">${d.inputs.map(x=>`<div class="equation-box"><strong>${E(x[0])}</strong><span>${E(x[1])}</span></div>`).join('<b>＋</b>')}</div><div class="reaction-arrow" aria-label="轉變成">↓</div><div class="equation-pair outputs">${d.outputs.map(x=>`<div class="equation-box"><strong>${E(x[0])}</strong><span>${E(x[1])}</span></div>`).join('<b>＋</b>')}</div>`;
-    } else if(d.kind==='layers') {
-      body=`<div class="layers">${d.items.map(x=>`<div class="layer"><strong>${E(x[0])}</strong><span>${E(x[1])}</span></div>`).join('')}</div>`;
-    } else if(d.kind==='flow') {
-      body=`<div class="flow-list">${d.items.map(x=>`<div class="flow-node"><strong>${E(x[0])}</strong><span>${E(x[1])}</span></div>`).join('<div class="flow-arrow" aria-hidden="true">↓</div>')}</div>`;
-    } else if(d.kind==='branches') {
-      body=`<div class="branch-center"><strong>${E(d.center[0])}</strong><span>${E(d.center[1])}</span></div><div class="branch-label">經由 ${E(d.label)}，分送各處</div>${d.branches.map(x=>`<div class="branch-node"><strong>${E(x[0])}</strong><span>${E(x[1])}</span></div>`).join('')}`;
-    }
-    return `<section class="panel diagram"><h3>${E(d.title)}</h3>${body}<p class="diagram-note">${E(d.note)}</p>${sourceLine(d.sources)}</section>`;
-  }
-  function table(t) {
-    return `<section class="panel"><h3>${E(t.title)}</h3><div class="table-scroll" tabindex="0" role="region" aria-label="${E(t.title)}"><table><thead><tr>${t.headers.map(x=>`<th scope="col">${E(x)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(r=>`<tr>${r.map((x,i)=>i===0?`<th scope="row">${E(x)}</th>`:`<td>${E(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="table-note">${E(t.note || '')}</p>${sourceLine(t.sources)}</section>`;
-  }
-  function experiment(x,i,print=false) {
-    return `<details class="experiment"${i===0||print?' open':''}><summary>${E(x.title)}</summary><div class="experiment-content"><div class="experiment-question">想確認：${E(x.question)}</div>${x.steps.map((s,j)=>`<div class="step"><span>${j+1}</span><p>${E(s)}</p></div>`).join('')}<div class="answer-box"><strong>觀察結果</strong><p>${E(x.result)}</p></div><div class="answer-box blue"><strong>可以得到的結論</strong><p>${E(x.conclusion)}</p></div><div class="warning">注意：${E(x.warning)}</div>${sourceLine(x.sources)}</div></details>`;
-  }
-  function diagrams(u,print=false) {
-    return `${heading('把觀念連成一張圖','箭頭看方向，比較表看差異；實驗要看控制變因。')}<div class="content-grid">${u.diagrams.map(diagram).join('')}</div>${u.tables.map(table).join('')}<div class="experiments">${heading('實驗怎麼看','先問改變了哪個條件，再判斷結果能支持什麼。')}${u.experiments.map((x,i)=>experiment(x,i,print)).join('')}</div>`;
-  }
-  function traps(u) {
-    return `${heading('容易混淆的話，現在一次釐清','先想一遍對或錯，再看正確說法與原因。')}${u.traps.map(t=>`<article class="trap-card"><div class="trap-line"><span class="trap-symbol" aria-label="錯誤">×</span><p>${E(t.wrong)}</p></div><div class="trap-line right"><span class="trap-symbol" aria-label="正確">✓</span><p>${E(t.right)}</p></div><p class="trap-why">${E(t.why)}</p>${sourceLine(t.sources)}</article>`).join('')}`;
-  }
-  function quick(u) {
-    return `${heading('考前三分鐘，再順一次','先遮住筆記回想，再對照這些關鍵句。')}<div class="quick-grid">${u.quick.map((t,i)=>`<div class="quick-line"><b>${String(i+1).padStart(2,'0')}</b><span>${E(t)}</span></div>`).join('')}</div><div class="mantra"><strong>能用自己的話說明，才算真正讀懂。</strong><p>覺得都會了？到「自我檢測」驗證看看。</p></div>`;
-  }
-  function session(u) {
-    if (!sessions.has(u.id)) {
-      const first = u.quiz.findIndex(q => !state.answers[`${u.id}/${q.id}`]);
-      sessions.set(u.id,{ids:u.quiz.map(q=>q.id), index:first<0?0:first, selection:null, result:first<0});
-    }
-    return sessions.get(u.id);
-  }
-  function resultHTML(u) {
-    const s = C.score(u,state.answers);
-    return `<section class="panel quiz-result" data-quiz-result><div class="result-icon">${s.correct===s.total?'✓':'✎'}</div><div class="eyebrow">CHECK YOUR UNDERSTANDING</div><h2>這一輪，完成了！</h2><div class="result-score">${s.correct} / ${s.total}</div><p class="result-note">${s.correct===s.total?'全部答對。再用自己的話，把觀念說一遍吧。':`有 ${s.wrong.length} 題值得再想一遍。看看解析，練習把觀念補齊。`}</p><div class="result-actions">${s.wrong.length?'<button class="btn primary" data-action="retry-wrong">只重作錯題</button>':''}<button class="btn secondary" data-action="retry-all">全部重新練習</button><a class="btn ghost" href="${unitURL(u,'quick')}">看考前重點 ↗</a></div></section><div class="review-answers">${heading('每題解析','保留本次作答結果；重作後會更新，不是歷次成績紀錄。')}${u.quiz.map((q,i)=>{
-      const a=state.answers[`${u.id}/${q.id}`], ans=q.options.find(o=>o.id===q.answer), selected=q.options.find(o=>o.id===a);
-      return `<details class="experiment"><summary>${a===q.answer?'✓':'✎'} 第 ${i+1} 題 · ${a===q.answer?'答對':'待複習'}</summary><div class="experiment-content"><p class="question-text">${E(q.question)}</p><p>你的答案：${E(selected?.text || '尚未作答')}</p><div class="answer-box"><strong>正確答案：${E(ans.text)}</strong><p>${E(ans.explanation)}</p></div>${selected&&selected.id!==q.answer?`<div class="warning">${E(selected.explanation)}</div>`:''}<a href="${unitURL(u)}?concept=${q.concept}">回看對應重點 ↗</a>${sourceLine(q.sources)}</div></details>`;
-    }).join('')}</div>`;
-  }
-  function quiz(u) {
-    const s=session(u);
-    if (s.result) return resultHTML(u);
-    const q=u.quiz.find(q=>q.id===s.ids[s.index]);
-    const key=`${u.id}/${q.id}`, submitted=state.answers[key];
-    const selected=submitted || s.selection;
-    const answer=q.options.find(o=>o.id===q.answer);
-    const chosen=q.options.find(o=>o.id===selected);
-    const correct=submitted===q.answer;
-    const isLast=s.index===s.ids.length-1;
-    return `${heading('不用急，先想清楚再作答','每題作答後顯示解析；答錯的，可以在結束後單獨重作。')}<section class="panel" data-quiz><div class="quiz-meta"><span>${s.ids.length===u.quiz.length?'章節自我檢測':'錯題重作'} · ${E(u.chapter)}</span><span>第 ${s.index+1} 題 / 共 ${s.ids.length} 題</span></div><div class="quiz-progress" aria-label="題目進度"><span style="width:${((s.index+1)/s.ids.length)*100}%"></span></div><h3 class="question-text">${E(q.question)}</h3><div class="options" role="group" aria-label="選擇一個答案">${q.options.map((o,i)=>{
-      const cls=submitted?(o.id===q.answer?' correct':o.id===selected?' incorrect':''):(o.id===selected?' selected':'');
-      return `<button type="button" class="option-btn${cls}" data-option="${E(o.id)}" aria-pressed="${o.id===selected}"${submitted?' disabled':''}><span class="option-letter">${String.fromCharCode(65+i)}</span><span>${E(o.text)}</span>${submitted&&o.id===q.answer?'<span class="option-status">✓ 正解</span>':''}</button>`;
-    }).join('')}</div>${submitted?`<div class="feedback${correct?'':' wrong'}" data-feedback role="status"><strong>${correct?'✓ 答對了':'再想一想：這題答錯了'}</strong><p>${E(chosen.explanation)}</p>${!correct?`<p><strong>正確答案：${E(answer.text)}</strong><br>${E(answer.explanation)}</p>`:''}<a href="${unitURL(u)}?concept=${q.concept}">回看這個觀念 ↗</a></div>`:''}<div class="quiz-controls"><span class="small-text muted">${E(q.origin)}</span>${submitted?`<button class="btn primary" data-action="next-question">${isLast?'查看結果':'下一題'} →</button>`:`<button class="btn primary" data-action="submit-answer"${selected?'':' disabled'}>確認答案 →</button>`}</div>${sourceLine(q.sources)}</section>`;
-  }
-  function unitPage(u) {
-    return `<div data-view="unit"><a class="back-link" href="#/subject/${E(u.subject)}">← 回到${E(subjectName(u))}學習目錄</a><header class="unit-hero ${u.tone==='blue'?'blue':''}"><span class="watermark" aria-hidden="true">${E(u.chapter)}</span><div class="badge-row"><span class="badge">${E(unitLabel(u))}</span><span class="badge">${E(gradeLabel(u))}</span><span class="badge">${E(u.publisher)}</span></div><h1>${E(u.title)}</h1><p>${E(u.tagline)}</p><div class="actions"><button class="btn primary" data-action="read" aria-pressed="${state.read.includes(u.id)}">${state.read.includes(u.id)?'✓ 已讀完':'標記為已讀完'}</button><button class="btn secondary" data-action="print-open">▤ 列印本節</button></div></header><nav class="tabs" aria-label="章節內容">${tabs.map(([id,label])=>`<a href="${unitURL(u,id)}" class="tab${route.tab===id?' active':''}"${route.tab===id?' aria-current="page"':''}>${label}</a>`).join('')}</nav><div id="unit-content">${({notes,diagrams,traps,quick,quiz}[route.tab] || notes)(u)}</div><div class="content-end"><span>內容 V${E(u.version)} · 更新 ${E(u.updated)}</span><p>${E(u.reviewNote)}</p><a href="#/help">來源與版本說明 ↗</a></div></div>`;
-  }
-  function review() {
-    const cards=[];
-    units.forEach(u=>u.concepts.forEach((c,i)=>{
-      if(state.starred.includes(`${u.id}/${c.id}`)) cards.push(`<div><p class="review-toolbar"><span>${E(unitLabel(u))}</span><a href="${unitURL(u)}?concept=${c.id}">回到本節 ↗</a></p>${conceptCard(u,c,i)}</div>`);
-    }));
-    return `<div data-view="review">${heading('我的複習','把還不熟的觀念留在這裡；讀懂後再點星號移除。')}${cards.length?`<div class="concept-grid">${cards.join('')}</div>`:`<div class="empty"><div class="empty-symbol">☆</div><h2>先收下一個想複習的重點</h2><p>在重點卡右上角點星號，就會出現在這裡。</p><a class="btn primary" href="#/home">回到學習首頁 →</a></div>`}</div>`;
-  }
-  function searchResults(query) {
-    if(!query.trim()) return '<div class="empty"><div class="empty-symbol">⌕</div><h2>想到什麼觀念，就從這裡找。</h2><p>試試「光合作用」、「木質部」或「氣孔」。</p></div>';
-    const hits=C.search(D,query);
-    if(!hits.length) return `<div class="empty"><h2>沒有找到「${E(query)}」</h2><p>換個關鍵字試試。目前教材範圍為生物 3-3 與 4-2。</p></div>`;
-    return `<p class="muted small-text">找到 ${hits.length} 個相關重點</p>${hits.map(h=>`<a class="search-result" href="#/unit/${E(h.unit)}/notes${h.concept?'?concept='+E(h.concept):''}"><span class="eyebrow">${E(hitLabel(h))}</span><h3>${E(h.title)}</h3><p>${E(h.snippet)}</p></a>`).join('')}`;
-  }
-  function searchPage() {
-    const query=(route.params.get('q') || '').slice(0,100);
-    return `<div data-view="search">${heading('搜尋教材','跨章節尋找相關觀念；不需要完整輸入課本標題。')}<div class="search-box"><label for="search-input" class="small-text">輸入關鍵字</label><input id="search-input" type="search" maxlength="100" value="${E(query)}" placeholder="例如：韌皮部" autocomplete="off"></div><div data-search-results aria-live="polite">${searchResults(query)}</div></div>`;
-  }
-  function help() {
-    return `<div data-view="help">${heading('使用與備份','一個安靜的學習空間。沒有帳號、廣告或追蹤程式。')}<section class="panel help-section"><h3>先看懂，再練習</h3><p>每節提供重點整理、圖解比較、易錯觀念、自我檢測與考前三分鐘。重點卡的星號可以加入「我的複習」；「已讀完」是閱讀標記，不代表測驗全部答對。</p><p>測驗記錄的是每題最近一次已確認的答案。完成後可只重作錯題；重新練習會清除該範圍原答案。</p></section>
-      <section class="panel help-section"><h3>進度備份與還原</h3><p>已讀、複習星號、測驗答案與字級，只保存在目前瀏覽器的本站空間。不同裝置、不同網址與離線檔案不會自動同步；清除網站資料或使用隱私模式也可能失去進度。</p><div class="answer-box"><strong>目前儲存狀態：${persistent?'瀏覽器本機儲存':'暫存模式（請匯出後再離開）'}</strong><p>匯入前會檢查檔案格式、章節與答案；確認後才取代目前進度。只接受本網站 JSON 備份，不接受課本照片或其他檔案。</p></div><div class="actions"><button class="btn primary" data-action="export">匯出進度備份</button><label class="btn secondary file-label">匯入進度備份<input id="backup-file" type="file" accept=".json,application/json" aria-label="匯入進度備份"></label></div><p class="small-text muted">每次離線與線上切換前建議備份。瀏覽器不允許儲存時仍可閱讀、練習、匯出。</p></section>
-      <section class="panel help-section"><h3>教材範圍與版本</h3><div class="version-row"><strong>網站版本</strong><span>V${E(D.appVersion)} · ${E(D.updated)}</span></div><div class="version-row"><strong>首批範圍</strong><span>七上生物 3-3、4-2，翰林概念整理</span></div><div class="warning">${E(D.sourceNotice)}</div><p>版本核對更正：先前對話引用的永和國中頁面，標題是「113學年度教科書版本」，不能據此認定為115學年度。未取得實際課本目錄或115正式選書公告前，本站不宣稱已核實當年度版本，也不標示未核對的頁碼。</p>${sourceLine(['school-old'])}<p>所有文字、示意圖與測驗以自主學習整理呈現，並非出版社頁面重製或官方考題。教材來源可供核對，但不代表學校或出版社對本站背書。生物構造示意不按實際比例繪製。</p></section>
-      <section class="panel help-section"><h3>未來怎麼加入各科？</h3><p>採用「共用網頁＋分章教材資料」。在 data/units 加入通過校核的章節 JSON，再更新 catalog 的 unitFiles，執行建置即可沿用這套版型。各科需分別核對出版社、年級與範圍；沒有教材的科目不會顯示可點的空白章節。</p><p>GitHub 套件內附 README、章節模板、欄位說明及測試。第一版不包含網站內上傳課本自動辨識、登入或跨裝置雲端同步。</p></section>
-      <section class="panel help-section"><h3>資料與隱私</h3><p>網站不要求學生姓名、班級或成績單，不上傳瀏覽器進度。點擊外部來源連結才會開啟第三方網站。正式發布到 GitHub Pages 時，不應加入含學生個資的試卷影像。</p><p>列印功能會完整展開本節，可選擇附上測驗解析。瀏覽器提供的「另存為 PDF」是列印選項，不是額外的雲端服務。</p></section>
-      <section class="panel help-section"><h3>查核與參考來源</h3><p class="small-text muted">查閱日期 ${E(D.updated)}。教材使用對應教育與生物學資料；學校頁面僅作歷史版本說明。</p>${D.sources.map(s=>`<div class="source-item"><a href="${E(C.safeURL(s.url))}" target="_blank" rel="noopener noreferrer">${E(s.title)} ↗</a><p>${E(s.note || '')}</p></div>`).join('')}</section></div>`;
-  }
-  function notFound() {
-    return '<div class="empty"><div class="empty-symbol">⌂</div><h1>找不到這個章節</h1><p>這個連結可能已變更，或教材尚未建立。回到首頁選擇目前可讀的章節。</p><a href="#/home" class="btn primary">回到首頁 →</a></div>';
-  }
-  function render() {
-    route=routeFromHash(); navigation();
-    const u=getUnit();
-    if(route.view==='home') main.innerHTML=home();
-    else if(route.view==='unit'&&u) main.innerHTML=unitPage(u);
-    else if(route.view==='review') main.innerHTML=review();
-    else if(route.view==='search') main.innerHTML=searchPage();
-    else if(route.view==='help') main.innerHTML=help();
-    else if(route.view==='subject') {
-      const subject=D.subjects.find(s=>s.id===route.id);
-      main.innerHTML=subject&&units.some(u=>u.subject===subject.id)?home(subject):'<div class="empty"><h1>這一科的教材尚未建立</h1><p>目前可以先閱讀自然科的生物兩節。</p><a class="btn primary" href="#/home">回首頁</a></div>';
-    } else main.innerHTML=notFound();
-    document.title=u&&route.view==='unit'?`${u.chapter} ${u.title}｜知識小站`:'知識小站｜國中學習重點庫';
-    window.scrollTo(0,0);
-    const target=route.params.get('concept');
-    if(u&&route.tab==='notes'&&u.concepts.some(c=>c.id===target)) {
-      requestAnimationFrame(()=>document.getElementById('concept-'+target)?.scrollIntoView({block:'start'}));
-    }
-  }
-  function renderQuiz(u) { $('#unit-content').innerHTML=quiz(u); }
-  function resetQuiz(u,onlyWrong) {
-    const ids=onlyWrong?C.score(u,state.answers).wrong:u.quiz.map(q=>q.id);
-    if(!ids.length) return;
-    const answers={...state.answers}; ids.forEach(id=>delete answers[`${u.id}/${id}`]);
-    state={...state,answers}; save();
-    sessions.set(u.id,{ids,index:0,selection:null,result:false}); renderQuiz(u);
-  }
-  function exportBackup() {
-    const blob=new Blob([JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2)],{type:'application/json;charset=utf-8'});
-    const url=URL.createObjectURL(blob), a=document.createElement('a');
-    a.href=url;a.download=`知識小站_進度_${new Date().toISOString().slice(0,10)}.json`;a.style.display='none';document.body.append(a);a.click();a.remove();
-    setTimeout(()=>URL.revokeObjectURL(url),15000);toast('已提出備份下載，請確認檔案已儲存。');
-  }
-  async function importBackup(file,input) {
-    if(!file) return;
-    try {
-      if(file.size>1024*1024) throw new Error('備份檔案過大；原有進度未變更。');
-      const next=C.validateBackup(JSON.parse(await file.text()),D);
-      if(!window.confirm('要以這份備份取代目前的已讀、複習與作答紀錄嗎？尚未匯出的進度會被取代。')) return;
-      state=next;sessions.clear();setFont();
-      if(storageConflict) {persistent=true;storageConflict=false;$('#storage-warning').hidden=true;}
-      save(); render(); toast('已還原進度備份。'+(!persistent?'目前仍為暫存模式。':''));
-    } catch (_) { toast('備份格式或教材版本不符；原有進度未變更。'); }
-    finally { if(input) input.value=''; }
-  }
-  function printContent(u,withAnswers) {
-    const qs=u.quiz.map((q,i)=>`<section class="print-question"><h3>${i+1}. ${E(q.question)}</h3><p>${q.options.map((o,j)=>`${String.fromCharCode(65+j)}. ${E(o.text)}`).join('\n')}</p>${withAnswers?`<div class="print-answer"><strong>參考答案：${String.fromCharCode(65+q.options.findIndex(o=>o.id===q.answer))}</strong>${q.options.map((o,j)=>`<p>${String.fromCharCode(65+j)}：${E(o.explanation)}</p>`).join('')}</div>`:''}</section>`).join('');
-    return `<header class="print-header"><h1>${E(u.chapter+' '+u.title)}</h1><p>知識小站 · ${E(u.publisher)} · V${E(D.appVersion)} · ${E(D.updated)}</p><p>學校115學年度選書、實際頁碼與教師範圍待核對。</p></header><section class="print-section">${notes(u)}</section><section class="print-section">${diagrams(u,true)}</section><section class="print-section">${traps(u)}</section><section class="print-section">${quick(u)}</section><section class="print-section"><h2>自我檢測</h2>${qs}</section>`;
-  }
-  document.addEventListener('click',e=>{
-    const star=e.target.closest('[data-star]');
-    if(star) {
-      const key=star.dataset.star;
-      if(!units.some(u=>u.concepts.some(c=>`${u.id}/${c.id}`===key))) return;
-      state=C.toggle(state,'starred',key); save();
-      if(route.view==='review') {const y=window.scrollY;render();window.scrollTo(0,y);}
-      else {
-        const selected=state.starred.includes(key);
-        star.classList.toggle('saved',selected);star.setAttribute('aria-pressed',String(selected));star.textContent=selected?'★':'☆';
-        star.setAttribute('aria-label',star.getAttribute('aria-label').replace(selected?'加入複習':'移除複習',selected?'移除複習':'加入複習'));
-        navigation();
-      }
-      toast(state.starred.includes(key)?'已加入「我的複習」':'已移出複習清單');return;
-    }
-    const option=e.target.closest('[data-option]');
-    const u=getUnit();
-    if(option&&u&&route.tab==='quiz') {
-      const s=session(u), q=u.quiz.find(q=>q.id===s.ids[s.index]);
-      if(!state.answers[`${u.id}/${q.id}`]&&q.options.some(o=>o.id===option.dataset.option)) {
-        s.selection=option.dataset.option;renderQuiz(u);
-        $(`[data-option="${s.selection}"]`)?.focus({preventScroll:true});
-      }
-      return;
-    }
-    const button=e.target.closest('[data-action]');if(!button) return;
-    switch(button.dataset.action) {
-      case 'font': state={...state,font:(state.font+1)%3};setFont();save();toast(['字級：標準','字級：加大','字級：特大'][state.font]);break;
-      case 'read': if(u) {state=C.toggle(state,'read',u.id);save();button.textContent=state.read.includes(u.id)?'✓ 已讀完':'標記為已讀完';button.setAttribute('aria-pressed',String(state.read.includes(u.id)));toast(state.read.includes(u.id)?'已標記本節讀完':'已取消讀完標記');}break;
-      case 'submit-answer': if(u) {
-        const s=session(u),q=u.quiz.find(q=>q.id===s.ids[s.index]);
-        if(!s.selection || state.answers[`${u.id}/${q.id}`]) break;
-        state={...state,answers:{...state.answers,[`${u.id}/${q.id}`]:s.selection}};save();renderQuiz(u);$('[data-feedback]')?.scrollIntoView({block:'nearest'});
-      } break;
-      case 'next-question': if(u) {
-        const s=session(u),q=u.quiz.find(q=>q.id===s.ids[s.index]);if(!state.answers[`${u.id}/${q.id}`]) break;
-        if(s.index>=s.ids.length-1) s.result=true;else {s.index++;s.selection=null;}
-        renderQuiz(u);$('#unit-content').scrollIntoView({block:'start'});
-      } break;
-      case 'retry-wrong': if(u) resetQuiz(u,true);break;
-      case 'retry-all': if(u&&window.confirm('重新練習本節全部題目？這會清除本節已確認的作答。')) resetQuiz(u,false);break;
-      case 'export': exportBackup();break;
-      case 'print-open': if(u) {$('#print-answers').checked=false;$('#print-dialog').showModal();}break;
-      case 'print-close': $('#print-dialog').close();break;
-      case 'print-go': if(u) {$('#print-root').innerHTML=printContent(u,$('#print-answers').checked);$('#print-dialog').close();window.print();}break;
-    }
-  });
-  document.addEventListener('input',e=>{
-    if(e.target.id==='search-input') $('[data-search-results]').innerHTML=searchResults(e.target.value.slice(0,100));
-  });
-  document.addEventListener('change',e=>{if(e.target.id==='backup-file') importBackup(e.target.files[0],e.target);});
-  $('#header-search').addEventListener('submit',e=>{e.preventDefault();navigate('#/search?q='+encodeURIComponent($('#global-search').value.trim().slice(0,100)));});
-  document.querySelector('.skip').addEventListener('click',e=>{e.preventDefault();main.focus();});
-  window.addEventListener('hashchange',render);
-  // Browser print shortcuts should produce the same complete chapter notes.
-  window.addEventListener('beforeprint',()=>{const u=getUnit();if(u&&!$('#print-root').textContent.trim())$('#print-root').innerHTML=printContent(u,false);});
-  window.addEventListener('afterprint',()=>{$('#print-root').innerHTML='';});
-  render();
-})();
-
-</script>
-
-<style id="practice-addon-style">
-.practice-launch{margin-top:8px}.practice-wrap{max-width:1080px;margin:0 auto}.practice-hero{border:1px solid var(--line);background:#fff;border-radius:20px;padding:26px;margin-bottom:20px}.practice-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end;margin-top:18px}.practice-filters label{font-size:12px;color:var(--muted);display:grid;gap:6px}.practice-filters select{min-height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:8px 12px}.practice-grid{display:grid;gap:16px}.practice-q{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}.practice-q h3{font-size:17px;margin:12px 0}.practice-topic{font-size:10px;color:var(--green);background:var(--soft);padding:3px 8px;border-radius:99px}.practice-options{display:grid;gap:8px}.practice-option{border:1px solid var(--line);background:#fff;border-radius:11px;padding:11px 13px;text-align:left;min-height:46px}.practice-option.selected{border:2px solid var(--green);background:#f0f6ef;padding:10px 12px}.practice-option.correct{border:2px solid #3e7952;background:#edf7ed;padding:10px 12px}.practice-option.incorrect{border:2px solid #b57961;background:#fbefea;padding:10px 12px}.practice-explain{margin-top:12px;padding:12px;background:#f5f7f3;border-radius:10px;font-size:13px}.practice-actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.practice-score{padding:16px;background:#edf3e8;border:1px solid #dce8d6;border-radius:13px;margin:16px 0;font-weight:700}.curriculum-table td small{display:block;color:var(--muted);font-size:10px}.version-ok{color:#2d6b47;font-weight:700}.version-pending{color:#8a6a22;font-weight:700}
-@media(max-width:720px){.practice-filters{grid-template-columns:1fr}.practice-q{padding:16px}}
-</style>
-<script>
-/* PRACTICE_ADDON_V110 */
-(function(){
+</script><script>
+/* Deterministic question engine; no DOM, network, eval, or external dependency. */
+(function(root,f){const e=f();if(typeof module==='object'&&module.exports)module.exports=e;else root.JHEngine=e;})(globalThis,function(){
 'use strict';
-var SUBJECTS=[
-{id:'chinese',name:'國文',short:'文'},{id:'english',name:'英語',short:'Aa'},{id:'math',name:'數學',short:'π'},
-{id:'science',name:'自然',short:'理'},{id:'social',name:'社會',short:'世'},{id:'health',name:'健康與體育',short:'健'},
-{id:'arts',name:'藝術',short:'藝'},{id:'integrated',name:'綜合活動',short:'綜'},{id:'technology',name:'科技',short:'科'}];
-var VERIFIED={
-'7/english':['康軒','115學年參考書版本資料可查到永和國中七年級英語列於康軒適用學校。'],
-'7/science':['翰林','115學年參考書版本資料可查到永和國中七年級自然列於翰林適用學校。'],
-'8/math':['康軒','115學年參考書版本資料可查到永和國中八年級數學列於康軒適用學校。'],
-'9/social':['康軒','115學年參考書版本資料可查到永和國中九年級社會列於康軒適用學校。']};
-var CATALOG=[];[7,8,9].forEach(function(g){SUBJECTS.forEach(function(s){var v=VERIFIED[g+'/'+s.id];CATALOG.push({grade:g,subject:s.id,name:s.name,publisher:v?v[0]:'校方115版本待逐科轉錄',verified:!!v,note:v?v[1]:'永和國中官網已公告115學年度教科書版本，但公告表為圖片；本站不猜測尚未逐科讀出的出版社。'});});});
-function rng(seed){var x=(Number(seed)||1)>>>0;return function(){x=(x*1664525+1013904223)>>>0;return x/4294967296;};}
-function shuf(a,r){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(r()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;}
-function q(question,correct,wrongs,explanation,topic){return{question:question,correct:String(correct),wrongs:wrongs.map(String),explanation:explanation,topic:topic};}
-var STATIC={
-chinese:[
-q('「畫蛇添足」最接近哪個意思？','多做不必要的事反而壞事',['做事很快','保持沉默','事前準備充分'],'畫蛇添足比喻多此一舉，反而把事情弄壞。','成語'),
-q('哪一句較符合設問修辭？','難道努力真的沒有意義嗎？',['天空像藍布','風在窗邊唱歌','他跑得像風'],'設問以問題形式引發思考。','修辭'),
-q('判斷文章主旨，最適合先找什麼？','反覆出現的核心觀點',['最長句子','所有形容詞','生字筆畫'],'主旨通常由全文反覆發展的核心觀點統整。','閱讀'),
-q('「雖然很累，但是他仍完成訓練。」呈現何種關係？','轉折',['因果','遞進','並列'],'雖然…但是…是典型轉折。','語文'),
-q('下列何者較適合作為正式書面語？','敬請於期限內完成繳交',['快點交一交啦','趕快弄好','有空再交'],'正式書面語講求清楚、禮貌與精確。','語用'),
-q('判斷人物心情，最可靠的做法是？','結合言行與情境線索',['只看第一個字','只看標點數量','只看文章長度'],'人物心情常需從行為、對話與事件推論。','閱讀'),
-q('摘要文章較好的做法是？','保留核心資訊並刪除枝節',['逐字抄全文','只留標題','加入自己的故事'],'摘要應濃縮原文核心。','閱讀'),
-q('「月亮偷偷躲進雲後」較接近哪種修辭？','擬人',['排比','引用','層遞'],'把月亮寫成會躲的人，屬於擬人。','修辭')],
-social:[
-q('地圖比例尺愈大，通常表示？','較小範圍、較多細節',['較大範圍、較少細節','一定看不到道路','與細節無關'],'大比例尺涵蓋範圍較小、細節較多。','地理'),
-q('研究歷史事件較可靠的做法是？','比較不同來源並檢查背景',['只信單一傳聞','只看最晚資料','忽略作者'],'史料判讀重視來源與互證。','歷史'),
-q('民主社會的權利與責任較合理的理解是？','行使權利時也尊重他人權利',['權利沒有界線','只有政府有責任','合法就不用管他人'],'權利與公共責任相互關聯。','公民'),
-q('人口密度描述的是？','單位面積內平均人口數',['平均年齡','總收入','氣溫變化'],'人口密度＝人口數÷面積。','地理'),
-q('物價普遍上升、所得不變，通常代表？','購買力下降',['購買力上升','人人變富','與生活無關'],'同額金錢可購買的商品變少。','公民'),
-q('判讀公共政策較完整的方式是？','同看目的、成本、對象與結果',['只看標題','只看支持者','只看反對者'],'政策分析要兼顧多方影響。','公民'),
-q('季風形成通常與什麼最相關？','海陸受熱差異造成氣壓變化',['月相','磁場消失','河川流向'],'海陸熱力差異造成季節性風向。','地理'),
-q('第一手史料通常是？','事件當時留下的原始資料',['後人教科書','任何網路資料','虛構小說'],'第一手史料與事件同時期或直接相關。','歷史')],
-health:[
-q('運動前暖身主要目的之一是？','逐步提高身體活動準備度',['讓心跳最低','避免所有傷害','取代正式訓練'],'暖身能逐步提升活動準備。','運動安全'),
-q('均衡飲食較重要的原則是？','多樣化並依需求適量攝取',['只吃蛋白質','完全不吃澱粉','只喝維生素飲料'],'均衡飲食重視多樣與適量。','健康'),
-q('運動中若明顯頭暈胸悶，應？','停止活動並尋求協助',['繼續硬撐','立刻衝刺','不告訴任何人'],'明顯不適時優先安全。','運動安全'),
-q('足夠睡眠對青少年有何幫助？','注意力與身體恢復',['睡越少越好','與學習無關','週末不睡可補回'],'睡眠與認知、情緒及恢復相關。','健康'),
-q('團隊運動良好溝通最有助於？','協調分工與降低誤解',['保證獲勝','讓規則失效','只讓一人決定'],'溝通可提升合作效率。','體育'),
-q('運動後補水主要是？','補回水分流失',['體溫永遠固定','取代所有營養','越多越好'],'補水需配合活動量與個人狀況。','健康'),
-q('阻力訓練較重要的是？','動作正確並循序增加負荷',['一次最大重量','忽略姿勢','只追速度'],'正確動作與循序負荷較安全。','體育'),
-q('網路健康資訊較好的查核方式是？','檢查來源並與可靠資訊比對',['分享多就信','只看標題','不看來源'],'健康資訊需要查核來源。','健康')],
-arts:[
-q('互補色通常指？','色相環上相對位置的色彩',['完全相同的色彩','只有黑白','任何兩個暖色'],'互補色具有強烈對比。','視覺藝術'),
-q('音樂中的節拍主要幫助感受？','規律的時間脈動',['畫面透視','雕塑材質','文字押韻'],'節拍是音樂時間組織基礎。','音樂'),
-q('理解角色動機最有助於？','讓表演行動更一致',['台詞自動變短','取消調度','不需合作'],'角色動機幫助建立合理行動。','表演藝術'),
-q('構圖中的留白可能有何效果？','引導視線並創造呼吸感',['代表沒完成','只能黑白','沒有功能'],'留白也是構圖元素。','視覺藝術'),
-q('較完整的藝術欣賞方式是？','觀察形式、內容與背景',['只看價格','只看大小','只看知名度'],'可從形式、意義與文化理解作品。','藝術欣賞'),
-q('音樂強弱變化主要影響？','表情與張力',['音高名稱','樂器數量','歌詞字數'],'力度變化可塑造音樂表情。','音樂'),
-q('海報資訊層級主要目的？','讓讀者先看到重要訊息',['所有字一樣大','塞滿版面','不用留白'],'資訊層級建立閱讀順序。','視覺設計'),
-q('舞台上的走位安排通常稱為？','舞台調度',['透視法','配色法','押韻法'],'舞台調度安排演員位置與移動。','表演藝術')],
-integrated:[
-q('小組合作前先分工主要好處是？','釐清責任並提升效率',['保證沒衝突','一人做全部','不需溝通'],'清楚分工方便協調。','合作'),
-q('規劃戶外活動第一優先通常是？','安全、天候與風險評估',['拍照地點','按讚數','紀念品價格'],'戶外活動應先評估安全。','生活'),
-q('面對生涯選擇較好的做法是？','了解自己並蒐集多元資訊',['跟朋友選','只看排名','不考慮興趣'],'生涯探索需要自我理解。','生涯'),
-q('團隊意見衝突時較適合？','釐清彼此需求再討論方案',['立刻中止','聲音大者決定','忽略問題'],'衝突管理重點是共同找解法。','合作'),
-q('把大任務拆成小步驟有何優點？','降低啟動難度並追蹤進度',['任務自動完成','不需期限','完全不拖延'],'拆解任務能讓行動更具體。','學習'),
-q('服務學習重要精神之一是？','理解需求並在服務後反思',['只累積時數','只做最容易','不互動'],'服務學習結合實際服務與反思。','服務'),
-q('列出方案優缺點主要是在？','比較不同方案可能影響',['增加選項數量','避免思考','取消責任'],'決策需要比較利弊。','生活'),
-q('戶外活動後較負責任的做法是？','帶走垃圾並恢復場地',['埋垃圾','倒進河川','留下器材'],'應減少環境衝擊。','生活')],
-technology:[
-q('演算法最接近？','解決問題的一連串明確步驟',['電腦品牌','螢幕解析度','網路速度'],'演算法是一套可執行的步驟。','資訊科技'),
-q('試算表公式通常以什麼開始？','=',['#','@','&'],'多數試算表以等號表示公式開始。','資訊科技'),
-q('產品原型主要目的之一是？','先驗證功能與使用方式',['取代所有測試','只求漂亮','避免回饋'],'原型可在正式製作前測試想法。','生活科技'),
-q('密碼安全較好的做法是？','不同服務使用不同且難猜的密碼',['全部共用簡單密碼','公開貼桌上','只用生日'],'重複密碼會放大外洩風險。','資訊安全'),
-q('串聯電路一處斷路，常見結果是？','整個回路電流中斷',['其他部分完全不受影響','電壓一定為零','電池自動充電'],'串聯只有單一路徑。','生活科技'),
-q('程式中的條件判斷主要用來？','依不同情況執行不同步驟',['永久關閉程式','讓輸入相同','只顯示圖片'],'條件判斷可選擇不同流程。','資訊科技'),
-q('工程設計的限制條件是？','必須遵守的資源或規格邊界',['設計者姓名','顏色偏好而已','完成後裝飾'],'成本、尺寸、安全都可能是限制。','生活科技'),
-q('看到可疑連結較安全的做法是？','先確認來源與網址',['立刻輸入密碼','轉傳所有人','關閉防毒'],'可疑連結需先查核。','資訊安全')]};
-function mathPool(g,r){var a=[],N=function(x,y){return Math.floor(r()*(y-x+1))+x;};for(var i=0;i<12;i++){if(g===7){var x=N(-12,12),y=N(-12,12),z=x+y;a.push(q(x+' + ('+y+') = ?',z,[z+1,z-1,-z],'整數加法要同時注意數值與正負號。','整數運算'));}else if(g===8){var m=N(2,9),b=N(1,9),ans=N(1,8),c=m*ans+b;a.push(q('若 '+m+'x + '+b+' = '+c+'，則 x = ?',ans,[ans+1,Math.max(0,ans-1),m],'先減去常數，再除以 x 的係數。','代數'));}else{var p=N(1,6),n=N(1,6);a.push(q('方程式 (x-'+p+')(x-'+n+')=0 的解之一不可能是？',p+n,[p,n,p===n?p+1:n],'零乘積性質給出 x='+p+' 或 x='+n+'。','二次方程式'));}}return a;}
-function sciencePool(g,r){var a=g===7?[q('光合作用主要目的最接近？','製造有機養分',['製造二氧化碳','把水變成土壤','讓根停止吸水'],'光合作用製造有機養分並儲存能量。','生物'),q('木質部主要運輸？','水與無機鹽',['澱粉粒','氧氣泡','DNA'],'木質部主要運輸水與無機鹽。','生物')]:g===8?[q('物體速度改變時代表？','物體有加速度',['物體一定靜止','質量變零','時間停止'],'速度大小或方向改變都代表有加速度。','物理'),q('化學變化與物理變化主要差異之一是？','是否形成新物質',['是否有顏色','是否放熱','是否發光'],'化學變化核心是形成新物質。','化學')]:[q('家庭電路通常採並聯主要理由之一是？','各電器可較獨立運作',['只能一起開','電壓永遠為零','避免任何電流'],'並聯支路可獨立控制。','電學'),q('地震規模主要描述？','地震釋放能量大小',['各地搖晃程度','氣溫變化','降雨量'],'規模偏向震源釋放能量。','地球科學')];var N=function(x,y){return Math.floor(r()*(y-x+1))+x;};while(a.length<12){var v=N(2,12),t=N(2,8),d=v*t;a.push(q('某物體以平均速度 '+v+' m/s 運動 '+t+' s，路程約為多少？',d+' m',[d+v+' m',Math.max(0,d-v)+' m',(v+t)+' m'],'路程＝速度×時間。','科學計算'));}return a;}
-function englishPool(g,r){var names=['Amy','Ben','Cindy','David','Eric','Fiona'],a=[];for(var i=0;i<12;i++){var n=names[Math.floor(r()*names.length)];if(g===7)a.push(q(n+' ___ a student.','is',['are','am','be'],'第三人稱單數主詞搭配 is。','文法'));else if(g===8)a.push(q(n+' ___ TV when I called last night.','was watching',['watched now','is watching','watch'],'過去某時間正在進行可用 was/were + V-ing。','文法'));else a.push(q('The book ___ by many students last week.','was read',['is read yesterday','readed','was reading by'],'被動語態為 be + 過去分詞；last week 用過去式。','文法'));}return a;}
-function materialize(x,r,i){var raw=[{t:x.correct,c:1}].concat(x.wrongs.slice(0,3).map(function(w){return{t:String(w),c:0};}));var mix=shuf(raw,r).map(function(o,j){return{id:String.fromCharCode(97+j),text:o.t,c:o.c};});return{id:'p'+(i+1),question:x.question,options:mix.map(function(o){return{id:o.id,text:o.text};}),answer:mix.filter(function(o){return o.c;})[0].id,explanation:x.explanation,topic:x.topic};}
-function generate(g,s,count,seed){var r=rng(seed),pool=s==='math'?mathPool(g,r):s==='science'?sciencePool(g,r):s==='english'?englishPool(g,r):(STATIC[s]||[]);pool=shuf(pool,r);var out=[];for(var i=0;i<count;i++)out.push(materialize(pool[i%pool.length],r,i));return out;}
-window.PracticeEngine={subjects:SUBJECTS,catalog:CATALOG,generate:generate};
-var picks={},checked={};
-function esc(x){return String(x==null?'':x).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
-function params(){var h=location.hash.slice(1),q=h.split('?')[1]||'',p=new URLSearchParams(q),g=Number(p.get('g'));if([7,8,9].indexOf(g)<0)g=7;var s=p.get('s');if(!SUBJECTS.some(function(x){return x.id===s;}))s='science';return{grade:g,subject:s,seed:Number(p.get('seed'))||20260924};}
-function key(p){return p.grade+'/'+p.subject+'/'+p.seed;}
-function heading(t,d){return '<div class="section-heading"><h2>'+esc(t)+'</h2><p>'+esc(d)+'</p></div>';}
-function versions(){var rows=CATALOG.map(function(x){return '<tr><td>'+x.grade+'年級</td><td>'+esc(x.name)+'</td><td>'+esc(x.publisher)+'<small>'+esc(x.note)+'</small></td><td class="'+(x.verified?'version-ok':'version-pending')+'">'+(x.verified?'已由第二來源核對':'待逐科轉錄')+'</td></tr>';}).join('');return '<div class="practice-wrap">'+heading('永和國中 115 學年度教材版本','校方官網已公告版本表；本站只把可逐科確認的出版社直接標示，其餘不猜測。')+'<section class="panel"><p>七、八、九年級九大科目入口都已建立。版本矩陣與題庫分離，後續核對出版社只需更新版本資料。</p><div class="table-scroll curriculum-table"><table><thead><tr><th>年級</th><th>科目</th><th>115教材版本</th><th>狀態</th></tr></thead><tbody>'+rows+'</tbody></table></div><div class="actions"><a class="btn primary" href="#/practice">開始全科測驗</a><a class="btn secondary" href="#/home">回首頁</a></div></section></div>';}
-function page(){var p=params(),qs=generate(p.grade,p.subject,8,p.seed),k=key(p),a=picks[k]||{},done=!!checked[k],correct=qs.filter(function(x){return a[x.id]===x.answer;}).length,answered=Object.keys(a).length;var cards=qs.map(function(x,i){var oi=x.options.map(function(o,j){var sel=a[x.id]===o.id,cl=done?(o.id===x.answer?' correct':sel?' incorrect':''):sel?' selected':'';return '<button class="practice-option'+cl+'" data-pq="'+x.id+'" data-po="'+o.id+'" '+(done?'disabled':'')+'>'+String.fromCharCode(65+j)+'. '+esc(o.text)+'</button>';}).join('');return '<article class="practice-q"><div><span class="practice-topic">'+esc(x.topic)+'</span> <span class="badge">第 '+(i+1)+' 題</span></div><h3>'+esc(x.question)+'</h3><div class="practice-options">'+oi+'</div>'+(done?'<div class="practice-explain"><strong>答案：'+String.fromCharCode(65+x.options.findIndex(function(o){return o.id===x.answer;}))+'</strong>　'+esc(x.explanation)+'</div>':'')+'</article>';}).join('');return '<div class="practice-wrap">'+heading('七～九年級全科自我檢測','本站原創題；數學與部分自然、英語會改變數值或情境，其他科目以抽題與選項洗牌變化。')+'<section class="practice-hero"><div class="eyebrow">ADAPTIVE PRACTICE</div><h2>選年級、選科目，立即出一份 8 題練習</h2><div class="practice-filters"><label>年級<select id="pg">'+[7,8,9].map(function(g){return '<option value="'+g+'" '+(g===p.grade?'selected':'')+'>'+g+' 年級</option>';}).join('')+'</select></label><label>科目<select id="ps">'+SUBJECTS.map(function(s){return '<option value="'+s.id+'" '+(s.id===p.subject?'selected':'')+'>'+esc(s.name)+'</option>';}).join('')+'</select></label><button class="btn primary" data-pa="new">換一份題目 ↻</button></div></section>'+(done?'<div class="practice-score">本次 '+correct+' / '+qs.length+' 題正確'+(answered<qs.length?'（尚有 '+(qs.length-answered)+' 題未作答）':'')+'</div>':'')+'<div class="practice-grid">'+cards+'</div><div class="practice-actions">'+(done?'<button class="btn primary" data-pa="new">再出一份不同題目 ↻</button>':'<button class="btn primary" data-pa="check">交卷看解析</button>')+'<a class="btn secondary" href="#/practice/versions">查看永和國中115版本表</a></div></div>';}
-function ensureNav(){var side=document.querySelector('#sidebar .nav-group');if(side&&!document.querySelector('[data-practice-nav]')){var a=document.createElement('a');a.className='nav-item practice-launch';a.href='#/practice';a.dataset.practiceNav='1';a.innerHTML='<span class="nav-icon">✎</span>全科測驗<span class="end">7–9</span>';side.appendChild(a);}var mn=document.getElementById('mobile-nav');if(mn&&!mn.querySelector('[data-practice-nav]')){var b=document.createElement('a');b.href='#/practice';b.dataset.practiceNav='1';b.innerHTML='<span>✎</span>題庫';mn.appendChild(b);}}
-function handle(){setTimeout(function(){ensureNav();var h=location.hash||'#/home';if(h.indexOf('#/practice')===0){var m=document.getElementById('main');if(m){m.innerHTML=h.indexOf('#/practice/versions')===0?versions():page();document.getElementById('breadcrumb').textContent=h.indexOf('/versions')>0?'教材版本':'全科測驗';document.title='全科自我檢測｜知識小站';window.scrollTo(0,0);}}else if(h==='#/home'||h===''||h==='#'){var hero=document.querySelector('.hero .desc');if(hero&&!document.querySelector('.practice-home-cta')){var c=document.createElement('p');c.className='practice-home-cta';c.innerHTML='<a class="btn secondary" href="#/practice">✎ 七～九年級全科自我檢測</a>';hero.insertAdjacentElement('afterend',c);}}},0);}
-document.addEventListener('click',function(e){var o=e.target.closest('[data-pq]');if(o){var p=params(),k=key(p);if(checked[k])return;picks[k]=Object.assign({},picks[k]||{});picks[k][o.dataset.pq]=o.dataset.po;document.getElementById('main').innerHTML=page();return;}var b=e.target.closest('[data-pa]');if(!b)return;var p=params(),k=key(p);if(b.dataset.pa==='check'){checked[k]=1;document.getElementById('main').innerHTML=page();}if(b.dataset.pa==='new'){location.hash='#/practice?g='+p.grade+'&s='+encodeURIComponent(p.subject)+'&seed='+(Date.now()%2147483647);}});
-document.addEventListener('change',function(e){if(e.target.id==='pg'||e.target.id==='ps'){var g=Number(document.getElementById('pg').value),s=document.getElementById('ps').value;location.hash='#/practice?g='+g+'&s='+encodeURIComponent(s)+'&seed='+(Date.now()%2147483647);}});
-window.addEventListener('hashchange',handle);handle();
+const APP='jh-study-notes-v12';
+function rng(seed){let x=seed>>>0;return()=>{x=(Math.imul(1664525,x)+1013904223)>>>0;return x/4294967296;};}
+function hash(s){let h=2166136261;for(const c of s){h=Math.imul(h^c.codePointAt(0),16777619)>>>0;}return h;}
+function shuffle(a,r){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+const clone=x=>JSON.parse(JSON.stringify(x));
+const recordObject=x=>x!==null&&typeof x==='object'&&!Array.isArray(x);
+function pack(u,template,seed,stem,correct,wrongs,explanation,extra={}){
+ const options=[String(correct),...wrongs.map(String)];
+ if(options.length!==4||new Set(options).size!==4)throw Error('選項必須四個且不重複：'+template);
+ const mixed=shuffle(options,rng((seed^hash(template))>>>0));
+ return{unit:u.id,template,seed:seed>>>0,stem,options:mixed,answer:mixed.indexOf(String(correct)),explanation,...extra};
+}
+function fixed(u,kind,i,seed){
+ if(kind==='scene')return pack(u,u.id+'/scene',seed,u.scene.stem,u.scene.options[0],u.scene.options.slice(1),u.scene.explanation,{type:'情境應用'});
+ const p=u.points[i],others=shuffle(u.points.filter((_,j)=>j!==i).map(x=>x.name),rng(seed^hash(u.id+'/c'+i))).slice(0,3);
+ return pack(u,u.id+'/c'+i,seed,'「'+p.body+'」最符合哪個概念？',p.name,others,p.name+'：'+p.body,{type:'觀念辨識'});
+}
+function numeric(u,seed=1){
+ seed=seed>>>0;const r=rng(seed^hash(u.id)),N=(a,b)=>a+Math.floor(r()*(b-a+1)),out=[];
+ function n(formula,params,value,format,stem,explanation){const label=x=>format.replace('{}',String(x));out.push(pack(u,u.id+'/n-'+formula,seed,stem,label(value),[value+1,value-1,value+2].map(label),explanation,{type:'參數變化',formula,params,correctValue:value,format}));}
+ if(u.subject==='math')switch(u.grade+'-'+u.term){
+ case '7-1':{const a=N(-20,20),b=N(-20,20);n('add',{a,b},a+b,'{}','計算 '+a+'＋('+b+')。','整數相加，保留符號後計算：'+a+'＋('+b+')＝'+(a+b)+'。');const m=N(2,9),x=N(-8,9),z=N(1,15),c=m*x+z;n('linear',{a:m,b:z,c},x,'{}','若 '+m+'x＋'+z+'＝'+c+'，x＝？','兩邊先減'+z+'，再除以'+m+'；x＝('+c+'-'+z+')÷'+m+'＝'+x+'。');break;}
+ case '7-2':{const a=N(3,30),k=N(2,12);n('ratio',{a,k},a*k,'{}元','每本筆記本'+a+'元，不打折，買'+k+'本共多少元？','總價與本數成正比：'+a+'×'+k+'＝'+a*k+'元。');const x=N(2,20),y=N(1,20),sum=x+y,diff=x-y;n('system',{sum,diff},x,'{}','甲乙兩數和為'+sum+'，甲數減乙數為'+diff+'，甲數是多少？','兩式相加，2×甲數＝'+sum+'＋('+diff+')，所以甲數＝'+x+'。');break;}
+ case '8-1':{const k=N(1,12),a=3*k,b=4*k;n('pythagoras',{a,b},5*k,'{}cm','直角三角形兩股為'+a+'cm、'+b+'cm，斜邊長？','斜邊＝√('+a+'²＋'+b+'²)＝'+5*k+'cm。');const x=N(1,9),y=N(1,9);n('rootsum',{a:x,b:y},x+y,'{}','方程式 (x-'+x+')(x-'+y+')＝0，兩根相加是多少？（重根計兩次）','由零乘積性質，兩根是'+x+'與'+y+'，相加得'+(x+y)+'。');break;}
+ case '8-2':{const a=N(-8,12),d=N(-5,9),z=N(2,15),v=a+(z-1)*d;n('sequence',{a,d,n:z},v,'{}','等差數列首項'+a+'、公差'+d+'，第'+z+'項是？','第n項＝首項＋(n-1)×公差，代入得'+v+'。');const x=N(15,70),y=N(15,70);n('triangle',{a:x,b:y},180-x-y,'{}°','三角形兩內角為'+x+'°與'+y+'°，第三角為？','內角和180°，所以第三角＝180-'+x+'-'+y+'＝'+(180-x-y)+'°。');break;}
+ case '9-1':{const area=N(2,20),k=N(2,6);n('similar',{area,k},area*k*k,'{}cm²','相似圖形邊長放大'+k+'倍，原面積'+area+'cm²，新面積？','面積放大邊長倍數的平方：'+area+'×'+k+'²＝'+area*k*k+'cm²。');const z=N(2,20);n('circle',{r:z},2*z,'{}π cm','半徑'+z+'cm的圓，其周長為？（保留π）','周長＝2πr＝'+2*z+'π cm。');break;}
+ case '9-2':{const a=N(1,20),d=N(1,7),values=Array.from({length:5},(_,i)=>a+i*d),v=a+2*d;n('mean',{values},v,'{}','資料 '+values.join('、')+' 的平均數為？','資料總和'+values.reduce((a,b)=>a+b,0)+'除以5筆，平均為'+v+'。');const x=N(2,12),y=N(2,12),z=N(2,12);n('volume',{a:x,b:y,c:z},x*y*z,'{}cm³','長方體長'+x+'cm、寬'+y+'cm、高'+z+'cm，體積為？','長×寬×高＝'+x+'×'+y+'×'+z+'＝'+x*y*z+'cm³。');break;}
+ }
+ if(u.subject==='science'){
+ if(u.grade===8&&u.term===1){const v=N(2,20),d=N(2,12),m=v*d;n('density',{m,v},d,'{}g/cm³','質量'+m+'g、體積'+v+'cm³，密度為？','密度＝質量÷體積＝'+m+'÷'+v+'＝'+d+'g/cm³。');}
+ if(u.grade===8&&u.term===2){const a=N(2,15),p=N(2,25),f=a*p;n('pressure',{f,a},p,'{}Pa','垂直力'+f+'N均勻作用在'+a+'m²，平均壓力為？','平均壓力＝力÷面積＝'+f+'÷'+a+'＝'+p+'Pa。');}
+ if(u.grade===9&&u.term===1){const f=N(2,30),s=N(2,15);n('work',{f,s},f*s,'{}J','施力'+f+'N與位移同方向，使物體移動'+s+'m，此力做功多少？','同方向時，功＝力×位移＝'+f*s+'J。');const z=N(2,15),i=N(2,10),v=z*i;n('ohm',{v,r:z},i,'{}A','符合歐姆定律的'+z+'Ω電阻兩端為'+v+'V，電流為？','I＝V/R＝'+v+'/'+z+'＝'+i+'A。');}
+ }
+ return out;
+}
+function eligible(D,o){return D.units.filter(u=>(!o.unit||u.id===o.unit)&&(!o.grade||u.grade===Number(o.grade))&&(!o.term||u.term===Number(o.term))&&(!o.subject||u.subject===o.subject));}
+function paper(D,o={}){
+ const units=eligible(D,o);if(!units.length)return[];
+ const count=Math.max(1,Math.min(50,Math.floor(Number(o.count)||10))),seed=(Number(o.seed)||0)>>>0,r=rng(seed),pool=[];
+ for(const u of units){u.points.forEach((_,i)=>pool.push(fixed(u,'point',i,seed)));pool.push(fixed(u,'scene',0,seed));pool.push(...numeric(u,seed));}
+ const expandable=units.filter(u=>numeric(u,seed).length);let round=1;
+ while(pool.length<count&&expandable.length&&round<=50){for(const u of expandable)pool.push(...numeric(u,(seed+round*104729)>>>0));round++;}
+ const seen=new Set(),unique=pool.filter(q=>{if(seen.has(q.stem))return false;seen.add(q.stem);return true;});
+ const stats=o.stats||{},wrong=o.wrong||{};
+ const ranked=unique.map(q=>{const st=stats[q.template]||{errors:0,attempts:0};const weight=o.mode==='weak'?1+4*st.errors/(st.attempts+1)+(wrong[q.template]?4:0):1;return{q,rank:-Math.log(Math.max(r(),1e-12))/weight};}).sort((a,b)=>a.rank-b.rank);
+ return ranked.slice(0,count).map(x=>x.q);
+}
+function grade(qs,picks){const out={total:qs.length,answered:0,correct:0,wrong:0,unanswered:0};qs.forEach((q,i)=>{const p=picks[i];if(!Number.isInteger(p)||p<0||p>=q.options.length){out.unanswered++;return;}out.answered++;if(p===q.answer)out.correct++;else out.wrong++;});return out;}
+function emptyState(){return{app:APP,schema:2,read:[],stars:[],stats:{},wrong:{},session:null,font:0};}
+function record(state,qs,picks){const s=clone(state);qs.forEach((q,i)=>{const p=picks[i];if(!Number.isInteger(p)||p<0||p>3)return;const st=s.stats[q.template]||{attempts:0,errors:0};st.attempts++;if(p===q.answer)delete s.wrong[q.template];else{st.errors++;s.wrong[q.template]={question:clone(q),pick:p};}s.stats[q.template]=st;});return s;}
+function validateData(D){const e=[],ids=new Set();if(!D||!Array.isArray(D.units)||!Array.isArray(D.subjects))return['缺少資料'];for(const u of D.units){if(ids.has(u.id)||!/^[a-z]+-[789]-[12]$/.test(u.id))e.push('unit:'+u.id);ids.add(u.id);if(!D.subjects.some(s=>s.id===u.subject))e.push('subject:'+u.id);if(![7,8,9].includes(u.grade)||![1,2].includes(u.term))e.push('scope:'+u.id);if(!u.points||u.points.length!==5)e.push('points:'+u.id);else{if(new Set(u.points.map(p=>p.name)).size!==5)e.push('duplicate point:'+u.id);for(const p of u.points)if(!p.name||!p.body||p.body.length<15)e.push('text:'+u.id);}
+const q=u.scene;if(!q||!q.stem||!q.explanation||q.options.length!==4||new Set(q.options).size!==4||q.answer!==0)e.push('scene:'+u.id);}
+return e;}
+function canonical(x){if(Array.isArray(x))return'['+x.map(canonical).join(',')+']';if(recordObject(x))return'{'+Object.keys(x).sort().map(k=>JSON.stringify(k)+':'+canonical(x[k])).join(',')+'}';return JSON.stringify(x);}
+function validateState(input,D){const fail=()=>{throw Error('備份內容無效或與教材不符；原有進度未變更。');};
+ if(!recordObject(input)||input.app!==APP||input.schema!==2||![0,1,2].includes(input.font))fail();
+ const ids=new Set(D.units.map(u=>u.id)),stars=new Set(D.units.flatMap(u=>u.points.map(p=>u.id+'/'+p.id))),templates=new Set(D.units.flatMap(u=>[...u.points.map(p=>u.id+'/'+p.id),u.id+'/scene',...numeric(u,0).map(q=>q.template)]));
+ if(!Array.isArray(input.read)||input.read.some(x=>!ids.has(x))||!Array.isArray(input.stars)||input.stars.some(x=>!stars.has(x)))fail();
+ if(!recordObject(input.stats)||!recordObject(input.wrong))fail();
+ const qcheck=q=>{if(!recordObject(q)||!Number.isInteger(q.seed)||q.seed<0||q.seed>4294967295)fail();const u=D.units.find(u=>u.id===q.unit);if(!u||!templates.has(q.template))fail();let expected;if(q.template===u.id+'/scene')expected=fixed(u,'scene',0,q.seed);else{const m=q.template.match(/\/c([0-4])$/);expected=m?fixed(u,'point',Number(m[1]),q.seed):numeric(u,q.seed).find(n=>n.template===q.template);}if(!expected||canonical(expected)!==canonical(q))fail();};
+ for(const[k,v]of Object.entries(input.stats)){if(!templates.has(k)||!recordObject(v)||!Number.isSafeInteger(v.attempts)||!Number.isSafeInteger(v.errors)||v.attempts<0||v.attempts>1e9||v.errors<0||v.errors>v.attempts)fail();}
+ for(const[k,v]of Object.entries(input.wrong)){if(!recordObject(v)||k!==v.question?.template||!Number.isInteger(v.pick)||v.pick<0||v.pick>3)fail();qcheck(v.question);if(v.pick===v.question.answer)fail();}
+ if(input.session!==null){const s=input.session;if(!recordObject(s)||!Array.isArray(s.questions)||s.questions.length>50||!Array.isArray(s.picks)||s.picks.length!==s.questions.length||typeof s.submitted!=='boolean')fail();s.questions.forEach(qcheck);if(s.picks.some(x=>x!==null&&(!Number.isInteger(x)||x<0||x>3)))fail();if(s.index!==undefined&&(!Number.isInteger(s.index)||s.index<0||s.index>=Math.max(1,s.questions.length)))fail();}
+ return{app:APP,schema:2,read:[...new Set(input.read)],stars:[...new Set(input.stars)],stats:clone(input.stats),wrong:clone(input.wrong),session:input.session===null?null:clone(input.session),font:input.font};
+}
+return{APP,rng,shuffle,hash,fixed,numeric,paper,grade,emptyState,record,validateData,validateState,eligible};
+});
+
+</script><script>
+/* UI for the original cross-edition curriculum. No external runtime calls. */
+(()=>{
+'use strict';
+const D=window.JHContent,E=window.JHEngine,main=document.querySelector('#main');
+if(!D||!E){main.textContent='教材或程式尚未載入，請確認所有網站檔案都有上傳，再重新整理。';return;}
+const errors=E.validateData(D);if(errors.length){main.textContent='教材檢核未通過：'+errors.join('；');return;}
+const KEY='jh-study-notes.progress.v12',esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let state=E.emptyState(),canSave=true,originalRaw='',toastTimer,filter={grade:'',term:'',subject:'',q:''};
+function warn(s){const n=document.querySelector('#storage-warning');n.hidden=false;n.textContent=s;}
+try{originalRaw=localStorage.getItem(KEY)||'';if(originalRaw)state=E.validateState(JSON.parse(originalRaw),D);}catch(_){canSave=false;warn('瀏覽器儲存不可用，或原有進度格式需檢查；未覆寫原資料。本頁仍可使用，離開前請匯出備份。');}
+function save(){if(!canSave)return;try{localStorage.setItem(KEY,JSON.stringify(state));}catch(_){canSave=false;warn('進度暫時無法寫入瀏覽器；目前作答仍保留於本頁，請先匯出備份。');}}
+function toast(s){const n=document.querySelector('#toast');n.textContent=s;n.classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>n.classList.remove('visible'),3500);}
+function setFont(){document.documentElement.style.fontSize=(16+2*state.font)+'px';}
+function subject(id){return D.subjects.find(s=>s.id===id)?.name||id;}
+function label(u){return u.grade+'年級'+(u.term===1?'上':'下')+'學期複習分組';}
+function route(){const [p,q='']=(location.hash.slice(1)||'/library').split('?');return{parts:p.split('/').filter(Boolean),params:new URLSearchParams(q)};}
+function go(hash){if(location.hash===hash)render();else location.hash=hash;}
+function seed(){const b=new Uint32Array(1);try{crypto.getRandomValues(b);return b[0];}catch(_){return Date.now()>>>0;}}
+function options(items,current){return items.map(([value,text])=>`<option value="${esc(value)}" ${String(value)===String(current)?'selected':''}>${esc(text)}</option>`).join('');}
+function gradeOptions(value){return options([['','全部年級'],['7','七年級'],['8','八年級'],['9','九年級']],value);}
+function termOptions(value){return options([['','全年'],['1','上學期分組'],['2','下學期分組']],value);}
+function subjectOptions(value){return options([['','全部科目'],...D.subjects.map(s=>[s.id,s.name])],value);}
+function scopeNote(){return `<div class="scope">${esc(D.scope)}<br><a href="#/versions">查看學校版本與待補範圍</a></div>`;}
+function resources(u){return `<div class="source-links"><p>延伸查核資源（非指定版本課本）：</p>${(D.resources[u.subject]||[]).map(([t,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(t)} ↗</a>`).join('')}</div>`;}
+function unitCard(u){return `<article class="card"><div><span class="badge">${esc(subject(u.subject))}</span><span class="badge gray">${esc(label(u))}</span>${state.read.includes(u.id)?'<span class="badge">已讀</span>':''}</div><h3>${esc(u.title)}</h3><p>${u.points.map(p=>esc(p.name)).join(' · ')}</p><div class="actions"><a class="btn primary" href="#/topic/${u.id}">讀重點</a><a class="btn" href="#/practice?unit=${u.id}">練習</a></div></article>`;}
+function filtered(){const q=filter.q.normalize('NFKC').toLowerCase().trim();return E.eligible(D,filter).filter(u=>!q||JSON.stringify([u.title,...u.points]).normalize('NFKC').toLowerCase().includes(q));}
+function updateCards(){const a=filtered(),n=document.querySelector('#catalog');if(!n)return;document.querySelector('#result-count').textContent=`符合條件 ${a.length} 個主題群`;n.innerHTML=a.length?a.map(unitCard).join(''):'<div class="empty">沒有符合的主題。可清除搜尋或調整年級、學期、科目。</div>';}
+function library(){return `<section class="hero"><div class="eyebrow">READ · PRACTISE · UNDERSTAND</div><h1>把觀念讀懂，<br>再用練習確認。</h1><p>七至九年級的核心主題分開整理。先讀重點，再做原創情境與觀念辨識；數學及部分自然主題另外提供可重現的參數變化題。</p><div class="actions"><a class="btn primary" href="#/practice">開始自我檢測</a><a class="btn" href="#/review">查看錯題與收藏</a>${state.session&&!state.session.submitted?'<a class="btn" href="#/quiz">繼續未完成測驗</a>':''}</div>${scopeNote()}</section><div class="stats"><div class="stat"><b>54</b><span>核心主題群</span></div><div class="stat"><b>270</b><span>重點卡＋觀念辨識題</span></div><div class="stat"><b>54</b><span>原創情境題</span></div><div class="stat"><b>16</b><span>參數變化題型</span></div></div><h2>選一個主題開始</h2><div class="filters"><label>年級<select id="filter-grade">${gradeOptions(filter.grade)}</select></label><label>複習分組<select id="filter-term">${termOptions(filter.term)}</select></label><label>科目<select id="filter-subject">${subjectOptions(filter.subject)}</select></label><label>搜尋重點<input id="filter-q" placeholder="例如：光合作用、被動、相似" value="${esc(filter.q)}" maxlength="100"></label></div><div class="result-line"><span id="result-count"></span><button class="btn" data-action="clear-filters">清除條件</button></div><section id="catalog" class="cards" aria-live="polite"></section><section class="panel"><span class="eyebrow">保留原本的詳細教材</span><h2>生物 3-3、4-2 圖解完整版</h2><p>原本的圖解、實驗判讀與逐題解析保留在詳細版；舊版進度仍使用原本的儲存鍵，不會被新版覆蓋。</p><div class="actions"><a class="btn" href="biology-v101.html#/unit/bio-3-3/notes">3-3 植物如何製造養分</a><a class="btn" href="biology-v101.html#/unit/bio-4-2/notes">4-2 植物體內物質的運輸</a></div></section>`;}
+function pointCard(u,p,i){const id=u.id+'/'+p.id,on=state.stars.includes(id);return `<article class="point"><div class="point-top"><span class="badge">重點 ${i+1}</span><button class="star ${on?'on':''}" data-star="${id}" aria-pressed="${on}" aria-label="${on?'移除':'收藏'}${esc(p.name)}">${on?'★':'☆'}</button></div><h3>${esc(p.name)}</h3><p>${esc(p.body)}</p></article>`;}
+function topic(id){const u=D.units.find(u=>u.id===id);if(!u)return '<div class="empty"><h1>找不到這個主題</h1><a href="#/library">回學習目錄</a></div>';const read=state.read.includes(id);return `<a class="back" href="#/library">← 回學習目錄</a><section class="hero"><span class="badge">${esc(subject(u.subject))}</span><span class="badge gray">${esc(label(u))}</span><h1>${esc(u.title)}</h1><p>下面先整理五個核心觀念。這不是整冊課本摘要；正式版本、章名與順序仍需對照校方當年度教材。</p><div class="actions"><a class="btn primary" href="#/practice?unit=${u.id}">練習這個主題</a><button class="btn" data-read="${u.id}" aria-pressed="${read}">${read?'✓ 已讀，可取消':'標記已讀'}</button><button class="btn" data-action="print">列印本主題</button></div></section><div class="grid-two">${u.points.map((p,i)=>pointCard(u,p,i)).join('')}</div><section class="panel"><span class="eyebrow">想一想 · 原創情境</span><h2 class="stem">${esc(u.scene.stem)}</h2><p>${u.scene.options.map((x,i)=>String.fromCharCode(65+i)+'. '+esc(x)).join('<br>')}</p><details class="no-print"><summary>看參考答案與思路</summary><div class="explain"><strong>A. ${esc(u.scene.options[0])}</strong><p>${esc(u.scene.explanation)}</p></div></details><div class="print-only explain"><strong>答案：A</strong><p>${esc(u.scene.explanation)}</p></div><label class="checkline no-print"><input type="checkbox" id="print-answers"> 列印時附上情境題答案</label></section><section class="panel quick-list"><h2>考前三分鐘</h2>${u.points.map(p=>`<p><strong>${esc(p.name)}</strong>：${esc(p.body.split('；')[0])}</p>`).join('')}${resources(u)}</section>`;}
+function selectedPractice(){const r=route(),u=D.units.find(x=>x.id===r.params.get('unit'));return{unit:u?.id||'',grade:u?String(u.grade):r.params.get('grade')||'',term:u?String(u.term):r.params.get('term')||'',subject:u?.subject||r.params.get('subject')||'',seed:r.params.get('seed')||'',count:r.params.get('count')||'10',mode:r.params.get('mode')||'normal'};}
+function practice(){const p=selectedPractice(),available=E.eligible(D,p);return `<section class="hero"><div class="eyebrow">PRACTICE LAB</div><h1>每一份題目，都能回頭檢查。</h1><p>選範圍、題數與模式。單一非計算主題有6道不重複題目；不足所選題數時按實際題量出卷，不用重複題湊數。</p></section><form id="practice-form" class="panel"><div class="form-grid"><label>年級<select name="grade" id="practice-grade">${gradeOptions(p.grade)}</select></label><label>複習分組<select name="term" id="practice-term">${termOptions(p.term)}</select></label><label>科目<select name="subject" id="practice-subject">${subjectOptions(p.subject)}</select></label><label class="wide">主題<select name="unit" id="practice-unit">${options([['','範圍內所有主題'],...available.map(u=>[u.id,subject(u.subject)+'｜'+label(u)+'｜'+u.title])],p.unit)}</select></label><label>題數<select name="count">${options([['5','5題'],['10','10題'],['20','20題']],p.count)}</select></label><label>模式<select name="mode">${options([['normal','均衡隨機'],['weak','優先加強錯誤較多的題型']],p.mode)}</select></label><label>出題種子（可留白）<input name="seed" inputmode="numeric" pattern="[0-9]*" maxlength="10" placeholder="相同設定可重現試卷" value="${esc(p.seed)}"></label></div><div class="actions"><button class="btn primary" type="submit">產生測驗</button>${state.session?'<a class="btn" href="#/quiz">查看上次試卷</a>':''}</div><p class="small muted">「換題」的意思：固定題庫抽題與選項洗牌；16類參數題另外改變數值並重新計算答案。不是每次連線呼叫AI，也不把排列組合宣稱成無限新知識點。</p></form>`;}
+function refreshPracticeUnits(){const f=document.querySelector('#practice-form');const p={grade:f.elements.grade.value,term:f.elements.term.value,subject:f.elements.subject.value};f.elements.unit.innerHTML=options([['','範圍內所有主題'],...E.eligible(D,p).map(u=>[u.id,subject(u.subject)+'｜'+label(u)+'｜'+u.title])],'');}
+function begin(qs,settings,kind='normal'){if(!qs.length){toast('這個範圍沒有可用題目，請調整條件。');return;}if(state.session&&!state.session.submitted&&state.session.picks.some(p=>p!==null)&&!confirm('將開始新試卷；目前未交卷的作答會被取代。要繼續嗎？'))return;state.session={...settings,kind,questions:qs,picks:qs.map(()=>null),index:0,submitted:false};save();go('#/quiz');}
+function paperTitle(s){return s.kind==='retry'?'錯題／未答重做':s.unit?(D.units.find(u=>u.id===s.unit)?.title||'主題測驗'):'範圍綜合測驗';}
+function quiz(){const s=state.session;if(!s)return '<section class="empty"><h1>還沒有試卷</h1><a class="btn primary" href="#/practice">設定測驗範圍</a></section>';if(s.submitted)return results(s);const i=s.index||0,q=s.questions[i],u=D.units.find(u=>u.id===q.unit),answered=s.picks.filter(p=>p!==null).length;return `<a class="back" href="#/practice">← 測驗設定（目前試卷會保留）</a><section class="panel"><div class="quiz-head"><div><span class="eyebrow">${esc(paperTitle(s))}</span><h1>第 ${i+1} / ${s.questions.length} 題</h1></div><span class="badge">已答 ${answered} 題</span></div><div class="progress"><i style="width:${answered/s.questions.length*100}%"></i></div><span class="badge">${esc(subject(u.subject))}</span><span class="badge gray">${esc(q.type)}</span><h2 class="stem" id="question-stem" tabindex="-1">${esc(q.stem)}</h2><div class="options" role="group" aria-labelledby="question-stem">${q.options.map((o,j)=>`<button class="option ${s.picks[i]===j?'selected':''}" data-pick="${j}" aria-pressed="${s.picks[i]===j}"><b>${String.fromCharCode(65+j)}</b><span>${esc(o)}</span></button>`).join('')}</div><div class="actions"><button class="btn" data-action="prev" ${i===0?'disabled':''}>上一題</button>${i<s.questions.length-1?'<button class="btn primary" data-action="next">下一題</button>':'<button class="btn primary" data-action="submit">交卷看解析</button>'}<button class="btn" data-action="submit">交卷</button></div><div class="answer-map" aria-label="跳到指定題目">${s.questions.map((_,j)=>`<button aria-label="跳到第${j+1}題" class="${s.picks[j]!==null?'filled':''} ${i===j?'current':''}" data-jump="${j}">${j+1}</button>`).join('')}</div><p class="step-line">作答後可前後檢查；重新整理也保留同一份試卷與選項順序。種子：${esc(s.seed??'原題重做')}</p></section>`;}
+function resultRow(q,p,i){const ok=p===q.answer,unanswered=p===null,u=D.units.find(u=>u.id===q.unit);return `<article class="review-row"><span class="badge ${ok?'':'pending'}">${unanswered?'未作答':ok?'答對':'待訂正'}</span><span class="badge gray">${esc(q.type)}</span><h3>${i+1}. ${esc(q.stem)}</h3><p>你的答案：${unanswered?'未作答':String.fromCharCode(65+p)+'. '+esc(q.options[p])}<br><strong>正確答案：${String.fromCharCode(65+q.answer)}. ${esc(q.options[q.answer])}</strong></p><div class="explain ${ok?'':'wrong'}">${esc(q.explanation)}</div><p><a href="#/topic/${q.unit}">回到「${esc(u.title)}」複習 →</a></p></article>`;}
+function results(s){const n=E.grade(s.questions,s.picks);return `<section class="hero"><div class="eyebrow">REVIEW & LEARN</div><h1>這次掌握了哪些觀念？</h1><p class="score">${n.correct} / ${n.total}</p><p>答錯 ${n.wrong} 題 · 未作答 ${n.unanswered} 題。這是本次題目結果，不代表完整學科能力等級。</p><div class="actions"><button class="btn primary" data-action="retry-session" ${!n.wrong&&!n.unanswered?'disabled':''}>只重做錯題與未答</button><button class="btn" data-action="new-paper">同範圍換一份</button><a class="btn" href="#/review">查看累積錯題</a><button class="btn" data-action="share-settings">複製出題設定</button></div></section><div id="share-fallback"></div><h2>逐題解析</h2>${s.questions.map((q,i)=>resultRow(q,s.picks[i],i)).join('')}`;}
+function review(){const wrong=Object.values(state.wrong),points=D.units.flatMap(u=>u.points.filter(p=>state.stars.includes(u.id+'/'+p.id)).map(p=>({u,p}))),attempts=Object.values(state.stats).reduce((n,s)=>n+s.attempts,0);return `<section class="hero"><div class="eyebrow">MY REVIEW</div><h1>把錯題變成下次會的題。</h1><p>目前有 ${wrong.length} 個待訂正題型、${points.length} 張收藏重點卡，累計 ${attempts} 次已交卷作答。同題型答對後會從待訂正清單移除，累積錯誤次數仍保留。</p><div class="actions"><button class="btn primary" data-action="retry-all" ${wrong.length?'':'disabled'}>重做待訂正題型</button><a class="btn" href="#/practice?mode=weak">加強弱點出題</a></div></section><h2>待訂正</h2>${wrong.length?wrong.map((x,i)=>`<article class="review-row"><span class="badge pending">累計錯誤 ${state.stats[x.question.template]?.errors||0} 次</span><h3>${i+1}. ${esc(x.question.stem)}</h3><div class="actions"><button class="btn" data-retry="${esc(x.question.template)}">只練這一題</button><a class="btn" href="#/topic/${x.question.unit}">回看重點</a></div></article>`).join(''):'<div class="empty">目前沒有待訂正題型。可以先完成一份測驗。</div>'}<h2 style="margin:28px 0 16px">收藏重點</h2><div class="grid-two">${points.map(({u,p},i)=>pointCard(u,p,i)).join('')||'<div class="empty">閱讀主題時按☆，可加入這裡。</div>'}</div>`;}
+function versions(){return `<section class="hero"><span class="eyebrow">CONTENT STATUS</span><h1>永和國中115教材版本查核</h1><p>不將舊學年度、其他學校或未核實的資料列成已確認。</p>${scopeNote()}</section><section class="panel"><h2>目前查核狀態：待取得完整官方表</h2><p>${esc(D.school.note)}</p><p class="small muted">查核日期：${D.school.checked}。即使確認各年級出版社，也不代表已取得同出版社當年度每冊的完整章節目錄。</p><div class="actions"><a class="btn" href="${D.school.url}" target="_blank" rel="noopener noreferrer">開啟校方教科書公告</a><a class="btn" href="https://www.jhjhs.ntpc.edu.tw/p/405-1000-15182%2Cc178.php" target="_blank" rel="noopener noreferrer">113歷史公告（不可代替115）</a></div><div class="table-wrap"><table><thead><tr><th>領域</th><th>七年級</th><th>八年級</th><th>九年級</th></tr></thead><tbody>${D.subjects.map(s=>`<tr><th>${esc(s.name)}</th><td>待核對</td><td>待核對</td><td>待核對</td></tr>`).join('')}</tbody></table></div><h2>已完成與待補範圍</h2><p><strong>已完成：</strong>九領域的54個核心主題群、270張重點卡、54題情境題、270題概念辨識，以及16類計算變化題。原生物3-3與4-2詳細版保留。</p><p><strong>尚未完成：</strong>115正式版本與逐課對照、所有課本章節、本土語文實際選修語別與教材、校訂課程及教師指定範圍。不能把54個主題群等同三年全部課程。</p></section>`;}
+function backup(){return `<section class="hero"><h1>備份、還原與使用說明</h1><p>本版資料存在這個瀏覽器，不會自動跨手機與電腦同步；本功能不需要輸入孩子姓名、班級或成績。</p></section><section class="panel"><h2>學習紀錄</h2><p>匯出包含已讀、收藏、作答中的試卷、錯題快照與題型統計。還原前會檢查題目及答案是否符合本版教材，無效資料不會覆蓋現有進度。</p><div class="actions"><button class="btn primary" data-action="export">匯出備份</button><label class="btn" for="backup-file">選擇備份還原</label><input id="backup-file" type="file" accept="application/json,.json" hidden></div>${!canSave&&originalRaw?'<p><button class="btn" data-action="export-original">匯出尚未覆寫的原資料</button></p>':''}<p class="small muted">備份上限1MB。還原會取代本版紀錄，不會改動舊生物版儲存鍵。舊生物版請到其「使用與備份」另行匯出。</p></section><section class="panel"><h2>怎麼使用比較有效？</h2><p>先讀一個主題，用自己的話說明核心概念，再作答檢查。遇到錯題先看解析與原重點，之後再重新測一次，不只記住答案位置。</p><p>「均衡隨機」從範圍中抽題；「加強弱點」提高曾答錯題型被抽到的權重，仍保留其他題型。種子相同且設定、題庫版本相同，可重現一般模式；弱點模式另受當時學習紀錄影響。</p><p>目前是跨版本核心學習站，不能取代當年度課本、老師公告或正式考試成績。備份檔內的作答紀錄只供本人使用，不上傳至GitHub。</p></section>`;}
+function render(){const r=route(),v=r.parts[0]||'library';if(v==='unit'&&['bio-3-3','bio-4-2'].includes(r.parts[1])){location.replace('biology-v101.html'+location.hash);return;}document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',a.hash==='#/'+v||(v==='home'&&a.hash==='#/library')));main.innerHTML=v==='topic'?topic(r.parts[1]):v==='practice'&&r.parts[1]==='versions'?versions():v==='practice'?practice():v==='quiz'?quiz():v==='review'?review():v==='versions'?versions():v==='backup'?backup():library();if(document.querySelector('#catalog'))updateCards();document.body.classList.add('hide-print-answer');document.title='知識小站 V1.2｜'+({practice:'自我檢測',quiz:'作答與解析',review:'我的複習',versions:'版本查核',backup:'備份'}[v]||'國中核心學習');}
+function download(text,name){const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function newPaper(s){const settings={unit:s.unit||'',grade:s.grade||'',term:s.term||'',subject:s.subject||'',count:s.count||s.questions.length,mode:s.mode||'normal',seed:seed()};begin(E.paper(D,{...settings,stats:state.stats,wrong:state.wrong}),settings);}
+document.addEventListener('submit',e=>{if(e.target.id!=='practice-form')return;e.preventDefault();const f=e.target,raw=f.elements.seed.value;const n=raw===''?seed():Number(raw);if(!Number.isInteger(n)||n<0||n>4294967295){toast('種子請填0到4294967295的整數。');return;}const settings={grade:f.elements.grade.value,term:f.elements.term.value,subject:f.elements.subject.value,unit:f.elements.unit.value,count:Number(f.elements.count.value),mode:f.elements.mode.value,seed:n};begin(E.paper(D,{...settings,stats:state.stats,wrong:state.wrong}),settings);});
+document.addEventListener('click',async e=>{
+ const star=e.target.closest('[data-star]');if(star){const id=star.dataset.star;state.stars=state.stars.includes(id)?state.stars.filter(x=>x!==id):[...state.stars,id];save();const y=scrollY;render();scrollTo(0,y);return;}
+ const read=e.target.closest('[data-read]');if(read){const id=read.dataset.read;state.read=state.read.includes(id)?state.read.filter(x=>x!==id):[...state.read,id];save();const y=scrollY;render();scrollTo(0,y);return;}
+ const pick=e.target.closest('[data-pick]');if(pick&&state.session&&!state.session.submitted){const i=state.session.index||0;state.session.picks[i]=Number(pick.dataset.pick);save();const y=scrollY;render();scrollTo(0,y);return;}
+ const jump=e.target.closest('[data-jump]');if(jump&&state.session&&!state.session.submitted){state.session.index=Number(jump.dataset.jump);save();render();main.focus();return;}
+ const retry=e.target.closest('[data-retry]');if(retry){const item=state.wrong[retry.dataset.retry];if(item)begin([item.question],{unit:item.question.unit,seed:item.question.seed,count:1},'retry');return;}
+ const b=e.target.closest('[data-action]');if(!b)return;const action=b.dataset.action,s=state.session;
+ if(action==='clear-filters'){filter={grade:'',term:'',subject:'',q:''};render();}
+ if(action==='print')window.print();
+ if((action==='next'||action==='prev')&&s&&!s.submitted){s.index=Math.max(0,Math.min(s.questions.length-1,(s.index||0)+(action==='next'?1:-1)));save();render();document.querySelector('#question-stem')?.focus();}
+ if(action==='submit'&&s&&!s.submitted){const unanswered=s.picks.filter(x=>x===null).length;if(unanswered&&!confirm('還有'+unanswered+'題未作答，仍要交卷嗎？'))return;state=E.record(state,s.questions,s.picks);state.session.submitted=true;save();render();scrollTo(0,0);}
+ if(action==='retry-session'&&s){const qs=s.questions.filter((q,i)=>s.picks[i]!==q.answer);begin(qs,{unit:s.unit||'',grade:s.grade||'',term:s.term||'',subject:s.subject||'',seed:s.seed,count:qs.length},'retry');}
+ if(action==='retry-all'){const qs=Object.values(state.wrong).slice(0,50).map(x=>x.question);begin(qs,{seed:0,count:qs.length},'retry');}
+ if(action==='new-paper'&&s)newPaper(s);
+ if(action==='export')download(JSON.stringify(state,null,2),'知識小站-v12-學習備份.json');
+ if(action==='export-original')download(originalRaw,'知識小站-原始儲存資料.json');
+ if(action==='share-settings'&&s){if(s.kind==='retry'){toast('錯題重做以原題快照為準；請用備份保留這份試卷。');return;}const p=new URLSearchParams();for(const k of ['unit','grade','term','subject','count','seed','mode'])if(s[k]!==undefined&&s[k]!=='')p.set(k,s[k]);const link=location.href.split('#')[0]+'#/practice?'+p;try{await navigator.clipboard.writeText(link);toast('已複製設定；弱點模式另受當時紀錄影響。');}catch(_){const n=document.querySelector('#share-fallback');n.innerHTML='<label>可複製這個連結<input readonly id="share-link"></label>';n.querySelector('input').value=link;n.querySelector('input').select();}}
+});
+document.addEventListener('input',e=>{if(e.target.id==='filter-q'){filter.q=e.target.value;updateCards();}});
+document.addEventListener('change',async e=>{
+ if(e.target.id.startsWith('filter-')&&e.target.id!=='filter-q'){filter[e.target.id.replace('filter-','')]=e.target.value;updateCards();}
+ if(['practice-grade','practice-term','practice-subject'].includes(e.target.id))refreshPracticeUnits();
+ if(e.target.id==='print-answers')document.body.classList.toggle('hide-print-answer',!e.target.checked);
+ if(e.target.id==='backup-file'){const file=e.target.files[0];try{if(!file)return;if(file.size>1000000)throw Error('備份超過1MB，尚未變更進度。');const next=E.validateState(JSON.parse(await file.text()),D);if(!confirm('這將取代本版學習進度，確定還原？'))return;state=next;canSave=true;save();setFont();render();toast('備份已還原。');}catch(err){toast(err instanceof SyntaxError?'檔案不是有效JSON；原進度未變更。':err.message);}finally{e.target.value='';}}
+});
+document.querySelector('#font').addEventListener('click',()=>{state.font=(state.font+1)%3;setFont();save();toast('字級已調整。');});
+window.addEventListener('hashchange',()=>{render();scrollTo(0,0);});
+window.JHApp={getState:()=>JSON.parse(JSON.stringify(state)),version:D.version};
+setFont();render();
 })();
-</script>
-</body></html>
+
+</script></head>
+<body><a class="skip" href="#main">跳到主要內容</a><header><a class="brand" href="#/library"><b>知</b><span>知識小站<small>三年核心學習 · V1.2.0</small></span></a><nav aria-label="主要選單"><a href="#/library">學習目錄</a><a href="#/practice">自我檢測</a><a href="#/review">我的複習</a><a href="#/versions">版本查核</a><a href="#/backup">備份</a></nav><button id="font" class="icon" aria-label="調整字級">Aa</button></header>
+<div id="storage-warning" class="notice warning" role="status" hidden></div><main id="main" tabindex="-1"><section class="panel"><h1>正在開啟知識小站…</h1><p>若一直停在此畫面，請重新整理，或確認 index.html 和三個 JavaScript 檔案位於同一資料夾。</p></section></main><div id="toast" role="status" aria-live="polite"></div><footer>知識小站 V1.2.0 · 2026-09-24<br>原創跨版本核心整理，非學校或出版社官方教材。進度只保存在本瀏覽器，請定期備份。</footer><noscript>請啟用 JavaScript 以閱讀教材及操作測驗。</noscript></body></html>
