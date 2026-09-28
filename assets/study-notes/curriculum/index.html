@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>載入課程主索引｜知識小站</title>
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",sans-serif;background:#f4f6f2;color:#20332d}
+main{max-width:760px;margin:12vh auto;padding:28px;background:#fff;border:1px solid #d9e2dc;border-radius:18px}
+h1{margin-top:0}.muted{color:#64746e}a{color:#356c55}
+</style>
+</head>
+<body><main><h1>正在載入課程主索引…</h1><p class="muted">143份官方來源、正式章節、歷屆段考與教材完成度。</p><p id="status">讀取資料中。</p></main>
+<script>
+(async()=>{
+  const files=Array.from({length:11},(_,i)=>'parts/part-'+String(i+1).padStart(2,'0')+'.txt');
+  try{
+    const res=await Promise.all(files.map(async f=>{const r=await fetch(f,{cache:'no-store'});if(!r.ok)throw new Error(f+' '+r.status);return r.text();}));
+    const source=res.join('');
+    if(!source.includes('143')||!source.includes('正式章節／課程單元'))throw new Error('索引內容驗證失敗');
+    document.open();document.write(source);document.close();
+  }catch(err){
+    document.getElementById('status').innerHTML='載入失敗：'+String(err.message)+'。<br><a href="../#/home">回知識小站</a>';
+  }
+})();
+</script></body></html>
