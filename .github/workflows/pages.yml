@@ -39,7 +39,7 @@ jobs:
           cp -R css/. .pages/css/
           cp -R js/. .pages/js/
           if [ -d assets ]; then cp -R assets .pages/assets; fi
-          node assets/study-notes/v120/build.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
+          node assets/study-notes/v120/build-atlas.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
           rm -rf .pages/assets/study-notes/v120
       - uses: actions/setup-python@v5
         with:
@@ -56,6 +56,8 @@ jobs:
         run: python assets/study-notes/v120/tests/chapters-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/chapters
       - name: Homepage and catalog navigation acceptance
         run: python assets/study-notes/v120/tests/home-navigation-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/home-navigation
+      - name: Teaching atlas and source evidence acceptance
+        run: python assets/study-notes/v120/tests/atlas-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/atlas
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -104,11 +106,14 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='1.5.0', 'Pages cache still holds earlier version'
-                  assert len(data['units'])==72
-                  assert sum(len(u['quiz']) for u in data['units'])==406
+                  assert data['appVersion']=='1.6.0', 'Pages cache still holds earlier version'
+                  assert len(data['units'])==89
+                  assert sum(len(u['quiz']) for u in data['units'])==508
                   assert sum(len(b['sections']) for b in data['courseMap']['books'])==105
                   assert len(data['courseMap']['books'])==6
+                  assert len(data['atlas']['courses'])==103 and len(data['atlas']['exams'])==40
+                  biology=next(c for c in data['atlas']['courses'] if c['id']=='115-1-7-biology')
+                  assert len(biology['sections'])==22 and biology['readySections']==22
                   assert 'home-welcome' in html and 'LibraryNavigation.normalizeRoute' in html, 'Home/catalog separation missing'
                   assert 'PRACTICE_ADDON_V110' not in html
                   assert 'function validateSession(s,D)' in html, 'Session reliability update missing'
@@ -116,7 +121,7 @@ jobs:
                   with urllib.request.urlopen(base,timeout=25) as r:
                       planner=r.read().decode('utf-8')
                   assert 'js/app.js' in planner, 'Planner entry not preserved'
-                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':72,'fixedQuestions':406,'verifiedNumberedSections':105,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
+                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':89,'fixedQuestions':508,'sourceCount':143,'biologySectionsReady':22,'verifiedNumberedSections':105,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
                   break
               except Exception as error:
                   if attempt==11:raise
