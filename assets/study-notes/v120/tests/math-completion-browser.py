@@ -1,4 +1,4 @@
-"""Run on final V1.8 HTML. --isolated is explicitly a DOM/memory-storage fixture."""
+"""Run on final V1.9 HTML. --isolated is explicitly a DOM/memory-storage fixture."""
 from pathlib import Path
 import sys,json,os,threading,http.server,functools
 from playwright.sync_api import sync_playwright
@@ -19,8 +19,8 @@ with sync_playwright() as p:
   page.evaluate('()=>{const d={};Object.defineProperty(window,"localStorage",{value:{getItem:k=>d[k]??null,setItem:(k,v)=>d[k]=String(v),removeItem:k=>delete d[k]}})}');page.set_content(site.read_text())
  else:page.goto(f'http://127.0.0.1:{server.server_port}/{site.name}')
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(70)
- check('final V1.8 data',page.evaluate('STUDY_DATA.appVersion')=='1.8.0')
- check('147 notes and 856 fixed questions',page.evaluate('STUDY_DATA.units.length===147&&STUDY_DATA.units.reduce((n,u)=>n+u.quiz.length,0)===856'))
+ check('final V1.9 data',page.evaluate('STUDY_DATA.appVersion')=='1.9.0')
+ check('169 notes and 988 fixed questions',page.evaluate('STUDY_DATA.units.length===169&&STUDY_DATA.units.reduce((n,u)=>n+u.quiz.length,0)===988'))
  for g,n,qcount in [(7,11,66),(8,12,66),(9,8,48)]:
   go(f'#/atlas?g={g}&s=math&period=115-1')
   check(f'grade {g} atlas all {n} sections ready',page.locator('[data-atlas-section]').count()==n and page.locator('.atlas-learning-actions').count()==n)
