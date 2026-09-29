@@ -17,7 +17,7 @@ concurrency:
 jobs:
   test-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 18
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -67,6 +67,11 @@ jobs:
         run: python assets/study-notes/v120/tests/math-completion-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/math-completion
       - name: Adopted 114 lower-semester teaching acceptance
         run: python assets/study-notes/v120/tests/lower114-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/lower114
+      # Preserve the existing V1.8 regression suite above, then validate the final V1.9 build.
+      - name: Build integrated teaching and free-resource release
+        run: node assets/study-notes/v120/build-free.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
+      - name: Validate final integrated release in native browser
+        run: python assets/study-notes/v120/tests/free-integration-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/free-integration
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -115,12 +120,12 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='1.8.0', 'Pages cache still holds earlier version'
-                  assert len(data['units'])==147
-                  assert sum(len(u['quiz']) for u in data['units'])==856
+                  assert data['appVersion']=='1.9.0', 'Pages cache still holds earlier version'
+                  assert len(data['units'])==169
+                  assert sum(len(u['quiz']) for u in data['units'])==988
                   assert sum(len(b['sections']) for b in data['courseMap']['books'])==105
                   assert len(data['courseMap']['books'])==6
-                  assert len(data['atlas']['courses'])==103 and len(data['atlas']['exams'])==40
+                  assert len(data['atlas']['courses'])==106 and len(data['atlas']['exams'])==40
                   biology=next(c for c in data['atlas']['courses'] if c['id']=='115-1-7-biology')
                   assert len(biology['sections'])==22 and biology['readySections']==22
                   math=[c for c in data['atlas']['courses'] if c['year']==115 and c['term']==1 and c['subject']=='math']
@@ -129,7 +134,10 @@ jobs:
                   lower=[c for c in data['atlas']['courses'] if c['year']==114 and c['term']==2 and c['subject']=='math']
                   assert len(lower)==3 and sum(c['readySections'] for c in lower)==29
                   assert all(c['readySections']==len(c['sections']) for c in lower)
-                  assert all(u['schoolYear']==114 and u['semester']==2 for u in data['units'] if u.get('historicalAdoption'))
+                  assert all(u['schoolYear']==114 and u['semester'] in (1,2) for u in data['units'] if u.get('historicalAdoption'))
+                  assert len(data['freeResources']['resources'])==29
+                  assert all(not r['localTeachingComplete'] and not r['localTestComplete'] for r in data['freeResources']['resources'])
+                  assert data['atlas']['statistics']['sourceCount']==146
                   assert data['atlas']['adoptionPolicy']['currentYearReplacement'] is False
                   assert 'home-welcome' in html and 'LibraryNavigation.normalizeRoute' in html, 'Home/catalog separation missing'
                   assert 'PRACTICE_ADDON_V110' not in html
@@ -138,7 +146,7 @@ jobs:
                   with urllib.request.urlopen(base,timeout=25) as r:
                       planner=r.read().decode('utf-8')
                   assert 'js/app.js' in planner, 'Planner entry not preserved'
-                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':147,'fixedQuestions':856,'sourceCount':143,'biologySectionsReady':22,'mathSectionsReady':31,'adopted114MathSections':29,'verifiedNumberedSections':105,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
+                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':169,'fixedQuestions':988,'sourceCount':146,'externalResources':29,'biologySectionsReady':22,'mathSectionsReady':31,'adopted114MathSections':29,'verifiedNumberedSections':105,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
                   break
               except Exception as error:
                   if attempt==11:raise
