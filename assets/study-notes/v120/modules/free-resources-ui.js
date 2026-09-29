@@ -1,0 +1,35 @@
+/* External resources use the existing hash router. No third-party media is loaded automatically. */
+(function(root){
+ 'use strict';
+ const E=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const safeURL=url=>{try{const u=new URL(url);return u.protocol==='https:'?u.href:'';}catch{return '';}};
+ const external=(url,label,cls='btn secondary')=>{const u=safeURL(url);return u?`<a class="${E(cls)}" href="${E(u)}" target="_blank" rel="noopener noreferrer">${E(label)} ↗</a>`:'<span>來源網址需確認</span>';};
+ const platforms=D=>new Map(D.freeResources.platforms.map(p=>[p.id,p]));
+ const title=(D,r)=>platforms(D).get(r.platform)?.name||r.platform;
+ function matchedChapters(D,resourceId){
+  const matches=(D.freeResources.mappingEvidence||[]).filter(m=>m.resourceIds.includes(resourceId));
+  if(!matches.length)return '';
+  const links=matches.map(m=>{
+   const course=D.atlas.courses.find(c=>c.id===m.courseId);
+   const section=course?.sections.find(s=>s.id===m.sectionId);
+   if(!course||!section)return '';
+   const query=new URLSearchParams({g:course.grade,s:course.subject,period:course.year+'-'+course.term});
+   return `<a data-free-chapter class="free-chapter-link" href="#/atlas?${E(query.toString())}">${course.grade}年級 · ${E(section.label)} ${E(section.title)}</a>`;
+  }).join('');
+  return links?`<div class="free-mapped-chapters"><strong>回到對應課程</strong>${links}</div>`:'';
+ }
+ function cards(D,ids,compact=false){const found=ids.map(id=>D.freeResources.resources.find(r=>r.id===id)).filter(Boolean);return found.map(r=>`<article class="free-card${compact?' free-compact':''}" data-resource-id="${E(r.id)}"><div class="badge-row"><span class="badge">${E(title(D,r))}</span><span class="badge">${E(r.type)}</span></div><h3>${E(r.title)}</h3>${compact?'':`<p>${E(r.summary)}</p>`}<p class="free-access">${E(r.accessNote)}</p><p class="free-status">${E(r.verificationStatus)}</p><div class="actions">${external(r.url,'開啟原平台')}</div>${compact?'':matchedChapters(D,r.id)}${compact?'':`<details class="free-reuse"><summary>來源、使用與配對限制</summary><p>${E(r.matchStatus)}</p><p>${E(r.licenseReview||r.license||'個別資源授權須於原頁查核；本版只提供連結，不重製。')}</p><p>來源年度：${r.sourceYear?E(r.sourceYear):'原索引未標'}；索引查核：${E(r.checkedOn)}。</p><p>未逐支播放／未逐題驗算。外部學習不會自動寫入本站測驗分數。</p></details>`}</article>`).join('');}
+ function section(D,s){if(!s.externalResources?.length)return '';return `<details class="free-section-resources"><summary>免費教學補充（${s.externalResources.length}筆）</summary><p class="small-text muted">篇名或主題對應，未宣稱全文完全相同。仍須依老師指定範圍選用；有影片不代表本節講義已完成。</p><div class="free-compact-grid">${cards(D,s.externalResources,true)}</div></details>`;}
+ function unit(D,u){const ids=D.freeResources.unitMap[u.id]||[];return `<div class="unit-enrichment">${u.sourceDiscrepancy?`<details class="free-source-note"><summary>原文件差異與本節採用範圍</summary><p>${E(u.sourceDiscrepancy)}</p></details>`:''}${ids.length?`<details class="free-section-resources" data-unit-resources><summary>本節免費影片／互動補充（${ids.length}筆）</summary><p class="small-text muted">點選後在原平台開啟，部分需登入。本版沒有重製影片；看過外部頁面不等於已通過本站測驗。</p><div class="free-compact-grid">${cards(D,ids,true)}</div></details>`:''}</div>`;}
+ function alternatives(D,grade,subject,period){const found=D.atlas.courses.filter(c=>c.grade===grade&&c.subject===subject&&c.year+'-'+c.term!==period);if(!found.length)return '';return `<section class="panel free-alternatives"><h3>相同科目的其他年度來源</h3><p>不必受限單一年度。以下保留原年份與出版社，點選後才切換，不自動冒充當期教材。</p><div class="actions">${found.map(c=>`<a class="btn secondary" href="#/atlas?${E(new URLSearchParams({g:grade,s:subject,period:c.year+'-'+c.term}).toString())}">${c.year}-${c.term} · ${E(c.publisher)} · ${c.readySections}份精選重點</a>`).join('')}</div></section>`;}
+ function render(D,C,params){
+  const R=D.freeResources,p=params.get('p')||'all',s=params.get('s')||'all',q=(params.get('q')||'').trim().slice(0,160);
+  const subjects=[...new Set(R.resources.map(r=>r.subject))];
+  const filtered=R.resources.filter(r=>(p==='all'||r.platform===p)&&(s==='all'||r.subject===s)&&(!q||[r.title,r.summary,r.targetTopic].join(' ').toLocaleLowerCase().includes(q.toLocaleLowerCase())));
+  const option=(id,name,v)=>`<option value="${E(id)}"${id===v?' selected':''}>${E(name)}</option>`;
+  return `<div data-view="resources"><nav class="catalog-breadcrumb" aria-label="導覽"><a href="#/home">首頁</a><span>›</span><strong>免費教學補充</strong></nav><div class="section-heading"><div class="eyebrow">FREE LEARNING / 按內容配對，不限年份</div><h1>教學影片與互動資源，回到同一個入口。</h1><p>先在教學地圖找正式章節，再搭配這裡的免費資源。課文核對篇名、作者與節選；概念核對實際內容，不以年度或相似標題直接認定一致。</p></div><section class="free-summary"><div><b>${R.resources.length}</b><span>外部內容頁／課程入口</span></div><div><b>${R.statistics.linkedSectionCount}</b><span>已有明確主題配對的課／節</span></div><div><b>${R.statistics.platformCount}</b><span>已整理的平台</span></div></section><section class="panel"><form id="free-filter-form" class="free-filters"><label>科目<select name="s">${option('all','全部科目',s)}${subjects.map(x=>option(x,x,s)).join('')}</select></label><label>平台<select name="p">${option('all','全部平台',p)}${R.platforms.map(x=>option(x.id,x.name,p)).join('')}</select></label><label>找篇名或觀念<input name="q" value="${E(q)}" maxlength="160" placeholder="例如：愛蓮說、植物、色彩" type="search"></label><button class="btn primary" type="submit">篩選資源</button></form><p class="small-text muted">目前篩選：${filtered.length}筆。課程目錄和單支影片分開標示；免費不一定免登入。</p></section><section class="panel free-boundary"><h2>外部連結不計入教材完成率</h2><p>本版僅提供原平台連結，不自動下載或重製第三方教材。已讀頁面標題不等於影片播放驗收，也不等於外部題庫答案已驗證。健康教育資料若與舊文件有差異，於對應講義另行說明。</p><div class="actions"><a class="btn secondary" href="#/atlas">回教學與測驗地圖</a><button class="btn secondary" data-free-export>匯出资源與章節配對JSON</button></div></section><div class="free-grid">${filtered.length?cards(D,filtered.map(r=>r.id)):'<section class="panel"><h2>這個篩選沒有資源</h2><p>尚未找到對應內容，不以其他科目替代。</p><a class="btn secondary" href="#/resources">重設篩選</a></section>'}</div><section class="panel"><h2>平台使用方式與授權查核入口</h2><p>以下是索引資料；有重製或改編需求時仍須查看個別資源授權與例外。本版沒有以整站授權取代逐筆查核。</p>${R.platforms.map(x=>`<details class="free-platform"><summary>${E(x.name)}</summary><p>${E(x.access)}</p><p>${E(x.reuse)}</p><div class="actions">${external(x.url,'平台入口')}${x.licenseUrl?external(x.licenseUrl,'授權／使用條款'):''}</div></details>`).join('')}</section></div>`.replace('匯出资源','匯出資源');
+ }
+ document.addEventListener('submit',e=>{if(e.target.id!=='free-filter-form')return;e.preventDefault();const f=new FormData(e.target);root.location.hash='#/resources?'+new URLSearchParams({s:f.get('s')||'all',p:f.get('p')||'all',q:String(f.get('q')||'').slice(0,160)});});
+ document.addEventListener('click',e=>{if(!e.target.closest('[data-free-export]'))return;const b=new Blob([JSON.stringify(root.STUDY_DATA.freeResources,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(b),a=document.createElement('a');a.href=url;a.download='知識小站_免費資源與章節配對_v190.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+ root.FreeResourcesUI={render,section,unit,alternatives,escapeHTML:E};
+})(window);

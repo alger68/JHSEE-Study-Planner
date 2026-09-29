@@ -1,0 +1,51 @@
+[
+  {
+    "id": "support113",
+    "title": "衛生福利部：113保護專線",
+    "url": "https://dep.mohw.gov.tw/DOPs/fp-1183-6499-105.html",
+    "note": "外部補充：113保護諮詢；緊急危險110。",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "health-prevention",
+    "title": "衛生福利部：性傳染病防護衛教",
+    "url": "https://mohw.gov.tw/cp-2704-73585-1.html",
+    "note": "外部公衛補充，非原課本內容：風險防護、就醫及正確使用保險套。",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "health-hiv-daily",
+    "title": "臺中市政府衛生局：日常生活與HIV傳染問答",
+    "url": "https://www.health.taichung.gov.tw/1283065/post",
+    "note": "外部公衛補充：一般日常生活接觸並非HIV傳播途徑。",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "health-refuse",
+    "title": "衛生福利部／食藥署：拒絕毒品技巧",
+    "url": "https://www.mohw.gov.tw/cp-4253-49406-1.html",
+    "note": "外部反毒補充：拒絕、離開現場及支持資源；不含毒品製作或使用指示。",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "health-youth-assessment",
+    "title": "彰化縣衛生局：兒童及青少年體位判讀",
+    "url": "https://www.chshb.gov.tw/node/219112362",
+    "note": "外部補充：兒少體位判讀需年齡及性別；不將成人界線套用學生。",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "health-youth-living",
+    "title": "衛生福利部：兒少健康生活衛教",
+    "url": "https://www.mohw.gov.tw/cp-16-78901-1.html",
+    "note": "外部健康生活補充；本教材不提供未成年人熱量限制、減重目標或自我診斷。",
+    "checked": "2026-09-30"
+  },
+  {
+    "id": "environment-aqi",
+    "title": "環境部：空氣品質與細懸浮微粒說明",
+    "url": "https://airtw.moenv.gov.tw/cht/Encyclopedia/pedia09/pedia9_3.aspx",
+    "note": "外部查核：PM2.5為粒狀污染物，不是氣體。原計畫的不同用語在教材明示。",
+    "checked": "2026-09-30"
+  }
+]
