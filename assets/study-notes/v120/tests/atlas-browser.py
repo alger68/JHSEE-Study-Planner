@@ -18,7 +18,7 @@ with sync_playwright() as p:
   page.evaluate('()=>{const x={};Object.defineProperty(window,"localStorage",{value:{getItem:k=>x[k]??null,setItem:(k,v)=>x[k]=String(v),removeItem:k=>delete x[k]}})}');page.set_content(site.read_text())
  else:page.goto(f'http://127.0.0.1:{server.server_port}/{site.name}')
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(90)
- check('V160 curriculum loaded',page.evaluate('STUDY_DATA.appVersion')=='1.6.0')
+ check('V170 curriculum loaded',page.evaluate('STUDY_DATA.appVersion')=='1.7.0')
  check('home is still navigation, not fixed chapter cards',page.locator('[data-view="home"]').count()==1 and page.locator('[data-unit-card]').count()==0)
  check('home provides atlas entry',page.locator('.atlas-home a[href="#/atlas"]').count()==1)
  page.screenshot(path=str(out/'home-desktop.png'),full_page=False)

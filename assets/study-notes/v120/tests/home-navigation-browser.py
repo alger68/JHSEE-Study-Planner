@@ -59,7 +59,7 @@ with sync_playwright() as p:
  page.locator('[data-subject-entry="math"]').click();page.wait_for_selector('[data-view="library"]')
  check('subject shortcut asks grade rather than assuming seven',page.locator('[data-grade-entry]').count()==3 and page.locator('.unit-card').count()==0)
  page.locator('[data-grade-entry="8"]').click();page.wait_for_selector('.unit-card')
- check('math grade-eight course has its three scoped guides',page.locator('.unit-card').count()==3)
+ check('math grade-eight course has twelve chapter notes plus one overview',page.locator('.unit-card').count()==13)
  page.select_option('#library-term','2');page.wait_for_timeout(100)
  check('changing semester stays in catalog', '#/library?' in page.evaluate('location.hash') and page.locator('.unit-card').count()==1)
  go('#/home?g=7&term=all&s=science');page.wait_for_selector('[data-view="library"]')
