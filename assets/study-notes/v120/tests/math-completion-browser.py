@@ -1,4 +1,4 @@
-"""Run on final V1.7 HTML. --isolated is explicitly a DOM/memory-storage fixture."""
+"""Run on final V1.8 HTML. --isolated is explicitly a DOM/memory-storage fixture."""
 from pathlib import Path
 import sys,json,os,threading,http.server,functools
 from playwright.sync_api import sync_playwright
@@ -19,8 +19,8 @@ with sync_playwright() as p:
   page.evaluate('()=>{const d={};Object.defineProperty(window,"localStorage",{value:{getItem:k=>d[k]??null,setItem:(k,v)=>d[k]=String(v),removeItem:k=>delete d[k]}})}');page.set_content(site.read_text())
  else:page.goto(f'http://127.0.0.1:{server.server_port}/{site.name}')
  def go(h):page.evaluate('(h)=>location.hash=h',h);page.wait_for_timeout(70)
- check('final V1.7 data',page.evaluate('STUDY_DATA.appVersion')=='1.7.0')
- check('118 notes and 682 fixed questions',page.evaluate('STUDY_DATA.units.length===118&&STUDY_DATA.units.reduce((n,u)=>n+u.quiz.length,0)===682'))
+ check('final V1.8 data',page.evaluate('STUDY_DATA.appVersion')=='1.8.0')
+ check('147 notes and 856 fixed questions',page.evaluate('STUDY_DATA.units.length===147&&STUDY_DATA.units.reduce((n,u)=>n+u.quiz.length,0)===856'))
  for g,n,qcount in [(7,11,66),(8,12,66),(9,8,48)]:
   go(f'#/atlas?g={g}&s=math&period=115-1')
   check(f'grade {g} atlas all {n} sections ready',page.locator('[data-atlas-section]').count()==n and page.locator('.atlas-learning-actions').count()==n)
@@ -54,7 +54,7 @@ with sync_playwright() as p:
  file=out/'math-backup.json';dl.value.save_as(file)
  check('new mathematics progress backup validates',json.loads(file.read_text())['version']=='1.3.1')
  go('#/atlas?g=8&s=math&period=114-2')
- check('historical mathematics not incorrectly marked taught',page.locator('.atlas-learning-actions').count()==0)
+ check('adopted 114 mathematics exposes twelve ready notes',page.locator('.atlas-learning-actions').count()==12)
  check('historical 21 actual question links preserved',page.evaluate('STUDY_DATA.atlas.statistics.questionRecords')==21)
  for w in [320,390,768,1366]:
   page.set_viewport_size({'width':w,'height':900});go('#/atlas?g=9&s=math&period=115-1')

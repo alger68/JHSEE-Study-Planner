@@ -61,7 +61,7 @@ with sync_playwright() as p:
  page.locator('[data-grade-entry="8"]').click();page.wait_for_selector('.unit-card')
  check('math grade-eight course has twelve chapter notes plus one overview',page.locator('.unit-card').count()==13)
  page.select_option('#library-term','2');page.wait_for_timeout(100)
- check('changing semester stays in catalog', '#/library?' in page.evaluate('location.hash') and page.locator('.unit-card').count()==1)
+ check('changing semester shows adopted 114 notes plus overview', '#/library?' in page.evaluate('location.hash') and page.locator('.unit-card').count()==13)
  go('#/home?g=7&term=all&s=science');page.wait_for_selector('[data-view="library"]')
  check('old filtered-home URL still resolves to 24 science materials',page.locator('.unit-card').count()==24)
  if not isolated:check('old URL visibly canonicalized', '#/library?' in page.url)
