@@ -1,0 +1,80 @@
+@@Starter|Starter
+過去時間提示~yesterday、last week常提示已結束的事件。~先從時間詞判斷事件發生在何時，再選適合的動詞形式。過去式不規則變化須另外記，例如go變went；不能在所有動詞後一律加ed。~We visited the museum yesterday. He went home early.
+be動詞過去式~單數常用was，複數與you用were。~I、he、she、it在過去敘述一般接was；you、we、they接were。否定可用wasn't或weren't，問句把過去式be移到主詞前。~Was she at school yesterday? Yes, she was.
+短文時間線~先分清「事情發生」與「現在描述」。~閱讀短文時標出時間詞、人物與動作，再整理先後順序。過去敘事中的today可能由寫作者所處時間決定，不宜只憑一個字忽略上下文。~On Monday, Leo bought a ticket. On Tuesday, he took the train.
+?1|"She ___ to the park yesterday." 用go的過去式，應填？|went|go|goes|going|yesterday提示過去；go的不規則過去式是went，不能直接加ed。
+?1|哪個詞最常提示已結束的過去時間？|last night|right now|every day|tomorrow morning|last night指昨晚已過去；right now與tomorrow描述其他時間。
+?2|"They ___ at home last night." 應填何者？|were|was|are|is|They是複數，過去式be用were；last night不能用現在式are。
+?2|"Was Ben late?" 若他沒有遲到，怎麼回答？|No, he wasn't.|No, he weren't.|No, he doesn't.|No, he isn't yesterday.|Was的否定簡答是No, he wasn't；主詞Ben對應he。
+?3|週一買票、週二搭車，哪件事先發生？|買票|搭車|兩件事同時|無法依日期判斷|Monday在Tuesday之前，因此買票先發生；先整理時間線再作答。
+?3|"Mia cleaned her room yesterday." 哪個說法正確？|她昨天打掃房間|她現在正打掃房間|她明天會打掃房間|她每天必定打掃房間|yesterday指出昨天，cleaned是過去式；句子沒有表達現在或每天。
+@@U1|How Was the Weather in Australia?
+詢問過去天氣~How was the weather? 問過去某時天氣。~was搭配單數the weather，若問昨天則可加yesterday。回答可用It was加描述天氣的形容詞，不要把描述過去的was誤用成現在式is。~How was the weather there yesterday? It was sunny.
+天氣形容詞與名詞~sunny、rainy等描述天氣，rain也可作動詞或名詞。~選詞時看句中結構：It was rainy可用形容詞，It rained用過去式動詞。不同詞類不能直接互換，尤其be動詞後通常接形容詞。~It was windy in the morning, but it rained later.
+閱讀行程與氣候~地點、日期和天氣須一起核對。~旅遊明信片可能提到多個城市與不同天氣。回答時要找題目指定的地點及日期，不可看到sunny就當成整趟旅程天天晴朗。~Monday: Sydney, cloudy. Tuesday: Canberra, sunny.
+?1|"How ___ the weather yesterday?" 應填？|was|were|is|are|the weather視為單數，yesterday是過去，故問句用was。
+?1|"It was ___ yesterday." 要說晴天，應填？|sunny|sun|rained|wind|be動詞was後描述天氣用形容詞sunny；其他詞類不符句型。
+?2|"It ___ last night." 表示昨夜下雨，應填？|rained|rainy|raining|rain|句子沒有be動詞，需用過去式動詞rained；last night提示過去。
+?2|"It was windy." 中文最貼切是？|當時有風|當時下雪|現在很熱|明天會下雨|windy表示有風，was表示所說的是過去情況，不是未來預報。
+?3|行程寫「Monday: cloudy; Tuesday: sunny」，週一的天氣是？|多雲|晴朗|下雪|未記載|先對準Monday再讀cloudy；Tuesday的sunny不能挪作週一答案。
+?3|短文說上午晴朗、下午下雨，哪句有依據？|天氣在一天中改變了|整天都沒有雨|整天都在下雪|上午比下午更冷|上午與下午的天氣描述不同，因此可推知天氣變化；沒有溫度資料。
+@@U2|You Can Learn About Game Design After You Join the Club
+can與學習機會~can後接動詞原形，描述能做的事。~can表能力或機會，否定can't，疑問句Can you...?。它不是一般動詞，後面不加to，也不因主詞是第三人稱而把主要動詞加s。~You can learn coding in the club.
+after與事件先後~after引出較早發生或先完成的事件。~After you join the club, you can learn design表示先加入，再學習。閱讀時間連接詞時，要把兩個動作分別標出；若談未來，時間子句常用現在式。~After we finish the meeting, we will play a game.
+條件與公告閱讀~比較參加資格、時間和活動內容。~社團公告可能分別列出報名期限與活動日；「可報名」不等於「已錄取」。做推論時要指出公告中哪一個條件提供依據，不能自行補充未寫的名額。~Club notice: Sign up by Friday. First meeting is next Monday.
+?1|"She can ___ a game." 應填？|design|designs|to design|designing|can後接動詞原形design；She不會使can後動詞加s。
+?1|哪句正確表達「你可以加入社團」？|You can join the club.|You can to join the club.|You cans join the club.|You can joining the club.|助動詞can後面直接接原形join；不加to或ing。
+?2|"After you join the club, you can learn design." 哪件事先？|加入社團|學會設計|退出社團|製作遊戲|after子句指先加入，之後才有機會學習設計。
+?2|"After we finish, we will rest." 在這個未來時間句裡，finish的形式為何？|現在式|will加動詞|過去式|現在完成式|表未來的after時間子句通常用現在式finish，主句才用will rest。
+?3|公告寫「週五前報名，下週一初次聚會」，何時先截止報名？|本週五|下週一|本週二|公告未寫|Sign up by Friday是報名期限，初次聚會的Monday不是報名截止日。
+?3|只看到「可在社團學設計」能否推知每位報名者都錄取？|不能，仍需確認錄取資訊|可以，報名等於錄取|可以，社團沒有名額限制|不能，因為社團一定取消|學習內容沒有提供錄取條件；不可把「可參與的活動」推成人人已錄取。
+@@U3|Mom Was Doing the Dishes at Half Past Twelve
+過去進行式~was、were加V-ing，表示過去某時正在做事。~I、he、she等單數主詞多用was，we、they與you用were。過去進行式著重某個時間點動作正在持續，不等於動作必然完成。~At noon, Mom was washing dishes.
+過去進行與突然事件~背景中的長動作可用過去進行式。~I was reading when the phone rang，讀書在當時持續，電話響是較短的事件。when本身不會自動決定哪個動詞用哪個時態，要讀事件關係。~They were eating when the lights went out.
+時間表達~half past twelve指十二點半，quarter past表示過一刻。~half past加在小時之後是過了三十分鐘；題目若同時列出上午下午，還要看at noon或at night等線索，不能只看12:30。~At half past twelve, the class had lunch.
+?1|"Mom ___ the dishes at noon yesterday." 應填？|was doing|were doing|is doing|doing|Mom為單數，過去某時正在進行用was doing；不可省略be。
+?1|"They ___ dinner when I called." 應填？|were having|was having|are having|have tomorrow|They是複數，描述來電時正在吃飯要用were having。
+?2|"I was reading when the bell rang." 哪件事是背景中的持續動作？|讀書|鈴響|兩者都還沒發生|明天的上課|was reading描述進行中的背景；rang是短暫發生的事件。
+?2|過去進行式的結構是哪個？|was或were加V-ing|did加V-ing|will加過去式|have加原形|過去進行式由過去be動詞was或were與V-ing組成。
+?3|"half past twelve" 是幾點？|12:30|12:15|12:45|11:30|half past表示某個整點過三十分鐘，因此twelve之後是12:30。
+?3|"At 12:30 yesterday, Leo was cooking." 能確定什麼？|昨天12:30他正在煮食|他昨天12:30已吃完|他每天12:30都煮食|他明天12:30要煮食|was cooking描述該過去時間點正在進行，不保證已完成或每天重複。
+@@U4|What Do You Want to Be in the Future?
+職業志向~want to be後接職業或身分。~詢問未來想做什麼，可用What do you want to be?。回答I want to be a nurse，注意單數可數職業名稱通常需要a或an。~I want to be an engineer.
+不定詞與計畫~want、hope等常接to加原形動詞。~want to learn與want to be表示想做或想成為，不能把to後的動詞直接改成過去式。描述準備步驟時，用具體學習活動支撐志向，而不只填一個職業名稱。~She hopes to study science and become a vet.
+文章中的願望與事實~未來想做不代表目前已經是該職業。~讀人物介紹時區分現在身分、興趣與未來目標。若短文只說希望當醫師，不可據此推斷已在醫院工作，除非文章另有證據。~Now: student. Goal: doctor. Plan: study biology.
+?1|"I want to be ___ artist." 應填？|an|a|the two|many|artist以母音音起首，單數可數職業前用an；不是只看字母數量。
+?1|"What do you want to ___?" 問志願，應填？|be|being|was|is|want to後接動詞原形be，問的是未來希望成為什麼。
+?2|"She hopes ___ science." 應填？|to study|study to|studied|studying to|hope後表示希望做某事常接to加原形study，語序不可顛倒。
+?2|哪句正確表達未來想當獸醫？|I want to be a vet.|I want be a vet.|I wants to be a vet.|I want to being a vet.|I作主詞用want；want後接to be，單數職業前用a。
+?3|介紹寫「Ben是學生，希望以後當廚師」，目前身分是？|學生|廚師|醫師|無法知道|「希望以後」是未來志向；短文明确說目前是學生。
+?3|哪項最能支持「想當工程師」的具體準備？|學習數學並做設計練習|只記住職業名稱|宣稱現在已經是工程師|忽略所有課程|準備計畫應有可執行的學習活動；其餘選項無法支持目標。
+@@Culture & Festival|Halloween
+文化活動與尊重~先辨認節慶活動，再尊重不同人的參與選擇。~Halloween常與變裝、裝飾或社區活動相關，但不同地區與家庭做法並不相同。不能把某一篇文章的活動推成全世界每個人都必須參與。~Some students dress up; others do not.
+日期與時間介系詞~特定日期前通常用on，月份前通常用in。~可說on October 31與in October；若寫at six o'clock則是具體時刻。閱讀活動通知時先分別擷取日期、時間與地點。~The party is on October 31 at six.
+通知與安全~依規則閱讀場所、起訖時間及注意事項。~活動海報若寫家長陪同、不能進入某區域，做選擇時應把限制納入。沒有寫明免費或開放所有人，就不能只因節慶名稱自行推論。~Notice: Meet in the hall at six. Bring a flashlight.
+?1|哪個英文詞表示「變裝」？|dress up|wake up|give up|turn up|節慶情境中的dress up是穿上裝扮；其他片語意思不同。
+?1|「每個地方的慶祝方式都一樣」能從單一活動介紹推得嗎？|不能，不同地區做法可能不同|可以，節慶活動全世界完全相同|可以，所有家庭都會參加|不能，因為節慶沒有日期|單一活動只說明一種做法，不能推論所有地方與家庭都一致。
+?2|"The party is ___ October 31." 應填？|on|in|at|from|特定日期October 31前一般用on；月份單獨出現才常用in。
+?2|"The event starts ___ six." 應填？|at|on|in|by the|具體時刻six o'clock前通常使用at；日期與月份的介系詞不同。
+?3|通知寫「Meet in the hall at six」，集合地點在哪裡？|大廳|操場|圖書館|學校外|in the hall指出集合地點是大廳，at six是時間，兩者不可對調。
+?3|海報只寫「請帶手電筒」，可以確定門票免費嗎？|不可以，沒有票價資訊|可以，所有活動都免費|可以，帶手電筒即可抵票|不可以，因為活動必定取消|攜帶物品規定沒有提供票價；閱讀通知時不要自行補上未寫的條件。
+@@U5|How Do We Go to the Hotel?
+詢問交通方式~How do we go to...? 問如何前往。~可用by bus、by train或on foot回答交通方式。by後通常直接接交通工具單數名詞，不加冠詞；走路則用on foot，不說by foot。~How do we go to the hotel? By bus.
+方向與路線~go straight、turn left、turn right描述路徑。~閱讀路線先找出發點，再按順序執行每個轉彎指令。若有兩個十字路口，first與second會影響目的地，不能只抓到turn left就作答。~Go straight. Turn right at the second corner.
+估計時間與限制~選路線要同時看耗時、費用和出發時間。~某班車較快但已經離站，就不能當作現在可搭乘選項。時刻表題先判斷現時，再查未來班次和抵達時刻，不把行車時間當成候車時間。~It is 9:10. The next bus leaves at 9:20 and takes 15 minutes.
+?1|「搭公車到飯店」哪句正確？|Go to the hotel by bus.|Go to the hotel by a bus.|Go to the hotel on bus.|Go to the hotel by foot.|表示交通方式可用by bus，by後不加a；步行另用on foot。
+?1|「步行」應選哪個片語？|on foot|by foot|with foot|in foot|固定表達為on foot；不要把by bus的結構直接套到步行。
+?2|"Turn right at the second corner." 要在第幾個轉角右轉？|第二個|第一個|第三個|每個轉角|second是第二個；路線指令必須保留順序資訊。
+?2|"Go straight, then turn left." 哪個動作先？|直走|左轉|右轉|停車|then表示接著，直走發生在左轉之前；不能倒讀指令。
+?3|現在9:10，公車9:20開、車程15分鐘，預計何時到達？|9:35|9:25|9:20|9:15|先等到9:20出發，再加15分鐘車程，預計9:35抵達。
+?3|現在9:10，9:00與9:20兩班都能到飯店，哪班仍可搭？|9:20那班|9:00那班|兩班都已離站|兩班都還沒開|9:00班已在目前時間之前離站；9:20才是未來班次。
+@@U6|I’ll Take Two Pairs of Gloves
+will與購物決定~I'll是I will的縮寫，後接動詞原形。~在購物對話中I'll take...可表示決定購買。will後不加to，也不因主詞而讓主要動詞加s；仍需核對顧客說的是數量、顏色或尺寸。~I'll take the blue gloves.
+成雙物品的數量~gloves、shoes等常用pair計數。~two pairs of gloves表示兩雙手套，也就是四只。pair的複數須依數字變化；不能把two pairs理解成兩只或四雙。~One pair has two gloves. Two pairs have four gloves.
+價格與找零~先算單價乘數量，再用付款減總價。~標價若以「每雙」計，買兩雙要乘二；折扣或滿額條件只在題目明示時才套用。計算結果還需檢查貨幣單位。~Each pair costs NT$80. Two pairs cost NT$160.
+?1|"I'll ___ the red hat." 應填何者？|take|takes|to take|taking|I'll即I will，will後接動詞原形take，不加s或to。
+?1|"I'll take it." 在購物對話中常表示？|我決定買它|我把它丟掉|我昨天退貨|我不知道它在哪裡|購物情境中的I'll take it表示決定買下該商品。
+?2|"two pairs of gloves" 合計幾只手套？|四只|兩只|一只|八只|一雙有兩只手套，兩雙共四只；pair是成對計數。
+?2|三雙鞋的英文哪個正確？|three pairs of shoes|three pair of shoes|three pairs of shoe|three shoes pairs|three後pair用複數pairs，shoes也用複數；結構是pairs of shoes。
+?3|每雙手套80元，買兩雙共多少元？|160元|80元|40元|240元|單價以每雙計，兩雙為80乘2等於160元；沒有額外折扣資訊。
+?3|買兩雙共160元，付200元應找多少？|40元|20元|160元|360元|找零是付款200減總價160，得到40元；先確認總價再計算。

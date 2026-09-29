@@ -1,0 +1,70 @@
+@@Starter|Starter
+時態與時間線~先判斷事件是習慣、已結束，還是正在發生。~every day通常表示習慣，yesterday是已結束的過去，now提示此刻進行。先讀時間線索與句意，再檢查主詞及動詞形式；不能只看單一動詞就選時態。~She reads daily. She read yesterday. She is reading now.
+問句資訊定位~who、where、when、why分別問人物、地點、時間與原因。~回答短文題時先判斷題目要哪一類資訊，再回原文找證據。相同單字出現不保證選項正確，須核對它在句子中的角色。~Why was Leo late? Because the bus broke down.
+敘事連貫~連接詞和代名詞幫助串起前後句。~but表示轉折，because引出原因。看到he或they要回頭找所指的人，並檢查單複數；不能只挑最近的名詞而忽略文意。~Mia was tired, but she finished the report.
+?1|"He ___ to school every day." 應填？|walks|walked|walking|is walked|every day表示習慣，He是第三人稱單數，現在式用walks。
+?1|"They ___ a movie yesterday." 應填？|watched|watch|are watching|watches|yesterday提示已結束的過去，規則動詞watch用watched。
+?2|"Where did Ava go?" 題目要找哪類資訊？|地點|原因|人物身分|數量|Where用來問地點；應在短文中找Ava去了哪裡。
+?2|"Why was the train late?" 哪個回答最切題？|Because of heavy rain.|At nine o'clock.|At the station.|Two trains.|Why問原因，Because of heavy rain提供原因；其他答案是時間、地點或數量。
+?3|"Leo wanted to play, but he had homework." but表示什麼關係？|轉折|時間順序|兩事完全相同|數量比較|but連接相反或有落差的情況；想玩與有作業形成轉折。
+?3|"Mia told Ben that he should rest." he最可能指誰？|Ben|Mia|兩人都同時|沒有任何人|he是男性單數代名詞，在這句中和Ben的人稱相符，應回頭核對語意。
+@@U1|Have You Had Breakfast Yet?
+現在完成式~have或has加過去分詞，連結先前行動與現在。~I、you、we、they用have；he、she、it用has。had可作have的過去分詞；不能把have後的主要動詞直接放原形。~I have eaten breakfast. She has had breakfast.
+yet與already~yet常見於疑問或否定，already常表示已經。~Have you eaten yet?問到現在是否吃過；I haven't eaten yet表示截至現在還沒吃。already在肯定句常表示比預期或此時已完成，位置需與句型配合。~Have you finished yet? Yes, I've already finished.
+完成式與明確過去時間~yesterday等明確時點通常用過去簡單式。~若句子明確說昨天七點做了某事，一般用過去式描述當時事件。現在完成式著重與現在的連結，不宜機械套到每個「曾經」的敘述。~I ate at seven yesterday. I have already eaten today.
+?1|"She ___ breakfast already." 應填？|has had|have had|has have|is had|She配has，have的過去分詞是had，因此現在完成式為has had。
+?1|"They ___ finished the task." 應填？|have|has|are|did|They配have，後面finished是過去分詞，構成現在完成式。
+?2|"Have you eaten ___?" 用於「吃了沒」，應填？|yet|tomorrow|last week|every night|完成式疑問句常用yet表示「到現在是否已經」；其他選項時間不合。
+?2|"I haven't seen the film yet." 表示什麼？|直到現在還沒看|昨天看完了|明天一定會看|每天都看|haven't加過去分詞與yet表示截至現在仍未看過，不保證未來安排。
+?3|"I ___ breakfast at seven yesterday." 應填？|had|have had|has had|am having|yesterday at seven是明確的過去時點，這裡用過去式had。
+?3|哪句正確區分已完成與昨天特定事件？|I've eaten today; I ate at seven yesterday.|I have ate yesterday at seven.|She have eaten yesterday.|I am eaten yesterday.|第一句完成式談今天到目前的狀態，過去式談昨天七點的特定事件。
+@@U2|The Movie Looks Exciting
+連綴動詞與形容詞~look、sound、feel等可連接主詞的特徵。~The movie looks exciting中的exciting描述電影給人的印象。若look表示「看某物」的動作，結構可能不同；先判斷動詞是連綴用法還是一般動作。~The soup smells good. The story sounds interesting.
+令人感到與自己的感受~exciting描述令人興奮的事物，excited描述人的感受。~現在分詞形容詞常描述引發感受的來源，過去分詞形容詞常描述感受者。要看主詞是人還是活動，不能只憑中文都翻成「興奮」就交換。~The game is exciting. The players are excited.
+評論與證據~把「我喜歡」與作品可觀察特點分開。~影評可能提到節奏、人物與畫面；回答作者意見時要抓評價字詞，回答事實則找可確認的敘述。評價不等於所有觀眾的共同結論。~Review: The scenes are colorful, but the story is slow.
+?1|"The music sounds ___." 應填？|beautiful|beautifully|beauty|beautify|sound在此作連綴動詞，後接形容詞beautiful描述音樂。
+?1|"The soup smells ___." 表示湯聞起來香，應填？|good|well cooking|goodly|goodness|連綴動詞smells後用形容詞good描述湯的氣味。
+?2|"The movie is ___." 指電影令人興奮，應填？|exciting|excited|excite person|excitemented|電影是引發感受的事物，用exciting；excited通常描述人的感受。
+?2|"The children are ___ about the trip." 應填？|excited|exciting|excite|excitation|孩子是感受者，用excited表示他們覺得興奮，不用exciting。
+?3|評論寫「畫面多彩，但故事節奏慢」，哪項有文字依據？|作者認為畫面多彩|所有觀眾都喜歡節奏|電影沒有故事|作者完全沒有評價|評論明說畫面多彩；對所有觀眾的想法沒有提供證據。
+?3|"I think the film is interesting." 主要表達什麼？|說話者的評價|上映日期|電影票價|所有人的一致結論|I think是個人觀點提示，不能直接視為全體觀眾的客觀結論。
+@@U3|The Soldier Was Saved by a Dog
+過去被動語態~was或were加過去分詞，主詞是接受動作的一方。~The soldier was saved表示士兵被救；若要指出執行者，可加by a dog。被動句的be需與主詞單複數及過去時間一致，不是was加現在分詞。~The window was opened by a guard.
+主動與被動換句~保留誰做事、誰受影響及原本時態。~A dog saved the soldier轉成The soldier was saved by a dog。換句時把原句受詞移到新主詞位置，並確認by後仍是原動作者；不應把救人和被救顛倒。~A nurse helped the boy. → The boy was helped by a nurse.
+辨識新聞敘事~區分事件、行動者與受事者。~短文若寫一座橋由工程團隊修復，橋是接受修復的對象；團隊是執行者。回答問題前先劃出by片語，避免把被動主詞誤認成施事者。~The bridge was repaired by local workers.
+?1|"The soldier ___ by a dog yesterday." 應填？|was saved|were saved|was saving|saved was|soldier是單數受事者，過去被動用was saved；by a dog是執行者。
+?1|"The letters ___ yesterday." 用過去被動，應填？|were sent|was sent|are sending|sent were|letters為複數，過去被動用were加過去分詞sent。
+?2|"A nurse helped the boy." 的被動句何者正確？|The boy was helped by a nurse.|The nurse was helped by the boy.|The boy helped by a nurse.|The boy was helping a nurse.|原句男孩受幫助，改被動時The boy作主詞，過去被動為was helped。
+?2|"The door was opened by Amy." 誰打開門？|Amy|門|沒有人|無法從句子判斷|by Amy指明行動者是Amy；door是接受開門動作的對象。
+?3|"The bridge was repaired by workers." 橋在句中扮演什麼角色？|接受修復的對象|修橋的人|修橋工具|時間詞|被動句主詞bridge是受事者；workers才是by後面的行動者。
+?3|哪句同時保留「昨晚」與「由警衛關門」？|The gate was closed by the guard last night.|The guard was closed by the gate tonight.|The gate is closing the guard last night.|The gate were closed by the guard tomorrow.|過去時間last night配was closed，by the guard指出警衛是執行者。
+@@U4|Do You Know Where the File Is?
+間接問句語序~在Do you know...後的問句部分用敘述句語序。~直接問Where is the file? 改成Do you know where the file is?時，where後是主詞the file再接is。不能把原問句倒裝完整塞進子句。~Do you know where the library is?
+疑問詞與資訊~where問位置，when問時間，why問原因。~選擇嵌入句的疑問詞前，先看預期回答是哪一類。Can you tell me...有禮貌地詢問資訊，語意不等於說話者已經知道答案。~Can you tell me when the meeting starts?
+Yes或No型間接問句~沒有疑問詞時可用if或whether引導。~直接問Is the shop open? 可以說Do you know if the shop is open?，其中shop is是敘述語序。if在此表示「是否」，與條件句的用法需依上下文區分。~I wonder if the bus is late.
+?1|哪句間接問句語序正確？|Do you know where the file is?|Do you know where is the file?|Do you know where does the file is?|Do you know where the file?|where後的子句採the file is敘述語序；不能直接沿用獨立問句的倒裝。
+?1|"Can you tell me when ___?" 應填？|the class begins|does the class begin|begins the class|the class begin does|間接問句中主詞the class在動詞begins之前，仍需第三人稱單數形式。
+?2|想知道開會的地點，應選哪個疑問詞？|where|when|why|who many|地點要用where；when問時間、why問原因，不能互換。
+?2|"Do you know ___ the shop is open?" 表示「是否」，應填？|if|where|who|how many|Yes或No問題嵌入句中可用if表示是否；後面shop is保持敘述語序。
+?3|"I know where the key is." 可以確定哪件事？|說話者知道鑰匙位置|鑰匙一定在桌上|說話者正在找鑰匙|鑰匙不見了|句子只說知道位置，沒有提供具體地點或是否遺失。
+?3|"Do you know if the train is late?" 中if的意思是？|是否|因為|儘管|直到|在know後的間接Yes或No問句裡，if相當於「是否」，不是條件句。
+@@U5|The Man Who Shook Hands with Me Is My Favorite Star
+關係子句修飾人~who可接在先行詞後補充是哪一個人。~The man who waved at us中的who指the man。找主要句子時暫時移開who子句，便可看出The man is my uncle；不要把who誤當另一個新人物。~The girl who won the race is my cousin.
+關係代名詞作主詞~who在子句裡當主詞，後面接相應動詞。~The teacher who helps us中的who替代teacher作helps的主詞。分析動詞形式時看先行詞的單複數，不能誤用主句另一個名詞的數。~The students who live nearby walk to school.
+長句找主幹~先找被修飾的人，再讀修飾資訊和主句。~遇到好幾個人物時，把who子句夾在先行詞旁邊理解，再問主句說了什麼。只看到握手者不代表就是主句的動作執行者。~The actor who spoke to Mia is on TV tonight.
+?1|"The boy ___ won the game is my friend." 應填？|who|where|when|whose table|先行詞boy是人，子句缺主詞，使用who連接並指向boy。
+?1|"The woman who sings here is my aunt." who指誰？|the woman|my aunt's song|here|說話的人|who緊接先行詞the woman並補充她會唱歌；不是新人物。
+?2|"The students who ___ early get seats." 應填？|arrive|arrives|arriving is|to arriving|先行詞students是複數，who作子句主詞，動詞用arrive。
+?2|"The teacher who ___ us is kind." 應填？|helps|help|helping|have help|先行詞teacher是單數，關係子句內who作主詞，現在式用helps。
+?3|"The girl who won the race is my cousin." 主句主要說什麼？|那位女孩是我的表親|表親贏了兩場比賽|女孩是老師|比賽在昨天舉行|移開who won the race後，主幹是The girl is my cousin；其餘細節沒有寫。
+?3|"The actor who spoke to Mia is on TV tonight." 誰今晚在電視上？|那位演員|Mia|所有演員|沒有任何人|主句主詞是The actor；who子句只用來指出是哪位演員。
+@@U6|The Sign Which You Used Is Not OK
+關係子句修飾物~which可接在物品後面補充辨識資訊。~The sign which you used中的which指the sign，是物而非人。主句再說明這個標誌是否合適；要先找先行詞再判斷關係代名詞。~The map which we bought is clear.
+關係代名詞作受詞~當子句已另有主詞與動詞時，which可作受詞。~The book which I read裡I是子句主詞，read的受詞是which所指的book。句子若在子句內缺主詞，省略關係代名詞的條件就不同；初學先完整保留。~The photo which she took is beautiful.
+標誌與告示閱讀~先分清標誌本身和它傳達的規則。~告示有時禁止某行為，有時提供方向；閱讀時須判斷not、must等限制詞。若只說某標誌不適合，不能自行推測應換成哪一張圖，除非題目提供規則。~This sign says "No entry." Visitors must use another door.
+?1|"The sign ___ we saw was new." 應填？|which|who|where|when|先行詞sign是物品，關係子句需要指物的受詞，可用which。
+?1|"The map which he bought is useful." which指什麼？|the map|he|the shopkeeper|useful|which緊接先行詞the map，表示他買的那張地圖。
+?2|"The book which I read" 中I扮演什麼？|子句的主詞|主句的受詞|一本書的名稱|關係代名詞|在which I read裡，I是read這個動詞的主詞，which代替受詞book。
+?2|哪句正確描述「我們拍的照片」？|the photo which we took|the photo who we took|the photo where we took|the photo which took we|photo是物，which指photo；子句用we took的敘述語序。
+?3|告示寫"No entry"，訪客應如何理解？|此入口禁止進入|此入口免費開放|所有人必須進入|可以從任何方向進入|No entry表示禁止進入；不能忽略否定詞No。
+?3|只知道「你用的標誌不合適」，能確定應改成哪張圖嗎？|不能，還需規則或選項|一定要換成箭頭|一定要換成禁止吸菸圖|完全不必修改|不合適只是否定現有選擇，未提供目標規則或候選圖，無法唯一決定。
