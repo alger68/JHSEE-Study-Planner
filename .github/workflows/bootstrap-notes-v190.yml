@@ -1,0 +1,82 @@
+name: Prepare validated V1.9.0 source
+on:
+  push:
+    branches: ['deploy/notes-v190-20260930']
+    paths:
+      - '.deploy-notes-v190/**'
+      - '.github/workflows/bootstrap-notes-v190.yml'
+permissions:
+  contents: read
+jobs:
+  restore-and-verify:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: deploy/notes-v190-20260930
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Restore exact validated UTF-8 source files
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64, hashlib, json, lzma
+          expected_paths = {
+              "assets/study-notes/v120/build-free.cjs",
+              "assets/study-notes/v120/modules/adopted114-courses.json",
+              "assets/study-notes/v120/modules/free-integration.cjs",
+              "assets/study-notes/v120/modules/free-resources-ui.js",
+              "assets/study-notes/v120/modules/free-resources.css",
+              "assets/study-notes/v120/modules/free-resources.json",
+              "assets/study-notes/v120/modules/health114-lessons.json",
+              "assets/study-notes/v120/modules/history114-supplement.json",
+              "assets/study-notes/v120/modules/integration-support-sources.json",
+              "assets/study-notes/v120/tests/free-integration-browser.py",
+              "assets/study-notes/v120/tests/free-integration.test.cjs",
+          }
+          parts=[Path(f".deploy-notes-v190/chunk-{i:02d}.b64").read_text() for i in range(10)]
+          encoded="".join(parts)
+          assert len(encoded)==79296
+          compressed=base64.b64decode(encoded,validate=True)
+          assert hashlib.sha256(compressed).hexdigest()=="930a47f21410d7860a05300c4a9f9bb98dd0dd8d834634d189c496a8a641a234"
+          raw=lzma.decompress(compressed)
+          assert len(raw)==462837
+          files=json.loads(raw)
+          assert set(files)==expected_paths
+          for name,text in files.items():
+              path=Path(name)
+              assert isinstance(text,str) and not path.is_absolute() and ".." not in path.parts
+              assert not path.exists(), "Refuse to overwrite an unexpected existing source file: "+name
+              path.parent.mkdir(parents=True,exist_ok=True)
+              path.write_text(text,encoding="utf-8")
+              print("SOURCE_RESTORED", name, hashlib.sha256(text.encode()).hexdigest())
+          PY
+      - name: Test and reproduce the approved release
+        run: |
+          node --test assets/study-notes/v120/tests/*.test.cjs assets/study-notes/v120/tests/resumption-acceptance.cjs
+          node assets/study-notes/v120/build-free.cjs assets/study-notes/index.html "$RUNNER_TEMP/notes-v190.html"
+          echo "3630e07defdacc28f56fe13021eb3a1ec918ac7159327ca3f4af5754ad7c81ab  $RUNNER_TEMP/notes-v190.html" | sha256sum --check
+      - name: Commit only the validated study-note sources
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assets/study-notes/v120/build-free.cjs
+          git add -- assets/study-notes/v120/modules/adopted114-courses.json
+          git add -- assets/study-notes/v120/modules/free-integration.cjs
+          git add -- assets/study-notes/v120/modules/free-resources-ui.js
+          git add -- assets/study-notes/v120/modules/free-resources.css
+          git add -- assets/study-notes/v120/modules/free-resources.json
+          git add -- assets/study-notes/v120/modules/health114-lessons.json
+          git add -- assets/study-notes/v120/modules/history114-supplement.json
+          git add -- assets/study-notes/v120/modules/integration-support-sources.json
+          git add -- assets/study-notes/v120/tests/free-integration-browser.py
+          git add -- assets/study-notes/v120/tests/free-integration.test.cjs
+          git diff --cached --stat
+          git commit -m "feat(notes): restore validated V1.9.0 teaching and resource integration"
+          git push origin HEAD:deploy/notes-v190-20260930
+          echo "VALIDATED_SOURCE_COMMIT=$(git rev-parse HEAD)"
