@@ -36,7 +36,7 @@
 - [x] Implement the three bounded behaviors; keep scores, ordering and subject selection unchanged.
 - [x] Run the focused tests, then the full Node suite and `npm test`; expect zero failures and payload within budget.
 - [x] Extend existing native CI acceptance for catalog progress, weakness link navigation and narrow-screen layout. Update web release and deployment version checks to 2.0.2.
-- [ ] Review and commit verified changes with a short release record.
+- [x] Review and commit verified changes with a short release record.
 
 ### Task 2: Publish and verify
 
@@ -44,10 +44,14 @@
 
 **Interfaces:** Publish the tested git tree using GitHub's existing authorized APIs, wait for all CI gates and Pages deployment, compare live HTML digest to the local tested artifact.
 
-- [ ] Request an independent whole-branch review; fix consequential defects with a failing regression first.
-- [ ] Publish, inspect all test/deploy results, and visit the live homepage plus catalog and review flow through CUA.
-- [ ] Record exact version, tree, run ID, payload, test counts and remaining content limitations; leave the verified homepage open.
+- [x] Request an independent whole-branch review; fix consequential defects with a failing regression first.
+- [x] Publish, inspect all test/deploy results, and visit the live homepage plus catalog and review flow through CUA.
+- [x] Record exact version, tree, run ID, payload, test counts and remaining content limitations; leave the verified homepage open.
 
 ## Execution evidence
 
 Task 1: baseline 10/10; four new user-flow regressions failed for missing labels and extra downloads, then passed 14/14. Full Node 142/142 and Planner 74/74 pass. Local artifact is 1,780,763 bytes and gzip 297,781 bytes. Native acceptance is extended by six checks and will run in CI. No storage or curriculum migration.
+
+Final review: no Critical, Important, or Minor findings. The reviewer independently passed 14 delivery tests and probed all 106 course scopes, invalid answer options and duplicate units. Native visuals and the public artifact remain the publication gates.
+
+Task 2: published commit `14762e8a7ab6440aacfdf63623cbe91011759095`, tested tree `6018f40f4707deac3aea620e9becccd037b965b0`. Actions run `36877900005` built and deployed successfully; 29 final native web checks passed with zero runtime errors. Live HTML SHA-256 `8f71a59603f690d286cffd0f1fa36eff0c291ecd283bc3dbc43486b7e5284ca3` matches the tested artifact byte-for-byte. CUA confirmed the V2.0.2 homepage, catalog progress and review, then left the homepage open.
