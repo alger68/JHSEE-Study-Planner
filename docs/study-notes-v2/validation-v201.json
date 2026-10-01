@@ -31,7 +31,26 @@
     "remainingImportantFindings": 0,
     "scopeLimits": "Native browser and live deployment are separate CI/release gates. Existing source-text and content-review limits remain explicit."
   },
-  "nativeBrowserAndPublication": "pending CI",
+  "nativeBrowserAndPublication": {
+    "status": "passed",
+    "releaseCommit": "0ad0d06709101b8fe81d49d560a15d250ee5806a",
+    "testedTree": "6571fbedbffd165702155591f9f9fc449ad75da5",
+    "workflowRun": 36859959624,
+    "buildJob": 110361466433,
+    "deployJob": 110364278954,
+    "nativeWebChecksPassed": 23,
+    "nativeWebRuntimeErrors": 0,
+    "standaloneCatalogChecksPassed": 32,
+    "viewportWidths": [320, 390, 768, 1366],
+    "publishedHtmlSha256": "e71ea0e2c5e523f84110626445a4e23ba67283084c42ed89ab2b9f6193b93553",
+    "publishedHtmlMatchesLocalTestedBuild": true,
+    "oldActualCompressedDownloadBytes": 1339455,
+    "newActualCompressedDownloadBytes": 288444,
+    "observedColdRequest": {"tlsSeconds": 7.226724, "firstByteSeconds": 7.460848, "totalSeconds": 7.570927},
+    "publicUrl": "https://alger68.github.io/JHSEE-Study-Planner/assets/study-notes/?v=2.0.1#/home",
+    "publicNativeNavigation": "Home → grade 7 → science → bio-3-3 full notes → home; homepage left open as deliverable.",
+    "verificationArtifactId": 11161517585
+  },
   "preservedLimits": [
     "74 original reading guides do not claim verified publisher lesson full text.",
     "Historical source years remain historical; unverified PDF pages remain labelled.",
