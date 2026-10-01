@@ -1,0 +1,983 @@
+[
+  {
+    "courseId": "115-1-7-pe",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "a17c2016105c7607233fe7bb22a6cdc00189982dbb81f7158dfc66f4454e1b85",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "體適能",
+        "page": null,
+        "sourceTextMatch": "體適能",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "籃球",
+        "page": null,
+        "sourceTextMatch": "籃球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "羽球",
+        "page": null,
+        "sourceTextMatch": "羽球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "游泳",
+        "page": null,
+        "sourceTextMatch": "游泳",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "田徑",
+        "page": null,
+        "sourceTextMatch": "田徑",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "桌球",
+        "page": null,
+        "sourceTextMatch": "桌球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "排球",
+        "page": null,
+        "sourceTextMatch": "排球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題8",
+        "title": "樂樂棒球",
+        "page": null,
+        "sourceTextMatch": "樂樂棒球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題9",
+        "title": "接力",
+        "page": null,
+        "sourceTextMatch": "接力",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題10",
+        "title": "運動計畫",
+        "page": null,
+        "sourceTextMatch": "運動計畫",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-8-pe",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "3123ffc3e6e744fc6d0c09607233360eb98886b0b8366f3023ade79f710f3bd5",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "體適能",
+        "page": null,
+        "sourceTextMatch": "體適能",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "籃球",
+        "page": null,
+        "sourceTextMatch": "籃球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "羽球",
+        "page": null,
+        "sourceTextMatch": "羽球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "桌球",
+        "page": null,
+        "sourceTextMatch": "桌球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "排球",
+        "page": null,
+        "sourceTextMatch": "排球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "拔河",
+        "page": null,
+        "sourceTextMatch": "拔河",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "接力",
+        "page": null,
+        "sourceTextMatch": "接力",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題8",
+        "title": "運動計畫",
+        "page": null,
+        "sourceTextMatch": "運動計畫",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-9-pe",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "893dd43c5c924adfc4c5f8c375c8ce7fd8faddca04d8e68e27780766680117b5",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "體適能",
+        "page": null,
+        "sourceTextMatch": "體適能",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "籃球",
+        "page": null,
+        "sourceTextMatch": "籃球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "羽球",
+        "page": null,
+        "sourceTextMatch": "羽球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "游泳",
+        "page": null,
+        "sourceTextMatch": "游泳",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "桌球",
+        "page": null,
+        "sourceTextMatch": "桌球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "排球",
+        "page": null,
+        "sourceTextMatch": "排球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "接力",
+        "page": null,
+        "sourceTextMatch": "接力",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題8",
+        "title": "運動計畫",
+        "page": null,
+        "sourceTextMatch": "運動計畫",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-8-performance",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "1c19bfc270e22bf6a64ef9237b716c714bb0b598af1e35197170bcb8d93d0a41",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "引領風騷潮表演",
+        "page": null,
+        "sourceTextMatch": "引領風騷潮表演",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "隔宿露營創意表演",
+        "page": null,
+        "sourceTextMatch": "隔宿露營創意表演",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-7-scouts",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "b4865422b4badfb414a1695e6d66049290ec43a03d2536734fdd0db336a76ad0",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "攜手童行",
+        "page": null,
+        "sourceTextMatch": "攜手童行",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "地圖搜查線",
+        "page": null,
+        "sourceTextMatch": "地圖搜查線",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-8-guidance",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "38652374739517b9f7106126fedc0ebd66b878f257a69c02487ad448756020f5",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "新學期心開始",
+        "page": null,
+        "sourceTextMatch": "新學期心開始",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "情緒密碼",
+        "page": null,
+        "sourceTextMatch": "情緒密碼",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "情緒日記",
+        "page": null,
+        "sourceTextMatch": "情緒日記",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "情緒調節站",
+        "page": null,
+        "sourceTextMatch": "情緒調節站",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "生涯藏寶圖",
+        "page": null,
+        "sourceTextMatch": "生涯藏寶圖",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "生涯探索記",
+        "page": null,
+        "sourceTextMatch": "生涯探索記",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-8-it",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "6591268ec0b4b0ca700fafd748ecae9b0cf2c35f0d5fce1b748c82654d1e060a",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "資料收納櫃-陣列",
+        "page": null,
+        "sourceTextMatch": "資料收納櫃-陣列",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "資料在哪兒-搜尋演算法",
+        "page": null,
+        "sourceTextMatch": "資料在哪兒-搜尋演算法",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "資料排排站排序演算法",
+        "page": null,
+        "sourceTextMatch": "資料排排站排序演算法",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-9-it",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "fcd0668ec5cbaf3d4c4781525bc978ffe373ccbe839517ba536f8d1297bf49d0",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "系統平臺",
+        "page": null,
+        "sourceTextMatch": "系統平臺",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "從 Scatch 到 Python",
+        "page": null,
+        "sourceTextMatch": "從 Scatch 到 Python",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "網路技術與服務",
+        "page": null,
+        "sourceTextMatch": "網路技術與服務",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-8-technology",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "cc1a6f3274713e4dc1c2f2f7a0bdfffe98f78c6e2c19155ec3d9e07507e83f1b",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "科技系統與問題解決",
+        "page": null,
+        "sourceTextMatch": "科技系統與問題解決",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "能源與動力的應用",
+        "page": null,
+        "sourceTextMatch": "能源與動力的應用",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "生活周遭的科技產品",
+        "page": null,
+        "sourceTextMatch": "生活周遭的科技產品",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "115-1-9-technology",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "81a67d6cefd118398a5f5a1b710113dc39c57c4190c83bcf1712a21351e458ff",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "產品設計流程",
+        "page": null,
+        "sourceTextMatch": "產品設計流程",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "電子電路小偵探",
+        "page": null,
+        "sourceTextMatch": "電子電路小偵探",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "基礎電路實作與應用",
+        "page": null,
+        "sourceTextMatch": "基礎電路實作與應用",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "桌上型電動清潔機",
+        "page": null,
+        "sourceTextMatch": "桌上型電動清潔機",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "tinkercad 電路模擬",
+        "page": null,
+        "sourceTextMatch": "tinkercad 電路模擬",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "垃圾蒐集裝置製作",
+        "page": null,
+        "sourceTextMatch": "垃圾蒐集裝置製作",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-7-pe",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "b6c7bc4b98d2b1568689f7b78c1518d47ba839a70111837a9f7169a43dfb73e5",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "體適能",
+        "page": null,
+        "sourceTextMatch": "體適能",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "籃球",
+        "page": null,
+        "sourceTextMatch": "籃球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "羽球",
+        "page": null,
+        "sourceTextMatch": "羽球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "游泳",
+        "page": null,
+        "sourceTextMatch": "游泳",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "桌球",
+        "page": null,
+        "sourceTextMatch": "桌球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "排球",
+        "page": null,
+        "sourceTextMatch": "排球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "運動計畫",
+        "page": null,
+        "sourceTextMatch": "運動計畫",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-8-pe",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "62b70529b5c4bee4fd14fd5d53af6ac29d3538a28bed1c392ee6f1ccb1ca1561",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "體適能",
+        "page": null,
+        "sourceTextMatch": "體適能",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "籃球",
+        "page": null,
+        "sourceTextMatch": "籃球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "羽球",
+        "page": null,
+        "sourceTextMatch": "羽球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "游泳",
+        "page": null,
+        "sourceTextMatch": "游泳",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "桌球",
+        "page": null,
+        "sourceTextMatch": "桌球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "排球",
+        "page": null,
+        "sourceTextMatch": "排球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "拔河",
+        "page": null,
+        "sourceTextMatch": "拔河",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題8",
+        "title": "接力",
+        "page": null,
+        "sourceTextMatch": "接力",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題9",
+        "title": "運動計畫",
+        "page": null,
+        "sourceTextMatch": "運動計畫",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-9-pe",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "80a63340208cffd9b2b9708f0634ea338d0e7462a8fb115c972b404821632482",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "體適能",
+        "page": null,
+        "sourceTextMatch": "體適能",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "籃球",
+        "page": null,
+        "sourceTextMatch": "籃球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "羽球",
+        "page": null,
+        "sourceTextMatch": "羽球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "游泳",
+        "page": null,
+        "sourceTextMatch": "游泳",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "桌球",
+        "page": null,
+        "sourceTextMatch": "桌球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "排球",
+        "page": null,
+        "sourceTextMatch": "排球",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "運動計畫",
+        "page": null,
+        "sourceTextMatch": "運動計畫",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-7-health",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "7c1a8154ff400a124f4d629f3722617e4fb8d1935c1245111c296cbb82549fbc",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "拒菸我最行",
+        "page": null,
+        "sourceTextMatch": "拒菸我最行",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "酒、檳榔的世界",
+        "page": null,
+        "sourceTextMatch": "酒、檳榔的世界",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "無毒人生",
+        "page": null,
+        "sourceTextMatch": "無毒人生",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "新興傳染病",
+        "page": null,
+        "sourceTextMatch": "新興傳染病",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "常見傳染病放大鏡",
+        "page": null,
+        "sourceTextMatch": "常見傳染病放大鏡",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "用藥安全",
+        "page": null,
+        "sourceTextMatch": "用藥安全",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "我愛健保",
+        "page": null,
+        "sourceTextMatch": "我愛健保",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-8-health",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "01c943bfb1dc43bffcda70f06b50afcc1a85d5bd214ce90a6478c5a4734cda43",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "飲食源頭探索趣",
+        "page": null,
+        "sourceTextMatch": "飲食源頭探索趣",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "安全衛生飲食樂",
+        "page": null,
+        "sourceTextMatch": "安全衛生飲食樂",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "食品安全行動派",
+        "page": null,
+        "sourceTextMatch": "食品安全行動派",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "健康人生，少「糖」少「癌」",
+        "page": null,
+        "sourceTextMatch": "健康人生，少「糖」少「癌」",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "小心謹「腎」，「慢」不經「心」",
+        "page": null,
+        "sourceTextMatch": "小心謹「腎」，「慢」不經「心」",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "「漫」「慢」長路不孤單",
+        "page": null,
+        "sourceTextMatch": "「漫」「慢」長路不孤單",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題7",
+        "title": "安全百分百",
+        "page": null,
+        "sourceTextMatch": "安全百分百",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題8",
+        "title": "急救一瞬間",
+        "page": null,
+        "sourceTextMatch": "急救一瞬間",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-9-health",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "3e7ceb82bcb56522b9bfd8496c1f7700a411bcb9a14af4af4e2ff02ea49247a4",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "揭開「性」的真實面紗",
+        "page": null,
+        "sourceTextMatch": "揭開「性」的真實面紗",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "真愛要等待",
+        "page": null,
+        "sourceTextMatch": "真愛要等待",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "性病知多少",
+        "page": null,
+        "sourceTextMatch": "性病知多少",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "拉近彼此距離",
+        "page": null,
+        "sourceTextMatch": "拉近彼此距離",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "和諧的家人關係",
+        "page": null,
+        "sourceTextMatch": "和諧的家人關係",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-8-performance",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "9d7146535976fd0260aa5bd2d5e010f4879814101b4a8aecd629c4e15a52d81f",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "表演中的即興",
+        "page": null,
+        "sourceTextMatch": "表演中的即興",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "中國舞蹈大觀園",
+        "page": null,
+        "sourceTextMatch": "中國舞蹈大觀園",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "好戲開鑼現風華",
+        "page": null,
+        "sourceTextMatch": "好戲開鑼現風華",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "輕歌曼舞演故事",
+        "page": null,
+        "sourceTextMatch": "輕歌曼舞演故事",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-8-visual",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "fec049fa76969235b8aca0e4420c769e2cbccdaf240f180bdb84b5b78872be4b",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "水墨的經典與創新",
+        "page": null,
+        "sourceTextMatch": "水墨的經典與創新",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "造型與結構共舞",
+        "page": null,
+        "sourceTextMatch": "造型與結構共舞",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "流行生活「俗」世繪",
+        "page": null,
+        "sourceTextMatch": "流行生活「俗」世繪",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "女力崛起",
+        "page": null,
+        "sourceTextMatch": "女力崛起",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-7-technology",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "02dd26d620674d50373ae10c604160e300b4b89066d28a5ea0d624e050296a01",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "設計圖的繪製 II",
+        "page": null,
+        "sourceTextMatch": "設計圖的繪製 II",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "結構的原理與應用",
+        "page": null,
+        "sourceTextMatch": "結構的原理與應用",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "機構的原理與應用",
+        "page": null,
+        "sourceTextMatch": "機構的原理與應用",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-8-technology",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "2ddf1e7a764c49fd461210239eebb4e84d5d8c179165073acee03b60c625122a",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "運輸科技系統",
+        "page": null,
+        "sourceTextMatch": "運輸科技系統",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "運輸系統的形式",
+        "page": null,
+        "sourceTextMatch": "運輸系統的形式",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題3",
+        "title": "運輸載具與動力運用",
+        "page": null,
+        "sourceTextMatch": "運輸載具與動力運用",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題4",
+        "title": "製作電動液壓動力機械手臂",
+        "page": null,
+        "sourceTextMatch": "製作電動液壓動力機械手臂",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題5",
+        "title": "運輸對社會的影響",
+        "page": null,
+        "sourceTextMatch": "運輸對社會的影響",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題6",
+        "title": "運輸對環境的影響",
+        "page": null,
+        "sourceTextMatch": "運輸對環境的影響",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-9-technology",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "d5d51121c8688eedb7a5063d51786701096f839ab78e3911d70bfaf8dbf1b4d1",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "電的進階控制",
+        "page": null,
+        "sourceTextMatch": "電的進階控制",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "科技的未來進行式",
+        "page": null,
+        "sourceTextMatch": "科技的未來進行式",
+        "kind": "teaching-theme"
+      }
+    ]
+  },
+  {
+    "courseId": "114-2-7-scouts",
+    "checked": "2026-10-01",
+    "sourceTextSha256": "87a43f9d287344765e665dbec6ea6a283b78f28d55f3a669d465f43f582c831e",
+    "outlineBasis": "本輪讀取校方PDF文字，核對教學欄或章節標題；主題編號由本站依序編排，非課本原課號。PDF頁碼仍待版面核對。",
+    "sections": [
+      {
+        "label": "主題1",
+        "title": "點燃服務之光",
+        "page": null,
+        "sourceTextMatch": "點燃服務之光",
+        "kind": "teaching-theme"
+      },
+      {
+        "label": "主題2",
+        "title": "有愛世界",
+        "page": null,
+        "sourceTextMatch": "有愛世界",
+        "kind": "teaching-theme"
+      }
+    ]
+  }
+]

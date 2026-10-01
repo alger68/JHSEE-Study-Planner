@@ -17,7 +17,7 @@ concurrency:
 jobs:
   test-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -72,6 +72,10 @@ jobs:
         run: node assets/study-notes/v120/build-free.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
       - name: Validate final integrated release in native browser
         run: python assets/study-notes/v120/tests/free-integration-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/free-integration
+      - name: Build V2 full curriculum catalog and original guides
+        run: node assets/study-notes/v120/build-complete.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
+      - name: Validate V2 catalog, lessons and practice in native browser
+        run: python assets/study-notes/v120/tests/catalog-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/catalog
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -120,9 +124,14 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='1.9.0', 'Pages cache still holds earlier version'
-                  assert len(data['units'])==169
-                  assert sum(len(u['quiz']) for u in data['units'])==988
+                  assert data['appVersion']=='2.0.0', 'Pages cache still holds earlier version'
+                  assert len(data['units'])==759
+                  assert sum(len(u['quiz']) for u in data['units'])==2824
+                  assert data['catalogCompletion']['locatedSections']==697
+                  assert data['catalogCompletion']['pendingSections']==0
+                  assert data['catalogCompletion']['untranscribedCourses']==0
+                  assert all(s.get('unitId') for c in data['atlas']['courses'] for s in c['sections'])
+                  assert all(c['readySections']+c.get('readingGuideSections',0)==len(c['sections']) for c in data['atlas']['courses'])
                   assert sum(len(b['sections']) for b in data['courseMap']['books'])==105
                   assert len(data['courseMap']['books'])==6
                   assert len(data['atlas']['courses'])==106 and len(data['atlas']['exams'])==40
@@ -146,7 +155,7 @@ jobs:
                   with urllib.request.urlopen(base,timeout=25) as r:
                       planner=r.read().decode('utf-8')
                   assert 'js/app.js' in planner, 'Planner entry not preserved'
-                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':169,'fixedQuestions':988,'sourceCount':146,'externalResources':29,'biologySectionsReady':22,'mathSectionsReady':31,'adopted114MathSections':29,'verifiedNumberedSections':105,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
+                  print('LIVE_VERIFIED',json.dumps({'url':notes,'version':data['appVersion'],'units':len(data['units']),'fixedQuestions':sum(len(u['quiz']) for u in data['units']),'catalog':data['catalogCompletion'],'sourceCount':146,'externalResources':29,'biologySectionsReady':22,'mathSectionsReady':31,'adopted114MathSections':29,'verifiedNumberedSections':105,'examSessionRepair':True,'plannerEntry':'preserved','commit':os.environ['GITHUB_SHA']},ensure_ascii=False))
                   break
               except Exception as error:
                   if attempt==11:raise

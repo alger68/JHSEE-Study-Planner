@@ -1,0 +1,30 @@
+{
+  "checked": "2026-10-01",
+  "version": "2.0.0",
+  "notesTests": {
+    "passed": 113,
+    "failed": 0
+  },
+  "plannerTests": {
+    "files": 21,
+    "passed": 74,
+    "failed": 0
+  },
+  "contentRows": 568,
+  "reviewReports": 12,
+  "units": 759,
+  "fixedQuestions": 2824,
+  "locatedSections": 697,
+  "conceptSections": 623,
+  "readingGuides": 74,
+  "pendingSections": 0,
+  "untranscribedCourses": 0,
+  "builtHtmlBytes": 7918872,
+  "builtHtmlSHA256": "752d0bb4df6e92b50bba3e55a27a159d6673050eb990f35e20eb200b35cf9432",
+  "nativeBrowserValidation": "Required by GitHub Actions before Pages deployment",
+  "limitations": [
+    "Reading guides do not verify full textbook text.",
+    "New teaching themes retain unknown PDF page numbers.",
+    "Original selective notes and practice do not claim every textbook activity or question type."
+  ]
+}
