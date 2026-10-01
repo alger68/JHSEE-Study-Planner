@@ -14,9 +14,9 @@ function build(full){
  for(const u of D.units){const key=[u.grade,u.subject,u.semester].join('-');if(!groups.has(key))groups.set(key,[]);groups.get(key).push(u);}
  const all=bundle('all',D.units);delete all.ids;
  const manifest={schema:1,unitCount:D.units.length,groups:[...groups].map(([name,units])=>bundle(name,units)),all};
- const data=JSON.parse(JSON.stringify(D));data.appVersion='2.0.1';
+ const data=JSON.parse(JSON.stringify(D));data.appVersion='2.0.2';
  for(const u of data.units){
-  u.concepts=u.concepts.map(c=>({id:c.id}));
+  u.concepts=u.concepts.map(c=>({id:c.id,title:c.title}));
   u.quiz=u.quiz.map(q=>({id:q.id,concept:q.concept,answer:q.answer,options:q.options.map(o=>({id:o.id}))}));
   for(const k of ['diagrams','tables','traps','experiments','quick','reviewNote'])delete u[k];
  }
@@ -25,7 +25,7 @@ function build(full){
  const dom=new JSDOM(full,{url:'https://example.test/assets/study-notes/#/home',runScripts:'dangerously',virtualConsole:v,beforeParse(w){w.scrollTo=()=>{};w.requestAnimationFrame=f=>{f();return 0;};}});
  if(runtimeErrors.length)throw Error(runtimeErrors.join('\n'));
  let html=full;for(const id of ['sidebar','main','mobile-nav']){const tag=id==='sidebar'?'aside':id==='main'?'main':'nav',pattern=new RegExp('<'+tag+'[^>]*id="'+id+'"[^>]*>[\\s\\S]*?<\\/'+tag+'>');html=html.replace(pattern,()=>dom.window.document.getElementById(id).outerHTML);}
- dom.window.close();html=html.replace('V2.0.0</span>','V2.0.1</span>');
+ dom.window.close();html=html.replace('V2.0.0</span>','V2.0.2</span>');
  html=replace(html,dataScript[0],'<script>\nwindow.STUDY_DATA = '+scriptJSON(data)+';\n</script>');
  const runtime=scripts.at(-1);let js=runtime[1];
  js=replace(js,'  const errors = C.validateData(D);','  const errors = window.StudyContent.catalogErrors();');

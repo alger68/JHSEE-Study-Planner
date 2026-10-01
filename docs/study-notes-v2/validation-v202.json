@@ -1,0 +1,43 @@
+{
+  "release": "2.0.2",
+  "checkedAt": "2026-10-01",
+  "status": "local-passed-awaiting-independent-review-and-ci",
+  "baseCommit": "69e2210e6070c7c0b0bfded569256bbe6a23b608",
+  "changes": [
+    "Readable concept names and direct review links in cross-subject weakness tracking",
+    "Local self-marked reading status and fixed self-check counts in curriculum cards and shared guides",
+    "Review hydrates bookmarked scopes only, excluding unrelated legacy answers"
+  ],
+  "nodeTests": {
+    "passed": 142,
+    "failed": 0
+  },
+  "plannerTests": {
+    "passed": 74,
+    "failed": 0
+  },
+  "regressionProof": {
+    "baseline": 10,
+    "newCasesFailedBeforeFix": 4,
+    "focusedPassedAfterFix": 14
+  },
+  "delivery": {
+    "htmlBytes": 1780763,
+    "gzipBytes": 297781,
+    "sha256": "8f71a59603f690d286cffd0f1fa36eff0c291ecd283bc3dbc43486b7e5284ca3",
+    "maxHtmlBytes": 2000000,
+    "maxGzipBytes": 350000,
+    "catalogLessonRequests": 0,
+    "reviewAnswerOnlyLessonRequests": 0
+  },
+  "unchangedContent": {
+    "units": 759,
+    "fixedQuestions": 2824,
+    "concepts": 2469,
+    "readingGuidesWithoutVerifiedFullText": 74,
+    "sourceExamPdfs": 40
+  },
+  "publication": {
+    "status": "pending"
+  }
+}

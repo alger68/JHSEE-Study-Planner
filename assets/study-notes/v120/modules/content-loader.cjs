@@ -44,7 +44,7 @@
   function routeIds(route,state){
    const p=route.params||new URLSearchParams();
    if(route.view==='unit')return [route.id];
-   if(route.view==='review')return [...(state?.starred||[]).map(k=>k.split('/')[0]),...Object.keys(state?.answers||{}).map(k=>k.split('/')[0])];
+   if(route.view==='review')return (state?.starred||[]).map(k=>k.split('/')[0]);
    if(route.view==='practice'||route.view==='exam'){
     const selected=p.get(route.view==='practice'?'exam':'units');if(selected)return selected.split(',');
     if(p.get('unit'))return [p.get('unit')];

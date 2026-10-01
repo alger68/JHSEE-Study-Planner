@@ -128,7 +128,7 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.0.1', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.0.2', 'Pages cache still holds earlier version'
                   assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
                   assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'
                   assert all('question' not in u['quiz'][0] for u in data['units']), 'Full question bank blocks homepage'

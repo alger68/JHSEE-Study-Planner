@@ -28,8 +28,13 @@ window.AcademyUI={create(options){
  function configuration(params){const g=Number(params.get('g')||7),term=Number(params.get('term')||1),s=params.get('s')||'math',count=Number(params.get('n')||8),seed=params.get('seed')||'20260924';return params.get('exam')?{unitIds:params.get('exam').split(',').filter(Boolean),grade:g,semester:term,subject:s,count,seed}:params.get('unit')?{unitId:params.get('unit'),count,seed,...(params.has('g')?{grade:g}:{}),...(params.has('term')?{semester:term}:{}),...(params.has('s')?{subject:s}:{})}:{grade:g,semester:term,subject:s,count,seed};}
  function weaknessPanel(){
  const rows=Object.entries(state.conceptStats||{}).map(([key,v])=>({key,...v,score:v.wrong*3-Math.min(v.right,3)})).filter(x=>x.wrong>0).sort((a,b)=>b.score-a.score).slice(0,6);
- if(!rows.length)return '<section class="panel"><h2>弱點追蹤</h2><p class="muted">目前還沒有錯題紀錄；完成練習後會依核心觀念累積。</p></section>';
- return '<section class="panel"><h2>弱點追蹤</h2><p class="muted small-text">錯一次提高3點權重；答對會逐步降低優先度。下一份練習從較大的候選池優先抽取弱項，同時保留一般題；不是只把相同試卷重排。</p><div class="table-scroll"><table><thead><tr><th>觀念</th><th>答錯</th><th>答對</th><th>弱點分</th></tr></thead><tbody>'+rows.map(x=>'<tr><td>'+E(x.key.replace('#',' / '))+'</td><td>'+x.wrong+'</td><td>'+x.right+'</td><td>'+x.score+'</td></tr>').join('')+'</tbody></table></div></section>';
+ if(!rows.length)return '<section class="panel" data-weakness-panel><h2>弱點追蹤</h2><p class="muted">目前還沒有錯題紀錄；完成練習後會依核心觀念累積。</p></section>';
+ return '<section class="panel" data-weakness-panel><h2>弱點追蹤</h2><p class="muted small-text">這裡列出全科紀錄中優先複習的最多6個觀念。點選觀念可回看重點；下一份練習仍依上方所選範圍出題。錯一次提高3點權重，答對會逐步降低優先度。</p><div class="table-scroll"><table><thead><tr><th>觀念與複習入口</th><th>答錯</th><th>答對</th><th>弱點分</th></tr></thead><tbody>'+rows.map(x=>{
+  const [unitId,conceptId]=x.key.split('#'),u=D.units.find(u=>u.id===unitId),c=u?.concepts.find(c=>c.id===conceptId);
+  if(!u||!c)return '';
+  const subject=D.subjects.find(s=>s.id===u.subject)?.name||u.subject,scope=u.grade+'年級'+(u.semester===1?'上學期':'下學期')+' · '+subject+' · '+u.title;
+  return '<tr><td><a href="#/unit/'+encodeURIComponent(u.id)+'/notes?concept='+encodeURIComponent(c.id)+'">'+E(c.title)+' ↗</a><p class="small-text muted">'+E(scope)+'</p></td><td>'+x.wrong+'</td><td>'+x.right+'</td><td>'+x.score+'</td></tr>';
+ }).join('')+'</tbody></table></div></section>';
  }
  function practice(params){
  const config=configuration(params),sig=JSON.stringify(config),u=config.unitId?D.units.find(x=>x.id===config.unitId):null;

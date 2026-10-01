@@ -12,7 +12,7 @@ function build(input,options){
  const core=scripts.find(s=>s[1].includes('Shared pure functions')),validation={module:{exports:{}},URL};
  vm.runInNewContext(core[1],validation);const errors=validation.module.exports.validateData(D);if(errors.length)throw Error(errors.join('\n'));
  h=h.replace(original[0],()=>'<script>\nwindow.STUDY_DATA = '+JSON.stringify(D).replace(/</g,'\\u003c')+';\n</script>');
- h=replace(h,'  function library(params){\n   const {g,s,t,valid}=filters(params);','  function library(params){\n   if(window.CurriculumBrowser)return window.CurriculumBrowser.render(D,params);\n   const {g,s,t,valid}=filters(params);');
+ h=replace(h,'  function library(params){\n   const {g,s,t,valid}=filters(params);','  function library(params){\n   if(window.CurriculumBrowser)return window.CurriculumBrowser.render(D,params,getLegacy());\n   const {g,s,t,valid}=filters(params);');
  h=replace(h,'<section class="home-meta"><p>目前有','<section class="home-meta">${window.CurriculumBrowser.summary(D)}<p>目前有');
  h=replace(h,'<a href="#/chapters">校方章節與完成度</a>','<a href="#/atlas">課程來源與教材狀態</a>');
  h=replace(h,'下學期與其餘科目尚未在此逐節核對。','本頁保留這6份編號章節表；全科與上下學期請至教材目錄查看。');

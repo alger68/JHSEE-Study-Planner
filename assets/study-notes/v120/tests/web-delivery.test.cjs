@@ -78,3 +78,40 @@ test('tampered bytes are rejected by content hash before hydration',async()=>{
  const loader=api.create({D,C:{validateData:()=>[]},manifest:b.manifest,crypto:require('node:crypto').webcrypto,fetch:async file=>({ok:true,text:async()=>b.files[file]+' '})});
  await A.rejects(loader.ensure(['bio-3-3']),/版本不符/);A.equal(loader.isLoaded('bio-3-3'),false);
 });
+test('tracked weaknesses name unhydrated concepts and link to the precise lesson',async()=>{
+ const state=P.newState();state.conceptStats['bio-3-3#leaf-structure']={right:1,wrong:2,last:'right'};
+ const b=browser({hash:'#/practice?g=7&s=math&term=1',saved:{'jh-study-notes.practice.v2':state}});
+ try{
+  await until(()=>b.w.document.querySelector('[data-view="practice"]'));
+  A.equal(b.w.StudyContent.isLoaded('bio-3-3'),false);A.equal(b.calls.length,1);
+  const panel=b.w.document.querySelector('[data-weakness-panel]');A.ok(panel,'weakness tracking should expose a readable review action');
+  A.match(panel.textContent,/葉肉製造，表皮保護，葉脈運送/);A.match(panel.textContent,/7年級上學期/);A.match(panel.textContent,/自然/);A.match(panel.textContent,/植物如何製造養分/);A.match(panel.textContent,/全科/);
+  A.doesNotMatch(panel.textContent,/bio-3-3|leaf-structure/);A.deepEqual([...panel.querySelectorAll('tbody td')].slice(1).map(x=>x.textContent),['2','1','5']);
+  panel.querySelector('a').click();await until(()=>b.w.document.querySelector('#concept-leaf-structure'));
+  A.equal(b.w.location.hash,'#/unit/bio-3-3/notes?concept=leaf-structure');A.ok(b.w.document.querySelector('#concept-leaf-structure').textContent.includes('葉肉製造'));
+  A.equal(b.w.localStorage.getItem('jh-study-notes.practice.v2'),JSON.stringify(state));A.deepEqual(b.errors,[]);
+ }finally{b.w.close();}
+});
+test('catalog reflects existing reading and valid fixed answers without downloading lessons',async()=>{
+ const state={app:'jh-study-notes',schemaVersion:1,read:['atlas-math-7-1-1','math-7-1','bio-3-3'],starred:[],answers:{'atlas-math-7-1-1/q1':'a','atlas-math-7-1-1/q2':'a','math-7-1/q1':'a','bio-3-3/q1':'food'},font:0};
+ const b=browser({hash:'#/library?g=7&s=math&term=1&course=115-1-7-math',saved:{'jh-study-notes.progress.v1':state}});
+ try{
+  await until(()=>b.w.document.querySelector('[data-curriculum-section]'));
+  const cards=[...b.w.document.querySelectorAll('[data-curriculum-section]')],first=cards.find(x=>x.querySelector('a')?.getAttribute('href')==='#/unit/atlas-math-7-1-1/notes');
+  A.match(first.textContent,/已標記讀完/);A.match(first.textContent,/已答 2 \/ 6 題/);A.match(first.textContent,/答對 1 題/);
+  A.match(cards.find(x=>x!==first).textContent,/尚未標記讀完/);
+  const progress=b.w.document.querySelector('[data-catalog-progress]');A.ok(progress);A.match(progress.textContent,/已標記讀完 1 \//);A.match(progress.textContent,/本機/);
+  const shared=b.w.document.querySelector('.curriculum-shared');A.match(shared.textContent,/已標記讀完/);A.match(shared.textContent,/已答 1 \/ 6 題/);
+  A.equal(b.calls.length,0);A.equal(b.w.localStorage.getItem('jh-study-notes.progress.v1'),JSON.stringify(state));A.deepEqual(b.errors,[]);
+ }finally{b.w.close();}
+});
+test('review ignores unrelated answered units and renders only the bookmarked concepts',async()=>{
+ const state={app:'jh-study-notes',schemaVersion:1,read:[],starred:['bio-3-3/leaf-structure'],answers:{'math-7-1/q1':'a'},font:0};
+ const b=browser({hash:'#/review',saved:{'jh-study-notes.progress.v1':state}});
+ try{await until(()=>b.w.document.querySelector('[data-view="review"]'));A.equal(b.calls.length,1,'only the bookmarked science scope should download');A.equal(b.w.document.querySelectorAll('.concept-card').length,1);A.match(b.w.document.querySelector('.concept-card').textContent,/葉肉製造/);A.equal(b.w.StudyContent.isLoaded('math-7-1'),false);A.deepEqual(b.errors,[]);}finally{b.w.close();}
+});
+test('review with answers but no bookmarks needs no lesson download',async()=>{
+ const state={app:'jh-study-notes',schemaVersion:1,read:[],starred:[],answers:{'math-7-1/q1':'a'},font:0};
+ const b=browser({hash:'#/review',saved:{'jh-study-notes.progress.v1':state}});
+ try{await until(()=>b.w.document.querySelector('[data-view="review"]'));A.equal(b.calls.length,0);A.equal(b.w.document.querySelectorAll('.concept-card').length,0);A.deepEqual(b.errors,[]);}finally{b.w.close();}
+});
