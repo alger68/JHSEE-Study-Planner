@@ -76,6 +76,10 @@ jobs:
         run: node assets/study-notes/v120/build-complete.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
       - name: Validate V2 catalog, lessons and practice in native browser
         run: python assets/study-notes/v120/tests/catalog-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/catalog
+      - name: Build compact homepage with on-demand lesson delivery
+        run: node assets/study-notes/v120/build-web.cjs .pages/assets/study-notes/index.html .pages/assets/study-notes/index.html
+      - name: Validate final web delivery, progress reload and network recovery
+        run: python assets/study-notes/v120/tests/web-delivery-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/web-delivery
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -112,7 +116,7 @@ jobs:
           SITE: ${{ steps.deployment.outputs.page_url }}
         run: |
           python - <<'PY'
-          import os, time, urllib.request, urllib.parse, json, re
+          import os, time, urllib.request, urllib.parse, json, re, hashlib
           base=os.environ['SITE'].rstrip('/')+'/'
           notes=base+'assets/study-notes/'
           for attempt in range(12):
@@ -124,7 +128,19 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.0.0', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.0.1', 'Pages cache still holds earlier version'
+                  assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
+                  assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'
+                  assert all('question' not in u['quiz'][0] for u in data['units']), 'Full question bank blocks homepage'
+                  with urllib.request.urlopen(notes+'delivery-manifest.json?verify='+os.environ['GITHUB_SHA'],timeout=25) as r:
+                      manifest=json.load(r)
+                  assert manifest['version']==data['appVersion'] and manifest['unitCount']==759
+                  with urllib.request.urlopen(notes+manifest['all']['file'],timeout=25) as r:
+                      content=r.read()
+                  assert hashlib.sha256(content).hexdigest()==manifest['all']['sha256'], 'Published content hash mismatch'
+                  full=json.loads(content)
+                  assert [u['id'] for u in data['units']]==[u['id'] for u in full['units']]
+                  data['units']=full['units']
                   assert len(data['units'])==759
                   assert sum(len(u['quiz']) for u in data['units'])==2824
                   assert data['catalogCompletion']['locatedSections']==697

@@ -148,6 +148,7 @@ function examGenerate(D,cfg,state){
  if(!plain(cfg)||!Array.isArray(cfg.unitIds)||!cfg.unitIds.length||cfg.unitIds.length>64||cfg.unitIds.some(x=>typeof x!=='string'))throw Error('段考至少選一個有效章節');
  const ids=[...new Set(cfg.unitIds)],valid=D.units.filter(u=>u.status==='published');
  if(ids.some(id=>!valid.some(u=>u.id===id)))throw Error('段考章節範圍無效');
+ if(ids.some(id=>{const u=valid.find(u=>u.id===id);return ['grade','semester','subject'].some(k=>cfg[k]!==undefined&&cfg[k]!==u[k]);}))throw Error('段考章節不屬於所選年級、學期或科目');
  const count=cfg.count,seed=String(cfg.seed??'');if(!Number.isInteger(count)||count<1||count>40||!seed||seed.length>80)throw Error('段考題數需1至40，種子需1至80個字元');
  const buckets=ids.map(id=>{
   const qs=[],seen=new Set(),u=valid.find(u=>u.id===id),target=count;
@@ -178,12 +179,13 @@ function validateSession(s,D){
  let cfg;try{cfg=JSON.parse(s.signature);}catch{fail();}if(!plain(cfg))fail();
  const d=s.deck;if(!plain(d)||!Array.isArray(d.questions)||!d.questions.length||d.questions.length>40||!Number.isInteger(d.requested)||d.requested<1||d.requested>40||typeof d.limited!=='boolean'||typeof d.seed!=='string'||d.seed.length>80)fail();
  let allowed;
- if(s.retry)allowed=D.units.filter(u=>u.status==='published').map(u=>u.id);
- else if(Array.isArray(cfg.unitIds)){if(!cfg.unitIds.length||cfg.unitIds.length>64||!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>40)fail();allowed=cfg.unitIds;}
+ if(Array.isArray(cfg.unitIds)){if(!cfg.unitIds.length||cfg.unitIds.length>64||!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>40)fail();allowed=cfg.unitIds;}
  else if(cfg.unitId)allowed=[cfg.unitId];
  else allowed=D.units.filter(u=>u.grade===cfg.grade&&u.semester===cfg.semester&&u.subject===cfg.subject&&u.status==='published').map(u=>u.id);
- if(!allowed.length||allowed.some(id=>!D.units.some(u=>u.id===id&&u.status==='published')))fail();
- if(!s.retry&&(!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>(Array.isArray(cfg.unitIds)?40:20)||String(cfg.seed??'').length<1||String(cfg.seed).length>80))fail();
+ if(!allowed.length||allowed.some(id=>!D.units.some(u=>u.id===id&&u.status==='published'&&['grade','semester','subject'].every(k=>cfg[k]===undefined||cfg[k]===u[k]))))fail();
+ if(!Number.isInteger(cfg.count)||cfg.count<1||cfg.count>(Array.isArray(cfg.unitIds)?40:20)||String(cfg.seed??'').length<1||String(cfg.seed).length>80)fail();
+ // Explicit wrong-answer replay may span subjects, but its originating route must still be valid.
+ if(s.retry)allowed=D.units.filter(u=>u.status==='published').map(u=>u.id);
  const seen=new Set();for(const q of d.questions){if(!validateQuestion(q)||seen.has(q.id)||!allowed.includes(q.unitId))fail();seen.add(q.id);const u=D.units.find(u=>u.id===q.unitId),b=u.quiz.find(b=>b.id===q.templateId),p=q.provenance;
   if(!b||!plain(p)||p.version!==VERSION||typeof p.seed!=='string'||!p.seed||p.seed.length>80||!Number.isInteger(p.index)||p.index<0||p.index>500||!['static','generated'].includes(p.kind))fail();
   if(JSON.stringify(candidate(u,b,p.seed,p.index,p.kind))!==JSON.stringify(q))fail();
@@ -204,8 +206,10 @@ function record(state,q,answer){
 function score(questions,answers){let answered=0,correct=0;for(const q of questions){const a=answers[q.id];if(!q.options.some(o=>o.id===a))continue;answered++;if(a===q.answer)correct++;}return{answered,correct,total:questions.length};}
 function validateState(s,D){
  s=migrateState(s);
- if(!plain(s)||s.app!==APP||s.schema!==3||s.version!==VERSION||!plain(s.answers)||!plain(s.conceptStats)||!Array.isArray(s.mistakes)||!Array.isArray(s.history)||s.mistakes.length>200||s.history.length>50||Object.keys(s.answers).length>10000||Object.keys(s.conceptStats).length>1000)throw Error('備份格式或版本不符');
- for(const [k,v] of Object.entries(s.conceptStats))if(!/^[-a-z0-9]+#[a-z0-9]+$/i.test(k)||!plain(v)||!Number.isInteger(v.right)||!Number.isInteger(v.wrong)||v.right<0||v.wrong<0||v.right+v.wrong>10000||!['right','wrong',null].includes(v.last))throw Error('弱點統計無效');
+ if(!plain(s)||s.app!==APP||s.schema!==3||s.version!==VERSION||!plain(s.answers)||!plain(s.conceptStats)||!Array.isArray(s.mistakes)||!Array.isArray(s.history)||s.mistakes.length>200||s.history.length>50||Object.keys(s.answers).length>10000)throw Error('備份格式或版本不符');
+ const conceptKeys=new Set(D.units.flatMap(u=>u.concepts.map(c=>u.id+'#'+c.id)));
+ if(Object.keys(s.conceptStats).length>conceptKeys.size)throw Error('弱點統計無效');
+ for(const [k,v] of Object.entries(s.conceptStats))if(!conceptKeys.has(k)||!plain(v)||Object.keys(v).length!==3||Object.keys(v).some(field=>!['right','wrong','last'].includes(field))||!Number.isInteger(v.right)||!Number.isInteger(v.wrong)||v.right<0||v.wrong<0||v.right+v.wrong>10000||!['right','wrong',null].includes(v.last))throw Error('弱點統計無效');
  for(const [key,value]of Object.entries(s.answers))if(!/^[a-z0-9/-]+$/.test(key)||!['a','b','c','d'].includes(value))throw Error('作答資料無效');
  const ids=new Set();for(const x of s.mistakes){if(!plain(x)||!validateQuestion(x.q)||ids.has(x.q.id)||!x.q.options.some(o=>o.id===x.selected)||x.selected===x.q.answer)throw Error('錯題格式無效');ids.add(x.q.id);const u=D.units.find(u=>u.id===x.q.unitId),p=x.q.provenance;if(!u||!plain(p)||p.version!==VERSION||typeof p.seed!=='string'||!p.seed||p.seed.length>80||!Number.isInteger(p.index)||p.index<0||p.index>500||!['static','generated'].includes(p.kind))throw Error('錯題來源無效');const b=u.quiz.find(b=>b.id===x.q.templateId);if(!b||JSON.stringify(candidate(u,b,p.seed,p.index,p.kind))!==JSON.stringify(x.q))throw Error('錯題快照已更動或版本不符');}
  for(const h of s.history)if(!plain(h)||typeof h.date!=='string'||!Number.isInteger(h.correct)||!Number.isInteger(h.total)||h.correct<0||h.correct>h.total||h.total<1||h.total>40)throw Error('紀錄無效');

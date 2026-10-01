@@ -1,0 +1,40 @@
+{
+  "release": "2.0.1",
+  "date": "2026-10-01",
+  "baseCommit": "3c623011eae7a813e76a60bf60c6926456807eed",
+  "localStatus": "passed",
+  "nodeTests": {"passed": 138, "failed": 0},
+  "plannerTests": {"passed": 74, "failed": 0},
+  "newCorrectnessRegressions": 15,
+  "newDeliveryChecks": 10,
+  "payload": {
+    "oldHtmlBytes": 7918872,
+    "newHtmlBytes": 1697284,
+    "oldGzipBytes": 1303108,
+    "newGzipBytes": 283344,
+    "contentGroups": 62,
+    "cleanHomeLessonRequests": 0,
+    "units": 759,
+    "fixedQuestions": 2824
+  },
+  "networkObservation": {
+    "environment": "execution environment curl, not a user-device timing claim",
+    "queryTlsSeconds": 7.971464,
+    "queryFirstByteSeconds": 8.308878,
+    "queryTotalSeconds": 8.455249,
+    "interpretation": "Most observed latency preceded TLS completion; byte reduction does not establish universal elapsed-time savings."
+  },
+  "review": {
+    "independentReview": "completed",
+    "importantFindings": "Reading-guide practice and detached paper disclosures lacked the full-text boundary.",
+    "resolution": "Focused reproduction failed, then questionSource disclosure fixed it; complete 138-test suite passed.",
+    "remainingImportantFindings": 0,
+    "scopeLimits": "Native browser and live deployment are separate CI/release gates. Existing source-text and content-review limits remain explicit."
+  },
+  "nativeBrowserAndPublication": "pending CI",
+  "preservedLimits": [
+    "74 original reading guides do not claim verified publisher lesson full text.",
+    "Historical source years remain historical; unverified PDF pages remain labelled.",
+    "This release fixes delivery and reproduced defects; it does not claim exhaustive new factual verification of all 2824 answers."
+  ]
+}

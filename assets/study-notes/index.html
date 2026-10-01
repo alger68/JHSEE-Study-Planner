@@ -1459,7 +1459,7 @@ window.STUDY_DATA = {
   function subjectName(u) { return D.subjects.find(s=>s.id===u.subject)?.name || '學科'; }
   function gradeLabel(u) { return ({7:'七',8:'八',9:'九'}[u.grade] || u.grade)+'年級'+(u.semester===1?'上':'下')+'學期'; }
   function unitLabel(u, separator=' · ') { return subjectName(u)+(u.domain&&u.domain!==subjectName(u)?separator+u.domain:'')+' '+u.chapter; }
-  function hitLabel(h) {const u=units.find(u=>u.id===h.unit);return u?unitLabel(u):h.chapter;}
+  function hitLabel(h) {const u=units.find(u=>u.id===h.unit);return u?[u.schoolYear?u.schoolYear+'學年度':'',gradeLabel(u),unitLabel(u),u.publisher].filter(Boolean).join(' · '):h.chapter;}
   function unitURL(u, tab='notes') { return `#/unit/${u.id}/${tab}`; }
   function getUnit() { return units.find(u => u.id === route.id); }
   function routeFromHash() {
@@ -1651,7 +1651,7 @@ window.STUDY_DATA = {
   }
   function printContent(u,withAnswers) {
     const qs=u.quiz.map((q,i)=>`<section class="print-question"><h3>${i+1}. ${E(q.question)}</h3><p>${q.options.map((o,j)=>`${String.fromCharCode(65+j)}. ${E(o.text)}`).join('\n')}</p>${withAnswers?`<div class="print-answer"><strong>參考答案：${String.fromCharCode(65+q.options.findIndex(o=>o.id===q.answer))}</strong>${q.options.map((o,j)=>`<p>${String.fromCharCode(65+j)}：${E(o.explanation)}</p>`).join('')}</div>`:''}</section>`).join('');
-    return `<header class="print-header"><h1>${E(u.chapter+' '+u.title)}</h1><p>知識小站 · ${E(u.publisher)} · V${E(D.appVersion)} · ${E(D.updated)}</p><p>學校115學年度選書、實際頁碼與教師範圍待核對。</p></header><section class="print-section">${notes(u)}</section><section class="print-section">${diagrams(u,true)}</section><section class="print-section">${traps(u)}</section><section class="print-section">${quick(u)}</section><section class="print-section"><h2>自我檢測</h2>${qs}</section>`;
+    return `<header class="print-header"><h1>${E(u.chapter+' '+u.title)}</h1><p>知識小站 · ${E(u.publisher)} · V${E(D.appVersion)} · ${E(D.updated)}</p><p>${E(gradeLabel(u))} · ${E(subjectName(u))}</p><p>學校115學年度選書、實際頁碼與教師範圍待核對。</p>${u.contentMode==='reading-guide'?'<p><strong>原創閱讀導引：使用原創文本與閱讀方法練習，尚未核對本課全文。</strong></p>':''}${u.reviewNote?`<p>${E(u.reviewNote)}</p>`:''}</header><section class="print-section">${notes(u)}</section><section class="print-section">${diagrams(u,true)}</section><section class="print-section">${traps(u)}</section><section class="print-section">${quick(u)}</section><section class="print-section"><h2>自我檢測</h2>${qs}</section>`;
   }
   document.addEventListener('click',e=>{
     const star=e.target.closest('[data-star]');
