@@ -27,6 +27,24 @@ function build(input,options){
  h=replace(h,"${u?'重點可讀 · 固定題可作答 · 完整覆蓋待拓展':'原始來源可查 · 講義／題目待補齊'}","${s.noteStatus==='reading-guide'?'原創導引可讀與練習 · 課文全文未核對':u?'重點可讀 · 固定題可作答 · 完整覆蓋待拓展':'原始來源可查 · 講義／題目待補齊'}");
  // Apply legacy template patches before injecting new templates with shared fragments.
  h=replace(h,'</head>','<style>\n'+read('modules/curriculum-browser.css')+'\n</style>\n<script>\n'+read('modules/curriculum-browser.js').replace(/<\/script/gi,'<\\/script')+'\n</script>\n</head>');
+ // Learning guidance reuses validated local answers; opening the page never resets progress.
+ h=replace(h,'<section class="home-section" aria-labelledby="home-grade-title">','${window.LearningPath.homeLink(D,legacy)}<section class="home-section" aria-labelledby="home-grade-title">');
+ h=replace(h,"    else if(route.view==='library') main.innerHTML=academy.library(route.params);","    else if(route.view==='learn') main.innerHTML=window.LearningPath.render(D,route.params,state);\n    else if(route.view==='library') main.innerHTML=academy.library(route.params);");
+ h=replace(h,"const labels = {","const labels = {learn:'本學期學習',");
+ h=replace(h,'學習首頁</a>','學習首頁</a><a class="nav-item${active(\'learn\')}" href="#/learn?g=7&amp;term=1"><span class="nav-icon">✓</span>本學期學習</a>');
+ h=replace(h,'${academy.unitBreadcrumb(u)}','${academy.unitBreadcrumb(u)}<a class="learning-back" href="#/learn?g=${u.grade}&amp;term=${u.semester}">回本學期學習與訂正</a>');
+ h=replace(h,'<strong>錯題重練</strong>','<strong>變化題錯題重練</strong>');
+ h=replace(h,'  function quiz(u) {\n    const s=session(u);',`  function quiz(u) {
+    const focus=route.params.get('question');
+    if(focus){
+      const index=u.quiz.findIndex(q=>q.id===focus);
+      if(index>=0)sessions.set(u.id,{ids:u.quiz.map(q=>q.id),index,selection:null,result:false});
+      route.params.delete('question');
+      try{history.replaceState(null,'',unitURL(u,'quiz')+(route.params.size?'?'+route.params:''));}catch(_){}
+    }
+    const s=session(u);`);
+ h=replace(h,'<a href="${unitURL(u)}?concept=${q.concept}">回看這個觀念 ↗</a></div>','<a href="${unitURL(u)}?concept=${q.concept}">回看這個觀念 ↗</a>${!correct?\'<div class="actions"><button class="btn secondary" data-action="retry-wrong">重作本課錯題</button></div>\':\'\'}</div>');
+ h=replace(h,'</head>','<style>\n'+read('modules/learning-path.css')+'\n</style>\n<script>\n'+read('modules/learning-path.cjs').replace(/<\/script/gi,'<\\/script')+'\n</script>\n</head>');
  for(const s of h.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g))new vm.Script(s[1]);
  return h;
 }

@@ -80,6 +80,8 @@ jobs:
         run: node assets/study-notes/v120/build-web.cjs .pages/assets/study-notes/index.html .pages/assets/study-notes/index.html
       - name: Validate final web delivery, progress reload and network recovery
         run: python assets/study-notes/v120/tests/web-delivery-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/web-delivery
+      - name: Validate semester guidance and saved fixed-question correction
+        run: python assets/study-notes/v120/tests/learning-path-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/learning-path
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -128,7 +130,8 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.0.2', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.0.3', 'Pages cache still holds earlier version'
+                  assert 'data-learning-entry' in html.split('window.STUDY_DATA =')[0], 'Learning entry missing from homepage'
                   assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
                   assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'
                   assert all('question' not in u['quiz'][0] for u in data['units']), 'Full question bank blocks homepage'
