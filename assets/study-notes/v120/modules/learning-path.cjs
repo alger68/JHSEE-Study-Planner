@@ -14,8 +14,8 @@
   const latest=new Map();for(const c of available)latest.set(c.subject,Math.max(latest.get(c.subject)||0,c.year));
   const courses=available.filter(c=>c.year===latest.get(c.subject));
   const year=[...new Set(courses.map(c=>c.year))].sort((a,b)=>b-a).join('、');
-  const courseUnits=new Set(courses.flatMap(c=>c.sections.map(s=>s.unitId)));
-  const units=D.units.filter(u=>u.status==='published'&&u.grade===grade&&u.semester===term&&(!u.schoolYear||courseUnits.has(u.id)));
+  // Corrections also include semester-core guides outside the source course sections.
+  const units=D.units.filter(u=>u.status==='published'&&u.grade===grade&&u.semester===term);
   const byId=new Map(units.map(u=>[u.id,u])),read=new Set(progress.read||[]),answers=progress.answers||{};
   function status(u){
    let answered=0,correct=0;const wrong=[];

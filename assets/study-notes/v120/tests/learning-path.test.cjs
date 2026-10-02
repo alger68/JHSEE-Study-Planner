@@ -63,6 +63,17 @@ test('each subject retains its own source year and historical fixed mistakes',()
   A.equal(b.w.localStorage.getItem(key),JSON.stringify(progress));A.equal(b.calls.length,0);
  }finally{b.dom.window.close();}
 });
+test('semester-core guides retain saved mistakes even without a course-section binding',()=>{
+ for(const term of [1,2]){
+  const u=built.data.units.find(u=>u.id==='math-7-'+term),q=u.quiz[0];
+  const progress={app:'jh-study-notes',schemaVersion:1,read:[],starred:[],answers:{[u.id+'/'+q.id]:q.options.find(o=>o.id!==q.answer).id},font:0};
+  const b=open('#/learn?g=7&term='+term,progress);try{
+   A.equal(b.d.querySelector('[data-fixed-wrong-count]').textContent,'1',u.id);
+   A.ok(b.d.querySelector('[data-correction-link]')?.href.includes(u.id));
+   A.equal(b.w.localStorage.getItem(key),JSON.stringify(progress));A.equal(b.calls.length,0);
+  }finally{b.dom.window.close();}
+ }
+});
 test('unread units and read-only marks are not claimed as mastered; invalid scopes are rejected',()=>{
  const b=open('#/learn?g=12&term=1');try{A.ok(b.d.querySelector('[data-learning-invalid]'));A.equal(b.d.querySelectorAll('[data-next-unit]').length,0);A.equal(b.calls.length,0);}finally{b.dom.window.close();}
  const first=built.data.units.find(u=>u.id==='atlas-math-7-1-1');
