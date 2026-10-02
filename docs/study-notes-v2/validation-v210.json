@@ -1,7 +1,7 @@
 {
   "release": "2.1.0",
   "checkedAt": "2026-10-02",
-  "status": "locally-verified-awaiting-ci",
+  "status": "published-and-verified",
   "baseCommit": "3fc46019b2644bee4a9f62895ad5151733864cfa",
   "originalContentBaseline": "f1930eee7394e012e36baa37f406a0a5e7ee2314",
   "nodeTests": {
@@ -12,7 +12,7 @@
   "plannerTests": {
     "passed": 74,
     "failed": 0,
-    "note": "Original planner unchanged; earlier local run passed; full CI rerun required before publication."
+    "ciConfirmed": true
   },
   "content": {
     "units": 763,
@@ -120,7 +120,28 @@
     "grade9LanguageGuides": "Original common guides without claimed school-year/publisher alignment or automatic pronunciation grading."
   },
   "publication": {
-    "status": "pending-ci-and-live-verification"
+    "status": "success",
+    "commit": "326c116427b4dafb5b433c59aed508a5f261182f",
+    "tree": "e3defdf86618f457538b86995533204ea5636af7",
+    "runId": 36969185977,
+    "buildJobId": 110719386942,
+    "buildConclusion": "success",
+    "deployJobId": 110721184232,
+    "deployConclusion": "success",
+    "publicUrl": "https://alger68.github.io/JHSEE-Study-Planner/assets/study-notes/?v=2.1.0#/home",
+    "httpStatus": 200,
+    "htmlMatchesLocalByteForByte": true,
+    "actualCompressedTransferBytes": 321864,
+    "oneEnvironmentTransferSeconds": 0.660655,
+    "timingNote": "One HTTPS download sample in the execution environment; not a guarantee for user devices.",
+    "browserConfirmed": [
+      "V2.1.0 homepage and all eleven subject counts",
+      "Grade9 Hakka term2 common guide visible without school-version claim",
+      "Real answer reveals its explanation",
+      "Question2 includes its own original passage",
+      "Returned to homepage and kept open"
+    ],
+    "screenshot": "docs/study-notes-v2/v210-home.jpg"
   },
   "independentReview": {
     "status": "passed",
@@ -135,5 +156,86 @@
       "Homepage retains LearningPath entry and requires zero initial lesson requests"
     ],
     "scopeLimit": "Code, integration and sampled content review; full domain semantic reviews are documented separately in six author reports."
+  },
+  "nativeWebAcceptance": {
+    "passed": 47,
+    "failed": 0,
+    "uncaughtErrors": 0,
+    "checks": [
+      "fresh home is complete and downloads no lesson content",
+      "initial HTML below 2 MB and gzip below 350 KB",
+      "catalog retains all 763 unit IDs and 4578 question IDs",
+      "all 66 subject scopes have at least six questions per collected unit",
+      "catalog selection needs no lesson downloads",
+      "one lesson loads one content group",
+      "new worked example is visible in lesson notes",
+      "tabs reuse loaded content",
+      "catalog reflects actual read toggle and fixed answer",
+      "catalog summary counts marked chapters in the selected course",
+      "catalog progress fits 320px",
+      "unfinished selected answer survives native reload",
+      "weakness rows identify real concepts with their subject scope",
+      "weakness table stays within the 320px page",
+      "weakness action opens its exact concept",
+      "all six genuine biology mistakes survive reload",
+      "homepage resumes the stored wrong-question snapshots",
+      "legacy bookmark survived delivery migration",
+      "conflicting direct exam is rejected",
+      "lazy exam builds and starts the complete requested paper",
+      "full text search hydrates every lesson on demand",
+      "search results disclose source scope",
+      "print retains reading guide limitation",
+      "homepage fits 320px",
+      "homepage fits 390px",
+      "homepage fits 768px",
+      "homepage fits 1366px",
+      "taiwanese grade-nine term-1 guide is visible with a practice action",
+      "taiwanese term-1 shared guide fits 390px",
+      "taiwanese term-1 has six answerable questions and honest version label",
+      "taiwanese term-1 answer reveals an explanation",
+      "taiwanese grade-nine term-2 guide is visible with a practice action",
+      "taiwanese term-2 shared guide fits 390px",
+      "taiwanese term-2 has six answerable questions and honest version label",
+      "taiwanese term-2 answer reveals an explanation",
+      "hakka grade-nine term-1 guide is visible with a practice action",
+      "hakka term-1 shared guide fits 390px",
+      "hakka term-1 has six answerable questions and honest version label",
+      "hakka term-1 answer reveals an explanation",
+      "hakka grade-nine term-2 guide is visible with a practice action",
+      "hakka term-2 shared guide fits 390px",
+      "hakka term-2 has six answerable questions and honest version label",
+      "hakka term-2 answer reveals an explanation",
+      "network failure offers an explicit retry",
+      "retry opens the requested lesson",
+      "late content cannot steal a newer homepage route",
+      "no uncaught runtime errors"
+    ]
+  },
+  "nativeLearningAcceptance": {
+    "passed": 20,
+    "failed": 0,
+    "uncaughtErrors": 0,
+    "checks": [
+      "home opens seventh-grade first-semester guidance without downloading lessons",
+      "unverified Chinese reading guides remain clearly disclosed",
+      "unanswered questions are not mistakes",
+      "learning view fits 320px",
+      "learning view fits 390px",
+      "learning view fits 768px",
+      "learning view fits 1366px",
+      "reading one recommended lesson downloads one content group",
+      "real wrong answer survives native reload and appears in semester corrections",
+      "opening wrong feedback preserves saved answers",
+      "finishing a correction can continue unanswered questions without resetting records",
+      "guidance also resumes the unanswered part of a corrected chapter",
+      "corrected answer stays corrected after reload",
+      "partly finished chapter stays next",
+      "completed fixed check advances to next chapter",
+      "other-grade mistakes do not enter the seventh-grade list",
+      "recommendations preserve all pre-existing records",
+      "semester selection retains original source year",
+      "mixed-year scope retains historical history alongside current mathematics",
+      "no uncaught runtime errors"
+    ]
   }
 }
