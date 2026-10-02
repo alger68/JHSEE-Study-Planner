@@ -18,7 +18,7 @@ function build(full){
  if(data.examSolutions){
   manifest.papers=data.examSolutions.papers.map(p=>{
    const raw=JSON.stringify(p),sha256=crypto.createHash('sha256').update(raw).digest('hex'),file='content/paper-'+p.sourceId+'.'+sha256.slice(0,16)+'.json';
-   files[file]=raw;delete p.items;delete p.sections;p.bundle={file,sha256};return{sourceId:p.sourceId,...p.bundle};
+   files[file]=raw;delete p.items;delete p.sections;delete p.coverageNote;p.bundle={file,sha256};return{sourceId:p.sourceId,...p.bundle};
   });
  }
  for(const u of data.units){

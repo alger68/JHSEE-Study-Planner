@@ -1,0 +1,185 @@
+{
+  "version": "2.1.2",
+  "checked": "2026-10-02",
+  "baselineCommit": "e86debfecd8c6af72c43435e07134ad9f7b2d854",
+  "local": {
+    "notesTests": 175,
+    "plannerTests": 74,
+    "paperCount": 15,
+    "totalItems": 798,
+    "verifiedItems": 712,
+    "disputedItems": 20,
+    "limitedItems": 66,
+    "htmlBytes": 1989604,
+    "htmlSha256": "2a27f1c8d6c57818b7e7526e6e926229bbcb4f929cb621865e47d9eee5609af4",
+    "oldFirstRoundFilesUnchanged": true,
+    "paperInventory": [
+      {
+        "sourceId": "1mhODyYiigJbMFUlGcIXpqStXy8k22YAp",
+        "subject": "biology",
+        "round": 2,
+        "totalItems": 50,
+        "verifiedItems": 47,
+        "disputedItems": 3,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1wzSlzGsc6jieQaOUSbLH4EI1qoao0wdy",
+        "subject": "biology",
+        "round": 3,
+        "totalItems": 50,
+        "verifiedItems": 45,
+        "disputedItems": 3,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "16lHnZKBz68Zchogwdu-DK12f8dKd9Ri-",
+        "subject": "biology",
+        "round": 1,
+        "totalItems": 50,
+        "verifiedItems": 48,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1DU3eK79DYE_UPTCQKg00LYFr1dPlEYxc",
+        "subject": "chinese",
+        "round": 2,
+        "totalItems": 68,
+        "verifiedItems": 64,
+        "disputedItems": 2,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "1wEFf3z0T-lHSsAfspB1Uhvaib20CNjKo",
+        "subject": "chinese",
+        "round": 3,
+        "totalItems": 65,
+        "verifiedItems": 64,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1YESuB3iwULTIECFo-LrOuncaJx_FShhG",
+        "subject": "chinese",
+        "round": 1,
+        "totalItems": 67,
+        "verifiedItems": 65,
+        "disputedItems": 1,
+        "limitedItems": 1
+      },
+      {
+        "sourceId": "1I2VQ69Uwdui4rI34BLV_5zzeQAg9rh1w",
+        "subject": "english",
+        "round": 2,
+        "totalItems": 63,
+        "verifiedItems": 43,
+        "disputedItems": 0,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1wdkVy2j6gHLRXdylFr4_F2mP0l9A8-4R",
+        "subject": "english",
+        "round": 3,
+        "totalItems": 63,
+        "verifiedItems": 43,
+        "disputedItems": 0,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1y-WISb58yzXEQcY4XNImmABwH-nQtp85",
+        "subject": "english",
+        "round": 1,
+        "totalItems": 63,
+        "verifiedItems": 42,
+        "disputedItems": 1,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1NESvIAIjE8O3K7dLULS0WP_cVmZzcWOm",
+        "subject": "math",
+        "round": 2,
+        "totalItems": 33,
+        "verifiedItems": 33,
+        "disputedItems": 0,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "19QeEP9fXfSdlpk6qVvmr2E5edrWxn2QT",
+        "subject": "math",
+        "round": 3,
+        "totalItems": 33,
+        "verifiedItems": 32,
+        "disputedItems": 0,
+        "limitedItems": 1
+      },
+      {
+        "sourceId": "1NtKDPIaNNX8EXp4DCyJwIlvqOfDm6QsS",
+        "subject": "math",
+        "round": 1,
+        "totalItems": 31,
+        "verifiedItems": 29,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1rrQS-GBG9hbXxC9YrNdUMbrBfCFA68vU",
+        "subject": "social",
+        "round": 2,
+        "totalItems": 54,
+        "verifiedItems": 53,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1-nBB_Jfvt8vdTap6V3VN1yua-vaPZQJ6",
+        "subject": "social",
+        "round": 3,
+        "totalItems": 54,
+        "verifiedItems": 51,
+        "disputedItems": 3,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1vfRoMIOb3So4d-0osG7LDcYm1aZOF8ql",
+        "subject": "social",
+        "round": 1,
+        "totalItems": 54,
+        "verifiedItems": 53,
+        "disputedItems": 1,
+        "limitedItems": 0
+      }
+    ],
+    "solutionFileHashes": {
+      "assets/study-notes/v120/modules/exam-solutions/biology-7-r2.json": "fc749a316ab8f16c51002dab99a1ccd576786fab84fe8f060f833d715782506d",
+      "assets/study-notes/v120/modules/exam-solutions/biology-7-r3.json": "9aadc0df7fd5efb7cf16168077261f4002a1595edcf684365bb3e77af781d04c",
+      "assets/study-notes/v120/modules/exam-solutions/biology.json": "ccadfad71d3d445d59115603e356e1557864c7969a954988b9de69b7ecf721cd",
+      "assets/study-notes/v120/modules/exam-solutions/chinese-7-r2.json": "85af9b16e40fcc07272f86b356dbdef082aa78a283a779076b58ddcc1ebf9e95",
+      "assets/study-notes/v120/modules/exam-solutions/chinese-7-r3.json": "66f38fbf7b9970e55d1503c0f0633074b544e2c3bc6365a0fee13e6b808f6bac",
+      "assets/study-notes/v120/modules/exam-solutions/chinese.json": "f77314f3c372d62d37adba994efb352214e055eb570ad50c184d896f3de81025",
+      "assets/study-notes/v120/modules/exam-solutions/english-7-r2.json": "f493ff722a96d040e99aee5d045d0d0b6c0993d5ac5f750f27d44d6734a3a717",
+      "assets/study-notes/v120/modules/exam-solutions/english-7-r3.json": "8c5b6340b1a7e691f7d64e4fa9fb445e2ecad50104594a5515f8ec98062c8798",
+      "assets/study-notes/v120/modules/exam-solutions/english.json": "e6b8219dae69a50a47ce72ac02dc0e4d5ef9d4fc8398535c11a4476e1382b738",
+      "assets/study-notes/v120/modules/exam-solutions/math-7-r2.json": "472899d8aa27c4182c968b1bc39544f5e2665626e86f24f554d3624c30642ab8",
+      "assets/study-notes/v120/modules/exam-solutions/math-7-r3.json": "dc3980850adaf85f20d0383f1df27c963c7669181a0571f069dc0987bb9059e5",
+      "assets/study-notes/v120/modules/exam-solutions/math.json": "4e41734e8fa708dddfe017a4a200fe1d94620902125b53adfa04a6ae6e37f673",
+      "assets/study-notes/v120/modules/exam-solutions/social-7-r2.json": "aa53a44593f079f8f8e5d64c14b5e8710d2bc8e218073554ba9d84dd504e09e3",
+      "assets/study-notes/v120/modules/exam-solutions/social-7-r3.json": "085af0c06c2c0ac24d7520f93618e28ac57b6acc9d0952e9716a39d6914ab31b",
+      "assets/study-notes/v120/modules/exam-solutions/social.json": "51d26b94af92dc1b7a401e76120f62ce6eafa3b2ec26764e0b064507652a6c1d"
+    },
+    "gzipBytesNode": 322342,
+    "finalPaperReleaseTests": 17
+  },
+  "content": {
+    "units": 763,
+    "fixedQuestions": 4578,
+    "newPapers": 10,
+    "newItems": 533,
+    "remainingPaperGuides": 25,
+    "readingGuideFullTextsUnverified": 74
+  },
+  "publication": {
+    "status": "pending"
+  },
+  "reviewBoundary": "Each subject author visually inspected every source PDF page and independently reasoned against the printed key. Root sampled mathematics and structural/source invariants. Independent review and native CI are required before publication is marked verified."
+}

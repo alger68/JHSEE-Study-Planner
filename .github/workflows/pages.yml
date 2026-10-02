@@ -136,7 +136,7 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.1.1', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.1.2', 'Pages cache still holds earlier version'
                   assert 'data-learning-entry' in html.split('window.STUDY_DATA =')[0], 'Learning entry missing from homepage'
                   assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
                   assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'
@@ -144,7 +144,7 @@ jobs:
                   with urllib.request.urlopen(notes+'delivery-manifest.json?verify='+os.environ['GITHUB_SHA'],timeout=25) as r:
                       manifest=json.load(r)
                   assert manifest['version']==data['appVersion'] and manifest['unitCount']==763
-                  assert len(manifest['papers'])==data['examSolutions']['paperCount']==5
+                  assert len(manifest['papers'])==data['examSolutions']['paperCount']==15
                   assert all('items' not in p for p in data['examSolutions']['papers']), 'Paper bodies block homepage'
                   for paper in manifest['papers']:
                       with urllib.request.urlopen(notes+paper['file'],timeout=25) as r:

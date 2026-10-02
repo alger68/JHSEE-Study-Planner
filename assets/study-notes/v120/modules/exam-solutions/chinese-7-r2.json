@@ -1,0 +1,1295 @@
+{
+  "schema": 1,
+  "sourceId": "1DU3eK79DYE_UPTCQKg00LYFr1dPlEYxc",
+  "sourceSha256": "264132fa10af59527df89a3989729a0d8072e4ca9aa3fbab1ea9867e7f8c158c",
+  "title": "114-2-2七年級國文科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "共收錄68個作答項目：國字注音10題、注釋10題、改錯5字、多元思考5格、綜合測驗32題、閱讀題組6題。已逐頁檢視PDF第1至7頁；原題在第1至6頁，官方答案在第7頁。綜合第10題有成語多義及選項語境的疑義，閱讀第37題有兩個選項均可獲文意支持的疑義；第5、23題因題本未附指定課文全文，保留具體核對限制。這是114-2七年級第二次段考的歷史試卷詳解。",
+  "sections": [
+    {
+      "id": "characters",
+      "title": "一、國字注音"
+    },
+    {
+      "id": "definitions",
+      "title": "二、注釋"
+    },
+    {
+      "id": "corrections",
+      "title": "三、改錯"
+    },
+    {
+      "id": "thinking",
+      "title": "四、多元思考題"
+    },
+    {
+      "id": "general",
+      "title": "五、綜合測驗"
+    },
+    {
+      "id": "reading",
+      "title": "六、閱讀題組"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-r2-characters-01",
+      "section": "characters",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "天然阻水地形",
+      "answer": "堰",
+      "officialAnswer": "堰",
+      "status": "verified",
+      "steps": [
+        "由後面的塞湖判斷，這是河道被堵住而形成湖泊的名稱。",
+        "固定用字為「堰塞湖」，ㄧㄢˋ寫作土部的「堰」。"
+      ],
+      "pitfall": "不要寫成同音的「宴」或「燕」；要連結阻水土石的語境。"
+    },
+    {
+      "id": "chinese-r2-characters-02",
+      "section": "characters",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "動物名稱用字",
+      "answer": "麝",
+      "officialAnswer": "麝",
+      "status": "verified",
+      "steps": [
+        "題目所指為麝香貓，空格是動物名稱的一部分。",
+        "ㄕㄜˋ應寫「麝」，字形由鹿部與射組成。"
+      ],
+      "pitfall": "不要只依聲旁寫「射」，漏掉鹿部。"
+    },
+    {
+      "id": "chinese-r2-characters-03",
+      "section": "characters",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "古地名用字",
+      "answer": "薊",
+      "officialAnswer": "薊",
+      "status": "verified",
+      "steps": [
+        "先判斷「薊北」是詩中的地名，須使用專名的固定字。",
+        "ㄐㄧˋ寫「薊」；它與河北地理背景相連，但不能換成同音的「冀」。"
+      ],
+      "pitfall": "不要把地名「薊北」和河北簡稱「冀」混用。"
+    },
+    {
+      "id": "chinese-r2-characters-04",
+      "section": "characters",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "不受拘束的用字",
+      "answer": "羈",
+      "officialAnswer": "羈",
+      "status": "verified",
+      "steps": [
+        "豪放不羈形容性情豪邁，不受束縛。",
+        "空格要表達拘束，因此ㄐㄧ應寫「羈」。"
+      ],
+      "pitfall": "不要因讀音相同而寫「機」；要從不受拘束的詞義辨字。"
+    },
+    {
+      "id": "chinese-r2-characters-05",
+      "section": "characters",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "生物延續的用字",
+      "answer": "衍",
+      "officialAnswer": "衍",
+      "status": "verified",
+      "steps": [
+        "由「繁」判斷，所組成的詞描述生物滋生、延續。",
+        "固定詞是「繁衍」，ㄧㄢˇ應寫「衍」。"
+      ],
+      "pitfall": "「演」常用於表演或推演，不能取代此處的「衍」。"
+    },
+    {
+      "id": "chinese-r2-characters-06",
+      "section": "characters",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "更新面貌的用字",
+      "answer": "煥",
+      "officialAnswer": "煥",
+      "status": "verified",
+      "steps": [
+        "題目要組成形容面貌更新的成語。",
+        "正確寫法是「煥然一新」，「煥」有光明煥發之意。"
+      ],
+      "pitfall": "不要寫成美輪美奐的「奐」或渙散的「渙」。"
+    },
+    {
+      "id": "chinese-r2-characters-07",
+      "section": "characters",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "深藍的字音",
+      "answer": "ㄓㄢˋ",
+      "officialAnswer": "ㄓㄢˋ",
+      "status": "verified",
+      "steps": [
+        "指定字是湛藍的「湛」，不是「藍」。",
+        "「湛」讀ㄓㄢˋ，聲母是ㄓ，聲調是第四聲。"
+      ],
+      "pitfall": "不要看見右側「甚」就讀成ㄕㄣˋ。"
+    },
+    {
+      "id": "chinese-r2-characters-08",
+      "section": "characters",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "光采鮮明的字音",
+      "answer": "ㄘㄨㄟˇ",
+      "officialAnswer": "ㄘㄨㄟˇ",
+      "status": "verified",
+      "steps": [
+        "「璀」與「燦」連用，形容光采鮮明。",
+        "「璀」讀ㄘㄨㄟˇ，最後須標第三聲。"
+      ],
+      "pitfall": "不要把璀燦兩字都標成第四聲。"
+    },
+    {
+      "id": "chinese-r2-characters-09",
+      "section": "characters",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "嵌入物件的字音",
+      "answer": "ㄑㄧㄢ",
+      "officialAnswer": "ㄑㄧㄢ",
+      "status": "verified",
+      "steps": [
+        "題目指定鑲嵌中的「嵌」，表示把物件嵌進另一物的凹處。",
+        "依本卷採用的國語讀音，應寫ㄑㄧㄢ，第一聲不另加聲調符號。"
+      ],
+      "pitfall": "勿照日常誤讀寫成ㄎㄢˇ；須辨認本題所用讀音。"
+    },
+    {
+      "id": "chinese-r2-characters-10",
+      "section": "characters",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "山名的字音",
+      "answer": "ㄌㄧˊ",
+      "officialAnswer": "ㄌㄧˊ",
+      "status": "verified",
+      "steps": [
+        "先辨認「驪山」的第一字，是馬部的「驪」。",
+        "「驪」讀ㄌㄧˊ，第二聲。"
+      ],
+      "pitfall": "不要直接沿用聲旁「麗」常見的ㄌㄧˋ。"
+    },
+    {
+      "id": "chinese-r2-definitions-01",
+      "section": "definitions",
+      "label": "二、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "上升動態",
+      "answer": "從下方向上快速盤旋而起。",
+      "officialAnswer": "由下急速地盤旋而上。",
+      "status": "verified",
+      "steps": [
+        "先抓住「扶搖」與旋風上升有關，不能只解成直線移動。",
+        "再把「直上」的向上方向合入，釋義需兼有迅速、盤旋與上升。"
+      ],
+      "pitfall": "本題取詩中動態義，不要只寫成仕途順利的引申義。"
+    },
+    {
+      "id": "chinese-r2-definitions-02",
+      "section": "definitions",
+      "label": "二、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "藍色的深淺",
+      "answer": "深藍色。",
+      "officialAnswer": "深藍。",
+      "status": "verified",
+      "steps": [
+        "「湛」在此強調顏色深。",
+        "把它與「藍」結合，就是深藍色，不是淺淡的天藍。"
+      ],
+      "pitfall": "不要誤釋成清澈；本題直接考顏色。"
+    },
+    {
+      "id": "chinese-r2-definitions-03",
+      "section": "definitions",
+      "label": "二、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "盡情飲酒",
+      "answer": "盡情地喝酒。",
+      "officialAnswer": "盡情飲酒。",
+      "status": "verified",
+      "steps": [
+        "「縱」在此有放開、盡情的意思。",
+        "和「酒」連用便是放懷飲酒，要把動作與程度一併說明。"
+      ],
+      "pitfall": "不是縱容別人喝酒，也不是泛指宴會。"
+    },
+    {
+      "id": "chinese-r2-definitions-04",
+      "section": "definitions",
+      "label": "二、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "轉變的機會",
+      "answer": "事情可能轉變的機會。",
+      "officialAnswer": "事情轉變的機會。",
+      "status": "verified",
+      "steps": [
+        "先找詞義重點：契機是使事情產生轉折的機會。",
+        "解釋時保留轉變與機會兩個要素，不能只說時間。"
+      ],
+      "pitfall": "不要把「契」解成契約；此處不是簽約時機。"
+    },
+    {
+      "id": "chinese-r2-definitions-05",
+      "section": "definitions",
+      "label": "二、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "依序發生",
+      "answer": "按照順序，依次。",
+      "officialAnswer": "依序、依次。",
+      "status": "verified",
+      "steps": [
+        "「次第」在這裡表示依一定先後次序。",
+        "因此可譯為依序、依次，說明事物不是同時或雜亂出現。"
+      ],
+      "pitfall": "不要把「第」單獨理解成考試名次。"
+    },
+    {
+      "id": "chinese-r2-definitions-06",
+      "section": "definitions",
+      "label": "二、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "草木茂密",
+      "answer": "草木生長茂盛的樣子。",
+      "officialAnswer": "草木茂盛的樣子。",
+      "status": "verified",
+      "steps": [
+        "先由「蓊鬱」判斷描述的對象是草木。",
+        "兩字合用表示濃密茂盛，要寫出植物繁茂的狀態。"
+      ],
+      "pitfall": "「鬱」在此不是心情憂鬱。"
+    },
+    {
+      "id": "chinese-r2-definitions-07",
+      "section": "definitions",
+      "label": "二、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "追想往事",
+      "answer": "追念過去的人或事。",
+      "officialAnswer": "追念。",
+      "status": "verified",
+      "steps": [
+        "「緬」帶有遙遠的意思，提醒我們把心思放到過往。",
+        "「懷」是思念，合起來便是追念。"
+      ],
+      "pitfall": "不要寫成對未來的期待。"
+    },
+    {
+      "id": "chinese-r2-definitions-08",
+      "section": "definitions",
+      "label": "二、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "停下腳步",
+      "answer": "停留，停下腳步。",
+      "officialAnswer": "停留。",
+      "status": "verified",
+      "steps": [
+        "「駐」有停住的意思。",
+        "與「足」連用便是停止前進，在某處停留。"
+      ],
+      "pitfall": "不要把駐足解成加快腳步或長期定居。"
+    },
+    {
+      "id": "chinese-r2-definitions-09",
+      "section": "definitions",
+      "label": "二、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "視線所及",
+      "answer": "極盡。",
+      "officialAnswer": "極盡。",
+      "status": "verified",
+      "steps": [
+        "這裡說的是希望把目光伸展到更遠之處。",
+        "「窮」作動詞，表示把範圍推到極限，應釋為極盡。"
+      ],
+      "pitfall": "不要用現代常見的貧窮義解釋。"
+    },
+    {
+      "id": "chinese-r2-definitions-10",
+      "section": "definitions",
+      "label": "二、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "短暫觀看",
+      "answer": "目光迅速掠過。",
+      "officialAnswer": "目光掠過。",
+      "status": "verified",
+      "steps": [
+        "「瞥」描述短時間看一下的動作。",
+        "解釋要突出視線迅速掠過，而不是長久凝視。"
+      ],
+      "pitfall": "不要把「一瞥」寫成仔細端詳。"
+    },
+    {
+      "id": "chinese-r2-corrections-01",
+      "section": "corrections",
+      "label": "三、第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "沉浸美景",
+      "answer": "陶",
+      "officialAnswer": "陶",
+      "status": "verified",
+      "steps": [
+        "「淘醉」要表達沉浸於美景的愉悅，應用固定詞「陶醉」。",
+        "因此將淘改成陶；淘常與洗除、淘汰等意思相連。"
+      ],
+      "pitfall": "不要因兩字同音就保留水部的淘。"
+    },
+    {
+      "id": "chinese-r2-corrections-02",
+      "section": "corrections",
+      "label": "三、第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "抓住瞬間",
+      "answer": "捕",
+      "officialAnswer": "捕",
+      "status": "verified",
+      "steps": [
+        "拍攝是要抓住稍縱即逝的畫面，應寫「捕捉」。",
+        "將「補捉」的補改成手部的捕，才能表達抓取。"
+      ],
+      "pitfall": "補是補充或修補，和本題的抓住不是同義。"
+    },
+    {
+      "id": "chinese-r2-corrections-03",
+      "section": "corrections",
+      "label": "三、第3字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "心緒不寧",
+      "answer": "躁",
+      "officialAnswer": "躁",
+      "status": "verified",
+      "steps": [
+        "課業壓力使心情焦急不安，應用「煩躁」。",
+        "「燥」偏向乾燥，「躁」才是急躁、不能安定的狀態。"
+      ],
+      "pitfall": "注意煩躁用足部，不用火部。"
+    },
+    {
+      "id": "chinese-r2-corrections-04",
+      "section": "corrections",
+      "label": "三、第4字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "滄桑用字",
+      "answer": "桑",
+      "officialAnswer": "桑",
+      "status": "verified",
+      "steps": [
+        "照片營造的是歷經變化的感覺，固定詞為「滄桑」。",
+        "「桑」來自滄海桑田的語意，因此將傷改成桑。"
+      ],
+      "pitfall": "不要因為滄桑帶有感傷氣氛，就把桑寫成傷。"
+    },
+    {
+      "id": "chinese-r2-corrections-05",
+      "section": "corrections",
+      "label": "三、第5字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "周遭氣氛",
+      "answer": "氛",
+      "officialAnswer": "氛",
+      "status": "verified",
+      "steps": [
+        "題目說濾鏡營造的整體感受，應寫「氛圍」。",
+        "氛與氣有關，將芬改成氣部的氛。"
+      ],
+      "pitfall": "芬主要表示香氣，不能代替氛圍的氛。"
+    },
+    {
+      "id": "chinese-r2-thinking-01",
+      "section": "thinking",
+      "label": "四、第1題第1格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "返鄉路線前句",
+      "answer": "即從巴峽穿巫峽",
+      "officialAnswer": "即從巴峽穿巫峽",
+      "status": "verified",
+      "steps": [
+        "先定位詩末規畫返鄉的兩句，第一段是從巴峽穿過巫峽。",
+        "依原文次序寫「即從巴峽穿巫峽」；即、穿都使路線呈現急切前進的節奏。"
+      ],
+      "pitfall": "默寫要寫「即」，不能換成同音的「既」。"
+    },
+    {
+      "id": "chinese-r2-thinking-02",
+      "section": "thinking",
+      "label": "四、第1題第2格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "返鄉路線後句",
+      "answer": "便下襄陽向洛陽",
+      "officialAnswer": "便下襄陽向洛陽",
+      "status": "verified",
+      "steps": [
+        "承接巴峽、巫峽之後，詩人的想像路線接向襄陽與洛陽。",
+        "依原文寫「便下襄陽向洛陽」；便、下、向延續迫不及待返鄉的情緒。"
+      ],
+      "pitfall": "不要把襄陽與洛陽的先後對調。"
+    },
+    {
+      "id": "chinese-r2-thinking-03",
+      "section": "thinking",
+      "label": "四、第2題第3格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "端正如站立的字體",
+      "answer": "楷書",
+      "officialAnswer": "楷書",
+      "status": "verified",
+      "steps": [
+        "題目以站立形容結構端正、筆畫規整。",
+        "這是楷書的典型特徵，因此第3格填楷書。"
+      ],
+      "pitfall": "「立」是形態比喻，不是書法家的名字。"
+    },
+    {
+      "id": "chinese-r2-thinking-04",
+      "section": "thinking",
+      "label": "四、第2題第4格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "流暢如行走的字體",
+      "answer": "行書",
+      "officialAnswer": "行書",
+      "status": "verified",
+      "steps": [
+        "先辨認流暢自然而仍容易辨識的中間狀態。",
+        "行書介於楷書與草書之間，符合如行走的比喻。"
+      ],
+      "pitfall": "不要把有流動感一概判為草書。"
+    },
+    {
+      "id": "chinese-r2-thinking-05",
+      "section": "thinking",
+      "label": "四、第2題第5格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "奔放如疾走的字體",
+      "answer": "草書",
+      "officialAnswer": "草書",
+      "status": "verified",
+      "steps": [
+        "古語的「走」表示奔跑，速度比一般行走快。",
+        "筆勢飛動、較多省略連帶的草書，最符合如奔跑的描寫。"
+      ],
+      "pitfall": "此處的走不是現代日常所說的慢慢走路。"
+    },
+    {
+      "id": "chinese-r2-general-01",
+      "section": "general",
+      "label": "五、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "同音字辨析",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "輾斃的輾與碾米的碾都讀ㄋㄧㄢˇ，因此B相同。",
+        "A的偃、揠分別讀ㄧㄢˇ、ㄧㄚˋ；C的攘、壤分別為第二、三聲；D的掏、淘分別為第一、二聲。"
+      ],
+      "pitfall": "要連聲調一起比較；掏、淘的聲母韻母相同，聲調卻不同。"
+    },
+    {
+      "id": "chinese-r2-general-02",
+      "section": "general",
+      "label": "五、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "同音詞中的字形",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "衣不蔽體與蒙蔽雙眼都用「蔽」，意思都與遮住有關，因此選B。",
+        "其餘三組依序是膜／摹、繡／鏽、奐／渙，讀音相同而字形不同。"
+      ],
+      "pitfall": "不要只比注音；必須先把每個詞的完整正字寫出來。"
+    },
+    {
+      "id": "chinese-r2-general-03",
+      "section": "general",
+      "label": "五、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "同字的語境義",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "縱酒與縱情的縱，都有放開、盡情的意思，所以A前後相同。",
+        "懸殊指差距很大，懸掛指吊起；激起與激勵分屬衝起、鼓舞；卷書的卷是收捲動作，書卷的卷是書籍。"
+      ],
+      "pitfall": "字形相同不保證字義相同，還要辨認詞性與搭配。"
+    },
+    {
+      "id": "chinese-r2-general-04",
+      "section": "general",
+      "label": "五、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "跳水意象與錯誤推論",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題目中的湛藍指池水，並能承載對美好目標的憧憬。",
+        "D把它說成練習過度產生的幻覺，加入詩句沒有提供的病理原因，所以錯誤。",
+        "高度、曲線與水花可以構成由準備到入水的意象連續，無須假設把池水看成天空。"
+      ],
+      "pitfall": "不要把詩的象徵聯想當成角色真的產生幻覺。"
+    },
+    {
+      "id": "chinese-r2-general-05",
+      "section": "general",
+      "label": "五、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "天空意象的判讀",
+      "answer": "C（依官方答案；原詩意象待全文核對）",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "本題要找錯誤的作品分析，官方指定C。",
+        "題內D把風箏呈現為以小搏大的奮鬥意象；依這個比較方向，C把天空直接定義為希望，未充分說明風箏與天空之間的抗衡關係。",
+        "要確認天空在原詩的確切象徵，仍須對照本題未附的〈風箏〉全文。"
+      ],
+      "pitfall": "不能只因天空常令人聯想到希望，就斷言每一首詩都採相同象徵。",
+      "note": "本PDF只列題目與作品分析選項，未附〈風箏〉全文。已核對官方C及題內比較線索，但天空的完整象徵脈絡尚缺原詩逐句驗證，因此不列為完全驗證。"
+    },
+    {
+      "id": "chinese-r2-general-06",
+      "section": "general",
+      "label": "五、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "律詩的基本格律",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "律詩八句分成四聯，第3、4句為頷聯，第5、6句為頸聯；這兩聯須對仗，故D正確。",
+        "首句可以入韻，也可以不入韻；近體詩不能稱為現代詩。",
+        "律詩也須依近體詩規則一韻到底，C不能把它排除。"
+      ],
+      "pitfall": "不要把「近體」理解成近代或現代寫成的詩。"
+    },
+    {
+      "id": "chinese-r2-general-07",
+      "section": "general",
+      "label": "五、第7題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "藉享樂諷刺國事",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原題以為取悅貴妃而急送荔枝的畫面，含蓄指向統治者的逸樂。",
+        "B以仍在歌唱亡國之音的情境，寄寓對沉迷享樂、缺乏國事警覺的批評，與題意最接近。",
+        "A偏寫朝儀盛況，C偏寫君王與美人，D寫江南春景，沒有B的警世重點。"
+      ],
+      "pitfall": "不能只因詩中都有君王或美人就判為相同主旨。"
+    },
+    {
+      "id": "chinese-r2-general-08",
+      "section": "general",
+      "label": "五、第8題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "動物蹤跡的象徵",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "石虎能在淺山活動，表示當地仍保有讓野生動物生存的條件。",
+        "作者把發現蹤跡視為值得珍惜的好消息，重點是山林尚有生機，因此選A。"
+      ],
+      "pitfall": "此處的庇佑是情感表達，不必解成石虎具有神力。"
+    },
+    {
+      "id": "chinese-r2-general-09",
+      "section": "general",
+      "label": "五、第9題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "語序與受詞改變",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "原句「深林人不知」是說詩人獨在深林，人們不知道他的行蹤。",
+        "改成「人不知深林」，不知的對象變成森林本身，意思已改變，因此選D。",
+        "還原倒裝必須保留原來的主體、動作與對象，不能只搬動同一批字。"
+      ],
+      "pitfall": "「人不知道我在深林」不等於「人不知道這座深林」。"
+    },
+    {
+      "id": "chinese-r2-general-10",
+      "section": "general",
+      "label": "五、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "成語多義與語境排他性",
+      "answer": "C是命題預期；C、D的排他性有疑義",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "若採兩腳書櫥的貶義，它指書讀得多卻不會運用，C說教授能靈活運用知識，確有衝突，這可解釋官方選C。",
+        "但教育部《重編國語辭典修訂本》也收錄用它形容博學善記之人的褒義，不能說C在任何用法下都錯。",
+        "D的老驥伏櫪重在年老仍有大志；題目只寫慢跑健身，亦未交代雄心壯志，所以本題的唯一最佳錯項有疑義。"
+      ],
+      "pitfall": "不要把一個成語的常見貶義說成唯一意義，也不要把身體健朗直接等同胸懷大志。",
+      "note": "官方答案為C。教育部《重編國語辭典修訂本》「兩腳書櫥」同收不知活用的貶義及博學善記的褒義（https://dict.revised.moe.edu.tw/dictView.jsp?ID=65177）；《國語辭典簡編本》「老驥伏櫪」重在年老仍有雄心（https://dict.concised.moe.edu.tw/dictView.jsp?ID=13556）。本題未限定前者義項，D亦僅交代健身，故保留官方答案並標示用詞語境疑義。"
+    },
+    {
+      "id": "chinese-r2-general-11",
+      "section": "general",
+      "label": "五、第11題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "保育資訊與文化聯想",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目把真實的石虎生態、開發壓力，連到大眾熟悉的龍貓形象。",
+        "這種組合一方面傳達保育資訊，一方面引發情感共鳴，符合B。",
+        "不能由第一人稱敘事就推出進入動物內心，也不能把倡議保育直接縮成推銷旅遊。"
+      ],
+      "pitfall": "要辨認文化意象服務於什麼目的，不能把出現旅遊議題等同商業推廣。"
+    },
+    {
+      "id": "chinese-r2-general-12",
+      "section": "general",
+      "label": "五、第12題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "上下句的對仗條件",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "對仗須注意相應位置的詞性、結構與意義類型。",
+        "B前句核心是數量修飾寺院，後句是樓臺置於煙雨中的景象，兩句沒有整齊對應的語法架構。",
+        "其餘如窗／門、含／泊、西嶺／東吳等，可逐位置找到相應，因此選B。"
+      ],
+      "pitfall": "兩句字數相等只是前提之一，不能據此認定已對仗。"
+    },
+    {
+      "id": "chinese-r2-general-13",
+      "section": "general",
+      "label": "五、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "顏色詞的本義與引申",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "黃口原指幼鳥黃色的嘴，黃袍也確實指黃色袍服；A的黃都可追溯到實際色彩。",
+        "B的尚青用青表示新鮮；C的白手表示沒有資本；D的分紅與當紅分別是利益、走紅，都非顏色本義。"
+      ],
+      "pitfall": "成語整體可以比喻人，但題目仍可能考其中顏色字的原有指涉。"
+    },
+    {
+      "id": "chinese-r2-general-14",
+      "section": "general",
+      "label": "五、第14題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "送別的視線與奔馳感",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B描寫帆影逐漸遠去，最後視野只剩江水，著重長久凝望與送別。",
+        "A、C以舟行迅速越過山川或一日遠行呈現速度，D也以驛騎揚塵急送物品帶出奔馳感。",
+        "所以B最缺少急迫奔馳的動態。"
+      ],
+      "pitfall": "不要把任何交通工具的出現都等同快速移動；要看描寫的節奏。"
+    },
+    {
+      "id": "chinese-r2-general-15",
+      "section": "general",
+      "label": "五、第15題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "轉化與隱喻的主體關係",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "原句把山林當成有心臟的生命體，是轉化的寫法；A的蠶食、B的雙手、D的顫抖傾聽，也把事物移作有生命的形態。",
+        "C以「是」建立石虎與守護者的比喻關係，依本題著重的主要結構，應歸入隱喻，故選C。"
+      ],
+      "pitfall": "修辭可能交疊；本題比較的是主要表達結構，不能宣稱一句話永遠只能有一種修辭。"
+    },
+    {
+      "id": "chinese-r2-general-16",
+      "section": "general",
+      "label": "五、第16題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "邊塞詩的敘寫與用典",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "〈涼州詞〉先寫開闊而荒遠的邊地景象，再引出笛聲與哀怨，並非全篇倒敘。",
+        "〈出塞〉以龍城飛將寄託對良將的期待，不能說完全沒有典故。",
+        "D的兩項判斷都與詩面相違，因此是錯誤選項。"
+      ],
+      "pitfall": "看到情感深沉，不代表詩必然先寫情再倒推事件。"
+    },
+    {
+      "id": "chinese-r2-general-17",
+      "section": "general",
+      "label": "五、第17題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "書法家字號與字體",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "王逸少即王羲之，先由字號辨認人物。",
+        "他著名的行書成就符合題目所說流動而結構穩健的筆勢，故選王羲之、行書的A。"
+      ],
+      "pitfall": "不能把王羲之和兒子王獻之混為一人。"
+    },
+    {
+      "id": "chinese-r2-general-18",
+      "section": "general",
+      "label": "五、第18題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "返鄉想像的情感延續",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "詩末以接連的地名和方向詞，把尚未實現的返鄉路程一口氣展開。",
+        "這是激動喜悅、歸心似箭的延伸，不能因為路線有次序，就說情緒已完全冷靜。",
+        "所以D把形式上的整齊誤判為情感的平穩，是最不適切的分析。"
+      ],
+      "pitfall": "語句有條理不等於人物已失去急切或激動。"
+    },
+    {
+      "id": "chinese-r2-general-19",
+      "section": "general",
+      "label": "五、第19題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "對仗與押韻推定句序",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "無邊落木與不盡長江相對，蕭蕭下與滾滾來相對，應先排丁、乙。",
+        "萬里悲秋與百年多病相對，常作客與獨登臺相對，接著排甲、丙。",
+        "來、臺安排在偶數句押韻，與後面的杯相承，因此順序是丁乙甲丙，選A。"
+      ],
+      "pitfall": "只找成對語句還不夠，還要用偶數句的韻腳確認前後次序。"
+    },
+    {
+      "id": "chinese-r2-general-20",
+      "section": "general",
+      "label": "五、第20題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "古詩的春季線索",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "本題「青春」指明媚春光，不是年輕年歲。",
+        "C的黃鶯鳴叫、綠葉紅花正是春景；A寫荷盡菊殘，B寫梅雨，D寫北地飛雪。",
+        "因此同樣描寫春天的是C。"
+      ],
+      "pitfall": "不要把古詩的青春一律解成青少年時期。"
+    },
+    {
+      "id": "chinese-r2-general-21",
+      "section": "general",
+      "label": "五、第21題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "登高意象與人生道理",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前兩句讓視線由落日、山勢延伸到奔流黃河，形成開闊景象。",
+        "後兩句由登高看遠推展到持續追求更高境界，D同時掌握景物與道理。",
+        "不能說詩人真的看見遠處入海口，也不能把更上一層說成尋找成功捷徑。"
+      ],
+      "pitfall": "由具體行動引出道理時，要保留向上努力的意思，不能改成投機取巧。"
+    },
+    {
+      "id": "chinese-r2-general-22",
+      "section": "general",
+      "label": "五、第22題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "從末筆辨認隸書波勢",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "直接觀察四個字的最後一筆，而不是只看整個字是否像隸書。",
+        "B「望」最下方的橫畫末端舒展並向右挑起，最清楚呈現題目指定的波勢挑法。",
+        "所以選B；其餘字的末筆不是圖中這種代表性橫向收筆。"
+      ],
+      "pitfall": "題目限定最後一筆，不能在字中任找一筆有彎曲就作答。",
+      "note": "已目視PDF第3頁四幅字形，依末筆形態比對，B為「望」。"
+    },
+    {
+      "id": "chinese-r2-general-23",
+      "section": "general",
+      "label": "五、第23題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "垃圾清理與火災風險",
+      "answer": "A（依官方答案；課文角色細節待核對）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "官方答案為A；B、C談天燈殘骸造成陸地或河川污染，D談餘火造成火災，都是與施放後殘留物直接相關的風險。",
+        "A把一般觀光垃圾的清理負擔歸給消防人員，與消防救災、環境清理的角色區別有關。",
+        "但題本沒有附上所指文章全文，仍不能逐句查證A究竟改動了原文的哪個人員或事件。"
+      ],
+      "pitfall": "不要混淆救災與垃圾清理的工作，也不要把未附的課文細節說成已逐字核對。",
+      "note": "題本未附〈放天燈是傳統，還是為山林製造更多垃圾？〉全文。A牽涉文章對垃圾清理人員及消防負擔的具體陳述，無法只憑本PDF逐句驗證；已清楚保留官方A，未把未見原文的角色細節當成已證實。"
+    },
+    {
+      "id": "chinese-r2-general-24",
+      "section": "general",
+      "label": "五、第24題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "隸變與字體抽象化",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "隸書的形成使筆畫、結構更便於書寫，是漢字由古文字轉向今文字的重要變化。",
+        "C說它延續圖像特徵、成為圖畫型文字，方向與字體逐漸符號化相反，因此錯誤。",
+        "行書介於楷、草之間的流動與可辨識性，則符合D的描述。"
+      ],
+      "pitfall": "不要把早期象形來源與後來成熟字體的整體性質混為一談。"
+    },
+    {
+      "id": "chinese-r2-general-25",
+      "section": "general",
+      "label": "五、第25題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "青銅器銘文的書體",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目明示文字鑄刻於西周青銅器上。",
+        "這一類青銅器銘文稱為金文，因此選B；金在這裡指金屬，並非黃金製品。"
+      ],
+      "pitfall": "不要因為文字古老，就一律判作甲骨文；要先看載體。"
+    },
+    {
+      "id": "chinese-r2-general-26",
+      "section": "general",
+      "label": "五、第26題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "物象與時間的聯想",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圓形跑道可對應鐘面，三名追逐者可對應時、分、秒針。",
+        "指針不斷運行又交會，帶出時間消逝與青春流失，因此主題為時鐘，選A。"
+      ],
+      "pitfall": "猜詠物詩要讓多個線索同時吻合，不能只抓住圓形便選唱片。"
+    },
+    {
+      "id": "chinese-r2-general-27",
+      "section": "general",
+      "label": "五、第27題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "熟悉形象引發保育共鳴",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "龍貓是讀者熟悉、容易產生好感的文化形象。",
+        "把石虎與它聯繫，是讓讀者願意親近、珍惜在地生態，C最切合保育主旨。",
+        "這不表示兩者體型相同，也不是宣稱真實動物有超能力。"
+      ],
+      "pitfall": "比喻要抓情感與象徵上的相似，不要逐項等同外形或能力。"
+    },
+    {
+      "id": "chinese-r2-general-28",
+      "section": "general",
+      "label": "五、第28題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "贈物背後的諷刺",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "館人已對齊人用餐時辱罵僕人的行為感到厭煩，這是贈狗的動機線索。",
+        "狗一面吃一面吠，恰好映照主人一面吃一面罵；僕人發笑後主人醒悟，證明兩者形成諷刺性的對照。",
+        "因此D最精確，並非單純送獵犬護身。"
+      ],
+      "pitfall": "不要只相信館人口頭說的逐禽用途，應連同後文的效果推知用意。"
+    },
+    {
+      "id": "chinese-r2-general-29",
+      "section": "general",
+      "label": "五、第29題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "待客詩的言外之意",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "未曾因客掃徑、今日為君開門，重點是友人到訪值得特別迎接。",
+        "B把這些句子解成維持居家不易、因貧困而沒人來，額外加入原句不能支持的因果。",
+        "詩中家常酒食與邀鄰共飲，反而共同呈現真誠、隨興的待客情趣，因此選B。"
+      ],
+      "pitfall": "簡樸生活不等於邋遢或不受人歡迎，不能自行補上負面因果。",
+      "note": "第4頁詩文首句印成「舍南舍南」，有重複字樣；不影響本題對頷聯待客語意的判斷。"
+    },
+    {
+      "id": "chinese-r2-general-30",
+      "section": "general",
+      "label": "五、第30題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "保育與地方生活共存",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題目要求保育與地方發展並進，應考慮棲地、農作和居民生活的連結。",
+        "A把野生動物保育說成劃出一塊私有領地，過度簡化活動範圍與人類土地使用的關係。",
+        "B、C、D分別從友善生產、文化傳達與生態認識出發，較符合共同參與保育的方向，故選A。"
+      ],
+      "pitfall": "石虎不會依人為畫出的私有產權界線活動，棲地也不能只看單一小區塊。"
+    },
+    {
+      "id": "chinese-r2-general-31",
+      "section": "general",
+      "label": "五、第31題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "書法圖像的排列",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "左圖筆畫連帶、運筆流動，為行書；中圖字形較扁、橫勢舒展，為隸書。",
+        "右圖筆畫較獨立、結體端整，為楷書，所以由左至右是行書、隸書、楷書，選A。"
+      ],
+      "pitfall": "依圖片的左右順序作答，不要套用傳統直排文字的右起閱讀順序。",
+      "note": "已目視PDF第4頁三幅書法作品，順序為畫面由左至右。"
+    },
+    {
+      "id": "chinese-r2-general-32",
+      "section": "general",
+      "label": "五、第32題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "兼顧環境與觀光的選擇",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題目同時要求減少污染並保留觀光效益，D以自發減量降低源頭廢棄物，又未全面禁止活動。",
+        "A的全面禁止較難兼顧原有活動；B只處理事後清掃；C只管高度也不能保證殘骸集中回收。",
+        "在四個選項中，D最貼近兩項目標。"
+      ],
+      "pitfall": "「增加清掃」能處理部分後果，卻不等於降低垃圾產生量。"
+    },
+    {
+      "id": "chinese-r2-reading-33",
+      "section": "reading",
+      "label": "六、第33題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "兩類鯨魚的攝食差別",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先分開文中的兩條路徑：齒鯨把較大的塑膠物誤當獵物，鬚鯨在濾食時一併攝入微粒。",
+        "D保留了誤認獵物與進食夾帶這個差別，其他選項將兩類特徵對調或加入排出體外等未提供資訊。"
+      ],
+      "pitfall": "這是依題文比較攝食方式，不能把所有塑膠攝入都說成同一種誤認行為。"
+    },
+    {
+      "id": "chinese-r2-reading-34",
+      "section": "reading",
+      "label": "六、第34題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "濃湯比喻的意義",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文中先說塑膠碎成細粒，分布於海水並進入生物攝食過程。",
+        "濃湯的比喻強調汙染細碎、混雜於整體環境而難以避開，B最能概括。",
+        "C把推論擴大到大多數生物體內皆有，超過本段已提供的證據。"
+      ],
+      "pitfall": "不要把描寫污染普遍的比喻，當成精確調查每種生物的統計結論。"
+    },
+    {
+      "id": "chinese-r2-reading-35",
+      "section": "reading",
+      "label": "六、第35題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "個人行動與政策並行",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "本文除了能源選擇，也列出減少食物浪費、延長衣物使用等個人可做的改變。",
+        "它肯定政府、企業政策，也肯定個人行動累積的作用，D完整保留兩個層次。"
+      ],
+      "pitfall": "不要把肯定政策的作用讀成否定個人的力量。"
+    },
+    {
+      "id": "chinese-r2-reading-36",
+      "section": "reading",
+      "label": "六、第36題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "節水與節電的整體比較",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "第5頁圖卡同時列節約用電與節約用水，不能只滿足其中一項。",
+        "C雖少開冷氣，卻以反覆洗澡增加用水，與圖中縮短洗澡時間的方向相反，故最不符合。",
+        "A的單車出行、B的減少包裝、D的再生利用，均能與圖示概念對應。"
+      ],
+      "pitfall": "不要看到選項開頭說節電，就忽略後半段可能增加其他資源耗用。",
+      "note": "已目視PDF第5頁九格圖卡；第4格的節約用水提到縮短洗澡時間，題目本身跨在第6頁。"
+    },
+    {
+      "id": "chinese-r2-reading-37",
+      "section": "reading",
+      "label": "六、第37題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "先充實自我的中心意思",
+      "answer": "D可概括全文；C亦有文意支持，單選性有疑義",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "文章主張在等待感情的過程中建立自信、能力與健全關係，使自己成為更成熟的人。",
+        "D以先讓自己成長、再迎接美好關係來概括全文，符合作者的勸勉方向，這可解釋官方選D。",
+        "但文章也建議學習新知、培養興趣、拓展視野及經營友誼，並在家人與朋友相處中學習承擔關係；C所說透過活動培養能力亦有這些文字支持，不能僅因D較全面就斷言C不正確。"
+      ],
+      "pitfall": "題目問的是何者正確，不能擅自改成何者最能概括全文；文章的鼓勵也不是對未來感情的客觀保證。",
+      "note": "官方答案為D。第6頁正文同時肯定充實自我及在生活、人際互動中學習責任、溝通與包容，C有可成立的概括；本題未限定選出最完整的主旨，因此保留D並標示C、D之間的單選排他性疑義。"
+    },
+    {
+      "id": "chinese-r2-reading-38",
+      "section": "reading",
+      "label": "六、第38題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "同理而溫和的勸說",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章先承認渴望愛與被愛的自然心情，再用校園、人際與日常相處的例子說明成熟的重要。",
+        "這種語氣是理解讀者後加以引導，配合生活情境促使自我反思，故選C。",
+        "文中沒有大量心理學數據，也不是嘲笑或強制禁止戀愛。"
+      ],
+      "pitfall": "主張暫緩投入不等於嚴厲責備，要從用語與例子判斷整體語氣。"
+    }
+  ]
+}

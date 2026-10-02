@@ -1,5 +1,9 @@
 # 知識小站 V2.1
 
+## V2.1.2 七年級歷屆詳解補齊
+
+新增七年級114下學期第二、三次段考十份題本、533個編號小題；累計十五份、798題解析。國文、英語、數學、社會、生物三次段考均有原創說明，原卷疑義與缺少音檔等限制分開標示。題本核對說明改為和詳解一起按需下載，保留原有763份教材、4,578題固定題與作答紀錄。其餘八、九年級25份歷屆詳解、74份閱讀導引的全文核對仍待補。範圍見 `EXAM-SOLUTIONS-V212.md`，逐科查核在 `content-review/v212/`，驗證結果見 `validation-v212.json`。
+
 ## V2.1.1 歷屆原卷詳解
 
 新增七年級114下學期第一次段考五科，共265個題號／小題的原創詳解；237題核對一致、7題原卷疑義、21題保留核對限制。保留官方答案及PDF頁碼，按需下載每一份詳解，原有763份教材與4,578題固定題不變。40份歷年題本尚有35份待補逐題詳解，74份閱讀導引的課文全文亦仍待核對。完整範圍見 `EXAM-SOLUTIONS-V211.md`。正式發布已驗證：本機與CI教材／功能174項、Planner 74項通過；新增原生詳解驗收29項通過，既有網頁交付47項及學習路徑20項亦通過。公開首頁與已測建置逐位元一致，實際壓縮下載328,884 bytes。紀錄見 `validation-v211.json`。
@@ -68,7 +72,7 @@
 ```bash
 npm test
 node --test assets/study-notes/v120/tests/*.test.cjs assets/study-notes/v120/tests/resumption-acceptance.cjs
-node assets/study-notes/v120/build-all-subjects.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
+node assets/study-notes/v120/build-exam-solutions.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
 node assets/study-notes/v120/build-web.cjs .pages/assets/study-notes/index.html .pages/assets/study-notes/index.html
 ```
 

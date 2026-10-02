@@ -1,0 +1,1221 @@
+{
+  "schema": 1,
+  "sourceId": "1wdkVy2j6gHLRXdylFr4_F2mP0l9A8-4R",
+  "sourceSha256": "1468052fc6fc2953b8e675258894e4544d2b8df35ad976e5188a82af2d4777d6",
+  "title": "114-2七年級英文科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "已逐題整理第 1～63 題，並目視核對全部 8 個 PDF 實體頁面，包括聽力圖像、漫畫、日記、雨林文章及答案頁。第 1～20 題僅依紙本聽力稿與答案核對，未取得原始音檔，皆標示核對受限；其中第 16 題的紙本稿為上個月，B 選項卻為上週，另說明官方答案只在原因上吻合。其餘 43 題已核對題意、時態、閱讀線索及答案。第 8 頁配分說明混入重複題段，題號依正文與答案表仍為 1～63 題，不增列題目。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "listening-words",
+      "title": "一、聽力：辨認單字"
+    },
+    {
+      "id": "listening-pictures",
+      "title": "二、聽力：圖像對應"
+    },
+    {
+      "id": "listening-responses",
+      "title": "三、聽力：應答判斷"
+    },
+    {
+      "id": "listening-dialogues",
+      "title": "四、聽力：內容理解"
+    },
+    {
+      "id": "vocabulary-grammar",
+      "title": "五、字彙、句型與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "六、篇章填空與漫畫"
+    },
+    {
+      "id": "reading",
+      "title": "七、閱讀與圖像"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-r3-01",
+      "section": "listening-words",
+      "label": "第 1 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "農場植物的字彙",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿描述小飛機正在替農場植物澆水。",
+        "被澆水的對象是 plants，對應 A；稿中的 airplane 不是選項 C 的 planes。"
+      ],
+      "pitfall": "不要只因語境有飛機就選 planes；本題要辨認選項中實際出現的字。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-02",
+      "section": "listening-words",
+      "label": "第 2 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "躲藏的過去式",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿描述猴子早上躲到山丘後方的動作。",
+        "hide 的過去式是 hid，對應 B；behind 雖出現在位置描述中，卻不同於選項 beside。"
+      ],
+      "pitfall": "behind 表示後方，beside 表示旁邊，不能視為同一個字。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-03",
+      "section": "listening-words",
+      "label": "第 3 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "景點的複數名詞",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說某地的景點著名，吸引許多人參觀。",
+        "表示景點的 sights 符合語意與稿中文字，故選 A。"
+      ],
+      "pitfall": "sights 指可遊覽的景物，不能與表示視力的其他用法混為一談。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-04",
+      "section": "listening-words",
+      "label": "第 4 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "平台的字彙",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿談某個平台上的色彩配置。",
+        "表示平台的字是 platform，對應 C；playground 則指遊樂場或操場。"
+      ],
+      "pitfall": "platform 與 playground 開頭相似，必須辨認完整單字。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-05",
+      "section": "listening-words",
+      "label": "第 5 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "旅行的名詞",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿回顧一次前往印度的旅行，並評價那段經驗。",
+        "旅行用 trip，對應 B；treat 與 want 不是這個旅行名詞。"
+      ],
+      "pitfall": "go on a trip 的核心名詞是 trip，不要只依 t 開頭選字。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-06",
+      "section": "listening-pictures",
+      "label": "第 6 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "場所過去與現在的變化",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說這個地方以前是市場，現在是百貨公司。",
+        "A 左圖是市場、右圖是商場，方向符合時間先後；B 的前身是公園，C 的新用途是書店。"
+      ],
+      "pitfall": "箭頭方向表示變化順序，舊場所與新場所都要核對。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-07",
+      "section": "listening-pictures",
+      "label": "第 7 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "一起閱讀的活動",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿雖提到旅行主題，但邀請對方一起讀新書。",
+        "B 圖呈現兩人共同看書；A 是看螢幕，C 是實際健行，故選 B。"
+      ],
+      "pitfall": "書的內容是旅行，不代表人物此刻正在旅行。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-08",
+      "section": "listening-pictures",
+      "label": "第 8 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "疲倦發生的場所",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Kenny 昨夜睡不好，現在在課堂上疲倦。",
+        "A 的場景有課桌、黑板與同學，符合課堂；B 是床上睡覺，C 是辦公桌前。"
+      ],
+      "pitfall": "昨晚睡不好是原因，題目主要描述的是在教室裡的結果。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-09",
+      "section": "listening-pictures",
+      "label": "第 9 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "兩週運動次數比對",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿要求上週打棒球四天，本週只在週末打。",
+        "C 上列共有四個勾，下列只在週六與週日打勾，符合兩個條件。",
+        "A 兩週的次數順序相反；B 下列含週一，並非只有週末。"
+      ],
+      "pitfall": "不能只看到兩個週末勾就作答，還要確認前一週共有四天。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-10",
+      "section": "listening-pictures",
+      "label": "第 10 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "月曆上的起始日與持續日數",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿指定本月第一個星期三開始，活動持續三天。",
+        "月曆顯示一日正好是星期三，所以應標記一、二、三日，對應 C。"
+      ],
+      "pitfall": "持續三天通常包含開始當天；A 位於月底，B 又只標一天。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-11",
+      "section": "listening-responses",
+      "label": "第 11 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "回應疲倦經驗",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿提到昨天非常疲倦，因此睡了很久。",
+        "C 追問發生了什麼事，能接續了解原因；A 是見面招呼，B 則缺少可附和的共同背景。"
+      ],
+      "pitfall": "應依對方陳述選擇關心與追問，不要把任何常見寒暄都當成適當回答。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-12",
+      "section": "listening-responses",
+      "label": "第 12 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "談論職業轉變的回應",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Tina 現在做菜好吃，並補充她以前教音樂。",
+        "C 提議到她的餐廳試吃，回應現在的料理能力最自然；A 重問已交代的任教科目。"
+      ],
+      "pitfall": "before 的職業是背景，對話目前的焦點是她會做美味料理。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-13",
+      "section": "listening-responses",
+      "label": "第 13 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "詢問參觀後的感想",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿已明確說昨天參觀過新博物館。",
+        "A 詢問覺得如何，能接續已完成的參觀；B 重問是否去過，C 的 they 又沒有清楚指涉。"
+      ],
+      "pitfall": "對方已交代去過，後續適合追問評價，而不是忽略已提供的資訊。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-14",
+      "section": "listening-responses",
+      "label": "第 14 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "比較湖泊今昔的狀態",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿先說湖以前乾淨，再問現在是否仍然良好。",
+        "A 以否定看法加上許多魚死亡的現況回應，因此最切合問題。"
+      ],
+      "pitfall": "過去很適合度假的描述，無法直接回答現在是否仍乾淨。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-15",
+      "section": "listening-responses",
+      "label": "第 15 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "過去時間的地點回答",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿問昨天傍晚人在何處，需要能指出過去地點的回答。",
+        "C 用過去式描述在海邊看夕陽，間接但清楚交代地點，故選 C。"
+      ],
+      "pitfall": "A 雖含地點，卻用現在式；時間是否對應也要一起核對。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-16",
+      "section": "listening-dialogues",
+      "label": "第 16 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "活動取消原因與時間文字",
+      "answer": "B（原因吻合；選項的時間與紙本稿不一致）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿以天氣很冷解釋沒有從事划船等水上活動，這個原因對應 B。",
+        "A 所說住旅館與疲倦不是稿中的原因；C 的買食物也不是取消划船的理由。",
+        "但稿中旅行時間是 last month，B 卻寫 last week；嚴格按整個選項判斷，B 的時間資訊不能由稿中證成。"
+      ],
+      "pitfall": "不能把官方選項中的上週默默改成上個月；應同時保留原因可判斷與時間不一致這兩點。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔。官方答案保留 B；第 8 頁稿寫 last month，第 2 頁 B 選項卻寫 last week，兩處時間不一致。B 僅在「天氣冷所以未划船」這個原因上成立，無法確認實際音檔採用哪個時間；依聽力資料缺漏標示核對受限，並在此明列來源爭議。"
+    },
+    {
+      "id": "english-r3-17",
+      "section": "listening-dialogues",
+      "label": "第 17 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "由交通線索推知位置",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿提到下一站是臺南、前往臺北還需久坐，途中有人販售飲料食物。",
+        "車站、沿途停靠及座位上的販售情境共同指向火車，故選 C。"
+      ],
+      "pitfall": "有人賣食物不等於身在餐廳，應把移動路線與下一站的資訊一起看。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-18",
+      "section": "listening-dialogues",
+      "label": "第 18 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "建築用途的改變",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿介紹現在的博物館，並說這棟建築過去是重要寺廟。",
+        "B 正確保留先寺廟、後博物館的用途變化；五年前的時間不能直接套成寺廟建成時間。"
+      ],
+      "pitfall": "導覽將展示的是寺廟舊照片，不是選項 C 所改寫的博物館照片。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-19",
+      "section": "listening-dialogues",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "購物管道與評論用途",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿中男子否認在附近百貨公司購帽，說是透過購物直播買的。",
+        "直播購物屬網路購物，因此 A 正確；他還說評論能提供資訊，所以 C 不符。"
+      ],
+      "pitfall": "先辨認否定句，別把對方最初猜測的百貨公司當成實際購買管道。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-20",
+      "section": "listening-dialogues",
+      "label": "第 20 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "相對日期的推算",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "女子說三天前健行、當晚露營，接著隔天探訪祖父母。",
+        "三天前的下一天是兩天前，也就是前天，對應 B。"
+      ],
+      "pitfall": "the next day 是接續前述活動日，不是以今天為基準的明天。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r3-21",
+      "section": "vocabulary-grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "湖面活動的圖像",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖片中湖面上有兩人乘坐小船，並以船槳前進。",
+        "rowing a boat 表示划船，符合限定在湖上的活動，選 B。"
+      ],
+      "pitfall": "岸上也有其他人物與建築，但空格限定活動發生在湖面。"
+    },
+    {
+      "id": "english-r3-22",
+      "section": "vocabulary-grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "烹煮過久的結果",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題目警告魚不要煮太久，後句應說過度加熱可能造成的損壞。",
+        "burn 表示燒焦，符合這個結果，選 A。"
+      ],
+      "pitfall": "toast 偏向烤吐司等烘烤動作，此處警告的是煮過頭而燒焦。"
+    },
+    {
+      "id": "english-r3-23",
+      "section": "vocabulary-grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "交通路線的轉乘",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前文已先搭紅線，後文要在下一站改搭藍線。",
+        "change to 可表達轉換至另一條路線，因此選 D。"
+      ],
+      "pitfall": "travel 表示旅行或移動，不能單靠它表達在此站轉乘的動作。"
+    },
+    {
+      "id": "english-r3-24",
+      "section": "vocabulary-grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "電腦無法運作的形容",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "學生無法用電腦展示報告，表示設備無法運作。",
+        "dead 可形容機器壞掉或不運作，且能接在 is 後，因此選 A。"
+      ],
+      "pitfall": "die 是動詞，不能直接放進 is 後當作描述狀態的形容詞。"
+    },
+    {
+      "id": "english-r3-25",
+      "section": "vocabulary-grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "棲地改變造成的失去",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "雨林變成農場後，原本住在其中的動物不再擁有原有棲地。",
+        "lose 的過去式 lost 表示失去，與前後的過去事件一致，選 B。"
+      ],
+      "pitfall": "lasted 表示持續，拼字雖相近，意思卻不能表示失去家園。"
+    },
+    {
+      "id": "english-r3-26",
+      "section": "vocabulary-grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "出售房屋與需要金錢",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "回答以需要錢解釋先前的行動，最符合把房屋出售換取金錢。",
+        "sell 表示出售；問句已有 Did，後面的動詞使用原形 sell，選 A。"
+      ],
+      "pitfall": "Did 後不要再把動詞變成過去式 sold。"
+    },
+    {
+      "id": "english-r3-27",
+      "section": "vocabulary-grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "山區活動的搭配",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "週末在山中沿路認識樹木花草，最適合的活動是健行。",
+        "go hiking 是常見的活動搭配，故選 D。"
+      ],
+      "pitfall": "go 後的 -ing 形式並非任意動作都合適，仍須符合山區沿路遊覽的情境。"
+    },
+    {
+      "id": "english-r3-28",
+      "section": "vocabulary-grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "餐廳客多時的狀態",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "句子把用餐時段與許多客人喜愛餐點連結起來，暗示店內忙碌。",
+        "busy 可形容餐廳在尖峰用餐時間很忙，故選 A。"
+      ],
+      "pitfall": "excellent 是品質評價，不能像 busy 一樣直接對應客人集中到店的時段線索。"
+    },
+    {
+      "id": "english-r3-29",
+      "section": "vocabulary-grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "對不合理安排的評語",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "炎熱天氣推銷冬季外套，引出說話者認為安排不合理的評論。",
+        "make sense 表示有道理，否定後正好表示說不通，選 C。"
+      ],
+      "pitfall": "doesn’t 後保持動詞原形 make，不要因主詞單數寫成 makes。"
+    },
+    {
+      "id": "english-r3-30",
+      "section": "vocabulary-grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "短程旅行的搭配",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "每年夏天到墾丁游泳、玩樂，描述的是一次短程旅行。",
+        "go on a trip 是去旅行的搭配，選 B。"
+      ],
+      "pitfall": "plane 是交通工具，不能放入 a short … 表示這趟出遊本身。"
+    },
+    {
+      "id": "english-r3-31",
+      "section": "vocabulary-grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "way 的方法與距離義",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "A、B、C 的 way 都在說賺錢、學語言或洗手的方法。",
+        "D 描述兩地相隔很遠，way 指路程或距離，詞義不同。"
+      ],
+      "pitfall": "先把每句中的 way 換成中文概念，再比較，不要只看它前面的形容詞。"
+    },
+    {
+      "id": "english-r3-32",
+      "section": "vocabulary-grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "表示以前的時間副詞",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "句子先回顧兩人原本是好友，後來相戀，再與現在有孩子的狀況相對照。",
+        "before 可以單獨表示以前；ago 前需有一段時間，before three years 也不是表示三年前的標準順序，所以選 C。"
+      ],
+      "pitfall": "three years later 需要明確的先前時間作基準；此處最自然的回顧副詞是 before。"
+    },
+    {
+      "id": "english-r3-33",
+      "section": "vocabulary-grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "過去所在與 be 動詞",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "時間線索是前天，問的是誰曾與你一起在百貨公司，句中沒有其他一般動詞。",
+        "這裡用 be 動詞表示人在某處；未知人物通常按單數提問，用 was，選 A。"
+      ],
+      "pitfall": "with you 不是把主詞變成複數，不能因此直接選 were。"
+    },
+    {
+      "id": "english-r3-34",
+      "section": "vocabulary-grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "持續時間的介系詞",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "a long time 表示一段持續的時間長度。",
+        "for 可接這類時間長度，表示無法在河邊休息很久，故選 B。"
+      ],
+      "pitfall": "during 通常接特定事件或時期，不用來取代 for a long time 的搭配。"
+    },
+    {
+      "id": "english-r3-35",
+      "section": "vocabulary-grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "過去存在的複數事物",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "句子對比以前山丘上有很多人和現在只見垃圾，須用過去式存在句。",
+        "people 是複數，與 There were 配合，選 A。"
+      ],
+      "pitfall": "There be 表示某地有某物；It was 不能直接接很多人來表達同樣的存在關係。"
+    },
+    {
+      "id": "english-r3-36",
+      "section": "vocabulary-grammar",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "以助動詞代替過去動作",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "第一句 Owen 的動作是 put；若是一般現在式第三人稱單數應為 puts，因此此處為過去式。",
+        "Mindy 不愛甜飲，轉折表示她沒有做同樣的事，用 didn’t 代替沒有加糖，選 D。"
+      ],
+      "pitfall": "後句 doesn’t 描述現在的一般喜好，不會把前句已發生的加糖行為改成現在式。"
+    },
+    {
+      "id": "english-r3-37",
+      "section": "vocabulary-grammar",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "一般事實與旅行經驗",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "飲品在印度知名是一般介紹，用現在式 is 最自然。",
+        "旅行中喝過兩杯則是已完成的過去經驗，用 drink 的過去式 drank，故選 B。"
+      ],
+      "pitfall": "同一題可以同時有現在式與過去式，兩格要按各自敘述的事實或事件判斷。"
+    },
+    {
+      "id": "english-r3-38",
+      "section": "vocabulary-grammar",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "去年擁有的空閒時間",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "雖然 Peggy 一直喜歡電影，句子在轉折後明確限定去年很忙。",
+        "後句延續去年的情況，表示那時每月只有一次看電影的時間，所以 have 要用 had，選 D。"
+      ],
+      "pitfall": "once a month 表示頻率，不代表整句一定用現在式；去年仍是時態基準。"
+    },
+    {
+      "id": "english-r3-39",
+      "section": "vocabulary-grammar",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "有限選擇與過去購物",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "對話從店內多款杯子中詢問挑哪一個，which one 最能表達有限範圍的選擇。",
+        "媽媽已拆禮盒並擁抱對方，購買也已完成，因此用 did 提問，選 D。"
+      ],
+      "pitfall": "店鋪現在賣很多杯子，不等於送禮購物也發生在現在；須分開判斷兩句時態。"
+    },
+    {
+      "id": "english-r3-40",
+      "section": "vocabulary-grammar",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "過去一般動詞問句與不可數主詞",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "昨天是否玩得開心，核心動詞是 have，問句要用 Did 搭配原形 have。",
+        "food 在這裡是不可數名詞，描述昨天餐點很棒用單數 was，故選 C。"
+      ],
+      "pitfall": "have a good time 是一般動詞片語，不能直接在主詞前加 Were 來提問。"
+    },
+    {
+      "id": "english-r3-41",
+      "section": "vocabulary-grammar",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "由今昔對比判斷時態",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "後文說現在離家讀書並懷念從前，表示前面逛市集是過去常做的事。",
+        "visit 應使用過去式 visited，故選 B。"
+      ],
+      "pitfall": "very often 只交代頻率，並不排除過去式；要看整段的今昔對比。"
+    },
+    {
+      "id": "english-r3-42",
+      "section": "vocabulary-grammar",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "並列兩項改善行動",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "撿垃圾與種樹都是可以幫助島嶼的行動，兩者是並列而非相反。",
+        "and 能連接這兩個完整子句，選 D。"
+      ],
+      "pitfall": "then 雖能表先後，這裡沒有要求兩項行動的時間順序，也不宜僅以逗號連接完整子句。"
+    },
+    {
+      "id": "english-r3-43",
+      "section": "vocabulary-grammar",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "同類中的一艘與同一艘",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "第一格從爺爺的多艘船中挑出一艘，且前面有 a，應使用單數 one。",
+        "後半再次指剛清理的那同一艘船，受詞使用 it，因此選 D。"
+      ],
+      "pitfall": "one 代替同類名詞，it 回指已確定的同一物件；a 後也不能直接放 ones。"
+    },
+    {
+      "id": "english-r3-44",
+      "section": "vocabulary-grammar",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "過去供給與介系詞搭配",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "中文描述以前的情況，因此動詞用 provided，而不是現在式 provides。",
+        "提供某物給某人可用 provide something for someone；before 可單獨表示以前，兩項合看選 B。"
+      ],
+      "pitfall": "ago 前要有具體時間長度，不能單獨放在句尾表示以前。"
+    },
+    {
+      "id": "english-r3-45",
+      "section": "vocabulary-grammar",
+      "label": "第 45 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "並列過去動作與故事背景",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "拍照與了解故事都是同一次已完成的經驗，使用 took 與 learned 兩個過去式。",
+        "故事背後的背景或由來用 behind 表達，因此選 C。"
+      ],
+      "pitfall": "after 表示時間或位置在後，不能在此代替 behind 所指的背景意義。"
+    },
+    {
+      "id": "english-r3-46",
+      "section": "cloze",
+      "label": "第 46 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "努力改善的片語",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Zac 說自己直播時仍緊張，需要改善與觀眾互動的能力。",
+        "work on 表示著手處理或努力改善，能以 that 回指這項能力，選 B。"
+      ],
+      "pitfall": "work for 多表示替某人或組織工作，不是努力改善眼前的問題。"
+    },
+    {
+      "id": "english-r3-47",
+      "section": "cloze",
+      "label": "第 47 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "安撫與具體建議",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Zac 承認緊張，Yuki 後續又說累積經驗後會自在，所以空格應先安撫並給方法。",
+        "D 建議把鏡頭當成朋友說話，能連到下一句的鼓勵，故選 D。"
+      ],
+      "pitfall": "不要只看語氣正面；無依據地說大家已喜歡他的節目，不能回應他正在求助的問題。"
+    },
+    {
+      "id": "english-r3-48",
+      "section": "cloze",
+      "label": "第 48 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "追加另一項建議",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前段已提供如何與觀眾互動的建議，接著再提出優惠方案這個新重點。",
+        "Besides 表示此外，能引出追加的建議，故選 A。"
+      ],
+      "pitfall": "But 應引出轉折；這裡兩項建議互相補充，並沒有對立。"
+    },
+    {
+      "id": "english-r3-49",
+      "section": "cloze",
+      "label": "第 49 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "漫畫中的炎熱感受",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "漫畫第一格有人抱怨周圍很熱，畫面也有火焰與受熱反應。",
+        "C 以現在進行式表達熱得像要燃燒的感受，能直接延續當下情境。"
+      ],
+      "pitfall": "先看漫畫人物所在環境；題目沒有先前疲倦或喝湯的線索。"
+    },
+    {
+      "id": "english-r3-50",
+      "section": "cloze",
+      "label": "第 50 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "漫畫事件的過去式",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前一格畫出師父已被帶走，接著人物向悟空報告這件剛發生的事。",
+        "take 的過去式 took 表示帶走，語意與時間都符合，選 A。"
+      ],
+      "pitfall": "被抓走不等於已被吃掉；後面仍見師父被帶到另一人面前，不能選 ate。"
+    },
+    {
+      "id": "english-r3-51",
+      "section": "cloze",
+      "label": "第 51 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "從後續驚慌反推問句",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "最後一格中孩子把師父帶到父親面前，而父親接著顯得驚慌並說惹麻煩了。",
+        "B 詢問為何做這件事，最能銜接對闖禍行為的反應。"
+      ],
+      "pitfall": "D 的稱讚與下一句擔心出事相矛盾，不能只因父子見面就推測在嘉獎。"
+    },
+    {
+      "id": "english-r3-52",
+      "section": "cloze",
+      "label": "第 52 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "轉折與故事中的人物性格",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "故事開頭描寫國王收走人民的米，人民挨餓；but 後應補出國王仍不伸援手。",
+        "A 符合自私的形象，也與後文國王仍有大量米一致。"
+      ],
+      "pitfall": "D 說國王沒有米，與後面大象運送他的米直接衝突。"
+    },
+    {
+      "id": "english-r3-53",
+      "section": "cloze",
+      "label": "第 53 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "思考的過去式",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "女孩在提出要求前先想了一會兒，空格需要表示思考的動詞。",
+        "故事用過去式敘事，think 的過去式是 thought，選 D。"
+      ],
+      "pitfall": "thank 是感謝，through 是介系詞或副詞，不能只看拼字相近就代入。"
+    },
+    {
+      "id": "english-r3-54",
+      "section": "cloze",
+      "label": "第 54 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "按日取得米粒的敘事",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "故事說米每天加倍交給女孩，第十六天她取得當日的數量。",
+        "get 的過去式是 got，符合過去敘事與取得的語意，故選 C。"
+      ],
+      "pitfall": "lost 表示失去，與米越來越多的情節相反；get 原形也不合此處過去時態。"
+    },
+    {
+      "id": "english-r3-55",
+      "section": "cloze",
+      "label": "第 55 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "人物改變與故事結尾",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "結尾說國王後悔並學習成為好國王，空格應呈現行為向善的改變。",
+        "幫助人民能呼應人民先前受餓的問題，所以選 D。"
+      ],
+      "pitfall": "再次拿走全部的米會重複開頭的錯誤，與學習做好國王的結局不符。"
+    },
+    {
+      "id": "english-r3-56",
+      "section": "reading",
+      "label": "第 56 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "日記中的行動與親身經驗",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "日記記錄在老街吃魚丸、鐵蛋，隔天又吃阿給，並表達對旅程的喜愛，支持 D。",
+        "看夕陽發生在星期六；紅毛城在星期六上午先參觀；橋上夜景則是聽別人介紹，並非作者親眼看到。"
+      ],
+      "pitfall": "把「別人說」和「我看見」分清楚，也要逐項核對星期與上午下午。"
+    },
+    {
+      "id": "english-r3-57",
+      "section": "reading",
+      "label": "第 57 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "兩天行程的時間排序",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "星期六上午先到紅毛城，下午逛淡水老街，日落前再去漁人碼頭。",
+        "星期日早上才看淡江大橋，因此四站依序對應 D。"
+      ],
+      "pitfall": "不能依地名在印象中的遠近排序，必須按日記的時間標記。"
+    },
+    {
+      "id": "english-r3-58",
+      "section": "reading",
+      "label": "第 58 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "兩篇故事的共同主旨",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "第一篇是王后想念故鄉綠意，國王建花園；第二篇是楊貴妃懷念暖和環境與故鄉水果，國王設法滿足。",
+        "兩者共同點是思鄉或懷念原有生活，而國王用不同方式討她們歡心，故選 D。"
+      ],
+      "pitfall": "建設發生在她們的新生活環境，不能把共同點改成國王回故鄉蓋建築。"
+    },
+    {
+      "id": "english-r3-59",
+      "section": "reading",
+      "label": "第 59 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "由上下文推測片語",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "為了讓水果保持新鮮，國王修路並動用快馬，顯示投入大量資源與心力。",
+        "went all out 因此表示全力以赴，與 C 的意思相同。"
+      ],
+      "pitfall": "不能把 go out 逐字理解成外出；整個片語要結合前面的行動判讀。"
+    },
+    {
+      "id": "english-r3-60",
+      "section": "reading",
+      "label": "第 60 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "對照兩位人物與細節",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "第一位王后明確想念故鄉，楊貴妃也懷念原有氣候與故鄉的荔枝，兩人都有思念故鄉的線索。",
+        "B 抓出這個共同點；C 把運送水果的人物張冠李戴，D 則把綠意花園的特色搬到另一個故事。"
+      ],
+      "pitfall": "比較兩篇文章時，應把人物、建設與目的成組記錄，避免互換。"
+    },
+    {
+      "id": "english-r3-61",
+      "section": "reading",
+      "label": "第 61 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "年份推算與森林火災圖像",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "作者首次到訪為二〇〇六年，十年後再次前往，因此第二次到訪是二〇一六年。",
+        "那年森林遭大火波及，C 呈現正在燃燒的森林，最符合當年的描述。",
+        "D 主要是農田燃燒，對應火源背景；B 是茂密綠林，較接近後來恢復的狀態。"
+      ],
+      "pitfall": "先算出題目年份屬哪次到訪，再分辨火源農地與被波及的森林。"
+    },
+    {
+      "id": "english-r3-62",
+      "section": "reading",
+      "label": "第 62 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "選擇能統整成果的結尾",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "最後一段說雨林重新變綠、幼猩猩長得強壯，樹上也有其他動物，重點是重建成果。",
+        "D 概括大家已為這些生命建成美麗家園，能收束整段並呼應開頭的目標。"
+      ],
+      "pitfall": "A 與前文農民燒樹矛盾；B 額外加入文中未交代的水果；C 則偏離成果總結。"
+    },
+    {
+      "id": "english-r3-63",
+      "section": "reading",
+      "label": "第 63 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "依敘事身分作合理推論",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "作者分不同年份到訪、短期投入棲地修復及照顧幼猩猩，顯示是關心動物的訪客或志工。",
+        "四位人選中，B 的旅行並幫助生病動物最符合；C 每天固定在森林學校工作，與分次回訪的經歷不合。",
+        "這是選擇最可能的人選，並非文章已證明作者走遍世界或確認真實姓名。"
+      ],
+      "pitfall": "森林學校服務的是幼猩猩，不是替當地人建校；不要只看到 school 就選教育人類的身分。"
+    }
+  ]
+}

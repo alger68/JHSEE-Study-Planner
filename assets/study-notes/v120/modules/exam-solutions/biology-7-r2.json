@@ -1,0 +1,939 @@
+{
+  "schema": 1,
+  "sourceId": "1mhODyYiigJbMFUlGcIXpqStXy8k22YAp",
+  "sourceSha256": "f4905b3c47c7c51bdb498e763d2126ae9618024fa463800eb34a6b422228c84d",
+  "title": "114-2-2七年級生物科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "已逐題完成第 1～50 題原創解析，核對全部 5 個 PDF 實體頁、圖表及解答。47 題推理與答案已核對；第 12、13、50 題保留官方答案並標示來源敘述或單選規則的爭議。此為 114 學年度第二學期第二次段考歷史試卷，不表示全部生物教材或所有歷屆試卷皆已完成。",
+  "sections": [
+    {
+      "id": "single-choice",
+      "title": "一、單一選擇題（1～27）"
+    },
+    {
+      "id": "grouped-choice",
+      "title": "二、綜合題組（28～40）"
+    },
+    {
+      "id": "reading-choice",
+      "title": "三、閱讀題（41～50）"
+    }
+  ],
+  "items": [
+    {
+      "id": "biology-r2-1",
+      "section": "single-choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "誘發突變與傳統選育",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "傳統選育主要從既有變異中選出需要的性狀，再經交配與多代篩選保留。",
+        "D 使用紫外線誘發遺傳物質改變，再選出所需植株，屬題目所指的現代育種方法；照射本身並不保證一定得到目標突變。"
+      ],
+      "pitfall": "不要把「人為選擇」全部當成現代育種；本題比較的是產生、利用變異的方法。",
+      "note": "D 的判定不變，但 C 把鯽魚選育成錦鯉的說法有誤：鯽魚選育的典型例子是金魚，錦鯉則是鯉魚的觀賞品系。不能照單全收該干擾選項的物種來源。"
+    },
+    {
+      "id": "biology-r2-2",
+      "section": "single-choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "複製羊的三種母體角色",
+      "answer": "C（3 個母體角色，沒有精子提供者）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "桃莉的製作涉及體細胞核提供者、去核卵細胞提供者與代孕母羊，分別承擔不同角色。",
+        "複製過程沒有精子與卵受精，依題目計算方式為三個「媽媽」、零個「爸爸」。"
+      ],
+      "pitfall": "這裡的媽媽是操作角色的通俗說法，不能解讀成桃莉各取得三分之一的核基因。"
+    },
+    {
+      "id": "biology-r2-3",
+      "section": "single-choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "基因轉殖製造蛋白質",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "胰島素是蛋白質，製造它需要相應的遺傳訊息；細菌不需要先長出人的胰臟。",
+        "把可表現人類胰島素的基因導入細菌，再利用細菌的蛋白質合成機制生產，符合 D 的基因轉殖。"
+      ],
+      "pitfall": "具有某個器官與具有可製造某種蛋白質的基因，是不同層次的條件。"
+    },
+    {
+      "id": "biology-r2-4",
+      "section": "single-choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "化石提供的歷史資訊",
+      "answer": "A（甲、乙、丙、丁）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "不同年代化石的形態差異可支持演化研究，某些化石的分布也能協助比對岩層的相對年代。",
+        "化石生物的生活需求與伴隨的沉積證據，還可用來推測過去環境及氣候，因此四項都可能得知。"
+      ],
+      "pitfall": "化石提供的是依證據推論的資訊，並非每一塊化石都能單獨精確回答所有問題。"
+    },
+    {
+      "id": "biology-r2-5",
+      "section": "single-choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "同目與同科的範圍",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "分類層級由大到小依序包含界、門、綱、目、科；同目生物共享其上層的綱、門、界。",
+        "一個目可以包含多個科，所以乙同屬食肉目，不代表也屬貓科；不正確的是 A。"
+      ],
+      "pitfall": "不能由相同的較大分類單位，倒推較小單位必定相同。"
+    },
+    {
+      "id": "biology-r2-6",
+      "section": "single-choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "以足部特徵做二分檢索",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "放大原圖可見甲的足部有明顯毛刺狀突起，乙、丙、丁的足部則畫成光滑線條，恰能分成題目指定的兩組。",
+        "C 的兩個足部示意圖表現這項差異；斑點數不能單獨分出甲，因為丁也有四個斑點。"
+      ],
+      "pitfall": "先檢查分類結果是否剛好是甲一組、乙丙丁一組；不要只找到任意一項外觀差異。"
+    },
+    {
+      "id": "biology-r2-7",
+      "section": "single-choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "核移植後的體色判讀",
+      "answer": "C（深綠色、褐色、深綠色）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "丙蛙的細胞核來自甲蛙蝌蚪的腸道細胞，乙提供的是移除細胞核後的卵。",
+        "依題目以核內基因控制體色、且不考慮突變的模型，丙為深綠色時，核提供者甲也應為深綠色。",
+        "C 同時符合甲與丙同色；乙可為褐色。"
+      ],
+      "pitfall": "判斷核移植的性狀時，要追蹤細胞核來源，不能只追蹤卵或代孕母體。",
+      "note": "原卷 B、D 的文字重複，但都不符合甲、丙體色一致的設定，不影響 C 的判定。"
+    },
+    {
+      "id": "biology-r2-8",
+      "section": "single-choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "抗除草劑作物的環境風險",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "抗除草劑性狀使作物較能承受特定除草劑，若種植者因此過度用藥，可能增加環境污染。",
+        "抗除草劑與抗蟲是不同性狀；也不能由雜草減少就推定完全無害，所以 A 最符合題意。"
+      ],
+      "pitfall": "題目談的是可能的管理風險，不表示所有基改作物都必然增加用藥。"
+    },
+    {
+      "id": "biology-r2-9",
+      "section": "single-choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "遺跡化石與生物遺體",
+      "answer": "D（甲、乙、戊）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "爬行痕跡、已成化石的糞便與休憩凹槽，記錄古生物活動，屬遺跡化石。",
+        "琥珀中的昆蟲及植物形成的煤來自生物遺體；現今螞蟻的洞穴也不能僅因是活動痕跡就稱為古生物化石。",
+        "因此選甲、乙、戊的 D。"
+      ],
+      "pitfall": "「遺跡」指古生物活動留下的證據，不等於任何年代的洞或痕跡。"
+    },
+    {
+      "id": "biology-r2-10",
+      "section": "single-choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "馬類演化與棲地改變",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "馬類化石顯示，部分演化支系的形態由較適合林地取食，改變為較適合開闊草原奔跑與啃食草本。",
+        "牙齒耐磨能力與肢端趾數的變化，可與環境、食物改變互相對照；B 的方向正確。"
+      ],
+      "pitfall": "演化不是現代馬為了需要而主動改造身體，也不是所有馬類只有一條直線式的演化路徑。"
+    },
+    {
+      "id": "biology-r2-11",
+      "section": "single-choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "由學名與類群比較親緣",
+      "answer": "A（平原斑馬、河馬、歐洲海馬）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "平原斑馬與野馬的屬名同為 Equus，四者之中親緣最近。",
+        "河馬和野馬同為哺乳類；海馬是魚類，因此河馬比海馬更接近野馬。"
+      ],
+      "pitfall": "俗名含「馬」不能當作親緣依據，要比較學名與生物分類。"
+    },
+    {
+      "id": "biology-r2-12",
+      "section": "single-choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "楓葉二分檢索與雙答案",
+      "answer": "A 或 D",
+      "officialAnswer": "A 或 D",
+      "status": "disputed",
+      "steps": [
+        "乙圖騰沿三條主葉脈、葉緣有鋸齒及三叉狀小葉的路徑，可對應糖楓；先排除乙不是糖楓的選項。",
+        "甲圖騰走五條主葉脈的路徑，但深裂、淺裂的示意界線不夠明確，分別可能落到銀楓或挪威楓。",
+        "表中「挪威楓＋糖楓」是 W，對應 A；「銀楓＋糖楓」是 Z，對應 D。原解答頁也同時接受兩者。"
+      ],
+      "pitfall": "不要為了符合單選形式，擅自刪去解答頁明列的另一個答案。",
+      "note": "本卷宣告單選，但此題解答印為「A 或 D」。原圖對甲的深裂、淺裂缺乏明確界線，因此保留雙答案，不宣稱只有一項能被唯一確認。"
+    },
+    {
+      "id": "biology-r2-13",
+      "section": "single-choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "依題設推定學名",
+      "answer": "A（Sus laevis；依題目簡化前提）",
+      "officialAnswer": "A",
+      "status": "disputed",
+      "steps": [
+        "依本題給定的規則，兩者能產生雜交後代，便先把待確認個體放在野豬相同的 Sus 屬。",
+        "再依題目以可育後代區分物種的模型，雜交子代不育表示不採同種的 Sus scrofa；剩下 A。"
+      ],
+      "pitfall": "這是依題設作答，不能把「不同屬完全不能雜交」背成普遍定律。",
+      "note": "官方 A 可由題目假設推出，但「不同屬的動物無法產生後代」並非普遍事實；農業部記載土番鴨就是屬間雜交的後代。現實分類也不只憑一組人工交配結果。"
+    },
+    {
+      "id": "biology-r2-14",
+      "section": "single-choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "雙名法與俗名",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "科學雙名法把屬名放在前，種小名放在後，共同組成物種學名。",
+        "告示牌上的中文名稱與英文 Japanese pine 都是通俗名稱，不能把其中的英文單字直接當作學名欄位。"
+      ],
+      "pitfall": "學名是否成立，不能只看是不是兩個英文形式的單字。"
+    },
+    {
+      "id": "biology-r2-15",
+      "section": "single-choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "原核生物的辨認",
+      "answer": "B（c、n、o）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "肺炎鏈球菌是細菌；顫藻、念珠藻是藍菌，皆沒有由核膜包覆的細胞核。",
+        "青黴菌、眼蟲、矽藻分別屬真菌或真核的原生生物，故只有 B 全為本題五界分類下的原核生物。"
+      ],
+      "pitfall": "名字含「藻」不保證有細胞核；藍菌與真核藻類需分開。",
+      "note": "原卷寫作「念球藻」，此處依其具異形細胞與固氮特徵，按課程中的念珠藻（Nostoc）解讀。"
+    },
+    {
+      "id": "biology-r2-16",
+      "section": "single-choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "原生生物與相似名稱",
+      "answer": "D（d、h、j、p）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "依本卷五界分類，黏菌、錐蟲、變形蟲與矽藻都屬原生生物。",
+        "渦蟲是多細胞扁形動物，肺炎鏈球菌與藍菌是原核生物；排除含這些生物的組合後選 D。"
+      ],
+      "pitfall": "草履蟲、錐蟲與渦蟲都有「蟲」字，卻不是同一界。"
+    },
+    {
+      "id": "biology-r2-17",
+      "section": "single-choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "光合色素不等於葉綠體",
+      "answer": "D（g、n、o、p）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "眼蟲和矽藻有含光合色素的葉綠體；顫藻、念珠藻則為具有葉綠素的藍菌。",
+        "藍菌雖無葉綠體，仍可行光合作用；四者組成 D，其他組合含不具葉綠素的生物。"
+      ],
+      "pitfall": "葉綠素是色素，葉綠體是胞器；沒有葉綠體不代表一定沒有葉綠素。"
+    },
+    {
+      "id": "biology-r2-18",
+      "section": "single-choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "節肢動物的外骨骼",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "原圖灰色用來指認節肢動物這一類，選項中與其典型特徵相配的是外骨骼。",
+        "管足屬棘皮動物特徵，脊椎骨屬脊椎動物特徵；核膜則是圖中三類真核動物共有，不能用來區分節肢動物。"
+      ],
+      "pitfall": "先辨認陰影指向的類群，再比較具有區辨力的構造；不要把三類共有的核膜當成節肢動物專有。"
+    },
+    {
+      "id": "biology-r2-19",
+      "section": "single-choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "蚯蚓的構造與生態作用",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "蚯蚓活動會翻動土壤、形成孔隙，能改善土壤通氣與水分通透等條件，所以 B 正確。",
+        "蚯蚓屬環節動物，身體分節，主要透過濕潤體表氣體交換；毛毛蟲則是節肢動物。"
+      ],
+      "pitfall": "能在陸地生活不等於體表有完全防水的構造；蚯蚓仍需要保持濕潤。"
+    },
+    {
+      "id": "biology-r2-20",
+      "section": "single-choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "蘚苔適應陸地的構造",
+      "answer": "C（角質層）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "角質層可減少表面水分散失，是植物適應陸地環境的重要特徵。",
+        "葉綠體在許多藻類已存在；蘚苔沒有題目所指的維管束與種子，因此選 C。"
+      ],
+      "pitfall": "有減少失水的構造，不表示蘚苔已完全脫離潮濕環境或受精的水分需求。"
+    },
+    {
+      "id": "biology-r2-21",
+      "section": "single-choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "動物門別與特徵配對",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "渦蟲屬扁形動物，部分種類能以身體分裂並再生的方式繁殖，符合 B。",
+        "海參屬棘皮動物，水蛭屬環節動物；中華肝吸蟲雖為扁形動物，身體並非分節，故其他配對不合。"
+      ],
+      "pitfall": "柔軟、細長等外觀相似，不能取代門別的構造判準。"
+    },
+    {
+      "id": "biology-r2-22",
+      "section": "single-choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "氣體交換器官與通氣構造",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "彈塗魚是硬骨魚類，其鰓位於鰓蓋覆蓋的鰓腔內，不能用鯊魚式的「鰓裂」配對。",
+        "蟾蜍可利用皮膚、蛤蜊利用鰓；鳥類氣囊協助通氣，真正主要的氣體交換部位仍是肺。"
+      ],
+      "pitfall": "題目寫「協助」氣體交換，氣囊能幫助氣流通過肺，不表示氣囊本身就是主要交換場所。"
+    },
+    {
+      "id": "biology-r2-23",
+      "section": "single-choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "同綱不同類群的比較",
+      "answer": "D（衣魚與蝴蝶）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "海豚與蝙蝠都屬哺乳綱，但分屬不同的目。",
+        "衣魚與蝴蝶都屬昆蟲綱，也屬不同的目；其餘組合跨越更大的分類差異，因此 D 最相似。"
+      ],
+      "pitfall": "生活在水中、會飛行或俗名相似，都不直接決定分類層級。"
+    },
+    {
+      "id": "biology-r2-24",
+      "section": "single-choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "脊椎動物的生殖與呼吸",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "依題目所採山椒魚的典型生活史，牠是外溫、卵生的兩生類，幼體以鰓呼吸，成體可利用肺，所列體外受精也符合本題比較。",
+        "其餘列有明顯不合：一般鯊魚不歸為本課程的內溫類群；鯨用肺而非鰓；鱷魚為卵生而非胎生。"
+      ],
+      "pitfall": "不要因名稱含「魚」就當成魚類；也不可把本題表格擴張為所有兩生類都完全相同。"
+    },
+    {
+      "id": "biology-r2-25",
+      "section": "single-choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "三種無脊椎動物的共同點",
+      "answer": "C（多細胞個體）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "海葵、章魚與海星分屬不同動物門，但都是由許多細胞組成的動物。",
+        "刺絲胞是海葵所屬類群的特徵；管足見於海星等棘皮動物，都不是三者共有。"
+      ],
+      "pitfall": "比較共同特徵時，必須讓列出的每一種生物都符合。"
+    },
+    {
+      "id": "biology-r2-26",
+      "section": "single-choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "辨識鳥類的關鍵特徵",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "國王企鵝的羽毛是四個選項中最能辨認鳥類的特徵，即使牠不能飛翔仍屬鳥類。",
+        "體內受精、脊椎骨與具殼的卵，都可見於其他脊椎動物；所以 B 的特徵組合最有區辨力。"
+      ],
+      "pitfall": "翅膀本身並非鳥類獨有；此選項的關鍵在羽毛。"
+    },
+    {
+      "id": "biology-r2-27",
+      "section": "single-choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "脊椎動物檢索分界",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲把魚類與其他脊椎動物分開，但兩生類幼體也常有鰓，不能單靠「有沒有鰓」完成這個分組。",
+        "後續乙可按皮膚防水程度分出兩生類，丙可按體溫調節區分爬蟲類與鳥、哺乳類，丁則以羽毛分辨鳥類，故錯在 A。"
+      ],
+      "pitfall": "檢索特徵要考慮不同發育階段，不能只拿成年青蛙與魚相比。"
+    },
+    {
+      "id": "biology-r2-28",
+      "section": "grouped-choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "乳酸菌的細胞特徵",
+      "answer": "A（表中 A）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "乳酸桿菌是原核生物，沒有核膜包覆的細胞核，也沒有葉綠體。",
+        "本題中的乳酸菌不以葉綠素行光合作用，且有細胞壁，與表中 A 相符。"
+      ],
+      "pitfall": "發酵能產生食品不代表能行光合作用；先看細胞核與光合色素。"
+    },
+    {
+      "id": "biology-r2-29",
+      "section": "grouped-choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "海帶芽的真核光合特徵",
+      "answer": "B（表中 B）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "海帶芽是大型褐藻，細胞具有細胞核、葉綠體與細胞壁。",
+        "褐色外觀不表示沒有葉綠素，牠仍利用光合作用製造有機養分，因此四項都為「有」的 B 正確。"
+      ],
+      "pitfall": "色素混合可遮蔽綠色；不能只憑外觀顏色判定是否有葉綠素。"
+    },
+    {
+      "id": "biology-r2-30",
+      "section": "grouped-choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "藍菌的細胞結構",
+      "answer": "C（表中 C）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目提到異形細胞與固氮，可對應念珠藻一類藍菌，屬原核生物。",
+        "其沒有細胞核和葉綠體，但有葉綠素與細胞壁，符合表中 C。"
+      ],
+      "pitfall": "固氮與光合作用不是同一作用；本題應依整個生物類群的細胞特徵配對。"
+    },
+    {
+      "id": "biology-r2-31",
+      "section": "grouped-choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "花粉管降低受精對水的依賴",
+      "answer": "B（花粉管）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "A、C 都是種子植物，分別代表被子植物與裸子植物。",
+        "花粉管能把雄性生殖細胞送向胚珠內，使受精不必仰賴外界水膜運送精子，所以 B 是本題最直接的構造。"
+      ],
+      "pitfall": "種子有利胚的保護與傳播，但本題要找的是降低受精對外界水分依賴的構造。"
+    },
+    {
+      "id": "biology-r2-32",
+      "section": "grouped-choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "蘚苔矮小與維管束",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "表中 D 沒有維管束、胚珠、花粉與種子，可判為蘚苔類。",
+        "缺乏維管束，使長距離運輸水分與支持高大植物體的能力受限，因此通常矮小。"
+      ],
+      "pitfall": "孢子繁殖的蕨類仍可長高；有無種子不是這題身高差異的直接判準。"
+    },
+    {
+      "id": "biology-r2-33",
+      "section": "grouped-choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "山蘇的蕨類特徵",
+      "answer": "B（表中 B）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "山蘇屬蕨類，有維管束及真正的根、莖、葉。",
+        "蕨類以孢子繁殖，沒有種子、胚珠和花粉，對應表中 B。"
+      ],
+      "pitfall": "葉片能食用與分類無關；應使用維管束及繁殖構造。"
+    },
+    {
+      "id": "biology-r2-34",
+      "section": "grouped-choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "紅檜的裸子植物特徵",
+      "answer": "C（表中 C）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "臺灣紅檜是裸子植物，有維管束、胚珠及花粉。",
+        "其種子不包在果實內，與表中 C 的組合一致。"
+      ],
+      "pitfall": "木本植物不全是裸子植物；關鍵是種子是否由果實包覆。"
+    },
+    {
+      "id": "biology-r2-35",
+      "section": "grouped-choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "演化樹上的遠近關係",
+      "answer": "A（獴）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "由浣熊、蜜熊往回追分支，牠們和水獺、狼、海獅都位於圖中的同一大分支。",
+        "獴位於另一大分支，必須回溯到更早的共同祖先才與浣熊、蜜熊相連，所以按本圖推論較不相似。"
+      ],
+      "pitfall": "不要用紙上直線距離判斷親緣，要比較共同祖先分岔的位置。"
+    },
+    {
+      "id": "biology-r2-36",
+      "section": "grouped-choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "以共同祖先辨認近親",
+      "answer": "B（獴）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "放大原圖可見麝香貓與獴先在同一個分岔點相接，構成相鄰的姊妹分支。",
+        "這個分岔點比它們與貓、土狼相接的位置更近；貓熊更在另一大支，因此 B 正確。"
+      ],
+      "pitfall": "線條靠近不一定相連；先確認真正的分岔點，避免在縮圖上誤讀枝線。"
+    },
+    {
+      "id": "biology-r2-37",
+      "section": "grouped-choice",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "核移植與性染色體",
+      "answer": "D（依題設為公狗）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Snuppy 的細胞核來自雄性阿富汗獵犬體細胞，因而承接該核內的性染色體組合。",
+        "在本題正常發育且不考慮異常的模型下，結果為雄性；代孕母犬提供發育環境，不會把核內性染色體改成自己的組合。"
+      ],
+      "pitfall": "複製動物並不是把三隻提供不同角色的動物，各挑一些優點混合。",
+      "note": "選項的 100% 是此課程模型中的判定，不是對任何核移植實驗與性發育異常作無條件保證。"
+    },
+    {
+      "id": "biology-r2-38",
+      "section": "grouped-choice",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "核移植與受精的差異",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "C 細胞由體細胞核與去核卵重建而成，沒有精、卵細胞核結合的受精過程。",
+        "之後仍須經細胞分裂與胚胎發育；因此把 C 稱為受精卵的選項錯誤，且此原理與試管嬰兒不同。"
+      ],
+      "pitfall": "細胞融合、核移植與受精不能只因都涉及卵，就視為同一程序。"
+    },
+    {
+      "id": "biology-r2-39",
+      "section": "grouped-choice",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "斑馬驢的雜交特徵",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "斑馬驢是兩個不同物種交配的雜交後代，會取得雙方的遺傳物質，不是單一親代突變而成。",
+        "依本題所用的雜交例子，牠不能正常繁殖，因此 D 符合題意，也不能據此把牠與斑馬視為同一物種。"
+      ],
+      "pitfall": "人工交配能生出個體，不等於該後代能再產生可育下一代。"
+    },
+    {
+      "id": "biology-r2-40",
+      "section": "grouped-choice",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "比較兩個雙名學名",
+      "answer": "B（同屬、不同種）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "兩者學名的第一字都為 Equus，表示相同的屬。",
+        "第二字分別為 quagga 與 africanus，在本題代表兩個不同物種；同屬也必然共享更高階層，因此選 B。"
+      ],
+      "pitfall": "同屬不能同時說不同科；分類階層具有包含關係。"
+    },
+    {
+      "id": "biology-r2-41",
+      "section": "reading-choice",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "發酵食品的生物技術",
+      "answer": "C（醬油與養樂多）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "本題以利用微生物或其作用製造產品作為生物技術判準；醬油與養樂多的製作都涉及微生物發酵。",
+        "罐藏、乾燥、醃漬及煙燻等主要是題表所列的物理或化學保存方式，因此符合的是丙、戊。"
+      ],
+      "pitfall": "所有食品都來自生物，不代表每種食品加工都屬此題的微生物技術。"
+    },
+    {
+      "id": "biology-r2-42",
+      "section": "reading-choice",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "食品加工的作用與過度概括",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "表格列出控制水分、溫度、輻射與添加調味料等方式，可用來保存食品。",
+        "「加工」是處理方式的廣泛概念，不能直接推論每一種加工食品都對人體有害；D 的全稱判斷錯誤。"
+      ],
+      "pitfall": "不要由某些產品可能有問題，推成同一大類產品一律有害。"
+    },
+    {
+      "id": "biology-r2-43",
+      "section": "reading-choice",
+      "label": "第 43 題",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "answerPage": 5,
+      "topic": "化石色素結構與外觀重建",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "骨骼形態與尺寸早已能提供體形、大小的線索，文章新增的關鍵是利用保存下來的色素相關微構造推測色彩。",
+        "所以四個選項中，B 所指的顏色是此研究方法主要增加的資訊。"
+      ],
+      "pitfall": "重建顏色是以可保存的構造作推論，不是直接看見活體恐龍的顏色。",
+      "note": "文章實際主要討論羽毛色彩；本題把它概括寫成膚色，應理解為體表色彩的推估，不代表可還原每一處裸露皮膚。"
+    },
+    {
+      "id": "biology-r2-44",
+      "section": "reading-choice",
+      "label": "第 44 題",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "answerPage": 5,
+      "topic": "辨認化石中的黑色素體",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "閱讀段落說明，某些長期被誤認為細菌的微小構造，後來被辨認為黑色素體。",
+        "黑色素體與色素保存提供顏色重建線索，所以選 C，而不是沿用先前的細菌判定。"
+      ],
+      "pitfall": "黑色素是色素物質，黑色素體是含有這類色素的構造，兩者不宜混用。"
+    },
+    {
+      "id": "biology-r2-45",
+      "section": "reading-choice",
+      "label": "第 45 題",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "answerPage": 5,
+      "topic": "以黑色素體形狀推測顏色",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "文章把較細長與較圓的黑色素體，對應到不同色素類型及可能的顏色。",
+        "研究者以電子顯微鏡比較這些微構造的形狀，再配合現生資料重建色彩，因此選 A。"
+      ],
+      "pitfall": "此題是由結構形狀間接推色，不是電子顯微鏡直接拍出原本的彩色羽毛。"
+    },
+    {
+      "id": "biology-r2-46",
+      "section": "reading-choice",
+      "label": "第 46 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "細菌型鞭毛馬達的對象",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "段落的研究對象是具有旋轉式鞭毛馬達的細菌，並明確以大腸桿菌作例子。",
+        "草履蟲、錐蟲與變形蟲都是原生生物；其運動構造不能直接等同細菌的鞭毛馬達，所以選 C。"
+      ],
+      "pitfall": "同樣叫鞭毛的構造，在原核與真核生物間可能有不同結構和運作方式。"
+    },
+    {
+      "id": "biology-r2-47",
+      "section": "reading-choice",
+      "label": "第 47 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "鞭毛馬達的驅動順序",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "依圖示與文章，定子把離子流動所提供的能量轉成作用於轉子的驅動力。",
+        "轉子帶動鞭毛旋轉，形成推進作用；D 同時符合驅動先後與旋轉形式。"
+      ],
+      "pitfall": "不要把細菌的旋轉式鞭毛，與其他生物鞭毛的彎曲擺動混淆。"
+    },
+    {
+      "id": "biology-r2-48",
+      "section": "reading-choice",
+      "label": "第 48 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "觀察奈米構造的工具",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題文指出研究使用低溫電子顯微成像，對應電子顯微鏡。",
+        "鞭毛馬達內部的分子構造需要高解析度觀察；解剖顯微鏡、一般複式顯微鏡與天文望遠鏡都不是文中工具。"
+      ],
+      "pitfall": "分清工具的解析能力與觀察對象，不能只看都帶有「顯微」兩字。"
+    },
+    {
+      "id": "biology-r2-49",
+      "section": "reading-choice",
+      "label": "第 49 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "大腸桿菌的前進與翻滾",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依段落所描述的模式，較有利的食物訊號可讓逆時針旋轉、成束鞭毛造成的前進維持較久。",
+        "順時針切換會使鞭毛束散開並翻滾轉向；A 把順時針與持續直線前進配在一起，所以錯誤。"
+      ],
+      "pitfall": "旋轉方向的敘述適用本文採用的大腸桿菌模型，不能泛指所有具有鞭毛的生物。"
+    },
+    {
+      "id": "biology-r2-50",
+      "section": "reading-choice",
+      "label": "第 50 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "質子回流與擴散模型",
+      "answer": "B（依本文的濃度差模型）",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "題目把外部較高濃度的質子向內回流，簡化為順濃度梯度移動；在四個課程選項中最接近擴散。",
+        "維持質子梯度需細胞代謝提供能量，但題目問的是回流當下，而非建立梯度的上游過程，因此依題意選 B。",
+        "更完整的驅動力是跨膜的電化學位能差，包含濃度差與電位差，不能說它完全不含電性作用。"
+      ],
+      "pitfall": "被動回流和主動建立梯度是兩件事；也不要把所有生命活動都歸結為單純濃度擴散。",
+      "note": "官方 B 對應文中的簡化模型；原文卻將質子動力與電性作用完全對立，並過度推廣成一切細胞活動的唯一能量來源。實驗研究指出電位差或 pH 梯度都可驅動細菌鞭毛，故保留 B 並校正來源敘述。"
+    }
+  ]
+}

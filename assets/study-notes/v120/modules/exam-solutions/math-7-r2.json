@@ -1,0 +1,627 @@
+{
+  "schema": 1,
+  "sourceId": "1NESvIAIjE8O3K7dLULS0WP_cVmZzcWOm",
+  "sourceSha256": "af6ff06a6322f1683b53150e569817342a19e2a26495f85c112e0d2fe7b93350",
+  "title": "114-2-2七年級數學科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "涵蓋選擇題 1–25、填充題 1–4、計算題 1(1)–1(2)、2(1)–2(2)，共 33 個編號小題，均已獨立推算並與官方解答核對。已目視檢查實體 PDF 第 1–5 頁；解答在實體第 5 頁，頁尾雖印「共 4 頁」仍以 PDF 頁碼連結。官方計算題左欄誤標為第 2 題，本詳解依原題第 4 頁標為第 1 題。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、選擇題"
+    },
+    {
+      "id": "fill",
+      "title": "二、填充題"
+    },
+    {
+      "id": "calculation",
+      "title": "三、計算題"
+    }
+  ],
+  "items": [
+    {
+      "id": "math-r2-choice-01",
+      "section": "choice",
+      "label": "選擇題 1",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "直線通過的象限",
+      "answer": "C（第三象限）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "把方程式整理成 3x＋5y＝15。若點在第三象限，x、y 都是負數，左邊必為負數，不可能等於 15。",
+        "另外三個象限都可找到符合的點，例如 (1,12/5)、(−1,18/5)、(6,−3/5)，因此唯一不通過的是第三象限。"
+      ],
+      "pitfall": "直線的截距為正，不代表只通過第一象限；延長後仍會進入其他象限。"
+    },
+    {
+      "id": "math-r2-choice-02",
+      "section": "choice",
+      "label": "選擇題 2",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "坐標代入求係數",
+      "answer": "B（−1/2）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "點在直線上，就表示它的兩個坐標代入後等式成立：−4a＋2×3＝8。",
+        "整理得 −4a＝2，所以 a＝−1/2；代回可得 2＋6＝8。"
+      ],
+      "pitfall": "x 坐標是 −4，不能代成正 4。"
+    },
+    {
+      "id": "math-r2-choice-03",
+      "section": "choice",
+      "label": "選擇題 3",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "求直線的兩軸截距",
+      "answer": "C（m＝4、n＝−5）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "在 x 軸上的點令 y＝0，得到 x/4＝1，因此 m＝4。",
+        "在 y 軸上的點令 x＝0，得到 −y/5＝1，因此 n＝−5。"
+      ],
+      "pitfall": "y 項前有負號，y 截距並不是 5。"
+    },
+    {
+      "id": "math-r2-choice-04",
+      "section": "choice",
+      "label": "選擇題 4",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "比例與差值",
+      "answer": "A（x＝−75、y＝−105）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "設 x＝5t、y＝7t，則 x−y＝−2t＝30，解得 t＝−15。",
+        "代回得到 x＝−75、y＝−105；兩者之比為 5：7，且 −75−(−105)＝30。"
+      ],
+      "pitfall": "比的兩項為正不代表原數都為正，共同比例因子可以是負數。"
+    },
+    {
+      "id": "math-r2-choice-05",
+      "section": "choice",
+      "label": "選擇題 5",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "檢查點與直線的關係",
+      "answer": "B（b＝2）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "將 x＝1、−2 依序代入 y＝x/2＋3，得到 a＝7/2、b＝2。",
+        "再令 y＝3、−1，分別解得 c＝0、d＝−8；四個敘述只有 b＝2 正確。"
+      ],
+      "pitfall": "求 c、d 時已知的是 y 坐標，要解 x，不能直接把 3 或 −1 當 x 代入。"
+    },
+    {
+      "id": "math-r2-choice-06",
+      "section": "choice",
+      "label": "選擇題 6",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "原點是否在直線上",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "通過原點的必要條件是 (x,y)＝(0,0) 能使原方程式成立。",
+        "B 代入後為 0＝0；A、C、D 分別變成 0＝1、0＝−3、0＝−2，均不成立。"
+      ],
+      "pitfall": "是否通過原點要檢查兩個坐標同時為 0，不能只看某個係數。"
+    },
+    {
+      "id": "math-r2-choice-07",
+      "section": "choice",
+      "label": "選擇題 7",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "求交點並判別象限",
+      "answer": "D（第四象限）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "交點同時滿足兩式，將 x＝3 代入 2x＋y＝1，得 y＝−5。",
+        "交點為 (3,−5)，x 為正而 y 為負，所以位於第四象限。"
+      ],
+      "pitfall": "象限要由交點的兩個坐標判斷，不能只由直線位置猜測。"
+    },
+    {
+      "id": "math-r2-choice-08",
+      "section": "choice",
+      "label": "選擇題 8",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "共同點決定未知係數",
+      "answer": "B（a＝−3、b＝3/5）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "把交點代入第一式，得到 5−a＝8，所以 a＝−3。",
+        "代入第二式得到 5b−2＝1，所以 5b＝3、b＝3/5。"
+      ],
+      "pitfall": "ay 中的 y 是 −1，代入後是 −a。"
+    },
+    {
+      "id": "math-r2-choice-09",
+      "section": "choice",
+      "label": "選擇題 9",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "比例式的交叉相乘",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "A、B、C 交叉相乘後都得到 ad＝bc，與已知條件相同，因此一定成立。",
+        "D 交叉相乘得到 ac＝bd，這不是原條件。例如 a＝2、b＝3、c＝4、d＝6，雖有 ad＝bc＝12，卻有 ac＝8、bd＝18。"
+      ],
+      "pitfall": "交換比的項目時必須重新交叉相乘，不能任意換位置。"
+    },
+    {
+      "id": "math-r2-choice-10",
+      "section": "choice",
+      "label": "選擇題 10",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "正比關係與比例常數",
+      "answer": "B（y＝−12x）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "正比關係可寫成 y＝kx；由 x＝4、y＝−48，得 k＝−48÷4＝−12。",
+        "因此關係式為 y＝−12x；比例常數是負數仍屬正比關係。"
+      ],
+      "pitfall": "「正比」是指比值固定，並不表示比例常數一定為正。"
+    },
+    {
+      "id": "math-r2-choice-11",
+      "section": "choice",
+      "label": "選擇題 11",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "反比關係的固定乘積",
+      "answer": "C（15）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "成反比時 xy 為定值，先由已知數據求得 xy＝(−5)×(−6)＝30。",
+        "當 y＝2 時，2x＝30，所以 x＝15。"
+      ],
+      "pitfall": "反比固定的是乘積，不能套用正比的 y/x。"
+    },
+    {
+      "id": "math-r2-choice-12",
+      "section": "choice",
+      "label": "選擇題 12",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "和差比轉成新比值",
+      "answer": "C（−9/5）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "設 a＋b＝−5t、a−b＝2t。相加得 a＝−3t/2，相減得 b＝−7t/2。",
+        "所以 2a＋3b＝−27t/2，2a−3b＝15t/2；相除得到 −27/15＝−9/5。"
+      ],
+      "pitfall": "題目問比值，最後要相除並約分；含負數的加減也要保留括號。"
+    },
+    {
+      "id": "math-r2-choice-13",
+      "section": "choice",
+      "label": "選擇題 13",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "含未知數的比例式",
+      "answer": "A（−1）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依比例式交叉相乘，得到 −10(2x＋1)＝5(1−x)。",
+        "展開並整理為 −20x−10＝5−5x，故 −15x＝15、x＝−1。"
+      ],
+      "pitfall": "−10 乘進括號時，2x 和 1 都要乘到。"
+    },
+    {
+      "id": "math-r2-choice-14",
+      "section": "choice",
+      "label": "選擇題 14",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "辨認正比與反比",
+      "answer": "D（甲、乙、丁）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲可整理成 y＝5x/3，是正比；乙可整理成 xy＝15，是反比。",
+        "丙交叉相乘後為 5x＋25＝3y＋9，故 y＝5x/3＋16/3，帶有非零常數項，不是正比。",
+        "丁整理為 5x＋1＝3y＋1，常數抵消後得到 y＝5x/3，是正比，因此正確的是甲、乙、丁。"
+      ],
+      "pitfall": "看到兩個代數式的比固定，不能直接認定 x 與 y 正比；要先整理關係式。"
+    },
+    {
+      "id": "math-r2-choice-15",
+      "section": "choice",
+      "label": "選擇題 15",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "相同比例的追加用量",
+      "answer": "C（4 罐）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "原來的漆刷了全牆的 3/4，剩下的 1/4 是已刷面積的 1/3。",
+        "在相同塗刷用量及顏色比例下，追加每種油漆都為原用量的 1/3，因此黃漆需要 12÷3＝4 罐。"
+      ],
+      "pitfall": "剩餘 1/4 是對整面牆而言，不能直接拿原有 12 罐乘 1/4。"
+    },
+    {
+      "id": "math-r2-choice-16",
+      "section": "choice",
+      "label": "選擇題 16",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "相同路程的速率",
+      "answer": "D（72 公里/小時）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先算固定路程：60×1.5＝90 公里。",
+        "75 分鐘＝75/60＝1.25 小時，哥哥的平均速率為 90÷1.25＝72 公里/小時。"
+      ],
+      "pitfall": "速率的時間單位是小時，必須先把分鐘換成小時。"
+    },
+    {
+      "id": "math-r2-choice-17",
+      "section": "choice",
+      "label": "選擇題 17",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "兩個代數式成正比",
+      "answer": "C（−9）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "設 2y＋9＝k(5x−2)。代入已知的一組值得 11＝−22k，所以 k＝−1/2。",
+        "當 x＝4 時，2y＋9＝(−1/2)×18＝−9，解得 2y＝−18、y＝−9。"
+      ],
+      "pitfall": "成正比的是整個 2y＋9 與 5x−2，不是 y 與 x。"
+    },
+    {
+      "id": "math-r2-choice-18",
+      "section": "choice",
+      "label": "選擇題 18",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "比例尺與長度換算",
+      "answer": "A（長 48 公尺、寬 20 公尺）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先以相同單位放大 800 倍：長為 6×800＝4800 公分，寬為 2.5×800＝2000 公分。",
+        "每 100 公分是 1 公尺，因此實際長、寬分別為 48 公尺、20 公尺。"
+      ],
+      "pitfall": "比例尺直接換出的長度仍是公分，不能省略單位換算。"
+    },
+    {
+      "id": "math-r2-choice-19",
+      "section": "choice",
+      "label": "選擇題 19",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "固定利息下的存款",
+      "answer": "B（再存入 2000 元）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "依題設利率計算，今年利息為 10000×1.5%＝150 元；降一碼後年利率為 1.5%−0.25%＝1.25%。",
+        "明年要有相同利息，存款需為 150÷1.25%＝12000 元，因此還要增加 12000−10000＝2000 元。"
+      ],
+      "pitfall": "12000 元是所需總存款，題目問的是額外再存入多少。"
+    },
+    {
+      "id": "math-r2-choice-20",
+      "section": "choice",
+      "label": "選擇題 20",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "累計比率的目標值",
+      "answer": "A（19 支）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "接下來的打數也要加入分母，總打數為 116＋44＝160。",
+        "達到 0.3 需要總安打數 160×0.3＝48 支，扣掉已有的 29 支，還需要 19 支。"
+      ],
+      "pitfall": "不能只對新增的 44 次打數套用 0.3，目標是累計打擊率。"
+    },
+    {
+      "id": "math-r2-choice-21",
+      "section": "choice",
+      "label": "選擇題 21",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "同時注排水的淨速率",
+      "answer": "D（24 分鐘）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "以一整桶為 1 單位，依題意採固定速率，注水每分鐘 1/6 桶，排水每分鐘 1/8 桶。",
+        "同時進行的淨注水量為 1/6−1/8＝1/24 桶/分鐘，所以注滿需要 1÷(1/24)＝24 分鐘。"
+      ],
+      "pitfall": "同時注水與排水要相減每分鐘的水量，不能把 6 分鐘與 8 分鐘相加。"
+    },
+    {
+      "id": "math-r2-choice-22",
+      "section": "choice",
+      "label": "選擇題 22",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "兩群比例合成與通過率",
+      "answer": "A（20%）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "設通過的男、女人數分別為 3u、2u，未通過的男、女人數為 2v、v。總男女比給出 (3u＋2v)：(2u＋v)＝15：8。",
+        "交叉相乘得到 24u＋16v＝30u＋15v，所以 v＝6u。",
+        "報考男生共 3u＋2×6u＝15u 人，其中通過 3u 人，通過率為 3u/15u＝20%。"
+      ],
+      "pitfall": "通過男女比 3：2 不是男生的通過率；分母應是全部報考男生。"
+    },
+    {
+      "id": "math-r2-choice-23",
+      "section": "choice",
+      "label": "選擇題 23",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "相遇前後的等長路程",
+      "answer": "D（1680 公里）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "相遇後甲再走的路程，等於乙相遇前走的路程，因此甲速×6＝乙速×8，兩者速率比為 4：3。",
+        "兩速率相差 30 公里/小時，故甲、乙速率分別為 120、90 公里/小時。",
+        "兩車相向行駛 8 小時走完兩城之間的路程，所以距離為 (120＋90)×8＝1680 公里。"
+      ],
+      "pitfall": "6 小時是甲走剩餘路程的時間，不能當作甲走全程的時間。"
+    },
+    {
+      "id": "math-r2-choice-24",
+      "section": "choice",
+      "label": "選擇題 24",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "依題設定義計算失分比",
+      "answer": "A（7/18）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依題目給定的失分率算式，只累計對指定兩隊的失分：3＋4＝7。",
+        "再除以題目指定的 18 守備局，得到失分率 7/18。"
+      ],
+      "pitfall": "應計算失分而非得分，也不要把兩隊的守備局數混加。",
+      "note": "本題及下一題依原卷明訂的比值與假設局數作數學推算。"
+    },
+    {
+      "id": "math-r2-choice-25",
+      "section": "choice",
+      "label": "選擇題 25",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "比較三個不同分母的比值",
+      "answer": "D（韓國 8 比 4 澳洲）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "依題設韓澳比分 X：Y，韓國的失分率為 (5＋Y)/19，澳洲為 X/18；中華固定為 7/18。",
+        "A、B 的 X 分別為 3、5，澳洲的失分率比 7/18 低，無法讓中華取得最低值；C 的韓國為 7/19，也低於 7/18。",
+        "D 時韓國為 9/19、澳洲為 8/18；因 9×18＝162＞7×19＝133，且 8/18＞7/18，中華的比值最低，並且韓國勝澳洲，符合兩項條件。"
+      ],
+      "pitfall": "韓國獲勝只是其中一項條件，還必須比較三隊依題設算出的失分率。"
+    },
+    {
+      "id": "math-r2-fill-01",
+      "section": "fill",
+      "label": "填充題 1",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "逐點代入檢查",
+      "answer": "A、D、G",
+      "officialAnswer": "A、D、G",
+      "status": "verified",
+      "steps": [
+        "各點的 x＋2y 依序為：A＝0、B＝5、C＝−4、D＝0、E＝0.6、F＝2、G＝0、H＝−2。",
+        "只有代入後等於 0 的點在直線上，因此選 A、D、G。"
+      ],
+      "pitfall": "點的坐標必須成對代入，不能只檢查其中一個坐標。"
+    },
+    {
+      "id": "math-r2-fill-02",
+      "section": "fill",
+      "label": "填充題 2",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "兩點決定直線再代入第三點",
+      "answer": "3",
+      "officialAnswer": "3",
+      "status": "verified",
+      "steps": [
+        "由 A 得 0＝2a＋b，由 B 得 −6＝4a＋b。相減得到 a＝−3，再代回得 b＝6。",
+        "把 C 的坐標代入 y＝−3x＋6，得 −k＝−3k＋6，所以 2k＝6、k＝3。"
+      ],
+      "pitfall": "第三點的 y 坐標是 −k，不能和 x 坐標一樣寫成 k。"
+    },
+    {
+      "id": "math-r2-fill-03",
+      "section": "fill",
+      "label": "填充題 3",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "用預算比例求可購數量",
+      "answer": "12 罐",
+      "officialAnswer": "12",
+      "status": "verified",
+      "steps": [
+        "10 罐果汁花掉全部預算的 10/25＝2/5，因此還剩 3/5 的預算。",
+        "全部預算原可買 20 罐汽水，所以剩下的錢可買 20×3/5＝12 罐。"
+      ],
+      "pitfall": "不同飲料單價不同，買掉 10 罐果汁不等於少買 10 罐汽水。"
+    },
+    {
+      "id": "math-r2-fill-04",
+      "section": "fill",
+      "label": "填充題 4",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "人數與工作時間反比",
+      "answer": "15 小時",
+      "officialAnswer": "15",
+      "status": "verified",
+      "steps": [
+        "依題設採相同且固定的每人工作效率，總工作量為 10×24＝240 人時。",
+        "加入後共有 10＋6＝16 人，完成時間為 240÷16＝15 小時。"
+      ],
+      "pitfall": "一天是不眠不休的 24 小時；新的人數是 16 人，不是 6 人。"
+    },
+    {
+      "id": "math-r2-calculation-1-1",
+      "section": "calculation",
+      "label": "計算題 1(1)",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "長寬差與共同比例因子",
+      "answer": "原長 32 公分、寬 20 公分",
+      "officialAnswer": "原本長 32 公分，寬 20 公分",
+      "status": "verified",
+      "steps": [
+        "設原長、寬分別為 8t、5t 公分。依圖剪去右側 12 公分後成正方形，故 8t−12＝5t。",
+        "解得 3t＝12、t＝4，因此原長為 32 公分、寬為 20 公分；剪後兩邊同為 20 公分。"
+      ],
+      "pitfall": "圖中 12 公分減少的是長，原來的寬不變。",
+      "note": "官方解答左欄大題誤印為 2；此處依原試題第 4 頁的編號記為計算題 1(1)。"
+    },
+    {
+      "id": "math-r2-calculation-1-2",
+      "section": "calculation",
+      "label": "計算題 1(2)",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "剪裁後的長寬比與面積",
+      "answer": "288 平方公分",
+      "officialAnswer": "288 平方公分",
+      "status": "verified",
+      "steps": [
+        "乙色紙需另設長、寬為 8t、5t；兩張紙只保證長寬比相同，沒有說尺寸相同。",
+        "剪去下方 3 公分後，長仍為 8t、寬為 5t−3。新比為 2：1，故 8t＝2(5t−3)，解得 t＝3。",
+        "剩下的長、寬為 24、12 公分，面積為 24×12＝288 平方公分。"
+      ],
+      "pitfall": "不能沿用甲色紙的比例因子；題目沒有說甲、乙一樣大。"
+    },
+    {
+      "id": "math-r2-calculation-2-1",
+      "section": "calculation",
+      "label": "計算題 2(1)",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "用截距畫直線並求交點",
+      "answer": "L1 通過 (0,−1)、(1,0)；L2 通過 (0,−6)、(3,0)；交點 A(5,4)。",
+      "officialAnswer": "圖示 A(5,4)；評分要求 L1、L2 各兩點坐標及兩直線交點坐標，共 5 個點。",
+      "status": "verified",
+      "steps": [
+        "L1 整理成 y＝x−1，令 x＝0、y＝0 得 (0,−1)、(1,0)，標出兩點後連成直線並延長。",
+        "L2 整理成 y＝2x−6，同樣用 (0,−6)、(3,0) 畫直線。",
+        "兩式相減得 x＝5，代回 x−y＝1 得 y＝4，因此在圖上標明交點 A(5,4)。"
+      ],
+      "pitfall": "每條直線至少用兩個正確的點定位；線要延長，不能只畫兩點之間的線段。"
+    },
+    {
+      "id": "math-r2-calculation-2-2",
+      "section": "calculation",
+      "label": "計算題 2(2)",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "用坐標軸分割三角形面積",
+      "answer": "5 平方單位",
+      "officialAnswer": "5 平方單位",
+      "status": "verified",
+      "steps": [
+        "前題得 A(5,4)，另外 B(0,−1)、C(3,0)。令 L1 與 x 軸的交點為 E，則 E＝(1,0)，EC＝2。",
+        "E 位於邊 AB 上，線段 EC 把三角形 ABC 分成 AEC 與 BEC；以 EC 為底，兩個高分別為 4、1。",
+        "所以面積為 2×4÷2＋2×1÷2＝4＋1＝5 平方單位。"
+      ],
+      "pitfall": "A、B 位於 x 軸兩側，分割出的兩個面積應相加；也不能直接把斜邊長當作高。"
+    }
+  ]
+}

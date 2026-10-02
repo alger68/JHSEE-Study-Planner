@@ -1,0 +1,1233 @@
+{
+  "schema": 1,
+  "sourceId": "1I2VQ69Uwdui4rI34BLV_5zzeQAg9rh1w",
+  "sourceSha256": "30c771f67828ece14a0190fa67c8162452ef1a000fa6ecbedcbd118439fbfb80",
+  "title": "114-2-2七年級英文科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "已逐題整理第 1～63 題，並目視核對全部 8 個 PDF 實體頁面。第 1～20 題僅依紙本聽力稿與答案核對，未取得原始音檔，皆標示核對受限；其餘 43 題已核對文法、圖表、題意與答案。第 6 頁翻譯區標題誤列 56～64 題，依實際題號、第 7 頁作答卷及第 8 頁答案整理為 55～63 題，第 7 頁未重複計題。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "listening-words",
+      "title": "一、聽力：辨認單字"
+    },
+    {
+      "id": "listening-pictures",
+      "title": "二、聽力：圖像對應"
+    },
+    {
+      "id": "listening-responses",
+      "title": "三、聽力：應答判斷"
+    },
+    {
+      "id": "listening-dialogues",
+      "title": "四、聽力：內容理解"
+    },
+    {
+      "id": "vocabulary-grammar",
+      "title": "五、字彙、句型與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "六、篇章填空"
+    },
+    {
+      "id": "reading",
+      "title": "七、閱讀與圖表"
+    },
+    {
+      "id": "translation",
+      "title": "八、單字與句子翻譯"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-r2-01",
+      "section": "listening-words",
+      "label": "第 1 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "烘焙材料的字彙",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿的情境是製作蛋糕、詢問所需材料。",
+        "麵粉是 flour，對應 B；flowers 指花，不能代替這項材料。"
+      ],
+      "pitfall": "留意 flour 的拼字及食材意思，不要因開頭讀音相近就選 flowers。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-02",
+      "section": "listening-words",
+      "label": "第 2 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "書本的放置位置",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿請對方幫忙把書放到架子上。",
+        "架子是 shelf，對應 A；shop 是商店，show 是展示或表演。"
+      ],
+      "pitfall": "三個選項都以 sh 開頭，仍要完整辨認字尾並連結句意。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-03",
+      "section": "listening-words",
+      "label": "第 3 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "三明治餡料",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿在午餐情境中指定雞肉三明治。",
+        "表示雞肉的字是 chicken，對應 A；place 與 which 都不是這項食物。"
+      ],
+      "pitfall": "不要只辨認三明治的用餐情境；應確認前面的食材名稱。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-04",
+      "section": "listening-words",
+      "label": "第 4 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "生病時佩戴的物品",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說人物因為生病而戴某件物品上學。",
+        "符合用途的是 mask，即口罩，選 B。"
+      ],
+      "pitfall": "mask、mark 與 makes 拼字相近，不能省略中間及字尾的辨認。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-05",
+      "section": "listening-words",
+      "label": "第 5 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "電影的某一部分",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿評價一部電影，並指出最喜歡的是結尾部分。",
+        "表示部分的名詞是 part，對應 C；art 表示藝術。"
+      ],
+      "pitfall": "part 的 p 不能省略；少了字首會變成另一個字。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-06",
+      "section": "listening-pictures",
+      "label": "第 6 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "奶昔的材料組合",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿列出的材料包含香蕉、牛奶、冰淇淋與少量糖。",
+        "A 圖同時畫出這四類材料；B 多了麵包等物品，C 畫的是已完成的飲品，選 A。"
+      ],
+      "pitfall": "題目在找原料組合，不能只因圖中有一杯奶昔就選成品圖。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-07",
+      "section": "listening-pictures",
+      "label": "第 7 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "畫作與實景辨識",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿介紹一幅以咖啡店為主題的畫作。",
+        "B 圖呈現觀眾面前有框的咖啡店畫作；A 的主題是植物，C 是店面實景，因此選 B。"
+      ],
+      "pitfall": "須同時確認「咖啡店」及「畫作」兩個條件；黑白圖片不能用來自行判定色彩。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-08",
+      "section": "listening-pictures",
+      "label": "第 8 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "餐點種類與數量",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿的點餐組合是五個熱狗、一碗湯及三袋糖果。",
+        "A 的物品種類與數量逐一吻合；B 的主餐是漢堡，C 的熱狗、湯與糖果數量不同。"
+      ],
+      "pitfall": "先分辨熱狗與漢堡，再分別計數，避免只核對其中一種食物。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-09",
+      "section": "listening-pictures",
+      "label": "第 9 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "清洗前的餐具位置",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說盤子與杯子仍放在桌上，並請人清洗。",
+        "B 同時有桌面、盤子及杯子；A 是水槽中的餐具，C 缺少盤子，因此選 B。"
+      ],
+      "pitfall": "請求清洗不表示餐具已經放入水槽，必須保留原句的位置資訊。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-10",
+      "section": "listening-pictures",
+      "label": "第 10 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "杯子的尺寸與圖案",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿先否定大杯子，再指定小杯子上有兔子圖案。",
+        "C 的箭頭指向小型兔子杯，同時符合大小與圖案。"
+      ],
+      "pitfall": "A 有兔子但兩杯大小相近；B 的小杯沒有兔子，不能只看單一特徵。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-11",
+      "section": "listening-responses",
+      "label": "第 11 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "詢問能否借用材料",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿詢問對方是否有糖，並表明只需要一點。",
+        "B 表示對方有糖、可進來拿，直接回應需求；C 只介紹商店，沒有回答是否持有。"
+      ],
+      "pitfall": "含有相同食物名稱的選項不一定切題，要看是否完成借取材料的對話。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-12",
+      "section": "listening-responses",
+      "label": "第 12 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "飲料份量的回答",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿先提供柳橙汁，再詢問想要多少。",
+        "B 用一杯表示份量，最符合這個問題；A 是價格，C 換成另一種材料。"
+      ],
+      "pitfall": "How much 可能問價格或數量，須由前後文辨別。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-13",
+      "section": "listening-responses",
+      "label": "第 13 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "接受他人請客",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿表示這餐由說話者請客。",
+        "接受這份好意時，以感謝對方的回應最自然，故選 C。"
+      ],
+      "pitfall": "My treat 表示說話者要付錢，不是要求聽者反過來請客。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-14",
+      "section": "listening-responses",
+      "label": "第 14 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "回應節慶活動邀約",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿詢問復活節是否要一起安排活動。",
+        "C 先同意，再提出早上去教堂的活動，構成完整回應。"
+      ],
+      "pitfall": "邀約要回答意願或安排，不能改為描述其他人正在做的事。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-15",
+      "section": "listening-responses",
+      "label": "第 15 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "在兩家店之間選擇",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿依序列出水果茶店及三明治店，詢問要去哪一家。",
+        "A 選第一家並以口渴作理由，正好對應飲料店。"
+      ],
+      "pitfall": "the first one 的指涉取決於前文排列順序，不能只看到 sandwich 就改選點餐句。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-16",
+      "section": "listening-dialogues",
+      "label": "第 16 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "喜好與預算限制",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿中的女子雖喜歡藍筆，但它要六十元，而她只有五十元。",
+        "黑筆的價格是五十元，符合她的預算，最後也同意購買，因此選 B。"
+      ],
+      "pitfall": "問題問最後買哪一枝，不是最先喜歡哪一枝。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-17",
+      "section": "listening-dialogues",
+      "label": "第 17 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "由習慣推知行為原因",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Cindy 通常到午夜才睡，需要咖啡提神。",
+        "她喝咖啡的原因是晚睡，故選 A；另一人反而提醒這樣不利身體。"
+      ],
+      "pitfall": "文中出現健康提醒，不代表喝咖啡是為了促進健康。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-18",
+      "section": "listening-dialogues",
+      "label": "第 18 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "外帶餐點與總金額",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿點了披薩與茶，並明確選擇外帶。",
+        "總價五百九十元可概括為大約六百元，故 C 正確；A 的內用與 B 的沒點飲料都不符。"
+      ],
+      "pitfall": "about 表示約數，五百九十可視為約六百，不必要求完全相等。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-19",
+      "section": "listening-dialogues",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "畫作名稱與色彩描述",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿描述第一幅畫時，列出粉紅房間與黑色椅子兩種顏色。",
+        "這幅畫是 Polly’s Bedroom，對應 A；第二幅使用許多暗色，第三幅以亮黃為主。"
+      ],
+      "pitfall": "應將顏色資訊連回同一幅畫，不要只因夜景常有深色就自行推斷兩種顏色。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-20",
+      "section": "listening-dialogues",
+      "label": "第 20 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "比較餐費是否超過預算",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿列出漢堡一百元、蛋糕每片七十元、奶茶每杯三十元，預算共三百元。",
+        "B 的總價為 2×100＋3×30＝290 元，沒有超支。",
+        "A 為 100＋3×70＝310 元；C 為 4×70＋30＝310 元，都超過預算。"
+      ],
+      "pitfall": "三百元是兩人合計的可用金額，不是每人各有三百元。",
+      "note": "僅依紙本聽力稿與答案核對，未取得原始音檔；圖片題另已目視核對原卷選項，尚未驗證實際播音。"
+    },
+    {
+      "id": "english-r2-21",
+      "section": "vocabulary-grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "生日餐桌的圖像",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖片中央是一個裝飾水果的大蛋糕，對應 C。",
+        "其他物品是罐裝飲料、漢堡與碗裝食物，與其餘選項所說的容器或食物種類不符。"
+      ],
+      "pitfall": "bottle 與 can、hot dog 與 hamburger 都要分清楚，不能只看輪廓或數量。"
+    },
+    {
+      "id": "english-r2-22",
+      "section": "vocabulary-grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "稍後碰面的表達",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Wendy 需要先吃午餐，表示碰面時間會往後延。",
+        "later 表示稍後，能接在道別語中表達待會見，因此選 D。"
+      ],
+      "pitfall": "last 是最後或上一個，不能直接取代 later 的稍後之意。"
+    },
+    {
+      "id": "english-r2-23",
+      "section": "vocabulary-grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "從自然景物推知地點",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "句中提到夜晚沒有雲、星星明亮，這些景物都出現在天空。",
+        "sky 表示天空，選 A；street、thing、glass 無法涵蓋這組線索。"
+      ],
+      "pitfall": "不要單看 look at 可以接很多名詞，後續的雲與星星才是判斷依據。"
+    },
+    {
+      "id": "english-r2-24",
+      "section": "vocabulary-grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "湯的味道與調味料",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "喝湯後急著喝水，爸爸又承認某種調味料放得太多，語境暗示湯太鹹。",
+        "salt 是鹽，最能解釋這個結果，因此選 B。"
+      ],
+      "pitfall": "sweet 在此是形容詞；即使糖也可調味，也應優先符合太鹹而想喝水的情境。"
+    },
+    {
+      "id": "english-r2-25",
+      "section": "vocabulary-grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "清洗餐具的設備",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "句子要求把髒盤子和碗集中，稍後要清洗。",
+        "sink 是能放入餐具並洗滌的水槽，選 A；faucet 只指水龍頭。"
+      ],
+      "pitfall": "水槽和水龍頭常一起出現，但能把盤碗放進去的是水槽。"
+    },
+    {
+      "id": "english-r2-26",
+      "section": "vocabulary-grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "請專業人員到場",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "有人在街上打架，需要請警方前來處理。",
+        "call in 可表示請來、召來，接警察能完成句意，選 D。"
+      ],
+      "pitfall": "put on 是穿戴，turn into 是變成，不能拿來表示通知警方到場。"
+    },
+    {
+      "id": "english-r2-27",
+      "section": "vocabulary-grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "代為取得材料",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "家裡缺麵粉，而媽媽說可以從商店幫忙取得一些。",
+        "get 表示取得或買到，符合從商店補足材料的情境，選 A。"
+      ],
+      "pitfall": "treat 常表示請客或對待，不能直接代替本句的取得材料。"
+    },
+    {
+      "id": "english-r2-28",
+      "section": "vocabulary-grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "遞交餐點的用語",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "店員已報出號碼及餐點，接著顧客說謝謝，顯示正在交付商品。",
+        "Here you are 用在把東西交給對方時，故選 C。"
+      ],
+      "pitfall": "詢問內用外帶或還需要什麼，通常在確認訂單時使用，不能忽略此處的交付線索。"
+    },
+    {
+      "id": "english-r2-29",
+      "section": "vocabulary-grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "提出甜點建議",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "媽媽想要能搭配咖啡的甜食，爸爸應提出適合的點心。",
+        "A 用 How about 提議蛋糕，能引出媽媽贊成這個主意的回答。"
+      ],
+      "pitfall": "with coffee 表示搭配咖啡享用，不是把蛋糕放進咖啡裡。"
+    },
+    {
+      "id": "english-r2-30",
+      "section": "vocabulary-grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "work 的不同詞義",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "原句中的 works 指博物館裡的藝術作品，是可數名詞。",
+        "D 的 work 也表示某位畫家的作品；A 是不可數的工作，B、C 是動詞，故選 D。"
+      ],
+      "pitfall": "比較詞義時也要看詞性；相同拼字並不保證意思相同。"
+    },
+    {
+      "id": "english-r2-31",
+      "section": "vocabulary-grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "可數名詞的數量提問",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "回答先說有三個披薩，表示主要問題在問數量。",
+        "pizza 以複數 pizzas 出現，應使用 How many，選 D。"
+      ],
+      "pitfall": "後面補充單價只是附帶資訊，不能因此把問題改判成問價格。"
+    },
+    {
+      "id": "english-r2-32",
+      "section": "vocabulary-grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "原因與結果的連接",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "人太多是原因，緊張是結果；原因放在後半句時，用 because 引導。",
+        "前半句不需另加連接詞，組成結果＋because＋原因，故選 D。"
+      ],
+      "pitfall": "同一組原因結果不要同時用 because 與 so；也不能把 so 後面接成緊張的原因。"
+    },
+    {
+      "id": "english-r2-33",
+      "section": "vocabulary-grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "each 後的主詞一致",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "Each book 把每一本書各自看作單數主詞。",
+        "great 是形容詞，前面需要單數 be 動詞 is，因此選 C。"
+      ],
+      "pitfall": "後句 them 指多本書，不會改變前句 Each book 的單數文法。"
+    },
+    {
+      "id": "english-r2-34",
+      "section": "vocabulary-grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "物質與容器單位的單複數",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目第一個空格後已經印有 is there，因此要接不可數的 milk，用 How much milk。",
+        "回答以 three glasses 為主詞，數量是三杯，be 動詞須用 are；兩格合看選 C。"
+      ],
+      "pitfall": "牛奶不可數不代表容器也不可數；glasses 是複數量詞單位。"
+    },
+    {
+      "id": "english-r2-35",
+      "section": "vocabulary-grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "選擇問句中的食物形式",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "詢問想要哪種食物時，pizza 與 cake 都可作泛指食物的不可數用法。",
+        "B 的兩項形式相配；A 的 cookie、C 的 sandwich 是未加冠詞的可數單數，D 的 any 不合此處肯定選擇語境。"
+      ],
+      "pitfall": "披薩或蛋糕談份數時可數，泛指食物種類時則不一定要加 a 或 s。"
+    },
+    {
+      "id": "english-r2-36",
+      "section": "vocabulary-grammar",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "受詞代名詞與替代名詞",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "第一格指前面全部的 pictures，且位在 paints 後，應用複數受詞 them。",
+        "第二格指其中一幅較小的畫，後句 It’s 也表明單數，因此用 one，選 C。"
+      ],
+      "pitfall": "them 指已提到的特定事物；one 代替同類中的一件，兩者功能不同。"
+    },
+    {
+      "id": "english-r2-37",
+      "section": "vocabulary-grammar",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "容器搭配與可食點心",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "four boxes of 後可接複數可數名詞或不可數名詞，但爸爸提醒不要一次吃太多，情境在談可直接吃的點心。",
+        "cookies 既是複數也符合盒裝點心，選 D；snack 作可數單數時缺乏適當限定，糖或麵粉則不切合這段對話。"
+      ],
+      "pitfall": "不可只因 sugar、flour 是不可數名詞就判定合適，還要對照吃點心的情境。"
+    },
+    {
+      "id": "english-r2-38",
+      "section": "vocabulary-grammar",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "不可數名詞的疑問與少量",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "一般詢問家裡是否有牛奶，可用 any 修飾不可數名詞 milk。",
+        "回答肯定有，但只剩一點，使用 a little，故選 A。"
+      ],
+      "pitfall": "one 通常替代單數可數名詞，不能直接表示少量牛奶。"
+    },
+    {
+      "id": "english-r2-39",
+      "section": "vocabulary-grammar",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "存在句與複數省略",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "談的是廚房裡現有六顆蘋果，應用 There be 表示某處有。",
+        "six 省略了前文的 apples，仍屬複數，所以用 There are，選 B。"
+      ],
+      "pitfall": "不要使用 There have；蘋果複數也不能接 There is。"
+    },
+    {
+      "id": "english-r2-40",
+      "section": "vocabulary-grammar",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "一般動詞問句與飲料名稱",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "sisters 為複數，like 是一般動詞，疑問句要以 do 提問。",
+        "橙汁的名稱是 orange juice，其中 orange 作名詞修飾語，通常用單數，故選 D。"
+      ],
+      "pitfall": "What are … like 問特徵；本題是在問喜歡什麼飲品。"
+    },
+    {
+      "id": "english-r2-41",
+      "section": "cloze",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "從婉拒理由反推提議",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Jonathan 說目前不需要，因為修理簡單、自己就能完成，表示他在婉拒找外援。",
+        "B 提議先請水管工，能自然承接這個回答，因此選 B。"
+      ],
+      "pitfall": "不要只因前文提到水龍頭就選是否仍漏水；後句是在解釋不必請人的原因。"
+    },
+    {
+      "id": "english-r2-42",
+      "section": "cloze",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "兩件指定工具的代名詞",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "前文列出扳手與螺絲起子，合起來是兩件指定工具。",
+        "把這兩件工具遞過去，受詞應用 them，選 C。"
+      ],
+      "pitfall": "ones 可替代同類工具，但此處回指前面明確指定的兩件，應使用 them。"
+    },
+    {
+      "id": "english-r2-43",
+      "section": "cloze",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "量測長度的工具",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "下一個步驟是在木板上每隔三十公分作記號，需要先量出距離。",
+        "tape measure 是捲尺，能完成量測，選 A；鋸子與釘子則用於後續切割和組裝。"
+      ],
+      "pitfall": "工具選擇須對應正在進行的步驟，不要選後面才需要的錘子。"
+    },
+    {
+      "id": "english-r2-44",
+      "section": "cloze",
+      "label": "第 44 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "甜食誘惑的轉折",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前半說甜食未必有益身體，後半卻說難以拒絕，兩者形成轉折。",
+        "but 可以連結這種明知不利仍想吃的對比，因此選 A。"
+      ],
+      "pitfall": "so 表因果，會把難以拒絕錯寫成有害的直接結果。"
+    },
+    {
+      "id": "english-r2-45",
+      "section": "cloze",
+      "label": "第 45 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "依因果鏈補足行為",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "本文先說愉快感消退，接著大腦再次要求糖，空格應接回想吃甜食。",
+        "D 能連到後句越來越喜歡糖的發展，因此最符合段落次序。"
+      ],
+      "pitfall": "不能只挑文中出現過的多巴胺或快樂，而忽略空格位於再次索糖之後。"
+    },
+    {
+      "id": "english-r2-46",
+      "section": "cloze",
+      "label": "第 46 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "從少量到大量的變化",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "空格兩端分別是小片蛋糕與大袋巧克力，後面又強調需求增加。",
+        "From … to … 表示從一端到另一端，最能表達份量逐漸擴大，選 A。"
+      ],
+      "pitfall": "本題兩個空格共用一組介系詞結構，不能各自孤立選字。"
+    },
+    {
+      "id": "english-r2-47",
+      "section": "reading",
+      "label": "第 47 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "文章段落順序",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文章先介紹節慶整體，再說代表動物，接著比較彩蛋，最後談天氣與活動。",
+        "對照筆記代號依次為 c、d、b、a，因此選 D。"
+      ],
+      "pitfall": "題目要依文章組織排序，不是把自己覺得最重要的主題放第一。"
+    },
+    {
+      "id": "english-r2-48",
+      "section": "reading",
+      "label": "第 48 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "季節線索與代表動物",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "描述提到復活節不在春天、天氣轉冷並到樹林活動，對應本文介紹的澳洲。",
+        "本文說澳洲使用長耳、尖鼻的 bilby 作代表；C 圖符合這些外形特徵。"
+      ],
+      "pitfall": "兔子也有長耳，但 bilby 的尖長鼻與尾巴有助於區分 C、D。"
+    },
+    {
+      "id": "english-r2-49",
+      "section": "reading",
+      "label": "第 49 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "原價、套餐與整份食物",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "星期日中午十二點半尚未進入特價時段，糖果每袋三十元，整個披薩四百元。",
+        "D 把整個披薩說成可與糖果合購九十元；實際為 30＋400＝430 元，九十元只能買一袋糖果加一片披薩。",
+        "A 的四支冰淇淋依買三送一為 3×50＝150 元；B 的盒裝炸雞一百三十五元與 C 的套餐二百六十元均有海報依據。"
+      ],
+      "pitfall": "a pizza 與 a pizza slice 不同，價目表中的整份與單片不能混用。"
+    },
+    {
+      "id": "english-r2-50",
+      "section": "reading",
+      "label": "第 50 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "比較特價與套餐",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "下午兩點在一點到三點的特價時段內，單點炸雞、披薩片與果汁分別為四十五、五十、二十五元。",
+        "相加 45＋50＋25＝120 元，比 Meal A 的一百三十元便宜，因此選 B。"
+      ],
+      "pitfall": "海報要求在特價與套餐間選較便宜的方案，不能再把兩種優惠疊加。"
+    },
+    {
+      "id": "english-r2-51",
+      "section": "reading",
+      "label": "第 51 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "營業時間與活動優惠",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Super Meal 提供冰淇淋買三送一，海報沒有把它限定在特價時段，因此營業時間內可以使用，選 B。",
+        "星期日三點就結束；早上果汁加披薩片為 30＋60＝90 元；特價時段一點到三點共兩小時，其餘選項都不符。"
+      ],
+      "pitfall": "any time 應在活動營業時間內理解，不代表店面關閉後仍可購買。"
+    },
+    {
+      "id": "english-r2-52",
+      "section": "reading",
+      "label": "第 52 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "減少糖攝取的生活做法",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章所說的小改變，是把高糖食物或飲料換成較少糖的選擇。",
+        "常喝水能回應這個方向，故選 C；檢查牙齒或早起並不直接減少飲食中的糖。"
+      ],
+      "pitfall": "這是依文意選替代行為，不是把任何健康習慣都當成正確答案。"
+    },
+    {
+      "id": "english-r2-53",
+      "section": "reading",
+      "label": "第 53 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "把握文章的限制語氣",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文章承認甜食有使人愉快等作用，接著指出問題在攝取過量。",
+        "D 表示可以吃糖但不宜過多，同時保留兩方面觀點，因此最符合作者意思。"
+      ],
+      "pitfall": "不能把「過量不利」擴大成「完全不能吃」或「任何甜食都一定有害」。"
+    },
+    {
+      "id": "english-r2-54",
+      "section": "reading",
+      "label": "第 54 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "依文中標準比較糖量",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "按本文提供的數值，媽媽喝兩瓶運動飲料共 2×4＝8 茶匙，高於文中女性每天六茶匙的比較標準。",
+        "爺爺三碗冰淇淋為九茶匙，等於文中的男性數值；爸爸一杯米漿六茶匙低於九茶匙；奶奶與友人分飲一杯七茶匙奶昔，按一般平均分飲理解為三點五茶匙。",
+        "在題目給定的選項與分飲情境下，明確超過對應數值的是 D。"
+      ],
+      "pitfall": "依本篇的數字完成閱讀題即可；不要把文中簡化數值當成個人飲食處方，也不要把等於誤算為超過。"
+    },
+    {
+      "id": "english-r2-55",
+      "section": "translation",
+      "label": "第 55 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "退後的動詞片語",
+      "answer": "back off",
+      "officialAnswer": "back off",
+      "status": "verified",
+      "steps": [
+        "題目要求的是表示退後或走開的片語，核心動詞用 back。",
+        "加上副詞 off 組成 back off，兩字分開書寫。"
+      ],
+      "pitfall": "不要只寫 back；這題特別要求片語。"
+    },
+    {
+      "id": "english-r2-56",
+      "section": "translation",
+      "label": "第 56 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "零食名稱的拼字",
+      "answer": "popcorn",
+      "officialAnswer": "popcorn",
+      "status": "verified",
+      "steps": [
+        "爆米花的英文是 popcorn，為一個字。",
+        "作食物名稱時通常視為不可數名詞，單字翻譯直接寫原形即可。"
+      ],
+      "pitfall": "不要在 pop 與 corn 中間加空格，也不要無故加 s。"
+    },
+    {
+      "id": "english-r2-57",
+      "section": "translation",
+      "label": "第 57 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "烘烤動作的字彙",
+      "answer": "toast",
+      "officialAnswer": "toast",
+      "status": "verified",
+      "steps": [
+        "提示同時包含烤吐司與烘烤，對應可作動詞的 toast。",
+        "寫出原形 toast 即可；它也能作名詞表示吐司，不需為兩種詞性分寫兩個字。"
+      ],
+      "pitfall": "不要漏掉中間的 a；toaster 則指烤麵包機。"
+    },
+    {
+      "id": "english-r2-58",
+      "section": "translation",
+      "label": "第 58 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "店員的職業名稱",
+      "answer": "clerk",
+      "officialAnswer": "clerk",
+      "status": "verified",
+      "steps": [
+        "指在店裡服務或處理事務的人，可用 clerk。",
+        "本題要單字原形，因此不加複數 s，也不必自行補冠詞。"
+      ],
+      "pitfall": "clerk 的字尾是 -erk，注意不要與 clock 混淆。"
+    },
+    {
+      "id": "english-r2-59",
+      "section": "translation",
+      "label": "第 59 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "創造的動詞原形",
+      "answer": "create",
+      "officialAnswer": "create",
+      "status": "verified",
+      "steps": [
+        "中文提示要求創造的動作，對應 create。",
+        "使用動詞原形並保留字尾 e；名詞 creation 不符合此處詞性。"
+      ],
+      "pitfall": "不要因讀音分節而漏掉 ea，亦不要把動詞改成名詞。"
+    },
+    {
+      "id": "english-r2-60",
+      "section": "translation",
+      "label": "第 60 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "罐裝容器的名詞",
+      "answer": "can",
+      "officialAnswer": "can",
+      "status": "verified",
+      "steps": [
+        "題目指的是裝飲料或食物的罐子，名詞為 can。",
+        "單字翻譯採原形即可；它在別的句子中也可作助動詞，但此處是容器名稱。"
+      ],
+      "pitfall": "同一拼字可有不同詞性，不要因常見的「能夠」意思而排除名詞用法。"
+    },
+    {
+      "id": "english-r2-61",
+      "section": "translation",
+      "label": "第 61 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "節日日期的介系詞",
+      "answer": "Easter falls on a different date in March or April every year.",
+      "officialAnswer": "Easter falls on / a different date / in March or April every year.",
+      "status": "verified",
+      "steps": [
+        "以 Easter 為主詞，描述每年的慣常情況，用一般現在式 falls。",
+        "具體日期前使用 on；月份前使用 in，再以 or 連接兩個月份。",
+        "把每年放在句尾，可完整保留日期隨年份變動的意思。"
+      ],
+      "pitfall": "主詞為單數須寫 falls；不要混用日期的 on 與月份的 in。"
+    },
+    {
+      "id": "english-r2-62",
+      "section": "translation",
+      "label": "第 62 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "名稱揭示作品的兩個部分",
+      "answer": "The name shows two important parts of the painting, the coffee shop and the night sky.",
+      "officialAnswer": "The name shows / two important parts of the painting, / the coffee shop and the night sky.",
+      "status": "verified",
+      "steps": [
+        "主詞是單數的名稱，所以用 shows；兩個部分則使用複數 parts。",
+        "以 of the painting 說明這些部分屬於該畫作。",
+        "逗點後列出咖啡店與夜空，作為前面兩部分的具體內容。"
+      ],
+      "pitfall": "兩個部分要用 parts；列舉的兩個名詞片語應以 and 連接。"
+    },
+    {
+      "id": "english-r2-63",
+      "section": "translation",
+      "label": "第 63 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "進行中的製作與材料需求",
+      "answer": "Grandma is making a big sweet pie, so she needs three bags of flour.",
+      "officialAnswer": "Grandma is making a big sweet pie, / so she needs / three bags of flour.",
+      "status": "verified",
+      "steps": [
+        "奶奶正在製作甜派，使用現在進行式 is making。",
+        "後半是因此產生的需求，以 so 連接；she 是單數，需求動詞用 needs。",
+        "麵粉不可數，三袋應把複數加在 bags 上，寫 three bags of flour。"
+      ],
+      "pitfall": "need 在這裡表示需求，用 needs；不要把 flour 誤加成 flours。"
+    }
+  ]
+}

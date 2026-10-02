@@ -1,0 +1,930 @@
+{
+  "schema": 1,
+  "sourceId": "1wzSlzGsc6jieQaOUSbLH4EI1qoao0wdy",
+  "sourceSha256": "6e0c165c71959cb91456ff70f545abafc496f63846f654db1166c90a395742de",
+  "title": "114-2七年級生物科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "已逐題完成第 1～50 題原創解析，視覺核對全部 6 個 PDF 實體頁及解答。45 題推理與答案已核對；第 23、24、30 題標示來源敘述爭議；第 46、47 題的保育概念可判答，但共用段落的魚卵低溫保存庫史實尚缺可追溯證據，標為有限度核對。此為 114 學年度第二學期第三次段考歷史試卷，不代表全部生物教材或所有歷屆試卷皆已完成。",
+  "sections": [
+    {
+      "id": "single-choice",
+      "title": "一、單一選擇題（1～50）"
+    }
+  ],
+  "items": [
+    {
+      "id": "biology-r3-1",
+      "section": "single-choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "族群依物種計數",
+      "answer": "A（6 個族群）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "族群是在特定時間、地點生活的同種生物個體集合，不以個體隻數或株數計算族群數。",
+        "題目列出兩種動物及四種水草，依題意每種各為一個族群，共 2＋4＝6 個。"
+      ],
+      "pitfall": "五條魚不是五個族群；相同物種的多個個體合為同一族群。"
+    },
+    {
+      "id": "biology-r3-2",
+      "section": "single-choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "繁殖潛力與加速成長曲線",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "表中黃魚鴞每年一窩、每窩兩顆蛋；草鴞每年一至兩窩、每窩三至六顆，草鴞具有較高的產卵潛力。",
+        "依題目理想資源條件，並以其他影響成長條件相近來比較，草鴞應呈現較快的加速成長。",
+        "圖例中虛線為黃魚鴞、實線為草鴞；B 顯示實線上升較快，且兩者從相近的初始數量比較。"
+      ],
+      "pitfall": "先讀清實線、虛線代表哪一種；產卵數也不能在現實調查中直接等同存活個體數。"
+    },
+    {
+      "id": "biology-r3-3",
+      "section": "single-choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "超過環境負荷量的後果",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "環境負荷量表示既定條件與資源下，可長期支持的族群規模。",
+        "族群超過這個規模時，每個個體可分得的有限資源往往減少，競爭加劇，可能使死亡率上升，所以選 C。"
+      ],
+      "pitfall": "個體增加不會自動讓食物和棲地等資源同步增加。"
+    },
+    {
+      "id": "biology-r3-4",
+      "section": "single-choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "樣區平均密度估算",
+      "answer": "A（約 1,000 棵）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "五個樣區合計 8＋12＋10＋7＋13＝50 棵，調查面積為 5 平方公尺。",
+        "平均密度＝50÷5＝每平方公尺 10 棵；乘整片 100 平方公尺，估計 10×100＝1,000 棵。"
+      ],
+      "pitfall": "必須先除以實際取樣面積，不能直接把五個樣區總數乘以總面積。"
+    },
+    {
+      "id": "biology-r3-5",
+      "section": "single-choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "演替中的生物與環境互動",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "群集組成隨時間改變稱為演替，生物生長、遺體累積與遮蔭等活動可改變土壤和光照條件。",
+        "改變後的環境又影響哪些生物能建立族群，因此是生物與環境相互作用的過程，符合 D。"
+      ],
+      "pitfall": "演替不是不受環境影響的固定換班表；實際路徑會受擾動及當地條件影響。"
+    },
+    {
+      "id": "biology-r3-6",
+      "section": "single-choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "同一族群的必要條件",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "同一族群的成員必須是同一物種，且共同生活於特定時空範圍。",
+        "因此把甲、乙說成不同物種不合理；共享天敵、競爭資源或參與繁殖，則可能發生於同一族群。"
+      ],
+      "pitfall": "群集才包含多個不同物種的族群，不能與族群混用。"
+    },
+    {
+      "id": "biology-r3-7",
+      "section": "single-choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "捉放法的比例估算",
+      "answer": "A（約 650 隻）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "假設標記個體已均勻混入族群，第二次捕獲中有標記的比例 20÷130，可估計全族群中標記比例 100÷N。",
+        "令 100÷N＝20÷130，解得 N＝100×130÷20＝650 隻。"
+      ],
+      "pitfall": "20 隻是第二次樣本內的標記數；此估算還仰賴調查期間族群大致封閉、標記不脫落等前提。"
+    },
+    {
+      "id": "biology-r3-8",
+      "section": "single-choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "競爭與掠食可同時存在",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "兩種鳥利用相似食物與巢位，當這些資源有限時會形成競爭。",
+        "白尾八哥取食麻雀雛鳥又是掠食；同一對物種可依情境呈現不只一種交互作用，所以選 C。"
+      ],
+      "pitfall": "交互作用的分類不是每對物種只能貼上一種標籤。"
+    },
+    {
+      "id": "biology-r3-9",
+      "section": "single-choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "以鴨攝食螺類進行防治",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "鴨子取食福壽螺，兩者之間是掠食關係。",
+        "利用這個生物交互作用控制危害作物的螺類，屬生物防治，因此 A 同時配對兩個概念。"
+      ],
+      "pitfall": "排泄物可影響養分循環，但本題選項的關鍵是取食害物所形成的控制作用。"
+    },
+    {
+      "id": "biology-r3-10",
+      "section": "single-choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "分解者減少對循環的影響",
+      "answer": "B（甲、乙、丙）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "分解者減少，枯枝落葉的分解速度可能降低，使遺體累積，也減少可重新供植物利用的無機養分。",
+        "因此甲、乙、丙合理；只要有可光合作用的生產者與適當條件，太陽能仍可進入生態系，丁過度推論。"
+      ],
+      "pitfall": "分解者主要協助物質回到可利用狀態，並不是太陽光進入生態系的唯一入口。"
+    },
+    {
+      "id": "biology-r3-11",
+      "section": "single-choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "由生理作用推定營養角色",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲能呼吸也能光合作用，可利用光能製造有機物，在此表格中應判為生產者。",
+        "乙能呼吸卻不能光合作用，可能以其他生物或其產物為食，因此可以是次級消費者；D 使用「可能」最合理。"
+      ],
+      "pitfall": "生產者也進行呼吸；不能把能呼吸的生物一律判成消費者。"
+    },
+    {
+      "id": "biology-r3-12",
+      "section": "single-choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "多條能量路徑的緩衝作用",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甲區只給出一條由草經蚱蜢、青蛙到蛇的路徑，蚱蜢減少會直接削弱往後的食物供應。",
+        "乙區具有多種草食者和可替代的捕食路徑，能在一定程度上分散影響，因此甲區較容易受衝擊。"
+      ],
+      "pitfall": "食物網較複雜可能提供緩衝，不代表其中任何物種減少都完全沒有影響。"
+    },
+    {
+      "id": "biology-r3-13",
+      "section": "single-choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "物質循環與能量單向流動",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "分解作用把生物遺體中的物質轉成可再利用的形式，有助於土壤養分回到植物。",
+        "能量在生物代謝中逐步轉成熱而散失，不會靠分解者回到起點反覆循環，因此 C 正確。"
+      ],
+      "pitfall": "同一句「回到環境」不能直接套用成物質與能量都可完整循環。"
+    },
+    {
+      "id": "biology-r3-14",
+      "section": "single-choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "分解者跨越多個營養階層",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "分解者能利用植物、草食動物、肉食動物等不同階層的遺體及排遺。",
+        "其食物來源橫跨多層，難固定放在一個消費者階層；省略固定層位不代表它們不參與能量流動。"
+      ],
+      "pitfall": "分解者同樣需要能量並進行代謝，不能說它們只處理物質而不涉及能量。"
+    },
+    {
+      "id": "biology-r3-15",
+      "section": "single-choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "草原的降雨與植物型態",
+      "answer": "D（就四個選項比較）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "一般草原的降雨條件較沙漠濕潤、又不足以普遍支持密集森林，草本植物因而占優勢。",
+        "非洲草原並非終年嚴寒，草類可由地下部位恢復生長，物種豐富程度也不能說高於所有熱帶雨林，因此 D 最合理。"
+      ],
+      "pitfall": "草原以草本為主，不等於完全沒有高大樹木；稀樹草原仍可分布喬木。",
+      "note": "D 的「不適合高大樹木生長」應理解為不利高大樹木形成連續、密集的森林，不能當作草原絕無喬木的定義。"
+    },
+    {
+      "id": "biology-r3-16",
+      "section": "single-choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "河流中的生產與碎屑食物",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "流水會影響生物附著、植物分布與含氧狀況，不能概括成所有河段都流速慢、溶氧低。",
+        "附著性藻類以及河岸落入的植物碎屑，可提供河流初級消費者或碎屑食者食物，符合 D。"
+      ],
+      "pitfall": "浮游藻類不是以「聚集在河底」為定義；不同河段的流速與光照也有差異。"
+    },
+    {
+      "id": "biology-r3-17",
+      "section": "single-choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "招潮蟹在碎屑食物鏈的角色",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題示能量先由紅樹林植物進入枯枝落葉與有機碎屑，再被招潮蟹攝食。",
+        "魚類與水鳥再取得來自下層的能量，所以招潮蟹是把碎屑中的能量傳往較高消費階層的動物。"
+      ],
+      "pitfall": "攝食碎屑不等於能把所有有機物完全分解成無機物；也不會因此成為生產者。"
+    },
+    {
+      "id": "biology-r3-18",
+      "section": "single-choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "利用天敵控制害蟲",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "生物防治可利用天敵與害蟲間的生物交互作用，將害蟲數量壓低。",
+        "四個選項中，掠食者捕食害蟲直接符合這個目的；寄生若要防治，也應降低而非提高害蟲繁殖，所以選 D。"
+      ],
+      "pitfall": "生物防治不限掠食一種方式，但此題只有 D 的作用方向與防治目的相符。"
+    },
+    {
+      "id": "biology-r3-19",
+      "section": "single-choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "人工魚礁與淺海環境",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "藻類需要光照，多數造礁珊瑚也適應可獲得日照的海域；人工礁可增加附著面與躲藏空間。",
+        "四個環境之中，淺海最能同時符合這些生物的典型需求，因此選 C。"
+      ],
+      "pitfall": "增加魚類棲息空間還要考慮光線、水深與附著生物，不能只看水域有沒有魚。"
+    },
+    {
+      "id": "biology-r3-20",
+      "section": "single-choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "營養階層間可用能量減少",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "表中從植物到草食昆蟲、食蟲鳥與猛禽，所支持的個體數逐層減少。",
+        "食物能量不會完整傳到下一層，部分留在未被吃掉或未被同化的物質中，也有部分經代謝散成熱，因此 D 最符合能量流動。"
+      ],
+      "pitfall": "個體數表格不能單獨證明壽命或繁殖速率「一定」如何；也不能把數量直接當成精確能量值。"
+    },
+    {
+      "id": "biology-r3-21",
+      "section": "single-choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "蜜蜂的授粉服務",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "蜜蜂在訪花取食時可傳遞花粉，協助許多作物受精、結實或增加產量。",
+        "若蜜蜂大量減少，授粉服務可能不足，影響相關作物生產，因此 B 是最直接的生活衝擊。"
+      ],
+      "pitfall": "授粉者減少不等於所有作物完全無法授粉；實際影響還依作物及其他授粉途徑而異。",
+      "note": "此處把 B 解讀為授粉不足而減產，不採「蜜蜂消失必使所有所列作物完全不能授粉」的絕對說法。"
+    },
+    {
+      "id": "biology-r3-22",
+      "section": "single-choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "棲地改變與物種減少",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "大片雨林被單一或少數經濟作物取代，原有的林層、食物與繁殖空間會改變。",
+        "多類動物數量下降與棲地破壞相符，最合理推論是生物多樣性可能因此下降，選 C。"
+      ],
+      "pitfall": "增加某一種經濟作物的個體數，不等於增加整個地區的物種多樣性。"
+    },
+    {
+      "id": "biology-r3-23",
+      "section": "single-choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "凍原動物的保溫適應",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "厚皮毛可減少散熱，皮下脂肪也有保溫作用，能幫助哺乳動物在寒冷環境維持體溫。",
+        "凍原的主要植物通常矮小，許多鳥類具有季節性遷徙；B 是四項中合理的適應敘述。",
+        "凍原的永久凍土不等於地表永遠積雪，短暫夏季仍可能融雪與出現植物生長。"
+      ],
+      "pitfall": "不要把「永久凍土」與「終年覆雪」視為同義。",
+      "note": "B 的答案可確認，但題幹把凍原概括為地表終年有雪並不正確。國家公園生態資料明確描述凍原短夏的融雪與生長季；本題保留官方 B 並校正前提。"
+    },
+    {
+      "id": "biology-r3-24",
+      "section": "single-choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "碳足跡標示的完整意義",
+      "answer": "B 最接近；完整應為生命週期的溫室氣體排放量，以二氧化碳當量表示",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "碳標籤的數字是產品碳足跡，不是商品重量、糖含量或售價，因此四個選項中只有 B 指向排放量。",
+        "完整定義涵蓋所界定生命週期的原料取得、製造、配送銷售、使用及廢棄處理等階段。",
+        "各種溫室氣體的影響需換算為二氧化碳當量；所以 505 g 不能只解讀成製造與運輸排出的二氧化碳本身。"
+      ],
+      "pitfall": "碳足跡中的「碳」不是產品含碳元素的重量，也不只計算工廠排放。",
+      "note": "官方選 B，但 B 漏掉其他生命週期階段，並把二氧化碳當量縮減為二氧化碳量。環境部的產品碳足跡定義較完整，因此 B 只是在所給選項中最接近。"
+    },
+    {
+      "id": "biology-r3-25",
+      "section": "single-choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "優養化與缺氧死亡",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "原圖的溶氧曲線在後段降到最低，表示水中可供魚蝦呼吸的氧最不足。",
+        "大量藻類及有機物的呼吸、分解可消耗氧氣；因此魚蝦最可能在溶氧最低時大量死亡，而非只要營養鹽剛上升就立即死亡。"
+      ],
+      "pitfall": "要沿正確的溶氧曲線判讀；藻類最多的時點不必與缺氧最嚴重的時點相同。"
+    },
+    {
+      "id": "biology-r3-26",
+      "section": "single-choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "深海熱泉的化學合成生產者",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "深海熱泉所在深度缺乏可供光合作用的陽光，但部分微生物可利用硫化物等化學反應釋放的能量。",
+        "這些化學合成生產者製造有機物，支持當地食物網，因此其基礎能量來源與常見光合生態系不同，選 C。"
+      ],
+      "pitfall": "熱泉很熱不代表動物可直接用熱取代食物；化學能也不等於熱能。"
+    },
+    {
+      "id": "biology-r3-27",
+      "section": "single-choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "物種內的遺傳差異",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "遺傳多樣性關心同一物種或族群內的基因差異，物種多樣性則關心不同物種的組成。",
+        "A 比較同種蝴蝶個體間花紋的差異，比物種數或棲地種類的改變更接近遺傳多樣性的層次。"
+      ],
+      "pitfall": "花紋差異若要當作遺傳差異的證據，仍需排除環境影響；不能只看到外觀改變就完全確定基因改變。"
+    },
+    {
+      "id": "biology-r3-28",
+      "section": "single-choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "低遺傳多樣性與疾病衝擊",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "若族群成員的基因高度相似，對同一病原的易感性可能也較相似。",
+        "遇到致命感染時，缺乏有抵抗力個體可能使整個族群遭受嚴重損失，甚至消失；因此 B 描述的是可能風險。"
+      ],
+      "pitfall": "個體不會因需要而自動演化出有利基因；基因相似也不代表滅絕一定發生。"
+    },
+    {
+      "id": "biology-r3-29",
+      "section": "single-choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "單一樹種林與生態穩定性",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "把原始森林改成單一樹種林，會減少植物種類及可供其他生物利用的多樣棲地。",
+        "食物網與替代資源路徑往往變少，遭遇病蟲害或環境變動時較易受共同衝擊，因此生態系可能較不穩定。"
+      ],
+      "pitfall": "種了許多棵同種樹，只增加個體數，並不恢復原始森林的物種多樣性。"
+    },
+    {
+      "id": "biology-r3-30",
+      "section": "single-choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "生物資源與藥物研究",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "植物與微生物可提供可研究的化學物質與生理機制，促成藥物或其他技術的發展。",
+        "題目兩個例子的共同重點是醫療與科學研究資源，因此依命題意圖選 D。",
+        "但柳樹的水楊苷等物質與阿斯匹靈的發展有關，不代表能直接從樹皮提煉出阿斯匹靈；後者是經化學合成的乙醯水楊酸。"
+      ],
+      "pitfall": "自然物質啟發藥物研發，不等於最後的藥物就原封不動存在於該生物體內。",
+      "note": "D 的資源價值分類正確；題幹「從柳樹皮提煉阿斯匹靈」的歷史與化學敘述不準確。本解析只校正物質來源，不延伸為用藥建議。"
+    },
+    {
+      "id": "biology-r3-31",
+      "section": "single-choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "以 DDT 濃度判讀食物鏈",
+      "answer": "B（丁為生產者）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "難分解、可累積的污染物，在本題食物鏈模型中會隨營養階層升高而濃縮。",
+        "表中由低到高為丁 0.04、乙 0.2、甲 2.0、丙 20 ppm，因此最合理食物鏈是丁→乙→甲→丙。",
+        "丁在最底層，最可能是生產者；甲則不是最頂端的三級消費者，所以選 B。"
+      ],
+      "pitfall": "食物鏈箭頭由被吃者指向取食者；不要把濃度較高誤當成能量較多。"
+    },
+    {
+      "id": "biology-r3-32",
+      "section": "single-choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "捕撈速度與族群恢復",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "若成熟較晚、有效繁殖補充較慢，族群需要較長時間才補回被捕走的個體。",
+        "長期捕撈量超過補充能力，族群可能持續下降，所以 A 符合題目資訊。"
+      ],
+      "pitfall": "停止捕撈不代表立即恢復；也不能把所有族群下降都歸給單一原因。"
+    },
+    {
+      "id": "biology-r3-33",
+      "section": "single-choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "辨認實驗操作變因",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "研究者刻意讓甲有植物、乙沒有植物，這是兩組之間要比較的條件。",
+        "被刻意改變的條件稱為操作變因；收集的排水量則是觀察結果，屬應變變因。"
+      ],
+      "pitfall": "控制變因是應盡量保持相同的條件，不是實驗者刻意設定為有、無的比較項目。"
+    },
+    {
+      "id": "biology-r3-34",
+      "section": "single-choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "傳統知能與永續利用",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目描述依溪流生物習性安排棲地，讓生物能持續利用與繁殖。",
+        "人們再按需求適度捕撈，使資源利用與後續再生兼顧，符合 C 的永續精神。"
+      ],
+      "pitfall": "永續利用包含使用的節制，並非有技術就能無限制開發。"
+    },
+    {
+      "id": "biology-r3-35",
+      "section": "single-choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "由溫度雨量圖判讀生態系",
+      "answer": "B（針葉林轉為落葉闊葉林）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先以年雨量為橫軸、年均溫為縱軸定位：過去約為（1,800 mm，9℃），落在圖示針葉林區域。",
+        "現在約為（1,900 mm，15℃），移向落葉闊葉林區域；雨量變動小、溫度上升較明顯，對應 B。"
+      ],
+      "pitfall": "不能只看「變暖」就猜沙漠或雨林，必須把雨量與溫度一起定位。"
+    },
+    {
+      "id": "biology-r3-36",
+      "section": "single-choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "自然保育的直接目的",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "保護瀕危物種、維護生態系運作與保存生物多樣性，都是自然保育的直接目標。",
+        "經濟活動可以與保育協調，但提高經濟發展本身不是此題所問的主要保育目的，所以選 B。"
+      ],
+      "pitfall": "保育可能帶來經濟效益，不表示經濟增長就是每項保育工作的首要目的。"
+    },
+    {
+      "id": "biology-r3-37",
+      "section": "single-choice",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "棲地面積與可支持族群",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "在資源品質等環境條件相近時，較大的森林通常提供較多獵物、繁殖場所與領域空間。",
+        "甲區 300 平方公里，比乙區 150、丙區 80 更大，因此通常可支持較大的熊鷹族群，選 C。"
+      ],
+      "pitfall": "面積有影響但不是唯一因素；不能據面積直接推出每個區域的成長速率一定相同或相反。"
+    },
+    {
+      "id": "biology-r3-38",
+      "section": "single-choice",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "食物網中的雙重關係",
+      "answer": "C（麻雀和蝗蟲）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中有玉米直接指向麻雀，也有玉米指向蝗蟲，表示兩者都取食玉米，可能競爭這項資源。",
+        "另有蝗蟲指向麻雀，表示麻雀也取食蝗蟲；兩者因此同時具競爭與掠食關係。"
+      ],
+      "pitfall": "要找出兩種關係各自的箭頭證據，不能只看其中一條捕食箭頭。"
+    },
+    {
+      "id": "biology-r3-39",
+      "section": "single-choice",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "寄生植物不是典型生產者",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "菟絲子藉寄生從宿主取得有機養分，在本課程的營養分類中不能當作一般光合生產者。",
+        "黑黴菌可分解有機物，藍菌可行光合作用；分解者也使物質在生物與非生物環境間轉換，因此錯誤配對是 A。"
+      ],
+      "pitfall": "植物界分類與生態營養角色不是完全相同的分類法，不能把所有植物一律當生產者。"
+    },
+    {
+      "id": "biology-r3-40",
+      "section": "single-choice",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "能量塔的一成傳遞估算",
+      "answer": "B（約 1,000 能量單位）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖示由下而上為植物、鼠、蛇、猛禽，因此蛇在丙層、丁層是以蛇為食的猛禽。",
+        "按本題採用的約一成傳遞估算，丁層約為 10,000×0.1＝1,000 能量單位。"
+      ],
+      "pitfall": "一成是課程估算用的常見近似，不是每個生態系都精確固定為 10%；往上估算要乘而非除以 0.1。"
+    },
+    {
+      "id": "biology-r3-41",
+      "section": "single-choice",
+      "label": "第 41 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "河蚌提供的繁殖庇護",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依文章，魚卵在河蚌體內發育，堅硬外殼及所在空間可減少掠食與水流衝擊。",
+        "這項庇護作用足以解釋育嬰室的比喻；文中沒有河蚌主動餵養或帶領幼魚的證據，所以選 A。"
+      ],
+      "pitfall": "比喻成育嬰室不代表河蚌像親代一樣照顧、餵食小魚。"
+    },
+    {
+      "id": "biology-r3-42",
+      "section": "single-choice",
+      "label": "第 42 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "依雙方利益判定共生模型",
+      "answer": "D（互利共生；依題設）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文章先給出魚卵受到庇護的利益，再假設魚的活動能幫助河蚌取得更多食物。",
+        "在兩方都獲益的前提成立時，最相符的交互作用模型是互利共生。"
+      ],
+      "pitfall": "此題明說以研究屬實為前提；不能只因生物住在一起，就跳過雙方得失的判斷。",
+      "note": "這是條件式閱讀判斷，只確認若雙方都受益則屬互利共生；不將文中未列出的實驗資料視為已獨立證實的野外機制。"
+    },
+    {
+      "id": "biology-r3-43",
+      "section": "single-choice",
+      "label": "第 43 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "繁殖資源減少與族群變化",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依文章的繁殖方式，河蚌提供魚卵發育的重要場所。",
+        "河蚌大量死亡會減少可利用的繁殖庇護，可能降低出生補充，使牛屎鯽族群下降，因此 A 最合理。"
+      ],
+      "pitfall": "失去一種生物不會自動提升多樣性，也不會讓消費者變成能量塔底層的生產者。"
+    },
+    {
+      "id": "biology-r3-44",
+      "section": "single-choice",
+      "label": "第 44 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "公民參與外來種防治",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "不熟悉的外來生物需要辨識與評估，通報相關單位可協助及早了解分布並採取適當處理。",
+        "任意放生、私自引種或餵食，都可能增加外來種建立與擴散的機會，因此 C 最符合責任。"
+      ],
+      "pitfall": "把寵物放到野外不等於回歸牠原有的自然棲地；也不宜自行引入生物解決問題。"
+    },
+    {
+      "id": "biology-r3-45",
+      "section": "single-choice",
+      "label": "第 45 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "移除入侵種的生態目的",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "外來入侵種能建立族群並威脅原生生物，可能透過競爭、攝食與棲地擾動造成壓力。",
+        "減少其數量與影響，是為了維護原生生物多樣性，所以 D 符合生態保育目的。"
+      ],
+      "pitfall": "移除外來入侵種不是為了增加該外來種的遺傳多樣性，也不能直接改變地區氣候。"
+    },
+    {
+      "id": "biology-r3-46",
+      "section": "single-choice",
+      "label": "第 46 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "域內保育保護物種與棲地",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "在原始棲地內維護物種與其生活環境，屬域內保育，第二階段的七家灣溪棲地保護符合這個概念。",
+        "保護完整棲地也能兼顧其他生物、水質等環境條件；禁止捕撈不等同棲地復原，人工繁殖更不以完全取代自然為目的，因此選 B。"
+      ],
+      "pitfall": "域內與域外是依保育場所判別；不能只看到有法律或人工協助就混為生物防治。",
+      "note": "B 的分類推理已核對；但段落聲稱臺灣櫻花鉤吻鮭曾把魚卵送往低溫保存庫，未提供可追溯的計畫或研究。查閱雪霸管理處資料可核實人工繁殖、發眼卵放流及保種研究倡議，尚不能確認題文所寫的魚卵保存庫歷程，故不把整段歷史標為已驗證。"
+    },
+    {
+      "id": "biology-r3-47",
+      "section": "single-choice",
+      "label": "第 47 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "同種不同族群的基因保存",
+      "answer": "C（遺傳多樣性）",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "題目重點是在同一魚種的不同族群之間保留不同基因，關注的是物種內的遺傳差異。",
+        "增加單一基因組成的個體數，不一定增加遺傳多樣性；保存不同來源的遺傳材料才對應 C。"
+      ],
+      "pitfall": "魚的隻數、物種數與基因差異是三個不同量，不能互相替代。",
+      "note": "C 的概念判斷已核對；與第 46 題共用的魚卵低溫保存庫實際案例缺乏可追溯證據。本題只按「保存不同族群的基因」這一題設推理，不證實其特定保存技術已成功實施。"
+    },
+    {
+      "id": "biology-r3-48",
+      "section": "single-choice",
+      "label": "第 48 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "食物鏈箭頭與生產者位置",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "食物鏈箭頭表示有機物與能量由被取食者流向取食者，水稻可供椿象或麻雀取食。",
+        "C 最後畫成麻雀指向水稻，等於說水稻靠取食麻雀獲得有機養分，與題文及一般水稻的生產者角色不符。"
+      ],
+      "pitfall": "麻雀遺體分解後的礦物養分可被植物吸收，仍不能直接畫成麻雀被水稻捕食的食物鏈。"
+    },
+    {
+      "id": "biology-r3-49",
+      "section": "single-choice",
+      "label": "第 49 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "感染與寄生性天敵",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "黑殭菌侵入椿象體內取得養分、繁殖並傷害宿主，屬寄生性的交互作用。",
+        "黑卵蜂幼蟲在椿象卵內取食並使其死亡，是寄生性天敵，兩者都由一方獲益、宿主受害，故 A 最接近。"
+      ],
+      "pitfall": "鳥與椿象同吃水稻主要形成競爭；寄居表面而未取食宿主的附生，也不等同寄生。"
+    },
+    {
+      "id": "biology-r3-50",
+      "section": "single-choice",
+      "label": "第 50 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "農田多樣性與因果推論",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "段落指出長期未施用化學農藥後，田間多樣性逐漸恢復，並保有黑殭菌等天敵，支持 D 的推論。",
+        "圖中 111 年後害蟲密度下降、水稻產量上升，但僅憑這組相反趨勢，不能倒推成產量增加導致害蟲減少。",
+        "文中也明說黑殭菌原本存在，因此 A 與資料矛盾；B 則忽略害蟲危害作物的關係。"
+      ],
+      "pitfall": "相關趨勢不等於已證明因果方向；生物防治成功也不能保證不需其他管理措施。"
+    }
+  ]
+}

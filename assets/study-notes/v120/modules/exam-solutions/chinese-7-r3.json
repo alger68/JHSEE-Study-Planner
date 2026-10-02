@@ -1,0 +1,1242 @@
+{
+  "schema": 1,
+  "sourceId": "1wEFf3z0T-lHSsAfspB1Uhvaib20CNjKo",
+  "sourceSha256": "9a8c1c2552300eaf69f62a04c0b39a2a17c02b2b966a73a420e164b8cea0346b",
+  "title": "114-2七年級國文科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "共收錄65個作答項目：國字注音10題、解釋與摘釋10題、改錯5字、多元思考5格、綜合測驗25題、題組10題。已逐頁檢視PDF第1至9頁；原題在第1至7頁，第8頁為空白作答卷，第9頁才是官方答案。綜合第3題的「曾」字有可使A亦成立的解讀，保留官方C並標示疑義；其餘依字詞、題文、圖表及答案逐項核對。這是114-2七年級第三次段考的歷史試卷詳解。",
+  "sections": [
+    {
+      "id": "characters",
+      "title": "一、國字注音"
+    },
+    {
+      "id": "definitions",
+      "title": "二、解釋、摘釋"
+    },
+    {
+      "id": "corrections",
+      "title": "三、改錯"
+    },
+    {
+      "id": "thinking",
+      "title": "四、多元思考題"
+    },
+    {
+      "id": "general",
+      "title": "五、綜合測驗"
+    },
+    {
+      "id": "reading",
+      "title": "六、題組"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-r3-characters-01",
+      "section": "characters",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "嚴重罪過的用字",
+      "answer": "滔",
+      "officialAnswer": "滔",
+      "status": "verified",
+      "steps": [
+        "先辨認「滔天」以水勢漫天的形象，形容程度極大。",
+        "本題的ㄊㄠ要寫「滔」，不是波濤的濤。"
+      ],
+      "pitfall": "不要因為兩字都帶水部、都與大水相關，就混用滔與濤。"
+    },
+    {
+      "id": "chinese-r3-characters-02",
+      "section": "characters",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "難為情的用字",
+      "answer": "尷",
+      "officialAnswer": "尷",
+      "status": "verified",
+      "steps": [
+        "題目與「尬」組成形容處境窘迫、不自在的固定詞。",
+        "「尷尬」第一字讀ㄍㄢ，應填尷。"
+      ],
+      "pitfall": "不要以同音的干或竿取代筆畫較多的尷。"
+    },
+    {
+      "id": "chinese-r3-characters-03",
+      "section": "characters",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "憂喜共同承擔",
+      "answer": "戚",
+      "officialAnswer": "戚",
+      "status": "verified",
+      "steps": [
+        "休戚與共的休指喜樂，戚指憂愁，合起來表示禍福同當。",
+        "ㄑㄧ在此寫「戚」，與前面的休構成相對的語意。"
+      ],
+      "pitfall": "不要把這裡的戚誤寫為期期艾艾的期。"
+    },
+    {
+      "id": "chinese-r3-characters-04",
+      "section": "characters",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "仿造物的用字",
+      "answer": "贗",
+      "officialAnswer": "贗",
+      "status": "verified",
+      "steps": [
+        "買到的物品如果是假造的，就稱為贗品。",
+        "ㄧㄢˋ應寫「贗」，注意字形下方為貝。"
+      ],
+      "pitfall": "不要寫成真偽查驗的驗；贗是假的，驗是檢查。"
+    },
+    {
+      "id": "chinese-r3-characters-05",
+      "section": "characters",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "刺口的感覺",
+      "answer": "扎",
+      "officialAnswer": "扎",
+      "status": "verified",
+      "steps": [
+        "題目要表達鳳梨入口時的刺痛感，搭配的是扎口。",
+        "依ㄓㄚ的提示應填「扎」，表示刺入、刺痛。"
+      ],
+      "pitfall": "不要把捆紮的紮與此處指定的扎混寫。"
+    },
+    {
+      "id": "chinese-r3-characters-06",
+      "section": "characters",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "身後稱號的字音",
+      "answer": "ㄕˋ",
+      "officialAnswer": "ㄕˋ",
+      "status": "verified",
+      "steps": [
+        "題目指定諡號的「諡」，與後人對逝者的稱號有關。",
+        "「諡」讀ㄕˋ，只有聲母ㄕ與第四聲符號。"
+      ],
+      "pitfall": "不要看右側近似益就讀成ㄧˋ。"
+    },
+    {
+      "id": "chinese-r3-characters-07",
+      "section": "characters",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "賺取收入的字音",
+      "answer": "ㄓㄥˋ",
+      "officialAnswer": "ㄓㄥˋ",
+      "status": "verified",
+      "steps": [
+        "「掙」在掙錢中表示靠勞力或工作取得收入。",
+        "這個用法讀ㄓㄥˋ，要標第四聲。"
+      ],
+      "pitfall": "不要把掙扎中的常用讀音直接套入掙錢。"
+    },
+    {
+      "id": "chinese-r3-characters-08",
+      "section": "characters",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "回溯來源的字音",
+      "answer": "ㄙㄨˋ",
+      "officialAnswer": "ㄙㄨˋ",
+      "status": "verified",
+      "steps": [
+        "追溯是往前追尋來源或經過，題目指定「溯」。",
+        "「溯」讀ㄙㄨˋ，聲母為ㄙ，第四聲。"
+      ],
+      "pitfall": "不要因聲旁朔而讀成ㄕㄨㄛˋ。"
+    },
+    {
+      "id": "chinese-r3-characters-09",
+      "section": "characters",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "纖維的字音",
+      "answer": "ㄒㄧㄢ",
+      "officialAnswer": "ㄒㄧㄢ",
+      "status": "verified",
+      "steps": [
+        "在纖維這個詞中，「纖」不是拉船用纖繩的用法。",
+        "應讀ㄒㄧㄢ，第一聲不另加調號。"
+      ],
+      "pitfall": "多音字須看搭配，不能只依字形選讀音。"
+    },
+    {
+      "id": "chinese-r3-characters-10",
+      "section": "characters",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "步伐不穩的字音",
+      "answer": "ㄌㄧㄤˋ",
+      "officialAnswer": "ㄌㄧㄤˋ",
+      "status": "verified",
+      "steps": [
+        "踉蹌形容走路不穩，題目要標前一字「踉」。",
+        "「踉」讀ㄌㄧㄤˋ，第四聲；中間是注音符號ㄧ。"
+      ],
+      "pitfall": "不要照右側「良」的第二聲讀成ㄌㄧㄤˊ。"
+    },
+    {
+      "id": "chinese-r3-definitions-01",
+      "section": "definitions",
+      "label": "二、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "安然自得",
+      "answer": "安然自得的樣子。",
+      "officialAnswer": "安然自得的樣子",
+      "status": "verified",
+      "steps": [
+        "晏如用來描寫安然、自得的神態。",
+        "放回生活困乏的脈絡，是外在雖貧困，內心仍安定從容。"
+      ],
+      "pitfall": "不要把「晏」按時間晚的意思解成很晚才如此。"
+    },
+    {
+      "id": "chinese-r3-definitions-02",
+      "section": "definitions",
+      "label": "二、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "謙遜退讓",
+      "answer": "謙卑而退讓。",
+      "officialAnswer": "謙卑退讓",
+      "status": "verified",
+      "steps": [
+        "「謙」表示不自滿、不自大。",
+        "再加上抑己退讓的意思，合起來是謙卑退讓。"
+      ],
+      "pitfall": "謙抑不等於自卑到否定一切能力。"
+    },
+    {
+      "id": "chinese-r3-definitions-03",
+      "section": "definitions",
+      "label": "二、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "居室空蕩",
+      "answer": "空蕩蕩的樣子。",
+      "officialAnswer": "空蕩蕩的樣子",
+      "status": "verified",
+      "steps": [
+        "本題承接居室的描寫，蕭然指屋內缺少陳設。",
+        "解釋要寫出空蕩的狀態，才符合五柳先生家境的語境。"
+      ],
+      "pitfall": "不能只寫心情寂寞，漏掉這裡所描寫的居住環境。"
+    },
+    {
+      "id": "chinese-r3-definitions-04",
+      "section": "definitions",
+      "label": "二、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "突兀插入的語句",
+      "answer": "和上下文關聯不大，突然插入的一句話。",
+      "officialAnswer": "與上下文沒什麼關係，突然插進一句話來",
+      "status": "verified",
+      "steps": [
+        "先從天外飛來的比喻掌握突然而來、缺乏連接的感覺。",
+        "本課語境指一句話忽然插入，與前後內容缺少直接關聯。"
+      ],
+      "pitfall": "不要一律解成靈感高妙；這裡著重語句插入的突兀。"
+    },
+    {
+      "id": "chinese-r3-definitions-05",
+      "section": "definitions",
+      "label": "二、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "簡樸衣著",
+      "answer": "粗布製的短衣。",
+      "officialAnswer": "粗布短衣",
+      "status": "verified",
+      "steps": [
+        "短指出衣服的長短，褐在此是粗布衣料。",
+        "合起來應解為粗布短衣，呈現簡陋的衣著。"
+      ],
+      "pitfall": "褐在這裡不是只指衣服呈咖啡色。"
+    },
+    {
+      "id": "chinese-r3-definitions-06",
+      "section": "definitions",
+      "label": "二、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "缺乏歷練的新手",
+      "answer": "比喻剛進入社會，經驗還不足。",
+      "officialAnswer": "比喻初入社會，缺乏歷練",
+      "status": "verified",
+      "steps": [
+        "初出表示剛開始走入新的活動領域。",
+        "成語借離開茅屋的形象，比喻剛入社會、歷練不足。"
+      ],
+      "pitfall": "不要只按字面寫成剛從草屋走出來。"
+    },
+    {
+      "id": "chinese-r3-definitions-07",
+      "section": "definitions",
+      "label": "二、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "主動討人歡心",
+      "answer": "為了討對方歡心，而用心做某些事情。",
+      "officialAnswer": "為討對方歡心而用心做某些事",
+      "status": "verified",
+      "steps": [
+        "先辨認殷勤包含熱心周到的態度。",
+        "獻殷勤還含有讓對方高興、取得好感的目的，解釋需把動機寫出。"
+      ],
+      "pitfall": "只寫很勤勞會漏掉對象與討好目的。"
+    },
+    {
+      "id": "chinese-r3-definitions-08",
+      "section": "definitions",
+      "label": "二、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "出乎意料的發生",
+      "answer": "毫無防備之下，事情突然發生。",
+      "officialAnswer": "毫無防備、突然",
+      "status": "verified",
+      "steps": [
+        "冷不防描述事情來得突然。",
+        "對當事人而言，事前沒有準備或防備，因此兩層意思都應包含。"
+      ],
+      "pitfall": "冷不是氣溫低，不能解成沒有防寒。"
+    },
+    {
+      "id": "chinese-r3-definitions-09",
+      "section": "definitions",
+      "label": "二、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "偏愛某物",
+      "answer": "愛好。",
+      "officialAnswer": "愛好",
+      "status": "verified",
+      "steps": [
+        "性嗜酒說的是本性愛喝酒。",
+        "其中嗜表示愛好，題目只要求這個字的意思。"
+      ],
+      "pitfall": "不要把酒精的性質或飲酒量寫成嗜的字義。"
+    },
+    {
+      "id": "chinese-r3-definitions-10",
+      "section": "definitions",
+      "label": "二、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "帶嘲諷的笑",
+      "answer": "譏笑、嘲諷。",
+      "officialAnswer": "譏笑、嘲諷",
+      "status": "verified",
+      "steps": [
+        "「訕」帶有譏諷、取笑的意思。",
+        "因此訕笑是帶嘲諷意味的笑，不能只說普通微笑。"
+      ],
+      "pitfall": "笑的情感色彩是本題關鍵，不要漏掉貶抑他人的意味。"
+    },
+    {
+      "id": "chinese-r3-corrections-01",
+      "section": "corrections",
+      "label": "三、第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "事情公開",
+      "answer": "揭",
+      "officialAnswer": "揭",
+      "status": "verified",
+      "steps": [
+        "公布隱藏的真相，固定說法是「揭曉」。",
+        "將接改為揭，才能表達把原先不明的事情公開。"
+      ],
+      "pitfall": "不要把接續的接與揭開的揭混淆。"
+    },
+    {
+      "id": "chinese-r3-corrections-02",
+      "section": "corrections",
+      "label": "三、第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "尚未解開的疑問",
+      "answer": "懸",
+      "officialAnswer": "懸",
+      "status": "verified",
+      "steps": [
+        "讓人掛心而尚未解開的問題，稱為「懸念」。",
+        "此處要用有懸掛、未決意味的懸，將旋改正。"
+      ],
+      "pitfall": "旋轉的旋不能表示故事中未揭露的疑點。"
+    },
+    {
+      "id": "chinese-r3-corrections-03",
+      "section": "corrections",
+      "label": "三、第3字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "氣味四散",
+      "answer": "瀰",
+      "officialAnswer": "瀰",
+      "status": "verified",
+      "steps": [
+        "氣味散布在空間裡，應寫「瀰漫」。",
+        "把謎改成水部的瀰，使詞義成為廣泛充滿。"
+      ],
+      "pitfall": "不是猜謎的謎；不能因為故事有懸疑氣氛就保留錯字。"
+    },
+    {
+      "id": "chinese-r3-corrections-04",
+      "section": "corrections",
+      "label": "三、第4字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "真心信服的用字",
+      "answer": "誠",
+      "officialAnswer": "誠",
+      "status": "verified",
+      "steps": [
+        "固定成語為「心悅誠服」，其中誠表示真心。",
+        "將沉改成誠，完成成語的正確字形。"
+      ],
+      "pitfall": "不要把聲音相近的沉、誠視為可互換；本題考的是固定成語用字。"
+    },
+    {
+      "id": "chinese-r3-corrections-05",
+      "section": "corrections",
+      "label": "三、第5字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "風帶著雨",
+      "answer": "挾（也可寫夾）",
+      "officialAnswer": "挾(夾)",
+      "status": "verified",
+      "steps": [
+        "寒風帶著細雨，固定搭配可寫「挾帶」或「夾帶」。",
+        "官方答案同時接受挾與夾，所以將水部的浹改為其中之一。"
+      ],
+      "pitfall": "「浹」與浸透等意思相關，不能代替攜帶的挾或夾。"
+    },
+    {
+      "id": "chinese-r3-thinking-01",
+      "section": "thinking",
+      "label": "四、第1題第1格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "淡泊名利的性格",
+      "answer": "不慕榮利",
+      "officialAnswer": "不慕榮利",
+      "status": "verified",
+      "steps": [
+        "圖中前半提示人物安靜少言，後半要接出他對名利的態度。",
+        "課文原句為「不慕榮利」，正好四字，表示不追求榮耀利益。"
+      ],
+      "pitfall": "題目要求原文四字，不能用白話「不愛名利」取代。"
+    },
+    {
+      "id": "chinese-r3-thinking-02",
+      "section": "thinking",
+      "label": "四、第1題第2格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "贊語的引述人物",
+      "answer": "黔婁之妻",
+      "officialAnswer": "黔婁之妻",
+      "status": "verified",
+      "steps": [
+        "題目引用的話出現在贊語，須辨認說話者而非篇章作者。",
+        "原文寫「黔婁之妻」有言，因此四字答案是黔婁之妻。"
+      ],
+      "pitfall": "不要只填黔婁；此處引述的是他的妻子。"
+    },
+    {
+      "id": "chinese-r3-thinking-03",
+      "section": "thinking",
+      "label": "四、第1題第3格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "上古理想人物的呼應之一",
+      "answer": "無懷氏之民歟",
+      "officialAnswer": "無懷氏之民歟",
+      "status": "verified",
+      "steps": [
+        "圖中要求找回應人物來歷不明的結尾問句。",
+        "第一句原文為「無懷氏之民歟」，含無懷氏、之民與疑問語氣詞，共六字。"
+      ],
+      "pitfall": "不要漏掉歟；它既是原文的一部分，也是題目字數的一部分。"
+    },
+    {
+      "id": "chinese-r3-thinking-04",
+      "section": "thinking",
+      "label": "四、第1題第4格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "上古理想人物的呼應之二",
+      "answer": "葛天氏之民歟",
+      "officialAnswer": "葛天氏之民歟",
+      "status": "verified",
+      "steps": [
+        "結尾另以一位傳說中的上古帝王，再次提出人物彷彿屬於淳樸年代的想像。",
+        "依原文寫「葛天氏之民歟」，與前句形成並列呼應。"
+      ],
+      "pitfall": "不要把葛寫成歌，也不要把兩位帝王合併為一格。"
+    },
+    {
+      "id": "chinese-r3-thinking-05",
+      "section": "thinking",
+      "label": "四、第1題第5格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 9,
+      "topic": "寫作自娛",
+      "answer": "常著文章",
+      "officialAnswer": "常著文章",
+      "status": "verified",
+      "steps": [
+        "圖中已印出自娛，要補的是用什麼方式取樂。",
+        "原文以「常著文章」接自娛，四字寫出經常寫作的生活志趣。"
+      ],
+      "pitfall": "不是常讀文章；閱讀與寫作是課文中的不同生活活動。"
+    },
+    {
+      "id": "chinese-r3-general-01",
+      "section": "general",
+      "label": "五、第1題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "相同字形線索下的讀音",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D的塌讀ㄊㄚ，沓讀ㄊㄚˋ，兩者聲調不同，符合題目要求。",
+        "A的潛、黔皆ㄑㄧㄢˊ，B的盥、冠在本題皆ㄍㄨㄢˋ，C的予、輿在所列詞中皆ㄩˊ。"
+      ],
+      "pitfall": "題目找的是不相同；予取予求的予要依成語用法讀ㄩˊ。"
+    },
+    {
+      "id": "chinese-r3-general-02",
+      "section": "general",
+      "label": "五、第2題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "同音詞的正確用字",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D的有目共睹與先睹為快都用目部的睹，表示看見。",
+        "其他三組分別為疇／仇、嶄／斬、臘／蠟，同音卻不同字，因此選D。"
+      ],
+      "pitfall": "先把完整詞語還原，才有辦法比較字形。"
+    },
+    {
+      "id": "chinese-r3-general-03",
+      "section": "general",
+      "label": "五、第3題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "文言副詞的同義判斷",
+      "answer": "C成立；A按「竟然」義解讀時也可能成立",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "C兩處的輒都表示就、總是如此，能表達某情況一發生便有相應結果，確實同義。",
+        "B前一個焉是句末語氣詞，後一個焉表示怎麼；D的縱分別是放開與南北方向的縱向，不同義。",
+        "但A前句的曾可解為竟、竟然，用以加強否定，後句的曾也有竟然之義；若採此解，A同樣可能成立，不能無條件排除。"
+      ],
+      "pitfall": "不要為了符合單選答案，把曾硬解成表示過去的曾經；也應區分字義與整句否定語氣。",
+      "note": "官方答案為C。教育部《重編國語辭典修訂本》「曾」收「乃、竟然」義，並直接以A後句為例（https://dict.revised.moe.edu.tw/dictView.jsp?ID=9594）。A前句的曾可作加強否定的竟解；若課堂另限定為全然等釋義，須交代其區別。本題未給這項限制，故保留C並標示A的排除疑義。"
+    },
+    {
+      "id": "chinese-r3-general-04",
+      "section": "general",
+      "label": "五、第4題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "偏義複詞的語境判斷",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D在監視屋內時沒有發現動靜，實際是在說沒有任何動作或聲響。",
+        "這裡語意偏重動，靜並未另外表示一種被觀察到的情況，因此為偏義複詞。",
+        "A的離開與留下、B的相同與不同、C的高貴與卑賤都需保留兩面，不能只取一字。"
+      ],
+      "pitfall": "不能看到一對反義字就判為偏義複詞，必須看句中是否真的只使用一面意思。"
+    },
+    {
+      "id": "chinese-r3-general-05",
+      "section": "general",
+      "label": "五、第5題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "相反觀念的映襯",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題幹將沉重與輕盈相對，重點是用相反概念互相襯托。",
+        "C同時寫出盲目與指引，一個使人失去方向，一個使人看清方向，形成明確對照。",
+        "B以時間、等待互換位置，D主要用城的比喻，都不如C直接呈現題幹指定的對立方式。"
+      ],
+      "pitfall": "相同句式或詞語重複未必是映襯，須找出相反的意思。"
+    },
+    {
+      "id": "chinese-r3-general-06",
+      "section": "general",
+      "label": "五、第6題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "代詞的回指對象",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "A出現在引述黔婁之妻的話之後，其指她所說的話。",
+        "B的志、C的嗜酒情形、D的姓字都回指五柳先生，因此A與其他三者不同。"
+      ],
+      "pitfall": "判代詞先往前找最近且合乎文意的對象，不能全篇一律當成同一人。"
+    },
+    {
+      "id": "chinese-r3-general-07",
+      "section": "general",
+      "label": "五、第7題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "學習樂趣的跨文配對",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "每有會意便忘食，描寫領悟書義時投入而喜悅的狀態。",
+        "B的發憤忘食、樂以忘憂也著重對學習的熱忱，兩者精神相契。",
+        "其他選項把安貧、淡泊得失配成他人不了解、推己及人或教學態度，主題並不相同。"
+      ],
+      "pitfall": "配對要看共同的心志與行為，不能只因兩句都在稱讚人格就認定相合。"
+    },
+    {
+      "id": "chinese-r3-general-08",
+      "section": "general",
+      "label": "五、第8題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "傳記結構與理想社會",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文末問人物是否屬於無懷氏或葛天氏之民，借上古傳說表達對淳樸生活的嚮往，C正確。",
+        "文章以第三人稱寫傳，之後再加贊語，並非A的第二人稱或B的先贊後傳。",
+        "忘懷得失是正文末尾的概括，開頭的人格線索則是不慕榮利，D把位置與作用混在一起。"
+      ],
+      "pitfall": "不要因篇末有問句，就把整篇文體說成問答式第二人稱敘事。"
+    },
+    {
+      "id": "chinese-r3-general-09",
+      "section": "general",
+      "label": "五、第9題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "柳的意象與典故對象",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "詠絮之才源於謝道韞以柳絮比擬飛雪的才思，通常用來讚譽女子文才。",
+        "C卻把適用對象說成少年男子，故不正確。",
+        "折柳與離別、柳腰與柔美身段、蒲柳與體質早衰，各有不同的意象脈絡。"
+      ],
+      "pitfall": "同樣出現柳，不能把所有典故都解成女子外貌，也不能忽略詠絮之才的對象。"
+    },
+    {
+      "id": "chinese-r3-general-10",
+      "section": "general",
+      "label": "五、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 9,
+      "topic": "感謝眾人成全的謙遜",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "〈謝天〉把成功連回許多人共同付出的結果，重點是知道自己所得仰賴眾人。",
+        "貼文只強調自身天賦、運氣與被偏愛，還藉此貶低別人，欠缺這層謙遜。",
+        "因此C最符合作者可能的回應；口頭說謝天不等於已實踐飲水思源。"
+      ],
+      "pitfall": "要比較感謝背後的理由，不能只比對有沒有出現謝謝老天四字。"
+    },
+    {
+      "id": "chinese-r3-general-11",
+      "section": "general",
+      "label": "五、第11題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 9,
+      "topic": "分類圖與比例推論",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中記人分支直接標示記錄名士言行、呈現魏晉名士風貌，所以A可由圖得到支持。",
+        "記人佔多數、其中正面內容又佔多數，不能直接推出正面內容必定超過全書一半，故B推論過度。",
+        "記言被標為篇幅極短；圖上的上下層級是分類關係，並非人的尊卑等級，所以C、D也不成立。"
+      ],
+      "pitfall": "多數中的多數未必大於總體的一半；樹狀圖的位置也不是社會階級。",
+      "note": "已目視PDF第3頁分類圖，記人佔多數，記人中的正面特質再佔多數；圖中未給可算出全書正面比例的確切數字。"
+    },
+    {
+      "id": "chinese-r3-general-12",
+      "section": "general",
+      "label": "五、第12題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 9,
+      "topic": "從生活經驗推展哲理",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題幹依童年、成年、體悟的順序呈現，層次由個人生活擴展到不同文化。",
+        "C最能概括藉具體經驗引出情感與道理的安排。",
+        "A倒置事件順序，B把困惑誤說成極力批評，D則把引用他人事例誤說成換人擔任敘事者。"
+      ],
+      "pitfall": "文章出現多個人物，不等於每人都以自己的主觀口吻輪流敘事。"
+    },
+    {
+      "id": "chinese-r3-general-13",
+      "section": "general",
+      "label": "五、第13題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 9,
+      "topic": "器物在成語中的用途",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "釜是煮食用的鍋，瓢可舀水，盤可盛食物，都能連到廚房與飲食。",
+        "懸壺濟世的壺在成語典故中與行醫、藥物有關，C在這四者之中最不符合廚房器具主題。"
+      ],
+      "pitfall": "要依成語所指的器物用途判斷，不能把所有可盛液體的器物都當作烹調工具。"
+    },
+    {
+      "id": "chinese-r3-general-14",
+      "section": "general",
+      "label": "五、第14題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 9,
+      "topic": "謝字的對象與情境",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "資料一中劉備知道自己輕慢了有才能的人，下階謝罪是向龐統承認過失，謝為道歉。",
+        "資料二談眾人的幫助與成全，謝為感激、酬答。",
+        "因此甲是認錯，乙是感謝幫助，丙是道歉，丁是感激，四格相合的是B。"
+      ],
+      "pitfall": "同一個謝字可以有不同意思，必須先確認正在向誰、因何事而說。"
+    },
+    {
+      "id": "chinese-r3-general-15",
+      "section": "general",
+      "label": "五、第15題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 9,
+      "topic": "味覺回味與詞語搭配",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題目需要描寫吃完後仍能回味的口感，而不是料理程序或液體飲品。",
+        "風味雋永指滋味耐人品味、餘味綿長，D最適合。",
+        "濃油厚醬偏向油醬濃重，瓊漿玉液指美酒飲液，細火慢燉是烹調方式，皆不合指定焦點。"
+      ],
+      "pitfall": "不要看到成語聽起來華麗就選，要先核對適用對象與要表達的特性。"
+    },
+    {
+      "id": "chinese-r3-general-16",
+      "section": "general",
+      "label": "五、第16題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 9,
+      "topic": "表格中的產地與口感",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "依本題表格，土鳳梨全臺各地都有種植，C據此比較地理取得的便利性，與所列資料一致。",
+        "濃香與較酸在土鳳梨欄，緊實與較甜在金鑽欄；A、B、D都把品種特性對調。"
+      ],
+      "pitfall": "答案是依試題所給表格比較，不能只憑對某種鳳梨的日常印象作答。",
+      "note": "已目視PDF第4頁品種對照表；此題按所給表格作答，不另將表中所有品種描述擴張為普遍農業結論。"
+    },
+    {
+      "id": "chinese-r3-general-17",
+      "section": "general",
+      "label": "五、第17題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 9,
+      "topic": "對照資料與因果判斷",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文本二補入未罹病者也常吃水果的資料，指出只看罹病者的比例沒有足夠比較基準。",
+        "B以缺乏對照組說明資料脫離脈絡，正是選項中能正確對應反駁方法的一項。",
+        "喝水的例子是用來揭示因果推論不成立，並非證實喝水或水果會致癌，C反轉了它的作用。"
+      ],
+      "pitfall": "出現在疾病之前，不等於已證明是疾病的原因；須區分題文反例與真正結論。",
+      "note": "百分比、報導及統計表均按本卷提供的閱讀材料判讀；本詳解核對的是推論是否符合題文，未將其署名與數據另認證為真實調查。"
+    },
+    {
+      "id": "chinese-r3-general-18",
+      "section": "general",
+      "label": "五、第18題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 9,
+      "topic": "把先後事件誤當因果",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先吃水果、後被診斷，僅描述事件順序，未排除其他原因，也未提供能建立因果的比較。",
+        "B直接指出把時序巧合強加為因果，與表中數據與邏輯斷層一致。",
+        "不具名權威與驚悚勸傳，對應的是恐懼或權威訴求，不能混算成同一類。"
+      ],
+      "pitfall": "要根據手法本身分類，不要只記住表格的百分比高低。",
+      "note": "百分比、報導及統計表均按本卷提供的閱讀材料判讀；本詳解核對的是推論是否符合題文，未將其署名與數據另認證為真實調查。"
+    },
+    {
+      "id": "chinese-r3-general-19",
+      "section": "general",
+      "label": "五、第19題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 9,
+      "topic": "在地風味與消費考量",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文本把糕餅視為向異鄉人介紹地方風土的媒介。",
+        "表中2021年列出在地食材與風土故事，與交換風土的概念直接相合，所以選B。",
+        "表格沒有說土鳳梨酥較便宜，也沒有證明工藝完全失傳；口感滑順在後期更非表中持續居前的重點。"
+      ],
+      "pitfall": "產值比例升高不等於已知道升高的原因，也不能直接當成實際總產值增加的證據。",
+      "note": "已目視PDF第5頁表格：土鳳梨酥產值比例為25%、55%、70%。這些比例是題內資料；欠缺市場總額時，不能單憑比例斷言實際總產值增長。"
+    },
+    {
+      "id": "chinese-r3-general-20",
+      "section": "general",
+      "label": "五、第20題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 9,
+      "topic": "人物對自由的價值排序",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "黑影寧願放棄安逸，甚至以生命作為強烈表態，顯示自由在牠心中具有極高價值。",
+        "A最能說明這個角色把自由放在生存舒適之前的態度，其餘選項都沒有表達相同排序。"
+      ],
+      "pitfall": "這是在讀懂虛構角色的價值觀，不是宣稱每個人都必須採取相同選擇。"
+    },
+    {
+      "id": "chinese-r3-general-21",
+      "section": "general",
+      "label": "五、第21題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 9,
+      "topic": "自由初得時的感受",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B把平凡的槽水感受得比原先的甜牛奶還可口，顯示當下因自由而充滿喜悅。",
+        "A是受寒的苦況，C是尚未實現的嚮往，D是家中被照顧的生活，都不是獲得自由後沉浸快樂的時刻。"
+      ],
+      "pitfall": "要看敘事情境與時間點，不能把夢想尚未實現的想像當成實現後的心情。"
+    },
+    {
+      "id": "chinese-r3-general-22",
+      "section": "general",
+      "label": "五、第22題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 9,
+      "topic": "經驗前後的天堂定義",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先前的貓厭倦安穩的家，將幸福投向外面的世界。",
+        "C在吃苦之後改把有食物可得的室內生活叫作天堂，直接反映評價標準的反轉。",
+        "A、B仍偏向最初對外界的憧憬，D是外出當下的害怕，未像C呈現最後的重新評估。"
+      ],
+      "pitfall": "題目要比較前後對同一生活的看法，不是只挑情緒最強烈的一句。"
+    },
+    {
+      "id": "chinese-r3-general-23",
+      "section": "general",
+      "label": "五、第23題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 9,
+      "topic": "歇後語與對話情境",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "貓嘴裡的耗子表示難以逃脫、十拿九穩，哲瑞用來說自己有把握完成簡報，最吻合情境。",
+        "貓哭耗子有假慈悲之意，不是普通安慰；貓兒偷食狗挨打表示代人受過，也不是期待各司其職。",
+        "因此只有哲瑞用得準確，選A。"
+      ],
+      "pitfall": "歇後語要補出未說出的後半層意思，不能按動物動作的字面理解。"
+    },
+    {
+      "id": "chinese-r3-general-24",
+      "section": "general",
+      "label": "五、第24題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 9,
+      "topic": "尊重差異與消除歧見",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "本文期待透過對話與理解減少偏見，承認不同群體存在文化差異。",
+        "A把目標寫成化解族群間的差異，容易變成消除差異本身；文章沒有要求文化變得相同。",
+        "B、D強調尊重及減少歧見，C描述偏見仍存在，都可由文意支持，因此選A。"
+      ],
+      "pitfall": "「差異」是不同，「歧見與歧視」是認知或對待上的問題，兩者不可直接畫等號。"
+    },
+    {
+      "id": "chinese-r3-general-25",
+      "section": "general",
+      "label": "五、第25題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 9,
+      "topic": "以需求檢驗方案",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先列出題目給定的兩個需求：就業相關權益與取得母國資訊。",
+        "B的多語資訊平臺與勞動權益諮詢分別對應這兩項，回應最完整。",
+        "A、C偏向社交或語言交流，D限縮為某類職缺且缺少母國資訊，均未同時回應兩項需求。"
+      ],
+      "pitfall": "這是題內假設情境的方案比較，不要把題幹所述計畫或條件當成已查證的現行政策。",
+      "note": "以題目假設的兩項需求判斷方案對應性，並未認證題幹中的2026年計畫為已公告政策。"
+    },
+    {
+      "id": "chinese-r3-reading-26",
+      "section": "reading",
+      "label": "六、第26題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 9,
+      "topic": "文言虛詞與語氣",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "吾夫又死焉的焉可理解為於此、在那個情境中；心不在焉的焉也指此，C能對應。",
+        "D兩個於分別表示比較的比與地點的在，不能視為同義。",
+        "A的詢問由子路受命進行，語氣也不是命令婦人；B詢問不搬離的理由，並非責備她哭泣。"
+      ],
+      "pitfall": "判斷字義不能忽略前面的動詞；同時要分清誰發問與問的是什麼。"
+    },
+    {
+      "id": "chinese-r3-reading-27",
+      "section": "reading",
+      "label": "六、第27題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 9,
+      "topic": "從苛政反面推知德政",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "婦人寧受虎患也不遷往苛政之地，顯示暴虐治理對人民生活的威脅。",
+        "若要改善根本問題，執政者應以德治理，使百姓能安居，因此A最切合。",
+        "其餘選項偏向自我反省、修養或學思關係，未如A直接回應治理。"
+      ],
+      "pitfall": "不要只挑一般好品德的名句，應對應題目指定的執政者與政治處境。"
+    },
+    {
+      "id": "chinese-r3-reading-28",
+      "section": "reading",
+      "label": "六、第28題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 9,
+      "topic": "指示與回指的範圍",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲文每段先說一種讀書習慣，再用其失指出該做法的問題；第一個其回指泛讀而不選擇，A正確。",
+        "出其後的其指所追隨的人；輕鬆的省略的是書，而非書店。",
+        "乙文的這回指面對高深智慧時感到退縮與渺小，不是已經轉身逃開。"
+      ],
+      "pitfall": "找代詞時，應回讀完整的前一句或前一段，不能只抓最近的一個名詞。"
+    },
+    {
+      "id": "chinese-r3-reading-29",
+      "section": "reading",
+      "label": "六、第29題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 9,
+      "topic": "用另一文本回應退縮",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甲文的問題是景仰古人後覺得自己難以企及，因而退縮、未能自立。",
+        "乙文主張面對超出現有理解的書仍持續探索，把困惑當成學習的起點，B正好回應。",
+        "加快速度、逃避古書或貶低古人，都沒有解決因畏難而停止學習的核心。"
+      ],
+      "pitfall": "所謂對治，是針對原先的問題提出辦法，不能改談與問題無關的閱讀偏好。"
+    },
+    {
+      "id": "chinese-r3-reading-30",
+      "section": "reading",
+      "label": "六、第30題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 9,
+      "topic": "承接旅行與風土的結尾",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前文一面描寫兩位女性旅行，一面描寫地方材料轉成生活器物與食物的生命力。",
+        "B同時收束女性行旅與臺灣風土的連結，最能延續兩條主線。",
+        "跨國時尚革命、鐵道為百年後環保而建、麻芛湯取代咖啡等說法，均超出前文證據。"
+      ],
+      "pitfall": "補句要接住已出現的重點，不能為了結尾氣勢而新增重大歷史因果。"
+    },
+    {
+      "id": "chinese-r3-reading-31",
+      "section": "reading",
+      "label": "六、第31題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 9,
+      "topic": "以主要材料概括全篇",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章用在地材料重新利用的事例，說明地方生活的韌性與美感。",
+        "C把材料轉化、日常用途與風土價值整合為一句，最能總括旨意。",
+        "鐵道只是帶入觀察的情境，文章也沒有宣稱全球服裝革命或唯一娛樂形式。"
+      ],
+      "pitfall": "主旨應涵蓋正文篇幅最多、最反覆強調的內容，不要被開頭的旅行背景帶走。"
+    },
+    {
+      "id": "chinese-r3-reading-32",
+      "section": "reading",
+      "label": "六、第32題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 9,
+      "topic": "古今句中的同義字",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D兩個還都表示返回：飛鳥歸巢，詩人回到家鄉，所以同義。",
+        "A的而分別表轉折與並列；B的然分別是形容狀態的詞尾與如此；C的爾分別指如此與你。"
+      ],
+      "pitfall": "同一字在文言中的功能很多，須將每個字換成白話再比較。"
+    },
+    {
+      "id": "chinese-r3-reading-33",
+      "section": "reading",
+      "label": "六、第33題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 9,
+      "topic": "心境與居住感受",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "詩人身在人群聚居之處，仍能感受安靜，表示安定未必先取決於地理偏遠。",
+        "心遠是遠離名利干擾的心境，因而覺得住處清幽，B最貼合。",
+        "C把心境與地點的先後因果倒轉，A只談交通，D則加上原詩未呈現的無奈。"
+      ],
+      "pitfall": "不要把地自偏理解成房屋真的移動到偏遠地區；重點是主觀心境。"
+    },
+    {
+      "id": "chinese-r3-reading-34",
+      "section": "reading",
+      "label": "六、第34題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 9,
+      "topic": "以可見痕跡觀察行為",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "鐘被塗墨後，真正摸過的人會留下黑色痕跡，墨水使觸摸與否能被看見。",
+        "故事中的盜者因害怕鐘響而不敢摸，乾淨的手反而暴露了他的迴避，故B最符合敘事中的偵辦邏輯。",
+        "墨水本身不會驗證神力或宗教信仰，而是把行為選擇變成可觀察的線索。"
+      ],
+      "pitfall": "故事的關鍵是行為與痕跡的關係，不能把結果歸功於鐘有神力。"
+    },
+    {
+      "id": "chinese-r3-reading-35",
+      "section": "reading",
+      "label": "六、第35題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 9,
+      "topic": "利用避險選擇形成線索",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D先建立作賊者摸鐘就會響的說法，讓害怕被發現的人以為不摸對自己最有利。",
+        "盜者據此選擇躲避，正好留下沒有墨的手，落入事先設計的辨別方式。",
+        "祈禱或移置鐘可增加情境可信度，但設下不同人會作不同選擇的核心條件是D。"
+      ],
+      "pitfall": "不要把營造莊嚴氣氛的輔助動作，當成誘導選擇的主要機制。"
+    }
+  ]
+}

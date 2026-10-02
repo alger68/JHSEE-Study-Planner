@@ -27,7 +27,7 @@
   const D=JSON.parse(JSON.stringify(input)),seen=new Set();
   const all=papers.map(p=>{if(seen.has(p.sourceId))throw Error('Duplicate solution paper');seen.add(p.sourceId);const s=D.atlas.exams.find(s=>s.sourceId===p.sourceId);validatePaper(p,s);return{...JSON.parse(JSON.stringify(p)),grade:s.grade,year:s.year,term:s.term,round:s.round,subject:s.subject,subjectName:s.subjectName,pdfPages:s.pdfPages,url:s.url,...counts(p)};});
   const total={totalItems:0,verifiedItems:0,disputedItems:0,limitedItems:0};for(const p of all)for(const k of Object.keys(total))total[k]+=p[k];
-  D.examSolutions={schema:1,version:'2.1.1',paperCount:all.length,...total,papers:all};
+  D.examSolutions={schema:1,version:'2.1.2',paperCount:all.length,...total,papers:all};
   return D;
  }
  return{validatePaper,counts,enrich};
