@@ -1,0 +1,139 @@
+{
+  "release": "2.1.0",
+  "checkedAt": "2026-10-02",
+  "status": "locally-verified-awaiting-ci",
+  "baseCommit": "3fc46019b2644bee4a9f62895ad5151733864cfa",
+  "originalContentBaseline": "f1930eee7394e012e36baa37f406a0a5e7ee2314",
+  "nodeTests": {
+    "passed": 158,
+    "failed": 0,
+    "command": "node --test --test-isolation=none assets/study-notes/v120/tests/*.test.cjs assets/study-notes/v120/tests/resumption-acceptance.cjs"
+  },
+  "plannerTests": {
+    "passed": 74,
+    "failed": 0,
+    "note": "Original planner unchanged; earlier local run passed; full CI rerun required before publication."
+  },
+  "content": {
+    "units": 763,
+    "fixedQuestions": 4578,
+    "subjectScopes": 66,
+    "workedExamples": 578,
+    "newQuestions": 1754,
+    "newCommonGuides": 4,
+    "subjectCounts": [
+      {
+        "subject": "chinese",
+        "name": "國文",
+        "units": 72,
+        "questions": 432
+      },
+      {
+        "subject": "english",
+        "name": "英語",
+        "units": 44,
+        "questions": 264
+      },
+      {
+        "subject": "math",
+        "name": "數學",
+        "units": 66,
+        "questions": 396
+      },
+      {
+        "subject": "science",
+        "name": "自然",
+        "units": 136,
+        "questions": 816
+      },
+      {
+        "subject": "social",
+        "name": "社會",
+        "units": 106,
+        "questions": 636
+      },
+      {
+        "subject": "health",
+        "name": "健康與體育",
+        "units": 98,
+        "questions": 588
+      },
+      {
+        "subject": "arts",
+        "name": "藝術",
+        "units": 76,
+        "questions": 456
+      },
+      {
+        "subject": "integrated",
+        "name": "綜合活動",
+        "units": 81,
+        "questions": 486
+      },
+      {
+        "subject": "technology",
+        "name": "科技",
+        "units": 55,
+        "questions": 330
+      },
+      {
+        "subject": "taiwanese",
+        "name": "本土語・閩語",
+        "units": 23,
+        "questions": 138
+      },
+      {
+        "subject": "hakka",
+        "name": "本土語・客語",
+        "units": 6,
+        "questions": 36
+      }
+    ]
+  },
+  "preservation": {
+    "oldQuestionObjects": 2824,
+    "oldQuestionObjectsEqual": true,
+    "originalSourceObjectsEqual": true,
+    "oldThreeQuestionPracticeSession": "passed",
+    "oldFixedCheckResumesQuestion4": "passed",
+    "upstreamLearningPathPreserved": true
+  },
+  "delivery": {
+    "htmlBytes": 1961518,
+    "htmlSha256": "b88b1ba7dfd56c02604af87340ec26c431291ed428bfb56f238b602a61b77916",
+    "groups": 66,
+    "largestGroupBytes": 356489,
+    "bundleHashesChecked": 67,
+    "homepageInitialLessonRequests": 0,
+    "maxHtmlBytes": 2000000,
+    "maxGzipBytes": 350000,
+    "timingNote": "Payload size and on-demand requests are verified; user-device loading time also depends on network and TLS latency.",
+    "gzipBytes": 313081,
+    "compression": "Node zlib gzipSync default settings"
+  },
+  "boundaries": {
+    "readingGuidesWithoutVerifiedTextbookFullText": 74,
+    "sourceExamPdfsNotAllSolved": 40,
+    "coursePlans": 106,
+    "originalSourceDocuments": 146,
+    "localizedCourseSections": 697,
+    "grade9LanguageGuides": "Original common guides without claimed school-year/publisher alignment or automatic pronunciation grading."
+  },
+  "publication": {
+    "status": "pending-ci-and-live-verification"
+  },
+  "independentReview": {
+    "status": "passed",
+    "critical": 0,
+    "important": 0,
+    "minor": 0,
+    "targetedTests": 16,
+    "additionalChecks": [
+      "All 2824 original question objects and original source records unchanged",
+      "Biology three-to-six question resume opens q4 and preserves progress",
+      "New standalone Hakka questions include their own original passage",
+      "Homepage retains LearningPath entry and requires zero initial lesson requests"
+    ],
+    "scopeLimit": "Code, integration and sampled content review; full domain semantic reviews are documented separately in six author reports."
+  }
+}

@@ -4,7 +4,7 @@
  const href=(g,s,t)=>'#/library?'+new URLSearchParams({g,s,term:t});
  const external=(url,text)=>`<a class="small-text" href="${E(url)}"${url.startsWith('#')?'':' target="_blank" rel="noopener noreferrer"'}>${E(text)} ↗</a>`;
  const termName=t=>String(t)==='1'?'上學期':String(t)==='2'?'下學期':'上下學期';
- function summary(D){const x=D.catalogCompletion;if(!x)return '';return `<div class="curriculum-summary" aria-label="教材建置狀態"><span><b>${x.teachingSections}</b> 節原創重點</span><span><b>${x.readingGuideSections}</b> 節閱讀導引</span><span><b>${x.pendingSections}</b> 節待補教材</span></div><p class="small-text muted">閱讀導引使用原創例子，尚未核對課文全文。${x.untranscribedCourses?x.untranscribedCourses+'份課程來源仍待逐項定位；':''}上述數量不是完整課本覆蓋率。</p>`;}
+ function summary(D){const x=D.catalogCompletion;if(!x)return '';const complete=D.subjectCompletion;return `${complete?'<p data-subject-completion><strong>全11科・7至9年級・上下學期</strong>：已收錄教材每單元至少'+complete.minimumQuestionsPerUnit+'題解析，新增'+complete.workedExamples+'則分步例題。九年級台語與客語為通用補充。</p>':''}<div class="curriculum-summary" aria-label="教材建置狀態"><span><b>${x.teachingSections}</b> 節原創重點</span><span><b>${x.readingGuideSections}</b> 節閱讀導引</span><span><b>${x.pendingSections}</b> 節待補教材</span></div><p class="small-text muted">閱讀導引使用原創例子，尚未核對課文全文。${x.untranscribedCourses?x.untranscribedCourses+'份課程來源仍待逐項定位；':''}上述數量不是完整課本覆蓋率。</p>`;}
  function render(D,params,progress={}){
   const g=params.get('g')||'all',s=params.get('s')||'all',t=params.get('term')||'1';
   const subjects=D.subjects,subject=subjects.find(x=>x.id===s),byId=new Map(D.units.map(u=>[u.id,u]));
@@ -25,7 +25,7 @@
   const courses=D.atlas.courses.filter(c=>c.grade===Number(g)&&c.bucket===s&&(t==='all'||c.term===Number(t))).sort((a,b)=>a.term-b.term||b.year-a.year||a.subjectName.localeCompare(b.subjectName,'zh-Hant'));
   const visibleCourses=selectedCourse?[selectedCourse]:courses;
   const allSections=visibleCourses.flatMap(c=>c.sections),available=allSections.filter(x=>x.unitId).length;
-  h+=`<div class="curriculum-scope"><span class="badge" data-catalog-count>${available} / ${allSections.length} 個已定位項目有學習內容</span><p class="small-text muted">上學期以115學年度來源為主；下學期採114學年度已公開資料。請依老師進度核對，不改標為115下學期。</p></div>`;
+  h+=`<div class="curriculum-scope"><span class="badge" data-catalog-count>${allSections.length?available+' / '+allSections.length+' 個已定位項目有學習內容':'通用補充與來源狀態'}</span><p class="small-text muted">上學期以115學年度來源為主；下學期採114學年度已公開資料。請依老師進度核對，不改標為115下學期。</p></div>`;
   const visibleIds=[...new Set(allSections.map(x=>x.unitId).filter(id=>byId.has(id)))];
   if(visibleIds.length)h+=`<p class="curriculum-progress-summary" data-catalog-progress>本範圍已標記讀完 ${visibleIds.filter(id=>read.has(id)).length} / ${visibleIds.length} 課。進度保存在本機；已讀由你自行標記，固定檢測與變化題分開記錄，不代表已熟練。</p>`;
   if(courses.length)h+=`<nav class="curriculum-jump" aria-label="本頁子科目"><a href="${E(href(g,s,t))}"${!selectedCourse?' aria-current="page"':''}>全部子科目</a>${courses.map(c=>`<a href="${E(href(g,s,t))}&amp;course=${encodeURIComponent(c.id)}"${selectedCourse?.id===c.id?' aria-current="page"':''}>${E(c.subjectName)} · ${c.year}-${c.term}</a>`).join('')}</nav>`;
@@ -43,10 +43,10 @@
    }).join('')+'</div>';
    h+=`<p class="small-text muted">${E(c.scopeNote)} ${external('#/atlas?g='+g+'&s='+c.subject+'&period='+c.year+'-'+c.term,'章節來源與歷屆紀錄')}</p></section>`;
   }
-  if(!courses.length)h+='<section class="panel"><h2>這個範圍尚無逐課公開來源</h2><p>先提供本站共同核心指南；不據此推論學校未開課。</p></section>';
+  if(!courses.length)h+='<section class="panel"><h2>這個範圍尚無逐課公開來源</h2><p>下方提供本站通用補充與共同核心指南；課次與版本尚未核對，不據此推論學校未開課。</p></section>';
   const linked=new Set(D.atlas.courses.flatMap(c=>c.sections.map(x=>x.unitId)));
   const shared=D.units.filter(u=>u.grade===Number(g)&&u.subject===s&&(t==='all'||u.semester===Number(t))&&!linked.has(u.id));
-  if(shared.length)h+=`<details class="panel curriculum-shared"><summary><strong>共同核心與既有專題（${shared.length}份）</strong></summary><p class="small-text muted">整學期觀念整理與補充專題，不當作逐課完成度。</p>${shared.map(u=>`<div class="curriculum-shared-row"><div><span class="small-text muted">${termName(u.semester)} · ${E(u.chapter)}</span><h3>${E(u.title)}</h3>${lessonProgress(u)}</div><a class="btn secondary" href="#/unit/${E(u.id)}/notes">閱讀</a></div>`).join('')}</details>`;
+  if(shared.length)h+=`<details class="panel curriculum-shared"${courses.length?'':' open'}><summary><strong>共同核心與通用補充（${shared.length}份）</strong></summary><p class="small-text muted">整學期觀念整理與補充專題，不當作逐課完成度。</p>${shared.map(u=>`<div class="curriculum-shared-row"><div><span class="small-text muted">${termName(u.semester)} · ${E(u.chapter)}</span><h3>${E(u.title)}</h3>${lessonProgress(u)}</div><div class="actions"><a class="btn secondary" href="#/unit/${E(u.id)}/notes">閱讀</a><a class="btn secondary" href="#/unit/${E(u.id)}/quiz">開始練習</a></div></div>`).join('')}</details>`;
   return h+'</div>';
  }
  root.CurriculumBrowser={render,summary};

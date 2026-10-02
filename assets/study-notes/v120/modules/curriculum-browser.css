@@ -2,3 +2,5 @@
 .curriculum-jump a[aria-current="page"]{background:#245b46;color:#fff;border-color:#245b46}
 .question-text,.practice-card h3,.print-question h3,.example,[data-view="exam"] ol strong{white-space:pre-wrap;overflow-wrap:anywhere}
 .curriculum-progress{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.82rem;line-height:1.7;color:#526159;margin:12px 0 0}.curriculum-progress .is-read{color:#245b46;font-weight:700}.curriculum-progress-summary{font-size:.88rem;line-height:1.8;background:#eaf4ed;border-radius:10px;padding:12px 16px;color:#245b46}.curriculum-shared-row>div{min-width:0}.curriculum-shared-row>.btn{flex-shrink:0}[data-weakness-panel] td:first-child{min-width:150px;overflow-wrap:anywhere}[data-weakness-panel] td p{margin:6px 0 0}
+
+.curriculum-shared-row .actions{flex-shrink:0;margin:0;gap:8px}@media(max-width:700px){.curriculum-shared-row{flex-wrap:wrap}.curriculum-shared-row .actions{width:100%}}
