@@ -40,11 +40,27 @@ test('saved wrong fixed questions take priority and open their exact feedback wi
   A.ok(b.d.querySelector('[data-feedback]').classList.contains('wrong'));A.equal(b.w.localStorage.getItem(key),JSON.stringify(progress));
   b.d.querySelector('[data-action="retry-wrong"]').click();A.equal(b.d.querySelectorAll('[data-feedback]').length,0);
   b.d.querySelector('[data-option="'+wrong.answer+'"]').click();b.d.querySelector('[data-action="submit-answer"]').click();
+  b.d.querySelector('[data-action="next-question"]').click();A.ok(b.d.querySelector('[data-quiz-result]'));
   b.w.location.hash='#/learn?g=7&term=1';await until(()=>b.d.querySelector('[data-view="learn"]'));
   A.equal(b.d.querySelector('[data-fixed-wrong-count]').textContent,'0');
   const saved=JSON.parse(b.w.localStorage.getItem(key));A.equal(saved.answers[other.id+'/'+other.quiz[0].id],answers[other.id+'/'+other.quiz[0].id]);
   for(const q of first.quiz)A.equal(saved.answers[first.id+'/'+q.id],q.answer);
+  b.d.querySelector('[data-learning-course="115-1-7-math"] a[href*="/quiz"]').click();
+  await until(()=>b.d.querySelector('[data-option]:not(:disabled)'));
+  A.equal(b.d.querySelectorAll('[data-quiz-result]').length,0);
+  A.equal(JSON.parse(b.w.localStorage.getItem(key)).answers[second.id+'/'+wrong.id],wrong.answer);
   A.deepEqual(b.errors,[]);
+ }finally{b.dom.window.close();}
+});
+test('each subject retains its own source year and historical fixed mistakes',()=>{
+ const c=built.data.atlas.courses.find(c=>c.id==='114-1-8-history'),u=built.data.units.find(u=>u.id===c.sections[0].unitId),q=u.quiz[0];
+ const progress={app:'jh-study-notes',schemaVersion:1,read:[],starred:[],answers:{[u.id+'/'+q.id]:q.options.find(o=>o.id!==q.answer).id},font:0};
+ const b=open('#/learn?g=8&term=1',progress);try{
+  A.equal(b.d.querySelector('[data-fixed-wrong-count]').textContent,'1');
+  A.ok(b.d.querySelector('[data-learning-course="115-1-8-math"]'));
+  A.match(b.d.querySelector('[data-learning-course="114-1-8-history"]')?.textContent||'',/114學年度/);
+  A.ok(b.d.querySelector('[data-correction-link]')?.href.includes(u.id));
+  A.equal(b.w.localStorage.getItem(key),JSON.stringify(progress));A.equal(b.calls.length,0);
  }finally{b.dom.window.close();}
 });
 test('unread units and read-only marks are not claimed as mastered; invalid scopes are rejected',()=>{

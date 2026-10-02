@@ -11,8 +11,11 @@
   const g=params.get('g')||'7',t=params.get('term')||'1';
   if(!['7','8','9'].includes(g)||!['1','2'].includes(t))return null;
   const grade=Number(g),term=Number(t),available=(D.atlas?.courses||[]).filter(c=>c.grade===grade&&c.term===term);
-  const year=Math.max(0,...available.map(c=>c.year)),courses=available.filter(c=>c.year===year);
-  const units=D.units.filter(u=>u.status==='published'&&u.grade===grade&&u.semester===term&&(!u.schoolYear||u.schoolYear===year));
+  const latest=new Map();for(const c of available)latest.set(c.subject,Math.max(latest.get(c.subject)||0,c.year));
+  const courses=available.filter(c=>c.year===latest.get(c.subject));
+  const year=[...new Set(courses.map(c=>c.year))].sort((a,b)=>b-a).join('、');
+  const courseUnits=new Set(courses.flatMap(c=>c.sections.map(s=>s.unitId)));
+  const units=D.units.filter(u=>u.status==='published'&&u.grade===grade&&u.semester===term&&(!u.schoolYear||courseUnits.has(u.id)));
   const byId=new Map(units.map(u=>[u.id,u])),read=new Set(progress.read||[]),answers=progress.answers||{};
   function status(u){
    let answered=0,correct=0;const wrong=[];
@@ -32,7 +35,7 @@
   const {grade,term,year,courses,byId,status,corrections,wrongCount}=x;
   function correction(row){
    const {u,wrong}=row,q=wrong[0],concept=u.concepts.find(c=>c.id===q.concept);
-   return `<article class="learning-correction"><div><span class="small-text muted">${E(u.domain||D.subjects.find(s=>s.id===u.subject)?.name)} · ${E(u.chapter)}</span><h3>${E(u.title)}</h3><p>${wrong.length} 題待訂正${concept?' · 先回看「'+E(concept.title)+'」':''}</p></div><div class="actions"><a class="btn secondary" href="${E(unitURL(u)+'?concept='+encodeURIComponent(q.concept))}">回看觀念</a><a class="btn primary" data-correction-link href="${E(unitURL(u,'quiz')+'?question='+encodeURIComponent(q.id))}">看錯題與訂正</a></div></article>`;
+   return `<article class="learning-correction"><div><span class="small-text muted">${E(u.domain||D.subjects.find(s=>s.id===u.subject)?.name)} · ${E(u.chapter)}${u.schoolYear?' · '+E(u.schoolYear)+'學年度':''}</span><h3>${E(u.title)}</h3><p>${wrong.length} 題待訂正${concept?' · 先回看「'+E(concept.title)+'」':''}</p></div><div class="actions"><a class="btn secondary" href="${E(unitURL(u)+'?concept='+encodeURIComponent(q.concept))}">回看觀念</a><a class="btn primary" data-correction-link href="${E(unitURL(u,'quiz')+'?question='+encodeURIComponent(q.id))}">看錯題與訂正</a></div></article>`;
   }
   function courseCard(c){
    const rows=[...new Set(c.sections.map(s=>s.unitId))].filter(id=>byId.has(id)).map(id=>status(byId.get(id)));
@@ -41,9 +44,10 @@
    let body='<p>這份課程目前沒有可用的章節檢測。</p>';
    if(next){const {u}=next,reading=u.contentMode==='reading-guide';
     const reason=next.wrong.length?'先訂正，再往下學':next.read&&!next.answered?'已標記讀完，接著檢測':next.answered?'接著完成這一課':'從這一課開始';
-    body=`<div data-next-unit="${E(u.id)}"><p class="learning-next-label">${reason}</p><h3>${E(u.chapter)} · ${E(u.title)}</h3>${reading?'<p class="learning-source-note" data-reading-guide>原創閱讀導引，未核對課文全文；請搭配自己的課本。</p>':''}<p class="small-text">固定檢測：已答 ${next.answered} / ${u.quiz.length} 題 · 答對 ${next.correct} 題</p><div class="actions"><a class="btn secondary" data-learn-read href="${E(unitURL(u))}">讀重點</a><a class="btn primary" href="${E(unitURL(u,'quiz'))}">開始檢測</a></div></div>`;
+    const quizLink=unitURL(u,'quiz')+(next.wrong.length?'?question='+encodeURIComponent(next.wrong[0].id):'?resume=1');
+    body=`<div data-next-unit="${E(u.id)}"><p class="learning-next-label">${reason}</p><h3>${E(u.chapter)} · ${E(u.title)}</h3>${reading?'<p class="learning-source-note" data-reading-guide>原創閱讀導引，未核對課文全文；請搭配自己的課本。</p>':''}<p class="small-text">固定檢測：已答 ${next.answered} / ${u.quiz.length} 題 · 答對 ${next.correct} 題</p><div class="actions"><a class="btn secondary" data-learn-read href="${E(unitURL(u))}">讀重點</a><a class="btn primary" data-learn-quiz href="${E(quizLink)}">${next.wrong.length?'訂正錯題':next.answered?'繼續檢測':'開始檢測'}</a></div></div>`;
    }else if(rows.length)body='<p class="learning-next-label">本課程的固定檢測目前都答對了。</p><p>試著遮住筆記說明觀念，再依老師進度複習。</p>';
-   return `<article class="panel learning-course" data-learning-course="${E(c.id)}"><div class="learning-course-head"><div><span class="eyebrow">${E(c.publisher||'校方自編')}</span><h2>${E(c.subjectName)}</h2></div><span class="badge">${checked} / ${rows.length} 課檢測全對</span></div>${body}<a class="learning-choose" href="${E(catalog(c))}">依老師進度選其他課次</a></article>`;
+   return `<article class="panel learning-course" data-learning-course="${E(c.id)}"><div class="learning-course-head"><div><span class="eyebrow">${E(c.year)}學年度 · ${E(c.publisher||'校方自編')}</span><h2>${E(c.subjectName)}</h2></div><span class="badge">${checked} / ${rows.length} 課檢測全對</span></div>${body}<a class="learning-choose" href="${E(catalog(c))}">依老師進度選其他課次</a></article>`;
   }
   const core=courses.filter(c=>subjects.includes(c.bucket)).sort((a,b)=>subjects.indexOf(a.bucket)-subjects.indexOf(b.bucket));
   const extra=courses.filter(c=>!subjects.includes(c.bucket));

@@ -35,14 +35,17 @@ function build(input,options){
  h=replace(h,'${academy.unitBreadcrumb(u)}','${academy.unitBreadcrumb(u)}<a class="learning-back" href="#/learn?g=${u.grade}&amp;term=${u.semester}">回本學期學習與訂正</a>');
  h=replace(h,'<strong>錯題重練</strong>','<strong>變化題錯題重練</strong>');
  h=replace(h,'  function quiz(u) {\n    const s=session(u);',`  function quiz(u) {
-    const focus=route.params.get('question');
-    if(focus){
-      const index=u.quiz.findIndex(q=>q.id===focus);
+    const focus=route.params.get('question'),resume=route.params.get('resume')==='1';
+    if(focus||resume){
+      const index=focus?u.quiz.findIndex(q=>q.id===focus):u.quiz.findIndex(q=>!q.options.some(o=>o.id===state.answers[u.id+'/'+q.id]));
       if(index>=0)sessions.set(u.id,{ids:u.quiz.map(q=>q.id),index,selection:null,result:false});
       route.params.delete('question');
+      route.params.delete('resume');
       try{history.replaceState(null,'',unitURL(u,'quiz')+(route.params.size?'?'+route.params:''));}catch(_){}
     }
     const s=session(u);`);
+ h=replace(h,'<div class="result-actions">${s.wrong.length?', '<div class="result-actions">${s.answered<s.total?`<a class="btn primary" href="${unitURL(u,\'quiz\')}?resume=1">繼續未作答的題目</a>`:\'\'}${s.wrong.length?');
+ h=replace(h,"${s.correct===s.total?'全部答對。再用自己的話，把觀念說一遍吧。':", "${s.answered<s.total?`還有 ${s.total-s.answered} 題尚未作答，可以接著完成。`:s.correct===s.total?'全部答對。再用自己的話，把觀念說一遍吧。':");
  h=replace(h,'<a href="${unitURL(u)}?concept=${q.concept}">回看這個觀念 ↗</a></div>','<a href="${unitURL(u)}?concept=${q.concept}">回看這個觀念 ↗</a>${!correct?\'<div class="actions"><button class="btn secondary" data-action="retry-wrong">重作本課錯題</button></div>\':\'\'}</div>');
  h=replace(h,'</head>','<style>\n'+read('modules/learning-path.css')+'\n</style>\n<script>\n'+read('modules/learning-path.cjs').replace(/<\/script/gi,'<\\/script')+'\n</script>\n</head>');
  for(const s of h.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g))new vm.Script(s[1]);
