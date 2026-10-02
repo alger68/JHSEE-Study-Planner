@@ -1,0 +1,423 @@
+{
+  "schema": 1,
+  "sourceId": "1y-WISb58yzXEQcY4XNImmABwH-nQtp85",
+  "sourceSha256": "1aff21b122431380e714d6117dcbfaf97f83f321660735d61b8d32605a91ce5a",
+  "title": "114-2-1七年級英文科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "已逐題整理第 1～63 題，並目視核對全部 8 頁。第 1～20 題僅依第 8 頁印刷聽力稿、選項圖片及答案核對；未取得音檔，皆標示核對受限。第 50 題的時間修飾有歧義，另列官方答案與成立條件。其餘 42 題已核對題意、圖表、文法與答案。第 7 頁是重複列出第 55～63 題的作答卷，未重複計題。本資料為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {"id": "listening-words", "title": "一、聽力：辨認單字"},
+    {"id": "listening-pictures", "title": "二、聽力：圖像對應"},
+    {"id": "listening-responses", "title": "三、聽力：應答判斷"},
+    {"id": "listening-dialogues", "title": "四、聽力：內容理解"},
+    {"id": "vocabulary-grammar", "title": "五、字彙、句型與文法"},
+    {"id": "cloze", "title": "六、篇章填空"},
+    {"id": "reading", "title": "七、閱讀與圖表"},
+    {"id": "translation", "title": "八、單字與句子翻譯"}
+  ],
+  "items": [
+    {
+      "id": "english-01", "section": "listening-words", "label": "第 1 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "重量的字彙", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["第 8 頁印刷稿的語境是在問箱子的重量，並補充它很重。", "表示重量的名詞是 weight，對應 C；water 是水，eight 是數字八。"],
+      "pitfall": "不要只看相近拼字；weight 與 eight 的字首及意思不同。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-02", "section": "listening-words", "label": "第 2 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "用餐活動的單字", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿說的是一家人在星期日外出吃午餐。", "午餐是 lunch，對應 B；其餘兩個選項分別表示父親與星期六。"],
+      "pitfall": "稿中出現的是星期日，不能因為選項也有星期名稱就選 Saturdays。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-03", "section": "listening-words", "label": "第 3 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "散步的表達", "answer": "A", "officialAnswer": "A", "status": "limited",
+      "steps": ["印刷稿描述每天帶狗到公園散步。", "散步這個活動使用 walk，對應 A；week 表示週，work 表示工作。"],
+      "pitfall": "三個字都以 w 開頭，仍須連結活動意思，不能只依字首判斷。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-04", "section": "listening-words", "label": "第 4 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "接續提問的連接詞", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿先說不看運動賽事，接著追問空閒時從事什麼活動。", "承接前句、表示「那麼」的是 then，對應 B。"],
+      "pitfall": "運動賽事只是語境，並不表示要選與報導相關的 reports。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-05", "section": "listening-words", "label": "第 5 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "體型與力量的對比", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["印刷稿先描述動物體型小，再以轉折補充牠們有力氣。", "表示強壯的字是 strong，對應 C；big 與前半的體型描述相反。"],
+      "pitfall": "不要把談論老鼠的語境誤當成一定出現選項中的 mouse；稿中用的是另一個複數名稱。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-06", "section": "listening-pictures", "label": "第 6 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "運動、星期與時段配對", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["印刷稿給出兩個必要條件：週末上午，以及棒球練習。", "圖片 A 是棒球，但時間在下午；B 在上午，卻畫籃球。", "C 同時有週末標記、上午時段及棒球圖示，因此符合全部條件。"],
+      "pitfall": "圖片題須同時核對動作和時間，不能看到棒球就立即作答。",
+      "note": "未取得音檔；已目視核對第 1 頁三幅圖，結論僅以印刷聽力稿及答案為依據。"
+    },
+    {
+      "id": "english-07", "section": "listening-pictures", "label": "第 7 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "否定後的真正活動", "answer": "A", "officialAnswer": "A", "status": "limited",
+      "steps": ["印刷稿中的回答先否認週末放風箏，再說自己常在公園跑步。", "應以回答者實際從事的活動選圖；跑步的是 A。"],
+      "pitfall": "放風箏出現在問句，卻被回答否定，不能只抓到一個活動字就選 B。",
+      "note": "未取得音檔；已目視核對第 1 頁圖片，結論僅以印刷聽力稿及答案為依據。"
+    },
+    {
+      "id": "english-08", "section": "listening-pictures", "label": "第 8 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "休閒活動的圖像辨識", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["印刷稿指出角色空閒時喜歡做蛋糕。", "A 是閱讀，B 是看電視，C 才有烘焙設備與蛋糕，因此選 C。"],
+      "pitfall": "空閒時間只是情境，真正用來辨圖的是具體動作。",
+      "note": "未取得音檔；已目視核對第 1 頁圖片，結論僅以印刷聽力稿及答案為依據。"
+    },
+    {
+      "id": "english-09", "section": "listening-pictures", "label": "第 9 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "每天一次的頻率", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿描述一天只刷牙一次，並認為次數不足。", "A 標出三個刷牙時間，B 只標一個，C 用叉號表示不刷；符合一次的是 B。"],
+      "pitfall": "「次數不足」不等於完全沒有做，不能把一次誤判為零次。",
+      "note": "未取得音檔；已目視核對第 1 頁圖片與時鐘，結論僅以印刷聽力稿及答案為依據。"
+    },
+    {
+      "id": "english-10", "section": "listening-pictures", "label": "第 10 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "午夜與就寢順序", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿描述午夜吃點心、之後很晚才睡的生活型態。", "B 畫出 12 a.m. 進食、凌晨 12:30 就寢，活動先後及時段都符合。", "A 是晚間較早就寢，C 是早晨起床後吃東西，皆不符合。"],
+      "pitfall": "12 a.m. 是午夜，不能當成中午；也要分清圖中的睡覺與起床。",
+      "note": "未取得音檔；已目視核對第 1 頁圖片與時間，結論僅以印刷聽力稿及答案為依據。"
+    },
+    {
+      "id": "english-11", "section": "listening-responses", "label": "第 11 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "身高敘述的應答", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿提供以公分表示的身高數值，重點是這個人非常高。", "最直接的回應應談 tall，因此選 B；年齡與手臂長度都沒有回應身高資訊。"],
+      "pitfall": "大數字不一定表示年紀大，須先看量度單位。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-12", "section": "listening-responses", "label": "第 12 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "一般動詞問句的回應", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷問句詢問某人是否每天彈吉他，需要先肯定或否定這項習慣。", "B 先以肯定語回答，再補充他也打籃球，能承接原問句。", "A 談擅長何種樂器，沒有合理說明否定的習慣；C 則把活動換成電玩。"],
+      "pitfall": "只看選項出現 guitar 還不夠，要檢查整句是否回答「是否從事該活動」。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-13", "section": "listening-responses", "label": "第 13 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "問活動與問時間的區別", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["印刷問句問姊妹空閒時做什麼，答案必須指出一項活動。", "C 說明閱讀及其地點；A 只說何時有空，B 談服裝喜好，都沒有切中問題。"],
+      "pitfall": "問「做什麼」不能只回答「什麼時候」。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-14", "section": "listening-responses", "label": "第 14 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "習慣活動的應答", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["印刷稿先談在公園打球的習慣，接著詢問對方通常做什麼。", "C 用頻率副詞搭配遛狗活動，能回答平日習慣；其中的 there 承接公園。", "A 只談距離，B 只談正要前往的地點，皆不如 C 切題。"],
+      "pitfall": "看到相同地點不代表應答正確，還要配合問句要求的活動與時態。",
+      "note": "未取得音檔；僅核對印刷聽力稿、題目選項與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-15", "section": "listening-responses", "label": "第 15 題", "sourcePages": [1, 8], "answerPage": 8,
+      "topic": "疲倦情境與睡眠建議", "answer": "A", "officialAnswer": "A", "status": "limited",
+      "steps": ["印刷稿中的人早上總是疲倦，並詢問可以怎麼辦。", "A 把話題連到早點就寢，與可能的睡眠不足最相關；補習或單說早上可以起床，不能直接處理疲倦。"],
+      "pitfall": "A 的原文是在問為何不能早睡，不要把它誤抄成另一個助動詞的建議句型。",
+      "note": "未取得音檔；僅按印刷稿與三個選項判斷最相關的回應，未驗證實際播音或語氣。"
+    },
+    {
+      "id": "english-16", "section": "listening-dialogues", "label": "第 16 題", "sourcePages": [2, 8], "answerPage": 8,
+      "topic": "否定問句的活動排除", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿列出放學後補習、回家寫作業及讀書等行程。", "題目問的是沒有做的活動；A 的補習與 C 的讀書都有提到。", "三個選項中只有 B 的運動不在所述行程裡，因此選 B。"],
+      "pitfall": "先圈出問句的否定詞，避免選到稿中明確做過的事情。",
+      "note": "未取得音檔；僅核對第 8 頁印刷對話、題目與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-17", "section": "listening-dialogues", "label": "第 17 題", "sourcePages": [2, 8], "answerPage": 8,
+      "topic": "固定星期換算頻率", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷稿說角色每逢星期日都去祖父母家。", "每週固定一個星期日前往，可換成每週一次，故選 B。", "A 把星期日換成星期六；C 只說這個星期日，沒有表達固定頻率。"],
+      "pitfall": "頻率與單次日期不同；每個星期日不等於只去這一回。",
+      "note": "未取得音檔；僅核對第 8 頁印刷對話、題目與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-18", "section": "listening-dialogues", "label": "第 18 題", "sourcePages": [2, 8], "answerPage": 8,
+      "topic": "人物動態與運動種類", "answer": "C", "officialAnswer": "C", "status": "limited",
+      "steps": ["印刷稿介紹一位受歡迎的籃球員即將來臺灣。", "C 對應來臺的消息；B 把籃球改成棒球。", "A 的身高描述沒有獲得稿中支持，不能取代明確的來臺資訊。"],
+      "pitfall": "不要把 baseball 與 basketball 混淆，也不要用人物名稱補入稿外知識。",
+      "note": "未取得音檔；僅核對第 8 頁印刷對話、題目與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-19", "section": "listening-dialogues", "label": "第 19 題", "sourcePages": [2, 8], "answerPage": 8,
+      "topic": "依時段定位行程", "answer": "A", "officialAnswer": "A", "status": "limited",
+      "steps": ["印刷稿依序交代星期六上午、下午、晚上的活動，題目只問下午。", "下午的安排是和父親游泳，對應 A；與姊妹讀書在上午，打掃在晚上。"],
+      "pitfall": "三項活動在稿中都有出現；選擇時須同時配對正確時段。",
+      "note": "未取得音檔；僅核對第 8 頁印刷敘述、題目與答案，未驗證實際播音。"
+    },
+    {
+      "id": "english-20", "section": "listening-dialogues", "label": "第 20 題", "sourcePages": [2, 8], "answerPage": 8,
+      "topic": "對話中的家庭關係", "answer": "B", "officialAnswer": "B", "status": "limited",
+      "steps": ["印刷對話有親暱稱呼，結尾也請對方照顧兩人共同的兒子，支持兩人是夫妻的推論。", "因此選 B；做蛋糕是替朋友慶生，不是朋友總替男子做蛋糕。", "稿中也沒有每天到朋友家的資訊，不能把生日活動改成每日習慣。"],
+      "pitfall": "釐清誰替誰做事；主客體交換會使看似熟悉的選項變成錯誤。",
+      "note": "未取得音檔；家庭關係依印刷對話線索推論，並與答案核對，未驗證實際播音。"
+    },
+    {
+      "id": "english-21", "section": "vocabulary-grammar", "label": "第 21 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "外形圖像與形容詞", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["圖中動物最明顯的特徵是很大的耳朵，以及相對短的腿。", "D 同時符合這兩個特徵；其他選項含無毛、小耳朵、厚嘴唇或小鼻子等不符圖像的描述。"],
+      "pitfall": "每個選項包含兩項特徵，不能只比對其中一項。"
+    },
+    {
+      "id": "english-22", "section": "vocabulary-grammar", "label": "第 22 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "滿意的情緒形容詞", "answer": "B", "officialAnswer": "B", "status": "verified",
+      "steps": ["後句表示媽媽很喜歡魚料理，因此前句要表達對晚餐滿意。", "pleased 可與 be、with 搭配，表示對某事感到滿意，故選 B。", "其餘字詞分別涉及體型、重量或頁面，無法表達這裡的心情。"],
+      "pitfall": "先確認空格需要形容詞，再利用後句的喜歡來判定正向情緒。"
+    },
+    {
+      "id": "english-23", "section": "vocabulary-grammar", "label": "第 23 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "忙碌語境的片語", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["後文說自己很累、需要休息，前句須能說明目前工作繁忙的處境。", "C 表示正在發生的事情太多，能自然接到工作情境與疲倦感。", "其他選項談舉止、忍不住或已習慣，沒有 C 這樣明確提供工作過多的線索。"],
+      "pitfall": "熟悉一個片語不表示它適用；要將整句連到前後情境再判斷。"
+    },
+    {
+      "id": "english-24", "section": "vocabulary-grammar", "label": "第 24 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "頻率副詞與因果", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["連接詞 so 表示後半是起床太晚的結果。", "起床總是太晚，因而沒有時間在家吃早餐，對應 always 與 never。", "A 的兩個頻率形成合理因果；其餘組合反而說經常或總是在家吃早餐。"],
+      "pitfall": "不要只看每個空格的文法位置，還須確認兩個副詞的意思能形成因果。"
+    },
+    {
+      "id": "english-25", "section": "vocabulary-grammar", "label": "第 25 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "描述興趣差異", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["一方喜歡閱讀，其他家人喜歡運動，顯示興趣不同。", "表示「與……不同」的搭配是 different from，因此選 C。"],
+      "pitfall": "from 已提供搭配線索，但仍須用後句的對比確認語意。"
+    },
+    {
+      "id": "english-26", "section": "vocabulary-grammar", "label": "第 26 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "達成目標所需的練習", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["成為優秀球員的語境強調每天持續投入的訓練。", "practice 可作不可數名詞，表示練習，能接在 a lot of 後面，故選 D。"],
+      "pitfall": "team 或 body 雖與球員相關，卻不能表達每天需要大量練習的意思。"
+    },
+    {
+      "id": "english-27", "section": "vocabulary-grammar", "label": "第 27 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "從借書活動辨認場所", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["回答提到看影片與借閱書籍，兩項活動須在同一個場所成立。", "圖書館可提供閱讀與影音資源，其中借書是最具辨識力的線索，所以選 library。"],
+      "pitfall": "不要只依看影片聯想電影院；應把借書這項條件一起納入。"
+    },
+    {
+      "id": "english-28", "section": "vocabulary-grammar", "label": "第 28 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "回答未知問題的名詞", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["前一個人提出疑問，後一個人表示自己不知道，並反問對方的想法。", "不知道的是這個問題的答案，應填 answer，選 C。"],
+      "pitfall": "problem 是問題，answer 才是對問題的回覆；兩者角色不要顛倒。"
+    },
+    {
+      "id": "english-29", "section": "vocabulary-grammar", "label": "第 29 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "全力投入的片語", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["後句要大家去替參賽朋友加油，前句適合說他們全力投入比賽。", "put one's all into 表示投入全部心力；主詞是多位朋友，所有格使用 their，因此選 A。"],
+      "pitfall": "make up for 偏向彌補，check out 偏向查看或借出，不能代替全力投入。"
+    },
+    {
+      "id": "english-30", "section": "vocabulary-grammar", "label": "第 30 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "表示贊同的慣用語", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["後一位說自己很喜歡這位演員的電影，語氣是在認同前一位的正面評價。", "D 的慣用語表示非常同意，能連接後面的喜愛；猶豫、遺憾或轉換觀點都不合語氣。"],
+      "pitfall": "這個慣用語不是要求對方真的再講一次，須按應答功能理解。"
+    },
+    {
+      "id": "english-31", "section": "vocabulary-grammar", "label": "第 31 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "助動詞與主詞單複數", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["use 是一般動詞；以單數第三人稱 Bruce 作主詞的一般現在式問句，句首用 Does。", "後半主詞是複數的朋友們，省略重複動詞片語時以 do 代替。", "兩空依序是 Does、do，故選 D。"],
+      "pitfall": "句中已有一般動詞 use，不能直接以 Is 取代問句所需的助動詞。"
+    },
+    {
+      "id": "english-32", "section": "vocabulary-grammar", "label": "第 32 題", "sourcePages": [2], "answerPage": 8,
+      "topic": "時刻與持續時間的介系詞", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["第一空後面是明確鐘點，表示在某時刻要用 at。", "第二空後面是工作的持續長度，表示長達幾小時要用 for。", "依序填 at、for，選 A。"],
+      "pitfall": "鐘點與時長不同；on 常接星期或日期，不能直接套用於這兩空。"
+    },
+    {
+      "id": "english-33", "section": "vocabulary-grammar", "label": "第 33 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "擁有與狀態的動詞區別", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["前半說一個人擁有長腿，單數第三人稱應用 has。", "後半改以複數名詞 arms 作主詞，再接形容詞 short，所以使用 are。", "兩空為 has、are，選 C。"],
+      "pitfall": "不要讓同一句前半的單數人名控制後半動詞；第二個主詞已換成複數。"
+    },
+    {
+      "id": "english-34", "section": "vocabulary-grammar", "label": "第 34 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "疑問詞作主詞與動詞代替", "answer": "B", "officialAnswer": "B", "status": "verified",
+      "steps": ["Who 在問句直接作主詞，這類未指定複數的現在式問句用 makes。", "回答的主詞是單數好友，表示每年做這件事，動詞用 does。", "選項 B 同時符合兩個主詞的用法。"],
+      "pitfall": "Who 作主詞的句型不同於一般用 do 或 does 開頭的問句，不能一律套原形動詞。"
+    },
+    {
+      "id": "english-35", "section": "vocabulary-grammar", "label": "第 35 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "省略動詞片語與頻率副詞", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["弟弟與姊姊以 and 連接，構成複數主詞，代替前面的玩遊戲活動時要用 do。", "此處表示他們總是如此，正常次序為 always do。", "單複數及副詞位置都正確的是 A。"],
+      "pitfall": "兩個單數名詞以 and 並列，整體仍是複數，不能使用 does。"
+    },
+    {
+      "id": "english-36", "section": "vocabulary-grammar", "label": "第 36 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "並列主詞與不定代名詞", "answer": "B", "officialAnswer": "B", "status": "verified",
+      "steps": ["問句的主詞是兩個並列的人名，因此用 Do。", "回答中的 everyone 在文法上視為單數，代替聽音樂這項活動時用 does。", "第一空複數、第二空單數，對應 B。"],
+      "pitfall": "everyone 意思涉及所有人，卻不能因此把動詞當作複數。"
+    },
+    {
+      "id": "english-37", "section": "vocabulary-grammar", "label": "第 37 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "頻率問句與時間長度", "answer": "B", "officialAnswer": "B", "status": "verified",
+      "steps": ["How often 問活動發生的頻率，不是每次持續多久或發生在幾點。", "B 表示每隔兩天一次，能正面回答頻率，也符合後面很享受這項活動的說法。", "A 表示從不，與後句不合；C、D 分別提供時長或起訖時刻。"],
+      "pitfall": "時間資訊不一定都是頻率；先分辨多久一次、持續多久及幾點鐘。"
+    },
+    {
+      "id": "english-38", "section": "vocabulary-grammar", "label": "第 38 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "日常習慣與當下進行", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["前半以每晚為時間線索，表示習慣；主詞單數，使用一般現在式 watches。", "後半有引人注意的提示及 now，表示當下正在觀看，使用現在進行式。", "後半主詞包含兩人，所以是 are watching，選 D。"],
+      "pitfall": "同一題的兩句可以使用不同時態，須各自查看時間線索及主詞。"
+    },
+    {
+      "id": "english-39", "section": "vocabulary-grammar", "label": "第 39 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "從回答反推疑問詞", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["回答給出一週內游泳的次數，屬於頻率。", "詢問頻率使用 How often，故選 C；其餘問法分別偏向時間點或持續長度。"],
+      "pitfall": "看到 week 不要直接判成問何時；「每週幾次」是頻率結構。"
+    },
+    {
+      "id": "english-40", "section": "vocabulary-grammar", "label": "第 40 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "為表演準備的練習頻率", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["句子用一般現在式描述練琴習慣，後面以即將有表演說明練習的原因。", "D 提供一天練習三次的頻率，最能表達為表演密集準備的意思。", "now 通常要與當下進行的時態相配；then 缺乏可承接的時間；單一鐘點也不如練習次數切合此處的理由。"],
+      "pitfall": "本題要選語境最合適的答案，不能只因某個時間片語文法可用就忽略準備表演的線索。"
+    },
+    {
+      "id": "english-41", "section": "cloze", "label": "第 41 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "觀看的固定搭配", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["上下文邀請對方觀看音樂影片，空格後接 at 與觀看的對象。", "take a look at 是查看某物的固定搭配，因此填 a look，選 C。"],
+      "pitfall": "take 可以和許多名詞搭配，但拍照、散步或度假都不能接成這裡的觀看句意。"
+    },
+    {
+      "id": "english-42", "section": "cloze", "label": "第 42 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "轉折與彌補不足", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["前文說舞蹈所需的先天條件並不完美，後面卻談大量練習，因此須建立先天不足與後天努力的轉折。", "D 以 but 接出彌補的意思；代名詞 it 指前述條件不足。", "後面的練習便成為彌補方式，整段因果完整。"],
+      "pitfall": "不能只因選項含身體特徵就選它；須解釋為何後文特別強調練習。"
+    },
+    {
+      "id": "english-43", "section": "cloze", "label": "第 43 題", "sourcePages": [3], "answerPage": 8,
+      "topic": "差異表達與介系詞", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["後面的理由是持續嘗試新事物，支持她與其他歌手有所不同。", "D 的 different from 能直接接後面的比較對象，語意與句法都成立。", "A 若要把 stand out 與比較對象連接，仍需要 from 等合適介系詞；原選項缺少這個連接。"],
+      "pitfall": "除了理解出眾或不同的語意，也要確認選項能否直接接空格後的名詞。"
+    },
+    {
+      "id": "english-44", "section": "reading", "label": "第 44 題", "sourcePages": [4], "answerPage": 8,
+      "topic": "比喻用法與喜好動詞", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["畫線字在原文表示說話方式像某一類人，這裡的 like 是表示相似的介系詞。", "A 同樣以 like 比較動作方式與動物形象，用法相同。", "B、C、D 的 likes 都是表示喜歡的動詞，用法不同。"],
+      "pitfall": "不要只比拼字；要看這個字在句中的詞性與意思。"
+    },
+    {
+      "id": "english-45", "section": "reading", "label": "第 45 題", "sourcePages": [4], "answerPage": 8,
+      "topic": "閱讀細節的逐項核對", "answer": "B", "officialAnswer": "B", "status": "verified",
+      "steps": ["對話明確把每天早晨跑步連到減重的方法，因此 B 有直接依據。", "A 把長高的時間從去年改成上個月；C 忽略體型已改變；D 則把堂表親關係換成兄弟姊妹。", "其餘三項各改動一個關鍵細節，故選 B。"],
+      "pitfall": "時間、否定語及親屬關係都可能成為干擾點，不能只看人物名稱相同。"
+    },
+    {
+      "id": "english-46", "section": "reading", "label": "第 46 題", "sourcePages": [4, 5], "answerPage": 8,
+      "topic": "整篇資訊範圍與標題", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["網頁同時介紹兩種動物的分布、群居生活、外形及食物。", "A 的整體介紹能涵蓋這些面向；只談行為或來源的標題都過窄。", "頁面是文字與圖片說明，也不是以影片為主的內容，因此選 A。"],
+      "pitfall": "標題題要統整全篇，不能只根據第一個出現的地理資訊決定。"
+    },
+    {
+      "id": "english-47", "section": "reading", "label": "第 47 題", "sourcePages": [4, 5], "answerPage": 8,
+      "topic": "擷取兩類動物的共同點", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["第 5 頁空格跨在兩種動物欄位下，列名要求的是雙方共同的行為。", "第 4 頁文章說兩者通常與家族一起生活，D 用親子共同生活來表達這個共同點。", "手臂、腿長及部分食物有差異，不能把只適用一方的資訊填成共同特徵。"],
+      "pitfall": "先辨認表格在問共同點還是差異，再回文章找兩者都成立的資訊。"
+    },
+    {
+      "id": "english-48", "section": "reading", "label": "第 48 題", "sourcePages": [4, 5], "answerPage": 8,
+      "topic": "從表格內容反推分類標題", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["空格右方列的是水果、植物及其他食物種類，所以這一列在整理吃什麼。", "C 詢問食物內容，與兩欄資料匹配；地點、時段與頻率都不是這些名詞能回答的資訊。"],
+      "pitfall": "題目不是要求補一種食物，而是為整列資料找合適的問題。",
+      "note": "第 5 頁部分食物文字有墨漬遮蔽；已回看第 4 頁的清楚原文，足以確認這列在整理食物。"
+    },
+    {
+      "id": "english-49", "section": "reading", "label": "第 49 題", "sourcePages": [5], "answerPage": 8,
+      "topic": "每週行程的圖示判讀", "answer": "D", "officialAnswer": "D", "status": "verified",
+      "steps": ["先區分籃框圖示與球棒圖示，再按人物、星期與上午下午讀表。", "星期六下午的兩人欄位都有球棒圖示，因此 D 成立。", "Jason 的籃球共四次，A 的三次不符；星期日兩人都沒有棒球記號，B 不符；星期四下午兩人都有棒球，C 的只有一人不符。"],
+      "pitfall": "計次時要跨上午與下午兩列，不能只看同一個橫列。"
+    },
+    {
+      "id": "english-50", "section": "reading", "label": "第 50 題", "sourcePages": [5], "answerPage": 8,
+      "topic": "共同空檔與時間語句歧義", "answer": "A（若鋼琴課安排指週二下午與週五下午）；若週二整天有課，則所列選項沒有可共同打籃球的時段。", "officialAnswer": "A", "status": "disputed",
+      "steps": ["由表格可知 Jason 與 Felix 一起打籃球的時段為週二上午、週四上午及週五下午；週六下午兩人打的是棒球。", "Kevin 週四上午要補習，週五下午有鋼琴課，因此排除 B、C；D 則運動種類不符。", "官方選 A，須把鋼琴課語句理解成週二下午及週五下午，這樣週二上午才不衝突。", "原文 on Tuesdays and Friday afternoons 也能讀成週二以及週五下午有課；採這個讀法便無法保證週二上午有空，題目沒有唯一無歧義的答案。"],
+      "pitfall": "不要默默把原文的 Tuesdays 改成 Tuesday afternoons；須把答案成立的時間假設說清楚。",
+      "note": "官方答案保留為 A。本題爭議在時間修飾範圍，並非表格圖示讀錯；若修訂題幹，可明確寫出週二下午與週五下午。"
+    },
+    {
+      "id": "english-51", "section": "reading", "label": "第 51 題", "sourcePages": [5], "answerPage": 8,
+      "topic": "比賽時刻與個人行程交叉比對", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["兩人要一起看臺灣隊比賽，須同時符合球隊與兩人有空的條件。", "週二下午的臺灣對韓國比賽開始時，兩人在下午行程欄皆無活動，A 符合。", "週三下午 Jason 有棒球；週五下午兩人有籃球；週六下午兩人有棒球，因此 B、C、D 都與表定活動衝突。"],
+      "pitfall": "比賽落在下午 13:00～16:00 活動區間時，就不能只看開賽鐘點不同而視為有空。"
+    },
+    {
+      "id": "english-52", "section": "reading", "label": "第 52 題", "sourcePages": [6], "answerPage": 8,
+      "topic": "心智圖的層級與健康功能", "answer": "A", "officialAnswer": "A", "status": "verified",
+      "steps": ["問號位在健康分支，旁邊另一項是喚醒使用者，應回找文章的健康段落。", "該段說工具能察覺疲倦並提示就寢，因此 A 的就寢時間資訊符合。", "體重沒有提及，交朋友屬另一分支；運動在文中是情緒建議，不能取代這裡對健康段落的整理。"],
+      "pitfall": "圖中空格的位置也是線索，不能從文章任意抓一個出現過的功能填入。"
+    },
+    {
+      "id": "english-53", "section": "reading", "label": "第 53 題", "sourcePages": [6], "answerPage": 8,
+      "topic": "依文章界定工具功能", "answer": "C", "officialAnswer": "C", "status": "verified",
+      "steps": ["題目要找文章沒有提供支援依據的需求。", "人際衝突、睡眠疲倦與緊張情緒分別對應文中列出的三類協助。", "製作蛋糕沒有列在介紹的功能中，因此 C 是依本文應選的答案。"],
+      "pitfall": "不要把對現實 AI 工具的印象帶入；本題只按這篇文章介紹的能力判斷。"
+    },
+    {
+      "id": "english-54", "section": "reading", "label": "第 54 題", "sourcePages": [6], "answerPage": 8,
+      "topic": "結尾觀點與支持來源", "answer": "B", "officialAnswer": "B", "status": "verified",
+      "steps": ["文章結尾強調工具之外，現實生活中的師長、家人與朋友仍然重要。", "B 表示身邊的人也能提供幫助，符合作者的結論。", "其餘選項把工具說成唯一求助對象、無所不知，或把人際協助誤解成可以任意爭吵，都超出文章意思。"],
+      "pitfall": "留意 only、always 等絕對語氣，並回到文章是否真的作出相同主張。"
+    },
+    {
+      "id": "english-55", "section": "translation", "label": "第 55 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "時間單位的拼字", "answer": "minute", "officialAnswer": "minute", "status": "verified",
+      "steps": ["要填的是以六十分之一小時計算的時間單位，對應 minute。", "本題是單字翻譯，寫原形即可；放入兩個以上的分鐘數時，通常要變成複數 minutes。"],
+      "pitfall": "確認字尾為 -ute，不要漏掉末尾 e。"
+    },
+    {
+      "id": "english-56", "section": "translation", "label": "第 56 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "數量單位的拼字", "answer": "hundred", "officialAnswer": "hundred", "status": "verified",
+      "steps": ["表示一百這個數量單位的字是 hundred。", "本題只翻譯單字，不必另外補一個數字；在明確數字後，hundred 通常也不加複數 s。"],
+      "pitfall": "不要與 thousand 混淆，並留意 hundred 的字尾 -dred。"
+    },
+    {
+      "id": "english-57", "section": "translation", "label": "第 57 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "次數副詞", "answer": "twice", "officialAnswer": "twice", "status": "verified",
+      "steps": ["英文表示兩次可用專門的次數副詞 twice。", "它本身已包含次數概念，因此單字答案直接填 twice 即可。"],
+      "pitfall": "不要把 twice 當成數字 two，也不要在 twice 後重複加 times。"
+    },
+    {
+      "id": "english-58", "section": "translation", "label": "第 58 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "偶爾發生的頻率副詞", "answer": "sometimes", "officialAnswer": "sometimes", "status": "verified",
+      "steps": ["表示事情有時發生、並非每次都發生，可使用 sometimes。", "這是單一副詞，拼成一個字並保留字尾 s。"],
+      "pitfall": "some time 表示一段時間，與 sometimes 的頻率意思不同。"
+    },
+    {
+      "id": "english-59", "section": "translation", "label": "第 59 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "高度名詞與重量名詞", "answer": "height", "officialAnswer": "height", "status": "verified",
+      "steps": ["題目要的是身高這項測量值的名詞，使用 height。", "tall 是高的形容詞，不能直接取代本題所需的名詞；weight 則表示重量。"],
+      "pitfall": "height 與 weight 拼字相近，作答前要確認是在問高度還是重量。"
+    },
+    {
+      "id": "english-60", "section": "translation", "label": "第 60 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "資訊設備的名詞", "answer": "computer", "officialAnswer": "computer", "status": "verified",
+      "steps": ["題目所指的資訊設備使用名詞 computer。", "作為單字翻譯，寫單數原形即可；完整句中若表示一部電腦，還要依句型加冠詞。"],
+      "pitfall": "留意中段 -put- 與字尾 -er，不要漏字母。"
+    },
+    {
+      "id": "english-61", "section": "translation", "label": "第 61 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "天賦身分與適合的句型", "answer": "James is a born basketball player. His body is perfect for the sport.", "officialAnswer": "James is a born basketball player. His body is perfect for the sport.", "status": "verified",
+      "steps": ["先把身分句整理成主詞、be 動詞與名詞片語；單數球員前保留 a，born 在這裡描述天生的特質。", "第二句用 His body 接續同一人物的體格，主詞單數，所以使用 is。", "「很適合」用 be perfect for；the sport 回指上一句已出現的籃球運動。"],
+      "pitfall": "born 在本句不是要敘述出生事件；不要改成過去式出生句，也不要漏掉 for。",
+      "note": "這是可行譯法並與參考答案一致；語意完整且文法正確的其他表達，仍應由授課教師依原評分原則判定。"
+    },
+    {
+      "id": "english-62", "section": "translation", "label": "第 62 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "習慣行為與每月頻率", "answer": "Betty goes to the library and checks out books about three times a month.", "officialAnswer": "Betty goes to the library and checks out books about three times a month.", "status": "verified",
+      "steps": ["這是固定習慣，使用一般現在式；Betty 是單數第三人稱，所以 go 變成 goes。", "以 and 連接借書活動時，第二個動詞仍以 Betty 為主詞，check 也要變成 checks。", "借閱用 check out；把約略次數與每月單位放在句尾，用 about three times a month 表示頻率。"],
+      "pitfall": "同一主詞連接兩個動詞時，不能只讓第一個動詞加 s 而漏掉第二個。",
+      "note": "這是可行譯法並與參考答案一致；語意完整且文法正確的其他表達，仍應由授課教師依原評分原則判定。"
+    },
+    {
+      "id": "english-63", "section": "translation", "label": "第 63 題", "sourcePages": [6, 7], "answerPage": 8,
+      "topic": "肯定與否定祈使句", "answer": "Always be nice to your classmates, and never make trouble at school.", "officialAnswer": "Always be nice to your classmates, and never make trouble at school.", "status": "verified",
+      "steps": ["中文是在提出行為要求，可用省略 you 的祈使句；形容詞 nice 前需要原形 be。", "以 always 加強持續要求，對人的友好搭配使用 be nice to。", "第二個要求用 never 接原形動詞 make；trouble 表示麻煩，在此不加 a，最後補上 at school。"],
+      "pitfall": "祈使句不能把 be 改成 are；never 已有否定意思，也不必再重複加 don't。",
+      "note": "這是可行譯法並與參考答案一致；語意完整且文法正確的其他表達，仍應由授課教師依原評分原則判定。"
+    }
+  ]
+}

@@ -78,12 +78,16 @@ jobs:
         run: python assets/study-notes/v120/tests/catalog-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/catalog
       - name: Build V2.1 all-subject worked examples and expanded practice
         run: node assets/study-notes/v120/build-all-subjects.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
+      - name: Build source-checked historical exam solution guides
+        run: node assets/study-notes/v120/build-exam-solutions.cjs assets/study-notes/index.html .pages/assets/study-notes/index.html
       - name: Build compact homepage with on-demand lesson delivery
         run: node assets/study-notes/v120/build-web.cjs .pages/assets/study-notes/index.html .pages/assets/study-notes/index.html
       - name: Validate final web delivery, progress reload and network recovery
         run: python assets/study-notes/v120/tests/web-delivery-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/web-delivery
       - name: Validate semester guidance and saved fixed-question correction
         run: python assets/study-notes/v120/tests/learning-path-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/learning-path
+      - name: Validate historical solutions and paper download recovery
+        run: python assets/study-notes/v120/tests/exam-solutions-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/exam-solutions
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -132,7 +136,7 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.1.0', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.1.1', 'Pages cache still holds earlier version'
                   assert 'data-learning-entry' in html.split('window.STUDY_DATA =')[0], 'Learning entry missing from homepage'
                   assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
                   assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'
@@ -140,6 +144,16 @@ jobs:
                   with urllib.request.urlopen(notes+'delivery-manifest.json?verify='+os.environ['GITHUB_SHA'],timeout=25) as r:
                       manifest=json.load(r)
                   assert manifest['version']==data['appVersion'] and manifest['unitCount']==763
+                  assert len(manifest['papers'])==data['examSolutions']['paperCount']==5
+                  assert all('items' not in p for p in data['examSolutions']['papers']), 'Paper bodies block homepage'
+                  for paper in manifest['papers']:
+                      with urllib.request.urlopen(notes+paper['file'],timeout=25) as r:
+                          paper_raw=r.read()
+                      assert hashlib.sha256(paper_raw).hexdigest()==paper['sha256'], 'Published paper hash mismatch'
+                      payload=json.loads(paper_raw)
+                      expected=next(p for p in data['examSolutions']['papers'] if p['sourceId']==paper['sourceId'])
+                      assert payload['sourceId']==expected['sourceId'] and len(payload['items'])==expected['totalItems']
+                      assert payload['sourceSha256']==expected['sourceSha256']
                   with urllib.request.urlopen(notes+manifest['all']['file'],timeout=25) as r:
                       content=r.read()
                   assert hashlib.sha256(content).hexdigest()==manifest['all']['sha256'], 'Published content hash mismatch'

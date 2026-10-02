@@ -1,0 +1,986 @@
+{
+  "schema": 1,
+  "sourceId": "16lHnZKBz68Zchogwdu-DK12f8dKd9Ri-",
+  "sourceSha256": "ce8e5b5a91e490585f05fc55febd314495724c2d030243524935aa6094300bff",
+  "title": "114-2-1七年級生物科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "已逐題完成本卷第 1～50 題的原創詳解，核對全部 5 個 PDF 實體頁與原圖。48 題推理與答案已核對；第 48、50 題保留官方答案並標示來源敘述爭議。本卷是 114 學年度第二學期第一次段考的歷史資料，不代表整冊教材或全部歷年生物考卷已完成。",
+  "sections": [
+    {
+      "id": "single-choice",
+      "title": "一、單一選擇題（1～23）"
+    },
+    {
+      "id": "grouped-choice",
+      "title": "二、題組單選題（24～42）"
+    },
+    {
+      "id": "reading-choice",
+      "title": "三、閱讀單選題（43～50）"
+    }
+  ],
+  "items": [
+    {
+      "id": "biology-1",
+      "section": "single-choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "減數分裂的數量變化",
+      "answer": "C（4 個子細胞，每個含 4 條染色體）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "減數分裂前，遺傳物質先複製一次，接著連續分裂兩次，所以一個母細胞最後形成四個子細胞。",
+        "果蠅此母細胞有 8 條染色體；減數分裂將染色體套數減半，因此每個子細胞為 8 ÷ 2＝4 條。",
+        "同時符合「四個子細胞」與「每個四條」的選項是 C。"
+      ],
+      "pitfall": "別把「一次減數分裂」誤解成只分裂一次；它包含連續兩次分裂。"
+    },
+    {
+      "id": "biology-2",
+      "section": "single-choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "分裂時可辨認的染色體",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "箭頭指向分裂細胞內較粗、染色明顯的構造，這是凝縮的染色體。",
+        "染色體主要由 DNA 與蛋白質組成，並不是葉綠體或只有蛋白質的細絲。",
+        "細胞分裂與減數分裂時，染色質凝縮，較容易辨認染色體；因此 C 最符合圖示。"
+      ],
+      "pitfall": "染色體在不分裂時並非消失，而是較鬆散，不能把「容易看見」等同「此時才存在」。",
+      "note": "題目 B 的範圍包含不同類型的洋蔥細胞；配子與一般體細胞的染色體數目並不相同。"
+    },
+    {
+      "id": "biology-3",
+      "section": "single-choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "以有性生殖增加育種變異",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "育種目標是得到新的花色或花形，需要增加子代遺傳組合的差異。",
+        "取其他植株的花粉授粉，之後若完成受精，子代便可結合兩個親代的遺傳物質。",
+        "扦插、由葉片誘導新植株及組織培養，都屬本題所比較的無性繁殖方式，主要保留原株特徵；因此選 B。"
+      ],
+      "pitfall": "大量複製優良品種與創造新的遺傳組合，是不同的育種目的。"
+    },
+    {
+      "id": "biology-4",
+      "section": "single-choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "酵母菌的出芽生殖",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中小芽由原細胞表面長出，逐漸長大後分離，符合出芽生殖。",
+        "酵母菌是單細胞生物；此過程不需精、卵結合，屬無性生殖。",
+        "未考慮突變時，這類子代的遺傳組合通常與母體相同，因此 C 正確。"
+      ],
+      "pitfall": "無性生殖速度快，不代表遺傳變異多，也不能保證適應多變環境。"
+    },
+    {
+      "id": "biology-5",
+      "section": "single-choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "有性與無性生殖的子代差異",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先判斷各方式是否經過配子形成與受精。蘋果以種子繁殖，種子中的胚由受精卵發育而來。",
+        "有性生殖會組合來自雙親的遺傳物質，子代通常有較大的個體差異。",
+        "題中的青黴菌孢子、番薯塊根及草履蟲分裂，皆按無性生殖比較，所以選 B。"
+      ],
+      "pitfall": "不要看到植物就一律判定無性生殖；種子與營養器官繁殖須分開判斷。"
+    },
+    {
+      "id": "biology-6",
+      "section": "single-choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "染色體的組成與分配",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "染色體的主要組成是 DNA 與蛋白質，直接符合 B。",
+        "生物體型不能用來推定染色體的大小。圖中的不同對染色體，在減數分裂時也沒有題目所說的固定搭配。",
+        "一般有絲分裂會讓兩個子細胞各保有完整染色體組；不是將甲、乙這類同源染色體各只送入一個子細胞。"
+      ],
+      "pitfall": "有絲分裂分開的是複製後的姊妹染色分體；減數第一次分裂才分離同源染色體。"
+    },
+    {
+      "id": "biology-7",
+      "section": "single-choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "遺傳性狀與母子感染",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "性狀是生物可遺傳的特徵，控制性狀的基本遺傳單位是基因。",
+        "同一性狀可以有不同表徵，例如血型有 A、B、AB、O 等類型。",
+        "病毒由母體傳給胎兒屬感染傳播，不等於親代的等位基因傳給子代，因此錯誤的是 D。"
+      ],
+      "pitfall": "「由母親傳給小孩」不一定是遺傳；要看傳遞的是基因還是病原體。"
+    },
+    {
+      "id": "biology-8",
+      "section": "single-choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "女性性染色體的來源",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "正常女性體細胞中的性染色體組合為 XX，不只卵細胞才有性染色體。",
+        "這兩條 X 分別由父親的精子與母親的卵提供，因此 B 正確。",
+        "卵形成時經減數分裂，通常只含一條 X，不是 XX，也不會正常產生含 Y 的卵。"
+      ],
+      "pitfall": "分清體細胞的兩條性染色體與配子的一條性染色體。"
+    },
+    {
+      "id": "biology-9",
+      "section": "single-choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "遺傳實驗材料的選擇",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "生長期短可較快觀察多個世代；後代數量多有助於辨認遺傳比例。",
+        "豌豆能自花授粉，便於維持純品系，也可由研究者控制異花授粉。",
+        "染色體有幾對不是這些實驗操作與性狀統計上的主要優點，故本題選 D。"
+      ],
+      "pitfall": "物種具有某項事實，不代表那項事實就是適合作實驗材料的理由。"
+    },
+    {
+      "id": "biology-10",
+      "section": "single-choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "配子中的等位基因數",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "原圖有兩對同源染色體，共標出 A、a、B、b、C、c 六個遺傳因子；B 與 b 是同一基因的等位基因。",
+        "減數分裂時，同源染色體分離；正常配子在這一對位點上只取得 C 或 c 其中之一。",
+        "因此單一正常配子不會同時為 Cc，錯誤敘述是 D。"
+      ],
+      "pitfall": "Cc 是雙套細胞某基因的組合，不能直接當成單套配子的基因型。",
+      "note": "「六個遺傳因子」指圖中標示的六個，不代表真實染色體總共只有這些基因。"
+    },
+    {
+      "id": "biology-11",
+      "section": "single-choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "誘發突變與近親婚配",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "過量游離輻射以及某些化學暴露，可能增加 DNA 受損與突變的風險；本題將乙、丙、丁、戊列作這類情境。",
+        "近親婚配主要增加雙方攜帶相同隱性等位基因、並傳給子代的機會，並不等於直接製造新的基因突變。",
+        "排除甲後，符合題意的組合是 C。"
+      ],
+      "pitfall": "隱性疾病更容易表現與突變率增加，是兩個不同概念。",
+      "note": "化學物的實際風險與種類、劑量及暴露方式有關；此題的分類不能推成所有染料或每次食用都必定造成突變。"
+    },
+    {
+      "id": "biology-12",
+      "section": "single-choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "由子代比例反推親代基因型",
+      "answer": "B（乙為 bb，棕色）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "各親代都與 Bb 交配。BB × Bb 的後代全有顯性表徵，bb × Bb 約為 1：1，Bb × Bb 約為 3：1。",
+        "甲組全為黑色，乙組黑、棕接近 1：1，丙組黑、棕接近 3：1；據此判定黑色為顯性，甲為 BB、乙為 bb、丙為 Bb。",
+        "只有 B 同時正確配對乙的基因型與棕色表徵。"
+      ],
+      "pitfall": "3：1 是表現型比例，不代表 BB：bb 為 3：1；實際基因型比例是 1：2：1。"
+    },
+    {
+      "id": "biology-13",
+      "section": "single-choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "陸地受精與水分限制",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "精子移動與精卵結合需要適合的液體環境，陸地外界容易造成配子乾燥。",
+        "體內受精讓精卵在親體內的適當環境相遇，可降低外界乾燥對受精的限制，因此選 B。",
+        "增加卵內養分主要幫助胚胎發育，並不能直接解決精卵如何相遇的問題。"
+      ],
+      "pitfall": "受精的環境與胚胎後續取得養分的方式，要分開討論。"
+    },
+    {
+      "id": "biology-14",
+      "section": "single-choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "以親代子代表徵判定顯隱性",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "在題目假設的單一基因、完全顯性模型下，若兩個同色親代生出另一色子代，親代必須各攜帶一個未表現的隱性等位基因。",
+        "兩隻棕毛親代可記為 Bb × Bb，白毛子代則為 bb，故白毛可判為隱性。",
+        "同色親代只生同色子代，或觀察自然界多少與適應好壞，都不足以單獨判斷顯隱性。"
+      ],
+      "pitfall": "顯性不等於較常見、較強壯或較有利。"
+    },
+    {
+      "id": "biology-15",
+      "section": "single-choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "水生動物的受精方式",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題述珊瑚將配子釋放到海水中，精卵在體外結合，屬體外受精。",
+        "但水生動物不全都採體外受精，例如鯨豚是體內受精；因此 A 的全稱判斷錯誤。",
+        "其餘選項是在描述本題珊瑚的外排配子與卵生情境。"
+      ],
+      "pitfall": "棲息地在水中，不能直接決定其受精發生在體內還是體外。"
+    },
+    {
+      "id": "biology-16",
+      "section": "single-choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "一比一分離比例",
+      "answer": "D（Pp × pp）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "白花親代的隱性基因型為 pp，只能提供 p 配子。",
+        "若紫花親代為 Pp，便各有約一半機會提供 P 或 p，後代為一半 Pp、一半 pp。",
+        "這就形成紫花：白花約 1：1，符合 D；若紫花為 PP，則後代會全為紫花。"
+      ],
+      "pitfall": "先用白花確定 pp，再由子代有白花推回紫花親代必須帶 p。"
+    },
+    {
+      "id": "biology-17",
+      "section": "single-choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "DNA 與 RNA 名稱辨別",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "DNA 是生物的遺傳物質，基因可視為具有遺傳功能的 DNA 片段。",
+        "不分裂時，DNA 與蛋白質形成較鬆散的染色質；分裂時則凝縮為容易辨認的染色體。",
+        "DNA 的中文名稱是去氧核糖核酸；核糖核酸指 RNA，所以 D 錯誤。"
+      ],
+      "pitfall": "DNA 與 RNA 只差幾個字，卻不是同一種核酸。"
+    },
+    {
+      "id": "biology-18",
+      "section": "single-choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "染色體圖中的第 21 對異常",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "逐組觀察原圖，第 21 組有三條染色體，而不是一般的兩條。",
+        "第 21 號染色體三體與唐氏症相符，因此 D 是最合理推論。",
+        "第 23 組圖示為 XX；也不能由胎兒的異常直接斷定雙親都有 47 條染色體，或判定胎兒無法存活。"
+      ],
+      "pitfall": "先看異常出現在哪一組；不要只數出多一條就推論所有家人的染色體數。"
+    },
+    {
+      "id": "biology-19",
+      "section": "single-choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "胎生與棲息環境",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "胎生的重點是胚胎在母體內發育，與是否生活在陸地是不同分類。",
+        "鯨豚等水生哺乳類也採胎生，所以胎生動物並非全是陸生。",
+        "本題不具普遍性的特性是 B；胎生哺乳類通常由母體提供胚胎發育所需的養分。"
+      ],
+      "pitfall": "卵生或胎生描述胚胎發育方式，不是水生或陸生的同義詞。"
+    },
+    {
+      "id": "biology-20",
+      "section": "single-choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "由家族史辨認遺傳諮詢需求",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "遺傳諮詢會關注家族中已知的遺傳疾病與可能的傳遞方式。",
+        "妻子的父親有紅綠色盲，提供了性聯遺傳的家族線索；女兒會由父親取得他的 X 染色體，因此值得進一步釐清。",
+        "想要特定性別、罹患感染或僅有肝癌病名，並不像 A 直接提供此題所需的明確遺傳家族史。"
+      ],
+      "pitfall": "有家族史代表需要評估，不等於每個子代都一定患病。",
+      "note": "此處比較題目提供的線索，不以四個簡短選項替任何實際家庭作醫療判斷。"
+    },
+    {
+      "id": "biology-21",
+      "section": "single-choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "受精恢復雙套染色體",
+      "answer": "C（丙：受精作用）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "減數分裂形成的精子與卵各為單套 n。",
+        "受精時兩個配子結合，n＋n＝2n，恢復雙套染色體。",
+        "產生配子是減半方向，一般體細胞分裂則維持原套數；因此選丙所對應的 C。"
+      ],
+      "pitfall": "題目問 n 到 2n，方向與形成配子的 2n 到 n 相反。"
+    },
+    {
+      "id": "biology-22",
+      "section": "single-choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "突變的影響與遺傳條件",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "突變可能有害、中性或在特定環境下有利，不能一概而論。",
+        "親代的突變若未進入形成子代的遺傳物質，就不會因此傳給子代；例如人類許多體細胞突變不會經配子遺傳。",
+        "接觸誘變因素只表示風險可能增加，不保證每次都突變，所以只有 B 合理。"
+      ],
+      "pitfall": "看到「必定」「一定」時，要檢查是否把機率事件說成必然事件。"
+    },
+    {
+      "id": "biology-23",
+      "section": "single-choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "ABO 血型的隨機配子模擬",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "母親 Iᴬi 可提供 Iᴬ 或 i，父親 Iᴮi 可提供 Iᴮ 或 i；每人手中的兩張卡可對應一對同源染色體。",
+        "等機率抽取後，四種組合為 IᴬIᴮ、Iᴬi、Iᴮi、ii，故 AB 型的理論機率為 1/4。",
+        "個別實驗常抽到某張卡只是樣本的隨機波動，並不表示父母能選擇子女血型；錯誤的是 C。"
+      ],
+      "pitfall": "少量試驗的結果未必正好等於理論比例，不能因此改寫遺傳規則。",
+      "note": "題文開頭將第三種等位基因印作大寫 I，後文卡片與標準記法皆為小寫 i；本解按後文可辨識的 Iᴬ、Iᴮ、i 推導。"
+    },
+    {
+      "id": "biology-24",
+      "section": "grouped-choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "雞蛋構造的功能",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "原圖甲指向卵黃表面的胚盤，也就是課程所稱的小白點，其中含有細胞核。",
+        "丙是繫帶，功能是協助固定卵黃，並不是哺乳類的臍帶。",
+        "乙為蛋殼、丁為氣室；蛋殼不是幫助受精，防止水分散失也不是氣室的主要功能，因此只有 D 配對正確。"
+      ],
+      "pitfall": "功能相似或名稱有「帶」，都不能把雞蛋的繫帶叫作臍帶。"
+    },
+    {
+      "id": "biology-25",
+      "section": "grouped-choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "雞蛋是否必須先受精",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "母雞即使沒有與公雞交配，也能排卵並產下未受精的蛋。",
+        "受精才使其中的胚能發育為小雞，但不是形成並產出雞蛋的必要前提，所以 C 錯誤。",
+        "蛋放久後水分等逐漸散失，氣室常變大；卵黃與胚盤則屬本題所指的卵細胞部分。"
+      ],
+      "pitfall": "產蛋與受精是不同事件，不能把所有雞蛋都視為能孵出小雞。"
+    },
+    {
+      "id": "biology-26",
+      "section": "grouped-choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "鳥類的護卵與胚胎營養",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "鳥類常見築巢、孵卵及護卵等繁殖行為，A 符合本題要辨認的類型。",
+        "企鵝是鳥類，沒有哺乳類的乳腺哺乳；鳥類也有多樣的求偶行為。",
+        "雞的胚胎主要利用卵內養分發育，不是經胎盤與臍帶由母體供給。"
+      ],
+      "pitfall": "鳥類餵食幼鳥不等於哺乳，卵內養分也不同於胎盤供養。",
+      "note": "A 按鳥類常見行為理解；自然界有繁殖策略的例外，不能再擴張成每一種鳥都親自護卵。"
+    },
+    {
+      "id": "biology-27",
+      "section": "grouped-choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "草莓匍匐莖的無性繁殖",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "乙從甲的匍匐莖節長出，沒有精卵結合，是營養器官繁殖。",
+        "此過程靠一般細胞分裂形成新個體；未考慮突變時，乙會保有甲的 Aa 基因型。",
+        "因此將乙說成有性生殖結果的 C 錯誤。"
+      ],
+      "pitfall": "新個體即使離開母株獨立生活，也不代表其形成方式是有性生殖。"
+    },
+    {
+      "id": "biology-28",
+      "section": "grouped-choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "草莓雜交子代的可能基因型",
+      "answer": "D（可能為 aa）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲為 Aa，形成的配子可以帶 A 或 a；另一親代 aa 只能提供 a。",
+        "受精組合為 Aa 或 aa，各約占一半，所以種子中的胚有可能為 aa。",
+        "選項只有 D 保留這個可能性；不能說一定是 Aa，也不能排除 Aa。"
+      ],
+      "pitfall": "交配結果有多種可能時，不要把「可能」誤改成「必定」。",
+      "note": "此處的子代基因型指種子中的胚；種皮等母株組織不能一併當成胚的基因型。"
+    },
+    {
+      "id": "biology-29",
+      "section": "grouped-choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "胚珠與種子數量",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中戊是子房內的胚珠；完成正常受精並發育的胚珠可形成種子。",
+        "因此一個子房可形成多少種子，與胚珠的數量有關，C 正確。",
+        "精細胞為單套；花粉管將精細胞帶向胚珠，而不是把卵送上柱頭；丁所示子房通常會發育成果實。"
+      ],
+      "pitfall": "子房對應果實、胚珠對應種子，兩者不能對調。"
+    },
+    {
+      "id": "biology-30",
+      "section": "grouped-choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "風媒花與蟲媒花的構造",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "風媒花靠空氣傳播花粉，花藥與柱頭通常較外露，以利花粉散出或被接住。",
+        "所以 B 說兩者都藏在花瓣內，與風媒傳粉的功能不符。",
+        "蟲媒花則常以鮮豔花瓣或花蜜吸引昆蟲；風媒花通常不需顯眼花瓣。"
+      ],
+      "pitfall": "先問構造如何幫助傳粉，再判斷應該外露還是被包住。"
+    },
+    {
+      "id": "biology-31",
+      "section": "grouped-choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "花粉管協助精細胞到達胚珠",
+      "answer": "B（庚：花粉管）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "花粉落在適當柱頭後，可長出花粉管，沿雌蕊向胚珠延伸。",
+        "精細胞沿花粉管到達受精位置，不需依賴外界水體游到卵旁。",
+        "原圖庚標示這條構造，故選 B。"
+      ],
+      "pitfall": "不需外界水作精子游動媒介，並不代表植物生長或細胞活動完全不需水。"
+    },
+    {
+      "id": "biology-32",
+      "section": "grouped-choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "果實的發育與種子傳播",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "果實通常由子房發育，圖中的甲是花瓣，並非果實的主要來源。",
+        "果實可保護種子，也可藉動物食用、附著、風或其他方式幫助種子傳播。",
+        "A 認錯來源，B、C 將功能說得過窄；D 正確。"
+      ],
+      "pitfall": "果實不只供人食用；它的功能應從植物繁殖與種子散布來看。"
+    },
+    {
+      "id": "biology-33",
+      "section": "grouped-choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "人體受精的位置",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原圖甲為輸卵管、乙為子宮、丙為陰道、丁為卵巢。",
+        "卵巢產生卵；精卵通常在輸卵管結合，早期胚胎之後移往子宮。",
+        "丙不是通常的受精位置，因此 B 錯誤；子宮則能容納發育中的胎兒。"
+      ],
+      "pitfall": "精子進入的通道、受精位置及胚胎著床位置，並不是同一處。"
+    },
+    {
+      "id": "biology-34",
+      "section": "grouped-choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "羊水與胎盤臍帶的功能",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中己為胎兒周圍的羊水，可緩衝震動並提供保護，所以 A 正確。",
+        "庚為胎盤，是母體與胎兒進行物質交換的重要構造；戊所指子宮壁不能直接取代胎盤的功能。",
+        "辛為臍帶，連接胎兒與胎盤，參與養分、氧與代謝廢物的運送，不只輸送養分。"
+      ],
+      "pitfall": "羊水負責環境與保護，胎盤負責交換，臍帶負責胎兒與胎盤之間的連接與運輸。"
+    },
+    {
+      "id": "biology-35",
+      "section": "grouped-choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "遺傳物質量曲線與分裂階段",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲圖先增加一次，再連續下降兩次，表示複製一次後完成兩次分裂，為減數分裂。",
+        "箭頭①位在甲圖第一次下降，對應減數第一次分裂，同源染色體分離，因此 A 正確。",
+        "甲圖②為第二次下降；乙圖③在上升處、④在下降處。③對應複製，④不是複製。"
+      ],
+      "pitfall": "曲線畫的是每個細胞的遺傳物質含量，不要把每次下降都判作同源染色體分離。"
+    },
+    {
+      "id": "biology-36",
+      "section": "grouped-choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "兩種分裂與生殖方式",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "由曲線判定甲為減數分裂，乙為一般有絲分裂。",
+        "甲可形成有性生殖所需的配子；乙可參與無性生殖，所以 A 的對照正確。",
+        "減數分裂是兩次分裂、通常使染色體數目減半；有絲分裂一次、通常維持數目。其餘選項將這些關係放反。"
+      ],
+      "pitfall": "先讀曲線辨認甲乙，再看表格，不能憑表格中的熟悉詞彙直接作答。"
+    },
+    {
+      "id": "biology-37",
+      "section": "grouped-choice",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "生物過程與分裂曲線配對",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲是減數分裂，乙是有絲分裂。母雞形成卵涉及減數分裂，因此可對應甲。",
+        "珊瑚形成配子同樣應配甲；渦蟲的無性繁殖則以一般細胞分裂形成新個體，應配乙。",
+        "受精是配子融合，不是乙圖所表示的細胞分裂，所以只有 D 正確。"
+      ],
+      "pitfall": "有性生殖包含配子形成與受精兩部分，但受精本身不是減數分裂或有絲分裂。"
+    },
+    {
+      "id": "biology-38",
+      "section": "grouped-choice",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "由 ABO 血型排除親子配對",
+      "answer": "A（李家為小智）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "小智是 AB 型，必須各取得一個 Iᴬ 與 Iᴮ。王太太與張太太都是 O 型，只能提供 i，因此兩家都不能生出 AB 型小孩。",
+        "所以小智一定屬於李家，A 正確。",
+        "張家 B × O 只能出現 B 或 O，餘下小孩中只能配 O 型小靜；王家則配 A 型小薇。"
+      ],
+      "pitfall": "先找限制最強的 AB 型孩子，逐一排除後再完成其餘配對。"
+    },
+    {
+      "id": "biology-39",
+      "section": "grouped-choice",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "從 O 型子女反推父親帶因",
+      "answer": "C（Iᴮi × ii）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "承上題，張家的孩子是 O 型，其基因型必為 ii。",
+        "孩子的一個 i 來自 O 型母親；另一個 i 必須由 B 型父親提供，因此父親為 Iᴮi。",
+        "張太太為 ii，兩人的基因型就是 C。"
+      ],
+      "pitfall": "B 型表現可能來自 IᴮIᴮ 或 Iᴮi，必須用子女線索才能決定。"
+    },
+    {
+      "id": "biology-40",
+      "section": "grouped-choice",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "血型與性別的聯合機率",
+      "answer": "B（1/4）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "王先生的母親是 O 型 ii，他必定從母親取得 i；他本人為 A 型，所以基因型為 Iᴬi。",
+        "王太太為 O 型 ii，後代 A 型與 O 型的理論機率各為 1/2。",
+        "按本題男女性別各半且與 ABO 遺傳獨立的模型，A 型男孩機率＝1/2 × 1/2＝1/4，選 B。"
+      ],
+      "pitfall": "問同時滿足兩個獨立條件的機率時要相乘，不能只回答 A 型的 1/2。"
+    },
+    {
+      "id": "biology-41",
+      "section": "grouped-choice",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "由族譜推回奶奶基因型",
+      "answer": "A（Rr，未表現白化症）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "爺爺塗黑，為隱性疾病患者 rr，所以他的每個孩子都從他得到 r。",
+        "姑姑也是 rr，表示奶奶曾提供 r；爸爸未表現白化症，但已有爺爺給的 r，因此爸爸為 Rr，奶奶也曾提供 R。",
+        "同時能提供 R 與 r 的奶奶必為 Rr，在此模型下未表現白化症，選 A。"
+      ],
+      "pitfall": "奶奶旁的問號沒有直接給表現型，必須同時利用姑姑與爸爸兩條子代線索。"
+    },
+    {
+      "id": "biology-42",
+      "section": "grouped-choice",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "近親婚配的隱性疾病風險",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "表妹的母親是患者 rr，所以表妹必定取得 r；她未表現白化症，因此為 Rr。",
+        "哥哥為 rr。若兩人有子女，rr × Rr 會有約一半 rr、一半 Rr，故 C 的機率有根據。",
+        "近親較容易共享相同的隱性等位基因，可能提高隱性疾病表現機率；這不是近親婚配直接誘發突變，所以不是合理理由的是 A。"
+      ],
+      "pitfall": "增加既有隱性等位基因配成兩份的機會，不等於增加新突變。"
+    },
+    {
+      "id": "biology-43",
+      "section": "reading-choice",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "玉米粒之間的遺傳差異",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "依題文，一粒玉米對應一朵小花的子房與其受精後發育的種子；200 粒可對應至少 200 朵小花及各自的花絲狀雌蕊構造。",
+        "不同胚珠受精時可組合不同的配子，形成的各個胚不保證有完全相同的遺傳組合。",
+        "同一玉米粒內也含母株形成的組織與受精後形成的組織，不能說所有細胞的遺傳物質完全相同，故 D 錯誤。"
+      ],
+      "pitfall": "生長在同一株或同一穗上的種子，不等於由無性繁殖形成的完全相同個體。"
+    },
+    {
+      "id": "biology-44",
+      "section": "reading-choice",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "穎果的果皮與種皮",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "本篇對穎果的關鍵描述，是果皮與種皮緊密結合，符合 A。",
+        "文章並沒有支持不疏果就必定同時提高品質與產量，也提到玉米鬚可被利用。",
+        "一整穗由許多小花的子房發育，含有許多玉米粒，不能把整穗當成單一子房形成的一顆果實。"
+      ],
+      "pitfall": "區分一粒玉米與一整穗玉米，不能將兩個尺度混用。",
+      "note": "較精確的說法是一粒玉米是含有種子的穎果；果實與種子仍是不同的構造概念。"
+    },
+    {
+      "id": "biology-45",
+      "section": "reading-choice",
+      "label": "第 45 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "孟德爾實驗的可預測性",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "孟德爾藉親代交配與子代數量統計，提出可以用遺傳因子及機率預測的規律。",
+        "因此宣稱性狀遺傳無法預測的 A，與文章介紹的實驗結論相反。",
+        "B、C、D 對應文章列出的顯隱性、分離及獨立分配觀點；本題按文章所討論的條件判讀。"
+      ],
+      "pitfall": "可預測的是機率與大量子代的比例，不代表能指定每一個子代的表徵。",
+      "note": "獨立分配有適用條件；不能把文章的簡述延伸成所有基因永遠彼此獨立，連鎖基因便需要另作分析。"
+    },
+    {
+      "id": "biology-46",
+      "section": "reading-choice",
+      "label": "第 46 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "無合成分裂的核心特徵",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "閱讀題文對此分裂方式的定義：細胞分裂前不進行 DNA 複製。",
+        "因此即使細胞數增加，分到每個子細胞的遺傳物質含量會下降，這與一般分裂前先複製 DNA 不同。",
+        "文章沒有說不消耗能量，也沒有說子細胞膨脹變大，所以選 C。"
+      ],
+      "pitfall": "「無合成」在本篇特指不複製 DNA，不能自行擴張為沒有任何物質合成或能量消耗。"
+    },
+    {
+      "id": "biology-47",
+      "section": "reading-choice",
+      "label": "第 47 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "區分研究推測與觀察結果",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章描述分裂後子細胞較小且較扁，皮膚的覆蓋面積增加。",
+        "研究團隊據此推測，快速增加體表覆蓋可幫助幼魚降低感染風險，因此 C 對應其推論。",
+        "此方式不是減少細胞數，也不會藉 DNA 複製增加其含量；A、B、D 均不符合文中過程。"
+      ],
+      "pitfall": "本文說的是研究者的可能解釋，不應改寫成已證明所有動物都採用的功能。"
+    },
+    {
+      "id": "biology-48",
+      "section": "reading-choice",
+      "label": "第 48 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "X 聯遺傳記號與女性表現",
+      "answer": "D 是明確的染色體標記錯誤；C 的「正常」說法也需修正。",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "題設 a 位在 X 染色體上，因此致病等位基因應寫在 X 上；把它標在 Y 的 D 不符合題設。",
+        "依本題簡化的 X 聯隱性模型，XᵃY 男性與 XᵃXᵃ 女性會表現疾病，XᵃX 女性常被列為帶因者，這是官方選 D 的推導。",
+        "實際上，只有一份變異的女性也可能因 X 染色體不活化的差異而有 G6PD 缺乏或症狀，所以不能將 C 一概當作健康保證。"
+      ],
+      "pitfall": "「帶因女性」不等於一定沒有症狀；考試中的簡化模型不可取代實際生理情況。",
+      "note": "來源爭議：原文把女性發病條件寫成必須兩條 X 都異常，過度簡化。補充核對：美國國家醫學圖書館 MedlinePlus Genetics，https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/ （2026-10-02 查閱）。"
+    },
+    {
+      "id": "biology-49",
+      "section": "reading-choice",
+      "label": "第 49 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "從部分藥物風險辨認過度推論",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章指出「某些」藥物可能誘發溶血，並不是所有抗生素或所有止痛藥都屬同一風險。",
+        "B 把部分藥物的限制擴大成整類藥物一律不能使用，推論過度，因此是本題不恰當的敘述。",
+        "原圖列出蒼白、黃疸、深色尿及嚴重時的呼吸困難等表現，與其他選項所述的紅血球破壞方向一致。"
+      ],
+      "pitfall": "某一類藥物中有高風險成員，不代表每個成員都一樣；也不能自行據此選藥或停藥。",
+      "note": "用藥是否合適須由醫療專業人員依實際藥品評估；這題只考查文章中的量詞與因果判讀。"
+    },
+    {
+      "id": "biology-50",
+      "section": "reading-choice",
+      "label": "第 50 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "避免誘因與新生兒篩檢的限制",
+      "answer": "官方意圖為 A，但 A 過度絕對；嚴格而言沒有完整正確的選項。",
+      "officialAnswer": "A",
+      "status": "disputed",
+      "steps": [
+        "B 排除所有女性患者，與 X 聯遺傳可出現女性患者的情況不符；C 把題文的遺傳方式誤作顯性，也不能用常見與否判斷顯隱性。",
+        "D 混淆出生後篩檢與生育前預防：新生兒篩檢用來及早辨識已出生嬰兒的狀況，不能讓帶有相關基因的嬰兒不出生。",
+        "排除 B、C、D 可看出命題者預期的答案是 A，但避免文章列出的物質不能保證永遠不溶血；感染等其他因素也可能誘發溶血。較妥當的結論是避免已知誘因能降低風險。"
+      ],
+      "pitfall": "不要把「降低風險」改寫成「保證不發生」，也不要把出生後篩檢當成防止疾病基因遺傳。",
+      "note": "來源爭議：官方答案 A 的全稱敘述欠缺必要條件。補充核對：美國國家醫學圖書館 MedlinePlus Genetics 說明感染亦可誘發溶血，https://medlineplus.gov/genetics/condition/glucose-6-phosphate-dehydrogenase-deficiency/ （2026-10-02 查閱）。"
+    }
+  ]
+}

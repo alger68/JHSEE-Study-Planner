@@ -1,0 +1,1292 @@
+{
+  "schema": 1,
+  "sourceId": "1YESuB3iwULTIECFo-LrOuncaJx_FShhG",
+  "sourceSha256": "d88e6b46fb056c4c31f669141e7c83cf43ffcd0f3c24db9a9c297c28ae140f35",
+  "title": "114-2-1七年級國文科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "共收錄67個作答項目：國字注音10題、注釋10題、改錯5字、多元思考5格、綜合測驗25題及閱讀題組12題。原題在PDF第1至7頁，官方答案在第8頁，第9頁空白。綜合測驗第5題的選項排他性有疑義，第14題的六書分類有核對限制；其餘詳解已按題意、圖表與答案表逐項核對。這是114-2七年級第一次段考的歷史試卷詳解。",
+  "sections": [
+    {
+      "id": "characters",
+      "title": "一、國字注音"
+    },
+    {
+      "id": "definitions",
+      "title": "二、注釋"
+    },
+    {
+      "id": "corrections",
+      "title": "三、改錯"
+    },
+    {
+      "id": "effects",
+      "title": "四、多元思考題"
+    },
+    {
+      "id": "general",
+      "title": "五、綜合測驗"
+    },
+    {
+      "id": "reading",
+      "title": "六、閱讀題組"
+    }
+  ],
+  "items": [
+    {
+      "id": "characters-01",
+      "section": "characters",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "患病用字",
+      "answer": "罹",
+      "officialAnswer": "罹",
+      "status": "verified",
+      "steps": [
+        "先由後面的「患」判斷，這裡要組成表示患病或遭受疾病的詞。",
+        "這個詞寫作「罹患」，所以ㄌㄧˊ應寫「罹」，字形下半的部件也要寫完整。"
+      ],
+      "pitfall": "不要只憑讀音寫成「離」；同音字必須放回詞義確認。"
+    },
+    {
+      "id": "characters-02",
+      "section": "characters",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "水波用字",
+      "answer": "漪",
+      "officialAnswer": "漪",
+      "status": "verified",
+      "steps": [
+        "先辨認「漣漪」是形容水面細小波紋的詞。",
+        "後一字讀ㄧ，寫作「漪」，左側是三點水，右側為「猗」。"
+      ],
+      "pitfall": "不要把ㄧ直接寫成「依」或「衣」；本題考固定詞語的字形。"
+    },
+    {
+      "id": "characters-03",
+      "section": "characters",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "珍寶用字",
+      "answer": "瑰",
+      "officialAnswer": "瑰",
+      "status": "verified",
+      "steps": [
+        "題目的語境是珍貴的寶物，應組成「瑰寶」。",
+        "「瑰」左為玉字旁、右為「鬼」，因此答案是「瑰」。"
+      ],
+      "pitfall": "「玫瑰」雖也用「瑰」，不能把「玫」誤填進來。"
+    },
+    {
+      "id": "characters-04",
+      "section": "characters",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "風吹用字",
+      "answer": "颳",
+      "officialAnswer": "颳",
+      "status": "verified",
+      "steps": [
+        "先看後面的「風」，可知是在描述風吹起的現象。",
+        "依本卷要求的字形，這個詞寫作「颳風」，應填「颳」。"
+      ],
+      "pitfall": "答案表用的是風部的「颳」，作答時不要漏寫「風」部。"
+    },
+    {
+      "id": "characters-05",
+      "section": "characters",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "皮膚增厚用字",
+      "answer": "繭",
+      "officialAnswer": "繭",
+      "status": "verified",
+      "steps": [
+        "由「結著厚」判斷，此處說的是皮膚長期受摩擦後增厚的硬皮。",
+        "這種硬皮稱為「繭」，與蠶繭同字，讀ㄐㄧㄢˇ。"
+      ],
+      "pitfall": "不要寫成「簡」；讀音相近並不代表能用在同一詞義。"
+    },
+    {
+      "id": "characters-06",
+      "section": "characters",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "雕刻字音",
+      "answer": "ㄐㄩㄢ",
+      "officialAnswer": "ㄐㄩㄢ",
+      "status": "verified",
+      "steps": [
+        "先辨認「鐫刻」中的「鐫」，意思與雕鑿、刻寫有關。",
+        "「鐫」讀ㄐㄩㄢ，聲調是第一聲；注音答案不加二、三、四聲符號。"
+      ],
+      "pitfall": "不要把「鐫」讀成「雋」的常見讀音ㄐㄩㄣˋ。"
+    },
+    {
+      "id": "characters-07",
+      "section": "characters",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "古印度語言字音",
+      "answer": "ㄈㄢˋ",
+      "officialAnswer": "ㄈㄢˋ",
+      "status": "verified",
+      "steps": [
+        "本題指定的是「梵語」的「梵」。",
+        "教育部《國語辭典簡編本》列「梵」為ㄈㄢˋ，應標第四聲。"
+      ],
+      "pitfall": "不要受到字形下方「凡」的ㄈㄢˊ影響而標成第二聲。"
+    },
+    {
+      "id": "characters-08",
+      "section": "characters",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "表面粗糙的讀音",
+      "answer": "ㄘㄠ",
+      "officialAnswer": "ㄘㄠ",
+      "status": "verified",
+      "steps": [
+        "在「粗糙」這個詞裡，題目要的是「糙」的讀音。",
+        "依教育部《國語辭典簡編本》的學習用讀音，寫ㄘㄠ，第一聲；與本卷答案一致。"
+      ],
+      "pitfall": "勿把聲旁「造」的讀音直接套用；本題不是ㄗㄠˋ。",
+      "note": "《重編國語辭典修訂本》另列讀音ㄘㄠˋ；本卷採與《簡編本》一致的ㄘㄠ。"
+    },
+    {
+      "id": "characters-09",
+      "section": "characters",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "厚著臉皮的讀音",
+      "answer": "ㄒㄧㄢˊ",
+      "officialAnswer": "ㄒㄧㄢˊ",
+      "status": "verified",
+      "steps": [
+        "先鎖定題目要注音的字是「涎」，不是後面的「臉」。",
+        "「涎」在這裡讀ㄒㄧㄢˊ，第二聲；整個說法描寫厚著臉皮的神態。"
+      ],
+      "pitfall": "不要只照右邊「延」念ㄧㄢˊ，要保留ㄒ聲母。"
+    },
+    {
+      "id": "characters-10",
+      "section": "characters",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "高高直立的讀音",
+      "answer": "ㄔㄨˋ",
+      "officialAnswer": "ㄔㄨˋ",
+      "status": "verified",
+      "steps": [
+        "「矗立」形容高大而直立，題目要注音的是第一字。",
+        "「矗」讀ㄔㄨˋ，聲母為ㄔ，韻母為ㄨ，聲調為第四聲。"
+      ],
+      "pitfall": "不要因為字形由三個「直」組成，就讀成ㄓˊ。"
+    },
+    {
+      "id": "definitions-01",
+      "section": "definitions",
+      "label": "二、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "冷暖交替",
+      "answer": "天氣剛轉暖，卻又回冷，冷暖不定。",
+      "officialAnswer": "形容天氣冷熱不定。",
+      "status": "verified",
+      "steps": [
+        "把「乍」理解為剛開始，「還」理解為又。",
+        "把前後兩種溫度接起來，就是天氣才暖起來又變冷，因此釋義應包含冷暖反覆。"
+      ],
+      "pitfall": "只寫「天氣寒冷」會漏掉先暖後冷的變化。"
+    },
+    {
+      "id": "definitions-02",
+      "section": "definitions",
+      "label": "二、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "完備而小巧",
+      "answer": "應有的內容大致都有，規模卻比較小。",
+      "officialAnswer": "內容大致齊全，只是規模較小。",
+      "status": "verified",
+      "steps": [
+        "「具體」在這個成語中，要從整體構成大致具備來理解。",
+        "「微」指出規模小；合起來必須同時包含內容完備與規模較小兩層意思。"
+      ],
+      "pitfall": "不要把它解成內容不完整，或只解成事物很具象。"
+    },
+    {
+      "id": "definitions-03",
+      "section": "definitions",
+      "label": "二、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "匯聚成盛大景象",
+      "answer": "眾多事物聚集，形成盛大可觀的景象。",
+      "officialAnswer": "匯集成壯盛的景象。",
+      "status": "verified",
+      "steps": [
+        "先抓住「壯觀」所指的盛大景象。",
+        "再補入「蔚為」的匯集、形成之意，即事物聚合而呈現壯盛的樣貌。"
+      ],
+      "pitfall": "不能只寫「很漂亮」，那會漏掉盛大、匯聚的特色。"
+    },
+    {
+      "id": "definitions-04",
+      "section": "definitions",
+      "label": "二、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "傳達心意",
+      "answer": "向對方傳達問候、感謝等心意。",
+      "officialAnswer": "表達感謝、問候之意。",
+      "status": "verified",
+      "steps": [
+        "「致」在這裡是把心意傳達給對方。",
+        "說明所傳達的是感謝或問候，而非把「意」解成個人的意見。"
+      ],
+      "pitfall": "「致意」與表示敬重的「致敬」相近，但不可只寫成發表意見。"
+    },
+    {
+      "id": "definitions-05",
+      "section": "definitions",
+      "label": "二、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "名聲長存",
+      "answer": "此處指值得紀念的名聲長久留存，不被磨滅。",
+      "officialAnswer": "此指永不磨滅的名聲。",
+      "status": "verified",
+      "steps": [
+        "「朽」原有腐敗、消失的意思，「不朽」表示長久存在。",
+        "依本卷答案所限定的語境，留存的是人的名聲與影響，因此要寫出精神層面的長存。"
+      ],
+      "pitfall": "不要把人物的不朽直接解作肉體永遠不會死亡。"
+    },
+    {
+      "id": "definitions-06",
+      "section": "definitions",
+      "label": "二、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "事物轉瞬消逝",
+      "answer": "比喻事情很快消失，沒有留下明顯痕跡。",
+      "officialAnswer": "比喻事情消逝極快，不留痕跡。",
+      "status": "verified",
+      "steps": [
+        "雲煙從眼前掠過後，難以保留原來的形貌。",
+        "成語借這種特性比喻事情短暫易逝，釋義要包含消逝迅速與不留痕跡。"
+      ],
+      "pitfall": "不要寫成印象深刻、久久難忘，方向正好相反。"
+    },
+    {
+      "id": "definitions-07",
+      "section": "definitions",
+      "label": "二、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "迅速變化",
+      "answer": "很快、轉眼之間。",
+      "officialAnswer": "很快的樣子。",
+      "status": "verified",
+      "steps": [
+        "「倏」有快速的意思，整個詞描寫時間或變化的迅速。",
+        "以「轉眼之間」或「很快的樣子」表達，即能抓住核心意思。"
+      ],
+      "pitfall": "「忽」在此不能單獨解成疏忽、不留心。"
+    },
+    {
+      "id": "definitions-08",
+      "section": "definitions",
+      "label": "二、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "莊嚴的氣勢",
+      "answer": "呈現莊重、威嚴的氣勢。",
+      "officialAnswer": "氣勢莊嚴。",
+      "status": "verified",
+      "steps": [
+        "先確定「氣派」描述外在給人的氣勢、風度。",
+        "「儼然」在此取莊嚴的樣子，合起來就是氣勢莊重而威嚴。"
+      ],
+      "pitfall": "「儼然」有不同語境用法，本題不能只寫「好像」。"
+    },
+    {
+      "id": "definitions-09",
+      "section": "definitions",
+      "label": "二、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "急需的單字義",
+      "answer": "急切、迫切。",
+      "officialAnswer": "急切。",
+      "status": "verified",
+      "steps": [
+        "本題只問「亟」的意思，而不是要求解釋整個「亟需」。",
+        "把「亟需」換成急切需要，便可抽出「亟」的字義為急切。"
+      ],
+      "pitfall": "不要套用「亟」的另一讀音ㄑㄧˋ及屢次的字義。"
+    },
+    {
+      "id": "definitions-10",
+      "section": "definitions",
+      "label": "二、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "聲調變化的單字義",
+      "answer": "轉折。",
+      "officialAnswer": "轉折。",
+      "status": "verified",
+      "steps": [
+        "題目考的是聲調表現中「挫」的意思。",
+        "在高低、停頓等變化之外，「挫」指語調的轉折，不能按失敗的意思解。"
+      ],
+      "pitfall": "不要寫成「挫敗」；應放回聲音、語調的語境。"
+    },
+    {
+      "id": "corrections-01",
+      "section": "corrections",
+      "label": "三、改錯第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "晉級用字",
+      "answer": "進→晉，改為「晉升」。",
+      "officialAnswer": "晉",
+      "status": "verified",
+      "steps": [
+        "先找到原文表示升到下一個競賽階段的詞。",
+        "「晉」有向上升進的意思，固定寫法是「晉升」，因此更正第一字。"
+      ],
+      "pitfall": "本題每個錯字一分，只需更正該字；不要連正確的「升」也改掉。",
+      "note": "改錯段未逐字另編號，本項依文中出現順序記為第1字；詳解只核對字詞，不把段落中的賽事敘述當作已查證新聞。"
+    },
+    {
+      "id": "corrections-02",
+      "section": "corrections",
+      "label": "三、改錯第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "讓步連詞用字",
+      "answer": "僅→儘，改為「儘管」。",
+      "officialAnswer": "儘",
+      "status": "verified",
+      "steps": [
+        "這一句前半先承認未晉級，後半仍肯定球員，兩部分構成讓步轉折。",
+        "表達「雖然如此」的連詞寫作「儘管」，所以「僅」應改成「儘」。"
+      ],
+      "pitfall": "「僅」表示只有、僅僅，無法表達此處的讓步關係。",
+      "note": "依改錯段由前至後記為第2字。"
+    },
+    {
+      "id": "corrections-03",
+      "section": "corrections",
+      "label": "三、改錯第3字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "堅忍品質用字",
+      "answer": "任→韌，改為「韌性」。",
+      "officialAnswer": "韌",
+      "status": "verified",
+      "steps": [
+        "文意是在肯定球員面對挫折仍努力的品質。",
+        "能承受壓力、不輕易屈服叫「韌性」，因此要用「韌」。"
+      ],
+      "pitfall": "「任性」是隨自己的性子行事，放入讚揚球員的語境會改變意思。",
+      "note": "依改錯段由前至後記為第3字。"
+    },
+    {
+      "id": "corrections-04",
+      "section": "corrections",
+      "label": "三、改錯第4字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "獲得肯定用字",
+      "answer": "營→贏，改為「贏得」。",
+      "officialAnswer": "贏",
+      "status": "verified",
+      "steps": [
+        "先讀出動作的結果：球員獲得球迷尊敬。",
+        "表示藉表現取得肯定的詞是「贏得」，故用「贏」而非經營的「營」。"
+      ],
+      "pitfall": "「營」與「贏」同音，須用「取得尊敬」的詞義區分。",
+      "note": "依改錯段由前至後記為第4字。"
+    },
+    {
+      "id": "corrections-05",
+      "section": "corrections",
+      "label": "三、改錯第5字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "強烈反響用字",
+      "answer": "列→烈，改為「熱烈」。",
+      "officialAnswer": "烈",
+      "status": "verified",
+      "steps": [
+        "這裡描寫討論反應強烈、氣氛熱絡。",
+        "「熱烈」的第二字是表示強烈的「烈」，因此把「列」更正。"
+      ],
+      "pitfall": "「列」指排列或行列，不表示討論的強度。",
+      "note": "依改錯段由前至後記為第5字。"
+    },
+    {
+      "id": "effects-01",
+      "section": "effects",
+      "label": "四、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "失序逐步擴大",
+      "answer": "D（破窗效應）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先找起點：輕微的不當發言出現後，管理者沒有處理。",
+        "再看結果：眾人越過界線的行為持續增加，小失序擴散為全面失序，最符合破窗效應。"
+      ],
+      "pitfall": "不要只因事情逐漸變糟就選煮蛙效應；本格強調違規未處理而誘發更多違規。"
+    },
+    {
+      "id": "effects-02",
+      "section": "effects",
+      "label": "四、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "未查證便跟從",
+      "answer": "B（羊群效應）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "同學並未親自確認指控，卻先看到大量按讚與憤怒留言。",
+        "他們因群體反應而跟著抵制、轉發，是跟從多數的行為，對應羊群效應。"
+      ],
+      "pitfall": "重點是模仿群體，而非證據已足以支持指控。"
+    },
+    {
+      "id": "effects-03",
+      "section": "effects",
+      "label": "四、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "受威嚇而噤聲",
+      "answer": "A（寒蟬效應）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先辨認因果：澄清者遭辱罵、威脅，使旁觀者預期自己也會受害。",
+        "大家因此不敢表達不同意見，即使察覺不實也保持沉默，符合寒蟬效應。"
+      ],
+      "pitfall": "沉默不表示大家都認同多數；此處是受威嚇而不敢發言。"
+    },
+    {
+      "id": "effects-04",
+      "section": "effects",
+      "label": "四、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "對緩慢惡化失去警覺",
+      "answer": "C（煮蛙效應）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "使用時間從短暫瀏覽逐漸增長，變化並非一夕發生。",
+        "當事人沒有及時察覺累積的負面影響，直到學業與精神狀態受損，符合煮蛙效應的情境比喻。"
+      ],
+      "pitfall": "此格沒有描述跟著同學上網，不能因為同樣發生於論壇就選羊群效應。"
+    },
+    {
+      "id": "effects-05",
+      "section": "effects",
+      "label": "四、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "小事件引出大後果",
+      "answer": "E（蝴蝶效應）",
+      "officialAnswer": "E",
+      "status": "verified",
+      "steps": [
+        "先比較起點和終點：最初是一次短暫誤觸，最後卻引出全校性的連鎖事件。",
+        "題目突出微小起因經過連鎖作用放大為巨大後果，依選項應配蝴蝶效應。"
+      ],
+      "pitfall": "不要只看論壇原先管理失當；本格特別要辨認小失誤與後續大影響的關係。"
+    },
+    {
+      "id": "general-01",
+      "section": "general",
+      "label": "五、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "依詞義辨多音字",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先把字放回詞語讀音：詛為ㄗㄨˇ，狙為ㄐㄩ；絡為ㄌㄨㄛˋ，賂為ㄌㄨˋ。A、B不同。",
+        "婉為ㄨㄢˇ，惋為ㄨㄢˋ，C的聲調不同。",
+        "庇護的「庇」與並肩之意的「比」都讀ㄅㄧˋ，因此D相同。"
+      ],
+      "pitfall": "「比」不只有比較時的ㄅㄧˇ；在比肩一詞中讀ㄅㄧˋ。"
+    },
+    {
+      "id": "general-02",
+      "section": "general",
+      "label": "五、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "同音字的詞語搭配",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "A分別是「嬌生慣養」與「驕矜」，要用不同的嬌、驕。",
+        "B是「鑼」與「羅」，D是「孺」與「儒」，也都不同。",
+        "C的兩處均用「延」：前者表示禍患延及後人，後者是延攬人才，因此選C。"
+      ],
+      "pitfall": "不要只比讀音；本題要求注音換成國字後，字形仍相同。"
+    },
+    {
+      "id": "general-03",
+      "section": "general",
+      "label": "五、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "同字在不同詞中的意義",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B兩個詞中的「憾」都表示遺憾，字義一致。",
+        "A的「略」分別偏向稍微與計策，C的「矯」分別指強健與矯正，不能配成同義。",
+        "D前者是找理由推託，後者是阻止、制止，語意功能不同。"
+      ],
+      "pitfall": "兩邊出現同一個字，不代表它在兩個詞裡使用同一義項。"
+    },
+    {
+      "id": "general-04",
+      "section": "general",
+      "label": "五、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "叫賣聲與報時比喻",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先注意本題要找錯誤分析。文中的叫賣聲和生活作息相連，使人從聲音感受時間與日常氣氛。",
+        "「鐘」的比喻重點在生活中的報時作用，以及帶來的心情；不是以音量洪亮作為主要共同點。",
+        "因此A將比喻焦點改成聲音大小，不能準確說明題意。"
+      ],
+      "pitfall": "解譬喻要找兩者的核心共同點，不能看到聲音就只想到響亮。"
+    },
+    {
+      "id": "general-05",
+      "section": "general",
+      "label": "五、第5題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "課文解讀與單選限制",
+      "answer": "D有明確依據；C的寬義解讀亦可成立，單選性有疑義。",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "D所述的敘事者由他人的器捐故事轉想到自身喪子、捐贈眼角膜的經歷，符合作者生命背景及出版社對本文的說明，因此官方選D有根據。",
+        "A把仍存留、偶會浮現的記憶直接說成漸被遺忘，B把隨時節變動的冷熱食品只解作品項多，兩者都削弱了引文重點。",
+        "但C前半對有情眼光與平凡生活的理解，也受到題中引文支持；若把後半的「癡情」作廣義深情理解，不能單憑引文否定C。"
+      ],
+      "pitfall": "不要為了讓官方答案看似唯一，就把C關於關愛日常生活的理解說成全錯。",
+      "note": "已保留官方D。爭議在選項排他性，不是否定D本身；本頁未限定C末句只能指男女戀情，宜由任課教師說明命題界線。"
+    },
+    {
+      "id": "general-06",
+      "section": "general",
+      "label": "五、第6題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "愛的延續與生命價值",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先抓住格林夫婦把失子悲痛轉為幫助他人的行動：捐贈讓其他人的生命獲得延續。",
+        "D把短暫生命與持續發揮的影響連結，能概括義行的意義。",
+        "A只談面對死亡，B將含蓄敘事說成直接號召，C只看傷痛，都不如D完整。"
+      ],
+      "pitfall": "不要把讀者受到的感動，直接當成作者全篇採取大聲宣傳的寫法。"
+    },
+    {
+      "id": "general-07",
+      "section": "general",
+      "label": "五、第7題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "紙船象徵的教養期待",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "結尾由回憶母親轉向自己如何對待下一代，重點是母愛的傳承。",
+        "船能承受風雨，象徵孩子能承受人生挫折；外表是否漂亮則不是主要價值。",
+        "C同時包含關愛、守護及培養面對考驗的能力，最能涵蓋結尾。"
+      ],
+      "pitfall": "不要停留在真的摺船、一起玩雨水的表層情節，要看作者寄託的期待。"
+    },
+    {
+      "id": "general-08",
+      "section": "general",
+      "label": "五、第8題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "年齡代稱核對",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先確認「不惑」對應四十歲，C的代稱與數字相符。",
+        "「弱冠」通常指男子二十歲；「知命」指五十歲，A、B都配錯年齡。",
+        "「荳蔻年華」通常指女子十三、四歲，不是D所寫的十六歲，因此選C。"
+      ],
+      "pitfall": "知命五十與耳順六十常被混淆；要逐一核對代稱與數字。"
+    },
+    {
+      "id": "general-09",
+      "section": "general",
+      "label": "五、第9題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "舟船成語的語境",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B描寫在困難中持續奮鬥，與逆流行船須不斷出力的比喻相符。",
+        "A的「木已成舟」指事情已成定局，不能表示奮戰的決心；D保留退路，也不符合斷絕退路的破釜沉舟。",
+        "C的失敗是長期不準備所造成，缺少原本不易出事卻意外失手的意味，因此以B最恰當。"
+      ],
+      "pitfall": "不要因成語都有「舟、船」就套入；必須核對成功、失敗、退路等語境。"
+    },
+    {
+      "id": "general-10",
+      "section": "general",
+      "label": "五、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "親情散文的組織方式",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "〈紙船印象〉由具體的紙船喚起童年與母親的記憶，再傳達親情，符合藉物抒情。",
+        "〈母親的教誨〉以童年生活中的教導及待人處事事件，呈現母親的性格與對作者的影響。",
+        "A分別指出兩文組織材料的方式；比較作品應以實際敘事主軸為準。"
+      ],
+      "pitfall": "不要把〈紙船印象〉的母愛傳承主題縮成一般待人接物的訓誡。"
+    },
+    {
+      "id": "general-11",
+      "section": "general",
+      "label": "五、第11題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "借入詞的辨認",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先逐詞檢查B：歇斯底里是外語音譯詞，餐盒義的便當借自日語，雷射對應外語laser。",
+        "三詞都符合本題辨認外來語的重點，故選B。",
+        "其他組混入外套、快遞、複製等可以直接按漢語構詞理解的用語，不能因同組另有音譯詞就整組選入。"
+      ],
+      "pitfall": "外來語進入日常後可能很自然；不能只憑是否看起來陌生判斷。",
+      "note": "此題依課內常見的音譯借詞辨認；詳解不把「所有外來語都必須是音譯」當作通則。"
+    },
+    {
+      "id": "general-12",
+      "section": "general",
+      "label": "五、第12題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "辨識轉化與一般比較",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "本題找未使用轉化的句子。A使雨水帶有人的態度，B讓聲音具有活潑跳躍的動作，都是把事物人格化。",
+        "C把抽象的生命濃縮入一個可感受的呼喊，具有把抽象內容具體化的寫法。",
+        "D只比較人物容顏是否令人難忘，沒有改變描寫對象的本質，所以選D。"
+      ],
+      "pitfall": "有文學感或有比較，不一定就是轉化；要找性質被轉換的對象。"
+    },
+    {
+      "id": "general-13",
+      "section": "general",
+      "label": "五、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "部件合成字義",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "會意的辨認重點，是把不同部件的意義結合成新字義。",
+        "「祭」可由持祭品祭祀的構形理解；「析」由木與斧具部件結合，表示劈開木材。兩者都符合會意。",
+        "B含形聲字，C的眉、D的穴則取物象造形，不能使兩字都符合題目要求，因此選A。"
+      ],
+      "pitfall": "不要只數部件多寡；能拆成兩部分的字，也可能是形聲字。"
+    },
+    {
+      "id": "general-14",
+      "section": "general",
+      "label": "五、第14題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "從古字形判造字方法",
+      "answer": "B可由題圖確認；D的排除仍有分類核對限制。",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "直接看B的古字形，線條呈現水流，中間夾著陸地，對應水中可居住的陸地之物象，所以州列為象形有根據。",
+        "A的泉同樣描摹泉水流出的形象，不能因現代字可拆成部件就改判會意；C的寸涉及在手形上標示位置，與純粹象形不同。",
+        "D的夫涉及人形上方一畫的解釋；不同字源分析對這一畫的性質有不同看法。本次未取得授課版本的分類依據，不能斷言所有分類都排除指事。"
+      ],
+      "pitfall": "不要用現代楷書的外觀硬拆古文字，也不要把本題的單一答案擴大成沒有異說的字源定論。",
+      "note": "官方選B，B本身可驗證。限制在未取得該課版本對「夫」的分類說明，尚不能完整驗證單選排他性；保留限制而不另造權威答案。"
+    },
+    {
+      "id": "general-15",
+      "section": "general",
+      "label": "五、第15題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "三篇文章的共同主題",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先各抓一項核心：日常聲音中的人情、器捐行動所延續的愛、紙船所承載的母愛。",
+        "三者共同點是愛與關懷使尋常或悲傷的經驗得到長久意義，A能同時涵蓋。",
+        "其餘選項分別偏重記錄時間、自然素材或生活方式，不能統整三文。"
+      ],
+      "pitfall": "共同主題必須三篇都能成立，不能只挑其中一篇最明顯的景物。"
+    },
+    {
+      "id": "general-16",
+      "section": "general",
+      "label": "五、第16題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "志怪小說的文化背景",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "志怪主要記述神異、鬼怪與超常事件，與神仙方術及宗教想像有關。",
+        "D把當時的方術風氣與佛教思想納入背景，符合此類小說的發展方向。",
+        "A把早期短篇說成現代複雜長篇；B把偏重人物言行的《世說新語》當成代表；C則將起源簡化成寫實生活，皆不合題意。"
+      ],
+      "pitfall": "「志人」重人物言行，「志怪」重神異事件，不能只看都產生於六朝就混為一類。"
+    },
+    {
+      "id": "general-17",
+      "section": "general",
+      "label": "五、第17題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "人物機智與神怪情節",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目要找不正確分析。定伯靠對話探知鬼的特性，再利用弱點控制局面，呈現的是機智。",
+        "鬼後來變成羊，是故事中的變形情節；這不足以推出定伯會施法。",
+        "C在可觀察的故事事件之外添加人物法術高明的判斷，因此是錯誤分析。"
+      ],
+      "pitfall": "某件奇異事情發生在人物面前，不代表就是該人物以法術造成。"
+    },
+    {
+      "id": "general-18",
+      "section": "general",
+      "label": "五、第18題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "故事禁忌與作用條件",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "定伯故事中，唾沫使鬼受到限制；A把這點改寫成引發厲鬼攻擊，因果不符。",
+        "紫荊樹的變化與兄弟分合有關，B增加了託夢情節；談生的禁忌是一定期限內不能用火照妻子，C換成不得告訴別人，也不符原事。",
+        "D概括這幾個故事中的規則：人的選擇會影響神異事物的變化與結果，故選D。"
+      ],
+      "pitfall": "辨認禁忌時要記清楚行動本身，不能把「不可照見」換成「不可說出」。",
+      "note": "此處歸納的是所舉文學故事的設定，不是對現實超自然現象的判斷。"
+    },
+    {
+      "id": "general-19",
+      "section": "general",
+      "label": "五、第19題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "仙凡時間差的線索",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "王質自覺只過了片刻，卻發現斧柄已腐朽；前後形成時間感的巨大反差。",
+        "返家後已沒有原來同時代的人，進一步顯示人世經過很長時間，因此B符合故事結局。",
+        "原文說他觀看、聽歌，沒有說他參與對弈或自己會幻術，也沒有冬眠的資訊。"
+      ],
+      "pitfall": "不能把形容物品大小形狀的棗核，誤認為它一定是棋子；也不能把概括的久遠時間當成精確年數。"
+    },
+    {
+      "id": "general-20",
+      "section": "general",
+      "label": "五、第20題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "助人所得的精神意義",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題幹連結兩個面向：幫助他人延續生命，以及施助者獲得感念與心靈提升。",
+        "A表達為他人付出後，自己反而更有所獲，與上述兩面向相合。",
+        "其他選項分別談謙虛、應變與長期努力，不能直接說明付出與生命豐富之間的關係。"
+      ],
+      "pitfall": "此處的「有」著重精神與生命價值，不宜只理解為財物增加。"
+    },
+    {
+      "id": "general-21",
+      "section": "general",
+      "label": "五、第21題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "用感官線索判摹寫",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B的拖鞋摩擦聲須用耳朵聽，霉味須用鼻子聞，故為聽覺與嗅覺。",
+        "A還有鍋鏟與鐵鍋的聲音，所列感官漏了聽覺；C的酸味主要是味覺。",
+        "D有焦香與鳥鳴，主要對應嗅覺、聽覺，並非所列的觸覺，故只有B配對恰當。"
+      ],
+      "pitfall": "不要看到身體反應就選觸覺；先找感官刺激是聲、味、氣味、光色還是接觸。"
+    },
+    {
+      "id": "general-22",
+      "section": "general",
+      "label": "五、第22題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "形聲字的形旁與聲旁",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "「劍」以刀部表意，與刀劍器具相關；「僉」作聲旁。",
+        "「潭」以水部表意，與水域相關；「覃」作聲旁。",
+        "兩字都能分出表義與表音的部件，故劍潭符合兩字皆形聲的要求。"
+      ],
+      "pitfall": "聲旁提示的是造字時的語音關係，今音未必完全一樣；不能只因讀音不同就排除形聲。"
+    },
+    {
+      "id": "general-23",
+      "section": "general",
+      "label": "五、第23題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "外在挑戰與內在突破",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先辨認語意焦點：題幹把外界的嚴酷環境，轉到當事人自己的懷疑與恐懼。",
+        "因此重要課題是突破內在障礙，D最直接對應。",
+        "A偏重體能，B加入放棄功利，C偏重敬畏環境，都移動了原文重心。"
+      ],
+      "pitfall": "沙漠與極地是情境，不是這段話真正要強調的中心。"
+    },
+    {
+      "id": "general-24",
+      "section": "general",
+      "label": "五、第24題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "依雙重條件讀營養表",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先固定比較基準：選項採每一份量，A每份蛋白質10公克、糖5公克；B每份蛋白質3公克、糖15公克。",
+        "A的蛋白質比B多，糖又比B少，同時滿足題目要比較的兩個方向。",
+        "所以選A；只談熱量或補充能量，沒有完整回應本題的蛋白質與糖條件。"
+      ],
+      "pitfall": "兩產品每份重量不同；本題依選項比較每份，不能把圖中的每份數字誤說成每100公克。",
+      "note": "已直接檢視PDF第4頁的圖像標示；結論僅就本題兩款產品的標示比較。"
+    },
+    {
+      "id": "general-25",
+      "section": "general",
+      "label": "五、第25題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "修補工藝的象徵意義",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先觀察修補方式：原有裂痕被保留，並成為新的美感來源。",
+        "把器物轉映到人生，就是承認過去的創傷，經由接納與整理形成獨特價值。",
+        "C符合這種轉化；A只看不可恢復，B要求無瑕，D要割捨過去，都沒有完整對應。"
+      ],
+      "pitfall": "金繼不是把受損痕跡全部擦除；人生態度的推論也應保留面對過去這一步。"
+    },
+    {
+      "id": "reading-26",
+      "section": "reading",
+      "label": "六、第26題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "模仿表象與忽略條件",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先比較兩人做出同一表情後的不同效果：動作相同，結果卻不相同。",
+        "末句指出模仿者只注意到表面的美，沒有理解形成美感的本身條件。",
+        "D正是在說忽略本質與條件的盲目模仿，最符合批評重點。"
+      ],
+      "pitfall": "不要把故事解成只要努力模仿就會變美；文末是在指出模仿方法的問題。"
+    },
+    {
+      "id": "reading-27",
+      "section": "reading",
+      "label": "六、第27題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "辨成語能否嵌入語境",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "本題要選最不適合者。語境針對忽略自身條件、一味照著別人做。",
+        "東施效顰與邯鄲學步都可連到不當模仿；捨本逐末可說明忽略根本條件。",
+        "東窗事發指隱藏的不法或壞事敗露，與穿著模仿的問題無直接關係，因此選C。"
+      ],
+      "pitfall": "不要因為各詞都可能形容尷尬結果就混選；要比對導致結果的原因。"
+    },
+    {
+      "id": "reading-28",
+      "section": "reading",
+      "label": "六、第28題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "從事例推論人物用意",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先注意文中下屬獲拔擢之前的具體行為，是取竹篙時保留根部，使材料更能充分發揮用途。",
+        "這與陶侃一貫珍惜、善用材料的做法相連；原文沒有交代速度或超額完成期限。",
+        "因此A添入原文沒有的升遷理由，是要選的錯誤敘述。"
+      ],
+      "pitfall": "不能看到做事勤勉，就自行補出限期、超額、速度等未出現的資訊。"
+    },
+    {
+      "id": "reading-29",
+      "section": "reading",
+      "label": "六、第29題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "材料再利用的啟示",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "木屑可處理濕滑地面，竹材的剩餘部分可另作裝船用途，原本不起眼的材料都有適當用途。",
+        "這些例子共同說明資源放在合適位置就能發揮價值，與B最接近。",
+        "文章著眼於珍惜與善用資源，而非奇蹟、補救過失或比較人的長短。"
+      ],
+      "pitfall": "不要只看木屑、竹頭看似廢物，就把故事套成枯木重新長芽。"
+    },
+    {
+      "id": "reading-30",
+      "section": "reading",
+      "label": "六、第30題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "比較待機功率總和",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題目問待機支出，應讀表的待機欄，而非運轉時的功率。",
+        "四組合計依序是A：0＋2.5＝2.5瓦；B：3＋12＝15瓦；C：3＋2.5＝5.5瓦；D：12＋35＝47瓦。",
+        "離家時間相同時，D組待機功率最高，斷電可減少最多待機耗電，因此選D。"
+      ],
+      "pitfall": "微波爐運轉功率雖高，待機功率卻低；不能用錯欄位比較。",
+      "note": "瓦是功率單位，耗電量還須乘以時間。原表註記把每小時與功率連用不夠精確，但不影響同期間的大小比較。"
+    },
+    {
+      "id": "reading-31",
+      "section": "reading",
+      "label": "六、第31題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "辨認文章實際建議",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文中提出用延長線開關管理視聽設備、依需求改變熱水使用方式，以及選購節能產品。",
+        "A、B、D分別能在上述建議中找到對應。",
+        "C擴大成每次都拔插頭並關閉全戶總開關，文中並未提出這樣的做法，故最不符合。"
+      ],
+      "pitfall": "閱讀題比對的是文章實際建議，不能把更極端的做法自動當成更正確。"
+    },
+    {
+      "id": "reading-32",
+      "section": "reading",
+      "label": "六、第32題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "說明文的問題與解方",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "開頭先寫一家人對電費的疑問，以生活事件引出待機耗電的問題。",
+        "中段說明成因並列比較表，後段再提出可採用的節能做法。",
+        "因此B完整掌握引入方式、解釋對象與寫作目的；其餘選項增加了批判、推銷或改裝的目的。"
+      ],
+      "pitfall": "出現科學名詞與數據，不代表文章就是以嚴肅數據開頭或教人改造電器。"
+    },
+    {
+      "id": "reading-33",
+      "section": "reading",
+      "label": "六、第33題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "用圖示表達非固定歷程",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先從甲文抽出限制：情緒沒有固定先後，不一定經過所有階段，還可能重疊。",
+        "A用交錯、方向多變的路徑呈現複雜變化，較能對應上述特性。",
+        "B像依序上階梯，C呈固定環狀流程，D指向持續下降；它們都容易帶出文中沒有要求的固定方向，因此選A。"
+      ],
+      "pitfall": "「非線性」在此是沒有固定歷程的意思，不是看到任何彎線就能判為正確。",
+      "note": "已直接檢視第6頁四幅圖。圖示只是本題的概念比喻，不是可讀出精確時間或情緒量值的數據圖。"
+    },
+    {
+      "id": "reading-34",
+      "section": "reading",
+      "label": "六、第34題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "依語句判斷情緒表現",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B的行為是希望以自己的付出交換孩子回來，正好符合甲文所說的交換、扭轉事實的想法。",
+        "拒絕相信事實應對應否認，不能配成A的憤怒；參加聚會也不能直接推成否認。",
+        "乙文仍寫到悲傷，所以D所說完全遺忘悲傷不成立，應選B。"
+      ],
+      "pitfall": "不要只看情緒很激烈就一律判為憤怒，要看話語正在拒絕、交換還是承認。"
+    },
+    {
+      "id": "reading-35",
+      "section": "reading",
+      "label": "六、第35題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "情緒回返與階段重疊",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "母親一度感到接受，又因感官線索回到憤怒或沮喪，顯示情緒會回返，並非走完一階段就永不返回。",
+        "這直接支持甲文的非固定順序觀點；乙文同時保有悲傷與平靜，也與可重疊的說明相容。",
+        "因此C最合適，不能推出每個人都按固定順序走完全部階段。"
+      ],
+      "pitfall": "「接受」不等於之後再也不悲傷；不要把文中的描述讀成單向完成表。"
+    },
+    {
+      "id": "reading-36",
+      "section": "reading",
+      "label": "六、第36題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "多種母語與共同文化",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先連結全詩列舉的各種語言與族群，而非只孤立地看畫畫的字面。",
+        "舌頭得以自由表達，象徵語言不再被隔閡或壓抑；多彩聲音共同呈現文化的豐富。",
+        "所以B最貼合全詩，A、C停在繪畫的字面，D則把臺灣多語情境轉成外語競爭。"
+      ],
+      "pitfall": "不要將比喻中的畫畫讀成真的美術作業，要把它和詩中的多元語言連起來。"
+    },
+    {
+      "id": "reading-37",
+      "section": "reading",
+      "label": "六、第37題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "以視覺意象呈現聲音",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "原本描寫的對象是歌唱和聲，屬於聽覺經驗。",
+        "詩人把它聯想到瀑布的流動與彩虹的色彩、形態，使讀者用可見景象想像聲音的豐富。",
+        "因此A對感官交融的判斷最準確；詩並非宣稱歌聲真的製造自然現象。"
+      ],
+      "pitfall": "文學比喻建立感受上的相似，不是在提出瀑布、彩虹形成的科學因果。"
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "schema": 1,
+  "sourceId": "1NtKDPIaNNX8EXp4DCyJwIlvqOfDm6QsS",
+  "sourceSha256": "863133f70d5ae7252809ffaf01158991ab581a462ccbc775298982468f41c1a9",
+  "title": "114-2-1七年級數學科試題(公告).pdf",
+  "checked": "2026-10-02",
+  "coverageNote": "涵蓋選擇題 1–22 及非選題 1(1)–1(3)、2(1)–2(3)、3、4(1)–4(2)，共 31 個編號小題。已逐頁目視核對原題第 1–4 頁及官方解答第 5 頁；第 6 頁空白。29 小題核對通過；選擇題 16 缺少單價是否為整數的限制，非選題 4(1) 的官方代入式與表格不一致，這 2 小題保留來源歧異。",
+  "sections": [
+    { "id": "choice", "title": "一、選擇題" },
+    { "id": "constructed", "title": "二、非選題" }
+  ],
+  "items": [
+    {
+      "id": "math-choice-01",
+      "section": "choice",
+      "label": "選擇題 1",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "方程式與聯立解的定義",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "聯立方程式的解必須讓兩個方程式同時成立，只滿足其中一式還不夠，所以 A 的判準不完整。",
+        "一個二元一次方程式只給兩個未知數一項線性限制；若不再限定整數、正數等範圍，就有無限多組實數解，因此 B 正確。",
+        "方程式必須有等號，不能把只有代數式的情況也算進來；C 錯誤，D 也就不成立。"
+      ],
+      "pitfall": "把『滿足其中一式』誤當成『同時滿足全部方程式』，或把代數式與方程式混為一談。"
+    },
+    {
+      "id": "math-choice-02",
+      "section": "choice",
+      "label": "選擇題 2",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "辨認二元一次方程式",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "依序檢查是否有等號、是否只有兩個未知數，以及未知數項是否為一次。",
+        "A 沒有等號；B 出現三個未知數；C 含 x²，都是不符合之處。",
+        "D 的 x、y 都是一次項，而且有等號。右邊的 3² 是常數 9，不會提高未知數的次數。"
+      ],
+      "pitfall": "看到常數上的平方就認為是二次方程式；次數要看未知數項。"
+    },
+    {
+      "id": "math-choice-03",
+      "section": "choice",
+      "label": "選擇題 3",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "代數式相減",
+      "answer": "A（−x＋6y＋1）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "直式表示整個下式被減去，先寫成 (−3x＋5y＋3)−(−2x−y＋2)。",
+        "去掉第二個括號時，各項都要變號，得到 −3x＋5y＋3＋2x＋y−2。",
+        "合併同類項：x 項為 −x，y 項為 6y，常數為 1，因此結果是 −x＋6y＋1。"
+      ],
+      "pitfall": "減號作用於整個括號，不能只改第一項的正負號。"
+    },
+    {
+      "id": "math-choice-04",
+      "section": "choice",
+      "label": "選擇題 4",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "點到 x 軸的距離",
+      "answer": "C（距離 5 單位）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "點到 x 軸的垂直距離等於其 y 坐標的絕對值，與 x 坐標大小無關。",
+        "四個選項的距離依序是 3、2、5、1；最大的是 5，所以選 C。"
+      ],
+      "pitfall": "把 x 坐標的絕對值拿來比較；那是點到 y 軸的距離。"
+    },
+    {
+      "id": "math-choice-05",
+      "section": "choice",
+      "label": "選擇題 5",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "消去法的倍數選擇",
+      "answer": "C（①×2−②×3）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "要消去 x，可把原本的係數 6 與 4 都變成 12；因此將①乘 2、②乘 3。",
+        "兩式分別成為 12x−4y＝2 與 12x＋9y＝6。",
+        "再用前式減後式，x 項抵消，留下 −13y＝−4，正是選項 C 的運算。"
+      ],
+      "pitfall": "同號且相等的係數應相減；直接相加只會使該項加倍。"
+    },
+    {
+      "id": "math-choice-06",
+      "section": "choice",
+      "label": "選擇題 6",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "整數解的無限延伸",
+      "answer": "C（無限多組）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先找到一組整數解 (x,y)＝(1,6)，因為 5×1＋3×6＝23。",
+        "讓 x 增加 3、y 減少 5，左式的變化是 5×3＋3×(−5)＝0，因此仍然成立。",
+        "所有 (x,y)＝(1＋3t,6−5t)，其中 t 為任意整數，都是不同的整數解，所以有無限多組。"
+      ],
+      "pitfall": "題目只說整數，沒有要求正整數；不能只列出兩個數都大於零的情況。"
+    },
+    {
+      "id": "math-choice-07",
+      "section": "choice",
+      "label": "選擇題 7",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "在坐標軸上找點",
+      "answer": "A（3,0）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "在 x 軸上的點，其 y 坐標必為 0；選項中只有 (3,0) 符合。",
+        "它與 A 的 x 坐標相同，垂直距離是 |2−0|＝2，兩個條件都滿足。"
+      ],
+      "pitfall": "只檢查相距 2 單位，忘記還必須在 x 軸上。"
+    },
+    {
+      "id": "math-choice-08",
+      "section": "choice",
+      "label": "選擇題 8",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "倍數關係的語意轉換",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "式子的 y/2 代表小川金額的一半；3x−15 代表阿金金額的三倍再減 15。",
+        "等號表示這兩個金額相同，與選項 C 的人物、倍數及增減關係相符。"
+      ],
+      "pitfall": "把 x、y 對應的人物交換，或把『三倍少 15』誤寫成 3(x−15)。"
+    },
+    {
+      "id": "math-choice-09",
+      "section": "choice",
+      "label": "選擇題 9",
+      "sourcePages": [1],
+      "answerPage": 5,
+      "topic": "轉向坐標軸的象限",
+      "answer": "C（第三象限）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先以學校為原點，依圖把通往小桐家的射線當成 x 軸正向，通往永福橋的射線當成 y 軸正向。",
+        "將兩條軸線向原點的另一側延伸；圖中的夜市落在 x 軸負向與 y 軸負向所夾的區域。",
+        "該區域的兩個坐標都小於 0，所以是第三象限。"
+      ],
+      "pitfall": "直接把紙面的右方、上方當成正向；本題的坐標軸方向由題目指定。"
+    },
+    {
+      "id": "math-choice-10",
+      "section": "choice",
+      "label": "選擇題 10",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "分段移動與剩餘時間",
+      "answer": "A（−4,2）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前七段共走 1＋2＋3＋4＋5＋6＋7＝28 格，也就是 28 秒。",
+        "這七段的水平位移是 1−3＋5−7＝−4，垂直位移是 2−4＋6＝4，所以此時在 (−4,4)。",
+        "第八段朝下，剩下的 2 秒只能再走 2 格，因此位置變成 (−4,2)。"
+      ],
+      "pitfall": "把第八段的 8 格全部走完；30 秒時仍在第八段途中。",
+      "note": "原卷 B 與 D 列出相同坐標，屬重複的干擾選項；獨立計算仍唯一對應 A。"
+    },
+    {
+      "id": "math-choice-11",
+      "section": "choice",
+      "label": "選擇題 11",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "共同解與未知係數",
+      "answer": "B（5）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "共同的 x、y 必須滿足兩組中的已知係數方程式。由 4x−y＝5 得 y＝4x−5，代入 2x＋3y＝13，得到 14x＝28。",
+        "因此 x＝2、y＝3。再代入另外兩式，可得 2a＋3b＝1、2a−6b＝−8。",
+        "兩式相減得 9b＝9，所以 b＝1；代回得 a＝−1。",
+        "最後計算 x＋y−a−b＝2＋3−(−1)−1＝5。"
+      ],
+      "pitfall": "一開始同時處理四個未知數會增加負擔；先用不含 a、b 的兩式求共同解。"
+    },
+    {
+      "id": "math-choice-12",
+      "section": "choice",
+      "label": "選擇題 12",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "買錯數量的費用差",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "各一瓶的總價給出 x＋y＝100。",
+        "原先預計的金額是 5x＋2y，實際買錯後的金額是 2x＋5y。",
+        "買錯後多付 120，因此應寫成 5x＋2y＋120＝2x＋5y；兩個條件合起來對應 D。"
+      ],
+      "pitfall": "『多付』表示實際金額較大，不能在原先金額上減去 120。"
+    },
+    {
+      "id": "math-choice-13",
+      "section": "choice",
+      "label": "選擇題 13",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "平移後的坐標相等",
+      "answer": "B（11）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "向下 5 單位使 y 坐標減 5，向右 6 單位使 x 坐標加 6；移動後是 (12,3a−4)。",
+        "與 B 重合時，對應坐標各自相等：b＋4＝12、3a−4＝5。",
+        "解得 b＝8、a＝3，所以 a＋b＝11。"
+      ],
+      "pitfall": "上下移動改變 y，左右移動改變 x，不能交換處理。"
+    },
+    {
+      "id": "math-choice-14",
+      "section": "choice",
+      "label": "選擇題 14",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "物品數量的整數限制",
+      "answer": "D（敘述無法同時成立）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "設阿霆有 t 枝，則小萱有 6t＋3 枝。把兩人的數量相加可得 t＋6t＋3＝46。",
+        "整理為 7t＝43，所以 t＝43/7。",
+        "筆的枝數必須是非負整數，43/7 不符合，表示原先兩個說法無法同時成立，因此選 D。"
+      ],
+      "pitfall": "求出代數解後就停止；物品數量還需要檢查整數條件。"
+    },
+    {
+      "id": "math-choice-15",
+      "section": "choice",
+      "label": "選擇題 15",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "套餐組合的數量關係",
+      "answer": "A（x−y＋5 份）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "由圖辨認：A 只有漢堡，B 有漢堡與飲料，C 另含薯條；每份餐都有一個漢堡。",
+        "設三種餐各為 a、b、c 份，可得 a＋b＋c＝x、b＋c＝y。只有 C 含薯條，因此 c＝5。",
+        "先相減得 a＝x−y，再加上 c，便有 a＋c＝x−y＋5。"
+      ],
+      "pitfall": "飲料數只計入 B、C 兩種餐；薯條數則只計入 C，不能把 y 當成 B 餐份數。"
+    },
+    {
+      "id": "math-choice-16",
+      "section": "choice",
+      "label": "選擇題 16",
+      "sourcePages": [2],
+      "answerPage": 5,
+      "topic": "單價假設與總價矛盾",
+      "answer": "題面未限定整數單價，A、B 皆有可能；若限定整數元，則為 B。",
+      "officialAnswer": "B（小巧）",
+      "status": "disputed",
+      "steps": [
+        "小巧的兩種商品數量都是小文的 2 倍；若兩筆總價都正確，應有 2×61＝122，而表中是 120。因此這兩人至少有一人的總價錯。",
+        "依『只有一人算錯』，小琪的總價必須正確。若小文與小琪都正確，設鉛筆、橡皮擦單價為 p、e，可由 3p＋2e＝61、10p＋4e＝182 解得 p＝15、e＝8；小巧應付 122，符合官方 B。",
+        "但若小巧與小琪都正確，則 6p＋4e＝120、10p＋4e＝182，解得 p＝15.5、e＝6.75；此時小文應付 60，只有小文列成 61，也符合『只有一人算錯』，對應 A。",
+        "題面沒有明說單價只能是整數元，因此不能排除上述小數單價。加上整數元限制後，才可排除 A 而唯一選 B。"
+      ],
+      "pitfall": "兩筆總價互相矛盾只能確定至少一筆錯，不能直接指認其中一人；也不能把未明訂的整數單價限制當成已知。",
+      "note": "官方答案列 B；本解說保留這個答案及其所需假設，同時列出題面未限制小數單價時的另一組正單價反例。"
+    },
+    {
+      "id": "math-choice-17",
+      "section": "choice",
+      "label": "選擇題 17",
+      "sourcePages": [3],
+      "answerPage": 5,
+      "topic": "象限與乘積符號",
+      "answer": "A（第二象限）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "P 在第二象限，表示 ab²＜0 且 a＋b＞0。",
+        "由 ab²＜0 可知 b 不等於 0，因此 b²＞0，必須有 a＜0。",
+        "再由 a＋b＞0 得 b＞−a＞0，所以 (a,b) 的符號是負、正，落在第二象限。"
+      ],
+      "pitfall": "只由平方判斷 b 可以正負，忽略另一個條件 a＋b＞0 會進一步限制 b。"
+    },
+    {
+      "id": "math-choice-18",
+      "section": "choice",
+      "label": "選擇題 18",
+      "sourcePages": [3],
+      "answerPage": 5,
+      "topic": "直接求未知數之和",
+      "answer": "D（4）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "用第一式減第二式，左邊得到 (39x−11y)−(11x−39y)＝28x＋28y。",
+        "右邊是 106−(−6)＝112，因此 28(x＋y)＝112。",
+        "兩邊除以 28，直接得到 x＋y＝4。"
+      ],
+      "pitfall": "減去 −39y 與 −6 時都會變成加；漏改任一符號就會算錯。"
+    },
+    {
+      "id": "math-choice-19",
+      "section": "choice",
+      "label": "選擇題 19",
+      "sourcePages": [3],
+      "answerPage": 5,
+      "topic": "點數兌換的整數解",
+      "answer": "B（2 種）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖中布丁每份 22 點、茶葉蛋每份 12 點。設份數為 p、e，則 22p＋12e＝200，約分後為 11p＋6e＝100。",
+        "份數不能為負，故 0≤p≤9；又 100−11p 必須是 6 的倍數。在這個範圍中，p 只能取 2 或 8。",
+        "代回分別得到 (p,e)＝(2,13)、(8,2)。兩組都能剛好用完點數，而且兩種商品都有兌換。"
+      ],
+      "pitfall": "只找到一組解便停止；要利用數量範圍與整除條件確認已列完。"
+    },
+    {
+      "id": "math-choice-20",
+      "section": "choice",
+      "label": "選擇題 20",
+      "sourcePages": [3],
+      "answerPage": 5,
+      "topic": "不同年份的年齡方程式",
+      "answer": "A（60 歲）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "設今年小明 m 歲、爺爺 g 歲。三年前的關係是 g−3＝33(m−3)−4，整理得 g＝33m−100。",
+        "五年後的關係是 m＋5＝(g＋5)/5−4，整理得 g＝5m＋40。",
+        "令兩個 g 相等，得 33m−100＝5m＋40，所以 m＝5、g＝65。",
+        "今年相差 65−5＝60 歲；兩人經過相同年數，年齡差也會保持不變。"
+      ],
+      "pitfall": "描述三年前或五年後時，兩個人的年齡都必須一起加減年數。"
+    },
+    {
+      "id": "math-choice-21",
+      "section": "choice",
+      "label": "選擇題 21",
+      "sourcePages": [3],
+      "answerPage": 5,
+      "topic": "利用對邊相等求周長",
+      "answer": "B（46）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "長方形的上下邊相等，得到 −x＋5y＋11＝5＋2x−3y，整理為 3x−8y＝6。",
+        "左右邊相等，得到 2y＋1＝x＋y−6，即 x−y＝7。",
+        "把 x＝y＋7 代入第一式，得 3(y＋7)−8y＝6，算出 y＝3、x＝10。",
+        "兩種邊長為 2×3＋1＝7 及 −10＋5×3＋11＝16，周長是 2(7＋16)＝46。"
+      ],
+      "pitfall": "7＋16＝23 只是一長一寬的和，周長還需乘 2。"
+    },
+    {
+      "id": "math-choice-22",
+      "section": "choice",
+      "label": "選擇題 22",
+      "sourcePages": [3],
+      "answerPage": 5,
+      "topic": "兩種追趕速度的共同距離",
+      "answer": "C（100 公里／小時）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "設歹徒時速為 v。兩種假設下要追回的是相同的初始距離，應用『相對速度×追趕時間』表示。",
+        "50 分鐘是 5/6 小時，半小時是 1/2 小時，因此 (130−v)×5/6＝(150−v)×1/2。",
+        "兩邊乘 6，得 650−5v＝450−3v，所以 2v＝200、v＝100。",
+        "代回檢查：30×5/6＝25，50×1/2＝25，追回的距離一致。"
+      ],
+      "pitfall": "追趕用的是兩車速度之差，而且時間必須先統一為小時。"
+    },
+    {
+      "id": "math-constructed-1-1",
+      "section": "constructed",
+      "label": "非選題 1(1)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "從格線讀取坐標",
+      "answer": "A＝(4,5)",
+      "officialAnswer": "(4,5)",
+      "status": "verified",
+      "steps": [
+        "從圖上 A 點沿垂直格線對照 x 軸，可讀到 x＝4。",
+        "再沿水平格線對照 y 軸，可讀到 y＝5，因此依 x 在前、y 在後的順序寫成 (4,5)。"
+      ],
+      "pitfall": "坐標順序是先水平後垂直，不能把圖上較高的位置先寫。"
+    },
+    {
+      "id": "math-constructed-1-2",
+      "section": "constructed",
+      "label": "非選題 1(2)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "依坐標標示點的位置",
+      "answer": "在原點左方 5 格、上方 2 格的交點標記 B。",
+      "officialAnswer": "答案圖將 B 標在 (−5,2)。",
+      "status": "verified",
+      "steps": [
+        "x 坐標 −5 表示從原點往左找 5 格，先確定對應的垂直格線。",
+        "y 坐標 2 表示往上找 2 格，在兩條格線的交點畫點並標上 B。",
+        "完成後應在第二象限，且點的位置是 (−5,2)；原卷第 5 頁的答案圖可供對照。"
+      ],
+      "pitfall": "負的 x 坐標表示向左，不是向下；需依兩個坐標分別定位。"
+    },
+    {
+      "id": "math-constructed-1-3",
+      "section": "constructed",
+      "label": "非選題 1(3)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "兩點之間的水平與垂直位移",
+      "answer": "向左 9 格，向下 3 格。",
+      "officialAnswer": "左、9、下、3",
+      "status": "verified",
+      "steps": [
+        "以終點減起點計算水平位移：−5−4＝−9，所以向左 9 格。",
+        "垂直位移為 2−5＝−3，所以向下 3 格。",
+        "檢查 (4−9,5−3)＝(−5,2)，確實到達 B。"
+      ],
+      "pitfall": "位移的正負代表方向，格數則寫正值；不要把 −9 格當成要填的格數。"
+    },
+    {
+      "id": "math-constructed-2-1",
+      "section": "constructed",
+      "label": "非選題 2(1)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "整數係數的加減消去",
+      "answer": "x＝7，y＝1。",
+      "officialAnswer": "x＝7，y＝1。",
+      "status": "verified",
+      "steps": [
+        "將第一式乘 2 得 4x−10y＝18，第二式乘 5 得 15x＋10y＝115。",
+        "相加消去 y，得到 19x＝133，所以 x＝7。",
+        "代入 2x−5y＝9，得 14−5y＝9，因此 y＝1。",
+        "回代另一式檢查：3×7＋2×1＝23，符合原式。"
+      ],
+      "pitfall": "方程式乘倍數時，右邊常數也要乘上相同倍數。"
+    },
+    {
+      "id": "math-constructed-2-2",
+      "section": "constructed",
+      "label": "非選題 2(2)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "相同分數係數的消去",
+      "answer": "x＝2，y＝1/2。",
+      "officialAnswer": "x＝2，y＝1/2。",
+      "status": "verified",
+      "steps": [
+        "兩式的 x 係數同為 3/2，直接以第一式減第二式，得 y−(−2y)＝7/2−2。",
+        "因此 3y＝3/2，算出 y＝1/2。",
+        "代回第一式，(3/2)x＋1/2＝7/2，所以 (3/2)x＝3，解得 x＝2。",
+        "第二式回代為 3−1＝2，驗證正確。"
+      ],
+      "pitfall": "7/2−2 應先把 2 寫成 4/2，不能直接用分子減 2。"
+    },
+    {
+      "id": "math-constructed-2-3",
+      "section": "constructed",
+      "label": "非選題 2(3)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "先移項再聯立求解",
+      "answer": "x＝2，y＝0。",
+      "officialAnswer": "x＝2，y＝0。",
+      "status": "verified",
+      "steps": [
+        "第一式兩邊減 2x 再加 y，可整理為 4x＋5y＝8。",
+        "第二式兩邊加 3x 再加 1，可整理為 5x−4y＝10。",
+        "將整理後的第一式乘 4、第二式乘 5，相加得到 41x＝82，所以 x＝2。",
+        "代入 4x＋5y＝8 得 y＝0；回代原兩式，左右分別同為 12 與 3。"
+      ],
+      "pitfall": "等號兩側都有未知數時，先移項並合併；尤其常數 −1 移到右邊後要加 1。"
+    },
+    {
+      "id": "math-constructed-3",
+      "section": "constructed",
+      "label": "非選題 3",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "代數解與合法日期",
+      "answer": "沒有符合條件的生日；代數求得 2 月 30 日，但該日期不存在。",
+      "officialAnswer": "（2 月 30 日）無解。",
+      "status": "verified",
+      "steps": [
+        "設月份 m、日期 d。年份拆開後的固定部分是 20＋15＝35，所以 35＋m＋d＝67，即 m＋d＝32。",
+        "另一條件可列成 20m−15＝d/2＋10，兩邊乘 2 並整理得 d＝40m−50。",
+        "代入 m＋d＝32，得到 41m＝82，故 m＝2、d＝30。",
+        "這組數值雖滿足兩條代數式，卻不是有效日期；2015 年 2 月只有 28 天，因此實際的生日無解。"
+      ],
+      "pitfall": "應用題的答案須符合情境；算到 2 月 30 日後，必須再指出它不是真正存在的日期。"
+    },
+    {
+      "id": "math-constructed-4-1",
+      "section": "constructed",
+      "label": "非選題 4(1)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "依獎勵表合併總張數",
+      "answer": "依原題表格計算，總共需要 32x＋80y 張。",
+      "officialAnswer": "末式為 32x＋80y；同頁代入式的午餐項卻寫成 12(3x/2−8y)。",
+      "status": "disputed",
+      "steps": [
+        "先以原題第 4 頁表格為依據；午餐自由坐每次的張數是 3x/2−4y。每種單次張數乘以對應次數後相加。",
+        "總張數為 11(8y)＋15x＋12(3x/2−4y)＋(40y−x)。",
+        "合併 x 項得到 (15＋18−1)x＝32x；合併 y 項得到 (88−48＋40)y＝80y，因此為 32x＋80y。",
+        "第 5 頁官方解答的代入式把 −4y 寫成 −8y；若照該代入式化簡，會變成 32x＋32y，並非它所列的末式。官方末式與原題表格一致，但中間過程不一致。"
+      ],
+      "pitfall": "既要把括號內兩項都乘上次數，也要核對採用的是原題表格；不能因官方末式相同就忽略錯置的係數。",
+      "note": "來源歧異可在同一 PDF 核對：第 4 頁及第 5 頁表格都印 −4y，第 5 頁紅字代入過程印 −8y。本項採原表格推導，保留歧異供讀者確認。"
+    },
+    {
+      "id": "math-constructed-4-2",
+      "section": "constructed",
+      "label": "非選題 4(2)",
+      "sourcePages": [4],
+      "answerPage": 5,
+      "topic": "逐項檢查正整數張數",
+      "answer": "只有 (x,y)＝(20,2)，共 1 組。",
+      "officialAnswer": "僅 x＝20、y＝2，一組合理解。",
+      "status": "verified",
+      "steps": [
+        "依原題表格及前小題重算的總式，32x＋80y＝800，可約分為 2x＋5y＝50。",
+        "飲料張數 x 必須是正整數，穿班服張數 8y 也必須是正整數。由 y＝(50−2x)/5 可知 8y＝80−16x/5，因此 x 必須是 5 的倍數。",
+        "令 x＝5k，則 y＝10−2k。由 x＞0、8y＞0 得 k＝1、2、3、4，所以候選只有 (5,8)、(10,6)、(15,4)、(20,2)。",
+        "把這四組代入午餐張數 3x/2−4y，依序是 −49/2、−9、13/2、22；前三組分別因負數或非整數而不合，只有最後一組可行。",
+        "當 (x,y)＝(20,2) 時，四種單次張數依序是 16、20、22、60，都是正整數；總數 11×16＋15×20＋12×22＋60＝800，因此恰有 1 組。"
+      ],
+      "pitfall": "只確認 x、y 是正數還不夠，每一種獎勵的張數都必須是正整數；(15,4) 的午餐張數是 6.5，不能保留。",
+      "note": "本小題按原題表格獨立求解，結果與官方最終答案一致。前小題官方代入式的 −8y 歧異仍保留在 4(1)；此處未沿用該錯置係數，也未擅自假設題面已明說 y 為整數。"
+    }
+  ]
+}

@@ -14,7 +14,13 @@ function build(full){
  for(const u of D.units){const key=[u.grade,u.subject,u.semester].join('-');if(!groups.has(key))groups.set(key,[]);groups.get(key).push(u);}
  const all=bundle('all',D.units);delete all.ids;
  const manifest={schema:1,unitCount:D.units.length,groups:[...groups].map(([name,units])=>bundle(name,units)),all};
- const data=JSON.parse(JSON.stringify(D));data.appVersion=D.subjectCompletion?.version||'2.0.3';
+ const data=JSON.parse(JSON.stringify(D));data.appVersion=D.examSolutions?.version||D.subjectCompletion?.version||'2.0.3';
+ if(data.examSolutions){
+  manifest.papers=data.examSolutions.papers.map(p=>{
+   const raw=JSON.stringify(p),sha256=crypto.createHash('sha256').update(raw).digest('hex'),file='content/paper-'+p.sourceId+'.'+sha256.slice(0,16)+'.json';
+   files[file]=raw;delete p.items;delete p.sections;p.bundle={file,sha256};return{sourceId:p.sourceId,...p.bundle};
+  });
+ }
  for(const u of data.units){
   u.concepts=u.concepts.map(c=>({id:c.id,title:c.title}));
   u.quiz=u.quiz.map(q=>({id:q.id,concept:q.concept,answer:q.answer,options:q.options.map(o=>({id:o.id}))}));

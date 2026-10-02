@@ -1,0 +1,16 @@
+# Historical exam solution reader V2.1.1
+
+The user authorized continuing Knowledge Station, completing all subjects, preserving existing work, repairing slow loading, and publishing. This increment completes the five available grade 7 first-exam papers from 114-2: Chinese, English, mathematics, social studies, and biology. It does not relabel them as 115-1 or claim all 40 papers or the 74 textbook texts are complete.
+
+## Product requirements
+- Provide a discoverable historical-solutions entry on the homepage and source atlas, with a list of all 40 papers and honest availability/status counts.
+- Five papers receive an original, numbered solution for every answerable subquestion. Keep original question texts, figures, and audio in their source PDF; link the verified source and page. Do not republish whole passages or audio transcripts.
+- Each item explains the reasoning and common mistake. Explicitly distinguish verified reasoning, a source discrepancy, and limitations such as listening checked only against a printed script. Show source key and independent answer separately when they differ.
+- A user can expand one solution, follow the original source, and return to the same historical subject curriculum. Reading a solution never marks a fixed quiz or practice session completed.
+- All solution bodies load only after opening that paper. A fresh homepage loads no paper or lesson payload; returning users retain existing lesson hydration needed to validate saved practice snapshots. The homepage remains <2,000,000 raw bytes and <350,000 gzip bytes. Failed downloads offer retry; wrong source identity, schema or hash cannot be displayed. Fast navigation cannot display the previous paper on the new route.
+- Preserve all 763 units, all 4,578 fixed questions, saved answers and practice sessions. No migration or reset of local storage. The downloadable full build retains inline solutions.
+
+## Data interface
+`modules/exam-solutions/{subject}.json` stores `{schema:1, sourceId, sourceSha256, title, checked:"2026-10-02", coverageNote, sections:[{id,title}], items:[...]}`. Source IDs/hashes/titles exactly match atlas-sources.json. Each item is `{id, section, label, sourcePages:[positive PDF page], answerPage:positive PDF page, topic, answer, officialAnswer, status, steps:[string,string,...], pitfall, note?}`. Status is `verified`, `disputed`, or `limited`. All text is original traditional Chinese except essential answer tokens/formulae. Topic is a short descriptive label, not a copied question. Each numbered subpart gets one unique item and source pages use physical PDF numbering. `limited` means a concrete check was unavailable, never fabricated certainty. A paper with issues is covered, not entirely verified. The reader does not render author text as HTML.
+
+The build validator cross-checks source identity, pages, unique IDs, sections, required text and allowed statuses, and derives counts. Metadata contains identity and counts only; web build emits one hash-addressed JSON per paper and embeds file/hash metadata. Reader receives the common data object and renders the `papers` route (`#/papers?g=7` list, `#/papers?id=<sourceId>` detail). A missing ID never silently substitutes another paper. Unknown/pending paper shows source access and clear availability text.
