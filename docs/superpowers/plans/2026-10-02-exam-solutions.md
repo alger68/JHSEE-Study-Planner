@@ -42,7 +42,7 @@
 ### Task 3: Published verification
 **Files:** Update `.github/workflows/pages.yml`, add `tests/exam-solutions-browser.py`, and `docs/study-notes-v2/EXAM-SOLUTIONS-V211.md`.
 **Interfaces:** CI builds final wrapper then compact delivery, checks native browser flows and published paper hashes.
-- [ ] Add native acceptance for lazy load, disclosure, five paper IDs/counts, error retry, mobile overflow and old progress continuity.
-- [ ] Run full local required suites and fresh whole-branch review; fix substantive findings with reproducing tests.
-- [ ] Publish using fresh remote head and non-force update; observe all required CI checks.
-- [ ] Verify public response/hashes and CUA visible flows, capture screenshot, document results and remaining content gaps, commit verification record.
+- [x] Add native acceptance for lazy load, disclosure, five paper IDs/counts, error retry, mobile overflow and old progress continuity.
+- [x] Run full local required suites and fresh whole-branch review; fix substantive findings with reproducing tests.
+- [x] Publish using fresh remote head and non-force update; observe all required CI checks.
+- [x] Verify public response/hashes and CUA visible flows, capture screenshot, document results and remaining content gaps, commit verification record.

@@ -1,0 +1,449 @@
+{
+  "version": "2.1.1",
+  "checked": "2026-10-02",
+  "releaseCommit": "e8fe7bce6f3913e2f94318f6661a230ad9396d0e",
+  "runId": 37009433102,
+  "jobs": [
+    {
+      "id": 110845348879,
+      "name": "test-and-build",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Checkout",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Node",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install planner dependencies",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run original planner tests",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test study notes content and question engine",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build Pages artifact",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Prepare browser acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Independently verify original mathematics answers",
+          "conclusion": "success"
+        },
+        {
+          "name": "Native study-notes browser acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Full exam and session reliability",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verified chapter navigation and new lesson acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Homepage and catalog navigation acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Teaching atlas and source evidence acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete upper-semester mathematics acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Adopted 114 lower-semester teaching acceptance",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build integrated teaching and free-resource release",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate final integrated release in native browser",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build V2 full curriculum catalog and original guides",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate V2 catalog, lessons and practice in native browser",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build V2.1 all-subject worked examples and expanded practice",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build source-checked historical exam solution guides",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build compact homepage with on-demand lesson delivery",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate final web delivery, progress reload and network recovery",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate semester guidance and saved fixed-question correction",
+          "conclusion": "success"
+        },
+        {
+          "name": "Validate historical solutions and paper download recovery",
+          "conclusion": "success"
+        },
+        {
+          "name": "Archive tracked study-notes source",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload verification evidence",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload Pages artifact",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Setup Node",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Checkout",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 110848273305,
+      "name": "deploy",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Configure Pages",
+          "conclusion": "success"
+        },
+        {
+          "name": "Deploy to GitHub Pages",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify published notes HTML and planner entry",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "localChecks": {
+    "notes": 174,
+    "planner": 74,
+    "sourcePdfs": 5,
+    "sourcePdfPages": 35,
+    "independentReview": "No blocking defect; empty-grade route and populated-snapshot coverage findings addressed before publication.",
+    "savedState": "Nonempty fixed answers, practice mistakes and unfinished sessions remain byte-identical with zero Storage.setItem calls."
+  },
+  "nativeCheckGroups": {
+    "python assets/study-notes/v120/tests/reliability-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/reliability": [
+      "exam grade change refreshes selectable units",
+      "exam offers full-paper answering",
+      "40-question exam enters full answering flow",
+      "pending answers saved",
+      "reload retains identical paper and five selections",
+      "40-question result persisted",
+      "40-question record valid after reload",
+      "submitted state restored, not silently reset",
+      "export includes 40-question history",
+      "wrong-question snapshot survives reload",
+      "exam printing fills dedicated print container",
+      "new paper preserves complete exam scope and count",
+      "390px no document overflow",
+      "no page runtime errors"
+    ],
+    "python assets/study-notes/v120/tests/free-integration-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/free-integration": [
+      "final build loaded with real 169/988 totals",
+      "homepage is navigation, not a pile of lesson cards",
+      "homepage links to free resources",
+      "resource route renders 29 cards",
+      "resources retain completion distinction",
+      "external anchors are HTTPS and rel-protected",
+      "no external media auto-embedded",
+      "lotus resources show login warning",
+      "failed resource retrieval remains explicit",
+      "resource backlink opens the matching school chapter map",
+      "resource filtering acts on titles without creating lessons",
+      "filter text escaped and empty state usable",
+      "lotus gets three exact-topic resources but no fake local quiz",
+      "lotus three links displayed",
+      "114-1-8-history full chapter navigation and local exercises",
+      "114-1-8-history original year visible",
+      "114-1-8-health full chapter navigation and local exercises",
+      "114-1-8-health original year visible",
+      "114-1-9-health full chapter navigation and local exercises",
+      "114-1-9-health original year visible",
+      "missing current history offers explicit old-year choice, no silent switch",
+      "existing photosynthesis note has resource panel",
+      "endocrine chapter never fuzzy-matched to photosynthesis",
+      "old PDF PM2.5 discrepancy visible",
+      "old shape-title alias and adult threshold limitation explicit",
+      "all 169 units readable; all 22 added units render five tabs (257 views)",
+      "hist114-1-8-history-l1 all six questions reach correctly scored final result",
+      "hist114-1-8-history-l2 all six questions reach correctly scored final result",
+      "hist114-1-8-history-l3 all six questions reach correctly scored final result",
+      "hist114-1-8-history-l4 all six questions reach correctly scored final result",
+      "hist114-1-8-history-l5 all six questions reach correctly scored final result",
+      "hist114-1-8-history-l6 all six questions reach correctly scored final result",
+      "hist114-1-8-health-1-1 all six questions reach correctly scored final result",
+      "hist114-1-8-health-1-2 all six questions reach correctly scored final result",
+      "hist114-1-8-health-1-3 all six questions reach correctly scored final result",
+      "hist114-1-8-health-2-1 all six questions reach correctly scored final result",
+      "hist114-1-8-health-2-2 all six questions reach correctly scored final result",
+      "hist114-1-8-health-3-1 all six questions reach correctly scored final result",
+      "hist114-1-8-health-3-2 all six questions reach correctly scored final result",
+      "hist114-1-9-health-1-1 all six questions reach correctly scored final result",
+      "hist114-1-9-health-1-2 all six questions reach correctly scored final result",
+      "hist114-1-9-health-1-3 all six questions reach correctly scored final result",
+      "hist114-1-9-health-2-1 all six questions reach correctly scored final result",
+      "hist114-1-9-health-2-2 all six questions reach correctly scored final result",
+      "hist114-1-9-health-2-3 all six questions reach correctly scored final result",
+      "hist114-1-9-health-3-1 all six questions reach correctly scored final result",
+      "hist114-1-9-health-3-2 all six questions reach correctly scored final result",
+      "hist114-1-9-health-3-3 all six questions reach correctly scored final result",
+      "six fixed questions do not repeat to fill eight",
+      "new health practice scored 5/6",
+      "new mistake snapshot validates against current data",
+      "retry preserves the actual original question",
+      "correct retry clears mistake",
+      "backup export is valid JSON",
+      "exported backup reimports without deleting history and concept stats",
+      "existing note bookmark survives route changes",
+      "native bookmark persists across reload",
+      "320px home no horizontal document overflow",
+      "320px resources no horizontal document overflow",
+      "320px health-map no horizontal document overflow",
+      "320px health-notes no horizontal document overflow",
+      "390px home no horizontal document overflow",
+      "390px resources no horizontal document overflow",
+      "390px health-map no horizontal document overflow",
+      "390px health-notes no horizontal document overflow",
+      "768px home no horizontal document overflow",
+      "768px resources no horizontal document overflow",
+      "768px health-map no horizontal document overflow",
+      "768px health-notes no horizontal document overflow",
+      "1366px home no horizontal document overflow",
+      "1366px resources no horizontal document overflow",
+      "1366px health-map no horizontal document overflow",
+      "1366px health-notes no horizontal document overflow",
+      "no uncaught JavaScript errors"
+    ],
+    "python assets/study-notes/v120/tests/catalog-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/catalog": [
+      "V2 release has every verified section bound",
+      "original guides and external links remain",
+      "homepage shows navigation and honest completion labels",
+      "all 697 catalog entries render reading and practice links in the correct semester",
+      "literature reading guides visibly distinguish unverified full text",
+      "semester selector keeps original 114 lower-year label",
+      "PE theme numbering and unknown PDF pages stay explicit",
+      "atlas never claims null PDF page is an evidence page",
+      "all 759 lesson notes render",
+      "direct reading-guide links retain the full-text limitation",
+      "direct reading-guide links retain the full-text limitation",
+      "representative subjects finish quizzes with explanations and correct scores",
+      "three-question lesson is not padded to eight duplicate questions",
+      "code question line breaks and indentation remain readable",
+      "existing native bookmark persists across reload",
+      "320px home has no horizontal overflow",
+      "320px reading-catalog has no horizontal overflow",
+      "320px technology-catalog has no horizontal overflow",
+      "320px reading-notes has no horizontal overflow",
+      "390px home has no horizontal overflow",
+      "390px reading-catalog has no horizontal overflow",
+      "390px technology-catalog has no horizontal overflow",
+      "390px reading-notes has no horizontal overflow",
+      "768px home has no horizontal overflow",
+      "768px reading-catalog has no horizontal overflow",
+      "768px technology-catalog has no horizontal overflow",
+      "768px reading-notes has no horizontal overflow",
+      "1366px home has no horizontal overflow",
+      "1366px reading-catalog has no horizontal overflow",
+      "1366px technology-catalog has no horizontal overflow",
+      "1366px reading-notes has no horizontal overflow",
+      "no uncaught JavaScript errors"
+    ],
+    "python assets/study-notes/v120/tests/web-delivery-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/web-delivery": [
+      "fresh home is complete and downloads no lesson content",
+      "initial HTML below 2 MB and gzip below 350 KB",
+      "catalog retains all 763 unit IDs and 4578 question IDs",
+      "all 66 subject scopes have at least six questions per collected unit",
+      "catalog selection needs no lesson downloads",
+      "one lesson loads one content group",
+      "new worked example is visible in lesson notes",
+      "tabs reuse loaded content",
+      "catalog reflects actual read toggle and fixed answer",
+      "catalog summary counts marked chapters in the selected course",
+      "catalog progress fits 320px",
+      "unfinished selected answer survives native reload",
+      "weakness rows identify real concepts with their subject scope",
+      "weakness table stays within the 320px page",
+      "weakness action opens its exact concept",
+      "all six genuine biology mistakes survive reload",
+      "homepage resumes the stored wrong-question snapshots",
+      "legacy bookmark survived delivery migration",
+      "conflicting direct exam is rejected",
+      "lazy exam builds and starts the complete requested paper",
+      "full text search hydrates every lesson on demand",
+      "search results disclose source scope",
+      "print retains reading guide limitation",
+      "homepage fits 320px",
+      "homepage fits 390px",
+      "homepage fits 768px",
+      "homepage fits 1366px",
+      "taiwanese grade-nine term-1 guide is visible with a practice action",
+      "taiwanese term-1 shared guide fits 390px",
+      "taiwanese term-1 has six answerable questions and honest version label",
+      "taiwanese term-1 answer reveals an explanation",
+      "taiwanese grade-nine term-2 guide is visible with a practice action",
+      "taiwanese term-2 shared guide fits 390px",
+      "taiwanese term-2 has six answerable questions and honest version label",
+      "taiwanese term-2 answer reveals an explanation",
+      "hakka grade-nine term-1 guide is visible with a practice action",
+      "hakka term-1 shared guide fits 390px",
+      "hakka term-1 has six answerable questions and honest version label",
+      "hakka term-1 answer reveals an explanation",
+      "hakka grade-nine term-2 guide is visible with a practice action",
+      "hakka term-2 shared guide fits 390px",
+      "hakka term-2 has six answerable questions and honest version label",
+      "hakka term-2 answer reveals an explanation",
+      "network failure offers an explicit retry",
+      "retry opens the requested lesson",
+      "late content cannot steal a newer homepage route",
+      "no uncaught runtime errors"
+    ],
+    "python assets/study-notes/v120/tests/learning-path-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/learning-path": [
+      "home opens seventh-grade first-semester guidance without downloading lessons",
+      "unverified Chinese reading guides remain clearly disclosed",
+      "unanswered questions are not mistakes",
+      "learning view fits 320px",
+      "learning view fits 390px",
+      "learning view fits 768px",
+      "learning view fits 1366px",
+      "reading one recommended lesson downloads one content group",
+      "real wrong answer survives native reload and appears in semester corrections",
+      "opening wrong feedback preserves saved answers",
+      "finishing a correction can continue unanswered questions without resetting records",
+      "guidance also resumes the unanswered part of a corrected chapter",
+      "corrected answer stays corrected after reload",
+      "partly finished chapter stays next",
+      "completed fixed check advances to next chapter",
+      "other-grade mistakes do not enter the seventh-grade list",
+      "recommendations preserve all pre-existing records",
+      "semester selection retains original source year",
+      "mixed-year scope retains historical history alongside current mathematics",
+      "no uncaught runtime errors"
+    ],
+    "python assets/study-notes/v120/tests/exam-solutions-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/exam-solutions": [
+      "homepage downloads no paper or lesson payload",
+      "seventh-grade history is explicit and opens without paper downloads",
+      "five historical subjects have guides",
+      "biology loads exactly its one paper payload",
+      "biology represents every audited item",
+      "biology reveals original steps and page citation",
+      "chinese loads exactly its one paper payload",
+      "chinese represents every audited item",
+      "chinese reveals original steps and page citation",
+      "english loads exactly its one paper payload",
+      "english represents every audited item",
+      "english reveals original steps and page citation",
+      "math loads exactly its one paper payload",
+      "math represents every audited item",
+      "math reveals original steps and page citation",
+      "social loads exactly its one paper payload",
+      "social represents every audited item",
+      "social reveals original steps and page citation",
+      "reading solutions leaves saved progress unchanged",
+      "source discrepancy is visibly explained",
+      "solution page fits 320px",
+      "solution page fits 390px",
+      "solution page fits 768px",
+      "solution page fits 1366px",
+      "unknown IDs do not substitute content",
+      "empty grade does not silently select seventh grade",
+      "pending guide retains source access and availability boundary",
+      "real failed request can be retried without reloading the app",
+      "no runtime errors"
+    ]
+  },
+  "content": {
+    "units": 763,
+    "fixedQuestions": 4578,
+    "paperGuides": 5,
+    "solutionItems": 265,
+    "verifiedItems": 237,
+    "disputedItems": 7,
+    "limitedItems": 21,
+    "remainingPaperGuides": 35,
+    "readingGuideFullTextsUnverified": 74
+  },
+  "performance": {
+    "htmlBytes": 1983200,
+    "gzipBytesNode": 320917,
+    "publicCompressedDownloadBytes": 328884,
+    "publicRequestSecondsSingleSample": 0.627103,
+    "initialPaperRequests": 0,
+    "note": "Fresh homepage requests no paper or lesson data. Returning saved practice snapshots retain necessary existing lesson hydration. Timing is one observation, not a speed guarantee."
+  },
+  "publication": {
+    "url": "https://alger68.github.io/JHSEE-Study-Planner/assets/study-notes/?v=2.1.1#/home",
+    "publicHtmlSha256": "3012ebfd7c2021757befc564441b4055dfc2bcf7dab34ac32d763b5f75feefa4",
+    "publicMatchesLocal": true,
+    "publishedPaperHashesVerifiedByCI": 5,
+    "manualBrowserChecks": [
+      "Homepage displays V2.1.1 and new historical-solutions entry.",
+      "Seventh-grade list displays five source-specific guides and historical semester.",
+      "Math paper loads 31 items; first explanation expands with original reasoning and physical PDF page reference.",
+      "Returned to homepage and marked the tab as the user deliverable."
+    ],
+    "screenshot": "v211-exam-solutions.jpg"
+  },
+  "reviewBoundary": "All five author audits and original PDF hashes were checked; independent reviewer sampled substantive disputes rather than re-solving all 265 items. Native rendering and public availability passed subsequently."
+}
