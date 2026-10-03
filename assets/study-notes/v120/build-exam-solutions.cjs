@@ -27,5 +27,5 @@ function build(input,options={}){
  for(const s of h.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g))new vm.Script(s[1]);
  return h;
 }
-if(require.main===module){const[input,output]=process.argv.slice(2);if(!input||!output)throw Error('Usage: node build-exam-solutions.cjs source.html output.html');const h=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(output)),{recursive:true});fs.writeFileSync(output,h);console.log('Built V2.1.3 historical exam solutions.');}
+if(require.main===module){const[input,output]=process.argv.slice(2);if(!input||!output)throw Error('Usage: node build-exam-solutions.cjs source.html output.html');const h=build(fs.readFileSync(input,'utf8'));fs.mkdirSync(path.dirname(path.resolve(output)),{recursive:true});fs.writeFileSync(output,h);console.log('Built V2.1.4 historical exam solutions.');}
 module.exports={build};

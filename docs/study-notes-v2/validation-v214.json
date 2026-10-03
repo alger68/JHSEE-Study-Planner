@@ -1,0 +1,70 @@
+{
+  "version": "2.1.4",
+  "checked": "2026-10-03",
+  "baselineCommit": "2bb3b86ae2922a09ed4e6b541ff3fac60a653cad",
+  "readingSupport": {
+    "schema": 1,
+    "checked": "2026-10-03",
+    "total": 74,
+    "originalVerified": 43,
+    "editionVerified": 27,
+    "sourceNeeded": 4
+  },
+  "recovered": 20,
+  "recoveredByGrade": {
+    "7": 4,
+    "8": 8,
+    "9": 8
+  },
+  "priorFiftyRowsUnchanged": true,
+  "allUnitsAndFixedQuestionsUnchanged": true,
+  "allFortyPaperObjectsUnchanged": true,
+  "units": 763,
+  "fixedQuestions": 4578,
+  "newTeachingNotes": 50,
+  "newReadingChecks": 50,
+  "htmlBytes": 1981440,
+  "gzipBytes": 327074,
+  "gzipImplementation": "Node zlib default level6",
+  "htmlSha256": "e017eeb99f8b84a2750f9c305faf00f76384ef0307623ccec65e35b42acf7f21",
+  "remainingSources": [
+    {
+      "sectionId": "115-1-7-taiwanese/一",
+      "title": "白糖粿",
+      "requirement": "缺長鴻115上七年級第一課〈白糖粿〉的署名及全部課文頁。已核官方教材平台公告；國中電子書與教材平台須登入，公開音檔站列的是另外八本補充讀本，沒有本課。學校計畫與同題競賽文章均不足以確認是同一篇。需可合法閱讀、含作者與首尾的本課頁面；目前不能確認正文頁碼。"
+    },
+    {
+      "sectionId": "114-2-7-taiwanese/第一課",
+      "title": "ChatGPT敢會曉講閩南語？",
+      "requirement": "已由原作者阿善Café公開自述及署名資料確認作者王善；公開合照只能辨認課本與作者欄，正文不足以完整閱讀。仍缺康軒114下第一課全部臺語正文、刊載資訊及首尾頁；同作者2023年華文演講筆記是另篇文章，不能代替本課。出版社公開影音目錄只有本課補充動畫，沒有取得署名全文。課名不代表今日模型能力的查證結果。"
+    },
+    {
+      "sectionId": "114-2-7-taiwanese/第二課",
+      "title": "收成",
+      "requirement": "缺康軒114下第二課〈收成〉的署名頁與全部臺語正文。插畫家彩木Ayakii本人作品目錄明列本課與林連鍠，已保留為作者線索；尚無課本署名及內容可交叉核對，故作者欄不先定案。官方目錄只取得補充動畫；國教院語料庫的兩條含「收成」例句也無法證明是本課。需要含首尾的課文頁，正文頁碼待核。"
+    },
+    {
+      "sectionId": "114-2-7-taiwanese/第三課",
+      "title": "工作犬",
+      "requirement": "缺康軒114下第三課〈工作犬〉的作者及全部臺語正文。已核官方第2冊課名與補充動畫目錄；教師公開學習網站連至需學校登入的測驗，未使用登入後內容。一般犬隻百科與公開生詞練習不能確定本篇的敘述對象、情節或觀點。需含署名與首尾的本課頁面；正文頁碼待核。"
+    }
+  ],
+  "tests": {
+    "notes": {
+      "status": "passed",
+      "tests": 189,
+      "command": "node --test --test-isolation=none assets/study-notes/v120/tests/*.test.cjs assets/study-notes/v120/tests/resumption-acceptance.cjs"
+    },
+    "planner": {
+      "status": "passed",
+      "tests": 74
+    },
+    "gitDiffCheck": "passed"
+  },
+  "review": {
+    "status": "pending"
+  },
+  "publicRelease": {
+    "status": "pending"
+  }
+}

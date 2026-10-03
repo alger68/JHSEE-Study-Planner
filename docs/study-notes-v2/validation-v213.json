@@ -568,6 +568,27 @@
     "sourceBoundariesExplicit": true
   },
   "publicRelease": {
-    "status": "pending"
+    "status": "passed",
+    "runtimeCommit": "2bb3b86ae2922a09ed4e6b541ff3fac60a653cad",
+    "testedTree": "779c2f415e660906cdfb27e22870d364b8ac2eec",
+    "actionsRun": 37112258792,
+    "actionsUrl": "https://github.com/alger68/JHSEE-Study-Planner/actions/runs/37112258792",
+    "testAndBuild": "success",
+    "deploy": "success",
+    "nativePaperRoutes": 40,
+    "nativeReadingRoutes": 74,
+    "runtimeErrors": 0,
+    "progressPreserved": true,
+    "liveHtmlSha256": "336e3b0b3536c4a173de5e957c1776f4e5f0f3ea6fcdce0791f9684c83bc31ff",
+    "liveHtmlMatchesTestedBuild": true,
+    "liveFortyPaperHashesVerified": true,
+    "liveFullContentHashVerified": true,
+    "visibleChecks": [
+      "V2.1.3 homepage and 22/28/24 source summary",
+      "grade 8: 15 ready papers",
+      "grade 9: 10 ready papers and source limitations"
+    ],
+    "homeUrl": "https://alger68.github.io/JHSEE-Study-Planner/assets/study-notes/?v=2.1.3#/home",
+    "screenshot": "v213-completion.jpg"
   }
 }
