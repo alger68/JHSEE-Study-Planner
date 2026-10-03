@@ -1,0 +1,563 @@
+{
+  "schema": 1,
+  "sourceId": "1RjR8S-h_0PQdN5mXLVMGg1rbpptFM_Py",
+  "sourceSha256": "de76aa6d1107b722e816bd68c91118279d49fad98e9ce6544826d72220320ed1",
+  "title": "114-2-3 八年級數學科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "涵蓋選擇題 1–27、非選題 1、2(1)、2(2)，共 30 個編號小題。已目視檢查實體 PDF 第 1–6 頁及所有圖形；官方解答在第 6 頁。非選題 2 圖中中心誤標 C，依題幹的對角線交點 O 解讀；角點 C 與中心不混用。所有題目均已獨立推算並與官方答案核對。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、選擇題"
+    },
+    {
+      "id": "calculation",
+      "title": "二、非選題"
+    }
+  ],
+  "items": [
+    {
+      "id": "math-8-r3-choice-1",
+      "section": "choice",
+      "label": "選擇題 1",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "截線所成角的名稱",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "對頂角位於同一交點相對兩側；同位角位於兩交點的相同位置；內錯角位於兩線之間且分居截線兩側，因此 A、B、C 的配對正確。",
+        "∠5、∠7 位於同一交點，並非兩個交點的同側內角，D 錯誤。"
+      ],
+      "pitfall": "角的名稱由位置決定，無須先假定 L₁、L₂ 平行。"
+    },
+    {
+      "id": "math-8-r3-choice-2",
+      "section": "choice",
+      "label": "選擇題 2",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "三角形不等式",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "C 的三個數是 5²＝25、12²＝144、13²＝169，最短兩邊和 25＋144＝169。",
+        "非退化三角形必須兩邊和嚴格大於第三邊；等號只會排成一直線，所以 C 不可能。"
+      ],
+      "pitfall": "題目給的是平方後的邊長，不是常見的 5、12、13 直角三角形。"
+    },
+    {
+      "id": "math-8-r3-choice-3",
+      "section": "choice",
+      "label": "選擇題 3",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "大邊對大角",
+      "answer": "A（∠A）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "三邊皆正，平方後可直接比較：AB²＝16、BC²＝20、AC²＝18，所以 BC 最長。",
+        "最長邊 BC 的對角是 ∠A，因此 ∠A 最大。"
+      ],
+      "pitfall": "邊 BC 的對角是未出现在邊名中的頂點 A。"
+    },
+    {
+      "id": "math-8-r3-choice-4",
+      "section": "choice",
+      "label": "選擇題 4",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "平行四邊形角度條件",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "平行四邊形對角相等、鄰角互補；D 中 A＝C＝135°、B＝D＝45°，且相鄰和 180°。",
+        "A、B 的對角未相等，C 的相鄰角和為 190°，均不符合。"
+      ],
+      "pitfall": "要按 A、B、C、D 的順序判斷對角，不能只看四個數有成對出現。"
+    },
+    {
+      "id": "math-8-r3-choice-5",
+      "section": "choice",
+      "label": "選擇題 5",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "周長與相鄰邊關係",
+      "answer": "A（54 公分）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "周長 168 表示 AB＋BC＝84；又 AB＝2BC−6。",
+        "代入得 3BC−6＝84，故 BC＝30、AB＝54 公分。"
+      ],
+      "pitfall": "平行四邊形周長是兩條相鄰邊之和的兩倍。"
+    },
+    {
+      "id": "math-8-r3-choice-6",
+      "section": "choice",
+      "label": "選擇題 6",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "平行線間的共同高度",
+      "answer": "C（70）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "△ADE 以 DE＝9 為底、面積 45，所以兩平行線的距離 h＝2×45/9＝10。",
+        "BCED 是上下底 5、9 的梯形，高同為 10，面積＝(5＋9)×10/2＝70。"
+      ],
+      "pitfall": "AB＝6 不是所求梯形的下底；下底應使用 BC＝5。"
+    },
+    {
+      "id": "math-8-r3-choice-7",
+      "section": "choice",
+      "label": "選擇題 7",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "平行四邊形的作圖判準",
+      "answer": "B（甲錯、乙對）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甲的弧給 AD＝AB、CD＝BC，是兩對鄰邊相等，不能保證所需的兩對對邊相等。",
+        "乙讓 O 同時為 AC、BD 的中點，兩對角線互相平分，能保證 ABCD 為平行四邊形。"
+      ],
+      "pitfall": "用圓弧作對邊等長時，A 圓心的半徑應對應 BC，不能任用 AB。"
+    },
+    {
+      "id": "math-8-r3-choice-8",
+      "section": "choice",
+      "label": "選擇題 8",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "平行線間折線的角度",
+      "answer": "A（70°）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "在中間折點作水平輔助線。右下斜段與水平線夾 85°，又與中段垂直，因此中段與水平線夾 90°−85°＝5°。",
+        "左上斜段與水平線夾 75°，所以兩斜段在 ∠1 處的夾角為 75°−5°＝70°。"
+      ],
+      "pitfall": "折線中的 90°是兩斜段的角，不是其中一段與水平線的角。"
+    },
+    {
+      "id": "math-8-r3-choice-9",
+      "section": "choice",
+      "label": "選擇題 9",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "利用角度排序求範圍",
+      "answer": "C（36°＜∠C＜54°）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "由 AB＜BC＜AC 得 ∠C＜∠A＜∠B＝72°；又 ∠A＋∠C＝108°。",
+        "由 ∠A＜72°得 ∠C＞36°，由 ∠C＜∠A 得 2∠C＜108°，所以 ∠C＜54°。"
+      ],
+      "pitfall": "兩個不等式都要使用，且邊長嚴格不等，所以端點不能包含。"
+    },
+    {
+      "id": "math-8-r3-choice-10",
+      "section": "choice",
+      "label": "選擇題 10",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "菱形的底與高",
+      "answer": "B（18√3）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "邊長 6、夾角 60°，作高後形成 30°、60°、90°直角三角形，高為 6×√3/2＝3√3。",
+        "菱形面積＝底 6×高 3√3＝18√3。"
+      ],
+      "pitfall": "菱形的斜邊長不是高，不能直接以 6×6 求面積。"
+    },
+    {
+      "id": "math-8-r3-choice-11",
+      "section": "choice",
+      "label": "選擇題 11",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "用截角反證平行",
+      "answer": "A（兩組均不平行）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "以 L₃ 為截線，L₄ 的左下角為 88°；L₅ 的右下角為 88°，所以其左下角為 92°。同位角不等，故 L₄、L₅ 不平行。",
+        "若 L₁、L₂ 平行，L₂ 與 L₄ 的左上角應與 L₁ 的左上角同為 88°，又與 L₂、L₅ 的左上角 88°相同，將迫使 L₄、L₅ 平行，矛盾；故 L₁、L₂ 也不平行。"
+      ],
+      "pitfall": "標成 88°的角若位置不同，不能只因數字相同就判斷兩線平行。"
+    },
+    {
+      "id": "math-8-r3-choice-12",
+      "section": "choice",
+      "label": "選擇題 12",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "在相連三角形比較邊長",
+      "answer": "D（BC＞CD＞AB＞AD）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "AB＝BD，故 △ABD 的 A、D 角皆 61°，B 角為 58°，得 AB＝BD＞AD。",
+        "AD∥BC 給 ∠DBC＝61°；△BCD 的 C 角 57°、D 角 62°，因此 BC＞CD＞BD。合併得到 BC＞CD＞AB＞AD。"
+      ],
+      "pitfall": "跨三角形比較時先找到共同邊 BD，才能把兩個排序串接。"
+    },
+    {
+      "id": "math-8-r3-choice-13",
+      "section": "choice",
+      "label": "選擇題 13",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "兩條截線分別使用平行角關係",
+      "answer": "D（160°）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "沿 L₃，∠1、∠3 是同側內角，故 (4x＋25)＋(2x＋5)＝180，得 x＝25。",
+        "∠2＝3×25−55＝20°；沿 L₄，∠2＋∠4＝180°，所以 ∠4＝160°。"
+      ],
+      "pitfall": "L₃、L₄ 不平行，不能把分屬兩條截線的角直接當同位角相等。"
+    },
+    {
+      "id": "math-8-r3-choice-14",
+      "section": "choice",
+      "label": "選擇題 14",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "以兩組底高求周長",
+      "answer": "D（60）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "用 BC 作底，面積為 18×10＝180。用 CD 作底，同面積＝CD×15，所以 CD＝12。",
+        "AB＝CD＝12，故周長＝2(18＋12)＝60。"
+      ],
+      "pitfall": "兩條高各有對應的底，不可把 AE＝10 配給 CD。"
+    },
+    {
+      "id": "math-8-r3-choice-15",
+      "section": "choice",
+      "label": "選擇題 15",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "等腰三角形的外角比較",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "AB＝BC＜AC，所以 ∠A＝∠C＜∠B。外角 ∠1＝180°−∠B，∠2＝180°−∠C。",
+        "因此 ∠C＋∠1＝180°＋∠C−∠B＜180°，A 正確；∠B＋∠2＞180°，而 ∠A＋∠2＝180°。"
+      ],
+      "pitfall": "外角等於相鄰內角的補角，不能把外角大小沿用對應內角排序。"
+    },
+    {
+      "id": "math-8-r3-choice-16",
+      "section": "choice",
+      "label": "選擇題 16",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "多邊形內角和與平移",
+      "answer": "C（38°）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "五邊形內角和 540°，所以 ∠BCD＝540°−100°−115°−110°−112°＝103°。",
+        "平移後 ∠A′CC′＝115°；CB 與 CC′ 反向，所以 ∠BCA′＝65°。依圖 ∠A′CD＝103°−65°＝38°。"
+      ],
+      "pitfall": "平移保留方向與角度，但 B′＝C 後要分清 CB、CC′ 是相反射線。"
+    },
+    {
+      "id": "math-8-r3-choice-17",
+      "section": "choice",
+      "label": "選擇題 17",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "三點補成平行四邊形",
+      "answer": "B（第二象限）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "設三已知點為 P(−3,4)、Q(4,4)、R(3,0)，依哪一點作對角頂點，第四點分別為 P＋Q−R＝(−2,8)、P＋R−Q＝(−4,0)、Q＋R−P＝(10,0)。",
+        "後兩點在 x 軸上，不屬任何象限；唯一在象限內的候選點 (−2,8) 位於第二象限。"
+      ],
+      "pitfall": "未指定三點相鄰順序時有三種補點，不能只計算其中一種便結束。"
+    },
+    {
+      "id": "math-8-r3-choice-18",
+      "section": "choice",
+      "label": "選擇題 18",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "倍長中線與三角形不等式",
+      "answer": "B（15）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "把 AM 延長至 D，使 MD＝AM＝6。因 BM＝CM，△ABM 與 △DCM 全等，故 CD＝AB＝4，且 AD＝12。",
+        "△ACD 的兩邊給出 12−4＜AC＜12＋4，即 8＜AC＜16；AC 為整數，最大值是 15。"
+      ],
+      "pitfall": "三角形兩邊和為嚴格上界，16 會退化，不能當最大整數邊長。"
+    },
+    {
+      "id": "math-8-r3-choice-19",
+      "section": "choice",
+      "label": "選擇題 19",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "等腰梯形的周長",
+      "answer": "A（84 公尺）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "由面積 200＝(10＋40)h/2，得 h＝8；兩端水平差各為 (40−10)/2＝15。",
+        "每條腰長＝√(15²＋8²)＝17，所以麻繩總長＝10＋40＋2×17＝84 公尺。"
+      ],
+      "pitfall": "面積公式求出的 8 是高，圍邊時要改用斜腰 17。"
+    },
+    {
+      "id": "math-8-r3-choice-20",
+      "section": "choice",
+      "label": "選擇題 20",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "梯形平行截段的線性變化",
+      "answer": "C（20）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "設上底 a、下底 b，四等分腰後，EH＝a＋(b−a)/4，GJ＝a＋3(b−a)/4。",
+        "兩者差＝(b−a)/2＝10，所以 BC−AD＝b−a＝20。"
+      ],
+      "pitfall": "GJ 與 EH 之間相隔兩個四分段，占整個底長差的一半。"
+    },
+    {
+      "id": "math-8-r3-choice-21",
+      "section": "choice",
+      "label": "選擇題 21",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "平行四邊形內的三角形面積",
+      "answer": "C（3√5）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "直角 △ABE 中 BE＝√(9²−6²)＝3√5。△ADE 以 AD 為底、高 6，故 AD＝2×12√5/6＝4√5。",
+        "BC＝AD＝4√5，所以 EC＝√5；D 到 BC 的高仍為 6，因此 △DEC 面積＝√5×6/2＝3√5。"
+      ],
+      "pitfall": "△ADE 的高是兩條平行邊 AD、BC 的距離，與 D 的斜邊長無關。"
+    },
+    {
+      "id": "math-8-r3-choice-22",
+      "section": "choice",
+      "label": "選擇題 22",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "菱形對角線與畢氏定理",
+      "answer": "B（28）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "設菱形兩對角線交點為 O，則 FO＝OD＝8，CO⊥FD。由 CD＝17 得 CO＝√(17²−8²)＝15。",
+        "A、F、O、D 共線，AC＝25 給 AO＝√(25²−15²)＝20；所以 AD＝AO＋OD＝28，平行四邊形的 BC 也等於 28。"
+      ],
+      "pitfall": "FD 是菱形的對角線，不是邊長；計算直角三角形時要先取一半。"
+    },
+    {
+      "id": "math-8-r3-choice-23",
+      "section": "choice",
+      "label": "選擇題 23",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "箏形對角線與直角三角形",
+      "answer": "B（8√5）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "依圖箏形 AC 垂直平分 BD。設 AO＝x、BO＝y，則 x²＋y²＝100，(10√5−x)²＋y²＝400。",
+        "兩式相減得 500−20√5x＝300，故 x＝2√5；再得 y²＝80、y＝4√5，因此 BD＝2y＝8√5。"
+      ],
+      "pitfall": "箏形只有一條對角線平分另一條，不能直接假定 AO＝OC。"
+    },
+    {
+      "id": "math-8-r3-choice-24",
+      "section": "choice",
+      "label": "選擇題 24",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "共底與平行線距離求面積",
+      "answer": "D（64）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "CAEF 的一組對邊為 CA、EF；E 在 BF 上，故 EF 與 BF 同一直線且平行 CA。",
+        "△ABC 面積為 8×8/2＝32，B 到 AC 的距離就是平行線 CA、EF 的距離，因此平行四邊形面積為同底同高三角形的兩倍，即 64。"
+      ],
+      "pitfall": "要使用平行四邊形的底 CA 與對邊 EF 之間的垂直距離，不是正方形邊長直接當高。"
+    },
+    {
+      "id": "math-8-r3-choice-25",
+      "section": "choice",
+      "label": "選擇題 25",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "一組對邊平行且等長",
+      "answer": "C（129°）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "AF∥DE 且 AF＝DE，所以四邊形 AFDE 為平行四邊形。∠2 是 A 的對角；∠1、∠3 分別是與 A 相鄰內角的外角，因此三者都等於 ∠A。",
+        "3∠A＝153°，得 ∠A＝51°；故 ∠B＋∠C＝180°−51°＝129°。"
+      ],
+      "pitfall": "圖中 ∠1、∠3 是小平行四邊形的外角，不能誤看成其內角。"
+    },
+    {
+      "id": "math-8-r3-choice-26",
+      "section": "choice",
+      "label": "選擇題 26",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "摺線角平分與平行線",
+      "answer": "A（17°）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "AB∥CD 且 ∠A＝100°，所以 ∠CDA＝80°。摺線 ED 平分 EC、EC′ 所成的外側角，故 ∠C′ED＝(360°−126°)/2＝117°。",
+        "EC′∥DA，得到 ∠ADE＝180°−117°＝63°；因此 ∠CDE＝80°−63°＝17°。"
+      ],
+      "pitfall": "摺線在圖中的 126°角外側，不能直接把 ∠CDE 當成 126°的一半。"
+    },
+    {
+      "id": "math-8-r3-choice-27",
+      "section": "choice",
+      "label": "選擇題 27",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "長方形對角線與等腰三角形",
+      "answer": "B（135°）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "AM 平分直角，故 ∠BAM＝45°；由 ∠CAM＝15°得 ∠BAO＝60°。長方形對角線等長且互相平分，OA＝OB，因此 △AOB 是正三角形。",
+        "△ABM 為等腰直角三角形，AB＝BM；又 AB＝BO，故 BM＝BO。∠OBM＝90°−60°＝30°，所以 ∠BOM＝75°。",
+        "按圖的射線次序，∠AOM＝∠AOB＋∠BOM＝60°＋75°＝135°。"
+      ],
+      "pitfall": "O 是兩條對角線的中點，OA＝OB 才能推出等腰角關係；不可假設 OM 垂直底邊。"
+    },
+    {
+      "id": "math-8-r3-calculation-1",
+      "section": "calculation",
+      "label": "非選題 1",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "對角線同時滿足兩組三角形不等式",
+      "answer": "5＜x＜13",
+      "officialAnswer": "5＜x＜13",
+      "status": "verified",
+      "steps": [
+        "△ABC 給 |11−6|＜x＜11＋6，即 5＜x＜17。",
+        "△ADC 給 |8−5|＜x＜8＋5，即 3＜x＜13；取兩個範圍的交集，得 5＜x＜13。"
+      ],
+      "pitfall": "同一條 AC 必須同時滿足兩個三角形，應取交集而不是聯集。"
+    },
+    {
+      "id": "math-8-r3-calculation-2-1",
+      "section": "calculation",
+      "label": "非選題 2(1)",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "正方形對角線的垂直平分",
+      "answer": "12",
+      "officialAnswer": "12",
+      "status": "verified",
+      "steps": [
+        "設 AO＝DO＝t。正方形對角線互相垂直，且 P 在圖示的 OD 上、PD＝2，故 OP＝t−2。",
+        "由直角 △AOP 得 t²＋(t−2)²＝(2√13)²＝52，整理為 (t−6)(t＋4)＝0；長度取正，t＝6，所以 BD＝2t＝12。"
+      ],
+      "pitfall": "解方程式會得到負根 −4，長度不能取負；t 是半條對角線，不是整條 BD。",
+      "note": "第 5、6 頁圖中心誤標 C；本解依題幹「O 點為正方形對角線的交點」及官方 AO、DO 算式解讀，中心與右下角 C 為不同點。"
+    },
+    {
+      "id": "math-8-r3-calculation-2-2",
+      "section": "calculation",
+      "label": "非選題 2(2)",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "由對角線求正方形面積",
+      "answer": "72",
+      "officialAnswer": "72",
+      "status": "verified",
+      "steps": [
+        "前題得 BD＝12，正方形另一條對角線 AC 也為 12。",
+        "兩條對角線垂直，面積＝AC×BD/2＝12×12/2＝72。"
+      ],
+      "pitfall": "12 是對角線長，不是邊長；不能直接以 12² 當面積。",
+      "note": "中心符號依題幹記為 O，圖中文字誤標不影響面積推算。"
+    }
+  ]
+}

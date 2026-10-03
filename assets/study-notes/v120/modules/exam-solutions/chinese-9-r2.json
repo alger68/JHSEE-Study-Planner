@@ -1,0 +1,670 @@
+{
+  "schema": 1,
+  "sourceId": "1lEwmkLbTJEmyqys7V0g4CuhKZrnGNxmd",
+  "sourceSha256": "566f1221c796043b40503506f3f1e6f0ee42a94bc6edf062762007f907c75be5",
+  "title": "114-2-2九年級國文科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "共36題：第一大題1至24，第二大題25至36；原卷配分說明合列1至36，不表示題組仍屬第一大題。已逐頁目視PDF實際第1至7頁，答案在第7頁。第11題印文、第12題對聯位置、第16題圓餅圖與第17題神獸均依圖像判讀；第27、28題連結跨頁原詩。閱讀解釋均以題內節文為範圍。",
+  "sections": [
+    {
+      "id": "general",
+      "title": "一、綜合測驗"
+    },
+    {
+      "id": "reading",
+      "title": "二、題組"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-9-r2-general-01",
+      "section": "general",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "多音字與聲調",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "旋風的旋與泫然的泫都讀ㄒㄩㄢˋ，A相同。",
+        "褪色的褪讀ㄊㄨㄣˋ，蛻讀ㄊㄨㄟˋ；躍與耀、創建與重創也各不同音。"
+      ],
+      "pitfall": "旋轉的旋讀第二聲，不能套到旋風。"
+    },
+    {
+      "id": "chinese-9-r2-general-02",
+      "section": "general",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "同音字辨形",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "迫不及待與望塵莫及都用及，分別表示等到與趕得上。",
+        "其他依序是勘／堪、致／置、弊／斃，不能因同音就寫同字。"
+      ],
+      "pitfall": "利弊的弊與死亡的斃意義不同。"
+    },
+    {
+      "id": "chinese-9-r2-general-03",
+      "section": "general",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "固定詞語用字",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D的一絲不苟、卡榫與契合都符合詞義與字形。",
+        "A嚴僅應為嚴謹；B再接再勵應為再接再厲；C粹煉應為淬煉。"
+      ],
+      "pitfall": "不要把再接再厲的厲當成鼓勵的勵。"
+    },
+    {
+      "id": "chinese-9-r2-general-04",
+      "section": "general",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "轉折與否定病句",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "坐在教室與心不在課堂形成轉折，宜用雖然……但是……。",
+        "B卻稱而且銜接無誤，故是錯誤修改判斷；第四句刪不再可避免雙重否定反轉原意。"
+      ],
+      "pitfall": "題目問不適當，不能選提出正確修訂的D。"
+    },
+    {
+      "id": "chinese-9-r2-general-05",
+      "section": "general",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "成語適用情境",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "首當其衝指最先遭受衝擊，符合颱風侵襲沿海村落。",
+        "世罕其匹指少有能相比者，泫然欲泣形容人將哭，一以貫之強調貫徹同一道理，均不合其餘語境。"
+      ],
+      "pitfall": "首當其衝不是一般的第一名或率先行動。"
+    },
+    {
+      "id": "chinese-9-r2-general-06",
+      "section": "general",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "名詞與動詞辨析",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B兩個夢想都能被懷抱或實現，皆是名詞。",
+        "A表現為名詞／動詞；C方便為動詞／形容詞；D影響為動詞／名詞。"
+      ],
+      "pitfall": "判詞性須看在句中的作用，不能只看字面相同。"
+    },
+    {
+      "id": "chinese-9-r2-general-07",
+      "section": "general",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "風景推崇的層次",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "第一個甲表示廬山勝過天下山岳。",
+        "第二個甲表示峰寺之間又勝過廬山其他景色，所以由低到高為天下山岳、廬山、峰寺之間。"
+      ],
+      "pitfall": "不要把峰寺之間縮成遺愛寺單一建築。"
+    },
+    {
+      "id": "chinese-9-r2-general-08",
+      "section": "general",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "會意造字",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "按本題採用的傳統六書說，解會合刀、牛、角表分解，信會合人、言表誠信。",
+        "C兩字均屬會意；其他組把不同類型配在一起，如花是形聲而采並非。"
+      ],
+      "pitfall": "此題依課內傳統造字分類，不把現代字形拆零當作全部古文字證據。"
+    },
+    {
+      "id": "chinese-9-r2-general-09",
+      "section": "general",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "表態句辨認",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "白髮蒼蒼以蒼蒼描述白髮的狀態，屬表態句。",
+        "D以直描述孤煙形態，同樣表態；其他依序偏敘事、判斷與有無句。"
+      ],
+      "pitfall": "有形容詞作述語的句子，不必出現是字。"
+    },
+    {
+      "id": "chinese-9-r2-general-10",
+      "section": "general",
+      "label": "一、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "行動線索辨身分",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "觀察城防與換崗時機，顯示人物在蒐集軍事情報。",
+        "又以特殊方法讀密信，最符合細作，即間諜的身分。"
+      ],
+      "pitfall": "步履沉穩不能單獨證明是鏢師，須合看偵察與密信。"
+    },
+    {
+      "id": "chinese-9-r2-general-11",
+      "section": "general",
+      "label": "一、第11題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "印文與篆書辨圖",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "陽刻保留凸起字畫，沾墨蓋印後應呈深色字、淺色底。",
+        "圖C、D的細長圓轉字形符合篆書，再以底色排除C，選D。"
+      ],
+      "pitfall": "題目看的是蓋出的印文，不是未沾墨印章的凹凸照片。"
+    },
+    {
+      "id": "chinese-9-r2-general-12",
+      "section": "general",
+      "label": "一、第12題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "對聯位置與用途",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖中甲在觀看者右方，應放末字仄聲的上聯；乙左方放平聲下聯。",
+        "B氣為仄、痕為平，且書卷幽蘭的意象適合書院；A是藥店語，C、D上下次序反了。"
+      ],
+      "pitfall": "先定面向大門的左右，不能以門內人的視角顛倒。"
+    },
+    {
+      "id": "chinese-9-r2-general-13",
+      "section": "general",
+      "label": "一、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "行動堅持的共同精神",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甲的貧僧在物資簡陋下實行目標並返回，突出行動與毅力。",
+        "乙的岩竹經風吹擊仍堅勁，同樣呈現克服艱難而守志不移。"
+      ],
+      "pitfall": "富僧的慚愧不是物質條件決定人格的證據。"
+    },
+    {
+      "id": "chinese-9-r2-general-14",
+      "section": "general",
+      "label": "一、第14題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "內在成就感",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "費曼把發現事理時的樂趣直接稱為獎品。",
+        "價值重點因此在探索實踐本身的滿足，而非必須等外界頒獎，A最貼切。"
+      ],
+      "pitfall": "不要把肯定內在樂趣推成完全拒絕一切物質獎賞。"
+    },
+    {
+      "id": "chinese-9-r2-general-15",
+      "section": "general",
+      "label": "一、第15題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "障礙與自在的比喻",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "密竹未阻水流，高山未攔白雲，兩個反問都降低障礙的支配力。",
+        "C把這種意象轉為人在阻礙中仍能保持內在自在，最接近句意。"
+      ],
+      "pitfall": "自然意象在此承載處世意旨，不只是在解說水文地理。"
+    },
+    {
+      "id": "chinese-9-r2-general-16",
+      "section": "general",
+      "label": "一、第16題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "睡眠圓餅圖",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖例顯示8小時以上5%、7至8小時45%、6至7小時35%、少於6小時15%。",
+        "依圖表分組，達7小時以上的兩組合計5%＋45%＝50%，故D正確。"
+      ],
+      "pitfall": "最長與最短組相差10個百分點；不要把最大扇形45%誤認為少於6小時。"
+    },
+    {
+      "id": "chinese-9-r2-general-17",
+      "section": "general",
+      "label": "一、第17題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "圖文特徵對照",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題句直接給出魚身與鳥翼兩項外形條件。",
+        "B具魚頭魚身與羽翼；A有人面，C蛇形，D獸首，均少了必要特徵。"
+      ],
+      "pitfall": "發大水是出現後的傳說徵兆，不能取代魚身鳥翼的外觀條件。"
+    },
+    {
+      "id": "chinese-9-r2-general-18",
+      "section": "general",
+      "label": "一、第18題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "被迫改變的原因",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "國人把唯一清醒者當病人，施加各種治療。",
+        "關鍵不任其苦表示國君無法承受，才飲狂泉，故D的被迫放棄最合文意。"
+      ],
+      "pitfall": "不能把受不了折磨改寫成主動犧牲換和平。"
+    },
+    {
+      "id": "chinese-9-r2-general-19",
+      "section": "general",
+      "label": "一、第19題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "辨明引述與作者立場",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "被譏一廂情願是他人的批評，作者隨後用其實轉折。",
+        "不忘初心與人道籲求是肯定語，故四項中A的認同立場最接近。"
+      ],
+      "pitfall": "這是判讀文中作者態度，不是據短文裁定現實國際政策的優劣。"
+    },
+    {
+      "id": "chinese-9-r2-general-20",
+      "section": "general",
+      "label": "一、第20題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "守喪禮制與人物動機",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "母親因兒子哀痛瘦弱而暗中替他蓋錦被，不能證明他貪圖享樂。",
+        "郭林宗以孔子關於錦衣美食的話責其守喪禮節，C準確概括他的立場。"
+      ],
+      "pitfall": "郭林宗的批評不等於敘事已證實陳元方不孝。"
+    },
+    {
+      "id": "chinese-9-r2-general-21",
+      "section": "general",
+      "label": "一、第21題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "把握學習時機",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "時過然後學強調錯過適當時機，後來即使辛苦也難成功。",
+        "B錯過春耕再補播仍收成少，完整對應時機、補救與成效受限。"
+      ],
+      "pitfall": "C強調努力而非錯過時機，不能只見苦練就選。"
+    },
+    {
+      "id": "chinese-9-r2-general-22",
+      "section": "general",
+      "label": "一、第22題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "對比中的價值準則",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前句寧取安閑貧賤而不取勞悴富貴，後句又寧取謙恭富貴而不取驕傲貧賤。",
+        "兩次比較均以生活與心性狀態作準，並不固定崇富或崇貧，故B。"
+      ],
+      "pitfall": "後半句正好排除貧賤一定比富貴好的說法。"
+    },
+    {
+      "id": "chinese-9-r2-general-23",
+      "section": "general",
+      "label": "一、第23題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "逆境改變回望角度",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "名言說艱難使人意識到以前忽略的好時光，重心在重新理解過往。",
+        "C保留困境與珍惜平凡的因果，其餘加入改過、保證回報或失去能力，均非原意。"
+      ],
+      "pitfall": "不能把回望過去改成未來一定有好報。"
+    },
+    {
+      "id": "chinese-9-r2-general-24",
+      "section": "general",
+      "label": "一、第24題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "同一意象的不同態度",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲將柳絮寫成無人收留、被春風拋棄的薄命者，情緒被動哀傷。",
+        "乙要藉風上青雲，呈現借助條件向上的意志；D掌握兩人對東風的差異。"
+      ],
+      "pitfall": "粉墮香殘不是百花繁盛，不能反讀成樂觀景象。"
+    },
+    {
+      "id": "chinese-9-r2-reading-25",
+      "section": "reading",
+      "label": "二、第25題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "快樂觀的轉變",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "年輕時作者把快樂看成膚淺，年長後才體會持守快樂不易。",
+        "文中明說自己開始訓練快樂，故C同時涵蓋主動練習與困難。"
+      ],
+      "pitfall": "不能把照顧父母的辛勞簡化成所有不快樂的原因。"
+    },
+    {
+      "id": "chinese-9-r2-reading-26",
+      "section": "reading",
+      "label": "二、第26題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "光與行舟的譬喻",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "幽幽的光承接前文微小的快樂，是支持人的力量。",
+        "深黝水域延續時間之河意象，指向未知人生；A完整連結微光與繼續前行。"
+      ],
+      "pitfall": "欲望減少在文中帶來珍惜，並非生命失去動力。"
+    },
+    {
+      "id": "chinese-9-r2-reading-27",
+      "section": "reading",
+      "label": "二、第27題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 7,
+      "topic": "慈和的殺戮意象",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "落葉、果實與含苞菊花呈現季節造成的衰落和成熟。",
+        "結尾點明季節的神，故剪刀象徵自然更替中同時去舊與更新，B較能統攝全詩。"
+      ],
+      "pitfall": "前段似有園丁，結尾已把字面情節提升為季節意象。"
+    },
+    {
+      "id": "chinese-9-r2-reading-28",
+      "section": "reading",
+      "label": "二、第28題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 7,
+      "topic": "感官與觀察的推進",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "詩先由聽到窗外聲響開始，再抬頭、探身，最後走進院子。",
+        "聽覺引向視覺觀察，再理解季節變化，A符合敘述路徑。"
+      ],
+      "pitfall": "開頭不是先提出議論，也沒有因被園丁忽視而發怒。"
+    },
+    {
+      "id": "chinese-9-r2-reading-29",
+      "section": "reading",
+      "label": "二、第29題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "德行與學文的順序",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲列孝弟誠信等實踐後，才說行有餘力學文。",
+        "乙同樣要求先由品格與動機修起，故A指出共同的先修德再發展。"
+      ],
+      "pitfall": "先後有別不等於否定知識學習的重要。"
+    },
+    {
+      "id": "chinese-9-r2-reading-30",
+      "section": "reading",
+      "label": "二、第30題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "品德引導知識",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "洛克指出學問可能使品行不善者更壞，說明知識需品德引導。",
+        "D同時對應甲先實踐德行、乙先修養品格的共同立場，涵蓋題目要求的兩文。"
+      ],
+      "pitfall": "A與甲有相近方向，但D完整連結兩文；不要認為知識增加會自動改善德行。"
+    },
+    {
+      "id": "chinese-9-r2-reading-31",
+      "section": "reading",
+      "label": "二、第31題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "把修身原則用於情境",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "學生已有學業表現，欠缺的是對同學的謙和與尊重。",
+        "由內而外要求先調整自身態度，因此B直接處理核心問題。"
+      ],
+      "pitfall": "表演個人魅力只能遮掩傲慢，無法取代品格修養。"
+    },
+    {
+      "id": "chinese-9-r2-reading-32",
+      "section": "reading",
+      "label": "二、第32題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "事件的直接原因",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "開頭明說父親吝出渡錢，才拼命涉水。",
+        "水漲湍急使他被沖倒，故C保留捨不得船資與冒險的因果。"
+      ],
+      "pitfall": "不要把後來船夫索價的情節移到落水原因。"
+    },
+    {
+      "id": "chinese-9-r2-reading-33",
+      "section": "reading",
+      "label": "二、第33題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "荒謬對比與諷刺",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "命在旦夕仍要求救命費不得超過五分，凸顯金錢與生命價值的倒置。",
+        "誇張言行讓吝嗇的荒謬顯露，A的諷刺判斷最貼切。"
+      ],
+      "pitfall": "文本只說吝嗇，並未交代家境貧困到付不起船錢。"
+    },
+    {
+      "id": "chinese-9-r2-reading-34",
+      "section": "reading",
+      "label": "二、第34題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "命名與感恩",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "久旱後大雨讓官吏商賈農夫同慶，正逢亭子完成。",
+        "結尾說休憩安樂皆為雨之賜，故命名重在記喜雨、謝甘霖，選A。"
+      ],
+      "pitfall": "不能把天降及時雨說成蘇軾自己的治水政績。"
+    },
+    {
+      "id": "chinese-9-r2-reading-35",
+      "section": "reading",
+      "label": "二、第35題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "安樂與民生相連",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "對話由無雨推到無麥無禾，再推到饑荒、訴訟與盜賊。",
+        "作者反問自己還能否安樂，表明個人休憩依賴百姓安定，C的居安思危最切合。"
+      ],
+      "pitfall": "五日十日是假設性的警醒，不是可直接當作農作精密預測。"
+    },
+    {
+      "id": "chinese-9-r2-reading-36",
+      "section": "reading",
+      "label": "二、第36題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "排比呈現共同喜悅",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "官吏在庭、商賈在市、農夫在野，三句有相近結構。",
+        "連續鋪列不同階層慶賀，構成排比，A正確；開頭按任官到建亭敘事並非倒敘。"
+      ],
+      "pitfall": "全文由憂轉喜，不能說以憂貫穿而只強調無力。"
+    }
+  ]
+}

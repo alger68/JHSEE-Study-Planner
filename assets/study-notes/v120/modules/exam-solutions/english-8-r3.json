@@ -1,0 +1,1290 @@
+{
+  "schema": 1,
+  "sourceId": "1hmBMIbFoeSjFKWlr4TK80vlCh95tmnl-",
+  "sourceSha256": "5690b6f8281a1708f6ddcf1a55de50b708278adf6b40e06d460b5be2a20ff614",
+  "title": "114-2-3 八年級英文科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題整理第 1～67 題，目視核對全部 7 個 PDF 實體頁面，包含選項圖、寵物症狀長條圖及第 7 頁聽力稿與解答。本卷無手寫題。第 1～20 題缺原始音檔，僅可由稿文和題目推理，均標示核對受限。第 33 題提醒原卷 he／her 混用，第 67 題說明組合選項對 Tom 意見的推論範圍。血型性格、吸血鬼和大蒜段落依文作答，不宣稱其為科學或醫療證據。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "listening-words",
+      "title": "聽力：單字辨識"
+    },
+    {
+      "id": "listening-images",
+      "title": "聽力：圖片辨識"
+    },
+    {
+      "id": "listening-responses",
+      "title": "聽力：基本問答"
+    },
+    {
+      "id": "listening-dialogue",
+      "title": "聽力：言談理解"
+    },
+    {
+      "id": "grammar",
+      "title": "字彙與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "克漏字"
+    },
+    {
+      "id": "reading",
+      "title": "閱讀測驗"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-8-r3-1",
+      "section": "listening-words",
+      "label": "第 1 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "根基 root",
+      "answer": "B：root",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿把好記憶力比喻為更好學習的根基，用 root。",
+        "B 對應根或根本原因的意思，rule 與 reason 並非稿中目標字。"
+      ],
+      "pitfall": "root 與 rule 的字尾不同，不能只辨起首音。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-2",
+      "section": "listening-words",
+      "label": "第 2 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "嚴重的 serious",
+      "answer": "C：serious",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說大雨後情況變嚴重，目標形容詞是 serious。",
+        "became 後接形容詞描述狀態，與 C 相符。"
+      ],
+      "pitfall": "station 是車站名詞，不可與 serious 的長字形混淆。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-3",
+      "section": "listening-words",
+      "label": "第 3 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "優秀的 excellent",
+      "answer": "A：excellent",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿稱讚 Amy 的科學專題表現，使用 excellent。",
+        "excellent job 是正面評價，選 A。"
+      ],
+      "pitfall": "experience 是經驗；expensive 是昂貴，三字皆 ex- 但意思不同。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-4",
+      "section": "listening-words",
+      "label": "第 4 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "誠實的 honest",
+      "answer": "B：honest",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Kevin 總是說真話，因此是 honest。",
+        "B 的字義與 tell the truth 互相呼應。"
+      ],
+      "pitfall": "honest 的 h 通常不發音；實際播放仍須音檔才能核驗。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-5",
+      "section": "listening-words",
+      "label": "第 5 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "導致 lead",
+      "answer": "C：lead",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿把垃圾食物過量與健康問題連結，使用 lead to。",
+        "lead to 表導致某結果，對應 C。"
+      ],
+      "pitfall": "let 是讓，後接動作的結構不同。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-6",
+      "section": "listening-images",
+      "label": "第 6 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "只有三本的數量",
+      "answer": "C：五本中三本打勾",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說書很多，但只有三本來自直播購物。",
+        "C 恰有三個勾；A 沒有勾，B 五本全勾，不符合 only three。"
+      ],
+      "pitfall": "題意是部分來源，不是總共只有三本書。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-7",
+      "section": "listening-images",
+      "label": "第 7 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "Jack 的身高",
+      "answer": "A：130 公分的男孩",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿否定 Jack 很高，並明說身高 130 公分。",
+        "A 同時符合男孩與數字；B 是女孩，C 為 170 公分。"
+      ],
+      "pitfall": "不要被附加問句的 tall 帶走，應以回答 No 和數值為準。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-8",
+      "section": "listening-images",
+      "label": "第 8 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "肩膀受傷",
+      "answer": "C：肩膀疼痛的圖",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿明說 Richard 在球賽中嚴重傷到肩膀。",
+        "C 指向肩部疼痛；A 是膝，B 是手。"
+      ],
+      "pitfall": "身體部位必須逐一核對，不能只找包紮圖。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-9",
+      "section": "listening-images",
+      "label": "第 9 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "狗過世的情境",
+      "answer": "A：男孩與帶光環的狗",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說愛犬昨天過世，說話者因不能再相伴而難過。",
+        "A 的狗帶光環且男孩悲傷；C 的動物是貓。"
+      ],
+      "pitfall": "passed away 是過世的委婉語，不是外出。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-10",
+      "section": "listening-images",
+      "label": "第 10 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "課堂舉手表達",
+      "answer": "B：教室中舉手",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說女孩認為有問題，於是在課堂舉手發言。",
+        "B 有學生坐在課桌前、其中一人舉手，符合場景與動作。"
+      ],
+      "pitfall": "一般聚會討論不等同 in class，使用手機也不表示發言。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-11",
+      "section": "listening-responses",
+      "label": "第 11 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "從眾的原因",
+      "answer": "A：希望感到安全",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿問為何許多人跟著群眾，回答要解釋從眾動機。",
+        "A 的尋求安全感符合加入多數的想法，其餘偏向遠離他人。"
+      ],
+      "pitfall": "follow the crowd 是從眾，不是喜歡獨處。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-12",
+      "section": "listening-responses",
+      "label": "第 12 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "回應獲勝的恭喜",
+      "answer": "B：勤練並督促自己",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿已恭喜拿最多分、贏得比賽，因此回應要承接成功。",
+        "B 解釋透過練習突破不擅長，與結果一致；A 卻說沒贏。"
+      ],
+      "pitfall": "不能因開頭有 tried my best 就忽略後面的失敗訊息。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-13",
+      "section": "listening-responses",
+      "label": "第 13 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "身體是否好轉",
+      "answer": "A：仍頭痛，需要多休息",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿的附加問句詢問現在是否覺得好一些。",
+        "A 明確否定並補充仍有頭痛，主詞與問句一致。"
+      ],
+      "pitfall": "C 同時說藥非常有用卻未好轉，回應較不連貫；B 則錯換第三人稱。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-14",
+      "section": "listening-responses",
+      "label": "第 14 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "允許晚到幾分鐘",
+      "answer": "C：沒關係",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿詢問電影快開演時稍晚到是否可以。",
+        "C 表示不介意，直接回應允許與否。"
+      ],
+      "pitfall": "Count me in 是報名參加，不回答對方能否遲到。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-15",
+      "section": "listening-responses",
+      "label": "第 15 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "姐妹的職業",
+      "answer": "C：是，這工作不容易",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿問兩位姐妹是否都教英文，C 先以 Yes 確認再評論工作。",
+        "A 說都教數學卻答 Yes，B 說兩人教英文卻答 No，前後不一致。"
+      ],
+      "pitfall": "先核對肯否回答與後續內容有無矛盾。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-16",
+      "section": "listening-dialogue",
+      "label": "第 16 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "in the pink 的意思",
+      "answer": "B：已恢復健康",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿的 Kevin 先說已好轉，醫生又說他 back in the pink。",
+        "兩項訊息共同支持已恢復健康，而不是仍發燒。"
+      ],
+      "pitfall": "前週生病是過去情況，題目問 now。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-17",
+      "section": "listening-dialogue",
+      "label": "第 17 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "想融入同儕",
+      "answer": "C：希望與同學一樣",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Tina 已有鞋，卻因同學都穿同款而再買。",
+        "fit in 的線索指向融入群體，與 C 相符。"
+      ],
+      "pitfall": "不能把購買動機推成鞋子不足，對話明說已有一雙。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-18",
+      "section": "listening-dialogue",
+      "label": "第 18 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "承認行為不妥",
+      "answer": "B：自己的行為錯了",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿中 Jason 最後承認沒有藉口並表示會道歉。",
+        "因此他理解的是自己的反應不對，而非認同同學的批評。"
+      ],
+      "pitfall": "原先生氣的理由不能抵消最後承認錯誤的結論。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-19",
+      "section": "listening-dialogue",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "under the knife",
+      "answer": "C：接受手術",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說父親為了修復膝蓋而 went under the knife。",
+        "這個慣用語表示動手術，選 C。"
+      ],
+      "pitfall": "不能按字面誤認為手被刀割傷；受傷部位也不是手。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-20",
+      "section": "listening-dialogue",
+      "label": "第 20 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "換位理解母親",
+      "answer": "B：思考母親為何擔心",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿的男孩指出晚歸安全疑慮，請女孩設身處地想像。",
+        "重點在理解母親擔心的理由，並非全面禁止唱歌或要求同學早歸。"
+      ],
+      "pitfall": "建議理解對方不等於已替她作出不去的決定。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r3-21",
+      "section": "grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "咳嗽的圖像",
+      "answer": "D：嚴重咳嗽",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Lily 把手靠近嘴，身體呈咳嗽姿勢，沒有膝或肩受傷圖示。",
+        "D 描述咳嗽，最直接符合畫面。"
+      ],
+      "pitfall": "畫面未提供體溫數字，不能自行推定高燒。"
+    },
+    {
+      "id": "english-8-r3-22",
+      "section": "grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "被狗追趕的情緒",
+      "answer": "B：afraid",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "大狗突然追逐男孩，合理的情緒是害怕。",
+        "afraid 可接在 was very 後描述其感受。"
+      ],
+      "pitfall": "honest 描述品格，fresh 描述新鮮，與此事件反應無關。"
+    },
+    {
+      "id": "english-8-r3-23",
+      "section": "grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "允許孩子看電視",
+      "answer": "C：allows",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "母親限制只能週末看電視，表示允許的時間條件。",
+        "allow 人 to do 符合後面的 children to watch。"
+      ],
+      "pitfall": "begin、explain 不以此相同結構表允許。"
+    },
+    {
+      "id": "english-8-r3-24",
+      "section": "grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "比賽即將到來",
+      "answer": "D：around the corner",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "領隊要求每天練習，原因是重要比賽快到了。",
+        "around the corner 可比喻即將發生，符合時間關係。"
+      ],
+      "pitfall": "不要只按字面解成比賽在街角。"
+    },
+    {
+      "id": "english-8-r3-25",
+      "section": "grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "思緒敏銳",
+      "answer": "D：sharp",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "後句強調隨時準備學新知，與頭腦敏銳相連。",
+        "keep the brain sharp 以形容詞描述保持的狀態。"
+      ],
+      "pitfall": "sharp 可形容思考敏捷，不只指物體尖銳。"
+    },
+    {
+      "id": "english-8-r3-26",
+      "section": "grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "忘記帶書",
+      "answer": "B：forgets",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "因為課堂上無法寫習題，前因應是忘記把書放進書包。",
+        "forget to do 表忘記去做必要的動作，符合結果。"
+      ],
+      "pitfall": "expect to 表預期，不能解釋持續未帶書。"
+    },
+    {
+      "id": "english-8-r3-27",
+      "section": "grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "加入聊天群組",
+      "answer": "D：group",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "要加入的是多人共同聊天的群體，用 chat group。",
+        "後面的規則與對人誠實都適用於群組活動。"
+      ],
+      "pitfall": "member 是一位成員，不能說加入一個成員。"
+    },
+    {
+      "id": "english-8-r3-28",
+      "section": "grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "定義努力的意義",
+      "answer": "A：define",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "空格後是 the true meaning，需要能表示界定意義的動詞。",
+        "define 表定義或界定，與題句觀點一致。"
+      ],
+      "pitfall": "本題在辨詞義，不是由此推論 AI 在所有任務中的能力。"
+    },
+    {
+      "id": "english-8-r3-29",
+      "section": "grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "為不整理房間找藉口",
+      "answer": "B：excuse",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "女孩不想打掃，便用功課太難太多作為推託。",
+        "make an excuse 是找藉口的搭配，選 B。"
+      ],
+      "pitfall": "reason 通常不與 made a terrible 形成此處推託的慣用說法。"
+    },
+    {
+      "id": "english-8-r3-30",
+      "section": "grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "朋友嘲笑跌倒者",
+      "answer": "C：laugh at",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "not help…but 建立不幫忙而做另一種反應的對比。",
+        "laugh at 人表示嘲笑，與跌倒卻未獲援助的情境相符。"
+      ],
+      "pitfall": "laugh 與 laugh at 不同，後者需用 at 連接嘲笑對象。"
+    },
+    {
+      "id": "english-8-r3-31",
+      "section": "grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "把瓶子遞給祖父",
+      "answer": "B：passed",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "祖父需要蜂蜜，兄弟把瓶子交到他手上。",
+        "pass 人 物可帶兩個受詞，passed him the bottle 語法與情境吻合。"
+      ],
+      "pitfall": "allow 是准許，不表示把物品交給他人。"
+    },
+    {
+      "id": "english-8-r3-32",
+      "section": "grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "壓下恐懼",
+      "answer": "C：hold back",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "母親雖害怕仍迅速帶孩子離開，表示克制恐懼。",
+        "hold back 可表示抑制情緒，因此選 C。"
+      ],
+      "pitfall": "keep in mind 是記住，並非壓抑情緒。"
+    },
+    {
+      "id": "english-8-r3-33",
+      "section": "grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "一般過去式的附加問句",
+      "answer": "C：didn’t",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "主句 made 是一般過去式肯定句，附加問句用否定 did。",
+        "依已印出的 he，完整結構為 didn’t he，與 C 相符。"
+      ],
+      "pitfall": "不是現在式 makes，因此不能用 doesn’t。",
+      "note": "官方 C 與主句時態吻合；原文下句把同一老闆寫成 her，與附加問句的 he 不一致，勿將此代名詞混用當成範本。"
+    },
+    {
+      "id": "english-8-r3-34",
+      "section": "grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "不可數食物與 feel like",
+      "answer": "B：most；eating",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "food 在此為不可數，most of the food 可表大部分食物。",
+        "feel like 後接動名詞，使用 eating。"
+      ],
+      "pitfall": "many 用於可數複數；feel like 不直接接 to eat。"
+    },
+    {
+      "id": "english-8-r3-35",
+      "section": "grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "克服刻板印象的原因",
+      "answer": "C：because",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "句子先說選手活得充實，後面說沒有讓性別刻板印象限制自己。",
+        "後半提供前半的原因，用 because 連接。"
+      ],
+      "pitfall": "although 表讓步，與此處支持成功的理由方向不同。"
+    },
+    {
+      "id": "english-8-r3-36",
+      "section": "grammar",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "虛主詞 it",
+      "answer": "C：it",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "agree 後省略連接詞 that，仍需要子句主詞。",
+        "it is important to do 以 it 代替後面不定詞真正主詞，因此選 C。"
+      ],
+      "pitfall": "若填 that 作連接詞，is 前便缺少虛主詞 it。"
+    },
+    {
+      "id": "english-8-r3-37",
+      "section": "grammar",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "have to 的附加問句",
+      "answer": "D：don’t they",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "have to 在此是一般現在式「必須」，主詞為複數工程師。",
+        "肯定主句對應否定助動詞 don’t，代名詞用 they。"
+      ],
+      "pitfall": "have to 不是完成式 have，故不採 haven’t they。"
+    },
+    {
+      "id": "english-8-r3-38",
+      "section": "grammar",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "讓步與不可數 bread",
+      "answer": "D：little；some",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Though 後說便宜的麵包很少，才與很多人仍排隊形成讓步關係。",
+        "bread 不可數，後面用 some 代替部分麵包，不使用 one 或 them。"
+      ],
+      "pitfall": "each、one 不能直接以單位方式代替不可數麵包。"
+    },
+    {
+      "id": "english-8-r3-39",
+      "section": "grammar",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "歌唱方式的最高級",
+      "answer": "D：most beautifully",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "修飾 sings 需要副詞 beautifully。",
+        "of all 表全體比較，用副詞最高級 most beautifully，呼應最佳歌手。"
+      ],
+      "pitfall": "beautiful 是形容詞，不能在此修飾唱歌動作。"
+    },
+    {
+      "id": "english-8-r3-40",
+      "section": "grammar",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "接受一起打球的邀請",
+      "answer": "A：Count me in.",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "Sure 已表同意，下一句應承接參加。",
+        "Count me in 表算我一份，與邀請最相符。"
+      ],
+      "pitfall": "I won’t be able to go 與 Sure 的肯定態度矛盾。"
+    },
+    {
+      "id": "english-8-r3-41",
+      "section": "grammar",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "未來條件句",
+      "answer": "A：comes",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "主句問未來颱風來襲時會做什麼，if 子句用現在式表未來條件。",
+        "單數 typhoon 對應 comes，構成標準條件句。"
+      ],
+      "pitfall": "不因 this weekend 是未來，就在 if 子句加 will。"
+    },
+    {
+      "id": "english-8-r3-42",
+      "section": "grammar",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "help 與 keep 的動詞形式",
+      "answer": "A：protect；working",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "help 後可接原形 protect，表示有助保護。",
+        "keep 受詞加現在分詞表示讓其持續運作，因此為 keep it working。"
+      ],
+      "pitfall": "keep it to work 不能表持續工作狀態。"
+    },
+    {
+      "id": "english-8-r3-43",
+      "section": "grammar",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "使役與更長工時",
+      "answer": "B：made；longer",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "heard 與 reported 建立過去背景，使役動詞用 made 並接 children work。",
+        "than 表比較兩群人的工作時間，使用 longer。"
+      ],
+      "pitfall": "longest 是最高級，不能直接接 than 作此比較。"
+    },
+    {
+      "id": "english-8-r3-44",
+      "section": "grammar",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "祈使句與維持狀態",
+      "answer": "B：Eat；keep",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "句首向讀者提出行動建議，用原形 Eat 構成祈使句。",
+        "keep 受詞加形容詞可表維持腦力敏銳，因此第二格用 keep。"
+      ],
+      "pitfall": "Eating 開頭若作主詞，句子還需要主要動詞。"
+    },
+    {
+      "id": "english-8-r3-45",
+      "section": "grammar",
+      "label": "第 45 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "taste 後的形容詞",
+      "answer": "B：different；more different",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "水是被描述味道的主體，taste 在此為連綴動詞，接形容詞 different。",
+        "even 加強下一個比較程度，用 more different，仍保持形容詞形式。"
+      ],
+      "pitfall": "differently 表做事方式，不能用來描述水本身味道不同。"
+    },
+    {
+      "id": "english-8-r3-46",
+      "section": "cloze",
+      "label": "第 46 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "以血型為依據的說法",
+      "answer": "C：based on",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章在描述有人根據血型猜性格，空格需表判斷依據。",
+        "based on their blood type 符合「以……為基礎」的搭配。"
+      ],
+      "pitfall": "本題辨識文章語言，並不證明血型能預測個性。"
+    },
+    {
+      "id": "english-8-r3-47",
+      "section": "cloze",
+      "label": "第 47 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "介系詞後接動名詞",
+      "answer": "A：asking",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "like 在此是介系詞，表示詢問血型如同詢問星座。",
+        "介系詞後若接動作，使用動名詞 asking。"
+      ],
+      "pitfall": "不要把 just like 當作 want 等可接 to ask 的動詞。"
+    },
+    {
+      "id": "english-8-r3-48",
+      "section": "cloze",
+      "label": "第 48 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "優點後轉折",
+      "answer": "B：However",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前面說愛整潔守規則，後面轉談過度擔心小事的缺點。",
+        "However 可在逗點前表轉折，符合句型和邏輯。"
+      ],
+      "pitfall": "Although 後要接從屬子句，不能如此單獨加逗點使用。"
+    },
+    {
+      "id": "english-8-r3-49",
+      "section": "cloze",
+      "label": "第 49 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "正面特質的歸納",
+      "answer": "D：這些特質使你成為強大領導者",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前文列勇敢、自信、冷靜與善於應變，需先歸納正面效果。",
+        "D 形成正面結論，再由後面的 But 轉向別人可能覺得自私。"
+      ],
+      "pitfall": "這是文內刻板性格描寫，不宜拿來判定真實人物。"
+    },
+    {
+      "id": "english-8-r3-50",
+      "section": "cloze",
+      "label": "第 50 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "不愛聽指示與合作",
+      "answer": "B：使團隊合作變困難",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文中描述想照自己方式做事，且不喜歡別人指示。",
+        "這可能妨礙團隊協作，與後文有時惹上麻煩相呼應。"
+      ],
+      "pitfall": "選項要回應前句行為的後果，不是泛談夢想。"
+    },
+    {
+      "id": "english-8-r3-51",
+      "section": "cloze",
+      "label": "第 51 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "it 與 that 子句",
+      "answer": "B：that",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "句子以 It 作形式主詞，後面要說明真正的問題內容。",
+        "that 引導「依性別或外表評斷他人」的完整陳述子句。"
+      ],
+      "pitfall": "what 後的結構通常需語法空缺，本句子句已完整。"
+    },
+    {
+      "id": "english-8-r3-52",
+      "section": "cloze",
+      "label": "第 52 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "刻板印象導致錯失人才",
+      "answer": "C：miss the chance",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "公司若只考慮男性工程師，就可能無法雇到有能力的女性。",
+        "miss the chance 表錯失機會，符合上下文因果。"
+      ],
+      "pitfall": "做得最好、建立事業或破紀錄都不是偏見在文中的後果。"
+    },
+    {
+      "id": "english-8-r3-53",
+      "section": "cloze",
+      "label": "第 53 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "matters 的附加問句",
+      "answer": "C：doesn’t it",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "主句的核心動詞 matters 是第三人稱單數肯定現在式。",
+        "附加問句用否定 doesn’t，主詞 ability 用 it 代替。"
+      ],
+      "pitfall": "more than 前後的名詞不改變主句動詞，不能改用 isn’t。"
+    },
+    {
+      "id": "english-8-r3-54",
+      "section": "cloze",
+      "label": "第 54 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "嘲笑外貌",
+      "answer": "B：made fun of",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "人物小時候因鬍鬚外貌遭不友善對待，接著感到很糟。",
+        "made fun of 表嘲笑，最能解釋負面感受。"
+      ],
+      "pitfall": "cheered up 表使振作，與後面的痛苦不合。"
+    },
+    {
+      "id": "english-8-r3-55",
+      "section": "cloze",
+      "label": "第 55 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "自信與接納自己",
+      "answer": "A：為自己是誰感到自豪",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "對話以相信自己、真美不只由外表定義作結。",
+        "be proud of who we are 回應自信主題，並連接 shine brightly。"
+      ],
+      "pitfall": "跟隨外貌規則或一直在意他人，都與前文反思相反。"
+    },
+    {
+      "id": "english-8-r3-56",
+      "section": "reading",
+      "label": "第 56 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "依文章歸納大蒜用途",
+      "answer": "A：文中說可驅蟲及幫助對抗疾病",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "結尾把驅離昆蟲與生病時的健康幫助列為稱讚大蒜的理由。",
+        "A 同時涵蓋這兩項文內主張，其餘選項沒有文章支持。"
+      ],
+      "pitfall": "此為閱讀內容核對；故事的食療敘述不能作為醫療處置依據。"
+    },
+    {
+      "id": "english-8-r3-57",
+      "section": "reading",
+      "label": "第 57 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "辨識故事中的類比推論",
+      "answer": "D：因同樣吸血，推想大蒜也能對付吸血鬼",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中由大蒜素、蚊子吸血，再把蚊子與虛構吸血鬼類比。",
+        "D 正是這條故事推論的終點，其他選項改變因果方向。"
+      ],
+      "pitfall": "類比與虛構設定不等於科學證明，不能把吸血共同點當成充分證據。"
+    },
+    {
+      "id": "english-8-r3-58",
+      "section": "reading",
+      "label": "第 58 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "第三個理由的主題句",
+      "answer": "D：第三個理由與健康有關",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前兩段以 First、Second 排列，空格需要引出第三點。",
+        "後文談感染與故事中的治療設定，因此健康主題最連貫。"
+      ],
+      "pitfall": "不要選白色或味道，該段後續並未討論這兩項。"
+    },
+    {
+      "id": "english-8-r3-59",
+      "section": "reading",
+      "label": "第 59 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "exhausting 的語境",
+      "answer": "A：使人非常疲累",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "Jason 提到久站後腳痛，提供身體疲憊的線索。",
+        "exhausting 描述工作令人累，與 A 相符。"
+      ],
+      "pitfall": "他仍喜歡工作不代表工作不累，喜好與體力負擔可同時存在。"
+    },
+    {
+      "id": "english-8-r3-60",
+      "section": "reading",
+      "label": "第 60 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "比較留言立場",
+      "answer": "C：Tina 與 Rick",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "Tina 因學校時間長、睡不夠而反對，Rick 也希望課後多休息。",
+        "兩人都擔心工讀占用休息時間，立場最接近。"
+      ],
+      "pitfall": "Gina 有條件支持週末工作，與 Rick 的反對不同。"
+    },
+    {
+      "id": "english-8-r3-61",
+      "section": "reading",
+      "label": "第 61 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "保留轉折的正確敘述",
+      "answer": "D：Jason 雖腳痛仍喜歡工作",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Jason 明說久站腳痛，隨後卻說自己喜歡這份工作。",
+        "D 同時保留負擔與正面感受；其他項誤寫母親態度或每週時數。"
+      ],
+      "pitfall": "Gina 是每週四小時，不是平日每天四小時。"
+    },
+    {
+      "id": "english-8-r3-62",
+      "section": "reading",
+      "label": "第 62 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "圖表合計後排除當事者",
+      "answer": "B：4 隻",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖表腿痛 5 隻、牙痛 1 隻，合計 6 隻。",
+        "題目問 other pets，須扣除已在其中的 Spot 和 Lisa：6−2＝4。"
+      ],
+      "pitfall": "不要只把兩根長條相加而忽略 other。"
+    },
+    {
+      "id": "english-8-r3-63",
+      "section": "reading",
+      "label": "第 63 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "難以直接看見的牙痛",
+      "answer": "C：狗可能牙痛，即使外觀看不出",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "故事指出疼痛藏在不易看見的地方，並以不吃硬食當行為線索。",
+        "因此可推外觀不明顯不等於沒有牙痛，選 C。"
+      ],
+      "pitfall": "in the long run 是長期，不表示刷牙能立即治好疼痛。"
+    },
+    {
+      "id": "english-8-r3-64",
+      "section": "reading",
+      "label": "第 64 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "語言表達對看診的幫助",
+      "answer": "D：人能說出疼痛，有助醫師查找",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "末段對比人可說明哪裡痛，但獸醫必須靠細微行為線索。",
+        "D 最符合這個對比；文中沒有說兩種醫師上同一學校。"
+      ],
+      "pitfall": "此為文內比較，不代表所有人類疾病都容易診斷。"
+    },
+    {
+      "id": "english-8-r3-65",
+      "section": "reading",
+      "label": "第 65 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "玩具商店調整的主旨",
+      "answer": "B：知名玩具店如何改變分類",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "主文宣布取消男孩、女孩標示，留言則討論改變的利弊。",
+        "因此主旨是商店的分類調整，不是找便宜玩具或特定商品。"
+      ],
+      "pitfall": "留言例子如恐龍只是支持立場，不能取代全文主旨。"
+    },
+    {
+      "id": "english-8-r3-66",
+      "section": "reading",
+      "label": "第 66 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "this 指非共享玩具",
+      "answer": "C：每個孩子各玩自己的玩具",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "this 前一句說姐弟不分享玩具，會增加購買量。",
+        "C 的各自擁有玩具最接近該事件，能解釋生意增加。"
+      ],
+      "pitfall": "A 恰好相反；B 雖與背景相關，卻未直接說明不共享。"
+    },
+    {
+      "id": "english-8-r3-67",
+      "section": "reading",
+      "label": "第 67 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "依三位留言者配對",
+      "answer": "A：（1）→（4）→（2）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "Sally 支持男女標示，對應（1）；Chris 明說按類型或年齡分類，對應（2）。",
+        "四個組合中只有 A 同時符合這兩人，Tom 的反性別標籤立場在該組以（4）表示。"
+      ],
+      "pitfall": "Tom 反對性別標籤不必然主張所有玩具混放；此處是依給定組合選最合適者，不宜過度推論。"
+    }
+  ]
+}

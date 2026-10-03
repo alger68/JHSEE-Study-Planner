@@ -1,0 +1,1201 @@
+{
+  "schema": 1,
+  "sourceId": "1a7GbukWHFHjv9PT1LQnH9vViJ_t2gca8",
+  "sourceSha256": "b577dbac0de9fe9853ed4547eded9c01c1111b5b7cd0f763f0eaf5c51477aa82",
+  "title": "114-2-1九年級英文科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題整理第 1～62 題，目視核對全部 7 個 PDF 實體頁面，包含颱風圖、旅遊折線圖、漫畫、目錄、動物訓練圖片與健康計畫資訊圖。第 1～20 題缺原始音檔，均標示核對受限；第 7 題另有稿文九點半與 C 圖九點的時間不一致。第 41 題官方明列「送分」，如實保留並說明可分析的句構，不擅改為官方 C。閱讀中的新聞、歷史及健康說法僅作題內理解，並非額外查證的實證結論。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "listening-words",
+      "title": "聽力：單字辨識"
+    },
+    {
+      "id": "listening-images",
+      "title": "聽力：圖片辨識"
+    },
+    {
+      "id": "listening-responses",
+      "title": "聽力：基本問答"
+    },
+    {
+      "id": "listening-dialogue",
+      "title": "聽力：言談理解"
+    },
+    {
+      "id": "grammar",
+      "title": "字彙與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "克漏字"
+    },
+    {
+      "id": "reading",
+      "title": "閱讀測驗"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-9-r1-1",
+      "section": "listening-words",
+      "label": "第 1 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "尖銳的 sharp",
+      "answer": "A：sharp",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說狗用尖銳牙齒攻擊，目標字是 sharp。",
+        "sharp teeth 是合理搭配，選項 A 與稿文一致。"
+      ],
+      "pitfall": "shock 是震驚，shape 是形狀，不能只依相似字首猜。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-2",
+      "section": "listening-words",
+      "label": "第 2 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "整理 tidy",
+      "answer": "C：tidy",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說吃完後整理乾淨，就較不會招來螞蟻。",
+        "tidy up 表收拾整理，與 C 相符。"
+      ],
+      "pitfall": "bee 是蜜蜂，不能因句子出現昆蟲就選它。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-3",
+      "section": "listening-words",
+      "label": "第 3 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "毛巾 towel",
+      "answer": "B：towel",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿問游泳後是否用毛巾擦乾身體，工具是 towel。",
+        "B 符合 dry yourself with 的工具語意。"
+      ],
+      "pitfall": "tower 是塔，與 towel 的字尾和詞義不同。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-4",
+      "section": "listening-words",
+      "label": "第 4 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "交通 traffic",
+      "answer": "B：traffic",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說除夕交通擁擠，導致到祖父母家花更久。",
+        "heavy traffic 表車流繁忙，目標字為 B。"
+      ],
+      "pitfall": "transport 是運輸，不是此稿中被辨識的 traffic。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-5",
+      "section": "listening-words",
+      "label": "第 5 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "外國人 foreigner",
+      "answer": "C：foreigner",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿主詞是外國人，並說他熟悉羽球。",
+        "C 是人的名稱；hobby 雖也在句中出現，其單複數與目標位置不同。"
+      ],
+      "pitfall": "no stranger to 表對某事熟悉，不要因此把 strange 當目標字。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-6",
+      "section": "listening-images",
+      "label": "第 6 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "火車專用橋",
+      "answer": "A：列車通過的圖",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說不能拍照也不能慢跑，因為橋供火車使用。",
+        "A 顯示列車在橋上，其他兩圖正是被排除的活動。"
+      ],
+      "pitfall": "neither…nor 需同時否定拍照和慢跑。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-7",
+      "section": "listening-images",
+      "label": "第 7 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "颱風路徑與時間不一致",
+      "answer": "C（官方）；南側路徑較符，但時間與稿文不一致",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿要求颱風經過島的南部，因此 C 的南側路徑較接近，A 與 B 不符此方向。",
+        "但稿文寫九點半登陸、下午離開，C 圖卻標 09:00 AM 與 12:00 PM；不能宣稱所有條件都吻合。"
+      ],
+      "pitfall": "不要為配合答案把圖上的 09:00 改讀成 09:30。",
+      "note": "未取得原始音檔。官方 C 的路徑較符合南部，但紙本聽力稿寫 9:30 登陸、下午離開，C 圖標 09:00 AM、12:00 PM，時間不完全吻合；無法判定是稿文、圖片或實際播放有誤。"
+    },
+    {
+      "id": "english-9-r1-8",
+      "section": "listening-images",
+      "label": "第 8 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "借傘避免淋濕",
+      "answer": "A：男孩接過雨傘",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿由男子感謝對方借傘，否則會全身淋濕。",
+        "A 畫出女子把傘交給男孩，符合借傘的互動。"
+      ],
+      "pitfall": "or 在此表示否則，並不是男孩已被淋得全濕。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-9",
+      "section": "listening-images",
+      "label": "第 9 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "太矮而關不到窗",
+      "answer": "C：男孩伸手仍碰不到高窗",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿指出窗戶沒關，男孩想幫忙卻太矮。",
+        "C 中窗在他上方、手無法碰到；B 可以伸手碰窗，A 是門。"
+      ],
+      "pitfall": "too short to 表無法完成，不能選已觸及窗戶的圖。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-10",
+      "section": "listening-images",
+      "label": "第 10 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "拿到食物後的喜悅",
+      "answer": "B：兩人開心拿著食物",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Ben 和 Emma 一拿到食物就很開心。",
+        "B 畫兩人在戶外拿食物且笑著，A、C 的表情未呈現同樣喜悅。"
+      ],
+      "pitfall": "不能只看餐桌上的食物，還要比較人物情緒。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-11",
+      "section": "listening-responses",
+      "label": "第 11 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "詢問鄰居來自哪裡",
+      "answer": "A：也不知道，一起去問她",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿的 Where…from 問出身地，而不是身分或正在做什麼。",
+        "A 坦承不知道並提議去問，仍是合理回應來源問題。"
+      ],
+      "pitfall": "by the bridge 是當前位置，不能回答來自哪個地方。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-12",
+      "section": "listening-responses",
+      "label": "第 12 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "蝴蝶飛走後的安慰",
+      "answer": "C：別急，還有其他隻",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿催促蝴蝶快飛走，情緒是怕錯過觀察機會。",
+        "C 提醒仍有其他蝴蝶，能自然安慰對方。"
+      ],
+      "pitfall": "題目不是害怕昆蟲，不能把仍隔一碼當重點。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-13",
+      "section": "listening-responses",
+      "label": "第 13 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "貶低他人的幽默",
+      "answer": "A：嘲弄弱點會傷感情",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Tina 刻薄，使用 put-down humor。",
+        "A 解釋取笑他人弱點的傷害，直接回應這種幽默。"
+      ],
+      "pitfall": "bonding humor 旨在拉近關係，與貶低式幽默相反。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-14",
+      "section": "listening-responses",
+      "label": "第 14 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "表示願意聽笑話",
+      "answer": "B：我洗耳恭聽",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿問現在講笑話是否太早，答案需表示願意聽。",
+        "I’m all ears 表全神貫注等著聽，B 最適合。"
+      ],
+      "pitfall": "尚未聽到笑話，不能以 thanks for the joke 當最直接回應。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-15",
+      "section": "listening-responses",
+      "label": "第 15 題",
+      "sourcePages": [
+        1,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "停止假訊息傳播",
+      "answer": "B：分享前先自行查證",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿詢問如何阻止假新聞，方法應降低未查證內容傳播。",
+        "B 在分享前先研究查核，與目的相符。"
+      ],
+      "pitfall": "誇大標題吸引注意，不表示可靠，不能直接分享。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-16",
+      "section": "listening-dialogue",
+      "label": "第 16 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "最後沒有買外套",
+      "answer": "C：兩件都沒買",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說藍色太貴、棕色顯舊，最後決定把錢存下來。",
+        "結論是沒有買任何一件，與 C 相符。"
+      ],
+      "pitfall": "提到藍色還可以，不等於兩件的顏色都喜歡。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-17",
+      "section": "listening-dialogue",
+      "label": "第 17 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "餵食表演延後原因",
+      "answer": "B：因清潔尚未開始",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本公告說猴舍正在清掃，十點表演改到十一點。",
+        "因此主要訊息是清潔使表演延後，而不是即刻開演。"
+      ],
+      "pitfall": "購買玩具後送的是地圖，不是免費送玩具猴。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-18",
+      "section": "listening-dialogue",
+      "label": "第 18 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "接下來先做的事",
+      "answer": "C：一起吃午餐",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "對話先提冰淇淋、提款，再由男子提議付午餐錢。",
+        "最後決定直接去餐廳，因此 first 的實際行動是吃午餐。"
+      ],
+      "pitfall": "依最後達成的決定作答，不要停在中途的提款提議。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-19",
+      "section": "listening-dialogue",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "put words in my mouth",
+      "answer": "A：把男子沒說過的話算在他頭上",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "男子只說黑色洋裝顯瘦，女子卻推成他嫌紅色洋裝讓她胖。",
+        "男子用此慣用語否認被加上的話，故 A 符合。"
+      ],
+      "pitfall": "不是字面上餵食，也不是單指對方講太多。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-20",
+      "section": "listening-dialogue",
+      "label": "第 20 題",
+      "sourcePages": [
+        2,
+        7
+      ],
+      "answerPage": 7,
+      "topic": "旅遊人數折線",
+      "answer": "A：先維持低點，再連續上升",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿的 2021、2022 年都很低，2023 年跳升到約 420 萬，之後升至 600 與 673 萬。",
+        "圖 A 符合先低後逐年上升；B 首年比次年高，C 在 2024 年下降，均不符。"
+      ],
+      "pitfall": "圖表核對依此稿文數據，不應把它當成另行查證過的旅遊統計。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-9-r1-21",
+      "section": "grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "新聞來源",
+      "answer": "B：source",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題句要求確認誰寫了新聞，應檢查資訊來源。",
+        "source 指來源，與查作者和真偽的動作相連。"
+      ],
+      "pitfall": "recipe 是食譜，不是一般新聞的來源資訊。"
+    },
+    {
+      "id": "english-9-r1-22",
+      "section": "grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "從友誼中獲得快樂",
+      "answer": "A：pleasure",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "Jack 認為自己幸運，且有許多可交談的朋友，語氣正面。",
+        "take pleasure in 表以某事為樂，選 A。"
+      ],
+      "pitfall": "danger、trouble 是負面狀況，與後句不合。"
+    },
+    {
+      "id": "english-9-r1-23",
+      "section": "grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "不要貶低同學",
+      "answer": "D：put down",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前文是取笑犯錯的同學，老師要制止傷害他人的行為。",
+        "put down 人可表貶低、羞辱，符合語境。"
+      ],
+      "pitfall": "put down 不只表示把物品放下，要依受詞為人判讀。"
+    },
+    {
+      "id": "english-9-r1-24",
+      "section": "grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "借入與借出",
+      "answer": "B：borrow；lend",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Tom 需要別人的傘，從他的角度是 borrow 借入。",
+        "朋友把自己的傘給 Tom 使用，從朋友角度是 lend 借出。"
+      ],
+      "pitfall": "同一次借用中，說話者方向不同，不能兩格都填 borrow。"
+    },
+    {
+      "id": "english-9-r1-25",
+      "section": "grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "親近的親戚",
+      "answer": "C：relative",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "每年記得生日並送禮，題意描述一位親近的人。",
+        "close relative 表近親或關係親近的親戚，符合 who 所修飾的對象。"
+      ],
+      "pitfall": "order 是命令或訂單，不是可被 who 修飾的人。"
+    },
+    {
+      "id": "english-9-r1-26",
+      "section": "grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "廣為人知",
+      "answer": "D：widely",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "連不常看動畫的人也知道主角，表示知名度範圍廣。",
+        "widely known 是廣為人知的搭配，選 D。"
+      ],
+      "pitfall": "loudly 描述音量，不能表示很多人知道。"
+    },
+    {
+      "id": "english-9-r1-27",
+      "section": "grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "替補席",
+      "answer": "A：bench",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "Jeremy 不是主力，上場前保持準備，地點是替補席。",
+        "on the bench 與教練叫名後上球場的動作形成對應。"
+      ],
+      "pitfall": "yard 雖是空間，沒有替補球員的特定語意。"
+    },
+    {
+      "id": "english-9-r1-28",
+      "section": "grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "遭留言攻擊",
+      "answer": "D：attacked",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "大量憤怒留言使演員暫離社群，表示他受到言語攻擊。",
+        "being 後接被動分詞 attacked，符合受害者身分。"
+      ],
+      "pitfall": "joined 是加入，不能表憤怒留言造成的攻擊。"
+    },
+    {
+      "id": "english-9-r1-29",
+      "section": "grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "發現躲藏的蝴蝶",
+      "answer": "A：spot",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "蝴蝶藏在葉下，妹妹第一個看見它。",
+        "spot 作動詞表示發現或辨認，符合視覺情境。"
+      ],
+      "pitfall": "spot 不只作名詞斑點，此處 to 後需動詞。"
+    },
+    {
+      "id": "english-9-r1-30",
+      "section": "grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "正在打掃時",
+      "answer": "C：While",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "打掃車庫是持續中的背景，突然看到死蜘蛛是其中發生的事件。",
+        "While 引導這段同時進行的時間背景，最連貫。"
+      ],
+      "pitfall": "Before 表之前，無法自然承接在打掃中突然看見的情境。"
+    },
+    {
+      "id": "english-9-r1-31",
+      "section": "grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "儲錢後實現購買",
+      "answer": "C：and",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "存了半年零用錢後終於買到腳踏車，是順承關係。",
+        "and 連接兩個完整子句，符合前因後果的時間發展。"
+      ],
+      "pitfall": "yet、but 表轉折，這裡並沒有違反預期的結果。"
+    },
+    {
+      "id": "english-9-r1-32",
+      "section": "grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "誠實後不生氣的承諾",
+      "answer": "B：won’t be",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "As long as 引出條件：只要說實話。",
+        "主句承諾將不生氣也不告訴父親，won’t be 的否定與後面的 or 配合。"
+      ],
+      "pitfall": "wouldn’t 表假設較遠的情況，與此直接未來承諾不合。"
+    },
+    {
+      "id": "english-9-r1-33",
+      "section": "grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "兩種餐點都不喜歡",
+      "answer": "B：neither；nor",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "後句說弟弟只想吃一碗麵，排除牛排及沙拉。",
+        "neither…nor 同時否定兩項，與題意一致。"
+      ],
+      "pitfall": "either…or 表兩者之一，不能表兩者皆不。"
+    },
+    {
+      "id": "english-9-r1-34",
+      "section": "grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "過去到訪時正要外出",
+      "answer": "A：was going out",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "男友過去來到門口時，Ivy 正要外出去見朋友。",
+        "過去進行式 was going out 能描述當時正在發展的安排。"
+      ],
+      "pitfall": "不要選現在進行式 is，時間基準是 showed up。"
+    },
+    {
+      "id": "english-9-r1-35",
+      "section": "grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "否定的未來條件",
+      "answer": "D：don’t practice",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "若本週不努力練習，下週將輸球，條件須用否定。",
+        "if 子句用現在式表未來，複數隊名配 don’t practice。"
+      ],
+      "pitfall": "won’t 通常不放在此種單純未來條件子句。"
+    },
+    {
+      "id": "english-9-r1-36",
+      "section": "grammar",
+      "label": "第 36 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "動名詞片語與主詞一致",
+      "answer": "A：is",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "either…or 連接兩個單一活動，靠近動詞的是 tasting the delicious food。",
+        "此動名詞片語視為單數，後接 is the reason。"
+      ],
+      "pitfall": "片語內 food 或 visitors 的數量不決定主句動詞。"
+    },
+    {
+      "id": "english-9-r1-37",
+      "section": "grammar",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "設備完成就開放",
+      "answer": "C：as soon as",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "新健身房在器材安裝完成後立即開放，需表一完成就發生。",
+        "as soon as 符合這種時間關係，子句採現在式 finish。"
+      ],
+      "pitfall": "until 搭配持續到某時才適合；此處開放是發生點。"
+    },
+    {
+      "id": "english-9-r1-38",
+      "section": "grammar",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "找出主句動詞",
+      "answer": "D：raise",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Can 後的主詞是 anyone，that knows what it is 只是修飾 anyone 的關係子句。",
+        "主句仍需原形動詞 raise，所以選 D。"
+      ],
+      "pitfall": "不要看到 knows 就認為主句動詞已完成；它屬於修飾子句。"
+    },
+    {
+      "id": "english-9-r1-39",
+      "section": "grammar",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "so…that 結果句",
+      "answer": "A：so；that",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "lonely 是形容詞，表示孤單到反覆打掃以保持忙碌。",
+        "so 加形容詞，再用 that 接完整結果子句。"
+      ],
+      "pitfall": "too…to 後應接原形動詞，不接 he cleaned 完整子句。"
+    },
+    {
+      "id": "english-9-r1-40",
+      "section": "grammar",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "before 時間子句",
+      "answer": "B：finds",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "建議是在母親發現碎玻璃之前先坦白，指未來時間關係。",
+        "before 時間子句用現在式，單數 Mom 配 finds。"
+      ],
+      "pitfall": "不能因尚未發現而在這類時間子句寫 will find。"
+    },
+    {
+      "id": "english-9-r1-41",
+      "section": "grammar",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "官方送分與關係子句",
+      "answer": "官方送分；若只看句構，C 的省略關係代名詞結構可成立",
+      "officialAnswer": "送分",
+      "status": "disputed",
+      "steps": [
+        "cakes 後若接 his brother made，可視為省略受格關係代名詞的子句，made 的受詞由 cakes 提供。",
+        "不過 his 在這段缺乏清楚指涉，且官方並未指定 C，而是明列送分；應依正式送分處理，不重建不存在的官方選項。"
+      ],
+      "pitfall": "不可把自主分析出的 C 寫進 officialAnswer，覆蓋官方送分紀錄。",
+      "note": "第 7 個 PDF 實體頁答案列作「41-45（送分）DAAB」，即第 41 題送分、42～45 為 D A A B。送分原因未另附說明；C 在關係子句結構上可分析，但 his 指涉不明。保留正式送分，不冒充官方有指定字母答案。"
+    },
+    {
+      "id": "english-9-r1-42",
+      "section": "grammar",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "否定經驗的附和",
+      "answer": "D：neither have I",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前句 have never eaten 是現在完成式的否定經驗。",
+        "表示自己也未吃過，用 neither 加助動詞 have 再接 I。"
+      ],
+      "pitfall": "不能用 do，因為原句的助動詞是 have。"
+    },
+    {
+      "id": "english-9-r1-43",
+      "section": "grammar",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "不喜歡被打斷",
+      "answer": "A：being cut off",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "Danny 是談話遭打斷的人，需被動語態。",
+        "hate 後接動名詞時，被動形式為 being 加過去分詞 cut off。"
+      ],
+      "pitfall": "cutting off 表自己去打斷別人，與主角不開心的處境不同。"
+    },
+    {
+      "id": "english-9-r1-44",
+      "section": "grammar",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "未來被動句的附和",
+      "answer": "A：and so will those in other cities.",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "主句肯定說道路 will be closed，附和另一地區也一樣。",
+        "so 加相同助動詞 will，再接那些道路，保留未來語態。"
+      ],
+      "pitfall": "肯定附和不用 neither；也不能改成 are 造成時間不一致。"
+    },
+    {
+      "id": "english-9-r1-45",
+      "section": "grammar",
+      "label": "第 45 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "過去習慣與被用來",
+      "answer": "B：used to；are used to",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "農夫過去手採水果，用 used to 加原形表示昔日習慣。",
+        "機器如今被用來採收，是被動 are used to do，不是「習慣於」。"
+      ],
+      "pitfall": "be used to 若表習慣，to 後要名詞或動名詞；本題是用途的不定詞。"
+    },
+    {
+      "id": "english-9-r1-46",
+      "section": "cloze",
+      "label": "第 46 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "漫畫因果銜接",
+      "answer": "C：突然攻擊的消息使人震驚",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "空格後以 So 連接「消息震驚眾人」，前句須提供意外的原因。",
+        "C 的未有徵兆便攻擊最直接承接前格戰爭話題並引出震驚。"
+      ],
+      "pitfall": "此題核對漫畫中的說法，不把 without any signs 當成獨立的歷史查核結論。"
+    },
+    {
+      "id": "english-9-r1-47",
+      "section": "cloze",
+      "label": "第 47 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "戰爭造成的傷亡",
+      "answer": "A：數百萬人喪生",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前格說二十世紀更血腥，後格說這使很多人沮喪。",
+        "大量死亡能連結血腥與悲傷，A 最符合脈絡。"
+      ],
+      "pitfall": "希望和平是心願，不能像具體傷亡一樣解釋前面的血腥描述。"
+    },
+    {
+      "id": "english-9-r1-48",
+      "section": "cloze",
+      "label": "第 48 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "world wars 的命名原因",
+      "answer": "B：因此稱為世界大戰",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "同格說幾乎各洲的國家都參戰，強調範圍跨越世界。",
+        "B 用此規模解釋名稱，接著才轉問是否也有內戰。"
+      ],
+      "pitfall": "不能把世界範圍的戰爭直接稱為單一國家的內戰。"
+    },
+    {
+      "id": "english-9-r1-49",
+      "section": "cloze",
+      "label": "第 49 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "徒手獨攀的定義",
+      "answer": "C：without",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "句子介紹 free solo，關鍵是未用繩索或安全器具。",
+        "without 與後面的工具形成缺乏裝備的定義，選 C。"
+      ],
+      "pitfall": "此題解釋文章詞義，不是鼓勵模仿高風險活動。"
+    },
+    {
+      "id": "english-9-r1-50",
+      "section": "cloze",
+      "label": "第 50 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "不只為了紀錄",
+      "answer": "A：這次攀登不只是破紀錄",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "後文說還想傳達勇敢、準備與環境關懷。",
+        "not only 引出超越紀錄的其他目的，與文章標題相呼應。"
+      ],
+      "pitfall": "其他選項的天氣或知名度沒有後文支持。"
+    },
+    {
+      "id": "english-9-r1-51",
+      "section": "cloze",
+      "label": "第 51 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "觀看者的感受",
+      "answer": "B：對冷靜專注感到驚訝",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前面說大家觀看攀登，後面強調恐懼能透過練習與經驗控制。",
+        "B 描述冷靜專注，正好銜接控制恐懼的說明。"
+      ],
+      "pitfall": "不要把高處必然引發的個人想像當成文中的觀眾反應。"
+    },
+    {
+      "id": "english-9-r1-52",
+      "section": "cloze",
+      "label": "第 52 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "自己的山的比喻",
+      "answer": "C：每個人都有自己的山要爬",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "結尾說努力與耐心能幫助人達成目標。",
+        "自己的山比喻各自面對的挑戰，能統合攀登故事與讀者人生。"
+      ],
+      "pitfall": "不是要每個人實際攀岩，也不是要求所有人避開一切風險。"
+    },
+    {
+      "id": "english-9-r1-53",
+      "section": "reading",
+      "label": "第 53 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "聳動標題的收益",
+      "answer": "C：增加點擊以賺廣告收入",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章明說網站用驚人標題吸引更多點擊。",
+        "點擊帶來廣告金錢，故 C 同時呈現方法與目的。"
+      ],
+      "pitfall": "希臘神話是比喻引子，並不是網站營運目的。"
+    },
+    {
+      "id": "english-9-r1-54",
+      "section": "reading",
+      "label": "第 54 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "Siren’s song 的比喻",
+      "answer": "B：驚人但不實的社群故事",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前文海妖歌聲吸引水手受害，後文把不實資訊比作相同誘惑。",
+        "此處因此不是實際歌曲，而是表面吸引人、實則誤導的內容。"
+      ],
+      "pitfall": "不要將 digital ocean 按字面解成真正海洋。"
+    },
+    {
+      "id": "english-9-r1-55",
+      "section": "reading",
+      "label": "第 55 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 7,
+      "topic": "despite 的讓步語意",
+      "answer": "C：Even though",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "小體型與強韌形成反差：儘管很小仍很強韌。",
+        "even though 也表讓步，語意最接近 despite。"
+      ],
+      "pitfall": "兩者詞性不同；despite 後接名詞，even though 後接子句，不能原位任意替換。"
+    },
+    {
+      "id": "english-9-r1-56",
+      "section": "reading",
+      "label": "第 56 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 7,
+      "topic": "由目錄尋找環境問題",
+      "answer": "D：第 10 章",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "目錄第 10 章標題詢問昆蟲是否正在消失，涉及族群衰退問題。",
+        "這比身體構造、成長或棲地介紹更直接符合環境議題。"
+      ],
+      "pitfall": "需要閱讀章名，不能單憑頁碼較後就猜答案。"
+    },
+    {
+      "id": "english-9-r1-57",
+      "section": "reading",
+      "label": "第 57 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "強迫訓練的圖像",
+      "answer": "C：幼象遭束縛逼迫的圖",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章把 phajaan 描述為壓制幼象意志、停止自然行為的殘酷訓練。",
+        "C 圖呈現捆束及持器具逼迫，最接近此描寫。"
+      ],
+      "pitfall": "B 是搬運、D 是被騎乘，題目要的是此前的訓練過程。"
+    },
+    {
+      "id": "english-9-r1-58",
+      "section": "reading",
+      "label": "第 58 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "依文章找死亡原因",
+      "answer": "D：疲憊且心臟停止運作",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中說 Sambo 在酷熱中載客行走約四十五分鐘後衰弱，因心臟病發死亡。",
+        "D 保留疲憊與心臟問題，其他項增加未提到的傷因或錯誤年齡。"
+      ],
+      "pitfall": "六十歲是文章提及的可能壽命，Sambo 當時是四十五歲。"
+    },
+    {
+      "id": "english-9-r1-59",
+      "section": "reading",
+      "label": "第 59 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "禁騎與禁看不同",
+      "answer": "B：遊客不能再看大象（不符文章）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "末段說遊客仍可看大象，只是不得再騎乘。",
+        "B 把 no longer ride 改成 no longer see，因此是不正確的敘述。"
+      ],
+      "pitfall": "題目問 NOT true，要選與文章矛盾者。"
+    },
+    {
+      "id": "english-9-r1-60",
+      "section": "reading",
+      "label": "第 60 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "班級計畫的目的",
+      "answer": "B：觀察每日大笑與健康、壓力的變化",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題內計畫讓八十名學生連續兩週每天笑十五分鐘，觀察健康狀況。",
+        "B 概括健康和減壓目的，其他選項把單一結果或比較細節誤當目標。"
+      ],
+      "pitfall": "題內小型計畫不等同普遍醫學證明，也不支持以笑替代治療。"
+    },
+    {
+      "id": "english-9-r1-61",
+      "section": "reading",
+      "label": "第 61 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "核對介入前後數字",
+      "answer": "C：壓力由 8 降至 5",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中壓力刻度直接標示從 8 降到 5。",
+        "睡眠是 5 至 6.5 小時、精神充沛者是 30% 至 65%，因此 B、D 不符數字。"
+      ],
+      "pitfall": "八十名受試者是人數，不代表精神充沛比例超過 80%。"
+    },
+    {
+      "id": "english-9-r1-62",
+      "section": "reading",
+      "label": "第 62 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "依題內結果推論",
+      "answer": "D：可能較不因課業感到壓力",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題內結果顯示壓力下降，Kevin 的困擾又是課業壓力。",
+        "因此 D 是最貼合資料的可能推論，其他項涉及金錢、創作能力或人緣均未測量。"
+      ],
+      "pitfall": "may 只是可能，不能將這個閱讀案例延伸成停止用藥的建議。"
+    }
+  ]
+}

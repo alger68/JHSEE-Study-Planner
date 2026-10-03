@@ -1,0 +1,1330 @@
+{
+  "schema": 1,
+  "sourceId": "1Z57sbQQO2sgE9O_c4Id2fTxQ3jr8ZtdK",
+  "sourceSha256": "13d0c9d176f21e11a8ead139731e6215942522803a9f4bbe40c1615126b6e02a",
+  "title": "114-2-1八年級英文科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已依第 1～68 題整理 69 個作答小題（第 68 題 A、B 分列），逐頁目視核對全部 8 個 PDF 實體頁面。第 1～20 題僅依紙本聽力稿及答案核對，缺原始音檔，均標示核對受限；第 59 題官方選 B，但 D 未明示干擾動物，保留選項歧義。第 7 頁是翻譯作答卷，未把重複標題重複計題；卷首頁數 6、頁尾 7 與合併 PDF 的 8 頁不同，解析採實體頁碼。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "listening-words",
+      "title": "聽力：單字辨識"
+    },
+    {
+      "id": "listening-images",
+      "title": "聽力：圖片辨識"
+    },
+    {
+      "id": "listening-responses",
+      "title": "聽力：基本問答"
+    },
+    {
+      "id": "listening-dialogue",
+      "title": "聽力：言談理解"
+    },
+    {
+      "id": "grammar",
+      "title": "字彙與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "克漏字"
+    },
+    {
+      "id": "reading",
+      "title": "閱讀測驗"
+    },
+    {
+      "id": "translation",
+      "title": "中翻英"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-8-r1-1",
+      "section": "listening-words",
+      "label": "第 1 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "餐點單字 fries",
+      "answer": "A：fries",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿把薯條列為漢堡的配餐，對應 fries。",
+        "選項 A 是複數名詞；fried 是「油炸的」，friend 是朋友，詞義不同。"
+      ],
+      "pitfall": "不要只看到共同的 fri- 就忽略字尾。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-2",
+      "section": "listening-words",
+      "label": "第 2 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "牛排 steak",
+      "answer": "C：steak",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿談牛排熟度，medium 和 well-done 都修飾 steak。",
+        "三個選項中只有 C 是餐點名，stage 是舞臺、taste 是味道。"
+      ],
+      "pitfall": "steak 與 stage 字尾子音不同，音檔仍待核對。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-3",
+      "section": "listening-words",
+      "label": "第 3 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "把杯子裝滿",
+      "answer": "B：fill",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿要求把水倒入杯中，動作用 fill。",
+        "fill A with B 表示用 B 裝滿 A，故選 B。"
+      ],
+      "pitfall": "feel 是感覺；不要混淆 fill 與 feel。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-4",
+      "section": "listening-words",
+      "label": "第 4 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "比較級連接詞 than",
+      "answer": "A：than",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿比較岩石與房屋的高度，前面有 taller。",
+        "比較級後連接比較對象用 than，所以是 A。"
+      ],
+      "pitfall": "then 表時間先後，不能代替比較用的 than。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-5",
+      "section": "listening-words",
+      "label": "第 5 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "距離單位 mile",
+      "answer": "B：mile",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說住家距離學校約一英里，表示距離。",
+        "one 後面的單數單位應是 mile，對應 B。"
+      ],
+      "pitfall": "smile 多了起首 s，mine 則是所有代名詞。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-6",
+      "section": "listening-images",
+      "label": "第 6 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "由成績判斷最難科目",
+      "answer": "B：數學未滿六十分的圖",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿指出數學最困難且總是低於六十分。",
+        "圖 B 的數學是 50 分，另外兩圖是 90 與 70 分，只有 B 符合。"
+      ],
+      "pitfall": "要看數學成績，不能只找任一低分。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-7",
+      "section": "listening-images",
+      "label": "第 7 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "同時核對餐點與餐具",
+      "answer": "C：派上冰淇淋及叉子的圖",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿包含派上有冰淇淋、起司三明治及叉子三個條件。",
+        "圖 C 同時符合；A 是湯匙，B 的冰淇淋放在派旁。"
+      ],
+      "pitfall": "不要只認出派，還要核對 on top 與 fork。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-8",
+      "section": "listening-images",
+      "label": "第 8 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "三者中的最大者",
+      "answer": "B：蜜蜂最大的圖",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿指定蜜蜂是三種動物中最大的一隻。",
+        "只有 B 把蜜蜂畫得比蜘蛛和螞蟻大，因此選 B。"
+      ],
+      "pitfall": "比較的是圖中大小，不是動物在現實中的體型。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-9",
+      "section": "listening-images",
+      "label": "第 9 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "外食情境",
+      "answer": "A：在餐廳用餐",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說不想自己準備午餐，認為外食較方便。",
+        "A 是坐在餐廳用餐；B 是接外送，C 是自行料理。"
+      ],
+      "pitfall": "eat out 通常指外出用餐，不等同叫外送。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-10",
+      "section": "listening-images",
+      "label": "第 10 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "性別與身高排序",
+      "answer": "A：戴眼鏡女生高於男孩、矮於兩位女生",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿限定只有一個男孩，戴眼鏡女生比他高。",
+        "A 中另外兩位女生都比戴眼鏡者高，完整符合兩段比較。"
+      ],
+      "pitfall": "先確認人物身分，再依 taller／shorter 排序。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-11",
+      "section": "listening-responses",
+      "label": "第 11 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "回應主人招待",
+      "answer": "C：感謝邀請",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿是主人歡迎客人到新家並請對方自在一點。",
+        "客人回覆感謝邀請最合情境，選 C。"
+      ],
+      "pitfall": "make yourself at home 是客套招待語，不是在要求管好行為。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-12",
+      "section": "listening-responses",
+      "label": "第 12 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "描述沙發的感受",
+      "answer": "B：柔軟且坐得舒服",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿詢問對新沙發的看法，並非問身體是否好轉。",
+        "以柔軟和舒適描述沙發，直接回答使用感受。"
+      ],
+      "pitfall": "How do you like… 問評價，不是問是否想買。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-13",
+      "section": "listening-responses",
+      "label": "第 13 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "紅火蟻情境回應",
+      "answer": "C：保持距離",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿問遇到紅火蟻該怎麼做，適合回應如何避免接觸。",
+        "三選項中 C 提議遠離，比踩死或靠近辨認更符合保護自己的目的。"
+      ],
+      "pitfall": "不要把「找到最危險的」當成避開危險的方法。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-14",
+      "section": "listening-responses",
+      "label": "第 14 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "對拖把是否滿意",
+      "answer": "C：不太滿意，因為太重",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿實際詢問對新拖把是否滿意。",
+        "C 先回答程度，再以太重說明不滿意原因；另兩項未回應評價。"
+      ],
+      "pitfall": "提到廚房不表示問句是在問是否洗完碗。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-15",
+      "section": "listening-responses",
+      "label": "第 15 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "選擇參加派對的洋裝",
+      "answer": "B：粉紅色較漂亮、較便宜",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿建議穿粉紅洋裝，B 的較漂亮與這項建議方向一致。",
+        "A 把洋裝當給 Mike 的禮物，C 只談同價；B 是三者最適合的回應，但價錢較低未由稿文明示。"
+      ],
+      "pitfall": "不可把回應新增的「較便宜」說成錄音已提供的資訊。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-16",
+      "section": "listening-dialogue",
+      "label": "第 16 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "螞蟻的合作行為",
+      "answer": "B：與同伴合作",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿描述螞蟻合力搬麵包，很少獨自覓食或築巢。",
+        "因此可歸納牠們會合作，與 B 相符。"
+      ],
+      "pitfall": "seldom 表很少，不可讀成經常獨自行動。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-17",
+      "section": "listening-dialogue",
+      "label": "第 17 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "自行煮晚餐",
+      "answer": "A：他們自己煮",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿明說沒有人幫忙，由兩位表親分別煮湯與炒牛肉。",
+        "這支持 on their own；稿中沒有把兩道菜作高下比較。"
+      ],
+      "pitfall": "好吃不等於湯比牛肉更好吃。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-18",
+      "section": "listening-dialogue",
+      "label": "第 18 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "兩種派的比較",
+      "answer": "B：蘋果派像奶奶做的",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿先說草莓派太甜，再說昨天的蘋果派較好而且像奶奶做的。",
+        "把「像奶奶的」連回蘋果派，選 B。"
+      ],
+      "pitfall": "不要把前後兩天吃的派混為同一種。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-19",
+      "section": "listening-dialogue",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "十年前與現在的頭髮",
+      "answer": "A：現在頭髮較短",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿說十年前頭髮較長，因此現在相對較短。",
+        "現在才比父親高，不能推成十年前就較高，故 A 正確。"
+      ],
+      "pitfall": "不習慣的是現在比父親高，不是仍比父親矮。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-20",
+      "section": "listening-dialogue",
+      "label": "第 20 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "朋友協助改善網站",
+      "answer": "C：朋友幫忙後更好用",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿的轉折是先不順利，請朋友幫忙後網站更方便使用。",
+        "原因與結果一起支持 C，並排除獨立完成及愈來愈差。"
+      ],
+      "pitfall": "注意 after 引出的改善時間點。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r1-21",
+      "section": "grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "紅包金額比較",
+      "answer": "B：Martin 比 Gavin 少",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "表格的 6,800 小於 7,200，因此 Martin 的紅包少於 Gavin。",
+        "Amelia 的 28,800 才是最多，排除其餘大小關係錯誤的敘述。"
+      ],
+      "pitfall": "least 要找最小的 6,800，不能看名字位置。"
+    },
+    {
+      "id": "english-8-r1-22",
+      "section": "grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "蛇藏身的場所",
+      "answer": "C：grass",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "tall 後需要可描述高度的藏身物，草叢最合語境。",
+        "grass 可與 tall 搭配；空氣或土地不符合「藏在高高的……中」。"
+      ],
+      "pitfall": "earth 指土地，不代表高草叢。"
+    },
+    {
+      "id": "english-8-r1-23",
+      "section": "grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "喜愛的一道菜",
+      "answer": "B：dish",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前句介紹祖母做的牛肉麵，後句用名詞概括這道料理。",
+        "dish 可指一道菜，與 favorite 搭配符合題意。"
+      ],
+      "pitfall": "dish 在此不是餐盤，應依前文選其料理義。"
+    },
+    {
+      "id": "english-8-r1-24",
+      "section": "grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "形容親切可愛的狗",
+      "answer": "A：as sweet as pie",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "眾人喜歡並想與狗玩，線索是狗惹人喜愛。",
+        "as sweet as pie 表非常親切可愛，符合正面描述。"
+      ],
+      "pitfall": "hungry 或 slow 描述飢餓、速度，不能解釋受歡迎。"
+    },
+    {
+      "id": "english-8-r1-25",
+      "section": "grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "證據本身會說話",
+      "answer": "A：itself",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "主詞是單數事物 the video，反身代名詞對應 itself。",
+        "speak for itself 表證據足以自行說明，不必由旁人辯解。"
+      ],
+      "pitfall": "不要因談話中出現狗，就把代名詞改為 himself。"
+    },
+    {
+      "id": "english-8-r1-26",
+      "section": "grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "設計帶來更安全的道路",
+      "answer": "A：safer",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "感謝智慧設計表示道路安全程度獲得改善。",
+        "becoming 後接形容詞，兩個狀態比較用 safer。"
+      ],
+      "pitfall": "safest 是最高級，題句並沒有最高程度的比較範圍。"
+    },
+    {
+      "id": "english-8-r1-27",
+      "section": "grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "詢問外觀與 look like",
+      "answer": "C：How；like",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "問句已有 look 而無 like，應用 How 詢問外觀看來如何。",
+        "答句後面是名詞片語 a good place，須用 look like 連接。"
+      ],
+      "pitfall": "What…look like 與 How…look 的結構不能混搭。"
+    },
+    {
+      "id": "english-8-r1-28",
+      "section": "grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "親近大自然",
+      "answer": "D：nature",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "經常健行的原因是喜歡親近自然，符合活動背景。",
+        "be close to nature 是合理搭配，其他名詞不表自然環境。"
+      ],
+      "pitfall": "traffic 是交通，不是健行所親近的景觀。"
+    },
+    {
+      "id": "english-8-r1-29",
+      "section": "grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "三名孩子中最年長",
+      "answer": "B：oldest",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Kevin 的弟弟和妹妹都比他年幼，因此他年紀最大。",
+        "在三人群體中配合 the，用最高級 oldest。"
+      ],
+      "pitfall": "older 只作相對比較，不能直接取代此處最高級。"
+    },
+    {
+      "id": "english-8-r1-30",
+      "section": "grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "切肉的工具",
+      "answer": "C：knife",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "前句動作是切豬肉，需要有切割功能的工具。",
+        "knife 是刀，與 cutting 及 with 搭配合理。"
+      ],
+      "pitfall": "chopstick 是筷子，不能因 chop 字形而誤認為切刀。"
+    },
+    {
+      "id": "english-8-r1-31",
+      "section": "grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "城市交通的便利性",
+      "answer": "D：convenient",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "回答指出外國人能自行搭捷運移動，強調交通容易使用。",
+        "convenient 表便利，最能概括這項原因。"
+      ],
+      "pitfall": "comfortable 強調舒適，並非自行到處移動的重點。"
+    },
+    {
+      "id": "english-8-r1-32",
+      "section": "grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "所有代名詞替代孩子",
+      "answer": "B：mine",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前半說 Dylan 的孩子用功，but 後要對比說話者的孩子。",
+        "mine 代替 my kids，可直接作主詞並與複數動詞 spend 搭配。"
+      ],
+      "pitfall": "myself 是反身代名詞，不能代替 my kids。"
+    },
+    {
+      "id": "english-8-r1-33",
+      "section": "grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "看似健康與變瘦",
+      "answer": "D：appears；get",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "外表強壯只能表示看起來健康，appears 接形容詞 healthy。",
+        "needs to 後接動詞原形 get，get thinner 表變得更瘦。"
+      ],
+      "pitfall": "look like 後通常接名詞，不能直接接 thinner。"
+    },
+    {
+      "id": "english-8-r1-34",
+      "section": "grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "英呎與英吋",
+      "answer": "D：inches",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "身高以七英呎五英吋表示，feet 後接較小的英制長度單位。",
+        "五個單位需用複數 inches；其他選項的量級或種類不合。"
+      ],
+      "pitfall": "grams 是重量，不能用於身高。"
+    },
+    {
+      "id": "english-8-r1-35",
+      "section": "grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "修飾比較級",
+      "answer": "B：much",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "more expensive 已是比較級，空格要加強程度。",
+        "much 可修飾比較級，表示昂貴許多。"
+      ],
+      "pitfall": "many 修飾可數複數名詞，不能修飾 more expensive。"
+    },
+    {
+      "id": "english-8-r1-36",
+      "section": "grammar",
+      "label": "第 36 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "潮濕寒冷的天氣",
+      "answer": "A：wet",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題句要描述臺北令 Ivan 不喜歡的寒冷天氣特性。",
+        "wet and cold 形成合理的並列形容詞，表示濕冷。"
+      ],
+      "pitfall": "wide 與 deep 描述空間尺寸，不適合此處天氣。"
+    },
+    {
+      "id": "english-8-r1-37",
+      "section": "grammar",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "旅行打包",
+      "answer": "A：packed",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "喜歡閱讀的人在長途旅行前會把書放入行李。",
+        "packed some books 表打包書籍，與 besides clothes 相呼應。"
+      ],
+      "pitfall": "filled 需說明填滿的容器，不宜直接表示把書打包。"
+    },
+    {
+      "id": "english-8-r1-38",
+      "section": "grammar",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "同意讓員工準時離開",
+      "answer": "C：agreed",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "員工爭取後終於得到准許，語意是公司同意。",
+        "agree to 加動詞原形可接 let，形成 agreed to let。"
+      ],
+      "pitfall": "brought 是 bring 的過去式，不能表示同意。"
+    },
+    {
+      "id": "english-8-r1-39",
+      "section": "grammar",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "工作事故",
+      "answer": "D：accident",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "住院與家人擔心指出工作中發生意外。",
+        "冠詞後需名詞，accident 同時符合詞性與情境。"
+      ],
+      "pitfall": "protect 是動詞，不能直接放在 a(n) 後作此名詞。"
+    },
+    {
+      "id": "english-8-r1-40",
+      "section": "grammar",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "令人害怕的最高級",
+      "answer": "C：scariest",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "of all on earth 建立最高程度的比較範圍。",
+        "蛇是使人害怕的事物，應用 scary 的最高級 scariest。"
+      ],
+      "pitfall": "scared 描述感到害怕者，與使人害怕的 scary 不同。"
+    },
+    {
+      "id": "english-8-r1-41",
+      "section": "cloze",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "在建築物之間擺盪",
+      "answer": "A：between",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "蜘蛛人利用蛛絲在多棟高樓之間移動。",
+        "between 表各建築物之間的位置關係，比 across 一般表面橫越更貼切。"
+      ],
+      "pitfall": "不可把「在樓間」讀成「在樓下」。"
+    },
+    {
+      "id": "english-8-r1-42",
+      "section": "cloze",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "加強更細的程度",
+      "answer": "B：much",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "thinner 已是 thin 的比較級，不能再加 more 形成雙重比較。",
+        "much 可修飾 thinner，表示比頭髮細得多。"
+      ],
+      "pitfall": "very 通常修飾原級，不能直接修飾 thinner。"
+    },
+    {
+      "id": "english-8-r1-43",
+      "section": "cloze",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "足夠強韌的結構",
+      "answer": "D：be strong enough",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "後文要接 to hold，表示強度足以承受重量。",
+        "形容詞加 enough 再接不定詞，順序為 strong enough to。"
+      ],
+      "pitfall": "so…that 後需完整子句，不能直接接 to hold。"
+    },
+    {
+      "id": "english-8-r1-44",
+      "section": "cloze",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "人工製造蛛絲的難度",
+      "answer": "C：很困難",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "後文明說人造絲仍不如真蛛絲強，科學家還在研究。",
+        "這些未成功的線索支持「製造很困難」，故選 C。"
+      ],
+      "pitfall": "不能因很多人嘗試，就推成已經很容易製造。"
+    },
+    {
+      "id": "english-8-r1-45",
+      "section": "cloze",
+      "label": "第 45 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "河馬重量比較",
+      "answer": "B：much heavier",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "than 後有比較對象，需要 heavy 的比較級 heavier。",
+        "much 可加強比較程度，形成 much heavier。"
+      ],
+      "pitfall": "heaviest 是最高級；less heavier 是錯誤的雙重比較。"
+    },
+    {
+      "id": "english-8-r1-46",
+      "section": "cloze",
+      "label": "第 46 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "保護自己",
+      "answer": "D：themselves",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "主詞是複數河馬，保護的對象仍是牠們自身。",
+        "主受詞同指時用反身代名詞，they 對應 themselves。"
+      ],
+      "pitfall": "theirs 是所有代名詞，不能表示自己。"
+    },
+    {
+      "id": "english-8-r1-47",
+      "section": "cloze",
+      "label": "第 47 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "以比較級表示最高程度",
+      "answer": "A：no other",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "對話要強調發怒河馬最危險，表示沒有其他動物更危險。",
+        "no other 加單數 animal，搭配 is more dangerous，語法與語意相符。"
+      ],
+      "pitfall": "all other 和 many other 應接複數名詞，且意思方向相反。"
+    },
+    {
+      "id": "english-8-r1-48",
+      "section": "cloze",
+      "label": "第 48 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "河馬跑得比人快",
+      "answer": "C：速度是人的兩到三倍",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "回答先否定人能跑贏河馬，後面又以強力坦克比喻。",
+        "只有 C 表示河馬更快，與前後語意連貫；這是依文中說法作答。"
+      ],
+      "pitfall": "閱讀選項應依文章，勿把其他選項的較慢方向選入。"
+    },
+    {
+      "id": "english-8-r1-49",
+      "section": "reading",
+      "label": "第 49 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "看天氣預報的目的",
+      "answer": "B：了解不同天氣下的購買情況",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章開頭說 Annie 要預備適量食物，結尾指出天氣影響購買。",
+        "兩段共同說明看預報是為了判斷需求，故選 B。"
+      ],
+      "pitfall": "文章未提增聘員工，不能由忙碌自行補出。"
+    },
+    {
+      "id": "english-8-r1-50",
+      "section": "reading",
+      "label": "第 50 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "熱茶銷售的折線",
+      "answer": "A：線 A，星期六天冷熱茶較暢銷",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中 A 線在星期六最高，B 線當天最低。",
+        "文字說星期六冷雨時熱茶受歡迎，因此 A 線與熱茶相符。"
+      ],
+      "pitfall": "不要把顧客總數的長條誤當飲料銷售線。"
+    },
+    {
+      "id": "english-8-r1-51",
+      "section": "reading",
+      "label": "第 51 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "依寒雨天備貨",
+      "answer": "B：多備熱茶與薯條",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "既有紀錄顯示冷雨天顧客偏好熱飲和溫熱點心。",
+        "若下週天氣相似，增加熱茶與薯條最符合資料。"
+      ],
+      "pitfall": "等待十二分鐘是觀察結果，不是經營者應追求的目標。"
+    },
+    {
+      "id": "english-8-r1-52",
+      "section": "reading",
+      "label": "第 52 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 8,
+      "topic": "比賽前希望的象徵",
+      "answer": "A：鳥形圖案",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "文中把鳥解讀成好消息，魚代表金錢、眼睛代表他人不喜歡自己。",
+        "Ted 擔心比賽，最想得到好消息；圖 A 是鳥形。"
+      ],
+      "pitfall": "題目考文中的象徵系統，並不證實咖啡渣能預測未來。"
+    },
+    {
+      "id": "english-8-r1-53",
+      "section": "reading",
+      "label": "第 53 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 8,
+      "topic": "辨別作者評價",
+      "answer": "D：使節目更有趣且獨特",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D 的「更有趣、獨特」是作者對節目效果的評價。",
+        "其他選項在文中描述活動過程或故事內的線索功能，D 最明確屬於意見。"
+      ],
+      "pitfall": "讀懂故事中的設定不代表認可占卜具客觀預測力。"
+    },
+    {
+      "id": "english-8-r1-54",
+      "section": "reading",
+      "label": "第 54 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 8,
+      "topic": "傳統與比賽的主旨",
+      "answer": "D：用古老傳統贏得現代比賽",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "首段介紹咖啡占卜的獨特之處，末段說 Asya 最後勝出。",
+        "D 同時涵蓋傳統方法與比賽結果，比單談咖啡歷史完整。"
+      ],
+      "pitfall": "文章沒有以科學驗證占卜真假為主軸。"
+    },
+    {
+      "id": "english-8-r1-55",
+      "section": "reading",
+      "label": "第 55 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "蘇黎世段落小標",
+      "answer": "D：以市民而非車流為中心",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "限制車位總量及控制進城車流，都把步行與公共空間放在優先位置。",
+        "D 最能概括政策的目的，其他標題反而鼓勵開車。"
+      ],
+      "pitfall": "沒有增加車位不代表停車問題一定最少。"
+    },
+    {
+      "id": "english-8-r1-56",
+      "section": "reading",
+      "label": "第 56 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "河畔設施",
+      "answer": "D：可用餐的咖啡廳",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Ljubljana 的食物段明示河邊有許多咖啡廳。",
+        "因此沿河可找到用餐地點，選 D；電腦控車屬另一城市。"
+      ],
+      "pitfall": "不要把兩個城市的特色互換。"
+    },
+    {
+      "id": "english-8-r1-57",
+      "section": "reading",
+      "label": "第 57 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "事實與感受",
+      "answer": "A：車流過高時紅燈延長",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "A 對應文中具體的交通控制條件與行動，可核對是否發生。",
+        "其餘選項含快樂、最美或愛車者最不想去等主觀評價。"
+      ],
+      "pitfall": "美麗或享受的形容不是可直接量測的政策事實。"
+    },
+    {
+      "id": "english-8-r1-58",
+      "section": "reading",
+      "label": "第 58 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "不應列入不干擾守則的行為",
+      "answer": "C：餵食讓動物靠近",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文中指出餵食會讓猴子把人與食物連結，甚至導致攻擊。",
+        "因此誘引靠近違反不干擾原則，其他選項保留動物自然行為。"
+      ],
+      "pitfall": "題幹問 NOT，應選違反守則的一項。"
+    },
+    {
+      "id": "english-8-r1-59",
+      "section": "reading",
+      "label": "第 59 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "無傷害動物的旅程",
+      "answer": "B：植物觀察與健行行程（官方）；D 的文字仍有歧義",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "B 明確提供農場慢遊、登山與賞植物，沒有迫使動物表演。",
+        "A 有騎象，C 有近距離老虎合照；但 D 只寫夜間觀察自然活動，未明說表演或干擾，無法僅憑選項完全排除。"
+      ],
+      "pitfall": "不要把所有夜間觀察一律等同文章批評的強迫表演。",
+      "note": "官方答案 B。B 明確符合文意，但 D 只描述夜間觀察動物自然活動，未說明表演、餵食或接觸；題目不足以唯一排除 D。保留官方答案並提示此語意歧義。"
+    },
+    {
+      "id": "english-8-r1-60",
+      "section": "reading",
+      "label": "第 60 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "動物娛樂背後的問題",
+      "answer": "B：看似酷炫的動物照片背後真相",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "各段揭露餵食、剝奪獨處與不友善訓練等代價。",
+        "B 的「照片背後真相」涵蓋這些警示；C 只稱有趣事實，較難呈現批判目的。"
+      ],
+      "pitfall": "主旨要包括保護動物的意圖，不只列舉節目名稱。"
+    },
+    {
+      "id": "english-8-r1-61",
+      "section": "translation",
+      "label": "第 61 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "燈光的英文",
+      "answer": "light",
+      "officialAnswer": "light",
+      "status": "verified",
+      "steps": [
+        "中文要表光線或燈光，對應名詞 light。",
+        "本區要求單數形式，依官方答案寫 light 即可。"
+      ],
+      "pitfall": "不要把相似拼字 night「夜晚」當成光。"
+    },
+    {
+      "id": "english-8-r1-62",
+      "section": "translation",
+      "label": "第 62 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "草莓的英文",
+      "answer": "strawberry",
+      "officialAnswer": "strawberry",
+      "status": "verified",
+      "steps": [
+        "草莓對應 strawberry，完整保留兩部分拼字。",
+        "題目要求單數，所以不改成 strawberries。"
+      ],
+      "pitfall": "單數結尾是 -berry，不能提前改 y 為 ies。"
+    },
+    {
+      "id": "english-8-r1-63",
+      "section": "translation",
+      "label": "第 63 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "豬肉的英文",
+      "answer": "pork",
+      "officialAnswer": "pork",
+      "status": "verified",
+      "steps": [
+        "題目問肉類而非動物，豬肉用 pork。",
+        "pork 作食物名詞通常不可數，此處直接寫原形。"
+      ],
+      "pitfall": "pig 是豬這種動物，不能在此取代肉類名稱。"
+    },
+    {
+      "id": "english-8-r1-64",
+      "section": "translation",
+      "label": "第 64 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "昆蟲的英文",
+      "answer": "insect",
+      "officialAnswer": "insect",
+      "status": "verified",
+      "steps": [
+        "提示首字母 i，昆蟲的名詞是 insect。",
+        "按單數要求不加 s，與提示及詞義都吻合。"
+      ],
+      "pitfall": "不要把 insect 和 infect「感染」的字中子音混淆。"
+    },
+    {
+      "id": "english-8-r1-65",
+      "section": "translation",
+      "label": "第 65 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "叉子的英文",
+      "answer": "fork",
+      "officialAnswer": "fork",
+      "status": "verified",
+      "steps": [
+        "餐具叉子的單數名詞是 fork。",
+        "依此區要求填單字即可，不需另加冠詞。"
+      ],
+      "pitfall": "fork 與 pork 只差起首字母，但一個是餐具、一個是肉。"
+    },
+    {
+      "id": "english-8-r1-66",
+      "section": "translation",
+      "label": "第 66 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "景色的英文",
+      "answer": "view",
+      "officialAnswer": "view",
+      "status": "verified",
+      "steps": [
+        "題目指可看到的景色，對應名詞 view。",
+        "依官方要求用單數原形，可表某一處所見景觀。"
+      ],
+      "pitfall": "注意字母順序是 ie，不能寫成 veiw。"
+    },
+    {
+      "id": "english-8-r1-67",
+      "section": "translation",
+      "label": "第 67 題",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "比較美味與感官動詞",
+      "answer": "Beef noodles are more delicious than fried chicken. They smell good and taste great.",
+      "officialAnswer": "Beef noodles are more delicious / than fried chicken. They smell good / and taste great.",
+      "status": "verified",
+      "steps": [
+        "牛肉麵是複數主詞，使用 are；多音節形容詞 delicious 以 more…than 比較。",
+        "後句用 They 指牛肉麵，smell 與 taste 後接 good、great 等形容詞，描述食物的感官特性。"
+      ],
+      "pitfall": "delicious 用 more 比較，不再加 -er；smell、taste 在此為連綴動詞，後接形容詞 good、great。"
+    },
+    {
+      "id": "english-8-r1-68-A",
+      "section": "translation",
+      "label": "第 68 題（A）",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "動名詞主詞與最高級",
+      "answer": "Using your phone when crossing the road is the worst thing to do.",
+      "officialAnswer": "Using your phone / when (while) crossing the road (street) / is the worst thing (to do). = The worst thing to do / is to use your phone / when (while) crossing the road (street).",
+      "status": "verified",
+      "steps": [
+        "「使用手機」整個行為作主詞，可用 Using your phone 開頭並搭配單數 is。",
+        "以 when crossing the road 表過馬路時，最糟糕用 the worst；也可依官方用不定詞倒置句型。"
+      ],
+      "pitfall": "worst 已是 bad 的最高級，不再加 most。"
+    },
+    {
+      "id": "english-8-r1-68-B",
+      "section": "translation",
+      "label": "第 68 題（B）",
+      "sourcePages": [
+        7
+      ],
+      "answerPage": 8,
+      "topic": "同意與感官動詞",
+      "answer": "I agree. That sounds dangerous.",
+      "officialAnswer": "I agree. / That (It) sounds dangerous.",
+      "status": "verified",
+      "steps": [
+        "「我同意」直接以 I agree 表達，agree 是動詞。",
+        "That 指前述行為，單數配 sounds，後接形容詞 dangerous。"
+      ],
+      "pitfall": "不要寫 I am agree，也不要在 sounds 後誤用副詞。"
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "schema": 1,
+  "sourceId": "1_F1cLTaFQsdt5kOiS3dGb5DSnPV590bP",
+  "sourceSha256": "3bea88a137919fdad58255d672e6f6d02c9eb04751aee46ab869c039f7e16ee5",
+  "title": "114-2-2九年級理化科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題完成第 1～36 題原創解析，核對全部 5 個 PDF 實體頁與圖表；35 題已核對、1 題有爭議、0 題有來源或條件限制。第 13 題的甲乙接線在文字與圖四互相顛倒，保留官方 B 並說明依文字 A 也成立。此範圍僅為本份歷史段考，不表示所有教材均已完成。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "單一選擇題"
+    }
+  ],
+  "items": [
+    {
+      "id": "science-9-r2-1",
+      "section": "choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "臺灣典型天氣圖",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "丙圖顯示臺灣附近受太平洋高壓影響，位於高壓西側時可有偏南到東南氣流，天氣晴熱。",
+        "甲是颱風、乙有冷鋒、丁為滯留鋒；把這些系統都解讀成乾冷晴天或單向推進並不正確。"
+      ],
+      "pitfall": "先認 H、L 與鋒面符號，再判環流和天氣。"
+    },
+    {
+      "id": "science-9-r2-2",
+      "section": "choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "颱風與災害",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲圖在臺灣附近有密集封閉等壓線的颱風低壓，可能帶來強風、豪雨與暴潮。",
+        "丙不是強烈冷氣團，丁少雨也只是增加乾旱風險而非必然發生，因此 A 正確。"
+      ],
+      "pitfall": "災害判讀應區分「可能」與「必定」。"
+    },
+    {
+      "id": "science-9-r2-3",
+      "section": "choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "颱風接近時的氣壓",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "颱風核心為低壓，中心靠近觀測站時，通常可觀測到氣壓下降。",
+        "外圍環流在登陸前就能造成風雨，眼內也不是最強風雨區；因此 D 最符合資料。"
+      ],
+      "pitfall": "颱風是否登陸不是風雨開始或結束的唯一界線。",
+      "note": "依原卷 2004 年敏督利路徑與敘述作歷史判讀。"
+    },
+    {
+      "id": "science-9-r2-4",
+      "section": "choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "山崩土石流的主因",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "強震可造成鬆散土石，豪雨提高土體含水量，陡坡與順向坡則有利滑動。",
+        "大浪主要作用於海岸，不是臺灣山區山崩與土石流的主要普遍成因，所以選 C。"
+      ],
+      "pitfall": "海岸侵蝕和山區重力災害的主要觸發條件不能混為一談。"
+    },
+    {
+      "id": "science-9-r2-5",
+      "section": "choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "高低壓與近地面風",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "X 中心數值約 1044 hPa，向外降低，是高壓；Y 向內約 1008 hPa，是低壓。",
+        "北半球高壓近地面順時針向外，乙位在 X 東南側，約吹偏北風，故 A 正確。"
+      ],
+      "pitfall": "風速主要與壓力梯度有關，不是氣壓高就必然風大。"
+    },
+    {
+      "id": "science-9-r2-6",
+      "section": "choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "冷氣團的相對定義",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "冷氣團是氣團溫度低於其經過的地面或海面，描述相對熱性質。",
+        "不能以 0°C 一刀切成冷暖，也不能因臺灣變冷就認為冷氣團在臺灣形成，所以選 D。"
+      ],
+      "pitfall": "同一氣團移到不同下墊面上，冷暖性質的相對稱呼可能改變。"
+    },
+    {
+      "id": "science-9-r2-7",
+      "section": "choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "大氣與彩虹",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "自然彩虹需陽光在懸浮水滴中折射、反射並分色。",
+        "若地球沒有大氣，就沒有一般大氣降水與懸浮水滴形成此現象；其餘選項把臭氧、水氣位置或大氣厚度寫錯。"
+      ],
+      "pitfall": "85 km 附近不是大氣的絕對外邊界。",
+      "note": "本題指自然天空中的彩虹現象。"
+    },
+    {
+      "id": "science-9-r2-8",
+      "section": "choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "海洋暖化與酸化的區別",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "海洋酸化主要來自海水吸收較多 CO₂，改變碳酸系統並增加酸度。",
+        "海水升溫、海浪變大不是同一條必然因果鏈，因此 B 把不同機制串在一起不正確。"
+      ],
+      "pitfall": "全球暖化與海洋酸化可有共同的人為 CO₂ 原因，但不代表前者直接造成全部後者。"
+    },
+    {
+      "id": "science-9-r2-9",
+      "section": "choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "黑潮的性質",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "黑潮是北太平洋西邊界強暖流，流經臺灣東側向北，水色常呈深藍。",
+        "烏魚南下主要與冬季中國沿岸流相關，赤道盛行風也不是西風，因此 B 最符合。"
+      ],
+      "pitfall": "黑潮是有寬度、深度與季節變化的海流，不能把約一公里當成固定邊界。"
+    },
+    {
+      "id": "science-9-r2-10",
+      "section": "choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "海洋酸化與鈣化生物",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "CO₂ 增加使海水酸化，降低部分鈣化所需碳酸根的可利用程度。",
+        "這可能不利蟹、貝與珊瑚等形成或維持碳酸鈣構造，故 A 是合理影響方向。"
+      ],
+      "pitfall": "酸化表示 pH 下降，不一定表示海水已變成 pH 小於 7。",
+      "note": "不同物種的反應程度不同，不能把「可能受影響」當成每一隻都必然殼變薄。"
+    },
+    {
+      "id": "science-9-r2-11",
+      "section": "choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "減緩與調適",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "減緩主要針對減少溫室氣體排放或增強吸收，節能與再生能源屬此類。",
+        "保存種子、培育耐環境威脅品種是提高承受影響能力，屬調適，因此 C 不是減緩。"
+      ],
+      "pitfall": "降低氣候變遷的成因，和因應已發生的影響，要分開辨認。"
+    },
+    {
+      "id": "science-9-r2-12",
+      "section": "choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "檢流計方向與還原極",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "放大圖三可見檢流計右側為正端，指針右偏表示傳統電流從 A 側流入儀表。",
+        "因此 A 為電池正極，A 離子在此得電子還原，C 正確；B 側金屬則氧化失電子。"
+      ],
+      "pitfall": "不能單憑指針朝右就說右邊電子向右流，要先讀端子正負。"
+    },
+    {
+      "id": "science-9-r2-13",
+      "section": "choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "電解水的文字與圖示矛盾",
+      "answer": "B（官方）；依文字 A 亦成立",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "無論使用少量 NaOH 或適當稀硫酸導電，理想電解水仍在負極產 H₂、正極產 O₂，因此 B 可成立。",
+        "但題文說甲接正、乙接負，依此 A 的乙產氫也正確；圖四卻把乙接正、甲接負，兩種資料互相矛盾。"
+      ],
+      "pitfall": "電極產物取決於實際極性，不能讓圖文錯置被答案掩蓋。",
+      "note": "保留官方 B；因文字與圖四的甲乙極性顛倒，此題不能以完整來源驗證唯一答案。"
+    },
+    {
+      "id": "science-9-r2-14",
+      "section": "choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "惰性陽極取代銅片",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "鐵鑰匙是被鍍物，接負極析銅；原本正極銅片會補充溶液的 Cu²⁺。",
+        "改用碳棒後沒有銅陽極持續補充，Cu²⁺ 被消耗使藍色變淡，故 C 正確。"
+      ],
+      "pitfall": "圖中紅黑線顏色不能取代電鍍的接線事實；被鍍鑰匙仍是負極。"
+    },
+    {
+      "id": "science-9-r2-15",
+      "section": "choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "由電費反推使用時間",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "本月電量為 864/3.6＝240 kWh；功率 2 kW，總運轉時間 240/2＝120 小時。",
+        "30 天平均每天 4 小時，不是 A 的 8 小時；一小時能量 2000×3600＝7.2×10⁶ J。"
+      ],
+      "pitfall": "先把費用轉成度數，再除功率求時間，不能直接拿電費除天數。",
+      "note": "採額定功率連續運轉的題設模型，未計變頻或壓縮機間歇。"
+    },
+    {
+      "id": "science-9-r2-16",
+      "section": "choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "高壓輸電與接地",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "相同輸送功率下，升高電壓可降低電流，減少線路 I²R 熱損。",
+        "保險絲應串聯，家庭交流電流會隨時間變化；接地主要防漏電觸電，不是保證沒有短路，因此選 A。"
+      ],
+      "pitfall": "接地、過電流保護與電壓轉換處理的是不同問題。"
+    },
+    {
+      "id": "science-9-r2-17",
+      "section": "choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "串並聯燈泡的電阻比較",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "串聯時電流相同，且甲功率較大，由 P＝I²R 得 R甲＞R乙。",
+        "改並聯後兩端電壓相同，依固定電阻模型仍 R甲＞R乙，反而甲功率較小，因此 B 正確。"
+      ],
+      "pitfall": "串聯比亮度用同電流，並聯則用同電壓，公式使用條件不同。",
+      "note": "題目採燈泡電阻近似固定的模型；真實燈絲電阻會隨溫度改變。"
+    },
+    {
+      "id": "science-9-r2-18",
+      "section": "choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "電熱水壺到沸點的時間",
+      "answer": "B（15 分鐘）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "依一般一大氣壓模型，1 L 水為 1000 g，由 10°C 到 100°C 需 1000×90＝90000 cal。",
+        "換成 378000 J，再除 420 J/s 得 900 秒，即 15 分鐘。"
+      ],
+      "pitfall": "計算用 90°C 溫升，不是最後溫度 100°C。"
+    },
+    {
+      "id": "science-9-r2-19",
+      "section": "choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "直線電流上下方磁場",
+      "answer": "A（乙、丁不偏轉）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依電池長線為正極，乙處電流向東且磁針在下方，丁處電流向西且磁針在上方；右手規則得到兩處磁場都向北，與地磁相同。",
+        "甲在向北電流下方、丙在向南電流上方，磁場皆偏西而非相反，因此只有 A 正確。"
+      ],
+      "pitfall": "導線方向相反與觀察點由下換上會各反轉一次，兩次反轉可得相同方向。",
+      "note": "移丙遠離導線會減弱向西磁場，使 N 極向北順時針回轉；移除 R 則使甲向西偏角增加，仍是逆時針，故 C、D 不符。"
+    },
+    {
+      "id": "science-9-r2-20",
+      "section": "choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "載流導線的磁力方向",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "粗銅線沿南北，磁場向下，兩者互相垂直。",
+        "磁力依 Iℓ×B 的方向，同時垂直於電流與磁場，因此 D 正確；向下場表示上端應是 N 極。"
+      ],
+      "pitfall": "先取磁鐵外由 N 指向 S 的場向，再用右手規則判受力。"
+    },
+    {
+      "id": "science-9-r2-21",
+      "section": "choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "電鈴的通斷循環",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "通電使電磁鐵吸引鐵片，接點分離後斷電，彈片再把接點接回。",
+        "這利用電流產生磁場及機械回復，不是以磁通量改變產生電流的電磁感應，所以 D 錯誤。"
+      ],
+      "pitfall": "電磁鐵與電磁感應名稱相近，能量與因果方向卻不同。"
+    },
+    {
+      "id": "science-9-r2-22",
+      "section": "choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "電子射向赤道的磁力",
+      "answer": "B（向西）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "地球赤道附近的水平磁場大致指向地理北方，入射電子速度朝下。",
+        "以正電荷的 v×B 得向東，再因電子為負電荷反向，實際受力向西。"
+      ],
+      "pitfall": "右手規則先算正電荷，遇到電子必須再反向。",
+      "note": "採圖十把地磁簡化為偶極且赤道磁場水平的模型。"
+    },
+    {
+      "id": "science-9-r2-23",
+      "section": "choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "平行磁場的運動",
+      "answer": "D（不偏移）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "在同一赤道模型中磁場向北，電子向南，速度與磁場反平行。",
+        "磁力大小為 |q|vB sinθ，θ＝180° 時為零，因此不因這個磁場而偏移。"
+      ],
+      "pitfall": "帶電粒子不代表只要進磁場就必然受到非零磁力。"
+    },
+    {
+      "id": "science-9-r2-24",
+      "section": "choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "馬達的生活應用",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "馬達把電能轉成轉動等機械能，電扇、抽風機及果汁機都利用此功能。",
+        "以電池供電的完整能量路徑為化學能→電能→機械能，並有發熱損失，故 C 正確。"
+      ],
+      "pitfall": "總能量守恆不等於這套系統單獨的力學能守恆。"
+    },
+    {
+      "id": "science-9-r2-25",
+      "section": "choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "直流馬達的換向器",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖甲是分裂成兩半的集電環，即換向器；乙是與其接觸的電刷。",
+        "每半圈換接使線圈電流反向，配合位置改變讓轉矩持續推同一轉向，因此 A 正確。"
+      ],
+      "pitfall": "電流反向的目的在維持轉矩方向，不是讓馬達每半圈反轉。"
+    },
+    {
+      "id": "science-9-r2-26",
+      "section": "choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "線圈與馬達轉動",
+      "answer": "C（依本卷比較模型）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "在電流與其他條件近似不變時，增加線圈圈數可增強電磁作用及轉矩。",
+        "並聯相同電池不直接增加端電壓，銅芯也無鐵芯的強磁化作用，因此 C 最符合題設。"
+      ],
+      "pitfall": "轉矩增加不保證所有實際馬達的穩態轉速同比增加，還受電阻與負載影響。"
+    },
+    {
+      "id": "science-9-r2-27",
+      "section": "choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "螺線管兩端極性",
+      "answer": "B（乙、丁排斥）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "沿圖中電池正極至線圈的電流並用右手握拳判讀，可得螺線管左端 S、右端 N。",
+        "乙把 S 靠近左端 S，丁把 N 靠近右端 N，均為同極相斥；甲、丙則相吸。"
+      ],
+      "pitfall": "需看靠近線圈那一端的磁極，不是看磁棒最外端的字母。"
+    },
+    {
+      "id": "science-9-r2-28",
+      "section": "choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "相對速度與感應電流",
+      "answer": "D（丁）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲靜止、丙同向同速，兩者的相對位置不變；乙只有磁鐵以 v 離開。",
+        "丁的線圈向左、磁鐵向右，相對速率為 2v，在其餘條件相同下磁通量變化最快，感應電流最大。"
+      ],
+      "pitfall": "看相對運動造成的磁通量改變，不能只看哪個物體有在動。"
+    },
+    {
+      "id": "science-9-r2-29",
+      "section": "choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "電流磁場同時反轉",
+      "answer": "C（甲、丙順時針）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "甲與乙磁極相同但電池反向，所以導線受力相反；丙又相較乙將磁極反轉，受力回到與甲相同。",
+        "依圖示觀察方向，甲、丙右側導線向下，形成順時針轉動；乙反向，因此 C 正確。"
+      ],
+      "pitfall": "電流與磁場若同時反轉，叉積方向不變。"
+    },
+    {
+      "id": "science-9-r2-30",
+      "section": "choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "磁化鐵釘反推磁極",
+      "answer": "D（B 為 S，D 為 N）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "E 端吸引磁針 S 極，故 E 是 N；鐵釘靠磁棒的一端為 S，可推出相鄰 D 為 N。",
+        "同支磁棒另一端 C 為 S，圖中 B、C 的磁力線皆指向兩端，顯示 B 也為 S，所以 D 正確。"
+      ],
+      "pitfall": "被磁化物靠近磁棒的一端成異極，遠端才與磁棒近端同極。"
+    },
+    {
+      "id": "science-9-r2-31",
+      "section": "choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "磁力線密度與切線方向",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "P 周圍磁力線較密，表示磁場較強。",
+        "Q 的場向沿當地磁力線切線並順箭頭，對應 x，而非朝曲率中心的 y、z。"
+      ],
+      "pitfall": "磁場方向沿線的切線，不是永遠指向磁鐵或線條彎曲方向。"
+    },
+    {
+      "id": "science-9-r2-32",
+      "section": "choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "暫時磁化",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "鐵釘靠近磁鐵會被磁化，可能短暫吸引其他鐵釘。",
+        "移開外加磁場後，這種磁性通常減弱，不能直接說被製成永久磁鐵，因此 B 錯誤。"
+      ],
+      "pitfall": "有短暫殘磁不代表磁性永不消失。"
+    },
+    {
+      "id": "science-9-r2-33",
+      "section": "choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "磁鐵分割後的磁極",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "一般磁鐵切成兩塊後，每塊仍具有成對的 N、S 極。",
+        "磁力線代表合成磁場，同一點方向不能互相交叉，故 B 正確而 D 不正確。"
+      ],
+      "pitfall": "不能用切割取得只有單一 N 或 S 極的普通磁鐵。"
+    },
+    {
+      "id": "science-9-r2-34",
+      "section": "choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "發電機轉速與感應",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "發電機靠轉動線圈改變穿過線圈的磁通量，將機械能轉為電能。",
+        "轉速提高時磁通量變化率增大，感應電動勢及相同回路的電流通常增大，檢流計不會維持原角度。"
+      ],
+      "pitfall": "轉速控制磁通量變化快慢，不能只看每圈磁鐵位置相同。"
+    },
+    {
+      "id": "science-9-r2-35",
+      "section": "choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "磁極反轉與檢流計",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原圖 N 極靠近時指針向右；改 S 極以相同速率靠近，使磁通量變化方向反轉。",
+        "在相同裝置下感應電流方向反轉、大小近似相同，因此選向左相應角度的 B。"
+      ],
+      "pitfall": "改極性影響方向，改速率主要影響大小，不要混用。"
+    },
+    {
+      "id": "science-9-r2-36",
+      "section": "choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "互感與直流開關瞬間",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "甲通電可產生磁場，接通或切斷的瞬間磁場改變，才在乙誘發電流。",
+        "直流穩定後磁通量不再改變，乙指針回零；切斷瞬間則有反向偏轉，因此 D 正確。"
+      ],
+      "pitfall": "有磁場不等於一直有感應電流，關鍵是穿過線圈的磁通量改變。"
+    }
+  ]
+}

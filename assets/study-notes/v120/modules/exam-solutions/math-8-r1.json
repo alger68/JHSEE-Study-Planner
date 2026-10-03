@@ -1,0 +1,524 @@
+{
+  "schema": 1,
+  "sourceId": "1HpyIoO9iL-D9aFoTgqWoyh9KvWtmT9rQ",
+  "sourceSha256": "ec79ce137df2a556d285d7caac07a0ecaa28d34d80ef1ced5c4f11387c345016",
+  "title": "114-2-1八年級數學科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "涵蓋選擇題 1–25、非選題 1(1)、1(2)、2，共 28 個編號小題。已逐頁目視檢查實體 PDF 第 1–5 頁及圖表，全部獨立推算後與第 5 頁官方解答核對。原卷頁尾「共 4 頁」不含附加解答，連結使用實體 PDF 頁碼。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、選擇題"
+    },
+    {
+      "id": "calculation",
+      "title": "二、非選題"
+    }
+  ],
+  "items": [
+    {
+      "id": "math-8-r1-choice-1",
+      "section": "choice",
+      "label": "選擇題 1",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "循環數列",
+      "answer": "D（18）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "每四項依序為 1、3、1、4，因此第 14 項 x＝3，第 16 項 y＝4。",
+        "代入 2x＋3y＝2×3＋3×4＝18。"
+      ],
+      "pitfall": "先找一個完整週期，不能把偶數位置全部看成相同數字。"
+    },
+    {
+      "id": "math-8-r1-choice-2",
+      "section": "choice",
+      "label": "選擇題 2",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "等差數列的變形",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "設原公差為 d，反向排列的公差為 −d；每項加 4 仍為 d；依序減 2、5、8 後為 d−3。",
+        "乘積排列不一定等差。例如 a、b、c＝1、2、3，得到 ab、bc、ca＝2、6、3，相鄰差為 4、−3。"
+      ],
+      "pitfall": "同乘固定常數與把相鄰項彼此相乘，是不同運算。"
+    },
+    {
+      "id": "math-8-r1-choice-3",
+      "section": "choice",
+      "label": "選擇題 3",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "由指定項求項數",
+      "answer": "C（20 項）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "從第 5 項 21 到末項 81，共跨 (81−21)÷4＝15 個間隔。",
+        "末項序號為 5＋15＝20，所以共有 20 項。"
+      ],
+      "pitfall": "增加的是間隔數，應加回已知項的序號 5。"
+    },
+    {
+      "id": "math-8-r1-choice-4",
+      "section": "choice",
+      "label": "選擇題 4",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "負公比等比數列",
+      "answer": "A（52）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "公比為 −18÷6＝−3，因此 a＝6÷(−3)＝−2。",
+        "下一項 b＝(−18)×(−3)＝54，所以 a＋b＝52。"
+      ],
+      "pitfall": "往前找一項要除以公比，往後找則乘公比。"
+    },
+    {
+      "id": "math-8-r1-choice-5",
+      "section": "choice",
+      "label": "選擇題 5",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "求兩個公比的乘積",
+      "answer": "B（−16）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "第一列的公比 r₁＝2÷(1/2)＝4。第二列每項乘 −4 得下一項，所以 r₂＝−4。",
+        "相乘為 r₁r₂＝4×(−4)＝−16。"
+      ],
+      "pitfall": "第二列首項是 −a/4，不能讀成 −4a。"
+    },
+    {
+      "id": "math-8-r1-choice-6",
+      "section": "choice",
+      "label": "選擇題 6",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "等比中項平方",
+      "answer": "D（2）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "等比中項 m 滿足 m²＝a×32；不論 m＝8 或 −8，平方都是 64。",
+        "解 32a＝64，得到 a＝2。"
+      ],
+      "pitfall": "中項可正可負，不代表端點 a 也有兩個正負答案。"
+    },
+    {
+      "id": "math-8-r1-choice-7",
+      "section": "choice",
+      "label": "選擇題 7",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "同時等差與等比",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "常數列 5、5、5、……的相鄰差都是 0，因此是等差數列。",
+        "相鄰項的比都是 1，因此也是等比數列；其餘選項無法同時保持差與比固定。"
+      ],
+      "pitfall": "公差可以為 0，公比可以為 1。"
+    },
+    {
+      "id": "math-8-r1-choice-8",
+      "section": "choice",
+      "label": "選擇題 8",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "函數的唯一對應",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "表中 x＝2 同時對應 y＝7 與 6，x＝3 也有兩個不同 y，違反同一輸入只有一個輸出的條件。",
+        "其餘關係可寫成 y＝10−x、y＝x＋2、y＝12/x，在各自合理範圍內都能唯一決定 y。"
+      ],
+      "pitfall": "不同 x 對應同一 y 並不妨礙成為函數；問題在同一 x 對應不同 y。"
+    },
+    {
+      "id": "math-8-r1-choice-9",
+      "section": "choice",
+      "label": "選擇題 9",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "函數值相等",
+      "answer": "C（−4）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "在相同 x＝a 時，兩個函數值相等，故 3a＋1＝−11。",
+        "移項得 3a＝−12，所以 a＝−4。"
+      ],
+      "pitfall": "−11 是函數值，不是所求的 x 值。"
+    },
+    {
+      "id": "math-8-r1-choice-10",
+      "section": "choice",
+      "label": "選擇題 10",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "兩點決定一次函數",
+      "answer": "A（a 應為 3）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "兩點的 y 差為 6、x 差為 2，因此 a＝6÷2＝3；代入 −2＝3＋b 得 b＝−5。",
+        "所以 (a,b)＝(3,−5) 在第四象限，2a＋b＝1＞0；錯誤的是 a＝2。"
+      ],
+      "pitfall": "求斜率時，兩個坐標差必須採相同的相減順序。"
+    },
+    {
+      "id": "math-8-r1-choice-11",
+      "section": "choice",
+      "label": "選擇題 11",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "數列變形後的公差與公比",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "等差列每項加 7 時公差仍為 d，每項乘 3 時公差變 3d；等比列每項乘 5 時公比仍為 r。",
+        "等比列反向排列時，相鄰項的比由 r 變為 1/r，因此 D 正確。"
+      ],
+      "pitfall": "整列乘固定數不會把等比數列的公比一併放大。"
+    },
+    {
+      "id": "math-8-r1-choice-12",
+      "section": "choice",
+      "label": "選擇題 12",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "負公差等差級數",
+      "answer": "D（−1170）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "公差為 −7，令 8＋(n−1)(−7)＝−125，得 n＝20。",
+        "總和為 20×[8＋(−125)]÷2＝−1170。"
+      ],
+      "pitfall": "先求項數；不能把末項的絕對值誤當項數。"
+    },
+    {
+      "id": "math-8-r1-choice-13",
+      "section": "choice",
+      "label": "選擇題 13",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "共邊火柴棒數列",
+      "answer": "A（89 根）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "第一個五邊形需 5 根；依原圖每增加一個五邊形與前一個共一邊，因此只增 4 根。",
+        "圖 22 需 5＋(22−1)×4＝89 根。"
+      ],
+      "pitfall": "不能用 22×5，因相鄰五邊形的共邊只算一次。"
+    },
+    {
+      "id": "math-8-r1-choice-14",
+      "section": "choice",
+      "label": "選擇題 14",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "等差中項與公差",
+      "answer": "A（−7）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "中項的兩倍等於兩端和：2(3x＋4)＝(5x＋3)＋(4x−7)，解得 x＝4。",
+        "三項為 23、16、9，所以公差為 16−23＝−7。"
+      ],
+      "pitfall": "解出的 x 不是公差，還要代回求相鄰項之差。"
+    },
+    {
+      "id": "math-8-r1-choice-15",
+      "section": "choice",
+      "label": "選擇題 15",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "倍增數量的最小整數時間",
+      "answer": "A（7 小時）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "t 小時後細菌數為 3ᵗ；3⁶＝729 尚未達到 2000。",
+        "3⁷＝2187 已達到 2000，因此至少 7 小時。"
+      ],
+      "pitfall": "目標是至少達到 2000，無須恰好等於 2000。"
+    },
+    {
+      "id": "math-8-r1-choice-16",
+      "section": "choice",
+      "label": "選擇題 16",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "單位變化率",
+      "answer": "D（y＝32−0.006x）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "每升高 1000 公尺降 6 度，故每公尺的溫度變化為 −6/1000＝−0.006 度。",
+        "x＝0 時 y＝32，故函數為 y＝32−0.006x。"
+      ],
+      "pitfall": "x 的單位是公尺，不能直接把每千公尺的 6 當係數。"
+    },
+    {
+      "id": "math-8-r1-choice-17",
+      "section": "choice",
+      "label": "選擇題 17",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "由等比第六項回推首項",
+      "answer": "B（729）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "第六項為 a₁(2/3)⁵＝96，共經過五次乘公比。",
+        "因此 a₁＝96×(3/2)⁵＝96×243/32＝729。"
+      ],
+      "pitfall": "第六項的指數是 5，不是 6。"
+    },
+    {
+      "id": "math-8-r1-choice-18",
+      "section": "choice",
+      "label": "選擇題 18",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "三角形堆疊的每層數量",
+      "answer": "B（第 25 層）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "由圖中不懸空的三角形堆疊，每層分別為 1、1＋2、1＋2＋3，故第 n 層有 n(n＋1)/2 個。",
+        "令 n(n＋1)/2＝325；25×26＝650，所以 n＝25。"
+      ],
+      "pitfall": "題目問單獨一層的數量，不是前幾層總和。"
+    },
+    {
+      "id": "math-8-r1-choice-19",
+      "section": "choice",
+      "label": "選擇題 19",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "圖上兩點求免費重量",
+      "answer": "B（12 公斤）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖中收費線通過 (30,252)、(45,462)，每公斤增費 (462−252)/(45−30)＝14 元。",
+        "30 公斤比免費上限多 252÷14＝18 公斤，所以 m＝30−18＝12。"
+      ],
+      "pitfall": "m 是收費線與重量軸的交點，不是圖中第一個標示的 30。"
+    },
+    {
+      "id": "math-8-r1-choice-20",
+      "section": "choice",
+      "label": "選擇題 20",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "餘數條件的等差級數",
+      "answer": "A（7449）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "符合條件的數由 96 到 286，公差 5，共 (286−96)/5＋1＝39 個。",
+        "總和為 (96＋286)×39÷2＝7449。"
+      ],
+      "pitfall": "上下端點要先調整為除以 5 餘 1 的數。"
+    },
+    {
+      "id": "math-8-r1-choice-21",
+      "section": "choice",
+      "label": "選擇題 21",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "等差列的單調性",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "a₃₃−a₂₁＝12d＜0，故 d＜0，項序越大數值越小。",
+        "a₉₈−a₅₇＝41d＜0；A 的差為 −20d＞0，B、C 兩邊的項序和相同，實際各自相等。"
+      ],
+      "pitfall": "比較兩項和時可看項序和，不能只比較第一個項序。"
+    },
+    {
+      "id": "math-8-r1-choice-22",
+      "section": "choice",
+      "label": "選擇題 22",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "奇數個等差項的和",
+      "answer": "C（a₂₅＝0）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "S₂₈−S₂₁ 是 a₂₂ 至 a₂₈ 這七項之和，中間項為 a₂₅。",
+        "七項的和等於 7a₂₅＝0，因此 a₂₅＝0。"
+      ],
+      "pitfall": "S₂₈−S₂₁ 不包含 a₂₁，起點應為第 22 項。"
+    },
+    {
+      "id": "math-8-r1-choice-23",
+      "section": "choice",
+      "label": "選擇題 23",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "等差直角三角形",
+      "answer": "C（294 平方公分）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "三邊平均為 84÷3＝28，設為 28−d、28、28＋d。畢氏定理得 (28−d)²＋28²＝(28＋d)²，解得 d＝7。",
+        "兩股為 21、28，面積為 21×28÷2＝294 平方公分。"
+      ],
+      "pitfall": "最大的邊 35 是斜邊，不能與另一邊直接相乘求直角三角形面積。"
+    },
+    {
+      "id": "math-8-r1-choice-24",
+      "section": "choice",
+      "label": "選擇題 24",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "保留原項的插項限制",
+      "answer": "B（342）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "每個原來長度為 1 的間隔須等分成相同整數 k 段，總項數 n＝8k＋1；平均值固定為 (2＋10)/2＝6。",
+        "各選項除以 6 得 n＝44、57、61、71；只有 57＝8×7＋1，所以可能的和為 342。"
+      ],
+      "pitfall": "新數列必須保留原有每一個整數，不是任意項數都可用首末平均計算。"
+    },
+    {
+      "id": "math-8-r1-choice-25",
+      "section": "choice",
+      "label": "選擇題 25",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "配對比較級數",
+      "answer": "B（Sᵦ＞Sₐ＞S꜀）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "a、c 各有 350 項，a 每項比 c 對應項多 1，故 Sₐ＝S꜀＋350。",
+        "b 比 c 多出首項 2005，故 Sᵦ＝S꜀＋2005；因此 Sᵦ＞Sₐ＞S꜀。"
+      ],
+      "pitfall": "比較總和不能只看首項或末項大小，還要核對項數。"
+    },
+    {
+      "id": "math-8-r1-calculation-1-1",
+      "section": "calculation",
+      "label": "非選題 1(1)",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "蛇形排列的偶數列末數",
+      "answer": "171",
+      "officialAnswer": "171",
+      "status": "verified",
+      "steps": [
+        "第 18 列是偶數列，由左往右遞增，所以最右邊是前 18 列最後一個數。",
+        "前 18 列共有 1＋2＋⋯＋18＝18×19/2＝171 個數，所求為 171。"
+      ],
+      "pitfall": "偶數列最右邊是本列最大值；奇數列的方向相反。"
+    },
+    {
+      "id": "math-8-r1-calculation-1-2",
+      "section": "calculation",
+      "label": "非選題 1(2)",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "蛇形排列的位置換算",
+      "answer": "183",
+      "officialAnswer": "183",
+      "status": "verified",
+      "steps": [
+        "第 19 列最大值為 1＋⋯＋19＝190，且由右往左遞增，所以從左看依序遞減。",
+        "左起第 8 個為 190−(8−1)＝183；也可由前 18 列的 171 加上右起第 12 個，得 183。"
+      ],
+      "pitfall": "左起第 8 個只比最左邊減少 7，不能減 8。"
+    },
+    {
+      "id": "math-8-r1-calculation-2",
+      "section": "calculation",
+      "label": "非選題 2",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "兩筆薪資求線型關係",
+      "answer": "30000 元",
+      "officialAnswer": "30000 元",
+      "status": "verified",
+      "steps": [
+        "設調薪後 y＝ax＋b；a＝(45200−35600)/(36000−28000)＝6/5，代回得 b＝2000。",
+        "令 y＝38000，則 x＝(38000−2000)×5/6＝30000 元。"
+      ],
+      "pitfall": "未知的是調薪前薪資 x，不是把 38000 再當原薪資代入。"
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "schema": 1,
+  "sourceId": "1I0GmSDOe_TyHFVivtQZpCBhSuQ94tFxy",
+  "sourceSha256": "f7103a3eff3067617b36d4c6296e92cc95073490ccc552366445c29f16fb5142",
+  "title": "114-2-1八年級理化科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題完成第 1～45 題原創解析，核對全部 5 個 PDF 實體頁與圖表；40 題已核對、5 題有爭議、0 題有來源或條件限制。第 18 題保留官方 A、C、D；第 13、28、30、39 題另列科學或題意爭議。此範圍僅為本份歷史段考，不表示所有教材均已完成。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "單一選擇題"
+    }
+  ],
+  "items": [
+    {
+      "id": "physical-8-r1-1",
+      "section": "choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "乾冰與化學變化",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "乾冰由固態二氧化碳昇華成氣態，物質的化學種類沒有改變。",
+        "煙火、蛋殼遇酸與鐵粉發熱都涉及新物質生成，所以物理變化是 C。"
+      ],
+      "pitfall": "白霧主要是冷卻後凝結的小水滴，不能把「看到煙」直接當成化學反應。"
+    },
+    {
+      "id": "physical-8-r1-2",
+      "section": "choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "放熱反應與相變",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "碘從固態變成碘蒸氣是昇華，需吸收熱量。",
+        "它既不是放熱，也未產生不同化學物質；其餘三項是放熱化學反應。"
+      ],
+      "pitfall": "吸熱、放熱和物理、化學變化是兩個不同分類軸。"
+    },
+    {
+      "id": "physical-8-r1-3",
+      "section": "choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "元素質量百分比",
+      "answer": "A（CH₃COOH）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "乙酸的分子式為 C₂H₄O₂，式量為 24＋4＋32＝60。",
+        "碳、氫、氧分別占 24/60、4/60、32/60，約為 40%、6.7%、53.3%，符合 A。"
+      ],
+      "pitfall": "先數完整化學式中的原子，不能只計算第一個 CH₃。"
+    },
+    {
+      "id": "physical-8-r1-4",
+      "section": "choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "質量守恆與系統邊界",
+      "answer": "B（安安、小馬）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "化學反應中各元素的原子只是重新組合，完整計入反應物與生成物便符合質量守恆。",
+        "開放容器也遵守此規律，只是物質可能進出秤量範圍；因此安安與小馬正確。"
+      ],
+      "pitfall": "密閉是便於實驗秤量的條件，不是守恆定律才成立的條件。"
+    },
+    {
+      "id": "physical-8-r1-5",
+      "section": "choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "開放系統的質量增減",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "碳酸鈣遇酸生成的二氧化碳逸出，留在燒杯中的質量減少。",
+        "鋼絲絨燃燒則結合空氣中的氧，固體質量增加；兩者都須計入進出的氣體。"
+      ],
+      "pitfall": "不要把容器內質量的增減，當成原子憑空產生或消失。"
+    },
+    {
+      "id": "physical-8-r1-6",
+      "section": "choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "反應係數的意義",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "N₂＋3H₂→2NH₃ 的係數比較的是分子數或莫耳數，而非不同種類的原子個數。",
+        "質量比為 28：6：34；A 把分子誤叫原子，且把氨的生成係數寫成一，故錯誤。"
+      ],
+      "pitfall": "氨是化合物分子，不存在此題所稱的「氨原子」。"
+    },
+    {
+      "id": "physical-8-r1-7",
+      "section": "choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "相對原子量的基準",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "相對原子量是以指定基準比較質量的比值，本身沒有單位。",
+        "若把碳的基準數值由 12 改成 6，所有相對數值同比縮小，但任兩原子的實際質量比不變。"
+      ],
+      "pitfall": "更改刻度不會改變原子的真實質量。"
+    },
+    {
+      "id": "physical-8-r1-8",
+      "section": "choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "化學反應式的資訊",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "化學反應式用反應物、生成物及係數表達實際發生的物質轉換。",
+        "守恆要求各元素的原子數相同，分子總數則可改變；箭頭也不代表速率。"
+      ],
+      "pitfall": "化學式表示單一物質組成，不能和整條反應式混為一談。"
+    },
+    {
+      "id": "physical-8-r1-9",
+      "section": "choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "道耳吞模型與化學反應",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "在一般化學反應的模型中，原子種類和總數保持不變。",
+        "新物質來自原子組合方式改變，因此 D 的重新排列符合模型。"
+      ],
+      "pitfall": "此處討論化學反應，不把核反應改變元素的情況套入。"
+    },
+    {
+      "id": "physical-8-r1-10",
+      "section": "choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "碳酸鈣沉澱與密閉質量",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "碳酸根與鈣離子結合成難溶的碳酸鈣，出現白色沉澱。",
+        "圖中的瓶塞保持密閉，混合前後裝置總質量不變，也不會生成新的原子。"
+      ],
+      "pitfall": "白色混濁是固體微粒，不是無色氣泡。"
+    },
+    {
+      "id": "physical-8-r1-11",
+      "section": "choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "氣體莫耳數與天平",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "左側氮氣為 1 mol，質量 28 g；右側臭氧約 0.5 mol，質量約 24 g。",
+        "圖三左盤較重會下降，依此上皿天平的指針配置向左偏，選 B。"
+      ],
+      "pitfall": "氣球外觀與分子數不能直接比較質量，還要乘莫耳質量。",
+      "note": "使用本卷常用的亞佛加厥常數約 6×10²³ mol⁻¹，且依題設忽略浮力。"
+    },
+    {
+      "id": "physical-8-r1-12",
+      "section": "choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "蠟燭燃燒的質量邊界",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "右側蠟燭和空氣中的氧反應，生成的二氧化碳、水蒸氣離開秤量範圍。",
+        "熔化只改變狀態，若蠟油仍留在原處就不會因此變輕；所以 D 的解釋錯誤。"
+      ],
+      "pitfall": "失去質量的關鍵是產物逸出，不是固態變液態。"
+    },
+    {
+      "id": "physical-8-r1-13",
+      "section": "choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "催化劑的反應式寫法",
+      "answer": "C（依課程標記慣例；科學上有爭議）",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "本卷希望把 MnO₂ 標在箭頭上，表明它促進雙氧水分解而不被淨消耗。",
+        "C 將等量 MnO₂ 放在兩側，消去後仍得到正確的淨反應式；因此它不符合本卷慣例，卻不能說違反化學守恆。"
+      ],
+      "pitfall": "催化劑可參與反應步驟，再被再生；「不淨消耗」不等於完全不參與。",
+      "note": "官方 C 保留。IUPAC 的 catalyst 定義明列催化劑同時是反應物與產物，因此本題把兩側書寫直接判成化學錯誤並不嚴謹。"
+    },
+    {
+      "id": "physical-8-r1-14",
+      "section": "choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "由原子守恆推分子式",
+      "answer": "C（Y₂Z）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "反應物總共有 X 一個、Y 四個、Z 兩個；生成物右側另有一個 X。",
+        "剩下的四個 Y、兩個 Z 分到兩個甲分子，每個甲必為 Y₂Z。"
+      ],
+      "pitfall": "係數 2 必須乘上整個分子式，不能只乘第一個元素。"
+    },
+    {
+      "id": "physical-8-r1-15",
+      "section": "choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "莫耳數與粒子數",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "相同莫耳數代表相同數目的指定粒子，因此等莫耳的 H₂O₂ 與 H₂O 有相同分子數。",
+        "每個分子所含原子數不同，分子量也不同，所以不能再推成等質量或等原子總數。"
+      ],
+      "pitfall": "比較前先確認題目計算的是分子、氧原子還是全部原子。"
+    },
+    {
+      "id": "physical-8-r1-16",
+      "section": "choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 5,
+      "topic": "係數、分子量與剩餘反應物",
+      "answer": "B（X＝17，Y＝138）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "由質量守恆得 28＋3×2＝2X，故 X＝17。",
+        "27 g 的 B 消耗 A 為 27×28/6＝126 g，再加剩下 12 g，原有 Y＝138 g。"
+      ],
+      "pitfall": "先算真正反應的質量，再加回剩餘量。"
+    },
+    {
+      "id": "physical-8-r1-17",
+      "section": "choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "沉澱與氣體現象",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "氯化鈣與碳酸鈉混合會形成白色碳酸鈣沉澱。",
+        "表中 B 卻把現象列成無色氣泡，與反應不符；其他列的變化可成立。"
+      ],
+      "pitfall": "白色混濁與產生氣泡代表不同類型的生成物。"
+    },
+    {
+      "id": "physical-8-r1-18",
+      "section": "choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "營養標示與鈣的莫耳數",
+      "answer": "約 0.0183 mol（最接近 C；官方接受 A、C、D）",
+      "officialAnswer": "A、C、D",
+      "status": "disputed",
+      "steps": [
+        "圖六每杯鈣為 234 mg，兩杯為 468 mg；依題設一天 1200 mg，還差 732 mg＝0.732 g。",
+        "以 Ca 的莫耳質量 40 g/mol 換算，0.732÷40＝0.0183 mol；若選最接近值為 C。"
+      ],
+      "pitfall": "標示同時有每份與每 100 mL，不可把每杯 234 mg 誤當成 420 mg。",
+      "note": "原解答印 A、C、D，並非單一 C。A、D 的量也超過需求，但不是差額；C 是差額近似值。保留官方多答案並明列精確計算，不將此題當成劑量建議。"
+    },
+    {
+      "id": "physical-8-r1-19",
+      "section": "choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "質量下降曲線的判讀",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖七顯示開放裝置反應時有物質離開，之後質量趨於固定。",
+        "前三項會產生可逸出的氣體；碳酸鈉與氯化鈣形成沉澱，通常沒有氣體逸出，故 D 不符。"
+      ],
+      "pitfall": "不能因固體沉到杯底就認為整杯質量減少。"
+    },
+    {
+      "id": "physical-8-r1-20",
+      "section": "choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "分子模型配平",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原圖甲含兩個黑色原子，乙含兩個白色原子，丙含一黑兩白。",
+        "以一甲配兩乙可得到兩丙，黑色共二、白色共四皆守恆。"
+      ],
+      "pitfall": "依各顏色原子分別計數，不要只平衡分子總數。"
+    },
+    {
+      "id": "physical-8-r1-21",
+      "section": "choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "模型的莫耳質量",
+      "answer": "C（92 g）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "每個丙有一個原子量 14 的黑球與兩個原子量 16 的白球，分子量為 46。",
+        "2 mol 丙的質量為 2×46＝92 g，選 C。"
+      ],
+      "pitfall": "模型內的白球有兩個，不能當作 NO 算成 30。"
+    },
+    {
+      "id": "physical-8-r1-22",
+      "section": "choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "合成氨與氮肥",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題中反應把氮氣、氫氣轉成氨 NH₃。",
+        "氨可作製造氮肥的原料，提升可利用氮的供應，對農業糧食生產有重要作用。"
+      ],
+      "pitfall": "哈伯法直接生成氨，尿素是後續可製得的產品之一。"
+    },
+    {
+      "id": "physical-8-r1-23",
+      "section": "choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "優養化與缺氧",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "營養鹽過多可促進藻類大量繁生，其後有機物分解消耗溶氧。",
+        "這會加劇缺氧死區，故 C 說污染輸入會使死區消失，方向相反。"
+      ],
+      "pitfall": "不是藻類數量增加就永遠使水中氧氣增加，還要看呼吸與分解。",
+      "note": "只依段落判讀環境作用，不把文章中的歷史日期、產量倍數與死區總數當成已查核的現況。"
+    },
+    {
+      "id": "physical-8-r1-24",
+      "section": "choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "燃燒理論的歷史模型",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "拉瓦節以物質與氧結合解釋燃燒，能說明某些物質燃燒後質量增加。",
+        "燃素說主張可燃物放出燃素，並不是與氫結合，因此符合的是 C。"
+      ],
+      "pitfall": "不要把已被取代的燃素模型寫成現在的化學解釋。"
+    },
+    {
+      "id": "physical-8-r1-25",
+      "section": "choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 5,
+      "topic": "非金屬氧化物的酸性",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "硫燃燒的常見產物是 SO₂，溶於水後呈酸性。",
+        "鎂氧化物不應配酸性，銅氧化物也不會變成含鈣的 CaO，故 D 的三項配對正確。"
+      ],
+      "pitfall": "先檢查元素是否守恆，再判氧化物遇水的性質。"
+    },
+    {
+      "id": "physical-8-r1-26",
+      "section": "choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "含氧物質的分解與氧化",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "碳、鐵、銅在前三個式子中都與氧結合，屬本卷的氧化反應。",
+        "CaCO₃ 分解成 CaO、CO₂ 時各元素氧化數未變，並非氧化還原反應。"
+      ],
+      "pitfall": "物質化學式含氧，不表示任何反應都屬氧化。"
+    },
+    {
+      "id": "physical-8-r1-27",
+      "section": "choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "氣調保存的圖線",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "延緩呼吸通常需將氧氣降至低於一般空氣的比例，並適度提高二氧化碳。",
+        "圖 B 的氧氣下降、二氧化碳升高後維持低比例，符合此調整方向；其餘圖保留過高氧氣或變量不符。"
+      ],
+      "pitfall": "目的不是完全無氧；實際適用濃度依果品而異。",
+      "note": "題文將澱粉轉糖與耗氧呼吸連在一起是簡化敘述；保存判讀的關鍵是降低整體呼吸速率。"
+    },
+    {
+      "id": "physical-8-r1-28",
+      "section": "choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "漂白與飲用水消毒",
+      "answer": "C（官方）；B 也可成立",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "SO₂ 可用於還原性漂白，故 C 的用途配對符合課程。",
+        "但次氯酸鈉也是飲用水處理的消毒劑，B 並非科學上錯誤，不能據此確認只有 C。"
+      ],
+      "pitfall": "自來水消毒不只使用氯氣；有效成分與實際製程要分清。",
+      "note": "EPA 飲用水消毒指引列有次氯酸鈉的應用，故本題單選存在 B、C 皆可成立的問題。"
+    },
+    {
+      "id": "physical-8-r1-29",
+      "section": "choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "鎂硫燃燒表格",
+      "answer": "D（碗貴、花椒）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "硫粉是黃色而非銀灰色；鎂反應式應有 2MgO，硫反應式也須改正。",
+        "白光、藍紫色火焰及表列的氧化物遇水反應，符合本題模型，因此碗貴與花椒正確。"
+      ],
+      "pitfall": "不能因某列有一格正確，就把整位同學填的兩格都判正確。",
+      "note": "SO₂ 水溶液以 H₂SO₃ 表示是國中層次的簡化。"
+    },
+    {
+      "id": "physical-8-r1-30",
+      "section": "choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "互相搶氧表的矛盾",
+      "answer": "B（官方；表格無法支持唯一判定）",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "A 可與 BO、DO₂ 反應，E 可與 BO 反應而不能與 AO 反應，可讀出 A 高於 E、E 高於 B，且 A 高於 D。",
+        "但 B＋DO₂ 與 D＋BO 都標不反應，在本題單一活性排序模型中互相矛盾；尤其 C 的 D＞B 也無法由表成立。"
+      ],
+      "pitfall": "不要只挑支持答案的一格，必須逐格檢查同一排序是否相容。",
+      "note": "保留官方 B。原表兩個互逆搶氧組合均為叉號；若採課程的全序活性模型，資料不能產生自洽的唯一錯項。"
+    },
+    {
+      "id": "physical-8-r1-31",
+      "section": "choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "鍍鋅的防蝕作用",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "鋅表面形成的保護層可阻隔鐵與水、氧接觸，符合 B。",
+        "鋅比鐵活潑，還可在鍍層受損時優先被氧化；A、D 把活性大小說反了。"
+      ],
+      "pitfall": "防鏽效果不等於金屬本身一定比較不活潑。"
+    },
+    {
+      "id": "physical-8-r1-32",
+      "section": "choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "氮氣的保護性",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "常溫下氮氣相對不易與畫冊成分反應。",
+        "以氮氣取代含氧空氣，可降低氧化機會，關鍵是活性較小。"
+      ],
+      "pitfall": "密度、比熱與導熱性不是本題防氧化的主因。"
+    },
+    {
+      "id": "physical-8-r1-33",
+      "section": "choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "鎂還原二氧化碳",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "鎂對氧的親和力足以在燃燒條件下把 CO₂ 的氧取走。",
+        "反應 2Mg＋CO₂→2MgO＋C 中，鎂被氧化、碳被還原，故 D 可行。"
+      ],
+      "pitfall": "二氧化碳並非對所有燃燒金屬都能有效滅火。"
+    },
+    {
+      "id": "physical-8-r1-34",
+      "section": "choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "由置換表排序金屬",
+      "answer": "D（Y＞X＞Z＞W）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "X 與 YO 不反應表示 Y＞X；Z 與 XO 不反應表示 X＞Z。",
+        "Z 可與 WO 反應表示 Z＞W，串接三個關係即得 Y＞X＞Z＞W。"
+      ],
+      "pitfall": "橫列是加入的金屬，直欄是被測的氧化物，不能反讀。"
+    },
+    {
+      "id": "physical-8-r1-35",
+      "section": "choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "鈉的保存與氧化",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "鈉容易與空氣中的氧及水反應，需隔絕空氣、水分保存。",
+        "放在適當礦物油中符合 A；銅受熱會氧化，碳的氧化物水溶液也不呈鹼性。"
+      ],
+      "pitfall": "不能將所有元素燃燒的火焰顏色與所有氧化物的酸鹼性一概而論。"
+    },
+    {
+      "id": "physical-8-r1-36",
+      "section": "choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "二氧化碳的製備與碳沉積",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "大理岩的碳酸鈣與鹽酸反應會放出二氧化碳。",
+        "鎂在此氣體中燃燒會生成白色 MgO 與黑色碳，瓶壁黑色物可判為碳。"
+      ],
+      "pitfall": "白色氧化鎂和黑色碳是不同產物，不能只記其中之一。"
+    },
+    {
+      "id": "physical-8-r1-37",
+      "section": "choice",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 5,
+      "topic": "搶氧方向與活性",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "點燃的鎂仍可從 CO₂ 取得氧，顯示在本題條件下鎂比碳更容易結合氧。",
+        "因此鎂可繼續燃燒；鎂本身是氧化，CO₂ 中的碳則被還原。"
+      ],
+      "pitfall": "同一氧化還原反應不會把失氧和得氧兩方都稱為還原。"
+    },
+    {
+      "id": "physical-8-r1-38",
+      "section": "choice",
+      "label": "第 38 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "漂白劑成分的判讀",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "硫酸不是題文所指衛生筷硫系漂白處理的正確名稱；二氧化硫及其相關殘留不能改稱硫酸。",
+        "其餘敘述所列抗氧化劑、雙氧水用途和漂白水遇酸釋氯的反應方向可成立，故選 D。"
+      ],
+      "pitfall": "僅憑外觀與氣味不能確定特定化學品，更不能把相近名稱混用。"
+    },
+    {
+      "id": "physical-8-r1-39",
+      "section": "choice",
+      "label": "第 39 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "銀變黑與硫化物",
+      "answer": "C（官方；A 的還原敘述也不普遍成立）",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "題設黑色物是 Ag₂S，變黑來自銀與含硫物質反應，不能據此認定 As₂O₃ 被還原。",
+        "若硫來源是 H₂S，硫在反應前後可同為 −2 價；因此 A 所稱「硫化物必發生還原」也不是可靠通則。"
+      ],
+      "pitfall": "銀針變黑不能當成檢驗所有毒物的方法。",
+      "note": "官方 C 保留，但 A 混淆元素硫與已還原的硫化物；加拿大文物保護研究所的銀硫化說明指出水分、含硫氣體及氧等共同影響腐蝕。"
+    },
+    {
+      "id": "physical-8-r1-40",
+      "section": "choice",
+      "label": "第 40 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "城市採礦與回收處理",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "廢電子產品與拆除建材含多種材料，須經分類、拆解與適當回收程序。",
+        "D 宣稱不用分類處理即可直接還原出金屬，省略必要流程，最不合理。"
+      ],
+      "pitfall": "資源可回收不代表能免除分離與處理。"
+    },
+    {
+      "id": "physical-8-r1-41",
+      "section": "choice",
+      "label": "第 41 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "鐵粉脫氧劑與放熱",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "可被磁鐵吸引的鐵粉與氧反應，發生氧化並放出熱量。",
+        "若包裝封閉，氧由氣相轉入固態產物，整包總質量仍守恆，故 A 正確。"
+      ],
+      "pitfall": "脫氧劑容量有限；拆封後重新進氧並不保證食品永不腐敗。"
+    },
+    {
+      "id": "physical-8-r1-42",
+      "section": "choice",
+      "label": "第 42 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "從硝酸銀置換判活性",
+      "answer": "D（丙＞乙）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "丙可使銀析出，表示丙能失去電子並置換銀離子；乙不能。",
+        "依題目的金屬活性模型可得丙＞銀≥乙，因此丙＞乙；不必先排出甲與丙的完整順序。"
+      ],
+      "pitfall": "資料不足以排序所有元素時，仍可驗證局部大小關係。"
+    },
+    {
+      "id": "physical-8-r1-43",
+      "section": "choice",
+      "label": "第 43 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "氮氧化物的還原",
+      "answer": "B（還原成氮氣）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "NO 中的氮結合氧；轉成 N₂ 時失去氧，屬還原。",
+        "三效觸媒可促進這類反應，將部分氮氧化物轉成較無害的氮氣。"
+      ],
+      "pitfall": "NO 變 NO₂ 是氧化，並不是此題降低氮氧化物排放的目標。"
+    },
+    {
+      "id": "physical-8-r1-44",
+      "section": "choice",
+      "label": "第 44 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "觸媒轉化器的用途",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "觸媒促進排氣中的氧化及還原反應。",
+        "主要目的是把 CO、氮氧化物與未燃烴等轉成較無害的氣體，並非替引擎製造氧氣。"
+      ],
+      "pitfall": "「催化」表示改變反應速率，不等於增加引擎的燃料供應。"
+    },
+    {
+      "id": "physical-8-r1-45",
+      "section": "choice",
+      "label": "第 45 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 5,
+      "topic": "一氧化碳的氧化",
+      "answer": "A（CO₂）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "一氧化碳進一步與氧反應，可用 2CO＋O₂→2CO₂ 表示。",
+        "因此觸媒處理後的目標產物為二氧化碳，選 A。"
+      ],
+      "pitfall": "較低的直接毒性不代表二氧化碳完全沒有環境影響。"
+    }
+  ]
+}

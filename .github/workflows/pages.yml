@@ -88,6 +88,8 @@ jobs:
         run: python assets/study-notes/v120/tests/learning-path-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/learning-path
       - name: Validate historical solutions and paper download recovery
         run: python assets/study-notes/v120/tests/exam-solutions-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/exam-solutions
+      - name: Validate source-scoped reading additions and saved progress
+        run: python assets/study-notes/v120/tests/reading-support-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/reading-support
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -136,15 +138,16 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.1.2', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.1.3', 'Pages cache still holds earlier version'
                   assert 'data-learning-entry' in html.split('window.STUDY_DATA =')[0], 'Learning entry missing from homepage'
                   assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
                   assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'
                   assert all('question' not in u['quiz'][0] for u in data['units']), 'Full question bank blocks homepage'
+                  assert all('readingSupport' not in u for u in data['units']), 'Reading bodies block homepage'
                   with urllib.request.urlopen(notes+'delivery-manifest.json?verify='+os.environ['GITHUB_SHA'],timeout=25) as r:
                       manifest=json.load(r)
                   assert manifest['version']==data['appVersion'] and manifest['unitCount']==763
-                  assert len(manifest['papers'])==data['examSolutions']['paperCount']==15
+                  assert len(manifest['papers'])==data['examSolutions']['paperCount']==40
                   assert all('items' not in p for p in data['examSolutions']['papers']), 'Paper bodies block homepage'
                   for paper in manifest['papers']:
                       with urllib.request.urlopen(notes+paper['file'],timeout=25) as r:
@@ -153,7 +156,8 @@ jobs:
                       payload=json.loads(paper_raw)
                       expected=next(p for p in data['examSolutions']['papers'] if p['sourceId']==paper['sourceId'])
                       assert payload['sourceId']==expected['sourceId'] and len(payload['items'])==expected['totalItems']
-                      assert payload['sourceSha256']==expected['sourceSha256']
+                      source=next(p for p in data['atlas']['exams'] if p['sourceId']==paper['sourceId'])
+                      assert payload['sourceSha256']==source['sha256']
                   with urllib.request.urlopen(notes+manifest['all']['file'],timeout=25) as r:
                       content=r.read()
                   assert hashlib.sha256(content).hexdigest()==manifest['all']['sha256'], 'Published content hash mismatch'
@@ -162,6 +166,11 @@ jobs:
                   data['units']=full['units']
                   assert len(data['units'])==763
                   assert sum(len(u['quiz']) for u in data['units'])==4578
+                  reading=[u for u in data['units'] if u.get('contentMode')=='reading-guide']
+                  assert len(reading)==data['readingSupport']['total']==74
+                  for status,field in [('original-verified','originalVerified'),('edition-verified','editionVerified'),('source-needed','sourceNeeded')]:
+                      assert sum(u['readingSupport']['status']==status for u in reading)==data['readingSupport'][field]
+                  assert all(u['readingSupport']['sectionId']==u['catalogSectionId'] and u['readingSupport']['title']==u['title'] and u['readingSupportStatus']==u['readingSupport']['status'] for u in reading)
                   assert all(len(u['quiz'])>=6 for u in data['units'])
                   assert data['subjectCompletion']['workedExamples']==578
                   assert len(data['subjectCompletion']['scopes'])==66

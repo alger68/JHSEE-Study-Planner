@@ -1,0 +1,862 @@
+{
+  "schema": 1,
+  "sourceId": "11pbFThEcQkfUMRHrNxW2cfRMsLOQAO6k",
+  "sourceSha256": "430490c6f5141bdd62a4949e746613ff47ad1a25bc8c5ae9677ed27434875b4e",
+  "title": "114-2-2八年級理化科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題完成第 1～46 題原創解析，核對全部 6 個 PDF 實體頁與圖表；39 題已核對、4 題有爭議、3 題有來源或條件限制。第 38 題保留官方 B、C；並註明離子題、未配平反應式、滴定與圖線推論的限制。此範圍僅為本份歷史段考，不表示所有教材均已完成。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "單一選擇題"
+    }
+  ],
+  "items": [
+    {
+      "id": "physical-8-r2-1",
+      "section": "choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "紫甘藍指示劑",
+      "answer": "A（丙＞甲＞乙）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "依表，甲紫色為中性、乙紅色為酸性、丙綠色為鹼性。",
+        "在同一溫度下，鹼性溶液的 pH 高於中性，中性又高於酸性，所以丙＞甲＞乙。"
+      ],
+      "pitfall": "先按題給色表配酸鹼，不要用其他指示劑的顏色套用。"
+    },
+    {
+      "id": "physical-8-r2-2",
+      "section": "choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "反應速率與最終產氣量",
+      "answer": "D（一樣多）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "三管投入等質量、同成分的貝殼粉，且最後全部反應。",
+        "每莫耳碳酸鈣產生一莫耳 CO₂，因此最終氣體量相等；pH 不同主要影響反應條件與速率。"
+      ],
+      "pitfall": "不要把開始冒泡快，等同最後一定產生更多氣體。"
+    },
+    {
+      "id": "physical-8-r2-3",
+      "section": "choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "酸鹼中性與電中性",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "酸鹼中性是水溶液中的 [H⁺] 與 [OH⁻] 相等。",
+        "正負電量總和相等則是整體電中性，酸性、鹼性溶液也都須符合，不能專指酸鹼中性。"
+      ],
+      "pitfall": "離子個數相等不保證電量相等，因為離子電荷數可能不同。"
+    },
+    {
+      "id": "physical-8-r2-4",
+      "section": "choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "稀釋所需加水量",
+      "answer": "C（30 mL）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "稀釋時 NaOH 莫耳數不變，用 4×10＝1×V 得總體積 V＝40 mL。",
+        "原本已有 10 mL，在題設體積可相加時需加水 40−10＝30 mL。"
+      ],
+      "pitfall": "40 mL 是最後體積，不是新增的水量。"
+    },
+    {
+      "id": "physical-8-r2-5",
+      "section": "choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "配製莫耳濃度",
+      "answer": "B（8 g）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "500 mL＝0.5 L，需要 NaOH 為 0.4×0.5＝0.2 mol。",
+        "NaOH 莫耳質量為 23＋16＋1＝40 g/mol，需 0.2×40＝8 g。"
+      ],
+      "pitfall": "加水至總體積 500 mL，並非把固體倒入 500 mL 水。"
+    },
+    {
+      "id": "physical-8-r2-6",
+      "section": "choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "濃硫酸稀釋圖",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖 C 表示把濃硫酸慢慢加入較大量的水中，並以玻璃棒攪拌。",
+        "稀釋強烈放熱，這樣有利散熱；把少量水加到濃酸上可能局部急熱噴濺。"
+      ],
+      "pitfall": "要同時核對倒入的物質、杯中原液及是否攪拌。",
+      "note": "此為實驗室操作原理，須有教師監督與適當防護。"
+    },
+    {
+      "id": "physical-8-r2-7",
+      "section": "choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "酸與金屬反應",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題目關鍵是酸接觸活潑金屬，使金屬轉為溶液中的離子。",
+        "鎂帶遇鹽酸也是金屬與酸的反應，與此概念最接近；大理石遇酸則是碳酸鹽反應。"
+      ],
+      "pitfall": "兩種反應都可能冒泡，但金屬酸反應與碳酸鹽酸反應的氣體不同。",
+      "note": "本題只比較化學原理；實際健康風險還涉及材料、溫度、酸度與曝露量，不能僅由「有溶出」判定。"
+    },
+    {
+      "id": "physical-8-r2-8",
+      "section": "choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "氣體密度與浮升",
+      "answer": "C（丙）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中鎂帶與稀鹽酸會產生氫氣；雙氧水分解產氧，其餘兩組產 CO₂。",
+        "氫氣密度遠低於空氣，在氣球自重等條件相近時最有機會上升。"
+      ],
+      "pitfall": "氣球會不會升空還要看總重量；題目是比較四組的可能性。"
+    },
+    {
+      "id": "physical-8-r2-9",
+      "section": "choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "硫酸的解離配平",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "一個 H₂SO₄ 含兩個氫，完全解離的總式應寫 H₂SO₄→2H⁺＋SO₄²⁻。",
+        "D 漏了 H⁺ 的係數 2，原子與電荷都不守恆，因此錯誤。"
+      ],
+      "pitfall": "解離式也要同時平衡原子數與電荷。",
+      "note": "此為總體簡式；硫酸實際有逐步解離。"
+    },
+    {
+      "id": "physical-8-r2-10",
+      "section": "choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "氫氧化鈉的潮解與尿素原料",
+      "answer": "D（官方）；A 也有措辭錯誤",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "尿素的工業製備使用氨與二氧化碳等原料，不能把氫氧化鈣當作對應原料，故官方選 D。",
+        "A 把潮解歸因於二氧化碳也不精確：潮解是吸收水氣，而與 CO₂ 反應是碳酸化變質。"
+      ],
+      "pitfall": "吸水與吸收 CO₂ 可能同時發生，卻是不同的過程。",
+      "note": "本題要求單一錯項，但 A 將兩件事合寫成「碰到二氧化碳容易潮解」，因此不能把 A 當成嚴格正確敘述。"
+    },
+    {
+      "id": "physical-8-r2-11",
+      "section": "choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "酸去除碳酸鈣水垢",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "檸檬汁含酸，能與碳酸鈣反應，使固態水垢轉成可溶物並放出 CO₂。",
+        "糖水、食鹽水及米酒沒有同樣明確的酸溶解作用，故 C 最符合題意。"
+      ],
+      "pitfall": "檢查主要成分與反應性，不要只看都是可食用液體。"
+    },
+    {
+      "id": "physical-8-r2-12",
+      "section": "choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "氨的水溶性",
+      "answer": "A（利用水吸收）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "氨易溶於水，形成呈鹼性的水溶液，因此題目的處置原理是噴水吸收。",
+        "氫氧化鈉同為鹼，不能用來酸鹼中和氨；氨氣也不是無害氣體。"
+      ],
+      "pitfall": "這是專業應變的吸收原理，不能理解成一般人可自行接近外洩現場。"
+    },
+    {
+      "id": "physical-8-r2-13",
+      "section": "choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "離子化合物的化學式",
+      "answer": "D（NH₄Cl）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "NH₄⁺ 與 Cl⁻ 各一個便可使總電荷為零，式子寫成 NH₄Cl。",
+        "NaCl、CaSO₄、Na₂CO₃ 才是另外三種鹽的正確寫法，故只有 D 正確。"
+      ],
+      "pitfall": "先寫陽離子再寫陰離子，配比由電荷決定。"
+    },
+    {
+      "id": "physical-8-r2-14",
+      "section": "choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "電中性的離子比例",
+      "answer": "C（1：2：5）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "設 A⁺、B²⁺、C⁻ 的個數為 a、b、c，電中性要求 a＋2b＝c。",
+        "代入 C 得 1＋2×2＝5，正負電量相等，其餘比例不符。"
+      ],
+      "pitfall": "二價離子每個帶兩單位電荷，不可只加離子個數。"
+    },
+    {
+      "id": "physical-8-r2-15",
+      "section": "choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "離子形成的電子變化",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "鐵形成 Fe²⁺ 是失去兩個電子，形成 Fe³⁺ 是失去三個電子。",
+        "同一鐵原子比較下，Fe²⁺ 比 Fe³⁺ 多一電子；形成離子不改變原子核。"
+      ],
+      "pitfall": "正電荷越大代表失去越多電子，不是多了質子。"
+    },
+    {
+      "id": "physical-8-r2-16",
+      "section": "choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "電解質的條件",
+      "answer": "B（2 項：甲、丁）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "本課程把可在水中產生離子而導電的化合物列為電解質，且水溶液須同時有正負離子維持電中性。",
+        "金屬靠電子導電不因此稱為電解質；酸、鹼也可為電解質，正負離子個數則未必相等。"
+      ],
+      "pitfall": "此題的「中性」按酸鹼性解讀；電中性與酸鹼中性不同。"
+    },
+    {
+      "id": "physical-8-r2-17",
+      "section": "choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "醋酸是弱電解質",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "醋酸在水中可部分解離成 H⁺ 與醋酸根離子，使水溶液導電。",
+        "銅的導電機制是自由電子，酒精與蔗糖水溶液不以解離出離子導電，因此選 D。"
+      ],
+      "pitfall": "弱電解質仍然是電解質，不能把「弱」讀成「完全不解離」。"
+    },
+    {
+      "id": "physical-8-r2-18",
+      "section": "choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "溴水平衡的濃度改變",
+      "answer": "C（甲、丙）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "向溴水加入鹼會消耗 H⁺，使題給平衡朝生成 H⁺ 的方向移動，消耗有色 Br₂。",
+        "NaOH 與氨水均可使顏色轉淡；加入硫酸提高 H⁺，方向相反。"
+      ],
+      "pitfall": "比較的是移除或增加哪個平衡物種，不是只看溶液名稱。",
+      "note": "NH₄OH 是本卷對氨水的慣用簡寫；此解釋採題給的簡化酸鹼平衡模型。"
+    },
+    {
+      "id": "physical-8-r2-19",
+      "section": "choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "滴定酸度與 pH 的差異",
+      "answer": "B（每單位體積的可滴定酸度最高）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "將耗用 NaOH 體積除以雨水體積，四地依序為 0.20、0.23、0.18、0.22。",
+        "因此中山區每毫升雨水需要最多鹼來中和；在題目把「最酸」當成此指標時選 B。"
+      ],
+      "pitfall": "雨水量不同，不能只比較中和所用 NaOH 的總體積。",
+      "note": "滴定測得的是可中和的總酸量，未給酸的種類、解離度及緩衝成分，不能由此唯一推定原樣 pH 最低者。"
+    },
+    {
+      "id": "physical-8-r2-20",
+      "section": "choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "中和放熱與酚酞",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "鹽酸與 NaOH 的中和反應放熱，在題目的近似條件下使溫度上升。",
+        "原液酸性時酚酞無色，滴到鹼稍過量後呈紅色，因此由無色變紅。"
+      ],
+      "pitfall": "酚酞變色終點是略偏鹼，不能說紅色就是精確中性。"
+    },
+    {
+      "id": "physical-8-r2-21",
+      "section": "choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "酵素的催化作用",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "酵素能提供較容易進行的反應途徑，加快特定化學反應。",
+        "MnO₂ 加快雙氧水分解也是催化作用，與酵素最接近。"
+      ],
+      "pitfall": "材料活性、表面積和溫度也影響速率，但不是此題的催化劑原理。"
+    },
+    {
+      "id": "physical-8-r2-22",
+      "section": "choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "有效碰撞",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "反應粒子須有足夠能量及合適的碰撞方式，才可能完成所需鍵的改變。",
+        "因此不是每次碰撞都會生成新物質，D 正確。"
+      ],
+      "pitfall": "增加碰撞次數常能加快速率，不代表每一次碰撞都成功。"
+    },
+    {
+      "id": "physical-8-r2-23",
+      "section": "choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "放熱平衡與加熱",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "正反應的熱量寫在生成物側，表示正向放熱、逆向吸熱。",
+        "加熱使平衡偏向消耗所增加熱量的逆向；增加 A、B 或移除 C 都有利正向。"
+      ],
+      "pitfall": "平衡移動方向與反應本來是否放熱要一起看。"
+    },
+    {
+      "id": "physical-8-r2-24",
+      "section": "choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "催化劑改變途徑",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "催化劑可參與反應並在後續再生，提供另一條反應途徑。",
+        "它可加快到達平衡，但不改變同條件下的平衡組成，所以 D 正確。"
+      ],
+      "pitfall": "反應變快不等於平衡時生成物一定變多。"
+    },
+    {
+      "id": "physical-8-r2-25",
+      "section": "choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "多種指示劑交集",
+      "answer": "B（乙為 pH 8.2）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "乙使石蕊呈藍，依表須在 8.1 以上；酚酞無色，須在 8.4 以下。",
+        "再與酚紅呈紅的 pH＞8.0 取交集，8.2 可成立；甲 5.0 與丙 9.1 都位於不符合純端點顏色的區間。"
+      ],
+      "pitfall": "變色範圍中可能是混合色，不能當成完整一側的顏色。"
+    },
+    {
+      "id": "physical-8-r2-26",
+      "section": "choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "酸雨表格與 pH 方向",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "酸性越強 pH 越小，B 卻把大於 5.0 的雨列為酸雨，方向顛倒。",
+        "表中 1999 年以後的值皆低於 5.0，可支持持續酸化的判讀；B 的年數說法也不能成立。"
+      ],
+      "pitfall": "酸雨是相對於自然降水背景的酸化，不是 pH 越高越酸。",
+      "note": "本題依歷史表格作答，不把 1991～2018 年數據當成目前監測結果。"
+    },
+    {
+      "id": "physical-8-r2-27",
+      "section": "choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "增加接觸與導熱",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "攤開紙、細糖粉與劈細木材都增大反應物接觸面積，有利反應進行。",
+        "金屬叉讓肉受熱較快，主要涉及金屬導熱，因此 B 的原理不同。"
+      ],
+      "pitfall": "辨認控制變因，不要把所有「變快」都歸因於表面積。"
+    },
+    {
+      "id": "physical-8-r2-28",
+      "section": "choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "產氣逸散與反應快慢",
+      "answer": "C（乙較快，X 較大）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "左偏表示左側較重，故右側乙失去較多 CO₂，這段時間反應較快。",
+        "同質量下較小顆粒有較大表面積，因此乙的 Y 較小，甲的 X 較大。"
+      ],
+      "pitfall": "先由質量變化反推哪杯逸氣多，再判顆粒大小。"
+    },
+    {
+      "id": "physical-8-r2-29",
+      "section": "choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "辨認氨水",
+      "answer": "A（甲）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲不使藍色石蕊變紅、導電較弱，而且通 CO₂ 沒有石灰水式白色混濁，符合氨水。",
+        "氨易溶於水且呈弱鹼性，與題問的清潔劑性質相符。"
+      ],
+      "pitfall": "乙的白色混濁指向鈣化合物，不能與氨水互換。"
+    },
+    {
+      "id": "physical-8-r2-30",
+      "section": "choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "生石灰作乾燥劑",
+      "answer": "B（乙）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "乙遇 CO₂ 形成白色沉澱，可由 CaO 加水後生成的 Ca(OH)₂ 解釋。",
+        "生石灰 CaO 會與水反應而消耗水分，可作乾燥劑原料，所以選乙。"
+      ],
+      "pitfall": "題表稱 CaO 水溶液是簡寫；CaO 先與水反應生成氫氧化鈣。"
+    },
+    {
+      "id": "physical-8-r2-31",
+      "section": "choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "酸與漂白水",
+      "answer": "D（氯氣）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "丁是強酸性、導電較強且與鎂產氣明顯的鹽酸。",
+        "含次氯酸鹽的漂白水遇鹽酸可釋出有毒氯氣，故選 D。"
+      ],
+      "pitfall": "不可把兩種清潔劑混合當成增強去汙效果的方法。"
+    },
+    {
+      "id": "physical-8-r2-32",
+      "section": "choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "逐次稀釋的酸性",
+      "answer": "B（乙）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖三甲是稀鹽酸，乙又取甲一滴加水，丙則是水。",
+        "甲較酸對應紅、丙近中性對應綠，較弱酸的乙對應黃。"
+      ],
+      "pitfall": "稀釋酸是使 pH 向中性靠近，不是變成鹼。"
+    },
+    {
+      "id": "physical-8-r2-33",
+      "section": "choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "金屬產氫與碳酸鹽產氣",
+      "answer": "C（2 個）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "鎂、鋅與稀鹽酸都可產生氫氣，小量氫氣的檢驗可有爆鳴聲。",
+        "碳酸鈣與酸生成 CO₂，並非可燃氫氣，因此三者中只有兩個。"
+      ],
+      "pitfall": "有氣泡不能直接認定是氫氣。",
+      "note": "氣體檢驗屬有風險實驗，須依教師核准的微量操作進行。"
+    },
+    {
+      "id": "physical-8-r2-34",
+      "section": "choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "密閉反應與動態平衡",
+      "answer": "B（依題組的可逆模型）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目明定可逆反應，且下一題開塞後又冒泡，說明仍有可繼續反應的物質。",
+        "在此模型下，密閉時正逆反應速率相等，巨觀上不再持續放出氣泡，因此選 B。"
+      ],
+      "pitfall": "單憑不冒泡本身不能證明平衡，也可能是反應物耗盡。",
+      "note": "B 需結合題設及第 35 題的再度產氣資訊；真實碳酸鈣酸溶解還受酸量、CO₂ 壓力等條件影響。"
+    },
+    {
+      "id": "physical-8-r2-35",
+      "section": "choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "開塞移除氣體的平衡改變",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "開塞讓生成的 CO₂ 逸出，原平衡受擾，短時間正反應速率大於逆反應速率。",
+        "此時不能宣稱逸出與溶解速率仍相等，所以 D 錯誤；逆反應也不必完全停止。"
+      ],
+      "pitfall": "未達平衡不表示只剩一個方向的反應。",
+      "note": "沿用本題組指定的可逆反應模型。"
+    },
+    {
+      "id": "physical-8-r2-36",
+      "section": "choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "表面積、溫度與濃度",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "磨粉增加表面積、升溫提高有效碰撞比例、提高酸濃度增加碰撞機會，均可能加快產氣。",
+        "僅減少貝殼量不會提供上述加速條件，通常還減少可反應表面，所以選 B。"
+      ],
+      "pitfall": "反應物總量與反應速率不是同一概念。"
+    },
+    {
+      "id": "physical-8-r2-37",
+      "section": "choice",
+      "label": "第 37 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "離子數不等而電量平衡",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "甲移向正極，所以是陰離子；乙移向負極，所以是陽離子。",
+        "雖有四個甲、八個乙，其正負總電量仍須相等，才符合溶液電中性。"
+      ],
+      "pitfall": "帶正負電的粒子個數可以不同，電荷大小必須一併計入。"
+    },
+    {
+      "id": "physical-8-r2-38",
+      "section": "choice",
+      "label": "第 38 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "離子比例與電極方向衝突",
+      "answer": "B、C（官方）；依方向與個數只對應 B 的離子比",
+      "officialAnswer": "B、C",
+      "status": "disputed",
+      "steps": [
+        "四個甲陰離子和八個乙陽離子要求負離子電荷絕對值為正離子的兩倍，符合 SO₄²⁻：H⁺＝1：2 的簡化比例。",
+        "CaCl₂ 卻是陰離子：陽離子＝2：1，與題述相反；而 H₂SO₄ 又是酸，不是題幹所稱的鹽類。"
+      ],
+      "pitfall": "不能只看到一比二，就忽略哪個是陽離子與哪個是陰離子。",
+      "note": "官方印 B、C；原題同時存在「鹽類」用詞與離子方向、數目不相容的問題，故保留雙答案而不宣稱兩者都符合完整題設。"
+    },
+    {
+      "id": "physical-8-r2-39",
+      "section": "choice",
+      "label": "第 39 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "平衡仍有雙向反應",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "動態平衡時，正向與逆向反應同時進行且速率相等。",
+        "顏色表示不同含鉻物種的相對比例，不能憑黃色或橙色就斷言另一物種完全不存在。"
+      ],
+      "pitfall": "平衡不是反應停止，也不是兩種物質濃度必相等。",
+      "note": "題幹分子式未配平：2K₂CrO₄＋H₂SO₄⇌K₂Cr₂O₇＋H₂O＋K₂SO₄ 才守恆，原卷多寫了一個 H₂SO₄ 係數。概念選項 C 不變。"
+    },
+    {
+      "id": "physical-8-r2-40",
+      "section": "choice",
+      "label": "第 40 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "鉻酸根平衡與加鹼",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "碳酸鈉消耗酸，使鉻酸根／重鉻酸根平衡向黃色鉻酸根一側移動。",
+        "新平衡建立前逆反應較快；正反應仍存在，因此含「正反應停止」的 D 不成立。"
+      ],
+      "pitfall": "顏色由橙轉黃與兩個方向仍在進行並不矛盾。",
+      "note": "原卷沿用第 39 題未配平的反應式；此處以正確淨離子式 2CrO₄²⁻＋2H⁺⇌Cr₂O₇²⁻＋H₂O 解釋，保留官方 C。"
+    },
+    {
+      "id": "physical-8-r2-41",
+      "section": "choice",
+      "label": "第 41 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "由兩項檢驗推氣體來源",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "G 變黃表示氣體溶於水後呈酸性，H 出現白色沉澱又符合 CO₂ 的石灰水檢驗。",
+        "稀鹽酸與碳酸鈣可生成 CO₂，故 E、F 對應 D。"
+      ],
+      "pitfall": "只看到酸性不能鎖定氣體，須把石灰水結果一起使用。"
+    },
+    {
+      "id": "physical-8-r2-42",
+      "section": "choice",
+      "label": "第 42 題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "二氧化碳使水呈弱酸性",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "前一題推得的氣體是 CO₂，通入水後形成酸性平衡。",
+        "廣用指示劑由近中性的顏色轉向黃色，因此選 C。"
+      ],
+      "pitfall": "氫氣與氧氣雖在前段裝置產生，並不是此處致酸的主要氣體。"
+    },
+    {
+      "id": "physical-8-r2-43",
+      "section": "choice",
+      "label": "第 43 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "同一濁度終點的產物量",
+      "answer": "D（M₁＝M₂＝M₃＝M₄）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "各次以同一「＋」剛被遮住作為終點，在容器、液深等相同的實驗模型下，需要相同濁度。",
+        "因此以近似相同的硫沉澱量比較所需時間，產物量相等，快慢則不同。"
+      ],
+      "pitfall": "停止時刻不同，不代表設定的觀測終點產物量不同。",
+      "note": "相同容器、觀察光線與液深是此比較必需的控制條件。"
+    },
+    {
+      "id": "physical-8-r2-44",
+      "section": "choice",
+      "label": "第 44 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "溫度與反應時間圖",
+      "answer": "A（官方的定性示意；曲線形狀未由數據確定）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "表中溫度由 25 到 55°C 增加時，時間由 50 秒降至 5 秒，確定呈下降趨勢。",
+        "B、C 上升可排除；但四點的下降斜率並不吻合 A 所畫的逐漸平緩曲線，亦非精確直線 D。"
+      ],
+      "pitfall": "不能用「反應通常較快」取代檢查題表的實際數據。",
+      "note": "官方 A 可作下降趨勢示意，但資料只足以定性判下降，不能據此驗證 A 的凹凸與精確函數形狀。"
+    },
+    {
+      "id": "physical-8-r2-45",
+      "section": "choice",
+      "label": "第 45 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "加熱與壓縮的顏色觀察",
+      "answer": "B（加熱；壓縮選項缺少觀測時點）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "N₂O₄ 分解為 NO₂ 是吸熱方向，加熱使紅棕色 NO₂ 比例增加，B 符合題目考點。",
+        "壓縮也會立即提高有色氣體濃度，之後平衡才向 N₂O₄ 移動；不能只靠平衡箭頭推斷所有時點的色深。"
+      ],
+      "pitfall": "分子比例、體積濃度和光程都會影響顏色。",
+      "note": "官方 B 保留。原題未交代 C、D 壓縮後觀察的時間與光程，RSC 示範亦記錄壓縮立即變深、再因平衡移動而變淺，故唯一性有條件限制。"
+    },
+    {
+      "id": "physical-8-r2-46",
+      "section": "choice",
+      "label": "第 46 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "增加體積的氣體平衡",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "反應左側共有四莫耳氣體，右側有兩莫耳。",
+        "固定溫度增大容積、降低壓力，平衡偏向氣體粒子較多的左側，氮氣和氫氣的量增加。"
+      ],
+      "pitfall": "分子數增加不代表濃度一定增加，因容器體積也變大。"
+    }
+  ]
+}

@@ -1,0 +1,837 @@
+{
+  "schema": 1,
+  "sourceId": "1PnrXy3WNh36U85zGrEf9L_anYI--ciTx",
+  "sourceSha256": "059add5422521943a9a4aecbbb5a94cb6246ceaaab932ed69a0098588ad199a5",
+  "title": "114-2-2九年級社會科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "逐頁檢視 7 個實體頁面，完整涵蓋地理第 1–15 題、歷史第 16–30 題、公民第 31–45 題，共 45 題。第 7 頁為官方解答。第 2、40 題因必要條件不足列核對有限，第 45 題保留官方答案並註明 WTO 會員敘述錯誤。題幹的近期新聞與未註明年代的排名不另當作已核實事實。",
+  "sections": [
+    {
+      "id": "geography",
+      "title": "地理｜第 1–15 題"
+    },
+    {
+      "id": "history",
+      "title": "歷史｜第 16–30 題"
+    },
+    {
+      "id": "civics",
+      "title": "公民｜第 31–45 題"
+    }
+  ],
+  "items": [
+    {
+      "id": "social-9-r2-geography-01",
+      "section": "geography",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "伊斯蘭飲食規範",
+      "answer": "C；牛肉漢堡與可樂最符合題目的食材排除條件。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先排除明列酒類與豬肉的選項，因其不符合穆斯林飲食禁忌。",
+        "牛肉本身並非禁食肉類，所以 C 是題目預期配對；實際清真飲食仍須確認屠宰、配料及製作程序。"
+      ],
+      "pitfall": "把沒有豬肉或酒精，誤認為任何餐廳做出的牛肉料理都已取得清真資格。"
+    },
+    {
+      "id": "social-9-r2-geography-02",
+      "section": "geography",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "食物里程與碳足跡",
+      "answer": "官方 D 以南韓距臺灣最近作答；實際總碳足跡無法由現有資料確定。",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "若假設進口重量、運具與其他條件相同，較短距離通常可減少運輸階段排放。",
+        "碳足跡還包含原料、生產、冷藏、烹調與廢棄等階段，題目未給這些資料，不能證明湯飯整體排放最低。"
+      ],
+      "pitfall": "把運輸距離當成碳足跡的全部，忽略不同食材與生產方式。",
+      "note": "官方為 D。可核對地理距離的命題意圖，但缺少生命週期、運具、重量等必要條件，無法獨立確認四種餐點的實際碳足跡排序。"
+    },
+    {
+      "id": "social-9-r2-geography-03",
+      "section": "geography",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "基改作物分布圖",
+      "answer": "C；前五大種植國中多數位於美洲，玉米、棉花是重要基改作物。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "從圓餅圖讀出美國、巴西、阿根廷、加拿大與印度，前四國屬美洲。",
+        "基改種植也包含非糧食作物棉花，不能推論所有主要種植國都是糧食出口大國。"
+      ],
+      "pitfall": "把基改技術與「國土狹小」「必然集約」綁成固定關係。"
+    },
+    {
+      "id": "social-9-r2-geography-04",
+      "section": "geography",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "高緯度氣候與農產價格",
+      "answer": "D；俄羅斯較寒冷的氣候限制蔬菜生產。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "寒冷季節長、生長季短，露天栽培蔬菜受到溫度限制。",
+        "溫室、保溫或運輸可能增加供應成本，較能解釋題表花椰菜價差；表格不能證明每種俄國食品都較貴。"
+      ],
+      "pitfall": "看到單一蔬菜價差，就推論俄羅斯所有商品或所有農產的價格相同方向。"
+    },
+    {
+      "id": "social-9-r2-geography-05",
+      "section": "geography",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "法國農業與歐洲定位",
+      "answer": "A；己為法國。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "北部平原小麥、中南部葡萄與園藝農業的組合，指向法國。",
+        "在歐洲圖定位英吉利海峽以南、德國以西的己，完成國家與代號配對。"
+      ],
+      "pitfall": "把題幹未註明年份的全球排名當成永久排名；定位主要靠農業分布與位置。"
+    },
+    {
+      "id": "social-9-r2-geography-06",
+      "section": "geography",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "全球食物貿易與里程",
+      "answer": "A；阿根廷牛肉到臺灣的運輸距離通常比越南咖啡遠。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "阿根廷位於南美洲，越南位於鄰近臺灣的東南亞。",
+        "比較來源與消費地的空間距離，可判斷前者食物里程較長；這不等於已完成總碳排比較。"
+      ],
+      "pitfall": "混淆食物里程、進口重量比例與以熱量衡量的糧食自給率。"
+    },
+    {
+      "id": "social-9-r2-geography-07",
+      "section": "geography",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "雲林定位與農產配送",
+      "answer": "D；圖中 10 為雲林，公路貨運可利用國道 1 號。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先依彰化以南、嘉義以北的位置辨認雲林縣代號 10。",
+        "生鮮蔬果需機動配送至多處市場，貨車走公路較符合題意；D 的梅花形 1 號標誌是國道。"
+      ],
+      "pitfall": "認出縣市卻選錯運輸標誌，或把高鐵、臺鐵當成一般蔬果配送主力。"
+    },
+    {
+      "id": "social-9-r2-geography-08",
+      "section": "geography",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "乾燥地區的引水技術",
+      "answer": "C；新疆使用坎井。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "坎井透過地下渠道引水，能減少乾燥環境中的蒸發損失。",
+        "新疆綠洲農業的缺水條件與此技術相符；伊朗不能直接配成兩河流域取水。"
+      ],
+      "pitfall": "只因同屬乾燥區，就把不同國家的河川、水井與沿海淡化方式任意互換。"
+    },
+    {
+      "id": "social-9-r2-geography-09",
+      "section": "geography",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "麥加方位判讀",
+      "answer": "B；澳洲。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先看指示圖的箭頭朝西北，再找位於麥加東南方的地區。",
+        "澳洲與此相對位置相符；中國到麥加主要偏西或西南，不符合圖示。"
+      ],
+      "pitfall": "把朝拜者所在地與麥加的位置倒過來，造成方向相反。"
+    },
+    {
+      "id": "social-9-r2-geography-10",
+      "section": "geography",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "美國與澳洲的農牧業",
+      "answer": "B；兩國皆有面向市場的大規模農牧業及小麥、牛肉出口。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先由題圖辨識美國與澳洲，再比較共同的產業特徵。",
+        "兩國都有廣大農牧空間與商業化生產；南北半球季節相反，不能說二月同為地中海型氣候雨季。"
+      ],
+      "pitfall": "只看到兩國都有地中海型氣候，就忽略二月在兩半球所屬季節不同。"
+    },
+    {
+      "id": "social-9-r2-geography-11",
+      "section": "geography",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "朝鮮半島與中國經濟區",
+      "answer": "A；環渤海經濟圈。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "朝鮮半島西側面向黃海，鄰近中國東北與華北沿海。",
+        "四個選項中，環渤海區域位置最接近；喀什、珠三角與西部經濟帶距離較遠。"
+      ],
+      "pitfall": "被題幹人物新聞分散注意力；本題可由位置作答，不須認定其人事敘事真實。"
+    },
+    {
+      "id": "social-9-r2-geography-12",
+      "section": "geography",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "大洋洲島群劃分",
+      "answer": "C；關島屬密克羅尼西亞，夏威夷屬玻里尼西亞。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先以太平洋島群的文化地理分區，分別定位關島與夏威夷。",
+        "核對兩者所屬島群即可選 C；季風不能被當作決定飛彈航速的簡單順風條件。"
+      ],
+      "pitfall": "把海流、季風和飛彈動力套成同一種移動原理。"
+    },
+    {
+      "id": "social-9-r2-geography-13",
+      "section": "geography",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "美國稻作產區",
+      "answer": "B；丙為加州一帶，戊為南部產區。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "依文中的加州及密西西比河下游、墨西哥灣周邊州份辨認西部與南部兩區。",
+        "這些地方具灌溉與適合稻作的生長條件，對應圖中丙、戊。"
+      ],
+      "pitfall": "原文把「前五名」列成六國，且中粒米敘述前後不一；不能據此改掉加州與南部的實際產區。"
+    },
+    {
+      "id": "social-9-r2-geography-14",
+      "section": "geography",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "農場規模與生產成本",
+      "answer": "D；臺灣農場規模較小，較難充分分攤機械與經營成本。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "同一米種也會因農場規模、投入成本與經營方式不同而形成價差。",
+        "題目要比較規模經濟：較小農場的固定成本分攤較不利，支持 D；價格表本身不能證明只有單一原因。"
+      ],
+      "pitfall": "把低售價必然歸因於高單位面積產量，忽略規模、工資、通路與運輸。"
+    },
+    {
+      "id": "social-9-r2-geography-15",
+      "section": "geography",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "在地糧食的競爭優勢",
+      "answer": "A；在地供應具有縮短運輸與保持新鮮的優勢。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "臺灣米可縮短從產地到消費者的運送過程，較有利於掌握供應與新鮮度。",
+        "表中臺灣米並非最低價，也不能僅據產地判定人人都覺得口感更好，故 A 最合題意。"
+      ],
+      "pitfall": "將主觀口感或必然低價，當作所有本地稻米共同具備的優勢。"
+    },
+    {
+      "id": "social-9-r2-history-16",
+      "section": "history",
+      "label": "第 16 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "俄國革命與共產國際",
+      "answer": "D；1921 年中共成立與共產國際的協助有關。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "列寧領導的十月革命推翻臨時政府，不能與較早使沙皇退位的革命混同。",
+        "共產國際推動各地共產運動；中共成立與其聯繫符合時序，重工業五年計畫則主要連結史達林。"
+      ],
+      "pitfall": "把沙皇、臨時政府、列寧與史達林的事件全部合併成一次革命。"
+    },
+    {
+      "id": "social-9-r2-history-17",
+      "section": "history",
+      "label": "第 17 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "凡爾賽條約與戰間期不滿",
+      "answer": "C；德國對苛刻戰後安排的不滿。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "一戰後德國承受領土、軍備與賠款等限制，國內產生屈辱與修約訴求。",
+        "這些情緒可被激進政治力量利用，是分析二戰背景的一項因素，但不是二戰必然發生的唯一原因。"
+      ],
+      "pitfall": "把戰後不滿直接當成侵略合理化的理由，或認為條約自動決定所有後果。"
+    },
+    {
+      "id": "social-9-r2-history-18",
+      "section": "history",
+      "label": "第 18 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "戰間期的時間界線",
+      "answer": "B；1917 年十月革命發生於一戰期間。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "戰間期通常指 1918 年一戰結束至 1939 年二戰爆發之間。",
+        "十月革命在 1917 年，早於這段時間；經濟大恐慌、法西斯興起與九一八事件則落在戰間期。"
+      ],
+      "pitfall": "以「革命結果影響戰後」推成革命本身就發生於戰間期。"
+    },
+    {
+      "id": "social-9-r2-history-19",
+      "section": "history",
+      "label": "第 19 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "希特勒取得政權的方式",
+      "answer": "D 為不符合敘述；他不是靠成功政變直接取得全國政權。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "希特勒曾發動 1923 年啤酒館政變，但該次政變失敗。",
+        "他在 1933 年被任命為總理，隨後以壓制反對者與制度破壞建立獨裁，不能改寫成政變成功登臺。"
+      ],
+      "pitfall": "把「曾企圖政變」和「藉那次政變成功掌權」當成同一件事。"
+    },
+    {
+      "id": "social-9-r2-history-20",
+      "section": "history",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "世界大戰與婦女參政",
+      "answer": "A；婦女社會地位提升，部分國家逐步擴大婦女投票權。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "大量男性赴前線後，婦女投入工廠與其他戰時工作，顯示她們的重要貢獻。",
+        "戰後參政權運動在一些國家取得進展，但各國時間不同，並非同一天全球普選。"
+      ],
+      "pitfall": "把「逐漸獲得」讀成一戰結束後所有女性立即擁有完全平等權利。"
+    },
+    {
+      "id": "social-9-r2-history-21",
+      "section": "history",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "美國參與一戰的背景",
+      "answer": "C；德國的無限制潛艇戰。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "珍珠港事件促使美國參與二戰；本題要找一戰中促成美國參戰的對應因素。",
+        "無限制潛艇戰威脅航運與美國利益，是 1917 年美國參戰的重要背景，並非塞拉耶佛事件本身。"
+      ],
+      "pitfall": "把大戰爆發的導火線和美國較晚參戰的原因混為一談。"
+    },
+    {
+      "id": "social-9-r2-history-22",
+      "section": "history",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "古巴飛彈危機",
+      "answer": "B；1962 年古巴危機。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖中威脅範圍從美國南方的古巴向外延伸，先定位部署地點。",
+        "蘇聯在古巴部署飛彈引發美蘇高度軍事對峙，符合古巴危機。"
+      ],
+      "pitfall": "只看到美蘇對抗就選任何冷戰戰爭，忽略飛彈位置。"
+    },
+    {
+      "id": "social-9-r2-history-23",
+      "section": "history",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "諾曼第登陸的地點與作用",
+      "answer": "A；戊為法國、丁為德國。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "大君主行動從法國諾曼第登陸，開闢西歐戰場，故先選法國的戊。",
+        "這與其他戰線共同促成德國戰敗投降，對應丁；不是登陸當天德國就投降。"
+      ],
+      "pitfall": "題幹「一天 25 萬人」不準確；帝國戰爭博物館列約 15.6 萬人，不應照抄錯誤數字。"
+    },
+    {
+      "id": "social-9-r2-history-24",
+      "section": "history",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "戈巴契夫改革",
+      "answer": "C；戈巴契夫。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "晚期蘇聯面臨經濟與政治困境，戈巴契夫推行改革及開放。",
+        "他亦改善與西方關係，最終在蘇聯解體時辭職，與題述時代相符。"
+      ],
+      "pitfall": "把晚期蘇聯的改革開放與史達林時代的集中控制、清洗混同。"
+    },
+    {
+      "id": "social-9-r2-history-25",
+      "section": "history",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "華沙公約組織的年代",
+      "answer": "B；華沙公約組織成立不屬戈巴契夫執政時期。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "華沙公約組織成立於 1955 年，早於戈巴契夫 1985 年上臺。",
+        "德國統一、東歐民主化與蘇聯解體則集中在其執政末期前後。"
+      ],
+      "pitfall": "只因事件與蘇聯有關，就忽略相隔數十年的領導人任期。"
+    },
+    {
+      "id": "social-9-r2-history-26",
+      "section": "history",
+      "label": "第 26 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "冷戰第三世界與不結盟",
+      "answer": "A；反帝國、反殖民主義。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "冷戰語境的第三世界常連結亞非拉新興國家及不結盟取向。",
+        "其共同訴求包括擺脫殖民支配，不能概括為全都依附美蘇或全是工商發達國家。"
+      ],
+      "pitfall": "把「第三世界」當成固定貧富排名，而忽略原有政治歷史語境。"
+    },
+    {
+      "id": "social-9-r2-history-27",
+      "section": "history",
+      "label": "第 27 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "柏林圍牆與冷戰背景",
+      "answer": "D；開羅會議屬二戰時期。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "柏林圍牆建於 1961 年，是冷戰東西方對立的象徵。",
+        "第七艦隊、越戰與以阿衝突的題述事件屬戰後背景；1943 年開羅會議早於冷戰。"
+      ],
+      "pitfall": "看到美國或戰爭字眼就歸入冷戰，沒有先比對年代。"
+    },
+    {
+      "id": "social-9-r2-history-28",
+      "section": "history",
+      "label": "第 28 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "聯合國的集體安全機制",
+      "answer": "B；安理會可依憲章授權採取軍事行動。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "國際聯盟與聯合國皆以和平為目標，但美國只加入後者，亦非只收戰勝國。",
+        "聯合國憲章設有集體安全措施；實際兵力由會員等提供，不能理解成安理會自有一支常備國家軍隊。"
+      ],
+      "pitfall": "把具有授權武力的制度，誤當任何衝突都能不受程序限制立即出兵。"
+    },
+    {
+      "id": "social-9-r2-history-29",
+      "section": "history",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "原子彈受災城市",
+      "answer": "C；長崎。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖示原爆圓頂在廣島，另一個遭原子彈轟炸的日本城市是長崎。",
+        "長崎亦是江戶時期對外交流與蘭學傳播的重要城市，符合 C 的線索。"
+      ],
+      "pitfall": "將廣島原爆圓頂與和平紀念資料館視為同一棟建築；題幹名稱不夠精確。"
+    },
+    {
+      "id": "social-9-r2-history-30",
+      "section": "history",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "門羅主義與姑息政策",
+      "answer": "D 為錯誤敘述；門羅主義不是姑息主義。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "門羅主義在十九世紀提出反對歐洲繼續殖民或干預美洲事務的立場。",
+        "姑息政策主要指戰間期對侵略國的退讓作法，不能用它命名門羅的政策。"
+      ],
+      "pitfall": "只因兩者都談避免衝突就混用；歐洲王朝瓦解也不能單獨歸因於威爾遜。"
+    },
+    {
+      "id": "social-9-r2-civics-31",
+      "section": "civics",
+      "label": "第 31 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "習俗的社會規範",
+      "answer": "B；以單數金額包奠儀的習俗。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "食物諧音表達祝福，重點在社會流傳的象徵與慣例。",
+        "奠儀金額的慣例同屬習俗；親權由法律規範、以神明監督則連結宗教。"
+      ],
+      "pitfall": "把大家常做的事情全部當成法律強制要求。"
+    },
+    {
+      "id": "social-9-r2-civics-32",
+      "section": "civics",
+      "label": "第 32 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "匯率與觀光購買力",
+      "answer": "A；乙國旅客赴甲國的消費相對便宜，觀光需求有上升誘因。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "1 甲幣可換乙幣由 33.8 降為 31.3，代表甲幣相對乙幣貶值，乙國旅客用同額乙幣可換更多甲幣。",
+        "甲幣相對丙幣則升值，進口同額丙幣計價天然氣所需甲幣較少；不能由匯率直接斷言出口商利潤必減。"
+      ],
+      "pitfall": "未先確認報價方向，就把兌換數字下降誤判成甲幣升值。"
+    },
+    {
+      "id": "social-9-r2-civics-33",
+      "section": "civics",
+      "label": "第 33 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "懲罰性賠償與誘因",
+      "answer": "C；以負向金錢誘因降低不法行為。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "加害人可能負擔額外賠償，提高違法的預期成本，具有嚇阻作用。",
+        "賠償交付被害人，屬民事責任脈絡，不能因名稱有「懲罰」就改稱刑罰或行政罰鍰。"
+      ],
+      "pitfall": "把罰金、罰鍰與損害賠償都當成同一種金錢責任。"
+    },
+    {
+      "id": "social-9-r2-civics-34",
+      "section": "civics",
+      "label": "第 34 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "兒少閱聽保護與電影分級",
+      "answer": "D；兒童及少年福利與權益保障法。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "兩人都未滿 15 歲，不符合輔 15 級電影的入場年齡。",
+        "電影業者應依分級保護規範拒絕不符資格者，與保障兒少身心發展的目的相符。"
+      ],
+      "pitfall": "把「家長同意」想成可以無條件取消所有年齡分級限制。"
+    },
+    {
+      "id": "social-9-r2-civics-35",
+      "section": "civics",
+      "label": "第 35 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "少年年齡與刑事責任",
+      "answer": "C；13 歲者不受刑罰，但仍可能接受少年保護處分。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "刑法以未滿 14 歲為不罰界線，13 歲者不能按一般刑罰處罰。",
+        "14 歲者已不同；重大犯罪可能進入少年刑事程序，不能說最重一定只有感化教育。"
+      ],
+      "pitfall": "將刑事不罰解讀成法院完全不處理，或直接套用民法行為能力年齡。"
+    },
+    {
+      "id": "social-9-r2-civics-36",
+      "section": "civics",
+      "label": "第 36 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "部落會議與核定制度",
+      "answer": "B；部落會議是部落公共決策的重要中心。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "部落會議讓族人討論共同事務、形成集體意思，具有政治組織功能。",
+        "法定部落涉及原住民族基本法及中央原民主管機關核定，不是只由縣政府核定，也不是完全無需程序。"
+      ],
+      "pitfall": "把部落自然形成的社會歷史，與法規上的核定身分混為一談。"
+    },
+    {
+      "id": "social-9-r2-civics-37",
+      "section": "civics",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "部落的政治組織功能",
+      "answer": "C；基本政治組織。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題述部落對礦場開發召開會議並表決，展現共同決策與代表意見。",
+        "這是處理公共利益的政治功能，不是祭祀、產品分配或語言教學活動。"
+      ],
+      "pitfall": "只因議題涉及土地生產，就忽略實際作為是集體表決與決策。"
+    },
+    {
+      "id": "social-9-r2-civics-38",
+      "section": "civics",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "縣轄鄉居民的地方選票",
+      "answer": "D；縣長、縣議員、鄉長、鄉民代表及村長。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "表中長嶺部落位於宜蘭縣大同鄉，先辨識其縣、鄉、村的行政層級。",
+        "地方選舉對應五類民選職位；立委是中央選舉，直轄市原住民區長與區民代表亦不適用此鄉。"
+      ],
+      "pitfall": "只因具有原住民族身分，就加上不同地方制度下的區長與區民代表選票。"
+    },
+    {
+      "id": "social-9-r2-civics-39",
+      "section": "civics",
+      "label": "第 39 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "同類方案的表決順序",
+      "answer": "A；依四個地點方案提出的先後排列。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題目將四者視為同一謝師宴地點的平行選項，按提出順序處理。",
+        "最後方案已有兩人附議，依一般至少一人附議的要求可成立，不能因支持少就刪除；通過其中一案後不必再把其餘案全數表決。"
+      ],
+      "pitfall": "把方案的附議人數當成已完成正式表決的贊成票數。"
+    },
+    {
+      "id": "social-9-r2-civics-40",
+      "section": "civics",
+      "label": "第 40 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "書面提案與會議中的權宜問題",
+      "answer": "官方 A 預設會前方案是書面提案；題幹未交代形式，尚無法確證。",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "會議規範把書面提出的動議稱為提案，但「在會前提出方案」本身不等於已證明用書面。",
+        "會中聽不清發言屬保障參與權益的權宜問題，不是檢舉議事程序錯誤的秩序問題，因此 D 也不成立。"
+      ],
+      "pitfall": "由提出時間反推必為書面；判斷提案仍需知道提出形式。",
+      "note": "官方為 A。若依課堂預設把會前兩案視為正式書面提案，A 可成立；原題未提供該事實，故保留答案並標示資料限制，不能聲稱已獨立證實兩人都以書面呈現。"
+    },
+    {
+      "id": "social-9-r2-civics-41",
+      "section": "civics",
+      "label": "第 41 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "集會表意與自由權",
+      "answer": "A；與人身自由同屬憲法自由權保障。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "團體公開抗議與表達修法意見，主要涉及集會、言論等自由。",
+        "警方逮捕須依法定程序是人身自由保障，分類最接近；禁止歧視屬平等，罷免屬參政，財產權另有保障。"
+      ],
+      "pitfall": "只因訴求與政府有關，就一律把抗議行動當成選舉、罷免等參政權。"
+    },
+    {
+      "id": "social-9-r2-civics-42",
+      "section": "civics",
+      "label": "第 42 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "法律的位階與修正程序",
+      "answer": "B；法律位階，由立法院審議、總統公布。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "少年事件處理法是立法院制定的法律，位階低於憲法、高於行政命令。",
+        "修正須經立法程序，不能僅由行政院自行審核後施行；總統負責公布而非取代立法院逐條審議。"
+      ],
+      "pitfall": "看見法規名稱有「法」就把它當憲法，或將行政命令與法律修改程序混用。"
+    },
+    {
+      "id": "social-9-r2-civics-43",
+      "section": "civics",
+      "label": "第 43 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "全球經濟相互依存",
+      "answer": "D；一地事件會透過產業鏈影響其他國家。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "能源運輸中斷與價格變化可傳到各國生產成本、物價及市場。",
+        "這種跨國經濟傳導，與疫情影響他國產業鏈最相近；飲食文化擴散則屬另一面向。"
+      ],
+      "pitfall": "只看到跨國組織名稱便選政治合作，忽略題目著重經濟衝擊的傳播。"
+    },
+    {
+      "id": "social-9-r2-civics-44",
+      "section": "civics",
+      "label": "第 44 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "影像查證與媒體識讀",
+      "answer": "B；媒體影像未必真實，需培養查證能力。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "電玩畫面可能被移花接木成戰爭消息，影像存在不代表所配敘事真實。",
+        "應追查最早來源、畫面脈絡與可靠查核資訊，再決定是否相信或轉傳。"
+      ],
+      "pitfall": "把看起來逼真的影片直接當成現場紀錄；本解析也不替題幹整段新聞背書。"
+    },
+    {
+      "id": "social-9-r2-civics-45",
+      "section": "civics",
+      "label": "第 45 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "國際組織的會員資格",
+      "answer": "官方 C 的全球議題方向可理解，但「成員皆為主權國家」不適用 WTO，沒有完全正確的選項。",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "題幹同時指世界貿易組織與聯合國相關機構，它們屬政府間合作，不是民間自發的 NGO。",
+        "WTO 協定明定具自主對外商務權的個別關稅領域也可加入，不能將所有會員都限定為主權國家。"
+      ],
+      "pitfall": "把政府間組織等同「每一個會員一定是主權國家」，忽略組織條約的具體規定。",
+      "note": "官方為 C。WTO 入會資格包含個別關稅領域，C 使用「皆」造成事實錯誤；A、D 的民間組織定位與 B 的區域性定位也不符合題述全球組織。"
+    }
+  ]
+}

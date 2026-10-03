@@ -1,0 +1,926 @@
+{
+  "schema": 1,
+  "sourceId": "1jnfOi9iJsZWlFMjb6PUrNiu925sRa18Y",
+  "sourceSha256": "758a20a72ebd5f2e2e102216217a975f499c805ae231920ff7539a39e106fc51",
+  "title": "114-2-1九年級國文科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "共50題：第一大題1至35，第二大題36至50。已逐頁目視PDF第1至7頁，答案在實際第7頁。第30、33題以O. Henry公開英文原作核身分與光線，第32題以江鵝公開文章核幽默前文；各題註明未取得教材完整中文版本。第20題區分八月的秋季時序與冬寒意象，保留命題前提爭議；第15題原卷韻腳列表漏下字，依完整曲式說明；健康、遊戲及新聞材料均以題內閱讀理解為範圍，不將文內宣稱等同外部實證。",
+  "sections": [
+    {
+      "id": "general",
+      "title": "一、選擇題"
+    },
+    {
+      "id": "reading",
+      "title": "二、題組題"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-9-r1-general-01",
+      "section": "general",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "形近字音",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "讒與饞皆讀ㄔㄢˊ，A相同。",
+        "崖與捱、兩個載、怙與沽各有不同讀音，須依詞義選音。"
+      ],
+      "pitfall": "載貨為ㄗㄞˋ，千載為ㄗㄞˇ。"
+    },
+    {
+      "id": "chinese-9-r1-general-02",
+      "section": "general",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "犀字的兩種用法",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "心有靈犀與犀利都用犀，D相同。",
+        "其他組為提／堤、險／顯、馥／腹。"
+      ],
+      "pitfall": "犀利不是希利。"
+    },
+    {
+      "id": "chinese-9-r1-general-03",
+      "section": "general",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "餉的動詞義",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "蔗葉餉群犀是以蔗葉供給動物食用。",
+        "餉可作餵養、供給飲食解，故D；扶疏非凋零，教在任教為任使。"
+      ],
+      "pitfall": "煙波是水面煙霧，不是田野霧氣。"
+    },
+    {
+      "id": "chinese-9-r1-general-04",
+      "section": "general",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "黃昏的共同義",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "昏鴉指黃昏時的鴉，晨昏定省的昏亦指傍晚。",
+        "B兩字同義；機心與機會、市場與購買均不同。"
+      ],
+      "pitfall": "昏鴉不是昏迷的烏鴉。"
+    },
+    {
+      "id": "chinese-9-r1-general-05",
+      "section": "general",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "文句正字",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B的蕭颯、渲染、淋漓盡致用字均合。",
+        "A應揶揄，C應瀲灩，D應頃刻。"
+      ],
+      "pitfall": "不要把頃刻寫成傾倒的傾。"
+    },
+    {
+      "id": "chinese-9-r1-general-06",
+      "section": "general",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "水流與水聲",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "涓涓形容細小緩流，並非直接模擬水聲。",
+        "C用它修飾溪水聲，與本題區分狀態及聲音的用法不合。"
+      ],
+      "pitfall": "描水聲可用潺潺，別把相近疊詞當作完全互換。"
+    },
+    {
+      "id": "chinese-9-r1-general-07",
+      "section": "general",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "地勢與防禦",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "天險及巨舶難犯連結地形與阻敵效果。",
+        "D概括防禦價值；鯤身指沙洲形勢，不能按字面當魚翻騰。"
+      ],
+      "pitfall": "鐵板沙不是深水礁岩港。"
+    },
+    {
+      "id": "chinese-9-r1-general-08",
+      "section": "general",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "結果後接原因",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "原句先說路欲迷，再用茂密蔗田解釋。",
+        "A先說知道不是雪，再以聞到暗香說明原因，關係相同。"
+      ],
+      "pitfall": "雖、況等連詞分別提示轉折、遞進。"
+    },
+    {
+      "id": "chinese-9-r1-general-09",
+      "section": "general",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "漁父的自我定位",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "曲中先列水岸景物，接著以忘機友定位漁父生活。",
+        "再以傲視萬戶侯翻轉功名價值，C符合由景入情再評論的層次。"
+      ],
+      "pitfall": "秋江已點季節，不可解為春日。"
+    },
+    {
+      "id": "chinese-9-r1-general-10",
+      "section": "general",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "竹枝詞的民歌來源",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "竹枝詞源於巴蜀一帶民歌，語言通俗而富地方生活情調。",
+        "A合此特性，不能等同宮廷題材的排律。"
+      ],
+      "pitfall": "文人仿作也不表示一定使用深奧典故。"
+    },
+    {
+      "id": "chinese-9-r1-general-11",
+      "section": "general",
+      "label": "一、第11題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "反問的邏輯疑問",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "既有之指既然自己已有梨。",
+        "何不自食追問為何還向別人討，B最直接呈現疑問。"
+      ],
+      "pitfall": "不要擅自加入要求檢驗法術的後續行動。"
+    },
+    {
+      "id": "chinese-9-r1-general-12",
+      "section": "general",
+      "label": "一、第12題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "植物外觀譬喻",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "葉同鳳尾用鳳尾的展開形態描述葉片。",
+        "B的羽狀外觀最合；其餘選項與無旁枝、澀辣或口唇紅相反。"
+      ],
+      "pitfall": "本題解讀歷史描寫，不能由此推成食用建議。"
+    },
+    {
+      "id": "chinese-9-r1-general-13",
+      "section": "general",
+      "label": "一、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "轉折與收束排序",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "雖無必先接卻有，故丁乙相連；甲接著具體指出自然中的朋友。",
+        "再以戊傲視權貴，丙回扣漁父身分收束，順序丁乙甲戊丙。"
+      ],
+      "pitfall": "不能把收尾自稱提前而破壞雖與卻的轉折。"
+    },
+    {
+      "id": "chinese-9-r1-general-14",
+      "section": "general",
+      "label": "一、第14題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "感官摹寫辨識",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "A可見根牆形貌，B、C含味覺、嗅覺或口感。",
+        "D只交代時日、祭儀與祈願，未具體描寫感官經驗。"
+      ],
+      "pitfall": "莊重是整體性質，未必就是感官細節。"
+    },
+    {
+      "id": "chinese-9-r1-general-15",
+      "section": "general",
+      "label": "一、第15題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "韻腳與季節",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甲可由鴉、風、水想像相應聲音，丁正確概括借景抒愁。",
+        "乙漏了夕陽西下的下，丙將秋風誤作夏季薰風，故甲丁選B。"
+      ],
+      "pitfall": "元曲用韻需逐句檢查，不能只列前三句及末句。"
+    },
+    {
+      "id": "chinese-9-r1-general-16",
+      "section": "general",
+      "label": "一、第16題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "散曲語言特色",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "散曲可使用口語與襯字，句式依曲牌而較靈活。",
+        "B為合理比較；靈活不代表完全沒有格律或對仗。"
+      ],
+      "pitfall": "不要把相對自由誇大為毫無限制。"
+    },
+    {
+      "id": "chinese-9-r1-general-17",
+      "section": "general",
+      "label": "一、第17題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "哀悼關係",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目指定丈夫悼亡妻。",
+        "鼓盆之戚指喪妻之痛；喪明多指喪子、伯牙絕弦悼知音、風木指父母。"
+      ],
+      "pitfall": "先核對亡者與生者關係。"
+    },
+    {
+      "id": "chinese-9-r1-general-18",
+      "section": "general",
+      "label": "一、第18題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "抽象情思寄於景物",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "枯藤、昏鴉、瘦馬等景象共同營造羈旅孤寂。",
+        "以外在景物承載情思，C的情景交融最合。"
+      ],
+      "pitfall": "不是全篇直接敘述心理分析。"
+    },
+    {
+      "id": "chinese-9-r1-general-19",
+      "section": "general",
+      "label": "一、第19題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "孤小與遼闊的反差",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "孤帆遠去縮成一點，與延伸天際的長江形成空間對照。",
+        "D最符合題幹孤身與廣闊背景的反差；其他句側重情緒或同病相憐。"
+      ],
+      "pitfall": "此題比較空間結構，不只是找含愁的句子。"
+    },
+    {
+      "id": "chinese-9-r1-general-20",
+      "section": "general",
+      "label": "一、第20題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "季節意象排序",
+      "answer": "C符合命題的景象配對；丁的實際時序仍是秋季",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "甲的桃李可配春、丙的荷花配夏、乙的金風玉露配秋；若將丁的朔風飛雪當作冬寒意象，就得到官方C的甲丙乙丁。",
+        "但丁明言八月，按傳統曆法屬秋，原意在北地提早降雪；因此不能無條件說四句各寫一個不同的實際季節。"
+      ],
+      "pitfall": "下雪不必然等於冬天；意象代表與詩句明示的時間需要分開判讀。",
+      "note": "官方C保留。題幹稱各代表四季，未明說只按典型意象；丁有八月這個秋季時間線索，與冬寒景象並存。文化部典藏所收岑參原詩可核八月即飛雪，教育部仲秋釋義可核農曆八月。本題應說明採意象配對的前提，不把八月判作冬季。"
+    },
+    {
+      "id": "chinese-9-r1-general-21",
+      "section": "general",
+      "label": "一、第21題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "諷刺小說與制度批判",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "段落用盲僧評文及考官偏私說明科舉荒謬。",
+        "D同時涵蓋神怪手法與制度批判，A只談作者遭遇、C只談文章優劣都過窄。"
+      ],
+      "pitfall": "文中未提出具體改革方案，不宜加上勸權貴改革。"
+    },
+    {
+      "id": "chinese-9-r1-general-22",
+      "section": "general",
+      "label": "一、第22題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "秋景反襯思歸",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "家萬里與歸期的發問先建立思鄉背景。",
+        "紅葉黃花雖美，飲醉與秋夢仍見孤寂，A最能連結景與情。"
+      ],
+      "pitfall": "飲酒不代表已忘記回鄉。"
+    },
+    {
+      "id": "chinese-9-r1-general-23",
+      "section": "general",
+      "label": "一、第23題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "友誼與利益往來",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題面強調共度傷痛、互相信任。",
+        "市道之交以利害為基礎，最不適合這種患難情誼，選C。"
+      ],
+      "pitfall": "這是詞義配對，不以本題作賽事新聞的獨立查證。"
+    },
+    {
+      "id": "chinese-9-r1-general-24",
+      "section": "general",
+      "label": "一、第24題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "對聯詞性與語意",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "高人一等與入骨三分形成程度對應。",
+        "刺貪與刺虐並列，表現揭露貪婪暴虐，C兼顧句式與蒲松齡的諷刺性。"
+      ],
+      "pitfall": "高人這裡是高出別人，不是單指隱士。"
+    },
+    {
+      "id": "chinese-9-r1-general-25",
+      "section": "general",
+      "label": "一、第25題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "吝嗇與揮霍的對比",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "文中先列對朋友、孤苦者乃至父兄都計較的行為。",
+        "A依此解釋其待旁人的吝嗇；後文再與賭博、贖命捨錢形成諷刺，未談貧富差距成因。"
+      ],
+      "pitfall": "不要把批評對象擅限為讀書人。"
+    },
+    {
+      "id": "chinese-9-r1-general-26",
+      "section": "general",
+      "label": "一、第26題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "定義涵蓋範圍",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文中真實性包含曾發生、可能發生，甚至經驗中不會發生卻有真實感的情形。",
+        "C用絕不包含未發生排除了作者明納的範圍，故錯誤。"
+      ],
+      "pitfall": "藝術真實感不能直接等同實際發生。"
+    },
+    {
+      "id": "chinese-9-r1-general-27",
+      "section": "general",
+      "label": "一、第27題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "紙張量詞",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "刀是成疊紙張的計量單位，可說一刀宣紙。",
+        "端硯通常用方，聲音用縷或陣，單件青衫用件、襲等，故B。"
+      ],
+      "pitfall": "一刀紙不是用刀割一次的動作。"
+    },
+    {
+      "id": "chinese-9-r1-general-28",
+      "section": "general",
+      "label": "一、第28題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "勞動力年齡轉移",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "後文指出集中年齡由35至44移到45至54歲。",
+        "B的人口老化最直接銜接此年齡上移，其他選項不能完整說明。"
+      ],
+      "pitfall": "不能把參與率提高直接等同年齡年輕化。"
+    },
+    {
+      "id": "chinese-9-r1-general-29",
+      "section": "general",
+      "label": "一、第29題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "獨語與對話",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文中只有曲公一句自問，龍未以言語回應。",
+        "故C說藉生動對話描寫不準確；小物變巨龍、聲光描寫與恭敬動作均有實據。"
+      ],
+      "pitfall": "人物開口一句，不一定構成兩方對話。"
+    },
+    {
+      "id": "chinese-9-r1-general-30",
+      "section": "general",
+      "label": "一、第30題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "光線與身分揭露",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "原作先以點菸火柴照亮鮑伯的臉，讓巡警認出通緝犯；這層作用在末尾紙條中揭曉。",
+        "後來藥房亮光又讓鮑伯看出高個男子並非吉米，兩次光線都推進身分揭露，A有具體依據。"
+      ],
+      "pitfall": "讀者最後才知道第一次火光的作用；不能把伏筆和揭曉當成同一時間。",
+      "note": "已核O. Henry《The Four Million》之After Twenty Years公開英文原作，兩處光線及結尾紙條均可核對。原作支持本題敘事分析，不等於取得康軒指定中文譯本。"
+    },
+    {
+      "id": "chinese-9-r1-general-31",
+      "section": "general",
+      "label": "一、第31題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "曲牌與句式",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "這首共五句，字數依次六、六、六、四、六，與天淨沙秋思相同。",
+        "可據此推測曲牌相同；內容一寫春日人物、一寫秋思，不必同題，選B。"
+      ],
+      "pitfall": "春春已點季節，不是夏景。"
+    },
+    {
+      "id": "chinese-9-r1-general-32",
+      "section": "general",
+      "label": "一、第32題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "幽默因果的限制",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "江鵝公開文章先交代手帕與鈔票貼放同一褲袋，再寫用此手帕擦鼻子的經驗。",
+        "抵抗力很好是接在此後的自嘲推想，A所指反覆間接接觸鈔票最合因果；毛球與手帕寬度不是其笑點。"
+      ],
+      "pitfall": "作者用或許表幽默聯想，不能當成接觸細菌能增強免疫的醫學證據。",
+      "note": "已核江鵝／大塊文化在Cheers公開的〈錢是省出來的〉2016-03-01文章第一頁第1、2段。A的細菌屬題目對幽默語意的推論，非原段提供的檢驗結果；未宣稱取得康軒全部課文。"
+    },
+    {
+      "id": "chinese-9-r1-general-33",
+      "section": "general",
+      "label": "一、第33題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "人物身分辨認",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "結尾紙條由吉米署名，說明自己正是先前巡警，且火光中已認出鮑伯為芝加哥通緝者。",
+        "吉米另請便衣警察執行逮捕，因此高個男子不是吉米；乙丙己配對正確，選D。"
+      ],
+      "pitfall": "高個男子初登場順著對方稱呼應答，不代表他真是吉米。",
+      "note": "已核Project Gutenberg所收After Twenty Years英文原作的藥房場景與吉米紙條；只據可核情節驗證身分配對，教材中文譯名沿用題面。"
+    },
+    {
+      "id": "chinese-9-r1-general-34",
+      "section": "general",
+      "label": "一、第34題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "制度外觀與實際運作",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "奇才困於常調，奸佞卻能超越正常升遷，形成明確對比。",
+        "C指出形式秩序掩蓋壓賢容奸的現象，與李林甫暗中排除對手相合。"
+      ],
+      "pitfall": "守格式不必然等於公平。"
+    },
+    {
+      "id": "chinese-9-r1-general-35",
+      "section": "general",
+      "label": "一、第35題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "詞中情感的極端表現",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "詞藉雙飛與孤影、生死相許呈現情感深度。",
+        "B較貼近作者對忠貞的詠歎；其他選項轉成諷刺、逃避或生存競爭，偏離詞意。"
+      ],
+      "pitfall": "這是文學情感的極端表現，不應把死亡當成現實愛情價值的衡量。"
+    },
+    {
+      "id": "chinese-9-r1-reading-36",
+      "section": "reading",
+      "label": "二、第36題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "敘述者姓名線索",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "內心自語稱修奇，末段又明說自己屬尼德法家族。",
+        "兩個線索合成修奇．尼德法，故A；杉森是被說話的對象。"
+      ],
+      "pitfall": "不要把地名修多恩誤當主角名。"
+    },
+    {
+      "id": "chinese-9-r1-reading-37",
+      "section": "reading",
+      "label": "二、第37題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "過橋數量推理",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "過橋時說共有十二個；主角一人加馬一匹再加十鼠正好十二。",
+        "因此條件是十二個生命，B符合，並非只接受人類。"
+      ],
+      "pitfall": "十鼠是湊數手段，不是永久限定鼠類規費。"
+    },
+    {
+      "id": "chinese-9-r1-reading-38",
+      "section": "reading",
+      "label": "二、第38題",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 7,
+      "topic": "回收伏筆",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前文只說最後一事使市長驚慌，末段才放出十鼠並致謝寒冬協助。",
+        "前後照應可推市府幫忙抓鼠，故D。"
+      ],
+      "pitfall": "命名爭論在最後一件事之前已結束。"
+    },
+    {
+      "id": "chinese-9-r1-reading-39",
+      "section": "reading",
+      "label": "二、第39題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "製作流程閱讀",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "首段依序列採葉芽、低溫烘烤與熟成，最後成品碾磨包裝。",
+        "A保留卷內次序；其他選項增加專屬富人、完全等同或分開包裝等限制。"
+      ],
+      "pitfall": "此處核對文章敘述，不把製程概括外推為所有市售產品。"
+    },
+    {
+      "id": "chinese-9-r1-reading-40",
+      "section": "reading",
+      "label": "二、第40題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "文內功效宣稱",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "第三段把提神與緩和情緒並列，D最接近這段說法。",
+        "結尾作者仍對平靜是否由茶造成存疑，因此只能說文內這樣連結，不能以它證明功效。"
+      ],
+      "pitfall": "本文未提供醫學研究；不能據此宣稱茶能治療焦慮或清除血脂。"
+    },
+    {
+      "id": "chinese-9-r1-reading-41",
+      "section": "reading",
+      "label": "二、第41題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "年齡稱謂排序",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文中要求年長者先飲。",
+        "古稀約70、不惑40、弱冠20、垂髫為童年，B由長到幼連續下降。"
+      ],
+      "pitfall": "而立30、強仕40，A中間順序倒置。"
+    },
+    {
+      "id": "chinese-9-r1-reading-42",
+      "section": "reading",
+      "label": "二、第42題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "評論的雙面主旨",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "文章先肯定玩法平衡與懷舊，後列單調及反轉不足。",
+        "A的設計得失可涵蓋褒貶兩面，B、D過度讚創新，C只談行銷過窄。"
+      ],
+      "pitfall": "市場佳績只是引入，並非全文只分析行銷。"
+    },
+    {
+      "id": "chinese-9-r1-reading-43",
+      "section": "reading",
+      "label": "二、第43題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "角色與玩家感受",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前段弱勢角色強調資源與潛行，後段老練角色帶來動作釋放。",
+        "D概括這種前後對比，其他項把不同角色玩法混合或誇大作者稱讚。"
+      ],
+      "pitfall": "此題依改寫評論作答，不代表所有遊戲設定已外部核實。"
+    },
+    {
+      "id": "chinese-9-r1-reading-44",
+      "section": "reading",
+      "label": "二、第44題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "反覆句式的指控",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "莫我肯顧、德、勞都在說對方不願照顧、施惠或慰勞。",
+        "D把三次反覆合成對剝削者冷漠的控訴，符合詩意。"
+      ],
+      "pitfall": "女在古文中通汝，不能讀成思念女兒。"
+    },
+    {
+      "id": "chinese-9-r1-reading-45",
+      "section": "reading",
+      "label": "二、第45題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "核心動物意象",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "大鼠反覆吞食黍麥苗，對應奪走勞動成果的力量。",
+        "詩人要離開尋樂土，故B的統治者剝削比喻最能串起全文。"
+      ],
+      "pitfall": "不只停留在字面鼠害。"
+    },
+    {
+      "id": "chinese-9-r1-reading-46",
+      "section": "reading",
+      "label": "二、第46題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "情節先後推論",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "女屍先向三名睡客吹氣，醒客閉息後仍能行動。",
+        "他再用腳試探而三人不動，最合理是已受異常影響，選C。"
+      ],
+      "pitfall": "這是神怪故事內的因果，不是現實生理說明。"
+    },
+    {
+      "id": "chinese-9-r1-reading-47",
+      "section": "reading",
+      "label": "二、第47題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "伺機逃跑的行動",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "客人聽到女屍復臥，才慢慢取褲穿好並逃出。",
+        "A抓住觀察動靜後伺機逃離；他第一次欲穿衣時屍已再起，B時序不符。"
+      ],
+      "pitfall": "文中沒有帶走三位同伴。"
+    },
+    {
+      "id": "chinese-9-r1-reading-48",
+      "section": "reading",
+      "label": "二、第48題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "反覆聲音提示動作",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "察察聲與揭衾起身、回臥的動作相連。",
+        "它使讀者與客人一起判斷女屍動靜，C最直接。"
+      ],
+      "pitfall": "恐懼是效果，聲音在情節上的具體訊號仍是屍體起臥。"
+    },
+    {
+      "id": "chinese-9-r1-reading-49",
+      "section": "reading",
+      "label": "二、第49題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "跨文婚姻限制",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "乙中公主不顧夫家病人，讓皇帝理解士人不願結皇親。",
+        "甲中鄭顥原婚約因選駙馬而中止，也呈現此婚姻帶來的非自願負擔，故B。"
+      ],
+      "pitfall": "不是所有仕途背景都能解釋不願為親。"
+    },
+    {
+      "id": "chinese-9-r1-reading-50",
+      "section": "reading",
+      "label": "二、第50題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "帝王形象比較",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲中皇帝早知讒言而仍信任白敏中，顯明察。",
+        "乙中嚴責公主失禮、令其返家，顯重視禮教，A合兩文。"
+      ],
+      "pitfall": "疼愛女兒不等於一味縱容。"
+    }
+  ]
+}

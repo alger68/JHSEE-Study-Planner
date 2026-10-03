@@ -1,0 +1,1265 @@
+{
+  "schema": 1,
+  "sourceId": "1CO8nUlZQz8QNg-DJBiNpMehEsB3Gh88H",
+  "sourceSha256": "badfb44682169088e858f366f172f353732337855e85bfc0bd3efc90f47c1aaa",
+  "title": "114-2-2八年級國文科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "共68個作答項目：國字注音10、注釋10、改錯5字、多元思考5格、綜合28及閱讀10題。已目視實際PDF第1至8頁；第7頁是空白作答卷，第8頁才是解答卷。第18題的官方解釋超出題面引文，標示爭議；第10題以公開出版社原文核時序，第13、14題以海洋大學公開選文核內容；第19題仍缺〈拍痰〉指定段落。保育題依卷內表格解析，不延伸為即時法規或族群統計。",
+  "sections": [
+    {
+      "id": "characters",
+      "title": "一、國字注音"
+    },
+    {
+      "id": "definitions",
+      "title": "二、注釋與摘釋"
+    },
+    {
+      "id": "corrections",
+      "title": "三、改錯"
+    },
+    {
+      "id": "thinking",
+      "title": "四、多元思考題"
+    },
+    {
+      "id": "general",
+      "title": "五、綜合測驗"
+    },
+    {
+      "id": "reading",
+      "title": "六、閱讀測驗"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-8-r2-characters-01",
+      "section": "characters",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "社稷用字",
+      "answer": "稷",
+      "officialAnswer": "稷",
+      "status": "verified",
+      "steps": [
+        "社稷原與土地、穀神祭祀有關。",
+        "ㄐㄧˋ寫禾部的稷，不能以同音字替代。"
+      ],
+      "pitfall": "社稷是固定詞，不寫技。"
+    },
+    {
+      "id": "chinese-8-r2-characters-02",
+      "section": "characters",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "竹籬用字",
+      "answer": "籬",
+      "officialAnswer": "籬",
+      "status": "verified",
+      "steps": [
+        "籬笆是圍欄名稱。",
+        "ㄌㄧˊ寫竹部的籬，與常見竹材相連。"
+      ],
+      "pitfall": "不要只寫聲旁離。"
+    },
+    {
+      "id": "chinese-8-r2-characters-03",
+      "section": "characters",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "翳的字形",
+      "answer": "翳",
+      "officialAnswer": "翳",
+      "status": "verified",
+      "steps": [
+        "題目考課文翳入天聽的指定字。",
+        "翳讀ㄧˋ，應保留上部殹與下部羽的結構。"
+      ],
+      "pitfall": "不要誤寫成翌日的翌。"
+    },
+    {
+      "id": "chinese-8-r2-characters-04",
+      "section": "characters",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "深邃用字",
+      "answer": "邃",
+      "officialAnswer": "邃",
+      "status": "verified",
+      "steps": [
+        "深邃形容深遠。",
+        "ㄙㄨㄟˋ寫辵部的邃，注意內部是穴與遂的組合。"
+      ],
+      "pitfall": "不可寫成純粹的粹。"
+    },
+    {
+      "id": "chinese-8-r2-characters-05",
+      "section": "characters",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "漩渦字音",
+      "answer": "ㄒㄩㄢˊ",
+      "officialAnswer": "ㄒㄩㄢˊ",
+      "status": "verified",
+      "steps": [
+        "漩與水流旋轉有關。",
+        "漩讀ㄒㄩㄢˊ，第二聲。"
+      ],
+      "pitfall": "不要套用渲染的第四聲。"
+    },
+    {
+      "id": "chinese-8-r2-characters-06",
+      "section": "characters",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "不卑不亢",
+      "answer": "ㄎㄤˋ",
+      "officialAnswer": "ㄎㄤˋ",
+      "status": "verified",
+      "steps": [
+        "亢在此指高傲。",
+        "亢讀ㄎㄤˋ，與低卑的卑相對。"
+      ],
+      "pitfall": "不要誤讀為抗的其他形近字音。"
+    },
+    {
+      "id": "chinese-8-r2-characters-07",
+      "section": "characters",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "土阜字音",
+      "answer": "ㄈㄨˋ",
+      "officialAnswer": "ㄈㄨˋ",
+      "status": "verified",
+      "steps": [
+        "阜指土丘。",
+        "本卷國語標準音為ㄈㄨˋ。"
+      ],
+      "pitfall": "不能因地方口音改讀第三聲。"
+    },
+    {
+      "id": "chinese-8-r2-characters-08",
+      "section": "characters",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "禮聘字音",
+      "answer": "ㄆㄧㄥˋ",
+      "officialAnswer": "ㄆㄧㄥˋ",
+      "status": "verified",
+      "steps": [
+        "禮聘是以禮邀請任職。",
+        "聘讀ㄆㄧㄥˋ，聲母是ㄆ。"
+      ],
+      "pitfall": "勿讀成ㄆㄧㄣˋ。"
+    },
+    {
+      "id": "chinese-8-r2-characters-09",
+      "section": "characters",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "糝字讀音",
+      "answer": "ㄙㄢˇ",
+      "officialAnswer": "ㄙㄢˇ",
+      "status": "verified",
+      "steps": [
+        "糝在撒上金粉的語境中作撒布解。",
+        "讀ㄙㄢˇ，須標第三聲。"
+      ],
+      "pitfall": "不要照參的常見音讀ㄘㄢ。"
+    },
+    {
+      "id": "chinese-8-r2-characters-10",
+      "section": "characters",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "僭越字音",
+      "answer": "ㄐㄧㄢˋ",
+      "officialAnswer": "ㄐㄧㄢˋ",
+      "status": "verified",
+      "steps": [
+        "僭越指超越身分或職權。",
+        "僭讀ㄐㄧㄢˋ，第四聲。"
+      ],
+      "pitfall": "勿與潛的ㄑㄧㄢˊ混用。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-01",
+      "section": "definitions",
+      "label": "二、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "帝王車駕",
+      "answer": "帝王乘坐的車子。",
+      "officialAnswer": "帝王乘坐的車子。",
+      "status": "verified",
+      "steps": [
+        "乘輿在本課為帝王車駕的專稱。",
+        "解釋要指出乘坐者是帝王，不只泛指交通工具。"
+      ],
+      "pitfall": "不可單解成乘車動作。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-02",
+      "section": "definitions",
+      "label": "二、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "出巡交通管制",
+      "answer": "古代帝王或高級官員出巡時，管制交通，禁止通行。",
+      "officialAnswer": "古代帝王或高級官員出巡時，管制交通，禁止通行。",
+      "status": "verified",
+      "steps": [
+        "蹕與君王官員出巡時的管制有關。",
+        "犯蹕就是違反禁止通行的規定，故須寫出管制對象與措施。"
+      ],
+      "pitfall": "不是所有平日道路規則都稱蹕。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-03",
+      "section": "definitions",
+      "label": "二、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "緩慢移動",
+      "answer": "緩慢移動的樣子。",
+      "officialAnswer": "緩慢移動的樣子。",
+      "status": "verified",
+      "steps": [
+        "冉冉表示徐徐、慢慢。",
+        "漸隱又指出逐漸消失，兩者共同呈現緩慢過程。"
+      ],
+      "pitfall": "不要解成突然消失。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-04",
+      "section": "definitions",
+      "label": "二、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "景物窈窕",
+      "answer": "幽靜美好的樣子。",
+      "officialAnswer": "幽靜美好的樣子。",
+      "status": "verified",
+      "steps": [
+        "此處窈窕用來形容景物。",
+        "依語境解作幽靜美好，不能直接套入女子身材的詞義。"
+      ],
+      "pitfall": "同詞用於人物、環境時語義會不同。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-05",
+      "section": "definitions",
+      "label": "二、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "散兵的比喻",
+      "answer": "逃逸零散的士兵，在此形容四處散逃的弗氏海豚。",
+      "officialAnswer": "逃逸零散的士兵，在此形容四處散逃的弗氏海豚。",
+      "status": "verified",
+      "steps": [
+        "散兵的本義是脫離隊伍而零散的士兵。",
+        "本卷以此比喻海豚分散逃離的樣貌。"
+      ],
+      "pitfall": "寫出比喻對象，不能只寫軍人。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-06",
+      "section": "definitions",
+      "label": "二、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "水花蠢動",
+      "answer": "形容蟲類爬動的樣子，此指水花起伏波動。",
+      "officialAnswer": "形容蟲類爬動的樣子，此指水花起伏波動。",
+      "status": "verified",
+      "steps": [
+        "蠢動本指像蟲一樣微微活動。",
+        "題目借這個動態描寫水花起伏，須帶出語境義。"
+      ],
+      "pitfall": "蠢在此不是愚笨。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-07",
+      "section": "definitions",
+      "label": "二、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "假設連詞",
+      "answer": "假使。",
+      "officialAnswer": "假使。",
+      "status": "verified",
+      "steps": [
+        "令他馬以令引出假設。",
+        "此處可換成假使，不是下命令。"
+      ],
+      "pitfall": "先分清連詞與動詞用法。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-08",
+      "section": "definitions",
+      "label": "二、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "通假字措",
+      "answer": "通「措」，安放、安置。",
+      "officialAnswer": "通「措」，安放、安置。",
+      "status": "verified",
+      "steps": [
+        "錯其手足中的錯通措。",
+        "指手腳不知如何安放，引申為無所適從。"
+      ],
+      "pitfall": "不能解成把手腳弄錯。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-09",
+      "section": "definitions",
+      "label": "二、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "任憑享受",
+      "answer": "任憑。",
+      "officialAnswer": "任憑。",
+      "status": "verified",
+      "steps": [
+        "恣在恣你嘗新中表示自由任憑。",
+        "讓對方盡情品嘗，非斥責放縱作惡。"
+      ],
+      "pitfall": "不可只取恣意妄為的負面義。"
+    },
+    {
+      "id": "chinese-8-r2-definitions-10",
+      "section": "definitions",
+      "label": "二、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "貼近岸邊",
+      "answer": "貼近。",
+      "officialAnswer": "貼近。",
+      "status": "verified",
+      "steps": [
+        "回岸緣限定移動方向朝岸邊。",
+        "切表示靠近、貼近岸線。"
+      ],
+      "pitfall": "不是切割岸邊。"
+    },
+    {
+      "id": "chinese-8-r2-corrections-1",
+      "section": "corrections",
+      "label": "三、第1題第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "固定詞改錯",
+      "answer": "默→墨",
+      "officialAnswer": "墨",
+      "status": "verified",
+      "steps": [
+        "成語出自墨守，指固守舊法。",
+        "默守應改為墨守。"
+      ],
+      "pitfall": "不要因默默遵守的字面聯想而寫默。"
+    },
+    {
+      "id": "chinese-8-r2-corrections-2",
+      "section": "corrections",
+      "label": "三、第1題第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "固定詞改錯",
+      "answer": "步→部",
+      "officialAnswer": "部",
+      "status": "verified",
+      "steps": [
+        "按部就班的部指類別或次序。",
+        "固定寫法用部，不能寫步。"
+      ],
+      "pitfall": "不要與一步一步的步混淆。"
+    },
+    {
+      "id": "chinese-8-r2-corrections-3",
+      "section": "corrections",
+      "label": "三、第1題第3字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "固定詞改錯",
+      "answer": "勵→厲",
+      "officialAnswer": "厲",
+      "status": "verified",
+      "steps": [
+        "再接再厲形容繼續努力。",
+        "末字是磨礪引申的厲。"
+      ],
+      "pitfall": "鼓勵的勵不是本成語的字。"
+    },
+    {
+      "id": "chinese-8-r2-corrections-4",
+      "section": "corrections",
+      "label": "三、第2題第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "固定詞改錯",
+      "answer": "晰→皙",
+      "officialAnswer": "皙",
+      "status": "verified",
+      "steps": [
+        "白皙形容皮膚白淨。",
+        "應用與白有關的皙，非清晰的晰。"
+      ],
+      "pitfall": "辨別日部與白部。"
+    },
+    {
+      "id": "chinese-8-r2-corrections-5",
+      "section": "corrections",
+      "label": "三、第2題第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "固定詞改錯",
+      "answer": "繪→匯",
+      "officialAnswer": "匯",
+      "status": "verified",
+      "steps": [
+        "捐款要轉入銀行戶頭。",
+        "金錢轉送用匯入，繪是畫圖。"
+      ],
+      "pitfall": "不要把匯款寫成繪款。"
+    },
+    {
+      "id": "chinese-8-r2-thinking-01",
+      "section": "thinking",
+      "label": "四、第1格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "法律共同準則",
+      "answer": "天子所與天下公共也",
+      "officialAnswer": "天子所與天下公共也",
+      "status": "verified",
+      "steps": [
+        "法者引出法律的性質。",
+        "天子與天下共同遵守的表述，對應表格人人守法的重點。"
+      ],
+      "pitfall": "公共在此是共同遵守，不是現代公共場所。"
+    },
+    {
+      "id": "chinese-8-r2-thinking-02",
+      "section": "thinking",
+      "label": "四、第2格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "司法持平",
+      "answer": "天下之平也",
+      "officialAnswer": "天下之平也",
+      "status": "verified",
+      "steps": [
+        "平指判斷是非輕重的公平標準。",
+        "廷尉必須持平，才能維持天下對法律的信賴。"
+      ],
+      "pitfall": "不是天下太平的直接敘述。"
+    },
+    {
+      "id": "chinese-8-r2-thinking-03",
+      "section": "thinking",
+      "label": "四、第3格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "判決偏差的後果",
+      "answer": "一傾而天下用法皆為輕重",
+      "officialAnswer": "一傾而天下用法皆為輕重",
+      "status": "verified",
+      "steps": [
+        "一傾表示司法標準一旦偏斜。",
+        "後半說天下用法隨之忽輕忽重，正接人民無所適從的反問。"
+      ],
+      "pitfall": "不要漏寫皆或把為寫成惟。"
+    },
+    {
+      "id": "chinese-8-r2-thinking-04",
+      "section": "thinking",
+      "label": "四、第4格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "抽象感受可品嘗",
+      "answer": "轉化（形象化）",
+      "officialAnswer": "轉化（形象化）",
+      "status": "verified",
+      "steps": [
+        "晚景的溫存是抽象感受。",
+        "偷嘗把它化成可品嘗之物，因此屬轉化中的形象化。"
+      ],
+      "pitfall": "不是看到夸父典故就忽略畫線部分的修辭。"
+    },
+    {
+      "id": "chinese-8-r2-thinking-05",
+      "section": "thinking",
+      "label": "四、第5格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "聲音與體型反差",
+      "answer": "映襯",
+      "officialAnswer": "映襯",
+      "status": "verified",
+      "steps": [
+        "尖細清晰的叫聲與粗壯身體形成對照。",
+        "兩種不相稱的特徵互相突顯，除摹寫外還有映襯。"
+      ],
+      "pitfall": "題目已排除單答摹寫。"
+    },
+    {
+      "id": "chinese-8-r2-general-01",
+      "section": "general",
+      "label": "五、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "同音比較",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "嫵與憮皆讀ㄨˇ，B同音。",
+        "曙與署調不同；涇與脛、偌與諾聲母不同，故排除。"
+      ],
+      "pitfall": "字音比較必須包含聲調。"
+    },
+    {
+      "id": "chinese-8-r2-general-02",
+      "section": "general",
+      "label": "五、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "同音異字辨形",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "薈萃與出類拔萃都用萃，故A相同。",
+        "其餘是誅／銖、斕／瀾、炬／鉅，各有不同字形與語義。"
+      ],
+      "pitfall": "不能見到相同讀音就不檢查偏旁。"
+    },
+    {
+      "id": "chinese-8-r2-general-03",
+      "section": "general",
+      "label": "五、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "徒的副詞義",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "徒傷悲是白白傷心，徒勞無功是白費力氣。",
+        "兩個徒都表示徒然、白白地，選C。"
+      ],
+      "pitfall": "下廷尉的下是交付，與下揚州的前往不同。"
+    },
+    {
+      "id": "chinese-8-r2-general-04",
+      "section": "general",
+      "label": "五、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "成語喻義",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "疾風勁草以大風中見強草比喻逆境見堅貞。",
+        "C只描寫颱風破壞與雜亂，缺少考驗品格的意思，因而誤用。"
+      ],
+      "pitfall": "不能把成語的字面景象當完整詞義。"
+    },
+    {
+      "id": "chinese-8-r2-general-05",
+      "section": "general",
+      "label": "五、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "威嚇的動作",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "張牙舞爪可形容凶惡威嚇，符合惡霸情境。",
+        "老花不是睡眼惺忪，成績高低不穩不等於此起彼落，氣象報告也不是噓寒問暖。"
+      ],
+      "pitfall": "噓寒問暖重在關懷，不是播報溫度。"
+    },
+    {
+      "id": "chinese-8-r2-general-06",
+      "section": "general",
+      "label": "五、第6題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "一詞多義",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "兩個眉目都指事情的線索或端緒，D相同。",
+        "風流分才能風采與男女放蕩，伺候分守候與服侍，大敗分慘敗與擊敗。"
+      ],
+      "pitfall": "大敗須看主語是勝方還是敗方。"
+    },
+    {
+      "id": "chinese-8-r2-general-07",
+      "section": "general",
+      "label": "五、第7題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "帝王態度轉折",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題面依次列大怒、沉吟良久、接受判決。",
+        "由情緒反應轉為尊重依法判決，B最合；不能據一事宣稱法權完全高於君權。"
+      ],
+      "pitfall": "不要把人物動機擅自改成刺殺或求名。"
+    },
+    {
+      "id": "chinese-8-r2-general-08",
+      "section": "general",
+      "label": "五、第8題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "史傳敘事方法",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "本篇以出巡犯蹕、交廷尉審判、答辯及接受判決依事件先後展開。",
+        "這是第三人稱順敘，A較合；張釋之的堅持主要凸顯依法持平，不只是權位差異。"
+      ],
+      "pitfall": "短篇歷史敘事不等於旁徵博引的論說文。"
+    },
+    {
+      "id": "chinese-8-r2-general-09",
+      "section": "general",
+      "label": "五、第9題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "史記體例",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "史記以人物傳記等類別組織跨朝代歷史，是紀傳體通史。",
+        "其餘選項把終點、通史斷代史、史書小說或四史成員混淆，故選D。"
+      ],
+      "pitfall": "原選項紀傳體之組的組為誤字，語意應為祖。"
+    },
+    {
+      "id": "chinese-8-r2-general-10",
+      "section": "general",
+      "label": "五、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "康橋遊賞時序",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "公開原文先寫夕陽西晒時騎車，再分述麥浪、歸羊與罌粟草原三次觀景經驗。",
+        "C把這些黃昏經驗說成正午散步，既誤時段也誤活動；據原文可排除，故選C。"
+      ],
+      "pitfall": "三次晚景並非同一天依時序散步；先辨敘述框架再讀各次回憶。",
+      "note": "已核翰林公開課文放大版〈我所知道的康橋〉第32至38張，分清正文與編者註解。公開版本可支持本題時段和活動判斷，未宣稱其全部編排等同本卷康軒教材。"
+    },
+    {
+      "id": "chinese-8-r2-general-11",
+      "section": "general",
+      "label": "五、第11題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "炊煙描寫層面",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "成絲、成縷、成捲寫形狀，輕快、遲重寫動態，濃灰等寫顏色。",
+        "D把動態誤說成上升角度，與引文不符。"
+      ],
+      "pitfall": "角度須有傾斜或方向資訊，不能等同速度輕重。"
+    },
+    {
+      "id": "chinese-8-r2-general-12",
+      "section": "general",
+      "label": "五、第12題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "移覺方向",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "馬蹄聲原屬聽覺，白色花朵屬視覺。",
+        "B以可見的色形描寫聲音，方向符合題意。"
+      ],
+      "pitfall": "A、C、D雖有感官轉換，方向卻不相同。"
+    },
+    {
+      "id": "chinese-8-r2-general-13",
+      "section": "general",
+      "label": "五、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "海豚互動的敘事解讀",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原文把花紋海豚寫作牧者，並明說牠們引領方向、控制活動範圍與約制不安。",
+        "B最符合這個敘事觀察；A把海面印象推及水下，C增添威嚇掠食者的因果，D又把不同海豚的反應混為一談。"
+      ],
+      "pitfall": "B的互助機制是就本文描寫作推論，不能把文學觀察直接當作已由實驗證實的生物機制。",
+      "note": "已讀並目視海洋大學海洋教育中心公開教案實體PDF第23、24頁附錄〈鯨生鯨世選〉。正文支持牧者式引領，末尾同時保留對觀察限制的自省；未宣稱此公開選文等同康軒完整版本。"
+    },
+    {
+      "id": "chinese-8-r2-general-14",
+      "section": "general",
+      "label": "五、第14題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "敘事轉向人類反省",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "正文先交代近午返航與發現海豚，再描述慌亂及花紋海豚引領，接著轉入船隻介入的反省。",
+        "末尾才從海面表象談理解有限、反問誰是迷途者，因此B符合主場脈絡，A、D顛倒位置，C縮窄結尾意旨。"
+      ],
+      "pitfall": "迷途羔羊的意義到結尾才反轉，不能把反省當成一開頭就說出的結論。",
+      "note": "已核海洋大學公開教案實體PDF第23至24頁，對照開頭、群體互動、船隻介入及結尾四段脈絡；段落切分可能與康軒本不同，但本題所指順序可獨立驗證。"
+    },
+    {
+      "id": "chinese-8-r2-general-15",
+      "section": "general",
+      "label": "五、第15題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "書法題辭",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "鐵畫銀鉤形容筆畫有力，筆走龍蛇形容筆勢活躍。",
+        "兩者都適合書法家；名山事業是著述，樹茂椿庭是父壽，不能任意按字面配場合。"
+      ],
+      "pitfall": "龍飛鳳舞在此題辭常指書法，不是舞蹈祝詞。"
+    },
+    {
+      "id": "chinese-8-r2-general-16",
+      "section": "general",
+      "label": "五、第16題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "輓聯對象",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "忠勤足式肯定忠誠勤勉、可作典範，適合因公殉職者。",
+        "桃李興悲多用於師長；懿範長存為逝者輓辭，不可用在仍病危者。"
+      ],
+      "pitfall": "生者慰問與悼亡用語不可混用。"
+    },
+    {
+      "id": "chinese-8-r2-general-17",
+      "section": "general",
+      "label": "五、第17題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "壽宴年歲判讀",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "九秩晉二即九十再加二，為九十二歲。",
+        "耄耋泛稱高齡老人；家嚴是父親，請帖也寫下午六時入席，故D正確。"
+      ],
+      "pitfall": "不可把入席時間當成散席時間。"
+    },
+    {
+      "id": "chinese-8-r2-general-18",
+      "section": "general",
+      "label": "五、第18題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "引文與過度推論",
+      "answer": "官方C，但兩段引文不足以支持其全部敘述",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "乙把喉中痰塊連到外語學習與溝通，較直接呈現語言隔閡。",
+        "官方C的思念親人未見於兩段引文；A偏重生理，B又加入勞動負擔，四項均混入未明說的原因。"
+      ],
+      "pitfall": "推論要有文字支持，不能因移工離鄉就斷言此句在思親。",
+      "note": "官方C所說對親人的深切思念未在題面甲乙出現；若需以〈拍痰〉全文補足，本卷亦未附。現有引文以乙的語言困境最明確，不能無保留判C全對。"
+    },
+    {
+      "id": "chinese-8-r2-general-19",
+      "section": "general",
+      "label": "五、第19題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "照護者情感對照",
+      "answer": "B（依官方；對比場景待核）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "B把病房羞怯與湖畔談笑對照為壓抑和釋放。",
+        "官方採此讀法，但試卷未提供兩場景原段，尚不能獨立驗證對比的描寫與範圍。"
+      ],
+      "pitfall": "不可由照護工作直接推定每人皆有相同使命感。",
+      "note": "本卷沒有〈拍痰〉全文，尤其缺病房羞怯、湖畔談笑及懂得最多的前後文；保留官方答案與具體所缺段落。"
+    },
+    {
+      "id": "chinese-8-r2-general-20",
+      "section": "general",
+      "label": "五、第20題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "謙敬辭的指向",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "高見敬稱對方見解，愚見謙稱自己見解，A指向正確。",
+        "大作敬稱對方作品，拙作、鄙人、不才、薄面均向自己或己方謙稱。"
+      ],
+      "pitfall": "不能只憑詞語好壞判斷，還要找它指的是誰。"
+    },
+    {
+      "id": "chinese-8-r2-general-21",
+      "section": "general",
+      "label": "五、第21題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "排比共同條件",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "三句依序談言、行、事，條件都是否合乎法。",
+        "D保留三層與同一標準，沒有把法律替換為個人命令。"
+      ],
+      "pitfall": "法與上位者當下指令不可直接等同。"
+    },
+    {
+      "id": "chinese-8-r2-general-22",
+      "section": "general",
+      "label": "五、第22題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "步道資訊定位",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "山林步道條目明列五月花季與油桐，B吻合。",
+        "觀景臺屬翠山步道，不是翠山自然步道；登峰又與另一條路相連，故不可說只能折返。"
+      ],
+      "pitfall": "相近路名須逐字辨認。"
+    },
+    {
+      "id": "chinese-8-r2-general-23",
+      "section": "general",
+      "label": "五、第23題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "詩句意象配對",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "江河流動不息對應不捨晝夜，失去一腿對應訣別。",
+        "河岸彎腰植物可為蘆葦，女鬼與負心書生、線裝書相應聊齋，故D四格連貫。"
+      ],
+      "pitfall": "切勿只對一格便忽略其餘三個意象。"
+    },
+    {
+      "id": "chinese-8-r2-general-24",
+      "section": "general",
+      "label": "五、第24題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "圖表加總與推論界線",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中有旅行者為1%＋59%＋32%＝92%，超過九成。",
+        "收入高、沒旅行即不喜歡等都不是必然；六千元差距比較的是同時國內外旅行者，故A。"
+      ],
+      "pitfall": "A的每年只宜理解為此統計所描述年度，不能外推所有年份。"
+    },
+    {
+      "id": "chinese-8-r2-general-25",
+      "section": "general",
+      "label": "五、第25題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "未提及資訊",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "段落列餐食容器、服裝防護、垃圾處理與遊戲。",
+        "未提供特定地點推薦或前往路線，故C。"
+      ],
+      "pitfall": "提到草地、林木環境不等於給出地點與交通。"
+    },
+    {
+      "id": "chinese-8-r2-general-26",
+      "section": "general",
+      "label": "五、第26題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "盛極必衰的譬喻",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "作者惋惜桂花一次全開、很快凋謝。",
+        "再類推到富貴一蹴而至也可能短暫，D承接花性與人生兩層。"
+      ],
+      "pitfall": "文意是節制與次第，不能改成鼓勵一次耗盡能量。"
+    },
+    {
+      "id": "chinese-8-r2-general-27",
+      "section": "general",
+      "label": "五、第27題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "審美與勞動現實",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前兩句寫漁者手凍未舒、滿船風雪。",
+        "後兩句責畫家只愛詩意畫面、不懂苦楚，主旨是同情漁民，選A。"
+      ],
+      "pitfall": "畫面優美不等於勞動者也悠閒。"
+    },
+    {
+      "id": "chinese-8-r2-general-28",
+      "section": "general",
+      "label": "五、第28題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "段落主要內容",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "段落依視線介紹村落、乾溪、海岸與南田石。",
+        "環境反省只是其中部分，C涵蓋整段；B水量豐沛與D有稜角都與原文相反。"
+      ],
+      "pitfall": "主旨需涵蓋多數內容，不能只抓一個感嘆。"
+    },
+    {
+      "id": "chinese-8-r2-reading-29",
+      "section": "reading",
+      "label": "六、第29題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "諧謔的真正目的",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "李章先見主人自己的魚特別大，再問蘇字魚旁位置。",
+        "他借移易從便把魚移來，顯然在諷刺主人厚己薄客，故C。"
+      ],
+      "pitfall": "表面談文字，目的仍須從行動與前因判斷。"
+    },
+    {
+      "id": "chinese-8-r2-reading-30",
+      "section": "reading",
+      "label": "六、第30題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "古文詞義",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "素表示一向，鄙在待客情境中指吝嗇。",
+        "故B正確；進饌是上菜，輟飯是停止吃飯，調戲是戲謔。"
+      ],
+      "pitfall": "輟是停止，不是錯過。"
+    },
+    {
+      "id": "chinese-8-r2-reading-31",
+      "section": "reading",
+      "label": "六、第31題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "對等外交回應",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "秦要求趙王鼓瑟，並記錄為命令，形成尊卑羞辱。",
+        "相如要求秦王擊缻並作對等記錄，以維護國格，B最合。"
+      ],
+      "pitfall": "不用樂器種類推成友好交流。"
+    },
+    {
+      "id": "chinese-8-r2-reading-32",
+      "section": "reading",
+      "label": "六、第32題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "預先規劃政權延續",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "超期即立太子，可減少秦扣留國王要脅趙國的效用。",
+        "以絕秦望明示防範目的，並非策畫奪位，故A。"
+      ],
+      "pitfall": "危機備案不代表斷定危機必然發生。"
+    },
+    {
+      "id": "chinese-8-r2-reading-33",
+      "section": "reading",
+      "label": "六、第33題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "比較關係合併",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "乙說鄧通錢重量與四銖錢同，吳錢則微重。",
+        "合併得到吳錢＞鄧通錢＝四銖錢，選D。"
+      ],
+      "pitfall": "本卷B與C重複，不影響D的唯一比較關係。"
+    },
+    {
+      "id": "chinese-8-r2-reading-34",
+      "section": "reading",
+      "label": "六、第34題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "跨文整合",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲說四銖錢上有半兩字樣，乙說兩種私鑄錢形制文字與天子錢同。",
+        "因此可推出也有半兩，選A；C倒置賜山與鑄錢關係，D錯把吳王叛亂安在鄧通身上。"
+      ],
+      "pitfall": "銘文半兩不表示本題實際重量就是半兩。"
+    },
+    {
+      "id": "chinese-8-r2-reading-35",
+      "section": "reading",
+      "label": "六、第35題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "保育表格對照",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "綠蠵龜列中同時寫復育有成與升溫影響性別比。",
+        "B與此一致；其他選項把不同生物的等級或威脅互換。"
+      ],
+      "pitfall": "只就題表作答，不把表中的現況數字外推成即時統計。"
+    },
+    {
+      "id": "chinese-8-r2-reading-36",
+      "section": "reading",
+      "label": "六、第36題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "規範與措施衝突",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題表將鯨鯊列為禁止捕撈及商業利用。",
+        "C卻說為觀光可限量捕撈且只要總量管制便合法，與題表直接衝突。"
+      ],
+      "pitfall": "表格為閱讀材料的簡化規範，不能單靠它判定人工繁殖個案的法律責任。"
+    },
+    {
+      "id": "chinese-8-r2-reading-37",
+      "section": "reading",
+      "label": "六、第37題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "借喻的結構",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "熊果地氈把植被直接稱作地毯。",
+        "甲把湖岸直接稱黑色緞帶，同樣以另一事物替代本體，選A；丙有明顯像字屬明喻。"
+      ],
+      "pitfall": "題目要比具體譬喻方式，不是凡有修辭就相同。"
+    },
+    {
+      "id": "chinese-8-r2-reading-38",
+      "section": "reading",
+      "label": "六、第38題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "審美帶來的豐富",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "作者列舉鳥群、山丘與雁，顯示平凡地景中仍有生命與歷史。",
+        "富饒指觀察所得的精神與生態豐富，C符合，並非保證土壤肥沃。"
+      ],
+      "pitfall": "貧瘠與富饒在此分屬物質、審美層面。"
+    }
+  ]
+}

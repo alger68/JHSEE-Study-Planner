@@ -1,0 +1,927 @@
+{
+  "schema": 1,
+  "sourceId": "1_pQpySF_oySBmCVAf0NmFnlL7fJ-DhS4",
+  "sourceSha256": "7054aa7b105a50071c04593d1c859aa867f460b9cba5e99b5a69cb3ab11570b9",
+  "title": "114-2-2九年級英文科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題整理第 1～50 題，目視核對全部 6 個 PDF 實體頁面，包括裙子圖案、品牌標誌、地圖、AI 資訊圖與畢業邀請卡。本卷沒有聽力或手寫題；第 6 頁將同一份答案重複印五次，只核對一次、不重複計題。第 15 題官方 D，但 C 在文法和語意上也可成立，列為待釐清；第 49 題另提示 Alice／Liz 姓名不一致。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "字彙與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "克漏字"
+    },
+    {
+      "id": "reading",
+      "title": "閱讀測驗"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-9-r2-1",
+      "section": "grammar",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "找裙子上沒有的形狀",
+      "answer": "D：正方形",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖上可看見星形、空心圓以及小圓點。",
+        "四個選項中沒有正方形，依 NOT 選 D。"
+      ],
+      "pitfall": "圈圈與實心點分屬兩個選項，不要把 dots 漏掉。"
+    },
+    {
+      "id": "english-9-r2-2",
+      "section": "grammar",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "寄明信片所需",
+      "answer": "A：stamp",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "明信片寫完要投入郵筒，先貼郵票以支付郵資。",
+        "put a stamp on it 的 on 符合貼在卡片表面的動作。"
+      ],
+      "pitfall": "信封通常是 put it in an envelope，不是把 envelope 貼在卡片上。"
+    },
+    {
+      "id": "english-9-r2-3",
+      "section": "grammar",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "問題的根本原因",
+      "answer": "B：root",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "工程師要避免再故障，需要找出問題根源。",
+        "the root of the problem 是根本原因的搭配，符合修復目的。"
+      ],
+      "pitfall": "root 在此是比喻用法，不是機器真的長植物根。"
+    },
+    {
+      "id": "english-9-r2-4",
+      "section": "grammar",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "為比賽訓練",
+      "answer": "B：train",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "後句列出早晨運動和放學跑步，都是備賽訓練。",
+        "train hard for the race 概括這些活動，選 B。"
+      ],
+      "pitfall": "kick 只是一種動作，不能概括所有備賽鍛鍊。"
+    },
+    {
+      "id": "english-9-r2-5",
+      "section": "grammar",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "借出圖書",
+      "answer": "C：check out",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "出示學生證並在櫃臺辦理，情境是借閱故事書。",
+        "check out 可表辦理圖書借出，與場景相符。"
+      ],
+      "pitfall": "此片語在旅館可表退房，這裡要依圖書館語境判讀。"
+    },
+    {
+      "id": "english-9-r2-6",
+      "section": "grammar",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "通勤燃料費",
+      "answer": "D：gas",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "後句明說開車上班會花更多錢，所需成本指汽油。",
+        "gas 在此為 gasoline 的常用簡稱，與價格上升的情境相符。"
+      ],
+      "pitfall": "題內戰事只是語境，答案依通勤燃料線索，不代表另行查證新聞。"
+    },
+    {
+      "id": "english-9-r2-7",
+      "section": "grammar",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "茫然的表情",
+      "answer": "C：blank",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "老師講解困難題目，學生沒有理解反應，描述空白茫然的表情。",
+        "a blank look 是常見搭配，選 C。"
+      ],
+      "pitfall": "death 是名詞，handsome 是英俊，皆不是不理解的神情。"
+    },
+    {
+      "id": "english-9-r2-8",
+      "section": "grammar",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "鞠躬致謝",
+      "answer": "A：bow",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "鋼琴家站起來向觀眾致謝，動作是鞠躬。",
+        "take a bow 表表演後鞠躬，deep 可修飾鞠躬幅度。"
+      ],
+      "pitfall": "band 是樂團，不是鋼琴家做的致謝動作。"
+    },
+    {
+      "id": "english-9-r2-9",
+      "section": "grammar",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "派對結束後收拾",
+      "answer": "D：after",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "收拾房間安排在派對結束後，並請對方留下幫忙。",
+        "after 引導結束之後的時間關係，最合前後文。"
+      ],
+      "pitfall": "until 表持續到某時，不能直接表示結束後才開始整理。"
+    },
+    {
+      "id": "english-9-r2-10",
+      "section": "grammar",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "所有科目中最沒興趣",
+      "answer": "C：the least",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "Among all the subjects 建立多項比較範圍，且理由是覺得歷史無趣。",
+        "the least interested 表最不感興趣，符合最高程度的比較。"
+      ],
+      "pitfall": "less 只是比較級，不足以表所有科目中最低程度。"
+    },
+    {
+      "id": "english-9-r2-11",
+      "section": "grammar",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "have a good time doing",
+      "answer": "B：sharing",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "句型 have a good time 後以動名詞說明做什麼而愉快。",
+        "sharing this evening with your family 對應共度晚餐的經驗。"
+      ],
+      "pitfall": "這個句型不接 to share，也不因 had 是過去式就寫 shared。"
+    },
+    {
+      "id": "english-9-r2-12",
+      "section": "grammar",
+      "label": "第 12 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "仔細檢查牙齒",
+      "answer": "D：carefully",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "looked at 是觀看的動作，空格要修飾檢查方式。",
+        "carefully 表仔細，符合為查明問題而觀察牙齒的目的。"
+      ],
+      "pitfall": "careful 是形容詞；well 雖是副詞，但此處要的是仔細檢視而非做得好。"
+    },
+    {
+      "id": "english-9-r2-13",
+      "section": "grammar",
+      "label": "第 13 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "感官動詞的並列受詞補語",
+      "answer": "C：and do",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "watched 後的街頭藝人做兩項動作：dance 與 do a magic trick。",
+        "以 and 連接兩個原形受詞補語，保持 dance…and do 的平行。"
+      ],
+      "pitfall": "watched 已表過去時間，不能把受詞補語 do 改成 did。"
+    },
+    {
+      "id": "english-9-r2-14",
+      "section": "grammar",
+      "label": "第 14 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "one of 的單數主詞",
+      "answer": "B：surprises",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "真正主詞是 One，而 paintings shown… 是說明哪一幅畫。",
+        "單數主詞搭現在式 surprises，後面 many people 作受詞。"
+      ],
+      "pitfall": "不要被 contests 或 paintings 的複數誤導動詞一致。"
+    },
+    {
+      "id": "english-9-r2-15",
+      "section": "grammar",
+      "label": "第 15 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "間接問句與語意歧義",
+      "answer": "D：how I can get there（官方）；C 亦有合理讀法",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "D 以 how 加主詞 I 再接 can，符合間接問句語序，且可詢問新百貨公司的路線。",
+        "但 C 的 whether he likes it 也合語法，it 可指前述新領帶，表示不確定丈夫是否喜歡；題幹沒有明確排除這項疑慮。"
+      ],
+      "pitfall": "A、B 倒裝語序不適合此處，但不能僅憑文法排除 C。",
+      "note": "官方答案 D，間接問句 how I can get there 的語序正確，詢問到新百貨的路線也合理。但 C whether he likes it 同樣是合法名詞子句，it 可以回指 new tie；題幹未明示困難只在交通，因此存在可接受的另一讀法。"
+    },
+    {
+      "id": "english-9-r2-16",
+      "section": "grammar",
+      "label": "第 16 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "回憶過去的習慣",
+      "answer": "C：used to play",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "看見舊鋼琴讓 Linda 想起祖父過去每晚彈歌。",
+        "used to 加原形表過去習慣，與回憶和 every night 相符。"
+      ],
+      "pitfall": "was playing 通常描寫某個過去時點進行的動作，較不合此處反覆習慣。"
+    },
+    {
+      "id": "english-9-r2-17",
+      "section": "grammar",
+      "label": "第 17 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "許多綠蠵龜",
+      "answer": "D：many",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前句已介紹 green turtles，後句可用 many 省略重複的複數名詞。",
+        "many in Hawaii 因而表示夏威夷的許多海龜，搭配 were。"
+      ],
+      "pitfall": "another 是單數；the others 暗示特定群體剩下全部，本句未建立這個範圍。"
+    },
+    {
+      "id": "english-9-r2-18",
+      "section": "grammar",
+      "label": "第 18 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "再點一杯",
+      "answer": "A：another",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "喝完第一杯還想加點一杯，指不限定總數中的另一個。",
+        "another 直接修飾單數 cup，符合結構。"
+      ],
+      "pitfall": "the other 通常指已知兩者中的另一個，題目沒有兩杯的固定集合。"
+    },
+    {
+      "id": "english-9-r2-19",
+      "section": "grammar",
+      "label": "第 19 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "照顧自己",
+      "answer": "D：ourselves",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "主詞是 we，而要照顧的也是自己，主受詞同指。",
+        "we 對應反身代名詞 ourselves，符合獨立露營的目的。"
+      ],
+      "pitfall": "ours 是所有代名詞，不能表示照顧的對象就是自己。"
+    },
+    {
+      "id": "english-9-r2-20",
+      "section": "grammar",
+      "label": "第 20 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "詢問天氣如何",
+      "answer": "B：what",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原句保留 is like，應使用 What is the weather like 的問法。",
+        "放入 wondering 後採間接問句語序 what the weather is like。"
+      ],
+      "pitfall": "How…is 不用 like，不能寫 how the weather is like。"
+    },
+    {
+      "id": "english-9-r2-21",
+      "section": "grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "tell 人 not to do",
+      "answer": "A：not to go",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "母親告誡下午不要出去，tell 人接不定詞表示要求。",
+        "否定放在不定詞前，形成 told me not to go。"
+      ],
+      "pitfall": "don’t go 是直接祈使句形式，不能直接接在 told me 後。"
+    },
+    {
+      "id": "english-9-r2-22",
+      "section": "grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "事情花費時間",
+      "answer": "C：took",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "主詞是 Buying…整個購物事件，受詞 him 後為一整個上午的時間。",
+        "事情 take 人 時間符合此結構，因此過去式用 took。"
+      ],
+      "pitfall": "spend 通常以人作主詞；cost 通常著重金錢代價。"
+    },
+    {
+      "id": "english-9-r2-23",
+      "section": "grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "可數飲料份數的比較",
+      "answer": "B：fewer",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "drinks 在此為可數複數飲品，且 than 引出與從前比較。",
+        "few 的比較級 fewer 正確表示點更少杯或份飲料。"
+      ],
+      "pitfall": "less 用於不可數量；此處名詞已明示複數。"
+    },
+    {
+      "id": "english-9-r2-24",
+      "section": "grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "先行詞與主格關係代名詞",
+      "answer": "D：the one who",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "was 後需要名詞補語 the one 表那個人。",
+        "who 再作 took 的主詞，把拿錯球的人限定出來。"
+      ],
+      "pitfall": "只填 the one 會讓 took 缺關係連接；只填 who 則缺合適先行詞。"
+    },
+    {
+      "id": "english-9-r2-25",
+      "section": "grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "承接另一個結果",
+      "answer": "A：and",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前半已用 so 說明忘加糖造成味道奇怪。",
+        "再以 and 連接無人想吃第二塊這個相關結果，形成流暢並列。"
+      ],
+      "pitfall": "because 會倒置因果，彷彿因沒人要第二塊才味道奇怪。"
+    },
+    {
+      "id": "english-9-r2-26",
+      "section": "grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "兩個過去動作並列",
+      "answer": "C：and went",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "牛奶先被留在冰箱外，接著變質，兩個動作需要連接。",
+        "and went 與 was left 並列，同為過去式，go bad 表變質。"
+      ],
+      "pitfall": "只填 went 會使兩個限定動詞間缺少連接詞。"
+    },
+    {
+      "id": "english-9-r2-27",
+      "section": "grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "辨識被關係子句隔開的主詞",
+      "answer": "B：has become",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "主詞是 the movie，中間 many teenagers are talking about 是省略受格關係代名詞的修飾句。",
+        "主句要說電影今年至今已成為成功作品，以 has become 符合語意。"
+      ],
+      "pitfall": "不要把 talking 當作主句動詞；修飾句結束後仍需完整謂語。"
+    },
+    {
+      "id": "english-9-r2-28",
+      "section": "grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "被動關係子句",
+      "answer": "C：that were taken",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "pictures 是被拍攝的對象，修飾子句需用被動 were taken。",
+        "主句動詞是 are hanging，因此以 that 把被拍攝的說明連接到圖片。"
+      ],
+      "pitfall": "省掉 that 卻保留 were，會讓一句有兩組未連接的主要動詞。"
+    },
+    {
+      "id": "english-9-r2-29",
+      "section": "grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "喜歡預先被告知",
+      "answer": "D：to be told",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "不想遇到意外驚喜，表示希望別人先告知自己。",
+        "自己是接受訊息者，需被動 to be told，再與 plan first 相連。"
+      ],
+      "pitfall": "to tell 是自己告訴別人，主客方向不同。"
+    },
+    {
+      "id": "english-9-r2-30",
+      "section": "grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "名詞子句中的未來式",
+      "answer": "A：will buy it",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "when 子句是 know 的受詞，表示不知道何時會買，屬間接問句。",
+        "這種名詞子句可以保留未來式 will；後面 after they do 才是時間副詞子句。"
+      ],
+      "pitfall": "不能把所有 when 都套用現在式表未來的規則。"
+    },
+    {
+      "id": "english-9-r2-31",
+      "section": "grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "否定比較級表示最差",
+      "answer": "C：worse",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "Lily 說再也不信網路貼文，表示排隊兩小時後非常失望。",
+        "couldn’t be worse 表不可能更差，也就是極差。"
+      ],
+      "pitfall": "couldn’t be better 反而是好極了，會與失望矛盾。"
+    },
+    {
+      "id": "english-9-r2-32",
+      "section": "grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "卡片上寫著的內容",
+      "answer": "B：says",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "the card 是主詞，we made 是省略關係代名詞的修飾。",
+        "卡片現在傳達愛母親的訊息，單數現在式 says 最符合語境。"
+      ],
+      "pitfall": "made 修飾製作經歷，不迫使主句也使用過去式。"
+    },
+    {
+      "id": "english-9-r2-33",
+      "section": "grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "出發前下載地圖",
+      "answer": "A：Download",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "句首直接向讀者提出建議，需要祈使句原形動詞。",
+        "Download 接 maps 作受詞，後面的 before 說明時機。"
+      ],
+      "pitfall": "Downloading 只有動名詞，不能單獨完成此命令句。"
+    },
+    {
+      "id": "english-9-r2-34",
+      "section": "grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "未來條件的天氣描述",
+      "answer": "C：is sunny",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "主句說下週爬山，if 子句用現在式表將來條件。",
+        "weather 為單數，用 is sunny 表天氣晴朗。"
+      ],
+      "pitfall": "will be 不用於此種普通條件句；stop to rain 也不是雨停。"
+    },
+    {
+      "id": "english-9-r2-35",
+      "section": "grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "保留介系詞的關係子句",
+      "answer": "D：John enjoyed playing baseball with",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "原意是 John 喜歡和那男孩打棒球，關係子句省略作 with 受詞的 whom／that。",
+        "with 必須保留，才能將 the boy 與一起打球的對象連接，之後 moved 才是主句動詞。"
+      ],
+      "pitfall": "漏掉 with 會讓 boy 在關係子句中找不到應有的語法位置。"
+    },
+    {
+      "id": "english-9-r2-36",
+      "section": "cloze",
+      "label": "第 36 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "安撫尚未開始約會",
+      "answer": "B：還沒有開始約會",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Ava 已建立個人檔案，June 因而擔心她真的投入交友。",
+        "B 表示尚未開始約會，能安撫對方並引出接下來的條件叮嚀。"
+      ],
+      "pitfall": "D 說還沒下載程式，與已建立檔案的敘述不合。"
+    },
+    {
+      "id": "english-9-r2-37",
+      "section": "cloze",
+      "label": "第 37 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "知道對方要說什麼",
+      "answer": "A：what you are going to say",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "後句列出不用真名、不給地址等注意事項，是預先說出 June 的叮嚀。",
+        "what 引導 know 的受詞子句，也作 say 的受詞。"
+      ],
+      "pitfall": "why 表原因、when 表時間，不能概括這份提醒的內容。"
+    },
+    {
+      "id": "english-9-r2-38",
+      "section": "cloze",
+      "label": "第 38 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "最後遇上危險約會",
+      "answer": "C：end up",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "June 擔心最終與危險人物出去約會，描述不想要的結果。",
+        "end up on a date 符合「結果落到某處境」的意思。"
+      ],
+      "pitfall": "set up 常需說明安排的對象，不能在此直接表最終處境。"
+    },
+    {
+      "id": "english-9-r2-39",
+      "section": "cloze",
+      "label": "第 39 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "再小心也不為過",
+      "answer": "B：再小心也不為過",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "Ava 決定先多想想，June 贊同她更謹慎。",
+        "can never be too careful 表越小心越好，與整段提醒一致。"
+      ],
+      "pitfall": "不可按字面誤解為永遠不准太小心；這是強調謹慎的句型。"
+    },
+    {
+      "id": "english-9-r2-40",
+      "section": "cloze",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "過去選定標誌",
+      "answer": "D：chose",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "段落敘述創辦人當年加上 s 並選海妖作標誌，屬完成的過去事件。",
+        "choose 的過去式是 chose，與前句 added 時間一致。"
+      ],
+      "pitfall": "have chosen 不如簡單過去式適合這段起源敘事。"
+    },
+    {
+      "id": "english-9-r2-41",
+      "section": "cloze",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "延續使用綠色",
+      "answer": "A：which has been used since then",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "文章說 1987 年改用綠色，後續 1992、2011 仍延續綠色。",
+        "since then 搭現在完成式被動，說明這個顏色持續被使用。"
+      ],
+      "pitfall": "which 此處應理解為綠色，不能說外圈一直保留，因 2011 外圈已去除。"
+    },
+    {
+      "id": "english-9-r2-42",
+      "section": "cloze",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "2011 標誌改動",
+      "answer": "C：移除外圈並放大中央圖像",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中早期外圈有品牌文字，2011 版只留下放大的海妖圖像。",
+        "C 同時描述去外圈與放大中心兩項改動，與圖像一致。"
+      ],
+      "pitfall": "不要把更簡化的標誌說成增加星星或更多圖片。"
+    },
+    {
+      "id": "english-9-r2-43",
+      "section": "cloze",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "海妖聲音的吸引力比喻",
+      "answer": "A：咖啡如海妖聲音一般吸引人",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前段已把海妖迷住水手的歌聲與咖啡吸引人作比較。",
+        "A 重現這項比喻，能解釋海妖為何持續出現在標誌中。"
+      ],
+      "pitfall": "原文沒有比較其他品牌，不能自行推成味道勝過競爭者。"
+    },
+    {
+      "id": "english-9-r2-44",
+      "section": "reading",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "藍洞介紹的主旨",
+      "answer": "B：介紹藍洞的特殊之處",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章依序說藍洞在哪裡、外觀深度、潛水風險與研究價值。",
+        "B 能涵蓋各段，黑洞僅是開頭引子，警告潛水也只占一部分。"
+      ],
+      "pitfall": "主旨不等於最驚人的單一句數字或危險事例。"
+    },
+    {
+      "id": "english-9-r2-45",
+      "section": "reading",
+      "label": "第 45 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "研究極端環境生命",
+      "answer": "D：了解其他星球的生命可能如何",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "最後一段說藍洞底部缺光缺氧卻有微小生命。",
+        "研究這些生命可提供思考外星生命的線索，因此 D 符合文中目的。"
+      ],
+      "pitfall": "目的不是在海裡找到更多氧氣，原文恰說氧氣很少。"
+    },
+    {
+      "id": "english-9-r2-46",
+      "section": "reading",
+      "label": "第 46 題",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "answerPage": 6,
+      "topic": "在地圖定位埃及紅海區域",
+      "answer": "B：地圖的 B 區域",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題文給出埃及與 Red Sea 兩條線索，先排除以色列及地中海標記。",
+        "B 位於埃及附近的紅海北部，A 較靠南方蘇丹，因此選 B；圖只提供區域定位。"
+      ],
+      "pitfall": "不能把這個粗略標記當作潛點的精確座標。"
+    },
+    {
+      "id": "english-9-r2-47",
+      "section": "reading",
+      "label": "第 47 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "雙面刃的比喻",
+      "answer": "A：一枚硬幣有兩面",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "資訊圖左側列 AI 的幫助，右側列深偽、冒用與真偽難辨。",
+        "double-edged sword 表同時有利與有弊，最接近 A 的兩面性。"
+      ],
+      "pitfall": "win-win 只強調雙方都有利，沒有呈現可能傷害。"
+    },
+    {
+      "id": "english-9-r2-48",
+      "section": "reading",
+      "label": "第 48 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "智慧手錶的分類",
+      "answer": "D：Personal Digital Tools",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "手錶提供個人紀錄、提醒與資訊分析，幫使用者了解日常狀態。",
+        "它屬個人數位工具的正面用途，而不是冒用身分或造假影像。"
+      ],
+      "pitfall": "不是所有提到 AI 的例子都屬 deepfake，應看實際功能。"
+    },
+    {
+      "id": "english-9-r2-49",
+      "section": "reading",
+      "label": "第 49 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "制服規定的適用對象",
+      "answer": "C：朋友沒穿制服就不能參加（不符邀請卡）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "卡片只對畢業生列出制服要求，並歡迎家人與朋友。",
+        "因此不能把制服義務擴大到來賓，C 是錯誤敘述；卡片也列有表演及校長後的來賓演說。"
+      ],
+      "pitfall": "選項把人物寫成 Liz，正文則是 Alice；姓名誤植不改變制服規定的範圍。",
+      "note": "官方 C。正文 Alice 與選項 Liz 名稱不一致，已如實註明；卡片日期為 2025-06-06，「去年」需按這份 114 學年度第二學期試卷的 2026 年情境理解。"
+    },
+    {
+      "id": "english-9-r2-50",
+      "section": "reading",
+      "label": "第 50 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "由身分辨識講者",
+      "answer": "A：受邀來賓",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "演說者說自己以流行歌手身分回母校，並分享離校後經驗。",
+        "邀請卡的節目表列 Guest Speaker — Tammy Fast，與這位回校校友的角色相符。"
+      ],
+      "pitfall": "演說勉勵學生不必然是校長；應核對講者自述身分。"
+    }
+  ]
+}

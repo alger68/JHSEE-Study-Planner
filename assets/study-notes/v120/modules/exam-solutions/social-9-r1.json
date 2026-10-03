@@ -1,0 +1,1000 @@
+{
+  "schema": 1,
+  "sourceId": "1rs9_ok0Lvg3aMD0xTmcJK-RWbwOz7bk6",
+  "sourceSha256": "9da68092db20e8b553178de3d02f70d9c7ce4cfb3fa414df2760bc7e75a1308d",
+  "title": "114-2-1九年級社會科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "逐頁檢視 7 個實體頁面，涵蓋地理、歷史、公民各 18 題，共 54 題。第 7 頁為官方解答；第 2、19、51、53 題保留官方答案並說明獨立判讀的歧義或錯誤。新聞題幹僅作題內情境，不據此認證當代事件。",
+  "sections": [
+    {
+      "id": "geography",
+      "title": "地理｜第 1–18 題"
+    },
+    {
+      "id": "history",
+      "title": "歷史｜第 19–36 題"
+    },
+    {
+      "id": "civics",
+      "title": "公民｜第 37–54 題"
+    }
+  ],
+  "items": [
+    {
+      "id": "social-9-r1-geography-01",
+      "section": "geography",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "臺灣南端燈塔與地方產業",
+      "answer": "A；屏東鵝鑾鼻燈塔。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先用臺灣南端、十九世紀建成的燈塔線索定位恆春半島的鵝鑾鼻。",
+        "再核對 A 的屏東位置；黑鮪魚是屏東東港的重要地方產業，不能把產地直接縮成燈塔所在地。"
+      ],
+      "pitfall": "羅妹號事件與牡丹社事件不是同一次船難；後者另有 1871 年琉球船難背景。"
+    },
+    {
+      "id": "social-9-r1-geography-02",
+      "section": "geography",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "經度、地方時與日出時間",
+      "answer": "官方 B 意在考三貂角位於本島最東端，但「每年最早見到曙光」不成立，沒有完全精確的選項。",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "三貂角經度較東，所以地方太陽時較早；全臺使用相同的標準時間，鐘錶時間並不因此不同。",
+        "日出先後也受日期、緯度及地形影響；臺北天文館公布的 2026 年元旦本島平地最早日出在鵝鑾鼻，不能由最東端推出全年最早。"
+      ],
+      "pitfall": "把「經度最東」「當地太陽時較早」與「每一天最早日出」畫等號。",
+      "note": "官方為 B。其位置線索可辨識三貂角，但對地方時與全年第一道曙光的連結過度；本題保留官方答案並限縮其可成立的部分。"
+    },
+    {
+      "id": "social-9-r1-geography-03",
+      "section": "geography",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "經緯度判讀與臺灣西端",
+      "answer": "A；國聖港燈塔約在東經 120 度、北緯 23 度附近。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "從臺灣本島西端定位臺南七股海岸，再估計其經緯度。",
+        "臺灣位於東半球、北半球，排除西經或南緯以及偏離臺灣的組合。"
+      ],
+      "pitfall": "度數接近仍要確認東西經、南北緯，不能只看數字。"
+    },
+    {
+      "id": "social-9-r1-geography-04",
+      "section": "geography",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "古地圖地名的時代意義",
+      "answer": "C；清代臺灣府。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "地圖年代為 1735 年，已在清廷設臺灣府之後。",
+        "依該時代的行政名稱解讀 TAIOUAN，不能以更早歐洲對全島的 Formosa 稱呼替代。"
+      ],
+      "pitfall": "只看拼音像臺灣，就忽略地圖製作年代與行政層級。"
+    },
+    {
+      "id": "social-9-r1-geography-05",
+      "section": "geography",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "海岸沖積平原與地名",
+      "answer": "C；崁頂較不符合台江平原的形成環境。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "台江一帶由河流、海岸堆積塑造，沙洲、港灣、河床地名符合其地形。",
+        "崁通常指崖坎或較明顯高差；比較其他選項，崁頂與低平堆積地形的關聯最弱。"
+      ],
+      "pitfall": "地名只是環境線索，不代表所有帶「崁」的地方都必然有同一種地形。"
+    },
+    {
+      "id": "social-9-r1-geography-06",
+      "section": "geography",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "台江內海陸化",
+      "answer": "B；曾文溪帶來的泥沙堆積。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "河流輸送泥沙至河口，流速減慢後容易沉積。",
+        "曾文溪改道與泥沙累積促成台江內海逐漸陸化，對應題述新生陸地。"
+      ],
+      "pitfall": "把平原向海擴張解釋成海浪侵蝕；侵蝕與堆積的結果方向相反。"
+    },
+    {
+      "id": "social-9-r1-geography-07",
+      "section": "geography",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "縣市定位與地名由來",
+      "answer": "B；圖中 4 為桃園、10 為雲林，名稱都與植物意象有關。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先按北部、西部中南段的位置，在縣市圖辨出桃園與雲林。",
+        "桃園連結桃樹，雲林的命名涉及林木景觀；核對名稱由來後選 B。"
+      ],
+      "pitfall": "先憑地名分類猜答案，卻把地圖代號套到錯誤縣市。"
+    },
+    {
+      "id": "social-9-r1-geography-08",
+      "section": "geography",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "合併地名的來源",
+      "answer": "C；龍崎與中和都由兩個舊地名取字組成。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "龍崎結合龍船、崎頂的地名元素；中和結合中坑、漳和。",
+        "兩者都呈現行政合併後組合命名，與單純紀念人物或描述單一地形不同。"
+      ],
+      "pitfall": "看到「和」就一律解讀為族群和解，而不查其原有聚落名稱。"
+    },
+    {
+      "id": "social-9-r1-geography-09",
+      "section": "geography",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "丘陵資源與早期聚落產業",
+      "answer": "A；大平窩的丘陵環境與早期採樟製腦活動相符。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "「窩」常提示丘陵間的谷地，需先辨認地形與聚落背景。",
+        "丘陵林地曾提供樟木資源，因此採樟製腦比沿海漁鹽等產業更符合題意。"
+      ],
+      "pitfall": "把同一區域現在的產業直接當作早期聚落形成的產業。"
+    },
+    {
+      "id": "social-9-r1-geography-10",
+      "section": "geography",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "客家聚落地名與丘陵",
+      "answer": "C；新竹丘陵。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "坑、窩可反映丘陵中的凹谷，屋可反映家族聚居的聚落命名。",
+        "把地形線索與客家分布合併判斷，新竹丘陵最符合這組地名。"
+      ],
+      "pitfall": "只用「客家」判斷全臺任何客家地區，忽略丘陵地形限制。"
+    },
+    {
+      "id": "social-9-r1-geography-11",
+      "section": "geography",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "鄭氏相關地名的辨別",
+      "answer": "D；高雄三塊厝與鄭氏人物、軍屯或封號的直接關聯最弱。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "成功、林鳳營、國姓各可連結鄭成功、軍屯人物或封號。",
+        "三塊厝通常描述聚落屋舍或聚居形態，不以鄭氏政權為主要命名線索。"
+      ],
+      "pitfall": "把南臺灣所有傳統地名都歸因於鄭氏；題幹的「成功鄉」也不是現行成功鎮的正確名稱。"
+    },
+    {
+      "id": "social-9-r1-geography-12",
+      "section": "geography",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "沙丘地名與海岸類型",
+      "answer": "D；丁所示沙岸。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "大崙腳中的崙可指沙丘等隆起地形，本題需與低平砂質海岸背景一起看。",
+        "四幅海岸圖中，沙洲與沙丘發育的沙岸最相符，選丁。"
+      ],
+      "pitfall": "看到「崙」就選高山，會忽略低矮沙丘；也不能據此認定今日虎尾仍直接臨海。"
+    },
+    {
+      "id": "social-9-r1-geography-13",
+      "section": "geography",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "曬鹽區位",
+      "answer": "D；臺灣西南部平坦海岸。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "曬鹽需要引入海水、設置鹽田，平坦地形有利分區蓄水。",
+        "西南部乾季日照與蒸發條件較適合傳統曬鹽，因此「鹽埕」與此區位相連。"
+      ],
+      "pitfall": "只要靠海就判定適合曬鹽，忽略地形、降雨與蒸發條件。"
+    },
+    {
+      "id": "social-9-r1-geography-14",
+      "section": "geography",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "比例尺換算",
+      "answer": "A；0.2 公里（200 公尺）。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "比例尺 1：20,000 表示圖上 1 公分等於實地 20,000 公分。",
+        "將公分除以 100 得 200 公尺，亦即 0.2 公里。"
+      ],
+      "pitfall": "把 20,000 公分誤當 20,000 公尺，造成百倍誤差。"
+    },
+    {
+      "id": "social-9-r1-geography-15",
+      "section": "geography",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "臺灣堡圖與土地利用",
+      "answer": "D；宜蘭壯圍的稻作平原。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先讀堡圖中的田地符號與密集農地，判斷主要土地利用為耕作。",
+        "壯圍位於平坦、濕潤的蘭陽平原，與水稻種植所需條件吻合。"
+      ],
+      "pitfall": "把傳統地圖符號當裝飾，或僅憑海岸位置就推成漁業。"
+    },
+    {
+      "id": "social-9-r1-geography-16",
+      "section": "geography",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "信仰與地名",
+      "answer": "B；媽宮地名與媽祖信仰有關。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "「媽宮」中的宮指廟宇，須連結澎湖早期海上活動的信仰需求。",
+        "媽祖信仰與天后宮提供地名來源線索，屬宗教文化留下的地方記憶。"
+      ],
+      "pitfall": "把媽宮直接拆成現代行政機關名稱，而忽略廟宇脈絡。"
+    },
+    {
+      "id": "social-9-r1-geography-17",
+      "section": "geography",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "地名與地方行銷",
+      "answer": "B；藉地名意象進行商品行銷。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "把地名讀音或字義與吉祥祝福連結，是創造商品附加意義的方法。",
+        "題述商品以地方名稱吸引消費者，重點在行銷運用，不是自然環境改變。"
+      ],
+      "pitfall": "把文化意象的商業運用誤判為行政區更名。"
+    },
+    {
+      "id": "social-9-r1-geography-18",
+      "section": "geography",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "鐵路識別與吉祥車票",
+      "answer": "D；臺鐵。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "永康、保安、追分、成功都是題示吉祥車票所使用的臺鐵車站名。",
+        "核對圖中的臺鐵標誌，排除高鐵及都市捷運系統。"
+      ],
+      "pitfall": "只因車站可搭軌道運輸，就把不同營運系統混為一談。"
+    },
+    {
+      "id": "social-9-r1-history-19",
+      "section": "history",
+      "label": "第 19 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "壕溝戰的起源與一戰特色",
+      "answer": "官方 D 對應一戰著名壕溝戰，但若按「最早挖戰壕」判斷，所列戰爭中 A 美國獨立戰爭已使用壕溝。",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "第一次世界大戰西線以持久、大規模的壕溝對峙聞名，這解釋了命題意圖。",
+        "美國國家公園署記載 1781 年約克鎮圍城已挖掘攻城壕溝，早於一戰，故不能把一戰說成挖戰壕的最早戰爭。"
+      ],
+      "pitfall": "把某種戰術最有名的使用時期誤認成它首次出現的年代。",
+      "note": "官方為 D。題目用了「最早」而非「最典型」，史實不支持官方答案；A 至少已足以否定 D 的時間先後。"
+    },
+    {
+      "id": "social-9-r1-history-20",
+      "section": "history",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "委內瑞拉殖民文化",
+      "answer": "B 為錯誤配對；西班牙殖民背景相符，但主要宗教傳統並非基督新教。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "委內瑞拉的西班牙語與西班牙殖民背景有關。",
+        "殖民時期傳入的主要基督宗教傳統是天主教，因此把它配為新教不恰當。"
+      ],
+      "pitfall": "把所有基督宗教統稱後，就忽略題目正在區分天主教與新教；新聞敘事也不等於已核實史實。"
+    },
+    {
+      "id": "social-9-r1-history-21",
+      "section": "history",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "殖民版圖擴張",
+      "answer": "B；歐洲列強殖民擴張。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "比較兩個年代的圖示，先辨認歐洲勢力控制範圍是否向其他洲擴大。",
+        "十九世紀工業化與帝國主義促成大規模海外殖民，符合圖中跨洲控制範圍增加的現象。"
+      ],
+      "pitfall": "把海外殖民擴張誤當歐洲本土國界單純合併。"
+    },
+    {
+      "id": "social-9-r1-history-22",
+      "section": "history",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "義大利統一的主導力量",
+      "answer": "A；甲地薩丁尼亞王國與加富爾。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "統一前的義大利半島分裂為多個政權，北部薩丁尼亞王國是統一主力。",
+        "加富爾運用外交與戰爭推動統一；加里波底則以南部征戰見長，不能交換角色。"
+      ],
+      "pitfall": "將馬志尼的思想倡議、加富爾的外交和加里波底的軍事行動混在一起。"
+    },
+    {
+      "id": "social-9-r1-history-23",
+      "section": "history",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "大英帝國的殖民版圖",
+      "answer": "A；英國。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "在世界圖尋找印度、加拿大、澳洲及非洲部分區域的組合。",
+        "這些分散各洲的領地符合英國廣大殖民帝國的版圖特徵。"
+      ],
+      "pitfall": "只憑一塊殖民地辨認宗主國，忽略整張圖的領地組合與年代。"
+    },
+    {
+      "id": "social-9-r1-history-24",
+      "section": "history",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "第一次世界大戰戰勝國",
+      "answer": "D；英、美、日。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "先將德國與奧匈帝國列入戰敗的同盟國，排除含它們的選項。",
+        "英國、美國及日本站在協約國一方；美國雖較晚參戰，仍屬戰勝方。"
+      ],
+      "pitfall": "把義大利戰前結盟位置當成整場大戰的參戰陣營。"
+    },
+    {
+      "id": "social-9-r1-history-25",
+      "section": "history",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "中國參與一戰",
+      "answer": "B；段祺瑞主導的北京政府。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "中國在 1917 年對德、奧宣戰，需定位當時北京政府的政治人物。",
+        "段祺瑞推動參戰政策，並與當時府院政治衝突相連，符合題目時序。"
+      ],
+      "pitfall": "把巴黎和會時的中國政府，直接與一戰初期或南京國民政府混同。"
+    },
+    {
+      "id": "social-9-r1-history-26",
+      "section": "history",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "德意志經濟整合",
+      "answer": "D 為錯誤敘述；關稅同盟與德意志統一有關，不是義大利統一。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "普魯士主導關稅同盟，降低德意志邦國間的貿易障礙。",
+        "共同市場有利於經濟聯繫與政治整合，但不能把普魯士、德意志換成薩丁尼亞、義大利。"
+      ],
+      "pitfall": "把所有歐洲整合都當成同一組成員；歐盟、歐元區和申根區也不完全相同。"
+    },
+    {
+      "id": "social-9-r1-history-27",
+      "section": "history",
+      "label": "第 27 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "國際聯盟與美國",
+      "answer": "B 為錯誤敘述；英國有加入國際聯盟，未加入的是美國。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "威爾遜倡議戰後國際和平機制，但美國國內的條約批准未完成。",
+        "英國與法國則是國際聯盟的重要成員，因此不能說英國未加入。"
+      ],
+      "pitfall": "把提出組織理念與實際取得會員資格當成同一件事。"
+    },
+    {
+      "id": "social-9-r1-history-28",
+      "section": "history",
+      "label": "第 28 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "新帝國主義的動力",
+      "answer": "D；工業化帶來原料、市場與軍事優勢需求。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "工業生產擴大後，列強需要原料來源與商品銷售市場。",
+        "交通與武器技術提升殖民能力，與經濟需求共同推動海外擴張。"
+      ],
+      "pitfall": "把帝國主義只歸因於單一人物野心，忽略工業化的結構條件。"
+    },
+    {
+      "id": "social-9-r1-history-29",
+      "section": "history",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "法國大革命時序",
+      "answer": "C；三級會議、國民議會、攻陷巴士底監獄、人權宣言、處死國王。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "1789 年先召開三級會議，第三等級進而成立國民議會，七月發生巴士底事件。",
+        "人權宣言在同年八月通過；路易十六被處死則到 1793 年，應排最後。"
+      ],
+      "pitfall": "將革命爆發、宣言通過與處死國王全部壓成同一天或同一年。"
+    },
+    {
+      "id": "social-9-r1-history-30",
+      "section": "history",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "拿破崙政權性質",
+      "answer": "C 為不正確敘述；拿破崙後來建立帝制。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "拿破崙崛起於革命後的法國，但不能據此推斷他始終反對君主體制。",
+        "他在 1804 年稱帝，因此「反對帝制」不符合其實際統治經歷。"
+      ],
+      "pitfall": "把革命時代出身等同一生都擁護共和制度。"
+    },
+    {
+      "id": "social-9-r1-history-31",
+      "section": "history",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "非洲殖民地瓜分",
+      "answer": "A；歐洲帝國主義的擴張。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "比較 1878 年與 1913 年地圖，辨認列強控制的非洲領地增加。",
+        "這呈現十九世紀末的殖民瓜分，而非非洲本來無人居住或沒有政治社會組織。"
+      ],
+      "pitfall": "沿用殖民地圖的「未知」視角，誤認原住社會在歐洲到來前不存在。"
+    },
+    {
+      "id": "social-9-r1-history-32",
+      "section": "history",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "美國獨立與旗幟變化",
+      "answer": "A；十三殖民地脫離英國而獨立。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先辨認帶英國旗元素的殖民背景，再對照代表十三州的星條旗。",
+        "美國在 1776 年宣告獨立、1777 年通過星條旗式樣；旗幟變化表達政治地位改變。"
+      ],
+      "pitfall": "把宣告獨立的年份與正式採用星條旗的年份視為完全相同。"
+    },
+    {
+      "id": "social-9-r1-history-33",
+      "section": "history",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "第一次世界大戰的導火線",
+      "answer": "D；塞拉耶佛暗殺事件。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "戰前已有軍備競賽、民族主義及同盟對立，這些是長期背景。",
+        "1914 年奧匈皇儲遇刺引發危機升高，成為全面戰爭的直接導火線。"
+      ],
+      "pitfall": "把長期結構原因與直接觸發事件混為一類。"
+    },
+    {
+      "id": "social-9-r1-history-34",
+      "section": "history",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "德意志統一歷程的錯置",
+      "answer": "A；甲、乙、丙需更正，丁的普法戰爭可成立。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "拿破崙戰後秩序應連結維也納會議，德意志統一主導者應是普魯士與俾斯麥。",
+        "普法戰爭確與 1871 年德意志帝國成立相連，因此保留丁、修正前三項。"
+      ],
+      "pitfall": "將義大利的薩丁尼亞與馬志尼移植到德意志統一過程。"
+    },
+    {
+      "id": "social-9-r1-history-35",
+      "section": "history",
+      "label": "第 35 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "美國三權分立",
+      "answer": "C 為錯誤配對；甲行政、乙司法、丙立法。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "依各機關的功能辨認：總統執行政策、最高法院司法審判、國會制定法律。",
+        "再核對圖上的甲乙丙，將機關與權力相互配對，找出 C 的錯置。"
+      ],
+      "pitfall": "只記三個機關名稱，卻未依圖中實際位置判讀代號。"
+    },
+    {
+      "id": "social-9-r1-history-36",
+      "section": "history",
+      "label": "第 36 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "維也納會議的背景",
+      "answer": "C；拿破崙戰爭後重建歐洲秩序。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先以拿破崙帝國覆滅後的時間點定位 1814 至 1815 年。",
+        "維也納會議重整領土與王朝秩序，並以勢力均衡避免單一強國再次稱霸。"
+      ],
+      "pitfall": "把一戰後的巴黎和會與拿破崙戰後的維也納會議混同。"
+    },
+    {
+      "id": "social-9-r1-civics-37",
+      "section": "civics",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "親屬圖中的血親",
+      "answer": "C；與乙互為血親的有父、母與丙，共 3 人。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "依親子箭頭找出乙的父母，再沿共同父母辨出手足丙。",
+        "甲與乙的連線是婚姻，不因此成為血親；丁亦不列入乙的血親人數。"
+      ],
+      "pitfall": "把配偶算成血親，或因丙、丁皆為女性就誤讀圖上的婚姻連線。"
+    },
+    {
+      "id": "social-9-r1-civics-38",
+      "section": "civics",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "扶養義務的法院減免",
+      "answer": "A；由法官依民法審理。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "父親過去嚴重虐待、未盡扶養義務，可能符合民法減輕或免除成年子女扶養義務的要件。",
+        "是否符合要件由法院依具體事實判斷，不能由子女自行宣布永久免責。"
+      ],
+      "pitfall": "把成年子女對父母的扶養義務與父母對未成年子女的親權混為一談。"
+    },
+    {
+      "id": "social-9-r1-civics-39",
+      "section": "civics",
+      "label": "第 39 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "志願團體與政策倡議",
+      "answer": "D；協會自主表達訴求並倡議修法。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "民間協會可依共同利益組織成員，向政府提出政策建議。",
+        "倡議修法展現自主參與公共事務，不代表協會取得政府的強制公權力。"
+      ],
+      "pitfall": "把具有公共目的的民間團體誤認成官方機關。"
+    },
+    {
+      "id": "social-9-r1-civics-40",
+      "section": "civics",
+      "label": "第 40 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "無障礙設施與社會福利",
+      "answer": "B；以福利服務回應不同群體的需求。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "無障礙電梯、友善通行設備直接改善長者、孕婦與身障者的使用環境。",
+        "這屬於福利服務的提供；題目並未描述保險繳費分攤風險或低收入現金救助。"
+      ],
+      "pitfall": "凡是政府花錢就選社會救助，忽略服務、保險與救助的差別。"
+    },
+    {
+      "id": "social-9-r1-civics-41",
+      "section": "civics",
+      "label": "第 41 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "法治與限制統治者",
+      "answer": "C；英國權利法案以法律限制國王。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "資料二要求國王停法、徵稅受到議會同意的限制，顯示權力不能任意行使。",
+        "資料一的路易十四集中權力屬君主專制，不能因存在法律就稱為民主法治。"
+      ],
+      "pitfall": "把「統治者用法律管人民」當成「統治者也受法律拘束」。"
+    },
+    {
+      "id": "social-9-r1-civics-42",
+      "section": "civics",
+      "label": "第 42 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "攝影著作的權利取得",
+      "answer": "A；具原創性的商品攝影完成時即受著作權保護。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "先辨認商品照片屬可能受保護的攝影著作，而不是一律歸入商標或專利。",
+        "符合著作要件時不須申請登記即取得著作權，擅自下載再上傳仍須考量授權或法定合理使用。"
+      ],
+      "pitfall": "誤認網路公開可見的照片就是可任意重製的免費素材。"
+    },
+    {
+      "id": "social-9-r1-civics-43",
+      "section": "civics",
+      "label": "第 43 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "重製小說與著作權",
+      "answer": "D；影印新出版小說供全班使用。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "小說是語文著作，整本影印涉及重製權。",
+        "大量取代購買會影響市場，不能只因班級使用就當然視為合理使用；其他選項分別偏向資訊犯罪、商標或專利。"
+      ],
+      "pitfall": "把不同智慧財產權的保護客體混用，或認為教室內就沒有著作權。"
+    },
+    {
+      "id": "social-9-r1-civics-44",
+      "section": "civics",
+      "label": "第 44 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "生成式影像與資訊查證",
+      "answer": "B；不實內容可能使閱聽者作出錯誤判斷。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題中影像與說法未獲證實，須先區分影片看似逼真與事件確曾發生。",
+        "查找原始來源、其他可信證據及查核結果，有助於避免被錯誤訊息引導。"
+      ],
+      "pitfall": "只依畫面震撼程度認定消息為真；本解析不把題幹新聞當成已證實事件。"
+    },
+    {
+      "id": "social-9-r1-civics-45",
+      "section": "civics",
+      "label": "第 45 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "教學重製與合理使用",
+      "answer": "A；依題設的小篇幅、教學必要及低市場影響，可能成立合理使用。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "教學目的使用已公開發表作品，仍須檢查使用範圍與目的是否合理。",
+        "題目已限定只印部分文章且不影響市場，支持選 A；仍不能推成所有課堂重製都免授權。"
+      ],
+      "pitfall": "只看到「老師教學」就忽略份量與對著作市場的影響。"
+    },
+    {
+      "id": "social-9-r1-civics-46",
+      "section": "civics",
+      "label": "第 46 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "假訊息對媒體信任的影響",
+      "answer": "C；不實資訊會削弱閱聽人對媒體的信任。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "媒體若反覆傳播未查證內容，閱聽者難以判斷可靠性。",
+        "因此假訊息不只誤導單一事件，也可能降低整體信任，應強化來源查核。"
+      ],
+      "pitfall": "將大量轉傳或高點閱率當成可信度證明。"
+    },
+    {
+      "id": "social-9-r1-civics-47",
+      "section": "civics",
+      "label": "第 47 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "新聞用語與客觀呈現",
+      "answer": "C；帶貶抑、污名的描述不符合客觀報導。",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "先分辨可查證的行為事實與對人的負面標籤。",
+        "報導應具體描述事件與證據，不宜用污名化用詞代替說明，更不能憑外表推定疾病。"
+      ],
+      "pitfall": "把有情緒的形容詞當成已被證實的客觀事實。"
+    },
+    {
+      "id": "social-9-r1-civics-48",
+      "section": "civics",
+      "label": "第 48 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "公民新聞與媒體近用",
+      "answer": "A；民眾能透過媒體參與報導與公共討論。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "行動裝置和網路降低發布門檻，讓一般民眾有機會記錄並分享事件。",
+        "這反映媒體近用與公民參與擴大，但內容仍須查證，不代表專業媒體已消失。"
+      ],
+      "pitfall": "把人人可發布解讀成人人的報導都同樣可靠。"
+    },
+    {
+      "id": "social-9-r1-civics-49",
+      "section": "civics",
+      "label": "第 49 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "事實與意見的區分",
+      "answer": "B；甲、丙、戊屬帶有評價的意見。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "檢查敘述是否含價值判斷、喜好或好壞評價，將這類內容歸為意見。",
+        "乙、丁描述可查核的行動或報導發生；即使被報導的人表達意見，「他曾如此表示」仍可查證。"
+      ],
+      "pitfall": "將引述中有人表達主張，直接等同整句新聞都不可查證。"
+    },
+    {
+      "id": "social-9-r1-civics-50",
+      "section": "civics",
+      "label": "第 50 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "監護宣告與選舉資格",
+      "answer": "D；在其他資格符合的前提下，30 歲且受監護宣告者仍可投票。",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "公職選罷法修正已刪除受監護宣告者不得投票的限制，不能沿用舊法判斷。",
+        "再核對投票年齡、國籍及設籍期間，排除未滿 20 歲或未符合身分、居住條件者。"
+      ],
+      "pitfall": "把民法的行為能力或 18 歲成年，直接當成選舉法的投票資格。"
+    },
+    {
+      "id": "social-9-r1-civics-51",
+      "section": "civics",
+      "label": "第 51 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "食品安全損害的民事責任",
+      "answer": "官方 C 指侵權責任；若消費者也有買賣契約，D 債務不履行可能同時成立。",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "業者因過失提供不安全食品造成身體損害，符合討論侵權行為損害賠償的方向。",
+        "買賣關係中提供有害食品也可能是不完全給付，民法容許相應的契約損害賠償；僅憑題述不能排除 D。"
+      ],
+      "pitfall": "把同一事件只能產生一種民事請求權，誤認為法律規則。",
+      "note": "官方為 C。依民法第 184、227、227-1 條，侵權與契約請求可能競合；題幹未限定只能問契約外責任，單選的唯一性不足。"
+    },
+    {
+      "id": "social-9-r1-civics-52",
+      "section": "civics",
+      "label": "第 52 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "告訴與告發",
+      "answer": "A；路人向警方反映為告發，依法有告訴權的被害方提出追訴請求為告訴。",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "路人不是被害人或法定告訴權人，發現犯罪後通知機關屬告發。",
+        "題設父親若以被害未成年子女的法定代理人身分請求追訴，則具有告訴權。"
+      ],
+      "pitfall": "只看誰先打電話報警來判斷告訴或告發，忽略是否具有法定告訴權。"
+    },
+    {
+      "id": "social-9-r1-civics-53",
+      "section": "civics",
+      "label": "第 53 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "匯率升貶與題目推論界線",
+      "answer": "官方 D 的「利潤最高」證據不足；依表可直接支持 C 所述取得固定新臺幣需付更多韓元。",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "表格以每單位外幣兌新臺幣表示：韓元報價下降，換取同額新臺幣就需要更多韓元。",
+        "美元報價上升只能推出同額美元收入可兌較多新臺幣；題目雖限定貿易量相同，仍未固定售價、成本與計價幣別，不能斷言對美出口利潤最高。"
+      ],
+      "pitfall": "把外幣升值有利於換匯，直接放大成出口業者必定獲利最多。",
+      "note": "官方為 D。題內韓元上個月 0.201、本日 0.0197 的數值相差約十倍，疑有小數誤植；本解析保留原表讀值，不自行修表。即使如此，C 的換匯方向成立，D 的最高利潤仍缺條件。"
+    },
+    {
+      "id": "social-9-r1-civics-54",
+      "section": "civics",
+      "label": "第 54 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "不實廣告與公平交易",
+      "answer": "B；公平交易法的不實或引人錯誤廣告規範。",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先辨認業者利用不實宣傳影響消費選擇，問題在市場資訊與公平競爭。",
+        "公平交易法規範足以影響交易決定的不實表示；是否另涉詐欺仍須個別檢查犯罪要件。"
+      ],
+      "pitfall": "一看到虛假廣告就直接推定所有刑事犯罪都成立。"
+    }
+  ]
+}

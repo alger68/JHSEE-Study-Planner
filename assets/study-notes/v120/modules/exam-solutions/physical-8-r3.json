@@ -1,0 +1,843 @@
+{
+  "schema": 1,
+  "sourceId": "1KTvqzTeca7LQxUJ51MGfCfuIZBbpFdbc",
+  "sourceSha256": "e8e303fe14b4dd28dde5449dbbb9499a09c619c5a9b5d5395fbc471631e7e69b",
+  "title": "114-2-3 八年級理化科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題完成第 1～45 題原創解析，核對全部 7 個 PDF 實體頁與圖表；40 題已核對、4 題有爭議、1 題有來源或條件限制。另列塑膠比較缺少玻璃數據、清潔劑概括、香料閱讀及液壓用語的限制。此範圍僅為本份歷史段考，不表示所有教材均已完成。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、單選題（1～38）"
+    },
+    {
+      "id": "reading",
+      "title": "二、閱讀題（39～45）"
+    }
+  ],
+  "items": [
+    {
+      "id": "physical-8-r3-1",
+      "section": "choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "熱塑性聚合物的結構模型",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題設材料加熱軟化、冷卻再硬化，符合鏈段可相對移動的熱塑性模型。",
+        "A 畫出未形成大片交聯網的鏈狀結構，比 B、C 的網狀圖更符合條件。"
+      ],
+      "pitfall": "依題給熱行為判斷，不以「有彈性」直接推定必為熱固性。",
+      "note": "只對題述材料模型作答；實際彈性纖維的配方與交聯方式可能不同。"
+    },
+    {
+      "id": "physical-8-r3-2",
+      "section": "choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "尿素合成的歷史意義",
+      "answer": "A（烏勒）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "烏勒以無機原料製得尿素，成為有機化學發展的重要實驗。",
+        "此結果挑戰有機物只能由生命體製造的觀念，故選 A。"
+      ],
+      "pitfall": "有機與無機的分類不能只憑是否出自生物。",
+      "note": "這是課程常用的歷史里程碑，不表示生命力學說在一次實驗後立即消失。"
+    },
+    {
+      "id": "physical-8-r3-3",
+      "section": "choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "油脂與鹼的皂化",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "脂肪屬油脂，和含鹼的灰燼溶液反應可生成脂肪酸鹽。",
+        "這些具有清潔作用的鹽是肥皂，因此依情境判為皂化。"
+      ],
+      "pitfall": "酯化通常由酸與醇生成酯，方向與本題油脂的鹼性水解不同。",
+      "note": "題中故事作為化學情境，不據此認定歷史傳說細節已查證。"
+    },
+    {
+      "id": "physical-8-r3-4",
+      "section": "choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "碳鏈帶來化合物多樣性",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "碳可與碳連成長鏈、支鏈及環，也能與多種其他原子組合。",
+        "同樣元素與原子數還可能有不同排列，故能形成大量不同有機化合物。"
+      ],
+      "pitfall": "化合物種類多不等於所含元素種類一定多。"
+    },
+    {
+      "id": "physical-8-r3-5",
+      "section": "choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "超距力的假設分類",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題設的念力不需接觸物體即可施力，應歸入假想的超距作用。",
+        "磁力可隔空作用，壓力、浮力與摩擦力則是接觸作用，因此類比 D。"
+      ],
+      "pitfall": "這是條件假設下的分類，不是宣稱念力存在。"
+    },
+    {
+      "id": "physical-8-r3-6",
+      "section": "choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "受力效果與平衡",
+      "answer": "C（甲、丙錯）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "力可能改變運動狀態或造成形變，不能說每次受力都必有題目可辨識的形狀改變。",
+        "合力為零可靜止，也可等速度運動；超距力確實存在，所以甲、丙錯。"
+      ],
+      "pitfall": "合力為零只限制加速度，並不直接決定速度等於零。"
+    },
+    {
+      "id": "physical-8-r3-7",
+      "section": "choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "壓力與摩擦力的區別",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "尖鐵釘在相同施力下，接觸面積較小，產生較大壓力。",
+        "滾輪、磁浮與冰面行走主要都涉及摩擦的改變，故 C 較無關。"
+      ],
+      "pitfall": "壓力要除以面積，摩擦力則不能只依面積大小判斷。"
+    },
+    {
+      "id": "physical-8-r3-8",
+      "section": "choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "含碳化合物的例外",
+      "answer": "C（天門冬胺酸）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "天門冬胺酸具有有機分子的碳骨架，屬胺基酸。",
+        "CO₂ 雖含碳，但依慣例歸為無機物；水與氨也不是有機物，因此選 C。"
+      ],
+      "pitfall": "「含碳」是重要線索，但二氧化碳、碳酸鹽等是常見例外。"
+    },
+    {
+      "id": "physical-8-r3-9",
+      "section": "choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "走路與最大靜摩擦力",
+      "answer": "A（只有甲錯）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "人走路需靠地面對腳的摩擦力推進；完全沒有摩擦力反而難以正常行走。",
+        "取下書減少正向力，可降低最大靜摩擦力；釘鞋則提高抓地效果，因此乙、丙可成立。"
+      ],
+      "pitfall": "最大靜摩擦力是上限，不等於靜止時一直有這麼大的摩擦力。"
+    },
+    {
+      "id": "physical-8-r3-10",
+      "section": "choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "彈簧秤的力單位",
+      "answer": "A（甲、丙、丁）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "彈簧秤量測力，本題的 gw 是公克重，屬力的單位。",
+        "g 是質量，g/cm² 是面密度，g/cm³ 是密度，所以其餘三項都不是題目要的力單位。"
+      ],
+      "pitfall": "g 和 gw 只差一字母，代表的物理量卻不同。"
+    },
+    {
+      "id": "physical-8-r3-11",
+      "section": "choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "羧基與有機酸",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "−COOH 是羧基，常見羧酸含此官能基。",
+        "題目限定的碳、氫、氧化合物含羧基，應歸於有機酸類。"
+      ],
+      "pitfall": "醇的羥基 −OH 與完整羧基 −COOH 不可只看最後兩個字母。"
+    },
+    {
+      "id": "physical-8-r3-12",
+      "section": "choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "塑膠浸酒精圖與證據範圍",
+      "answer": "C（官方；玻璃比較缺乏同圖數據）",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "兩種溫度下，PP 的質量變化較小，PET 的變化較大，故 A、B 不符圖線。",
+        "題設三者為熱塑性，可再軟化塑形，D 也不成立；官方剩選 C，但圖中未實測玻璃。"
+      ],
+      "pitfall": "排除其他選項不等於已取得玻璃長期比較的實驗證據。",
+      "note": "圖中只有 PET、POM、PP，沒有玻璃，也未交代質量增加是吸液或減少是溶出；不能由此直接證明長期相容性或食品安全。"
+    },
+    {
+      "id": "physical-8-r3-13",
+      "section": "choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "皂化產物與酸鹼性",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甘油圖中有三個 −OH，屬多元醇；肥皂則是脂肪酸鹽。",
+        "肥皂水通常偏鹼，可使廣用試紙呈藍或紫，因此 B 正確。"
+      ],
+      "pitfall": "肥皂是脂肪酸的鹽，不是未反應的脂肪酸本身。"
+    },
+    {
+      "id": "physical-8-r3-14",
+      "section": "choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "利用溶解度與碳酸鹽辨認液體",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "甲溶於水且使貝殼產氣，為甲酸；乙可溶於水而不使貝殼產氣，為乙醇。",
+        "兩種難溶於水者中，具酯香的是丁丙酸乙酯，丙則為辛烷，順序符合 B。"
+      ],
+      "pitfall": "題表的「無香味」是相對於酯香，不能推成物質完全無氣味。"
+    },
+    {
+      "id": "physical-8-r3-15",
+      "section": "choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "小分子與聚合物分類",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中甲是小分子有機化合物，肥皂的主要脂肪酸鹽不屬聚合物，因此可歸甲。",
+        "纖維素是天然聚合物，保麗龍是熱塑性聚合物，椰子油也不是聚合物，所以其他配對錯。"
+      ],
+      "pitfall": "天然來源不代表一定是天然聚合物。"
+    },
+    {
+      "id": "physical-8-r3-16",
+      "section": "choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "燃燒分析推元素比例",
+      "answer": "D（CH₃COOC₂H₅）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "176 g CO₂ 有 4 mol 碳，質量 48 g；72 g 水有 8 mol 氫原子，質量 8 g。",
+        "原物質的氧質量為 88−48−8＝32 g，即 2 mol，C：H：O＝4：8：2，與 D 的 C₄H₈O₂ 相符。"
+      ],
+      "pitfall": "氧氣也供給產物中的氧，不能把 CO₂ 和水的全部氧都算回原樣品。",
+      "note": "燃燒分析確定的是最簡原子比；此處以給定選項選出相容式子，未單獨量得分子量。"
+    },
+    {
+      "id": "physical-8-r3-17",
+      "section": "choice",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "熱固性樹脂",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題述加熱不會熔化變形，符合交聯網狀的熱固性聚合物。",
+        "B 卻稱它是熱塑性，因此錯誤；它仍是分子量很大的有機材料。"
+      ],
+      "pitfall": "熱固性在強熱下可能分解，不是可以無限耐熱。"
+    },
+    {
+      "id": "physical-8-r3-18",
+      "section": "choice",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "乾餾的可燃與不可燃氣體",
+      "answer": "C（甲、乙）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "CO₂ 不可燃，甲將它放進可燃氣體清單不對；CO 可燃，乙把它列作不可燃也不對。",
+        "乾餾可留下富碳固體，並產生焦油和含醋酸等冷凝物，因此甲、乙是所求錯項。"
+      ],
+      "pitfall": "CO 與 CO₂ 名稱相近，但可燃性不同。"
+    },
+    {
+      "id": "physical-8-r3-19",
+      "section": "choice",
+      "label": "第 19 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "颱風的壓力梯度",
+      "answer": "A（外圍＞中心）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "颱風是低壓系統，近地面空氣向較低壓中心流入。",
+        "因此外圍氣壓高於中心；在北半球還受地球自轉影響形成逆時針環流。"
+      ],
+      "pitfall": "颱風眼較平靜不表示眼內氣壓最高。"
+    },
+    {
+      "id": "physical-8-r3-20",
+      "section": "choice",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "甲烷與丙烷模型",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖甲是一碳四氫的甲烷，圖乙是三碳八氫的丙烷。",
+        "兩者均為難溶於水的可燃氣體，C 正確；天然氣與液化石油氣的主要成分也不可對調。"
+      ],
+      "pitfall": "「液化石油氣」是受壓液化儲存，不代表丙烷在常溫常壓為液體。"
+    },
+    {
+      "id": "physical-8-r3-21",
+      "section": "choice",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "同分異構物",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲醚與乙醇都有 C₂H₆O 的分子式，但氧的位置與原子連接不同。",
+        "因此它們原子排列不同、性質也可不同，屬同分異構物，選 A。"
+      ],
+      "pitfall": "同素異形體是同一元素的不同單質，不能用來稱兩個化合物。"
+    },
+    {
+      "id": "physical-8-r3-22",
+      "section": "choice",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "酯化條件與分層",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "把乙酸換成同體積的食醋會降低乙酸濃度，也引入較多水，通常使酯化較慢且不利產酯。",
+        "生成的乙酸乙酯密度較水小、難溶於水而在上層；換成丁酸則生成丁酸乙酯，故 A 正確。"
+      ],
+      "pitfall": "酯的酸端名稱來自使用的酸，醇端名稱來自使用的醇。"
+    },
+    {
+      "id": "physical-8-r3-23",
+      "section": "choice",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "同重不同面積的壓力",
+      "answer": "A（左腳）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "左右腳各承受 30 kgw，差別在鞋底接觸面積。",
+        "左鞋較小，P＝F/A 較大，在同樣泥地上較容易陷深。"
+      ],
+      "pitfall": "比較壓力時先固定力，再比較面積。"
+    },
+    {
+      "id": "physical-8-r3-24",
+      "section": "choice",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "食物中的有機物",
+      "answer": "C（甲、乙、丁、戊、己）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "麵包、鮮奶、椰子油與起士含醣、脂肪或蛋白質，檸檬汁含有機酸等有機成分。",
+        "食鹽 NaCl 與小蘇打 NaHCO₃ 歸為無機物，因此排除丙、庚後選 C。"
+      ],
+      "pitfall": "物質由生物製得或可食用，都不是分類的充分條件。"
+    },
+    {
+      "id": "physical-8-r3-25",
+      "section": "choice",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "浮力反推液體密度",
+      "answer": "B（100 g）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "木塊排開液體體積為 36÷3＝12 cm³，漂浮時排液質量等於木塊 10 g。",
+        "液體密度為 10/12 g/cm³，120 cm³ 液體的質量為 120×10/12＝100 g。"
+      ],
+      "pitfall": "計浮力用浸入部分的體積，不能用木塊全部體積。"
+    },
+    {
+      "id": "physical-8-r3-26",
+      "section": "choice",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "沉沒與漂浮的排液體積",
+      "answer": "C（3：2）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "鐵塊質量 10×7.8＝78 g，在水中完全沒入，排液體積為 10 cm³。",
+        "在密度 11.7 的液體中漂浮，排液體積為 78/11.7＝20/3 cm³，故比為 10：20/3＝3：2。"
+      ],
+      "pitfall": "物體本身體積不變，改變的是液面以下的體積。"
+    },
+    {
+      "id": "physical-8-r3-27",
+      "section": "choice",
+      "label": "第 27 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "硬水與清潔劑",
+      "answer": "D（課程預期；分解性須限定種類）",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "肥皂遇硬水中的鈣、鎂離子易形成難溶鹽而降低起泡效果，合成清潔劑可減少此問題。",
+        "酒精主要助混合，食鹽水促使肥皂析出，肥皂水呈鹼性；因此官方取 D。"
+      ],
+      "pitfall": "合成來源不等於必定難被微生物分解，應看分子結構與測試條件。",
+      "note": "D 將合成清潔劑概括為較不易生物分解過於籠統；現有合成界面活性劑的生物分解性不同。保留預期答案並限制此結論。"
+    },
+    {
+      "id": "physical-8-r3-28",
+      "section": "choice",
+      "label": "第 28 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "界面活性劑與水域",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖甲的帶電端親水，乙的長碳鏈親油，肥皂與合成清潔劑都利用兩端性質幫助去汙。",
+        "清潔廢水中的有機物及某些配方的營養鹽可能增加耗氧或優養化，C 描述的是可發生的水域影響。"
+      ],
+      "pitfall": "不能把所有洗衣粉都當成含磷，也不能把去汙原理說成完全不同。"
+    },
+    {
+      "id": "physical-8-r3-29",
+      "section": "choice",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "彈簧全長與伸長量",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "兩彈簧每增加 50 gw 都伸長 3 cm，伸長量對外力的斜率相同。",
+        "甲原長 20−3＝17 cm，乙原長 18−1.5＝16.5 cm；原長不同，但伸長量圖重疊。"
+      ],
+      "pitfall": "全長圖的截距是原長；伸長量圖才通過原點。"
+    },
+    {
+      "id": "physical-8-r3-30",
+      "section": "choice",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "連通液體同水平面壓力",
+      "answer": "C（B、C、E、F）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "C、F 都是開放液面，直接承受一大氣壓。",
+        "B 與 C、E 與 F 各在同一靜止連通液體的同水平面，因此也為一大氣壓。"
+      ],
+      "pitfall": "A、D 高於外液面，壓力較低；相同高度的水柱與水銀柱壓差不同。"
+    },
+    {
+      "id": "physical-8-r3-31",
+      "section": "choice",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "平衡時的靜摩擦力",
+      "answer": "A（1 kgw，向右）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "不計摩擦的水平拉力合成為向左 7−6＝1 kgw。",
+        "物體保持靜止，摩擦力必向右 1 kgw 抵消它。"
+      ],
+      "pitfall": "5 kgw 的重量不是本題水平摩擦力的直接數值。"
+    },
+    {
+      "id": "physical-8-r3-32",
+      "section": "choice",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "動摩擦力的簡化模型",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "物體滑動後，在接觸面性質與正向力不變的課程模型下，動摩擦力近似固定。",
+        "增加水平推力主要增加合力和加速度，不會同比增加動摩擦力，故 D 正確。"
+      ],
+      "pitfall": "靜摩擦力會配合外力變化；不能和滑動後的模型互換。",
+      "note": "實際摩擦仍可能受速度、溫度等影響；此處依題设簡化。"
+    },
+    {
+      "id": "physical-8-r3-33",
+      "section": "choice",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "壓力差反推杯子容量",
+      "answer": "D（400 cm³）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "空杯接觸面積為 150/15＝10 cm²；半杯酒時總重為 33×10＝330 gw。",
+        "酒重 330−150＝180 gw，體積 180/0.9＝200 cm³，這是一半容量，故全杯 400 cm³。"
+      ],
+      "pitfall": "最後必須把半杯酒的體積乘二。"
+    },
+    {
+      "id": "physical-8-r3-34",
+      "section": "choice",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "氣球上升與壓力",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "越高處外界大氣壓通常越低，柔軟氣球會膨脹到與外壓及膜張力相容。",
+        "在題目忽略漏氣、破裂等條件下，內部壓力也隨外部降低，因此 B 最合理。"
+      ],
+      "pitfall": "沒有漏氣不等於體積固定；氣體量固定仍可膨脹。"
+    },
+    {
+      "id": "physical-8-r3-35",
+      "section": "choice",
+      "label": "第 35 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "水中的視重量",
+      "answer": "C（500 gw）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "設手機體積 V cm³，重力為 2.5V gw，完全沒入水的浮力為 V gw。",
+        "依緩慢提起、忽略阻力與吸附的模型，2.5V−V＝300，得 V＝200，重量 500 gw。"
+      ],
+      "pitfall": "300 gw 是水中所需拉力，並不是手機本來重量。",
+      "note": "題目未測加速度；答案採準靜態提起的標準模型。"
+    },
+    {
+      "id": "physical-8-r3-36",
+      "section": "choice",
+      "label": "第 36 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "牆面支持的最小推力",
+      "answer": "A（5 kgw）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "水平地面上正向力為 10 kgw，最大靜摩擦力為 20 kgw，所以 μₛ＝2。",
+        "壓在牆上時須有向上摩擦力 10 kgw，2N≥10，故最小水平推力 N＝5 kgw。"
+      ],
+      "pitfall": "到了牆面，重量不再等於正向力，正向力來自手的水平推力。"
+    },
+    {
+      "id": "physical-8-r3-37",
+      "section": "choice",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "摩擦力圖中的動摩擦段",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "AB 段表示靜摩擦隨施力增加，B 為最大靜摩擦力。",
+        "滑動後落到 CD 的近似定值，增加水平施力不會讓整段自動上移，所以 D 錯誤。"
+      ],
+      "pitfall": "只有改變正向力或接觸性質，才可能改變此模型中的動摩擦大小。"
+    },
+    {
+      "id": "physical-8-r3-38",
+      "section": "choice",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "浮力不改變重力",
+      "answer": "B（兩者均不變）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "兩顆鉛球質量相同，位置仍近地表，其重力 mg 不因浸入液體而改變。",
+        "浸水與汽油會得到不同浮力，改變的是細繩張力與視重量，而不是重力。"
+      ],
+      "pitfall": "不要將彈簧秤或繩子的讀值直接叫作物體重力。"
+    },
+    {
+      "id": "physical-8-r3-39",
+      "section": "reading",
+      "label": "第 39 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "塑化劑與聚合物",
+      "answer": "B（不是合成聚合物）",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "常見鄰苯二甲酸酯是可加入塑膠的分子型添加劑，不能因此就當成塑膠聚合物。",
+        "由酯類結構可辨出碳、氫、氧等元素，但健康影響還需指明化合物、劑量及曝露情境。"
+      ],
+      "pitfall": "添加到聚合物中的物質，不一定本身也是聚合物。",
+      "note": "官方 B 的結構分類成立；原文卻把不同鄰苯二甲酸酯的危害概括為一律相同。FDA 對 DEP 的特定使用評估並不支持這種概括，且 C 的健康效果不能僅由名稱推得。"
+    },
+    {
+      "id": "physical-8-r3-40",
+      "section": "reading",
+      "label": "第 40 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "氯與有機化合物",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "二氯甲烷 CH₂Cl₂、甲醇 CH₃OH、甲醛 HCHO 都是含碳的有機化合物。",
+        "氯屬元素，其單質常以 Cl₂ 存在，不是有機化合物，因此選 D。"
+      ],
+      "pitfall": "有機化合物不必只含碳氫氧，也可含氯等元素。"
+    },
+    {
+      "id": "physical-8-r3-41",
+      "section": "reading",
+      "label": "第 41 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "甲醛性質與閱讀校正",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "甲醛是一種有毒的化學物質，D 的基本性質判斷成立。",
+        "甲醇是 CH₃OH，而 C₂H₅OH 為乙醇；香料也可能出現在香水以外的產品，故 A、C 錯。"
+      ],
+      "pitfall": "天然與合成是來源分類，不能單獨當成安全與危險的判準。",
+      "note": "原文把天然來源與較安全直接畫上等號，不能成立；FDA 提醒植物來源同樣須符合安全要求，香料也可能引起個別敏感或過敏。"
+    },
+    {
+      "id": "physical-8-r3-42",
+      "section": "reading",
+      "label": "第 42 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "車輛減速的外力",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "油壓讓煞車片壓緊碟盤並抑制車輪轉動。",
+        "使整車減速的主要外部水平作用，則是道路對輪胎的摩擦力，因此選 B。"
+      ],
+      "pitfall": "油壓傳力與讓車輛水平減速的外力，是不同層次的問題。"
+    },
+    {
+      "id": "physical-8-r3-43",
+      "section": "reading",
+      "label": "第 43 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "煞車時的摩擦方向",
+      "answer": "B（向後）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "車輛向前行駛而速度下降，水平加速度指向後方。",
+        "在題述煞車情境，地面對車輪的主要摩擦力朝後，提供減速所需的外力。"
+      ],
+      "pitfall": "摩擦力反對接觸面的相對滑動趨勢；本題結論不可泛化為所有滾輪必與速度反向。"
+    },
+    {
+      "id": "physical-8-r3-44",
+      "section": "reading",
+      "label": "第 44 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "液壓活塞的面積比",
+      "answer": "C（40 kgw）",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "總泵施力 10 kgw、面積 2 cm²，壓力增量為 5 kgw/cm²。",
+        "同一壓力增量傳到 8 cm² 分泵，輸出力為 5×8＝40 kgw。"
+      ],
+      "pitfall": "放大的是受力，壓力增量依帕斯卡原理傳遞，不是把壓力放大四倍。",
+      "note": "原文開頭說「液體壓力被放大」不正確，題目也以 kgw 稱「壓力」混淆物理量；按其公式與力的單位計算，官方 C 不變。"
+    },
+    {
+      "id": "physical-8-r3-45",
+      "section": "reading",
+      "label": "第 45 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "雨天路面與煞車",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "濕滑路面可能降低輪胎能提供的抓地摩擦。",
+        "在初速與其他條件相近時，可用減速力較小，通常需要較長煞車距離，故選 A。"
+      ],
+      "pitfall": "不是一下雨摩擦力就完全消失，也不是因車重必定增加。"
+    }
+  ]
+}

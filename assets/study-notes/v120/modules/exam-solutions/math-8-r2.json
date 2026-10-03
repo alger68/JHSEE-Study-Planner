@@ -1,0 +1,529 @@
+{
+  "schema": 1,
+  "sourceId": "1LLnx3KeM42N-Hald4PrRPR6XUU22i63C",
+  "sourceSha256": "2737b8c1bba5730ce36f131e60bdde51701297170e703cf7a5d23afe951132da",
+  "title": "114-2-2八年級數學科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "涵蓋選擇題 1–25、非選題 1、2(1)、2(2)，共 28 個編號小題。已目視檢查實體 PDF 第 1–6 頁；官方解答在第 6 頁，其頁尾重印第 5 頁，連結仍採實體頁碼。選擇題 11 的最少次數與可用補角的 2 次作法衝突，標為有爭議。選擇題 25 的 53°須視為近似；非選題 2 的角度與所列長度不相容，保留局部推導及官方答案並標明限制。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、選擇題"
+    },
+    {
+      "id": "calculation",
+      "title": "二、非選題"
+    }
+  ],
+  "items": [
+    {
+      "id": "math-8-r2-choice-1",
+      "section": "choice",
+      "label": "選擇題 1",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "尺規可作角度",
+      "answer": "C（20°）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "90°可平分成 45°，再平分成 22.5°；135°可由 90°＋45°得到，再平分成 67.5°。",
+        "20°是 60°的三等分角，屬不能以無刻度直尺與圓規精確作出的角，因此選 C。"
+      ],
+      "pitfall": "尺規作圖要求精確，不能以量角器或刻度尺量出近似 20°。"
+    },
+    {
+      "id": "math-8-r2-choice-2",
+      "section": "choice",
+      "label": "選擇題 2",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "正多邊形的內外角",
+      "answer": "A（6）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "設每個外角為 e，內角為 2e；兩者互補，故 3e＝180°，e＝60°。",
+        "正 n 邊形外角和 360°，因此 n＝360÷60＝6。"
+      ],
+      "pitfall": "同一頂點的內角和外角加起來是 180°，不是 360°。"
+    },
+    {
+      "id": "math-8-r2-choice-3",
+      "section": "choice",
+      "label": "選擇題 3",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "由作圖判定全等條件",
+      "answer": "A（ASA）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "作圖固定 BC 的長度，並固定 B、C 兩個端點的角。",
+        "已知邊 BC 夾在兩個已知角之間，所以使用角邊角 ASA。"
+      ],
+      "pitfall": "AAS 的已知邊不是兩個已知角的夾邊，本題恰是夾邊。"
+    },
+    {
+      "id": "math-8-r2-choice-4",
+      "section": "choice",
+      "label": "選擇題 4",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "角平分線與底邊中點",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "一般三角形的頂角平分線不一定平分底邊；例如 AB 與 AC 不相等時，底邊兩段也不相等。",
+        "等腰三角形頂點到底邊中點的線才同時是角平分線與中垂線；A 則符合 AAS，因此錯誤敘述為 B。"
+      ],
+      "pitfall": "不能把等腰三角形的特殊性質套到所有三角形。"
+    },
+    {
+      "id": "math-8-r2-choice-5",
+      "section": "choice",
+      "label": "選擇題 5",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "平角與對頂角",
+      "answer": "C（48°）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "上半平角給出 ∠2＋∠3＋∠4＝180°，已知 ∠3＋∠4＝150°，所以 ∠2＝30°。",
+        "再由 ∠1＋∠2＝78°，得到 ∠1＝78°−30°＝48°。"
+      ],
+      "pitfall": "先辨認哪些角構成同一平角，不要把圖上所有角都相加成 180°。"
+    },
+    {
+      "id": "math-8-r2-choice-6",
+      "section": "choice",
+      "label": "選擇題 6",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "用二等分作出八分點",
+      "answer": "C（3 次）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "由 5AP＝3BP 得 AP：BP＝3：5，所以 AP＝3AB/8。",
+        "第一次找 AB 中點，第二次找前半段中點得到 AB/4，第三次把 AB/4 與 AB/2 之間再平分，得到 3AB/8；兩次二等分尚不足以產生八分點。"
+      ],
+      "pitfall": "所需位置是全長的 3/8，不是 3/5。"
+    },
+    {
+      "id": "math-8-r2-choice-7",
+      "section": "choice",
+      "label": "選擇題 7",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "交叉圖形的角和",
+      "answer": "B（540°）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "令 CD 與 EF 交於 X，連接 CF。△XDE 與 △XCF 在 X 的角是對頂角，所以 ∠D＋∠E＝∠XCF＋∠CFX。",
+        "把外側五邊形 ABCFG 的 C、F 兩角分割後，上式使多出與扣除的角相抵，因此七個所求角之和就是五邊形內角和 (5−2)×180°＝540°。"
+      ],
+      "pitfall": "交叉的七條邊不能直接當成普通七邊形套內角和。"
+    },
+    {
+      "id": "math-8-r2-choice-8",
+      "section": "choice",
+      "label": "選擇題 8",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "由內角求正多邊形邊數",
+      "answer": "C（10）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "每個外角為 180°−144°＝36°。",
+        "邊數 n＝360°÷36°＝10。"
+      ],
+      "pitfall": "外角和固定為 360°；144°是內角，須先取補角。"
+    },
+    {
+      "id": "math-8-r2-choice-9",
+      "section": "choice",
+      "label": "選擇題 9",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "內外角相差固定值",
+      "answer": "D（5）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "設外角 e，內角 e＋36°；e＋(e＋36°)＝180°，得 e＝72°。",
+        "因此 n＝360°÷72°＝5。"
+      ],
+      "pitfall": "36°是內外角的差，不是正多邊形本身的外角。"
+    },
+    {
+      "id": "math-8-r2-choice-10",
+      "section": "choice",
+      "label": "選擇題 10",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "等腰三角形的三線合一",
+      "answer": "B（4 個）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "已知 AB＝AC，頂角平分線 AD 與兩腰構成 SAS 全等，故 BD＝CD 且 AD⊥BC。",
+        "所以甲、丙、丁、己四項正確；頂角不一定等於底角，腰也不一定等於底邊。"
+      ],
+      "pitfall": "等腰不一定等邊，不能額外判定三邊或三角都相等。"
+    },
+    {
+      "id": "math-8-r2-choice-11",
+      "section": "choice",
+      "label": "選擇題 11",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "連續平分角作出指定角度",
+      "answer": "延長射線後，2 次角平分即可作出 105°；官方 A（3 次）不是最少，原選項未涵蓋此作法。",
+      "officialAnswer": "A",
+      "status": "disputed",
+      "steps": [
+        "設 OA、OB 夾 120°，把 OA 反向延長為 OC，則 ∠BOC＝60°。第一次平分 ∠BOC 得 OD，此時 ∠AOD＝150°。",
+        "第二次平分 ∠AOD 得 OE，使 ∠AOE＝75°；因 OA、OC 反向，∠COE＝180°−75°＝105°。延長直線不增加角平分作圖次數。"
+      ],
+      "pitfall": "題目問最少次數，除了連續平分原來的 120°，還要考慮延長射線形成的補角。",
+      "note": "官方 A 列 3 次，可由 60°、90°、105°逐步作出；但題幹未禁止延長射線，使用補角可在 2 次完成，因此官方次數不是最少。原題沒有排除補角與延長射線，不能把 3 次視為所需最少次數。"
+    },
+    {
+      "id": "math-8-r2-choice-12",
+      "section": "choice",
+      "label": "選擇題 12",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "對應邊求全等三角形周長",
+      "answer": "B（50）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "由 AB＝DE 得 2x＋11＝4x＋7，所以 x＝2。",
+        "三邊分別為 15、15、20，周長為 15＋15＋20＝50。"
+      ],
+      "pitfall": "先按 A↔D、B↔E、C↔F 找對應邊，不能依圖的朝向猜配對。"
+    },
+    {
+      "id": "math-8-r2-choice-13",
+      "section": "choice",
+      "label": "選擇題 13",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "核對全等判準名稱",
+      "answer": "D（AAS）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "△GHI 的第三角為 180°−70°−30°＝80°，與 △MNO 的 M 角相同；另有 I＝O＝30°及 HI＝NO＝5。",
+        "這是兩角及非夾邊相等，符合 AAS。A 的圖其實給 SAS；B、C 的圖只給三邊 7、4、4，不能稱 RHS 或 SAS。"
+      ],
+      "pitfall": "即使兩三角形確實全等，選項使用的判準名稱仍須符合標示條件。"
+    },
+    {
+      "id": "math-8-r2-choice-14",
+      "section": "choice",
+      "label": "選擇題 14",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "中垂線與畢氏定理",
+      "answer": "D（12.5）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "直角三角形 AC＝√(20²−12²)＝16。D 在 AB 中垂線上，所以 AD＝BD；設共同長為 x，則 CD＝16−x。",
+        "在 △BCD 中，x²＝12²＋(16−x)²，整理得 32x＝400，所以 BD＝12.5。"
+      ],
+      "pitfall": "D 的等距對象是 A、B，不是 A、C。"
+    },
+    {
+      "id": "math-8-r2-choice-15",
+      "section": "choice",
+      "label": "選擇題 15",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "由已知長度作和差與根號",
+      "answer": "A（甲、乙、丙、丁）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "可直接截取和與差得到 12、2；以 5、7 為直角三角形兩股，可作斜邊 √74。",
+        "再把長度 2 平分得到 1，作出 11＝12−1。以 2＋11 為直徑畫半圓，在分段點作垂線，其高的平方為 2×11＝22，可得 √22。"
+      ],
+      "pitfall": "尺規可透過多步作圖產生新長度，並非只能一次相加或相減。"
+    },
+    {
+      "id": "math-8-r2-choice-16",
+      "section": "choice",
+      "label": "選擇題 16",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "角平分線與中垂線的等腰角",
+      "answer": "D（94°）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "∠C＝2×40°＝80°，四邊形內角和得 ∠D＝360°−132°−54°−80°＝94°；△CDE 中 ∠CED＝46°。",
+        "G 在 CE 中垂線上，GC＝GE，所以 ∠CEG＝∠GCE＝40°。依圖 ∠DEG＝46°＋40°＝86°，而 EA、ED 反向，故 ∠AEG＝94°。"
+      ],
+      "pitfall": "中垂線上點等距的是線段的兩個端點，應先得 GC＝GE 再轉成等角。"
+    },
+    {
+      "id": "math-8-r2-choice-17",
+      "section": "choice",
+      "label": "選擇題 17",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "面積平分線與中線",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "從 B 連到 AC 的中點，兩個三角形同高且底相等，才能保證面積各半；A 的痕跡先作 AC 的中點。",
+        "B 畫的是 B 角平分線，等腰條件 AB＝AC 並不保證它通過 AC 中點；C、D 則利用頂角所在的對稱軸平分底邊。"
+      ],
+      "pitfall": "底角的角平分線一般不是中線；不要與等腰頂角的角平分線混淆。"
+    },
+    {
+      "id": "math-8-r2-choice-18",
+      "section": "choice",
+      "label": "選擇題 18",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "圓弧半徑與矩形邊長",
+      "answer": "C（4/3）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "由圓心 A 的弧得 AF＝AD＝4，故 BF＝13/3−4＝1/3。由圓心 C 的弧得 CE＝13/3。",
+        "△CBE 中，BE＝√[(13/3)²−4²]＝5/3，因此 EF＝BE−BF＝4/3。"
+      ],
+      "pitfall": "兩個弧的圓心不同，AF 與 CE 才是相應半徑。"
+    },
+    {
+      "id": "math-8-r2-choice-19",
+      "section": "choice",
+      "label": "選擇題 19",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "全等與等腰三角形的角度",
+      "answer": "B（不等腰，∠EBD＝75°）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "全等得 CE＝CB，且 ∠BCE＝∠DCE＝30°，所以 △BCE 的 B、E 兩角各為 75°。",
+        "D 在 BC 上，故 ∠EBD＝75°；又 ∠EDC＝120°，所以 ∠BDE＝60°，剩下 ∠BED＝45°，三角不等，並非等腰。"
+      ],
+      "pitfall": "D 位於 BC 上，D 點內側的 120°與三角形 EBD 的角互補。"
+    },
+    {
+      "id": "math-8-r2-choice-20",
+      "section": "choice",
+      "label": "選擇題 20",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "等距點的兩種軌跡",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "到 DF、DR 兩邊距離相等且位於角內的點在 ∠FDR 的角平分線上。",
+        "與 E、R 距離相等的點在 ER 中垂線上，兩條軌跡在指定內部區域的交點即為 H。"
+      ],
+      "pitfall": "到兩條邊等距用角平分線；到兩個點等距用線段中垂線。"
+    },
+    {
+      "id": "math-8-r2-choice-21",
+      "section": "choice",
+      "label": "選擇題 21",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "全等圖形的旋轉對應",
+      "answer": "A（131°）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "SSS 給出 △ACD≅△BCE，所以 ∠ACD＝∠BCE。依圖射線次序 B、A、E、D，令 ∠BCA＝∠ECD＝t，則 2t＋56°＝154°，得 t＝49°。",
+        "以 C 為中心旋轉 49°會把 A、D 分別送到 B、E，因此 AD、BE 的銳夾角為 49°。圖中 ∠BPD 為其補角，故為 180°−49°＝131°。"
+      ],
+      "pitfall": "兩相交直線有銳角與鈍角，必須按 PB、PD 的方向選所求角。"
+    },
+    {
+      "id": "math-8-r2-choice-22",
+      "section": "choice",
+      "label": "選擇題 22",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "行進路線的轉角總量",
+      "answer": "B（400°）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "第一次經 F 時轉 92°；在 D、A 的轉角分別為 180°−40°＝140°、180°−30°＝150°。",
+        "四邊形 FDEA 在 E 的凹內角為 360°−92°−40°−30°＝198°，所以 E 的轉角大小為 18°；第二次經 F 沿 AFC 直行，轉角為 0°。",
+        "總轉角大小為 92°＋140°＋18°＋150°＝400°。"
+      ],
+      "pitfall": "凹角的轉彎方向與其他頂點相反，但題目總共轉多少度須加轉角的大小。"
+    },
+    {
+      "id": "math-8-r2-choice-23",
+      "section": "choice",
+      "label": "選擇題 23",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "正方形旋轉與對應角",
+      "answer": "A（32°）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "∠DCE＝∠DCG＋∠GCE＝30°＋90°＝120°，故 △CDE 的 ∠CDE＝180°−120°−28°＝32°。",
+        "以 C 為中心旋轉 90°，CD 對應 CB、CE 對應 CG；△DCE 與 △BCG 全等，所以 ∠GBC＝∠CDE＝32°。"
+      ],
+      "pitfall": "旋轉時兩條邊都要用同一方向與同一角度對應。"
+    },
+    {
+      "id": "math-8-r2-choice-24",
+      "section": "choice",
+      "label": "選擇題 24",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "正方形外作垂線的對應邊",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "△BPC 與 △CSD 都是直角三角形，斜邊 BC＝CD；由兩組互相垂直的線可得 ∠PBC＝∠DCS，故兩三角形全等。",
+        "對應關係為 B↔C、P↔S、C↔D，所以 PC＝SD、BP＝CS；BP＝DS 並無保證，D 錯誤。"
+      ],
+      "pitfall": "全等不代表任取兩邊都相等，要按頂點對應順序讀邊長。"
+    },
+    {
+      "id": "math-8-r2-choice-25",
+      "section": "choice",
+      "label": "選擇題 25",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "用分割面積求到兩腰的距離和",
+      "answer": "C（依給定邊長，PE＋PF＝4.8）",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "底邊中點把 6 分成 3、3，等腰三角形高為 √(5²−3²)＝4，所以總面積為 6×4/2＝12。",
+        "連 AP，把總面積寫成 5PE/2＋5PF/2＝12，得到 PE＋PF＝24/5＝4.8。"
+      ],
+      "pitfall": "不能因 P 在底邊上就認定 P 是中點；兩小三角形面積不一定相等。",
+      "note": "原卷同時標示邊長 5、5、6 與底角 53°；精確邊長的底角為 arccos(3/5)≈53.13°，不能精確等於 53°。官方 C 可由邊長獨立推出，本解將 53°視為近似，不宣稱全部數值能精確同時成立。"
+    },
+    {
+      "id": "math-8-r2-calculation-1",
+      "section": "calculation",
+      "label": "非選題 1",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "正多邊形內角與外角",
+      "answer": "165°",
+      "officialAnswer": "165°",
+      "status": "verified",
+      "steps": [
+        "∠IAH 是正六邊形內角，為 (6−2)×180°/6＝120°。",
+        "∠BAH 是正八邊形內角 135°，AM 與 AH 反向，故 ∠BAM＝180°−135°＝45°；所求和為 120°＋45°＝165°。"
+      ],
+      "pitfall": "∠BAM 在八邊形外，應取內角的補角。"
+    },
+    {
+      "id": "math-8-r2-calculation-2-1",
+      "section": "calculation",
+      "label": "非選題 2(1)",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "由角度及夾邊證明全等",
+      "answer": "依角度與 BC＝BD 條件可證 △ABC≅△EBD（ASA）；整題長度資料另有相容性限制。",
+      "officialAnswer": "∠EDB＝∠BCA＝77°；ASA",
+      "status": "limited",
+      "steps": [
+        "△BCD 中 BC＝BD，頂角 ∠CBD＝26°，所以 ∠BCD＝∠BDC＝77°。A、D、C 共線，故 ∠EDB＝180°−26°−77°＝77°＝∠BCA。",
+        "又 ∠EBD＝∠1＋∠ABD＝∠2＋∠ABD＝∠ABC，且 BC＝BD 夾在對應兩角之間，故依 ASA 全等。"
+      ],
+      "pitfall": "全等證明要列出兩組對應角及它們的夾邊，不能只說圖形看起來相同。",
+      "note": "角度及 BC＝BD 足以推出本小題的 ASA 結論，但整題另給 AD＝8、CD＝3 與角度不相容：由 ∠CBD＝26°及 CD＝3 得 BD≈6.668，再由 △ABD 的 48°、29°得 AD≈4.350，並非 8。此處只確認局部角度/全等推論，須由校方釐清長度條件。"
+    },
+    {
+      "id": "math-8-r2-calculation-2-2",
+      "section": "calculation",
+      "label": "非選題 2(2)",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 6,
+      "topic": "全等的對應邊與相交直線角",
+      "answer": "依官方採用的局部條件，EF＝5、∠BFD＝74°；原題完整數值配置不相容。",
+      "officialAnswer": "EF＝5；∠BFD＝74°",
+      "status": "limited",
+      "steps": [
+        "全等的對應邊 ED＝AC＝AD＋DC＝8＋3＝11，因此 EF＝ED−FD＝11−6＝5。",
+        "△AFD 中 ∠FAD＝48°、∠ADF＝26°，所以 ∠AFD＝106°；FA 與 FB 反向，故 ∠BFD＝180°−106°＝74°。"
+      ],
+      "pitfall": "EF 是整段 ED 減去 FD；∠BFD 則是三角形 AFD 在 F 角的補角。",
+      "note": "兩個官方填值可分別由指定條件形式推得，但非選題 2 同時列出的角度及 AD＝8、CD＝3 無法構成同一精確圖形，見 2(1) 的相容性檢查。不可把條件式答案視為全部原始數值已核實。"
+    }
+  ]
+}

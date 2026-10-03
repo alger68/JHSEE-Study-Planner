@@ -1,0 +1,1006 @@
+{
+  "schema": 1,
+  "sourceId": "1WMoIrWrnb0IQIU-TtyLc-IV0HNkw_VrG",
+  "sourceSha256": "69e8b379f6bb3b72de60c842e7204d1c63e363d71d0a11a0549136c56e805d37",
+  "title": "114-2-3 八年級社會科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "全卷第 1–54 題，地理、歷史、公民各 18 題。已視讀全部 7 個實體 PDF 頁面與答案；頁尾誤印「第七頁，共六頁」，本指南一律採實體頁。第 44、45、46、51、53 題有答案、年齡適用或法律表述爭議；第46題保留官方「C、D」。其餘解說附必要概念與時代限制。",
+  "sections": [
+    {
+      "id": "geography",
+      "title": "地理｜第 1–18 題"
+    },
+    {
+      "id": "history",
+      "title": "歷史｜第 19–36 題"
+    },
+    {
+      "id": "civics",
+      "title": "公民｜第 37–54 題"
+    }
+  ],
+  "items": [
+    {
+      "id": "social-8-r3-geography-01",
+      "section": "geography",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "南半球夏雨型氣候",
+      "answer": "D；丁為非洲東南部",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "臺灣寒假約在1、2月，南半球此時是夏季。",
+        "丁在非洲東南部，暖溫帶夏雨氣候符合濕熱與水果線索；西南端則偏冬雨型。"
+      ],
+      "pitfall": "先換算南北半球季節，不能把臺灣冬季直接套到南非。"
+    },
+    {
+      "id": "social-8-r3-geography-02",
+      "section": "geography",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "採集與狩獵",
+      "answer": "C；採集、狩獵維生",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "弓箭捕捉野生動物屬狩獵，尋找塊莖、果實及昆蟲屬採集。",
+        "材料沒有放養家畜、耕種或採礦，因此C同時涵蓋兩類活動。"
+      ],
+      "pitfall": "游牧移動的是人與飼養家畜，不能把所有移動生活都稱游牧。"
+    },
+    {
+      "id": "social-8-r3-geography-03",
+      "section": "geography",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "東非莽原景觀",
+      "answer": "B；草原間散生樹木",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "大遷徙隨乾、雨季交替而移動，符合熱帶莽原的季節性水草變化。",
+        "B 顯示以草地為主、零散高樹的景觀，與密集雨林或乾燥稀疏植被不同。"
+      ],
+      "pitfall": "莽原不是完全沒有樹，而是樹木分布較疏。"
+    },
+    {
+      "id": "social-8-r3-geography-04",
+      "section": "geography",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "游耕的地力變化",
+      "answer": "C；焚燒後以灰燼肥田",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "曲線顯示耕作初期地力快速下降，休耕後才逐漸恢復。",
+        "砍燒植被提供短期養分，之後轉移耕地並讓舊地休養，符合游耕。"
+      ],
+      "pitfall": "不能只看起初地力高就認定需大量化肥與資本。"
+    },
+    {
+      "id": "social-8-r3-geography-05",
+      "section": "geography",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "游耕與濕熱環境",
+      "answer": "A；赤道附近的甲",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖甲在赤道附近的非洲中部，全年較濕熱，強烈淋溶可使養分快速流失。",
+        "在此課程脈絡中，輪替耕地、長期休耕可讓植被與地力恢復。"
+      ],
+      "pitfall": "游耕適應的是土壤與植被循環，不代表人口增加後仍能無限維持。"
+    },
+    {
+      "id": "social-8-r3-geography-06",
+      "section": "geography",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "南半球地中海型氣候",
+      "answer": "D；年中涼且多雨",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "開普敦在南半球西南端，6–8月為冬季，雨量此時增加。",
+        "D 的溫度年中低、雨量年中高；C 雖也是冬雨型，季節卻屬北半球。"
+      ],
+      "pitfall": "同為地中海型，南北半球的雨季月份相反。"
+    },
+    {
+      "id": "social-8-r3-geography-07",
+      "section": "geography",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "可可生產的經營特色",
+      "answer": "B；勞力密集的商業農業",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "材料多次提到人工採收、曝曬與翻動，代表投入較多勞動。",
+        "可可豆由盤商運港外銷，明確以市場銷售為目的，不是自給自足。"
+      ],
+      "pitfall": "使用簡單工具不代表產品只供農家自己消費。"
+    },
+    {
+      "id": "social-8-r3-geography-08",
+      "section": "geography",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "幾內亞灣辨圖",
+      "answer": "B；西非幾內亞灣沿岸",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B 的海岸向東西延伸，位置在西非低緯度，是幾內亞灣沿岸。",
+        "其餘分別偏非洲之角、南非與馬達加斯加，與題文產區不符。"
+      ],
+      "pitfall": "農產品知識需和經緯度、海岸輪廓一起核對。"
+    },
+    {
+      "id": "social-8-r3-geography-09",
+      "section": "geography",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "經濟作物擴張的影響",
+      "answer": "A；甲、乙、丙",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "森林改成可可園，會減少雨林面積、破壞棲地，亦可能排擠糧食耕地。",
+        "地層下陷通常需有過量抽地下水等額外因素，單靠題文不能推出丁。"
+      ],
+      "pitfall": "分清材料支持的因果與只是想到的環境問題。"
+    },
+    {
+      "id": "social-8-r3-geography-10",
+      "section": "geography",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "非洲地形剖面",
+      "answer": "C；丙線由西向東",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "剖面西側地勢較低，東側出現高原與突起高峰，符合非洲中部向東非的變化。",
+        "丙線橫越中非至東非，能呈現東部較高、火山高峰的特徵。"
+      ],
+      "pitfall": "不只看平均高度，尖峰出現的位置也能辨方向。"
+    },
+    {
+      "id": "social-8-r3-geography-11",
+      "section": "geography",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "鑽石與古老地塊",
+      "answer": "B；古老地質構造",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "南非具有古老而穩定的地塊，與重要鑽石礦的形成、保存環境相關。",
+        "勞力成本會影響開採，卻不造成礦藏生成；低緯高溫也不是鑽石成因。"
+      ],
+      "pitfall": "「地質古老」是區域線索，不表示所有古老岩石都一定含鑽石。"
+    },
+    {
+      "id": "social-8-r3-geography-12",
+      "section": "geography",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "東非裂谷與高峰",
+      "answer": "D；乙、丁",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "東非裂谷是張裂、斷層活動地區，下陷低地易形成狹長湖泊。",
+        "吉利馬札羅是高海拔火山，有冰雪景觀；不能用穩定無震或板塊擠壓新褶曲山脈解釋裂谷。"
+      ],
+      "pitfall": "高峰冰雪與全球暖化下的冰體退縮可並存，不應把「終年積雪」當成永不改變。"
+    },
+    {
+      "id": "social-8-r3-geography-13",
+      "section": "geography",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "年輕人口結構",
+      "answer": "D；高出生率與較低平均餘命",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "漠南非洲圖的底部寬，表示兒童所占比重高，高齡人口比例小。",
+        "在選項中，高出生率及醫療衛生限制較切合這種結構，而非低生育與長壽。"
+      ],
+      "pitfall": "人口金字塔不能單獨證明每個國家的醫療相同，應視為區域概括。"
+    },
+    {
+      "id": "social-8-r3-geography-14",
+      "section": "geography",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "殖民劃界與族群",
+      "answer": "B；忽略族群的直線國界可增加衝突",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖(2)把同族切開，又把不同族放在同一格，顯示幾何劃界未必對應社會關係。",
+        "殖民國界留下的這種問題可能加劇獨立後政治衝突，土地等分不保證和平。"
+      ],
+      "pitfall": "族群差異本身不必然造成戰爭，制度與政治操作也很重要。"
+    },
+    {
+      "id": "social-8-r3-geography-15",
+      "section": "geography",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "全球飢餓分布",
+      "answer": "A；飢餓指數",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中深色多在漠南非洲及部分南亞，歐美則較淺。",
+        "這與糧食與營養困境的區域差異較相合，方向和人均GDP、網路普及率相反。"
+      ],
+      "pitfall": "人口總數大的國家不一定最深，故不能以人口量解讀。"
+    },
+    {
+      "id": "social-8-r3-geography-16",
+      "section": "geography",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "公平貿易標章",
+      "answer": "A；支持生產者合理收益",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中標示 FAIRTRADE，重點包含較公平的交易條件及生產者權益。",
+        "因此選擇有標章商品可支持合理收益，不是鼓勵壓低工資或只挑最低價。"
+      ],
+      "pitfall": "標章支持特定生產與交易標準，不保證每一位生產者都獲得相同收入。"
+    },
+    {
+      "id": "social-8-r3-geography-17",
+      "section": "geography",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "雨季與太陽能發電",
+      "answer": "C；年中雨季發電較低",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "北半球熱帶莽原夏季多雨、冬季較乾，雲量會影響到達地面的日照。",
+        "依題目「晴天發電較高」的簡化條件，C 的年中低谷最合理。"
+      ],
+      "pitfall": "本題只比較氣候季節性，不可忽略真實發電還受設備、日長與沙塵影響。"
+    },
+    {
+      "id": "social-8-r3-geography-18",
+      "section": "geography",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "工業化與人均所得",
+      "answer": "C；丙為兩者均低於平均",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖橫軸向右工業化較高，縱軸向上人均所得較高。",
+        "丙在左下方，符合原卷對漠南非洲多數國家的概括，甲則兩項均高。"
+      ],
+      "pitfall": "這是多數的概括，不能套到每一個非洲國家。"
+    },
+    {
+      "id": "social-8-r3-history-19",
+      "section": "history",
+      "label": "第 19 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "經濟開放與政治體制",
+      "answer": "C；未因此全面政治民主化",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "改革開放擴大市場、外資與民營經濟，也推動沿海就業與人口移動。",
+        "經濟變化並未同時帶來多黨競爭與全面參政開放，因此C不是這段改革的普遍結果。"
+      ],
+      "pitfall": "經濟自由化不必然等於政治民主化。"
+    },
+    {
+      "id": "social-8-r3-history-20",
+      "section": "history",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "大躍進與死亡率",
+      "answer": "D；資料四的大躍進時期",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖中死亡率在1950年代末到1960年前後突然升高。",
+        "資料四的超英趕美與大躍進口號對應此期，與饑荒災難的時間重合。"
+      ],
+      "pitfall": "圖的縱軸印為千分比，不能把25‰看成25%。"
+    },
+    {
+      "id": "social-8-r3-history-21",
+      "section": "history",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "改革開放後的差距",
+      "answer": "A；資料一",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "深圳吸引外資與移入人口，是改革開放、沿海先行發展的線索。",
+        "區域及城鄉發展不均可能伴隨所得差距擴大，與題問的社會現象相符。"
+      ],
+      "pitfall": "不要把題文「土地變私有」直接當成中國土地制度的精確說明。",
+      "note": "辨期依經濟特區、外資與人口流動；原材料把土地使用權改革寫成「土地私有」，法律概念過度簡化，不沿用該說法作制度結論。"
+    },
+    {
+      "id": "social-8-r3-history-22",
+      "section": "history",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "中蘇合作初期",
+      "answer": "B；資料二的建政初期",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "歌曲標明1949年並慶祝新政權建立，接近1950年前後的中蘇合作。",
+        "資料二土地改革屬建政初期；紅衛兵、經濟特區及大躍進均在之後。"
+      ],
+      "pitfall": "雖都在中共統治下，政策階段仍相隔多年。"
+    },
+    {
+      "id": "social-8-r3-history-23",
+      "section": "history",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "1989年的政治訴求",
+      "answer": "D；要求政治改革",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "北京抗議群眾與1989年蘇聯領袖訪華的時序，指向六四事件前的民主運動。",
+        "訴求涉及政治改革、反貪腐等，不是要發起1950年代土地改革。"
+      ],
+      "pitfall": "改革開放的經濟政策和要求政治改革，內容不同。"
+    },
+    {
+      "id": "social-8-r3-history-24",
+      "section": "history",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "文化大革命口號",
+      "answer": "B；破四舊、立四新",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "1968年位於1966–1976年的文化大革命期間。",
+        "破除舊思想、文化、風俗、習慣的口號最符合；超英趕美則是更早大躍進的代表。"
+      ],
+      "pitfall": "從年代定位比只看到「毛澤東」就作答可靠。"
+    },
+    {
+      "id": "social-8-r3-history-25",
+      "section": "history",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "浮誇宣傳與人民公社",
+      "answer": "C；集體化的生產問題",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "海報把豬畫得巨大、誇稱產量，呈現大躍進時期的浮誇宣傳。",
+        "該期人民公社與集體生產、分配制度下的激勵及管理問題，符合C的課程解讀。"
+      ],
+      "pitfall": "宣傳海報可反映政治期望，不能把畫面當真實產量證據。"
+    },
+    {
+      "id": "social-8-r3-history-26",
+      "section": "history",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "文化大革命的時段",
+      "answer": "B；1970年代屬文革期間",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "多地古蹟因政治運動遭破壞，題意指文化大革命。",
+        "文革通常分期為1966–1976年，四個年代選項中1970年代落在其內。"
+      ],
+      "pitfall": "許多破壞集中1966年，選B不表示表列每件事件都發生在1970年代。",
+      "note": "本題按運動的整段時期選B；原題缺少1960年代選項，不能據此重訂各古蹟受損的實際年份。"
+    },
+    {
+      "id": "social-8-r3-history-27",
+      "section": "history",
+      "label": "第 27 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "紅衛兵與文革",
+      "answer": "A；紅衛兵小將",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前題古蹟破壞與破四舊運動相連，紅衛兵是最具辨識度的角色。",
+        "經濟特區屬改革開放；全民煉鋼與人民公社的創設主要對應大躍進。"
+      ],
+      "pitfall": "人民公社制度後來仍存在，A是最典型線索，不能說同時期完全沒有公社。"
+    },
+    {
+      "id": "social-8-r3-history-28",
+      "section": "history",
+      "label": "第 28 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "東南亞公約組織",
+      "answer": "B；建立區域反共防禦網",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "1954年、馬尼拉與美英等八國的防禦條約，指東南亞公約組織。",
+        "其冷戰目的在遏制共產勢力，與文化交流或經濟整合為主的組織不同。"
+      ],
+      "pitfall": "東約與1967年成立的東協不可混淆。"
+    },
+    {
+      "id": "social-8-r3-history-29",
+      "section": "history",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "越戰的代價",
+      "answer": "C；美越雙方付出重大代價",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "材料描述美軍在越南擴大轟炸，顯示美國是直接作戰者。",
+        "越戰造成嚴重死傷及破壞，C符合；美國不是僅在旁調停以維持戰前狀態。"
+      ],
+      "pitfall": "越南在東南亞，並非西亞；部分盟國支援也不等於東約整體共同作戰。"
+    },
+    {
+      "id": "social-8-r3-history-30",
+      "section": "history",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "東協的成立目的",
+      "answer": "D；區域經濟合作",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "1967年五國在曼谷成立的是東南亞國家協會。",
+        "其合作涉及經濟、社會、文化與區域穩定，D最符合，並非軍事共同防禦條約。"
+      ],
+      "pitfall": "成立時的冷戰背景不等於組織法律性質就是反共軍事同盟。"
+    },
+    {
+      "id": "social-8-r3-history-31",
+      "section": "history",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "韓戰的時空線索",
+      "answer": "D；《決戰38度線》",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "1950年、嚴寒雪山與美國飛行員，對應韓戰背景。",
+        "朝鮮半島的戰後分界常以北緯38度為識別，17度線則與越南相關。"
+      ],
+      "pitfall": "片名是本題識別工具，不表示故事中的每次戰鬥都發生在38度線上。"
+    },
+    {
+      "id": "social-8-r3-history-32",
+      "section": "history",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "朝鮮半島辨圖",
+      "answer": "D；丁",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖丁在中國東北與日本之間的朝鮮半島。",
+        "承前題韓戰背景，應選丁；甲在日本、乙在越南、丙在菲律賓附近。"
+      ],
+      "pitfall": "戰爭名稱與國家位置須配對，不能只按文字所在空白區判讀。"
+    },
+    {
+      "id": "social-8-r3-history-33",
+      "section": "history",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "越戰電影的地點",
+      "answer": "B；乙為越南",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題文直接提到越南、叢林戰與美軍參戰，戰場為越南。",
+        "圖乙在中南半島東側，與越南相符。"
+      ],
+      "pitfall": "電影為戲劇創作，不能把俄羅斯輪盤情節直接當成戰史紀錄。"
+    },
+    {
+      "id": "social-8-r3-history-34",
+      "section": "history",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "大躍進的公社化",
+      "answer": "C；大躍進",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目時間為1950年代末，關鍵政策為組織人民公社。",
+        "1958年前後的大躍進推動公社化，與文化大革命、改革開放的年代不同。"
+      ],
+      "pitfall": "同樣強調集體與毛澤東，不代表所有運動是文革。"
+    },
+    {
+      "id": "social-8-r3-history-35",
+      "section": "history",
+      "label": "第 35 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "中蘇交惡",
+      "answer": "A；視批評為干涉並加劇分歧",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "赫魯雪夫批評人民公社，反映兩國在發展路線上的差異。",
+        "毛澤東對蘇聯政策與態度不滿，是中蘇關係轉壞的背景之一，A最相合。"
+      ],
+      "pitfall": "中美關係改善在較後年代，不能把1970年代轉折提前到此時。"
+    },
+    {
+      "id": "social-8-r3-history-36",
+      "section": "history",
+      "label": "第 36 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "新南向的地理方向",
+      "answer": "C；丙為東南亞",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "丙位於臺灣南方的東南亞，與材料所述經貿、文化合作相符。",
+        "甲南美、乙歐洲、丁非洲均不合新南向的主要區域線索。"
+      ],
+      "pitfall": "政策對象不只東南亞，選丙是依本圖四項比較，並非完整國別清單。"
+    },
+    {
+      "id": "social-8-r3-civics-37",
+      "section": "civics",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "行政法的範圍",
+      "answer": "D；行政活動相關法令的總稱",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "行政法規範行政機關組織、職權、程序與人民權利義務。",
+        "它不是一本單獨法典，也包含依法制定的命令，戶政等服務同樣涉及行政法。"
+      ],
+      "pitfall": "行政法既授權也限制政府，不只是方便行政機關統治。"
+    },
+    {
+      "id": "social-8-r3-civics-38",
+      "section": "civics",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "憲法保障的具體落實",
+      "answer": "C；由具體行政法規實現基本權",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "憲法上的隱私與資訊自主需要行政制度及程序加以保障。",
+        "戶籍等法令把抽象權利落實於申請、審查與救濟，C最能表達題意。"
+      ],
+      "pitfall": "內部作業手冊不等於憲法，人民有主張仍須依適當程序處理。",
+      "note": "只按假設案例說明行政法功能；身分證字號的變更法源與姓名變更不宜混用，不將原文案情當成完整法院判決。"
+    },
+    {
+      "id": "social-8-r3-civics-39",
+      "section": "civics",
+      "label": "第 39 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "行政處分",
+      "answer": "C；行政處分",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "戶政機關針對小強的特定申請作成准駁，直接影響他的法律地位。",
+        "符合行政機關對具體公法事件作成、對外發生效果的行政處分概念。"
+      ],
+      "pitfall": "不是每項不利處分都叫行政罰；拒絕申請未必是處罰。"
+    },
+    {
+      "id": "social-8-r3-civics-40",
+      "section": "civics",
+      "label": "第 40 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "訴願管轄",
+      "answer": "B；新北市政府",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目設定原處分由新北市所屬戶政事務所作成。",
+        "依一般訴願管轄，向所屬直轄市政府尋求審查；行政法院則屬之後的司法救濟。"
+      ],
+      "pitfall": "原機關可依法先行重新審查，但不等於它就是最終訴願決定機關。"
+    },
+    {
+      "id": "social-8-r3-civics-41",
+      "section": "civics",
+      "label": "第 41 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "行政救濟的目的",
+      "answer": "B；保障權益、約束權力",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "人民可對違法或不當處分尋求審查，避免行政機關任意行使權力。",
+        "因此重點是救濟權利與依法行政，不是要求司法接管所有政策。"
+      ],
+      "pitfall": "不服處分有救濟權，不代表一提出就必然撤銷。"
+    },
+    {
+      "id": "social-8-r3-civics-42",
+      "section": "civics",
+      "label": "第 42 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "核發許可的性質",
+      "answer": "B；授益行政處分",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "對特定符合條件的業者核發執照，使其取得依法營業資格。",
+        "這是具有具體法律效果的授益行政處分；雖可服務管制目的，B是較精確的行為形式。"
+      ],
+      "pitfall": "行政處分也可以給予權益，不只開罰或禁止。"
+    },
+    {
+      "id": "social-8-r3-civics-43",
+      "section": "civics",
+      "label": "第 43 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "罰鍰與行政責任",
+      "answer": "B；行政罰",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "因違反行政管制義務而裁處罰鍰，是行政制裁。",
+        "罰金屬刑罰，賠償則用於填補他人損害，三者目的與程序不同。"
+      ],
+      "pitfall": "錢付給國家還是受害人，是分辨罰鍰與賠償的線索。"
+    },
+    {
+      "id": "social-8-r3-civics-44",
+      "section": "civics",
+      "label": "第 44 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "兒少安置的分類",
+      "answer": "C較合理；官方列B",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "因原生家庭無法保護而安置兒少，正是針對危害的保護措施，B與題幹吻合。",
+        "C把保護性安置與一般親子車位福利直接等同，才是課程分類上不適當的敘述。"
+      ],
+      "pitfall": "題目問「錯誤」，不要因B描述最貼近題幹就選它。",
+      "note": "官方第7頁列B，但兒少權法保護措施章及第56條均支持安置的保護性質。保留官方B，獨立判斷指出C較合理，不能為迎合答案反說安置不是保護。"
+    },
+    {
+      "id": "social-8-r3-civics-45",
+      "section": "civics",
+      "label": "第 45 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "童工與少年勞工的年齡",
+      "answer": "官方 D；題目不足以認定17歲夜間工作違法",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "勞基法童工是15歲以上未滿16歲，夜間20時至6時禁工針對童工。",
+        "17歲仍受不得從事危險有害工作等保護，但僅「凌晨收攤」不足以直接套用童工夜間禁令。"
+      ],
+      "pitfall": "未滿18歲的少年勞工，不全等於法律定義的童工。",
+      "note": "官方D可能把所有未成年人都套用第48條。材料未提供超時、危險作業或其他違法要件，無法據此唯一認定D雇主須受罰。"
+    },
+    {
+      "id": "social-8-r3-civics-46",
+      "section": "civics",
+      "label": "第 46 題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 7,
+      "topic": "童工工時與工資",
+      "answer": "官方 C、D；單選題提供雙答案",
+      "officialAnswer": "C、D",
+      "status": "disputed",
+      "steps": [
+        "童工每日不得工作超過8小時，若C的9小時指實際工作時間，就不符保護規定。",
+        "D只是約定時薪250元，不是童工專屬保護條款，但較高薪資本身不代表違法或不受工資保障。"
+      ],
+      "pitfall": "「不屬特別規定」與「違反保護規定」是不同問法。",
+      "note": "官方答案明列「C、D」，與單選形式不符；保留雙答案。題幹「意涵」含混，不能把D解成童工不需最低工資保障。"
+    },
+    {
+      "id": "social-8-r3-civics-47",
+      "section": "civics",
+      "label": "第 47 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "曝險少年的行政輔導",
+      "answer": "C；少年輔導委員會先行",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "依題設，施用第三級毒品等行為尚未構成所述刑罰法律的犯罪，而有曝險與輔導需求。",
+        "2023年7月起制度以少輔會行政輔導先行，必要時才請求少年法院介入，故非立即一律感化教育。"
+      ],
+      "pitfall": "攜帶球棒須結合有無正當理由、頻率與保護必要性，不能只憑物品名稱標籤化。"
+    },
+    {
+      "id": "social-8-r3-civics-48",
+      "section": "civics",
+      "label": "第 48 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "十二歲以下的處遇",
+      "answer": "A；11歲兒童不適用少事法",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "少年事件處理法的少年範圍為12歲以上未滿18歲。",
+        "11歲應由兒少福利、家庭與學校等體系協助，不因持刀就直接套入少年法院程序。"
+      ],
+      "pitfall": "未進少年法院不是無人處理；仍須評估安全與保護需求。"
+    },
+    {
+      "id": "social-8-r3-civics-49",
+      "section": "civics",
+      "label": "第 49 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "少年保護與刑事程序",
+      "answer": "A；14歲以上不是一律保護事件",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "13歲未達刑事可罰年齡，依少年保護制度處理。",
+        "14歲以上依犯罪與法定移送要件可能進入少年刑事程序，所以A的「不論情節」過於絕對。"
+      ],
+      "pitfall": "是否移送有法定條件，不能只憑日常語意的「嚴重」自行決定。"
+    },
+    {
+      "id": "social-8-r3-civics-50",
+      "section": "civics",
+      "label": "第 50 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "保護處分與執行方式",
+      "answer": "D；少年保護官命寫悔過書不是法定處分名稱",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "少事法保護處分包含訓誡、保護管束、安置輔導、感化教育等。",
+        "B假日生活輔導可附隨訓誡，A、C可對應處遇場所；D的機關與處分說法不合題設。"
+      ],
+      "pitfall": "處分須由法院依法裁定，不能把保護官的任何輔導要求都當成獨立處分。"
+    },
+    {
+      "id": "social-8-r3-civics-51",
+      "section": "civics",
+      "label": "第 51 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "性影像持有的法律要件",
+      "answer": "官方 B；不能概括所有成人影像持有為犯罪",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "無正當理由持有兒少性影像可有刑事責任，因此不能認為只要不拍攝、不散布就無罪。",
+        "但成人性影像尚須查取得方式、同意、利用與散布等要件；單純「持有」不能一概等同犯罪。"
+      ],
+      "pitfall": "兒少影像與成年人合意影像的規範不同，年齡及行為要件不可省略。",
+      "note": "保留B；題文醫師濫用資料可能另涉個資或妨害秘密，但B未區分構成要件，不能由此教成持有任何成年人性影像均犯罪。"
+    },
+    {
+      "id": "social-8-r3-civics-52",
+      "section": "civics",
+      "label": "第 52 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "求助與通報",
+      "answer": "C；獨自承受無助於取得支援",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "疑似兒少性剝削需要可信任成人、學校與專業保護體系介入。",
+        "113、警方或學務處能提供通報與支援管道，要求自己硬撐反而阻礙求助。"
+      ],
+      "pitfall": "責任在加害者，受害兒少不必自己承擔處理與蒐證的一切壓力。"
+    },
+    {
+      "id": "social-8-r3-civics-53",
+      "section": "civics",
+      "label": "第 53 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "電子煙裁罰與刑罰",
+      "answer": "官方 B；四項均有問題",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "使用電子煙依題設屬行政違規，菸害防制法相應處罰是罰鍰，並非B所說拘留。",
+        "A把罰鍰當醫藥費也錯；C、D則誤把刑事犯罪當可用繳款或行政裁決全部取代。"
+      ],
+      "pitfall": "拘留、拘役、罰鍰、罰金各有法源，不能只背「行政對刑事」成對代換。",
+      "note": "官方B將抽象制裁種類錯套到具體菸害違規。沒有完整正確選項；保留B，明示應區分行政罰鍰、刑事審判及另行民事賠償。"
+    },
+    {
+      "id": "social-8-r3-civics-54",
+      "section": "civics",
+      "label": "第 54 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "交通行政責任",
+      "answer": "D；行政責任",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "交通機關就駕駛資格及違反交通義務作成制裁，屬行政責任。",
+        "另由檢察官偵辦犯罪、被害人請求賠償，分別涉及刑事與民事，不能混成同一項責任。"
+      ],
+      "pitfall": "同一事件可能涉及多種責任，但重複處罰仍須遵守行政罰法等限制。",
+      "note": "本題只分類機關所作處分，不推論同一行為可無限制同時處以行政罰鍰與刑罰；原題一人與兩人受傷亦不影響此分類。"
+    }
+  ]
+}

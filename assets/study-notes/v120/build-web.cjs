@@ -18,13 +18,13 @@ function build(full){
  if(data.examSolutions){
   manifest.papers=data.examSolutions.papers.map(p=>{
    const raw=JSON.stringify(p),sha256=crypto.createHash('sha256').update(raw).digest('hex'),file='content/paper-'+p.sourceId+'.'+sha256.slice(0,16)+'.json';
-   files[file]=raw;delete p.items;delete p.sections;delete p.coverageNote;p.bundle={file,sha256};return{sourceId:p.sourceId,...p.bundle};
+   files[file]=raw;for(const k of ['items','sections','coverageNote','title','url','sourceSha256','pdfPages','grade','year','term','round','subject','subjectName'])delete p[k];p.bundle={file,sha256};return{sourceId:p.sourceId,...p.bundle};
   });
  }
  for(const u of data.units){
   u.concepts=u.concepts.map(c=>({id:c.id,title:c.title}));
   u.quiz=u.quiz.map(q=>({id:q.id,concept:q.concept,answer:q.answer,options:q.options.map(o=>({id:o.id}))}));
-  for(const k of ['diagrams','tables','traps','experiments','quick','reviewNote','tagline'])delete u[k];
+  for(const k of ['diagrams','tables','traps','experiments','quick','reviewNote','tagline','readingSupport','version','updated'])delete u[k];
  }
  // Render the established homepage at build time, before any curriculum script downloads.
  const v=new VirtualConsole(),runtimeErrors=[];v.on('jsdomError',e=>runtimeErrors.push(e.message));

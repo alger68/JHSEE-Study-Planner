@@ -1,0 +1,1302 @@
+{
+  "schema": 1,
+  "sourceId": "1DA07pJtN9zAs50hz6jvCuhklVE3pXGiB",
+  "sourceSha256": "6a4acf780b07c066fbe59133422d23c039576728345aa5902c46f214c0ac00f3",
+  "title": "114-2-1八年級國文科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "共70個作答項目：國字注音10、注釋12、多元思考6格、改錯4字、選擇26及題組12題。已逐頁目視PDF第1至7頁，答案均在實際第7頁。第5、34題保留單選歧義；第16題按「他」的通常男性指稱核對，另註明判斷前提；第7題以公開出版社原詩核寫法；第11、13題因指定課文全文未附而標示限制。閱讀題按卷內論述解析，不把其中新聞或軍制概括當作已另行考證的事實。",
+  "sections": [
+    {
+      "id": "characters",
+      "title": "一、國字注音"
+    },
+    {
+      "id": "definitions",
+      "title": "二、注釋"
+    },
+    {
+      "id": "thinking",
+      "title": "三、多元思考題"
+    },
+    {
+      "id": "corrections",
+      "title": "三、第7格閱讀改錯"
+    },
+    {
+      "id": "general",
+      "title": "四、選擇題"
+    },
+    {
+      "id": "reading",
+      "title": "五、題組"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-8-r1-characters-01",
+      "section": "characters",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "豆瓣醬用字",
+      "answer": "瓣",
+      "officialAnswer": "瓣",
+      "status": "verified",
+      "steps": [
+        "先由豆與醬辨認食物名稱。",
+        "豆瓣醬的瓣指分成片的豆粒，寫瓜部的「瓣」。"
+      ],
+      "pitfall": "不要寫成髮辮的「辮」。"
+    },
+    {
+      "id": "chinese-8-r1-characters-02",
+      "section": "characters",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "殷切期盼",
+      "answer": "殷",
+      "officialAnswer": "殷",
+      "status": "verified",
+      "steps": [
+        "期盼前的詞表示熱切、深厚。",
+        "固定詞「殷切」用殷，不是陰暗的陰。"
+      ],
+      "pitfall": "殷切的殷讀ㄧㄣ，不取殷紅的另一讀音。"
+    },
+    {
+      "id": "chinese-8-r1-characters-03",
+      "section": "characters",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "細膩用字",
+      "answer": "膩",
+      "officialAnswer": "膩",
+      "status": "verified",
+      "steps": [
+        "細膩形容細緻而周到。",
+        "ㄋㄧˋ寫肉部的膩，與粗糙相對。"
+      ],
+      "pitfall": "不要寫成逆或溺。"
+    },
+    {
+      "id": "chinese-8-r1-characters-04",
+      "section": "characters",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "茅庵用字",
+      "answer": "庵",
+      "officialAnswer": "庵",
+      "status": "verified",
+      "steps": [
+        "茅草後接住屋名稱。",
+        "簡陋小屋可稱庵，應寫廣部。"
+      ],
+      "pitfall": "庵不是尼姑專用的建築名稱。"
+    },
+    {
+      "id": "chinese-8-r1-characters-05",
+      "section": "characters",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "從軍的用字",
+      "answer": "戎",
+      "officialAnswer": "戎",
+      "status": "verified",
+      "steps": [
+        "投筆表示放下文事，從戎表示投入軍旅。",
+        "ㄖㄨㄥˊ應寫與兵事相關的戎。"
+      ],
+      "pitfall": "注意戎與戒、戍的筆畫差異。"
+    },
+    {
+      "id": "chinese-8-r1-characters-06",
+      "section": "characters",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "熾熱讀音",
+      "answer": "ㄔˋ",
+      "officialAnswer": "ㄔˋ",
+      "status": "verified",
+      "steps": [
+        "熾表示火旺、熱烈。",
+        "熾讀ㄔˋ，須標第四聲。"
+      ],
+      "pitfall": "不要受聲旁影響讀成ㄓˋ。"
+    },
+    {
+      "id": "chinese-8-r1-characters-07",
+      "section": "characters",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "渲染讀音",
+      "answer": "ㄒㄩㄢˋ",
+      "officialAnswer": "ㄒㄩㄢˋ",
+      "status": "verified",
+      "steps": [
+        "渲染原指用水墨烘染，亦可用於強化氣氛。",
+        "渲讀ㄒㄩㄢˋ，韻母不是ㄢ。"
+      ],
+      "pitfall": "不能讀成宣的第一聲。"
+    },
+    {
+      "id": "chinese-8-r1-characters-08",
+      "section": "characters",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "虔誠讀音",
+      "answer": "ㄑㄧㄢˊ",
+      "officialAnswer": "ㄑㄧㄢˊ",
+      "status": "verified",
+      "steps": [
+        "心虔指內心恭敬誠懇。",
+        "虔讀ㄑㄧㄢˊ，注意第二聲。"
+      ],
+      "pitfall": "不要省略介音ㄧ。"
+    },
+    {
+      "id": "chinese-8-r1-characters-09",
+      "section": "characters",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "機杼讀音",
+      "answer": "ㄓㄨˋ",
+      "officialAnswer": "ㄓㄨˋ",
+      "status": "verified",
+      "steps": [
+        "機杼本指織布工具，此成語比喻構思獨特。",
+        "杼讀ㄓㄨˋ，不能按予的常見讀音讀。"
+      ],
+      "pitfall": "不要與抒的ㄕㄨ混淆。"
+    },
+    {
+      "id": "chinese-8-r1-characters-10",
+      "section": "characters",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "流水聲讀音",
+      "answer": "ㄐㄧㄢ",
+      "officialAnswer": "ㄐㄧㄢ",
+      "status": "verified",
+      "steps": [
+        "題目以流水鳴限定為擬聲的濺濺。",
+        "依本卷與教育部簡編本，此處濺讀ㄐㄧㄢ。"
+      ],
+      "pitfall": "不要套用水花四濺的ㄐㄧㄢˋ。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-01",
+      "section": "definitions",
+      "label": "二、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "世俗緣分",
+      "answer": "世俗的緣分。",
+      "officialAnswer": "世俗的緣分。",
+      "status": "verified",
+      "steps": [
+        "塵在此指塵世、世俗生活。",
+        "與緣結合，是人在世間的關係與緣分。"
+      ],
+      "pitfall": "不要只解成灰塵。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-02",
+      "section": "definitions",
+      "label": "二、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "昏暗景象",
+      "answer": "形容天氣昏暗，氣氛陰森。",
+      "officialAnswer": "形容天氣昏暗，氣氛陰森。",
+      "status": "verified",
+      "steps": [
+        "雲霧遮蔽視線，形成不明朗的景象。",
+        "解釋須兼顧天氣昏暗與氣氛陰森。"
+      ],
+      "pitfall": "不要自行加入題目未指定的迷路事件。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-03",
+      "section": "definitions",
+      "label": "二、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "關塞山嶺",
+      "answer": "關塞和山嶺。",
+      "officialAnswer": "關塞和山嶺。",
+      "status": "verified",
+      "steps": [
+        "關指邊境關塞。",
+        "山指山嶺，兩字合說沿途關山。"
+      ],
+      "pitfall": "不可把關山僅當作臺灣地名。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-04",
+      "section": "definitions",
+      "label": "二、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "內心歉疚",
+      "answer": "內心覺得慚愧不安。",
+      "officialAnswer": "內心覺得慚愧不安。",
+      "status": "verified",
+      "steps": [
+        "內指出自心中。",
+        "疚是因自覺有過失而慚愧不安。"
+      ],
+      "pitfall": "內疚不等於所有焦慮。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-05",
+      "section": "definitions",
+      "label": "二、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "情緒比喻",
+      "answer": "此指心理狀態起伏過大，如同巨大海浪般。",
+      "officialAnswer": "此指心理狀態起伏過大，如同巨大海浪般。",
+      "status": "verified",
+      "steps": [
+        "海嘯的猛烈起伏用來比喻情緒強度。",
+        "因此要說明心理波動過大，非真有海浪。"
+      ],
+      "pitfall": "不能把譬喻當作生理診斷。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-06",
+      "section": "definitions",
+      "label": "二、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "已經確定",
+      "answer": "已經決定或確定。",
+      "officialAnswer": "已經決定或確定。",
+      "status": "verified",
+      "steps": [
+        "既表示已經。",
+        "定表示決定、確定，合起來指已有定案。"
+      ],
+      "pitfall": "不要解成即將決定。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-07",
+      "section": "definitions",
+      "label": "二、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "精壯駱駝",
+      "answer": "精壯的駱駝。",
+      "officialAnswer": "精壯的駱駝。",
+      "status": "verified",
+      "steps": [
+        "明駝是詩中求取的坐騎。",
+        "依詩語用法，指強健、適合奔行的駱駝。"
+      ],
+      "pitfall": "不是明亮發光的駱駝。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-08",
+      "section": "definitions",
+      "label": "二、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "煩亂心緒",
+      "answer": "心情煩躁，思緒雜亂。",
+      "officialAnswer": "心情煩躁，思緒雜亂。",
+      "status": "verified",
+      "steps": [
+        "心煩說明情緒煩躁。",
+        "意亂補充思路紛雜，兩層意思都要寫出。"
+      ],
+      "pitfall": "不要漏掉思緒混亂這一層。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-09",
+      "section": "definitions",
+      "label": "二、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "磨刀聲",
+      "answer": "形容磨刀聲。",
+      "officialAnswer": "形容磨刀聲。",
+      "status": "verified",
+      "steps": [
+        "此疊詞出現在磨刀的語境。",
+        "霍霍模擬連續磨刀聲，是狀聲詞。"
+      ],
+      "pitfall": "本題不是解霍字的姓氏用法。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-10",
+      "section": "definitions",
+      "label": "二、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "外城",
+      "answer": "外城。",
+      "officialAnswer": "外城。",
+      "status": "verified",
+      "steps": [
+        "古代城郭有內外之別。",
+        "出郭的郭指外城，表明走出城外迎接。"
+      ],
+      "pitfall": "不要把郭解成人名。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-11",
+      "section": "definitions",
+      "label": "二、第11題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "有餘數量",
+      "answer": "有餘。",
+      "officialAnswer": "有餘。",
+      "status": "verified",
+      "steps": [
+        "百千已表示賞賜數量。",
+        "後加強表示超過該數、有餘。"
+      ],
+      "pitfall": "此處不是強壯或勉強。"
+    },
+    {
+      "id": "chinese-8-r1-definitions-12",
+      "section": "definitions",
+      "label": "二、第12題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "隨著",
+      "answer": "隨著。",
+      "officialAnswer": "隨著。",
+      "status": "verified",
+      "steps": [
+        "笑逐顏開描寫臉上隨笑容而舒展。",
+        "逐在此取隨著義。"
+      ],
+      "pitfall": "不宜逐字硬譯成追趕笑容。"
+    },
+    {
+      "id": "chinese-8-r1-thinking-01",
+      "section": "thinking",
+      "label": "三、第1格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "寒夜聽覺",
+      "answer": "朔氣傳金柝",
+      "officialAnswer": "朔氣傳金柝",
+      "status": "verified",
+      "steps": [
+        "朔氣指北方寒氣，金柝是打更器物。",
+        "依題目先寫聲音的順序，填這一句。"
+      ],
+      "pitfall": "不要把柝誤寫成析。"
+    },
+    {
+      "id": "chinese-8-r1-thinking-02",
+      "section": "thinking",
+      "label": "三、第2格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "寒夜視覺",
+      "answer": "寒光照鐵衣",
+      "officialAnswer": "寒光照鐵衣",
+      "status": "verified",
+      "steps": [
+        "寒光指冷月的光，鐵衣指鎧甲。",
+        "與前句的聽覺成對，第二格寫照在戰甲上的月光。"
+      ],
+      "pitfall": "勿把鐵衣改成一般衣物。"
+    },
+    {
+      "id": "chinese-8-r1-thinking-03",
+      "section": "thinking",
+      "label": "三、第3格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "雄兔比喻",
+      "answer": "雄兔腳撲朔",
+      "officialAnswer": "雄兔腳撲朔",
+      "status": "verified",
+      "steps": [
+        "前兩句分說雄兔與雌兔的特徵。",
+        "第三格先寫雄兔腳撲朔，保持原句順序。"
+      ],
+      "pitfall": "撲朔的朔不可誤寫成塑。"
+    },
+    {
+      "id": "chinese-8-r1-thinking-04",
+      "section": "thinking",
+      "label": "三、第4格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "雌兔比喻",
+      "answer": "雌兔眼迷離",
+      "officialAnswer": "雌兔眼迷離",
+      "status": "verified",
+      "steps": [
+        "本句承接雄兔，改寫雌兔的眼。",
+        "迷離與前句撲朔形成對稱。"
+      ],
+      "pitfall": "不要顛倒雄雌兩句。"
+    },
+    {
+      "id": "chinese-8-r1-thinking-05",
+      "section": "thinking",
+      "label": "三、第5格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "奔跑難分雄雌",
+      "answer": "兩兔傍地走",
+      "officialAnswer": "兩兔傍地走",
+      "status": "verified",
+      "steps": [
+        "本卷答案採兩兔的版本。",
+        "傍地走指兩兔貼近地面一起跑，導向無法辨別的結論。"
+      ],
+      "pitfall": "走在此是跑；不可改成本卷未採的雙兔而不說明版本。"
+    },
+    {
+      "id": "chinese-8-r1-thinking-06",
+      "section": "thinking",
+      "label": "三、第6格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "反問收束",
+      "answer": "安能辨我是雄雌",
+      "officialAnswer": "安能辨我是雄雌",
+      "status": "verified",
+      "steps": [
+        "安能表示怎能，構成反問。",
+        "以難辨兔子的性別比喻木蘭與男兵能力相當。"
+      ],
+      "pitfall": "辨是分辨，不能寫成辯論的辯。"
+    },
+    {
+      "id": "chinese-8-r1-corrections-07-1",
+      "section": "corrections",
+      "label": "三、第7格（第1字）",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "寒暄問候",
+      "answer": "喧→暄",
+      "officialAnswer": "暄",
+      "status": "verified",
+      "steps": [
+        "寒暄指見面問候。",
+        "暄有溫暖義，與寒相對，故喧改暄。"
+      ],
+      "pitfall": "喧是吵鬧，不能用於此詞。"
+    },
+    {
+      "id": "chinese-8-r1-corrections-07-2",
+      "section": "corrections",
+      "label": "三、第7格（第2字）",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "緊繃神經",
+      "answer": "崩→繃",
+      "officialAnswer": "繃",
+      "status": "verified",
+      "steps": [
+        "句中形容神經緊張。",
+        "緊繃的繃有繃緊之意，故崩改繃。"
+      ],
+      "pitfall": "崩指倒塌或崩裂。"
+    },
+    {
+      "id": "chinese-8-r1-corrections-07-3",
+      "section": "corrections",
+      "label": "三、第7格（第3字）",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "諮商用字",
+      "answer": "資→諮",
+      "officialAnswer": "諮",
+      "status": "verified",
+      "steps": [
+        "老師正在以談話提供協助。",
+        "諮有商議、詢問義，資商應改諮商。"
+      ],
+      "pitfall": "不要與資源的資混淆。"
+    },
+    {
+      "id": "chinese-8-r1-corrections-07-4",
+      "section": "corrections",
+      "label": "三、第7格（第4字）",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "縝密思考",
+      "answer": "稹→縝",
+      "officialAnswer": "縝",
+      "status": "verified",
+      "steps": [
+        "此處強調思慮周密。",
+        "固定詞是縝密，稹應改縝。"
+      ],
+      "pitfall": "縝的糸部不能省略。"
+    },
+    {
+      "id": "chinese-8-r1-general-01",
+      "section": "general",
+      "label": "四、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "同音字辨形",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "D的北風與月初都用朔。",
+        "A為稠、惆；B為醃、淹；C為塑、溯，均不同字。"
+      ],
+      "pitfall": "同音不能直接判定同字。"
+    },
+    {
+      "id": "chinese-8-r1-general-02",
+      "section": "general",
+      "label": "四、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "字音成對比較",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "颼與餿都讀ㄙㄡ，故A相同。",
+        "惋與婉聲調不同；強迫與百千強讀音不同；署與曙也有聲調差別。"
+      ],
+      "pitfall": "本題必須連聲調一起比較。"
+    },
+    {
+      "id": "chinese-8-r1-general-03",
+      "section": "general",
+      "label": "四、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "形近字的讀音",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "抒發意見與紓解困境的抒、紓都讀ㄕㄨ。",
+        "沓與杳、滇與鎮、睽與癸分別不同音，故選C。"
+      ],
+      "pitfall": "不可只看共同聲旁就推定每組都同音。"
+    },
+    {
+      "id": "chinese-8-r1-general-04",
+      "section": "general",
+      "label": "四、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "咎的共同義",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "引咎是承認過失，難辭其咎是難以推卸過失責任。",
+        "兩個咎都指過失；其他組則分別是安定／整日、扶助詞／將、買／市場。"
+      ],
+      "pitfall": "市可作買的動詞，也可作市場名詞。"
+    },
+    {
+      "id": "chinese-8-r1-general-05",
+      "section": "general",
+      "label": "四、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "詩句與意旨的多重成立",
+      "answer": "C符合思親意旨；B、D亦可成立",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "C以聽不見父母呼喚凸顯思親，符合詩意。",
+        "但B的徵兵名冊有父名也正是代父從軍的起因，D的戰死與多年征戰也呈現戰爭艱苦。"
+      ],
+      "pitfall": "題目問正確而非最直接描寫思親，不能忽略B、D也有文本依據。",
+      "note": "官方為C。B所述徵召父親確為從軍起因，D所引死亡與久戰也能支持艱苦；題幹未提供能排除B、D的限定，保留單選歧義。"
+    },
+    {
+      "id": "chinese-8-r1-general-06",
+      "section": "general",
+      "label": "四、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "狀聲與狀態詞",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "嘖嘖模擬讚歎聲，可作狀聲詞。",
+        "侃侃與滔滔在所列語境形容談話狀態，聲聲是次數性疊用，故A最符合。"
+      ],
+      "pitfall": "疊字不一定都是擬聲詞。"
+    },
+    {
+      "id": "chinese-8-r1-general-07",
+      "section": "general",
+      "label": "四、第7題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "抒情主體與詩歌視角",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "公開出版社原詩從求佛、化樹、等待到失落，都由我向你傾訴自身感受。",
+        "敘述立場因此是第一人稱內心獨白，A正確；樹與花是情感寄託，並非寫實生態記錄或第三人稱全知敘事。"
+      ],
+      "pitfall": "詩中出現佛與你，不會使敘述者自動變成第三人稱。",
+      "note": "已核翰林公開〈一棵開花的樹〉課文放大版第11至14張的正文。可核全詩人稱和抒情方式，未將其編者賞析或教材編排冒稱為本卷康軒版。"
+    },
+    {
+      "id": "chinese-8-r1-general-08",
+      "section": "general",
+      "label": "四、第8題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "直式信封地址",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "右欄應是收件人陳先生的高雄地址，左欄應是寄件人王小姐的臺北地址。",
+        "圖中兩者反置，故交換左右地址；直式信封郵票在左上，緘可用於密封信。"
+      ],
+      "pitfall": "敬啟是寄信者自謙語，不能當收件人的啟封詞。"
+    },
+    {
+      "id": "chinese-8-r1-general-09",
+      "section": "general",
+      "label": "四、第9題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "敬稱與謙稱",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "令郎敬稱對方兒子，小兒謙稱自己兒子，D前後一致。",
+        "A自稱弟弟宜用舍弟；B商號不用寒舍；C家父與先父的對象或存歿都不合。"
+      ],
+      "pitfall": "先父專指已故父親，不能接一切安好。"
+    },
+    {
+      "id": "chinese-8-r1-general-10",
+      "section": "general",
+      "label": "四、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "樂府複沓形式",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "兩段都用相近句型反覆列舉方位。",
+        "這呈現民歌反覆吟詠的特色；不能因此把江南判為北方或把魚戲說成奔波勞苦。"
+      ],
+      "pitfall": "鋪排方位未必是精確的地理移動紀錄。"
+    },
+    {
+      "id": "chinese-8-r1-general-11",
+      "section": "general",
+      "label": "四、第11題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "情緒的道德化",
+      "answer": "A（依官方；事件前後文待核）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "小女孩驚訝輔導者也會生氣，與把某些情緒視為不應出現的想法相合。",
+        "官方A以正負面分類導致偏見解釋此反應，但完整教育背景未刊於題本。"
+      ],
+      "pitfall": "一次驚呼不足以推出所有孩童缺乏辨識能力。",
+      "note": "〈情緒是生命的指引〉全文未附；本題小女孩事件僅引一句話，無法獨立核對作者如何連結教育環境與道德化偏見。"
+    },
+    {
+      "id": "chinese-8-r1-general-12",
+      "section": "general",
+      "label": "四、第12題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "刪除重複語意",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "A的一輩子與畢生重複；B的值得與令人搭配重疊；C懸殊已含差距大。",
+        "D句中的行動與效果各有功能，沒有這種重複，故選D。"
+      ],
+      "pitfall": "本題查冗詞，不是在查運動新聞事實。"
+    },
+    {
+      "id": "chinese-8-r1-general-13",
+      "section": "general",
+      "label": "四、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "比喻與實體錯置",
+      "answer": "B（比喻實體化不當；課文待核）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "B把資料夾的比喻說成情緒是皮質碎片，混淆抽象感受與實體物件。",
+        "這可支持官方B的方向，但作者完整比喻的定義並未印在卷中。"
+      ],
+      "pitfall": "不要把譬喻中的容器或天氣當成生理機制。",
+      "note": "原卷未附〈情緒是生命的指引〉全文，無法逐項核實資料夾與帆船比喻的原說法；保留官方B及題面可辨的錯置。"
+    },
+    {
+      "id": "chinese-8-r1-general-14",
+      "section": "general",
+      "label": "四、第14題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "競爭中的禮讓",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B所引揖讓而升、下而飲呈現競爭仍互相尊重。",
+        "其爭也君子直接肯定有禮而大度的競爭態度，足以支持B。"
+      ],
+      "pitfall": "禮讓不是完全放棄競爭。"
+    },
+    {
+      "id": "chinese-8-r1-general-15",
+      "section": "general",
+      "label": "四、第15題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "詩體押韻規則",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "樂府與古體押韻較自由，可以轉韻；近體詩通常一韻到底。",
+        "近體以五、七言為主，絕句不必一律對仗，蒐詩官署則與樂府相關，故C整列正確。"
+      ],
+      "pitfall": "不要把律詩中間聯的對仗規則套到所有絕句。"
+    },
+    {
+      "id": "chinese-8-r1-general-16",
+      "section": "general",
+      "label": "四、第16題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "借代稱謂與性別前提",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "布衣指平民、花甲指六十歲、絲竹指音樂，三項均合此處語境。",
+        "巾幗英雄指女性英雄；依本題以「他」指男性的通常讀法，此稱呼不合，因此正確有三個，選C。"
+      ],
+      "pitfall": "判斷依據是本文的人稱用法，不能認定劍客或將軍只能由男性擔任。",
+      "note": "官方C可由題中「他」的通常男性指稱支持，採此讀法核對一致。若改把「他」泛指任何性別，第一項才可能成立；本解不以職業推斷性別。巾幗英雄義參教育部《國語辭典簡編本》。"
+    },
+    {
+      "id": "chinese-8-r1-general-17",
+      "section": "general",
+      "label": "四、第17題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "明信片署名",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "明信片沒有封口，寄件人宜用寄，先排除緘。",
+        "收件人用先生收可成立，敬收是收件者的敬語而不適合作寄件者對收件人的指令，故選B。"
+      ],
+      "pitfall": "不要將明信片當作密封信件寫緘。"
+    },
+    {
+      "id": "chinese-8-r1-general-18",
+      "section": "general",
+      "label": "四、第18題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "因果與句法排序",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "香郁是茶的特質，接必須倚賴我的無味構成完整關係，先丙乙。",
+        "讓你的乾枯柔柔的須接在我裡面展開、舒散，後甲丁，故A。"
+      ],
+      "pitfall": "先找句法搭配，再檢查整體情意。"
+    },
+    {
+      "id": "chinese-8-r1-general-19",
+      "section": "general",
+      "label": "四、第19題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "語境選擇成語",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "敬重父親技藝使自己感到不及，可接自慚形穢；清脆鳥聲帶來心曠神怡。",
+        "末段警告新手別四處張望，東張西望最合，故三格以A連貫。"
+      ],
+      "pitfall": "聲東擊西是策略，不是隨意張望。"
+    },
+    {
+      "id": "chinese-8-r1-general-20",
+      "section": "general",
+      "label": "四、第20題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "持續努力的主旨",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "慢者能靠不懈前進到達終點，快者也可能中途放棄。",
+        "兩組對照都把關鍵放在是否堅持，結語應為C。"
+      ],
+      "pitfall": "不要只看到競賽便選勝敗風度。"
+    },
+    {
+      "id": "chinese-8-r1-general-21",
+      "section": "general",
+      "label": "四、第21題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "成語適用對象",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "破釜沉舟、忐忑不安、投桃報李分別對應決心、不安、回報，三個正確。",
+        "寸草春暉主要指父母養育恩；人面桃花指相逢後人去境留，均不合本文師生與成長情境。"
+      ],
+      "pitfall": "不可因含桃花便解為外貌或性格變好。"
+    },
+    {
+      "id": "chinese-8-r1-general-22",
+      "section": "general",
+      "label": "四、第22題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "運動員鼓舞來源",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文末以克服極限、意志與付出回答開頭問題。",
+        "D概括努力與竭力的作用；其他選項加入必然成功或品格推論，均非本文重點。"
+      ],
+      "pitfall": "受到鼓舞不代表運動員一定無懈可擊。"
+    },
+    {
+      "id": "chinese-8-r1-general-23",
+      "section": "general",
+      "label": "四、第23題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "成語連續使用",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "夙興夜寐指早起晚睡，壯志凌雲指志向遠大，C前後都合創業情境。",
+        "自出機杼與獨樹一幟皆重創新獨到，不能分別解成機器生產或有效吸收。"
+      ],
+      "pitfall": "B雖可驚訝，流連忘返卻不合譴責暴力的情境。"
+    },
+    {
+      "id": "chinese-8-r1-general-24",
+      "section": "general",
+      "label": "四、第24題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "短詩的時間意象",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "詩中時間提供容納未說之語的空間，並未主動裁判。",
+        "A加入法官審判角色，比原詩多出不受支持的擬人關係，故最不恰當。"
+      ],
+      "pitfall": "內疚只能視為可能的情緒推測，不能宣稱詩人確曾傷人。"
+    },
+    {
+      "id": "chinese-8-r1-general-25",
+      "section": "general",
+      "label": "四、第25題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "省略主語還原",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "君乘車時，應由君下車作揖；我跨馬時，應由我下馬。",
+        "兩次致意的主語不同，C說同一人因此錯誤。"
+      ],
+      "pitfall": "先依乘車、跨馬的人還原主語，別一律接最近的我。"
+    },
+    {
+      "id": "chinese-8-r1-general-26",
+      "section": "general",
+      "label": "四、第26題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "邊塞地域線索",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "胡馬帶出北方族群與戰事，陰山又有北方屏蔽的注釋。",
+        "A同時保留這兩個明確線索，較一般的月光或征人更能定位北方邊塞。"
+      ],
+      "pitfall": "明月可出現在各地，地域指向較弱。"
+    },
+    {
+      "id": "chinese-8-r1-reading-27",
+      "section": "reading",
+      "label": "五、第27題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "擷取具體新聞資訊",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文末列出拍攝摩托車、手搖飲的照片。",
+        "D與此一致；斜槓指球員另有職業，文中也未說簽備忘錄，故其餘不符。"
+      ],
+      "pitfall": "閱讀題依卷內敘述作答，不將題面新聞自動視為外部事實核查。"
+    },
+    {
+      "id": "chinese-8-r1-reading-28",
+      "section": "reading",
+      "label": "五、第28題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "敗而有風度",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "捷克隊雖輸球仍享受比賽並感謝對手。",
+        "這最直接呼應無論勝敗都能欣然相待的C，並非討論作弊或守約。"
+      ],
+      "pitfall": "要用本文的敗後態度對照引文。"
+    },
+    {
+      "id": "chinese-8-r1-reading-29",
+      "section": "reading",
+      "label": "五、第29題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "比喻不是工序",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中以錫之於銀比喻假玉容易辨認。",
+        "並未說把錫銀熔合鍍石；D將比較關係誤當製造方法。"
+      ],
+      "pitfall": "看到兩種材料並列，仍須辨認句子的關係。"
+    },
+    {
+      "id": "chinese-8-r1-reading-30",
+      "section": "reading",
+      "label": "五、第30題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "指示語回指",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "此偽承接緊鄰的白瓷搗碎、汁液調和與乾燥流程。",
+        "因此主要材料是白瓷粉與白斂汁，選C；前面的碎玉用途不同。"
+      ],
+      "pitfall": "指示語通常先找就近的完整事件。"
+    },
+    {
+      "id": "chinese-8-r1-reading-31",
+      "section": "reading",
+      "label": "五、第31題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "分賜背後制度",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "同姓受珍玉以展親，異姓受遠方貢物以記服從關係。",
+        "兩種分賜都在維繫王室與諸侯，A能涵蓋其制度目的。"
+      ],
+      "pitfall": "不是看見寶物就只解成個人嗜好。"
+    },
+    {
+      "id": "chinese-8-r1-reading-32",
+      "section": "reading",
+      "label": "五、第32題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "方賄與地方貢品",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "各以其方賄表示各地帶來本地財物。",
+        "肅慎的箭是其中一例，不能推成各地都只進貢兵器，故C。"
+      ],
+      "pitfall": "不要把例子放大成全部種類。"
+    },
+    {
+      "id": "chinese-8-r1-reading-33",
+      "section": "reading",
+      "label": "五、第33題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "以回答驗證專長",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "孔子辨出箭的族屬，並說明古代賞賜制度。",
+        "舊府查得同樣器物又印證其知識，D最能解釋向他詢問。"
+      ],
+      "pitfall": "文章沒有說孔子親赴肅慎。"
+    },
+    {
+      "id": "chinese-8-r1-reading-34",
+      "section": "reading",
+      "label": "五、第34題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "米的擬人特性",
+      "answer": "D符合適應性；A也有騎牆派、善變的依據",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "長米不強調自身風味、可配多種作法，D的不固執與適應性符合這一面。",
+        "但原文同時用騎牆派、善變，A的順勢與隨波逐流也有字面依據，D額外的智慧則未直接交代。"
+      ],
+      "pitfall": "不能僅憑選項褒貶就排除文中明寫的特質。",
+      "note": "官方D。題文兼用帶貶色彩的騎牆派、善變與中性的適合各式料理，A和D各對應一面；題幹未指定正面詮釋，單選排他性不足。"
+    },
+    {
+      "id": "chinese-8-r1-reading-35",
+      "section": "reading",
+      "label": "五、第35題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "文字與圖表對應",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "米能隨加入的汁液改變，是圖中②種類變化多。",
+        "白飯協調各道菜肴，對應③讓菜呈美味，故②③選B。"
+      ],
+      "pitfall": "圖表序號不是柱長排名；應先讀每一條理由。"
+    },
+    {
+      "id": "chinese-8-r1-reading-36",
+      "section": "reading",
+      "label": "五、第36題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "成本轉移的批判",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "作者說軍戶自備錢糧，所謂不費民間其實由軍戶負擔。",
+        "B準確概括成本轉嫁；其餘選項把限制自由的制度轉成肯定，與作者立場相反。"
+      ],
+      "pitfall": "此為文意分析；文中朝代軍制概括不等於已完成史學核實。"
+    },
+    {
+      "id": "chinese-8-r1-reading-37",
+      "section": "reading",
+      "label": "五、第37題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "義務與職業比較",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中以不可逃役的身分義務對比基於自願的職業。",
+        "D抓住個體選擇權的變化；高收入與解決貧富差距皆非文中可證。"
+      ],
+      "pitfall": "文中說六分之五可能誇大，不可當成精確財政比例。"
+    },
+    {
+      "id": "chinese-8-r1-reading-38",
+      "section": "reading",
+      "label": "五、第38題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "道德讚美背後的限制",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章先列傳統與現代讚美，再指出木蘭家庭缺乏選擇。",
+        "B最接近作者要求看見制度壓迫的立場；C把責任轉嫁木蘭、D全面否定非自願情境的美德都過度。"
+      ],
+      "pitfall": "批判制度不等於指責個人的勇敢與孝心。"
+    }
+  ]
+}

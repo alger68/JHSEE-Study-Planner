@@ -1,0 +1,1265 @@
+{
+  "schema": 1,
+  "sourceId": "10aLnWgVaf0FJR1kj5fR6joUQFy2EN6zH",
+  "sourceSha256": "a9ddeded30e99cdef039c4df63006f0499a3525b9e223e78631a417aa969c096",
+  "title": "114-2-3 八年級國文科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "共68個作答項目：國字注音10、注釋10、改錯5字、多元思考5格、綜合27及閱讀11題。已逐頁目視實際PDF第1至8頁；第7頁為空白答案卷，第8頁為解答卷。第13、15題的〈罐頭由來〉原段未附，保留來源限制；第18題以公開英譯原作核對情節並註明教材版本差別。其餘依題面、古典引文與圖表獨立解析；文中歷史評論及寓意故事不外推成已證史實或實用建議。",
+  "sections": [
+    {
+      "id": "characters",
+      "title": "一、國字注音"
+    },
+    {
+      "id": "definitions",
+      "title": "二、注釋與摘釋"
+    },
+    {
+      "id": "corrections",
+      "title": "三、改錯"
+    },
+    {
+      "id": "thinking",
+      "title": "四、多元思考題"
+    },
+    {
+      "id": "general",
+      "title": "五、綜合測驗"
+    },
+    {
+      "id": "reading",
+      "title": "六、閱讀測驗"
+    }
+  ],
+  "items": [
+    {
+      "id": "chinese-8-r3-characters-01",
+      "section": "characters",
+      "label": "一、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "自我警惕",
+      "answer": "惕",
+      "officialAnswer": "惕",
+      "status": "verified",
+      "steps": [
+        "自我惕勵含有警醒勉勵自己的意思。",
+        "ㄊㄧˋ寫心部惕，突出警戒的心理。"
+      ],
+      "pitfall": "別寫成剔除的剔。"
+    },
+    {
+      "id": "chinese-8-r3-characters-02",
+      "section": "characters",
+      "label": "一、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "絡繹不絕",
+      "answer": "繹",
+      "officialAnswer": "繹",
+      "status": "verified",
+      "steps": [
+        "絡繹不絕形容接連不斷。",
+        "ㄧˋ用糸部繹，與絡字組成固定詞。"
+      ],
+      "pitfall": "不是翻譯的譯。"
+    },
+    {
+      "id": "chinese-8-r3-characters-03",
+      "section": "characters",
+      "label": "一、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "鞭笞用字",
+      "answer": "笞",
+      "officialAnswer": "笞",
+      "status": "verified",
+      "steps": [
+        "鞭笞有用鞭杖抽打的意思。",
+        "ㄔ寫竹部笞，與刑杖相關。"
+      ],
+      "pitfall": "不可省去竹部而寫台。"
+    },
+    {
+      "id": "chinese-8-r3-characters-04",
+      "section": "characters",
+      "label": "一、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "斑駁用字",
+      "answer": "駁",
+      "officialAnswer": "駁",
+      "status": "verified",
+      "steps": [
+        "牆面色彩不均或剝落，稱斑駁。",
+        "ㄅㄛˊ寫馬部駁，並非博學的博。"
+      ],
+      "pitfall": "注意成語詞形，不只依聲音選字。"
+    },
+    {
+      "id": "chinese-8-r3-characters-05",
+      "section": "characters",
+      "label": "一、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "釜底抽薪",
+      "answer": "釜",
+      "officialAnswer": "釜",
+      "status": "verified",
+      "steps": [
+        "釜指鍋，薪指柴。",
+        "從鍋底抽走柴火，比喻從根本解決問題，故填釜。"
+      ],
+      "pitfall": "釜與斧字形相近，所指器物不同。"
+    },
+    {
+      "id": "chinese-8-r3-characters-06",
+      "section": "characters",
+      "label": "一、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "傾軋讀音",
+      "answer": "ㄧㄚˋ",
+      "officialAnswer": "ㄧㄚˋ",
+      "status": "verified",
+      "steps": [
+        "傾軋指互相排擠。",
+        "此詞軋讀ㄧㄚˋ，第四聲。"
+      ],
+      "pitfall": "勿套入其他方言或軋鋼的讀法。"
+    },
+    {
+      "id": "chinese-8-r3-characters-07",
+      "section": "characters",
+      "label": "一、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "眼瞼讀音",
+      "answer": "ㄐㄧㄢˇ",
+      "officialAnswer": "ㄐㄧㄢˇ",
+      "status": "verified",
+      "steps": [
+        "瞼即眼皮。",
+        "讀ㄐㄧㄢˇ，第三聲。"
+      ],
+      "pitfall": "不能跟臉同讀ㄌㄧㄢˇ。"
+    },
+    {
+      "id": "chinese-8-r3-characters-08",
+      "section": "characters",
+      "label": "一、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "諸葛姓氏",
+      "answer": "ㄍㄜˊ",
+      "officialAnswer": "ㄍㄜˊ",
+      "status": "verified",
+      "steps": [
+        "諸葛是複姓。",
+        "姓氏中的葛讀ㄍㄜˊ，第二聲。"
+      ],
+      "pitfall": "不要把姓氏葛與植物葛的讀音混用。"
+    },
+    {
+      "id": "chinese-8-r3-characters-09",
+      "section": "characters",
+      "label": "一、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "乾癟讀音",
+      "answer": "ㄅㄧㄝˇ",
+      "officialAnswer": "ㄅㄧㄝˇ",
+      "status": "verified",
+      "steps": [
+        "乾癟形容乾而不飽滿。",
+        "癟讀ㄅㄧㄝˇ，保留介音ㄧ。"
+      ],
+      "pitfall": "不可誤讀成扁的ㄅㄧㄢˇ。"
+    },
+    {
+      "id": "chinese-8-r3-characters-10",
+      "section": "characters",
+      "label": "一、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "著落讀音",
+      "answer": "ㄓㄨㄛˊ",
+      "officialAnswer": "ㄓㄨㄛˊ",
+      "status": "verified",
+      "steps": [
+        "著落指下落或事情有歸處。",
+        "此詞著讀ㄓㄨㄛˊ，與著作的音不同。"
+      ],
+      "pitfall": "多音字要連詞判讀。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-01",
+      "section": "definitions",
+      "label": "二、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "牘的本義",
+      "answer": "古代書寫文字用的木片。",
+      "officialAnswer": "古代書寫文字用的木片。",
+      "status": "verified",
+      "steps": [
+        "牘原是古代書寫材料。",
+        "在案牘一詞中再引申為公文，題目指定牘字本義。"
+      ],
+      "pitfall": "不要把案桌和木牘混為一詞解釋。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-02",
+      "section": "definitions",
+      "label": "二、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "絲竹借代音樂",
+      "answer": "原指琴瑟和簫管等樂器，也用來作樂器的總稱，此指應酬場合的音樂。",
+      "officialAnswer": "原指琴瑟和簫管等樂器，也用來作樂器的總稱，此指應酬場合的音樂。",
+      "status": "verified",
+      "steps": [
+        "絲為弦樂、竹為管樂的材料，可借代樂器或音樂。",
+        "本課將素琴雅趣與擾耳應酬音樂區分，須交代此處所指。"
+      ],
+      "pitfall": "不是作者反對一切音樂，因他也調素琴。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-03",
+      "section": "definitions",
+      "label": "二、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "維持成功",
+      "answer": "維持既有的氣勢及成就。",
+      "officialAnswer": "維持既有的氣勢及成就。",
+      "status": "verified",
+      "steps": [
+        "盈與泰象徵順遂、興盛的境況。",
+        "持與保都是維持，故指守住已有成就。"
+      ],
+      "pitfall": "不可解成只要成功便永遠安穩。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-04",
+      "section": "definitions",
+      "label": "二、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "盛衰交替",
+      "answer": "指機運的盛衰變化不斷循環。",
+      "officialAnswer": "指機運的盛衰變化不斷循環。",
+      "status": "verified",
+      "steps": [
+        "剝、復呈現衰退與回復的相對變化。",
+        "循環強調兩者反覆交替。"
+      ],
+      "pitfall": "不是只說一直衰退。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-05",
+      "section": "definitions",
+      "label": "二、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "堅定意志",
+      "answer": "意志堅決。",
+      "officialAnswer": "意志堅決。",
+      "status": "verified",
+      "steps": [
+        "銳在此突出奮進而堅決。",
+        "銳意指集中而堅定的意志。"
+      ],
+      "pitfall": "不是兵器鋒利。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-06",
+      "section": "definitions",
+      "label": "二、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "寒傖字義",
+      "answer": "粗俗、粗鄙。",
+      "officialAnswer": "粗俗、粗鄙。",
+      "status": "verified",
+      "steps": [
+        "傖本含粗俗鄙陋的意思。",
+        "放入寒傖中，描寫不體面、不雅致。"
+      ],
+      "pitfall": "題目只考傖，勿把寒冷當核心。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-07",
+      "section": "definitions",
+      "label": "二、第7題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "初步形態",
+      "answer": "事物初步發展的規模、形態。",
+      "officialAnswer": "事物初步發展的規模、形態。",
+      "status": "verified",
+      "steps": [
+        "雛有幼小、初生之意。",
+        "雛形因此是尚未完全成熟的初步形貌。"
+      ],
+      "pitfall": "不要解成最終完成品。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-08",
+      "section": "definitions",
+      "label": "二、第8題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "不安心情",
+      "answer": "心情起伏不定的樣子。",
+      "officialAnswer": "心情起伏不定的樣子。",
+      "status": "verified",
+      "steps": [
+        "忐、忑以心的上下表現不安。",
+        "合詞形容內心緊張而不穩定。"
+      ],
+      "pitfall": "不能只寫心情快樂地激動。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-09",
+      "section": "definitions",
+      "label": "二、第9題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "榜示動作",
+      "answer": "揭示。",
+      "officialAnswer": "揭示。",
+      "status": "verified",
+      "steps": [
+        "書而榜之是寫出後公開張示。",
+        "榜在此作動詞，表示揭示、張貼。"
+      ],
+      "pitfall": "不是名次榜單這個名詞義。"
+    },
+    {
+      "id": "chinese-8-r3-definitions-10",
+      "section": "definitions",
+      "label": "二、第10題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "重新改革",
+      "answer": "比喻改革變更，重新做起。",
+      "officialAnswer": "比喻改革變更，重新做起。",
+      "status": "verified",
+      "steps": [
+        "本義是換弦並重新張緊樂器。",
+        "引申為調整舊方法、重新開始。"
+      ],
+      "pitfall": "不是永遠維持舊制度。"
+    },
+    {
+      "id": "chinese-8-r3-corrections-1",
+      "section": "corrections",
+      "label": "三、第1題第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "成語改錯",
+      "answer": "壤→攘",
+      "officialAnswer": "攘",
+      "status": "verified",
+      "steps": [
+        "熙攘形容人群往來熱鬧。",
+        "應以攘寫擁擠往來，非土壤。"
+      ],
+      "pitfall": "不要受市集地面聯想影響。"
+    },
+    {
+      "id": "chinese-8-r3-corrections-2",
+      "section": "corrections",
+      "label": "三、第1題第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "成語改錯",
+      "answer": "因→殷",
+      "officialAnswer": "殷",
+      "status": "verified",
+      "steps": [
+        "物殷俗阜形容物產豐富、民生富足。",
+        "殷有豐盛義，因應改殷。"
+      ],
+      "pitfall": "殷在此不是原因的因。"
+    },
+    {
+      "id": "chinese-8-r3-corrections-3",
+      "section": "corrections",
+      "label": "三、第2題第1字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "成語改錯",
+      "answer": "悍→捍",
+      "officialAnswer": "捍",
+      "status": "verified",
+      "steps": [
+        "捍衛表示保護、防衛。",
+        "與動作相關用手部捍，悍是凶悍。"
+      ],
+      "pitfall": "勿把守護和平寫成性情凶猛。"
+    },
+    {
+      "id": "chinese-8-r3-corrections-4",
+      "section": "corrections",
+      "label": "三、第2題第2字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "成語改錯",
+      "answer": "瀆→黷",
+      "officialAnswer": "黷",
+      "status": "verified",
+      "steps": [
+        "窮兵黷武指濫用武力。",
+        "黷有輕率濫用義，應改黑部的黷。"
+      ],
+      "pitfall": "瀆多指輕慢冒犯，不是本成語固定字。"
+    },
+    {
+      "id": "chinese-8-r3-corrections-5",
+      "section": "corrections",
+      "label": "三、第2題第3字",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "成語改錯",
+      "answer": "豪→毫",
+      "officialAnswer": "毫",
+      "status": "verified",
+      "steps": [
+        "秋毫指極細的毛，比喻微小事物。",
+        "秋毫無犯表絲毫不侵犯，故豪改毫。"
+      ],
+      "pitfall": "不能寫成豪傑的豪。"
+    },
+    {
+      "id": "chinese-8-r3-thinking-01",
+      "section": "thinking",
+      "label": "四、第1格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "環境清幽",
+      "answer": "苔痕上階綠，草色入簾青",
+      "officialAnswer": "苔痕上階綠，草色入簾青",
+      "status": "verified",
+      "steps": [
+        "青苔與草色描寫陋室周圍的綠意。",
+        "這組對偶對應居住環境，按原句順序寫出。"
+      ],
+      "pitfall": "青與綠分屬兩句，勿顛倒。"
+    },
+    {
+      "id": "chinese-8-r3-thinking-02",
+      "section": "thinking",
+      "label": "四、第2格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "交往人物",
+      "answer": "談笑有鴻儒，往來無白丁",
+      "officialAnswer": "談笑有鴻儒，往來無白丁",
+      "status": "verified",
+      "steps": [
+        "鴻儒指博學者，與白丁形成對比。",
+        "此組由往來者襯托主人的學養，對應交往對象。"
+      ],
+      "pitfall": "本題重作者自況，不宜由此推成對所有庶民的人格評價。"
+    },
+    {
+      "id": "chinese-8-r3-thinking-03",
+      "section": "thinking",
+      "label": "四、第3格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "日常雅趣",
+      "answer": "可以調素琴，閱金經，無絲竹之亂耳，無案牘之勞形",
+      "officialAnswer": "可以調素琴，閱金經，無絲竹之亂耳，無案牘之勞形",
+      "status": "verified",
+      "steps": [
+        "調琴、讀經先列主動選擇的雅事。",
+        "無應酬音樂與公務干擾再從反面補足自在，四分句都要寫全。"
+      ],
+      "pitfall": "不要只寫前兩件日常活動而漏掉兩個無。"
+    },
+    {
+      "id": "chinese-8-r3-thinking-04",
+      "section": "thinking",
+      "label": "四、第4格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "由成功轉衰的事例",
+      "answer": "秦始皇",
+      "officialAnswer": "秦始皇",
+      "status": "verified",
+      "steps": [
+        "題目引秦帝宮成與陳勝起對照。",
+        "秦帝指秦始皇，用來說明功成後奢侈失政的警戒。"
+      ],
+      "pitfall": "事例人物不是陳勝。"
+    },
+    {
+      "id": "chinese-8-r3-thinking-05",
+      "section": "thinking",
+      "label": "四、第5格",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "盛世後的警戒",
+      "answer": "唐明皇",
+      "officialAnswer": "唐明皇",
+      "status": "verified",
+      "steps": [
+        "明皇殿就與祿山來形成第二組對照。",
+        "明皇是唐玄宗，答案採唐明皇，指成功後失於警惕的例子。"
+      ],
+      "pitfall": "不要把祿山當成第二位成功者。"
+    },
+    {
+      "id": "chinese-8-r3-general-01",
+      "section": "general",
+      "label": "五、第1題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "字音比較",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "瀲灩的瀲與賦斂的斂，依本卷國語讀音皆為ㄌㄧㄢˋ。",
+        "訛／爾、嬪／彬、播／撥皆不同音或調，故A。"
+      ],
+      "pitfall": "播為ㄅㄛˋ，撥為ㄅㄛ，不可漏比聲調。"
+    },
+    {
+      "id": "chinese-8-r3-general-02",
+      "section": "general",
+      "label": "五、第2題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "遏字的共同用法",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "怒不可遏與遏阻都用遏，表示阻止。",
+        "其餘為迄／訖、頌／誦、儒／孺，字形不同。"
+      ],
+      "pitfall": "兩個詞各有固定字，不能只看注音。"
+    },
+    {
+      "id": "chinese-8-r3-general-03",
+      "section": "general",
+      "label": "五、第3題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "指示詞斯",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "斯是陋室的斯指這，憔悴如斯則指這樣。",
+        "都是近指的指示用法，D最一致。"
+      ],
+      "pitfall": "形可指身體或比較，需依句法區別。"
+    },
+    {
+      "id": "chinese-8-r3-general-04",
+      "section": "general",
+      "label": "五、第4題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "度量與肚腹",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "豁達大度形容心胸寬廣，不指孕婦肚子變大。",
+        "B利用同音或字面誤會套到生育，故錯誤。"
+      ],
+      "pitfall": "不得把大度誤解為大肚。"
+    },
+    {
+      "id": "chinese-8-r3-general-05",
+      "section": "general",
+      "label": "五、第5題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "托物起興",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "開篇先說山與水，再引入陋室與德馨的關係。",
+        "以別的事物領起主體，是興的方式，選D。"
+      ],
+      "pitfall": "文章未立即說陋室，不屬開門見山。"
+    },
+    {
+      "id": "chinese-8-r3-general-06",
+      "section": "general",
+      "label": "五、第6題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 8,
+      "topic": "賢人居所自況",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "諸葛廬、子雲亭都是因主人而受重視。",
+        "作者以此比照陋室，突出才德勝於物質條件，D最合。"
+      ],
+      "pitfall": "典故不是旅行計畫。"
+    },
+    {
+      "id": "chinese-8-r3-general-07",
+      "section": "general",
+      "label": "五、第7題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "引言收束主題",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "何陋之有以反問否定陋。",
+        "結尾藉孔子之語呼應前文德馨，A說深化不陋主題最貼切。"
+      ],
+      "pitfall": "反詰不是表達作者真的困惑。"
+    },
+    {
+      "id": "chinese-8-r3-general-08",
+      "section": "general",
+      "label": "五、第8題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "銘的文體特徵",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "銘以簡潔可記的文字警戒或稱頌，傳統上重整齊、押韻。",
+        "本篇多成對短句，符合C；並非只許宮廷或只記軍功。"
+      ],
+      "pitfall": "文體的一般特徵不應擴大成所有時代作品絕無例外。"
+    },
+    {
+      "id": "chinese-8-r3-general-09",
+      "section": "general",
+      "label": "五、第9題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "安貧與奢侈對照",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "A、B、C都在簡樸困乏中保有內在之樂。",
+        "D的何曾極盡華麗且飲食挑剔，與安貧樂道相反。"
+      ],
+      "pitfall": "比較的是生活態度，不是人物知名度。"
+    },
+    {
+      "id": "chinese-8-r3-general-10",
+      "section": "general",
+      "label": "五、第10題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "自滿與謙遜",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題面已交代成功時應謙虛，滿招損亦警戒自滿招敗。",
+        "兩者共同強調謙遜有助維持成長，故A。"
+      ],
+      "pitfall": "成功可能導致失敗，不代表應避免一切成就。"
+    },
+    {
+      "id": "chinese-8-r3-general-11",
+      "section": "general",
+      "label": "五、第11題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "成語變化方向",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "樂極生悲、興盡悲來、江河日下都從好轉壞。",
+        "否極泰來、時來運轉、枯木逢春則由壞轉好，故丙戊己選B。"
+      ],
+      "pitfall": "要辨盛衰方向，不只看是否有變化。"
+    },
+    {
+      "id": "chinese-8-r3-general-12",
+      "section": "general",
+      "label": "五、第12題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "論據符合因果",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目要先成功、再驕傲、終失敗的順序。",
+        "C給出的關羽事例符合這條論證；其餘是困頓努力後成功。"
+      ],
+      "pitfall": "此題採選項敘述作論據，不把小說概括等同完整史實。"
+    },
+    {
+      "id": "chinese-8-r3-general-13",
+      "section": "general",
+      "label": "五、第13題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "罐頭文章的首段功能",
+      "answer": "A（依官方；首段原文待核）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "官方A說首段由生活便利帶出飲食與生產的改變。",
+        "但原卷沒有首末段全文，無法獨立比較A與B所述的史例功能。"
+      ],
+      "pitfall": "不能只靠文章題名判定首段說了什麼。",
+      "note": "〈罐頭由來〉原文未附，缺首段、援引古語的段落及結尾，故不把官方對寫法的判定當成已由全文驗證。"
+    },
+    {
+      "id": "chinese-8-r3-general-14",
+      "section": "general",
+      "label": "五、第14題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "時間與測試結果",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文中先裝罐、再出航，半年後確認肉質仍好。",
+        "C按此順序概括實測證據，A否認前人基礎、B顛倒專利時點均不符。"
+      ],
+      "pitfall": "重量三十多磅只是材料量，不是保鮮原因。"
+    },
+    {
+      "id": "chinese-8-r3-general-15",
+      "section": "general",
+      "label": "五、第15題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "保存期限與軍需",
+      "answer": "D（依官方；軍需發展原段待核）",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "罐頭長時間保鮮可配合軍隊長途與持續作戰需求。",
+        "D呈現這一功能關係；C把徵求保存方案寫成製造食物，改動了問題重點。"
+      ],
+      "pitfall": "延長保存有助軍需，不代表單靠罐頭必能打勝仗。",
+      "note": "本卷只在第14題節錄杜蘭測試段，未附拿破崙懸賞與罐頭用途的完整原段；D的功能可理解，全文歷史敘述仍待核。"
+    },
+    {
+      "id": "chinese-8-r3-general-16",
+      "section": "general",
+      "label": "五、第16題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "軍需的共同義",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "兩句軍需都指軍隊需要的物資補給。",
+        "回頭有返回與改過之別，經濟有整體活動與節省之別，故C。"
+      ],
+      "pitfall": "同一詞需看是否改變所指事物。"
+    },
+    {
+      "id": "chinese-8-r3-general-17",
+      "section": "general",
+      "label": "五、第17題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "閱讀的批判態度",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "孟子因書中描寫與仁義前提不合而提出質疑。",
+        "C反對盲信文字，正好回應此閱讀態度；不是鼓吹完全不讀書。"
+      ],
+      "pitfall": "盡信書重點在盡字，勿斷章成反知識。"
+    },
+    {
+      "id": "chinese-8-r3-general-18",
+      "section": "general",
+      "label": "五、第18題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "人物落淚原因",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "公開英譯原作中，瑪蒂達收到邀請後因自覺沒有合宜禮服而哭泣，隨即向丈夫說明衣服問題。",
+        "A將這段動機改為想到好友而喜極落淚，與情節不符；後來因衣著寒酸急離宴會，則符合她在意外表的形象。"
+      ],
+      "pitfall": "收到請帖時缺禮服與後來借項鍊是兩個不同階段，不要把哭泣原因混成見好友的喜悅。",
+      "note": "已核Project Gutenberg《Original Short Stories — Volume 04》中的The Diamond Necklace，請帖後的對話支持A錯。核對的是公開英譯原作的情節，康軒中文譯文及刪節仍未取得，不宣稱逐字相同。"
+    },
+    {
+      "id": "chinese-8-r3-general-19",
+      "section": "general",
+      "label": "五、第19題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "因果安排情節",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "先借首飾丁，才有宴會與遺失丙；找不到後買來賠甲，接著還債戊。",
+        "最後才揭露原項鍊是假的乙，故丁丙甲戊乙選B。"
+      ],
+      "pitfall": "債務源於賠償購買，還債不能排在購買之前。"
+    },
+    {
+      "id": "chinese-8-r3-general-20",
+      "section": "general",
+      "label": "五、第20題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "信念象徵",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "眾人以為仍有水，因期待與信念持續前進。",
+        "結尾揭露沙子，強調精神寄託的故事主題，C最合。"
+      ],
+      "pitfall": "這是寓意敘事，不能當成沙漠求生的實用方法。"
+    },
+    {
+      "id": "chinese-8-r3-general-21",
+      "section": "general",
+      "label": "五、第21題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "決策樹的終點",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖中先假定諸葛亮一向謹慎，因而判定開門必有埋伏。",
+        "既認定進城中計，結果便是撤退，C符合圖中的推理線。"
+      ],
+      "pitfall": "要還原人物的信念，並非替他選現代最佳戰術。"
+    },
+    {
+      "id": "chinese-8-r3-general-22",
+      "section": "general",
+      "label": "五、第22題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "關注仍擁有的能力",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "敘事者把焦點從失去轉向尚有的身體能力與思考力。",
+        "B的緊握僅存微光最接近此轉向，其他選項改成掩飾或等待命運補償。"
+      ],
+      "pitfall": "重點是主動運用現有能力，不是保證苦難必有回報。"
+    },
+    {
+      "id": "chinese-8-r3-general-23",
+      "section": "general",
+      "label": "五、第23題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "觀點與數據結合",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "乙在溝通、凝聚、滿意度三項均高於甲。",
+        "B將此趨勢與正文包容聆聽的謙虛觀點結合，最符合題意。"
+      ],
+      "pitfall": "資料呈相關趨勢，不能單憑兩列分數證明因果或所有主管都如此。"
+    },
+    {
+      "id": "chinese-8-r3-general-24",
+      "section": "general",
+      "label": "五、第24題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "自省的針對性",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "博維的問題是用藉口逃避檢討。",
+        "D要求審視人生，最能引導他檢查自己的行為；B反而容易被用來再合理化犯錯。"
+      ],
+      "pitfall": "勸告要切中問題，不只挑聽起來鼓舞的話。"
+    },
+    {
+      "id": "chinese-8-r3-general-25",
+      "section": "general",
+      "label": "五、第25題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "歷史沿革比對",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中明列愛國婦人會、臺史博籌備處與臺灣音樂館。",
+        "臺灣省文獻委員會未在這份沿革中出現，故D。"
+      ],
+      "pitfall": "本題可證未見於本文，不能據此斷言它在所有史料都沒有關聯。"
+    },
+    {
+      "id": "chinese-8-r3-general-26",
+      "section": "general",
+      "label": "五、第26題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "語意正反關係",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "C把克服虛榮與抑制炫耀欲轉述為避免刻意出風頭，意思一致。",
+        "A把戒傲改成逆來順受，B顛倒耐苦付出的重點，D反轉內在美高於外表的意思。"
+      ],
+      "pitfall": "特別留意否定詞與比較方向。"
+    },
+    {
+      "id": "chinese-8-r3-general-27",
+      "section": "general",
+      "label": "五、第27題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "跨文悲劇形象",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "詩末寫功業未成而先逝，引起後人感傷。",
+        "這與乙文盡力至生命終點的悲劇評價一致，選B。"
+      ],
+      "pitfall": "兩文讚嘆的不是統一已完成，也不是只讚劉備。"
+    },
+    {
+      "id": "chinese-8-r3-reading-28",
+      "section": "reading",
+      "label": "六、第28題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "時代定位",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "短文開頭明說王莽改制、法令酷烈。",
+        "四選項只有D對應王莽的新朝，足以定位。"
+      ],
+      "pitfall": "題幹另稱數萬囚犯並非所附短文原句；不必靠該增寫數字判朝代。"
+    },
+    {
+      "id": "chinese-8-r3-reading-29",
+      "section": "reading",
+      "label": "六、第29題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "救人與道德勇氣",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "崔篆明知可能受罰，仍以一己生命換多人獲救而無悔。",
+        "A的仁政與道德勇氣最能概括；B保身、D機械服從都與行動相反。"
+      ],
+      "pitfall": "本文沒有交代神佑善終，不可補入宗教因果。"
+    },
+    {
+      "id": "chinese-8-r3-reading-30",
+      "section": "reading",
+      "label": "六、第30題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "內在道與外在處境",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "詩先說不羨富貴、不憂貧賤，再以有無道自問。",
+        "由此可見評量重心在內在修養，A最符合。"
+      ],
+      "pitfall": "不是把貧窮當成道德高尚的必要條件。"
+    },
+    {
+      "id": "chinese-8-r3-reading-31",
+      "section": "reading",
+      "label": "六、第31題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 8,
+      "topic": "面對毁譽的自省",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "不因毀謗憂傷、讚譽得意，是先穩定情緒。",
+        "自顧行何如要求回頭檢視行為，C同時掌握兩層。"
+      ],
+      "pitfall": "保持平靜不等於斷絕社交。"
+    },
+    {
+      "id": "chinese-8-r3-reading-32",
+      "section": "reading",
+      "label": "六、第32題",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "answerPage": 8,
+      "topic": "自尊與求事",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "無以色求事提醒不靠卑屈討好求取事情成功。",
+        "A鼓勵低聲下氣、不問原則，與詩意相反。"
+      ],
+      "pitfall": "由小處積累的勸學與低姿態奉承是不同概念。"
+    },
+    {
+      "id": "chinese-8-r3-reading-33",
+      "section": "reading",
+      "label": "六、第33題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "用人期待與能力品格",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "朱英以梟不能因好食變鳳，類比不能厚養無賴便期待國士回報。",
+        "A最切用人與期待的適配；C把教育一概否定，超出故事。"
+      ],
+      "pitfall": "不要把寓言擴張為任何人都不能學習成長。"
+    },
+    {
+      "id": "chinese-8-r3-reading-34",
+      "section": "reading",
+      "label": "六、第34題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "類比中的共同錯誤",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "太子希望飲食改變鳥的天性，春申君希望厚待換得國士義舉。",
+        "兩人都忽略對象實際性質，強求不相應成果，D最合。"
+      ],
+      "pitfall": "只有春申君不聽勸被明寫，不能強說兩人都同樣拒諫。"
+    },
+    {
+      "id": "chinese-8-r3-reading-35",
+      "section": "reading",
+      "label": "六、第35題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "交易互動減少",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "不用與任何人交談，直接指向人際接觸下降。",
+        "B將其概括為商家顧客互動不足，沒有加入價格或申訴制度等未提資訊。"
+      ],
+      "pitfall": "能獨自購物不等於遇事完全無處申訴。"
+    },
+    {
+      "id": "chinese-8-r3-reading-36",
+      "section": "reading",
+      "label": "六、第36題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "包裝帶來疏離",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中反覆寫摸不著、等重包裝與感知不確定。",
+        "作者重點是人與商品的物質接觸減弱所生疏離，D涵蓋全篇。"
+      ],
+      "pitfall": "腐敗商品只是說明視覺限制的例子，非全文只談消保。"
+    },
+    {
+      "id": "chinese-8-r3-reading-37",
+      "section": "reading",
+      "label": "六、第37題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "前後文填詞",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "前文說諸葛亮因風險而不採奇襲，選擇步步為營。",
+        "空格要表示小心行事，謹慎最貼切，故B。"
+      ],
+      "pitfall": "作者在此討論謹慎可能帶來的機會成本。"
+    },
+    {
+      "id": "chinese-8-r3-reading-38",
+      "section": "reading",
+      "label": "六、第38題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "方案與採行區分",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "三千精兵直取長安是魏延提出卻未獲採用的方案。",
+        "本文說諸葛亮帶三十萬大軍步步為營，故採行策略對應C。"
+      ],
+      "pitfall": "本文為借三國談管理的評論；數字與接班概括不等於史實考證。"
+    }
+  ]
+}

@@ -1,0 +1,1004 @@
+{
+  "schema": 1,
+  "sourceId": "1_trQDYvE0HoHOXdAPwC_ClEojDxobBG9",
+  "sourceSha256": "f204d1aa7c0eff42d604f76984058c337308b0ca26f1ffa7ec5f5965f9cc17a2",
+  "title": "114-2-1八年級社會科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "全卷第 1–54 題，地理、歷史、公民各 18 題。已核對全部 7 個實體 PDF 頁面與第 7 頁答案、地圖及氣候圖。第 15、41 題標為有爭議；其餘依原卷情境解題，並補註法律概念與敘述範圍。時事只作原卷材料解讀。",
+  "sections": [
+    {
+      "id": "geography",
+      "title": "地理｜第 1–18 題"
+    },
+    {
+      "id": "history",
+      "title": "歷史｜第 19–36 題"
+    },
+    {
+      "id": "civics",
+      "title": "公民｜第 37–54 題"
+    }
+  ],
+  "items": [
+    {
+      "id": "social-8-r1-geography-01",
+      "section": "geography",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "農產分布與原料區位",
+      "answer": "B；乙區的棉紡織業",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖中乙在印度德干高原西部，對應重要棉花產區。",
+        "棉紡廠接近棉花產地可取得原料；黃麻偏向東部濕潤低地，丁的丘陵則不符合平坦稻田。"
+      ],
+      "pitfall": "先辨地圖位置，再配農產；不要只看到南亞就一律判為稻作。"
+    },
+    {
+      "id": "social-8-r1-geography-02",
+      "section": "geography",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "工業發展的勞動條件",
+      "answer": "B；充足且相對低廉的勞動力",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目限定 1980–1990 年代四小虎吸引外資的階段。",
+        "勞力密集製造需要大量工人，較低工資降低成本；不能把後來產業升級的研發條件倒套回去。"
+      ],
+      "pitfall": "時間背景比「現在有沒有科技業」更重要。"
+    },
+    {
+      "id": "social-8-r1-geography-03",
+      "section": "geography",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "印度的區域戰略",
+      "answer": "D；以外部合作因應鄰國安全壓力",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題文把印度與美、日、澳的戰略合作連在一起，核心是區域安全。",
+        "鄰國間的領土與安全爭端可提高尋求夥伴的誘因；並非聯合國規定各國必須加入這種合作。"
+      ],
+      "pitfall": "外交結盟可能有多重目的，此題辨認的是選項中最切合的安全因素。",
+      "note": "此為原卷對戰略動機的概括，並不把單一領土問題視為印度全部外交政策的唯一原因。"
+    },
+    {
+      "id": "social-8-r1-geography-04",
+      "section": "geography",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "熱帶雨林氣候圖",
+      "answer": "C；全年高溫且各月有雨",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "C 的月均溫曲線全年約在高溫區，雨量柱每月都有明顯高度。",
+        "這符合油棕所需的濕熱環境；A 炎熱但乾燥，B、D 冬季偏冷，均不符。"
+      ],
+      "pitfall": "氣溫線與雨量柱必須一起讀，只有高溫仍可能是沙漠。"
+    },
+    {
+      "id": "social-8-r1-geography-05",
+      "section": "geography",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "中南半島山河走向",
+      "answer": "D；山脈與河流大致南北相間",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "從雲南向南延伸的山地與河谷，使中南半島形成山河相間的格局。",
+        "河流沿谷地向南流，不是普遍東西向，也不能用島嶼短河概括大陸半島。"
+      ],
+      "pitfall": "上游崎嶇不代表整個半島只有高原。"
+    },
+    {
+      "id": "social-8-r1-geography-06",
+      "section": "geography",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "東南亞國家辨圖",
+      "answer": "C；丙為泰國",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "丙位於中南半島中部，西鄰緬甸，南向馬來半島延伸。",
+        "這個位置與輪廓對應泰國；甲位於海上的菲律賓，不能因同在東南亞而混選。"
+      ],
+      "pitfall": "國家代號要依本圖重新定位，不能沿用別張地圖的代號。"
+    },
+    {
+      "id": "social-8-r1-geography-07",
+      "section": "geography",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "泰國的宗教景觀",
+      "answer": "D；佛塔反映佛教文化",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "泰國位於中南半島，佛教對日常生活與建築景觀影響深。",
+        "金色尖頂佛塔符合此文化特色；泰國不跨赤道，山河亦非以東西向為主。"
+      ],
+      "pitfall": "宗教景觀是文化特徵，不代表每位居民的信仰完全相同。"
+    },
+    {
+      "id": "social-8-r1-geography-08",
+      "section": "geography",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "RCEP 的貿易功能",
+      "answer": "A；成員依協定享關稅優惠",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "原卷指 2020 年簽署、2022 年開始生效的 RCEP，是區域自由貿易協定。",
+        "其重點包括減降關稅與促進貿易，不等同貨幣統一或取消所有移民管制。"
+      ],
+      "pitfall": "自由貿易區不等於共同貨幣區；優惠也須符合協定規則。"
+    },
+    {
+      "id": "social-8-r1-geography-09",
+      "section": "geography",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "中南半島的文化共同性",
+      "answer": "A；佛教文化普遍具有重要影響",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "湄公河流域所列五國均有深厚佛教文化，A 是原卷區域概括下最合理選項。",
+        "各國並非全是雨林氣候；寮國沒有海岸，故「皆仰賴海運」也不成立。"
+      ],
+      "pitfall": "「重要宗教文化」不能推成所有人信佛或各國佛教人口均過半。",
+      "note": "越南信仰還包含民間信仰、祖先崇拜等；本題僅作課程區域文化概括，不據此判定統計上的宗教人口多數。"
+    },
+    {
+      "id": "social-8-r1-geography-10",
+      "section": "geography",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "孟加拉的洪水風險",
+      "answer": "B；恆河河口地勢低平",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖⑤位於恆河下游三角洲，是孟加拉；箭頭 a 為帶水氣的夏季西南季風。",
+        "降雨及上游來水集中於低平河口，排水不易，因此較易淹水。"
+      ],
+      "pitfall": "河口低地與「內陸」不同，孟加拉臨孟加拉灣。"
+    },
+    {
+      "id": "social-8-r1-geography-11",
+      "section": "geography",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "斯里蘭卡的茶業",
+      "answer": "C；丘陵與季風雨有利種茶",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "⑥是印度東南方的斯里蘭卡，舊稱錫蘭。",
+        "濕潤丘陵提供茶樹適合的環境；南亞還有馬爾地夫，並非只有一個島國。"
+      ],
+      "pitfall": "茶產地的條件要連結雨量與地形，不是乾燥沙漠。"
+    },
+    {
+      "id": "social-8-r1-geography-12",
+      "section": "geography",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "南亞伊斯蘭文化",
+      "answer": "A；①巴基斯坦、⑤孟加拉",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖①在印度西北側、⑤在恆河下游，分別為巴基斯坦與孟加拉。",
+        "兩國穆斯林人口占比高，清真寺與集體禮拜較切合攝影主題。"
+      ],
+      "pitfall": "不可把南亞各國都當成印度教國家。"
+    },
+    {
+      "id": "social-8-r1-geography-13",
+      "section": "geography",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "喜馬拉雅山的形成",
+      "answer": "A；印度板塊與歐亞板塊碰撞",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "A 在南亞北緣，是喜馬拉雅山脈，位於大陸板塊碰撞帶。",
+        "持續擠壓可造成地殼縮短、抬升與位移，並非熔岩堆積而成的火山鏈。"
+      ],
+      "pitfall": "水平移動速率不等於每年垂直增高的速率。",
+      "note": "沿用課程「印澳板塊」稱法；題示約 5 公分是向北位移量，不能解讀為整座山每年增高 5 公分。"
+    },
+    {
+      "id": "social-8-r1-geography-14",
+      "section": "geography",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "旅遊旺季與氣候",
+      "answer": "C；11 月較涼爽而團費較高",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "廣告中 11 月比 6 月貴，依題文供需說明，較高價對應旺季。",
+        "北印度金三角在 11 月較涼爽、雨季已退，適合觀光；6 月炎熱且接近季風雨季。"
+      ],
+      "pitfall": "不能把整個南亞每地每月的天氣當成一致。"
+    },
+    {
+      "id": "social-8-r1-geography-15",
+      "section": "geography",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "種姓制度與婚姻自由",
+      "answer": "官方 D；種姓影響婚姻，但「無法」過於絕對",
+      "officialAnswer": "D",
+      "status": "disputed",
+      "steps": [
+        "D 想表達部分社群仍受到種姓內婚規範與社會壓力影響。",
+        "但跨種姓婚姻實際存在且受法律保護；因此不能把「無法跨階級通婚」當成普遍事實。"
+      ],
+      "pitfall": "社會歧視、傳統規範與法律禁止是三件不同的事。",
+      "note": "保留官方 D。印度最高法院早於本卷年代即肯認成年人的婚姻選擇，故 D 的絕對敘述有瑕疵；宜改成「跨種姓婚姻仍可能受到社會阻力」。"
+    },
+    {
+      "id": "social-8-r1-geography-16",
+      "section": "geography",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "海洋貿易與宗教傳播",
+      "answer": "C；丙區經海上貿易傳入伊斯蘭教",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖丙位於馬來群島，以海上交通連結印度洋貿易網。",
+        "穆斯林商人的往來促進伊斯蘭教傳播；乙菲律賓的天主教主要連結西班牙殖民。"
+      ],
+      "pitfall": "佛教、伊斯蘭教的傳入不能全部歸因於西方殖民。"
+    },
+    {
+      "id": "social-8-r1-geography-17",
+      "section": "geography",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "印度的資訊服務條件",
+      "answer": "B；軟體研發與海外客服",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖列英語、理工人才、高等教育，都是知識與語言密集服務的條件。",
+        "軟體與跨國客服可使用這些優勢；原料開採和物流選址無法同時對應三項線索。"
+      ],
+      "pitfall": "不是所有人口多的國家都只能發展低技術代工。"
+    },
+    {
+      "id": "social-8-r1-geography-18",
+      "section": "geography",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "稻米文化與殖民歷史",
+      "answer": "B；米食文化與殖民的關係較弱",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "濕熱環境及長期農業傳統早已促進東南亞稻作與米食。",
+        "殖民時期則強化出口農礦、栽培業與港口運輸，因此另外三項較直接相關。"
+      ],
+      "pitfall": "「較無關」是比較因果關係，並非說米貿易完全不受殖民影響。"
+    },
+    {
+      "id": "social-8-r1-history-19",
+      "section": "history",
+      "label": "第 19 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "革命思想的轉折",
+      "answer": "A；甲午戰爭",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "甲午戰敗暴露清廷改革的侷限，使部分人士對清朝統治更加失望。",
+        "興中會於 1894 年成立，與甲午戰爭時期相接，時間早於八國聯軍。"
+      ],
+      "pitfall": "把四場戰爭依年代排列，可排除晚於組織創立的事件。"
+    },
+    {
+      "id": "social-8-r1-history-20",
+      "section": "history",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "鐵路國有與保路運動",
+      "answer": "A；保路運動",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題目核心是川漢、粵漢鐵路收歸國有與補償爭議。",
+        "四川的保路抗爭牽動清軍部署，為武昌起義提供有利條件，但兩者不是同一事件。"
+      ],
+      "pitfall": "起義的背景與起義本身不要混成一件事。"
+    },
+    {
+      "id": "social-8-r1-history-21",
+      "section": "history",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "山東權益與二十一條",
+      "answer": "C；丙為山東",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "膠州、煙臺等地名都指向山東，原列強勢力是德國。",
+        "日本在第一次世界大戰期間奪取德國山東據點，並要求繼承其權益；圖中丙符合位置。"
+      ],
+      "pitfall": "看到日本就選東北，會忽略題文中的具體地名。"
+    },
+    {
+      "id": "social-8-r1-history-22",
+      "section": "history",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "民初總統職務",
+      "answer": "C；袁世凱是首任正式大總統",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "1912 年首任臨時大總統為孫中山，其後由袁世凱接任。",
+        "1913 年袁世凱成為首任正式大總統，故丙正確；直接民選總統則不能填蔣中正。"
+      ],
+      "pitfall": "「臨時」「正式」「直接民選」是不同制度階段。"
+    },
+    {
+      "id": "social-8-r1-history-23",
+      "section": "history",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "君主論與洪憲帝制",
+      "answer": "C；袁世凱",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "材料以人民不適合共和為理由支持君主制，時間是 1915 年。",
+        "袁世凱正謀求稱帝，最可能利用這種論述為洪憲帝制辯護。"
+      ],
+      "pitfall": "辨認文章可能被誰利用，不等於接受文章對人民能力的評價。"
+    },
+    {
+      "id": "social-8-r1-history-24",
+      "section": "history",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "軍閥時期的年代",
+      "answer": "D；1916–1928 年的軍閥割據",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "袁世凱於 1916 年去世後，北洋勢力分裂，各地軍閥爭戰。",
+        "1928 年北伐與東北易幟前後形成名義統一，符合民國 5–17 年；退位皇帝是溥儀而非光緒。"
+      ],
+      "pitfall": "宋教仁遇刺早於洪憲稱帝，不能倒置因果。"
+    },
+    {
+      "id": "social-8-r1-history-25",
+      "section": "history",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "新文化運動代表",
+      "answer": "C；陳獨秀",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "表格依器物、制度、思想文化區分近代改革的焦點。",
+        "陳獨秀藉刊物倡導民主、科學與文化批判，最符合思想文化層次。"
+      ],
+      "pitfall": "改革層次是主要訴求的分類，不代表各運動完全互不重疊。"
+    },
+    {
+      "id": "social-8-r1-history-26",
+      "section": "history",
+      "label": "第 26 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "巴黎和會與五四因果",
+      "answer": "D；將因果顛倒",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "巴黎和會處理山東權益的結果，引發中國學生及民眾抗議。",
+        "五四運動在和會召開之後，不能反過來說抗爭造成和會召開。"
+      ],
+      "pitfall": "因果表先查時間順序，再檢查事件有沒有直接關聯。"
+    },
+    {
+      "id": "social-8-r1-history-27",
+      "section": "history",
+      "label": "第 27 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "新文化的傳播媒介",
+      "answer": "D；《新青年》",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "問題限定民國初期民主思想的啟蒙刊物。",
+        "《新青年》是新文化運動的重要陣地；《狂人日記》是作品而非同類刊物，《自由中國》則屬後來年代。"
+      ],
+      "pitfall": "刊物名稱、單篇作品與出版年代要分開辨認。"
+    },
+    {
+      "id": "social-8-r1-history-28",
+      "section": "history",
+      "label": "第 28 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "白話文與知識傳播",
+      "answer": "B；新文化運動的影響",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "漫畫讓未受太多教育的工人也能閱讀傳單，關鍵是白話文字。",
+        "新文化運動提倡白話文，使公共討論較能跨越文言閱讀門檻。"
+      ],
+      "pitfall": "抗爭使用白話文不表示當時才開始參加世界大戰。"
+    },
+    {
+      "id": "social-8-r1-history-29",
+      "section": "history",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "五四運動的訴求",
+      "answer": "C；拒簽巴黎和會和約",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "漫畫出現青島、二十一條以及爭取主權的口號，指向山東問題。",
+        "五四抗爭要求反對不利中國的和會處置，因此拒絕簽約最切題。"
+      ],
+      "pitfall": "有二十一條線索仍須與1919年的整組口號一起判斷。"
+    },
+    {
+      "id": "social-8-r1-history-30",
+      "section": "history",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "新式兒童教育",
+      "answer": "A；重視適齡與圖文教材",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "1918–1921 年白話刊物增加，顯示知識與文化表達更重視普及。",
+        "圖文與貼近兒童生活的教材符合此教育改革；新文化人士並非一律反共，也非全部堅持男女分校。"
+      ],
+      "pitfall": "「新文化」不是每位參與者都有完全相同的思想。"
+    },
+    {
+      "id": "social-8-r1-history-31",
+      "section": "history",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "山東問題與思想變動",
+      "answer": "B；巴黎和會的山東問題",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題幹的全民愛國抗爭對應 1919 年五四運動。",
+        "山東權益未歸還中國引發不滿，並促進各種新思想傳播，與中共 1921 年成立的背景相接。"
+      ],
+      "pitfall": "不能把特定政黨的起源敘述當成只有單一原因的完整歷史。"
+    },
+    {
+      "id": "social-8-r1-history-32",
+      "section": "history",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "白話文學的代表",
+      "answer": "A；魯迅",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "四個人名中，魯迅以白話小說參與新文化運動。",
+        "他的文學實踐有助白話文傳播；宋教仁、孫中山、段祺瑞在此題主要屬政治人物。"
+      ],
+      "pitfall": "白話文運動還有胡適、陳獨秀等人，不能說由一人獨力完成。"
+    },
+    {
+      "id": "social-8-r1-history-33",
+      "section": "history",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "教材風格轉變",
+      "answer": "B；1910 年代",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "資料一偏重文言倫理教訓，資料二出現科學人物與兒童生活語句。",
+        "此變化符合 1910 年代新文化、白話文與新教育的課程脈絡。"
+      ],
+      "pitfall": "題目比的是教材風格，不是問電燈何時被發明。"
+    },
+    {
+      "id": "social-8-r1-history-34",
+      "section": "history",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "儒家權威受到挑戰",
+      "answer": "D；新文化運動",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖中的甲位於民國時期、儒家影響下降的一段。",
+        "新文化運動批判舊禮教並倡民主科學，最直接切合思想權威的變化。"
+      ],
+      "pitfall": "趨勢圖是示意，不能拿曲線高度當成真實量化統計。"
+    },
+    {
+      "id": "social-8-r1-history-35",
+      "section": "history",
+      "label": "第 35 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "武昌起義的年代",
+      "answer": "C；1911 年",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "十月十日、新軍革命與辛亥三項線索對應武昌起義。",
+        "辛亥年為 1911 年；中華民國成立則在下一年，須區分起義與建國。"
+      ],
+      "pitfall": "民國元年不是武昌起義發生的年份。"
+    },
+    {
+      "id": "social-8-r1-history-36",
+      "section": "history",
+      "label": "第 36 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "護法與南北政府",
+      "answer": "D；甲廣州、丁北京",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖甲位於珠江口附近，丁在華北，分別代表廣州與北京。",
+        "孫中山在廣州發起護法，北方軍閥政府以北京為中心，故依南、北順序選甲、丁。"
+      ],
+      "pitfall": "先看問句的城市順序，勿把武昌或南京套入護法政府。"
+    },
+    {
+      "id": "social-8-r1-civics-37",
+      "section": "civics",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "侵權損害賠償",
+      "answer": "B；以回復原狀的概念解題",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "過失刮傷他人機車屬侵權情境，原本沒有買賣契約，故不是債務不履行。",
+        "B 最接近填補實際損害、回復原狀的原則；不能任意用高額賠款懲罰對方。"
+      ],
+      "pitfall": "修復費也可用金錢給付，不是所有案件都必須先親自修車。",
+      "note": "民法第213條亦准請求支付回復原狀必要費用；官方B是課程簡化，不應解成受害人一律不得直接請求修理費。"
+    },
+    {
+      "id": "social-8-r1-civics-38",
+      "section": "civics",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "買賣契約的救濟",
+      "answer": "C；就權益損害依法求償",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "賣家收款後未按約交貨，應先依契約責任處理履行及損失。",
+        "要求可證明的損害賠償符合權利救濟；拘束他人、散布不實言論不能當催貨手段。"
+      ],
+      "pitfall": "有消費糾紛不代表可以用任何方法報復。"
+    },
+    {
+      "id": "social-8-r1-civics-39",
+      "section": "civics",
+      "label": "第 39 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "依約履行與誠信",
+      "answer": "A；誠實信用原則",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題目設定交易已確認，店家即使不利仍按確認內容出貨。",
+        "在此前提下，重點是信守承諾與誠信履約，而不是任意變更契約。"
+      ],
+      "pitfall": "真實標價錯誤仍涉及契約成立、撤銷等判斷，不能一律說商家必須出貨。",
+      "note": "僅依原卷已確認交易並實際履約的設定判斷誠信，不作所有網購標錯價案件的法律結論。"
+    },
+    {
+      "id": "social-8-r1-civics-40",
+      "section": "civics",
+      "label": "第 40 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "借貸的債權債務",
+      "answer": "C；還款關係中身分顛倒",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "就借款返還而言，銀行有請求還款的債權，小林負還款債務。",
+        "C 把雙方身分倒置，因此是題目要求的錯誤敘述；清償則可使該債務消滅。"
+      ],
+      "pitfall": "同一契約可有雙方不同給付，必須說明正在討論哪一項債。"
+    },
+    {
+      "id": "social-8-r1-civics-41",
+      "section": "civics",
+      "label": "第 41 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "未成年人的零用錢處分",
+      "answer": "官方 A；丙的效力需補充授權條件",
+      "officialAnswer": "A",
+      "status": "disputed",
+      "steps": [
+        "幼兒未滿七歲，自己作成意思表示原則無效；成年人買車原則不需父母同意。",
+        "但國中生以零用錢買手機，若屬法定代理人允許處分的財產，可依民法第84條有效，不能單憑高價判無效。"
+      ],
+      "pitfall": "限制行為能力人的契約可能有效、效力未定；不要全部叫無效。",
+      "note": "原題未交代零用錢可自由處分的範圍，也未交代法定代理人是否同意或承認。官方 A 假定丙未獲許可，證據不足以唯一判定。"
+    },
+    {
+      "id": "social-8-r1-civics-42",
+      "section": "civics",
+      "label": "第 42 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "無行為能力的範圍",
+      "answer": "C；兩位",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖 A 是無行為能力階段；6 歲兒童與受監護宣告者均屬此類。",
+        "7 歲與17歲屬限制行為能力，18歲成年人被褫奪公權並不因此喪失民事行為能力。"
+      ],
+      "pitfall": "公權資格與民事行為能力不是同一分類。"
+    },
+    {
+      "id": "social-8-r1-civics-43",
+      "section": "civics",
+      "label": "第 43 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "契約自由",
+      "answer": "B；自主約定契約內容",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "雙方可按盒數、配送、客製內容協議權利義務。",
+        "在不違反強制規定等限制下，自主決定是否締約及內容即為契約自由。"
+      ],
+      "pitfall": "契約自由不是任何約款都必然合法。"
+    },
+    {
+      "id": "social-8-r1-civics-44",
+      "section": "civics",
+      "label": "第 44 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "不動產移轉的形式",
+      "answer": "D；房屋移轉須書面與登記",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "房屋所有權因法律行為移轉，須依民法第758條以書面並辦理登記。",
+        "因此四例中送房所涉及的所有權移轉最符合題目要辨認的法定形式。"
+      ],
+      "pitfall": "贈與的債權契約與房屋物權移轉不同，不能說口頭贈與承諾一律不存在。",
+      "note": "官方D按「送房完成移轉」解題；法定書面、登記針對物權變動，題目用「契約」一語概括，須保留此區別。"
+    },
+    {
+      "id": "social-8-r1-civics-45",
+      "section": "civics",
+      "label": "第 45 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "成年與監護宣告",
+      "answer": "C；剛成年者不是因年齡而限制行為能力",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目說兪慈已成年且完成購屋，父母不同意不會自行推翻其有效交易。",
+        "巧齡雖20歲仍可能受監護宣告；C 把已成年者列為限制行為能力人，最不符合設定。"
+      ],
+      "pitfall": "達成年年齡不代表不可能另有監護宣告。"
+    },
+    {
+      "id": "social-8-r1-civics-46",
+      "section": "civics",
+      "label": "第 46 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "姓名權的憲法保障",
+      "answer": "D；憲法第22條保障姓名權",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "釋字399號把姓名視為人格的表現，姓名權屬人格權。",
+        "雖未逐項列在憲法本文，仍受第22條保障；它不是以政治參與為內容的參政權。"
+      ],
+      "pitfall": "未列名的權利不等於憲法不保障。"
+    },
+    {
+      "id": "social-8-r1-civics-47",
+      "section": "civics",
+      "label": "第 47 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "行政函釋與法規位階",
+      "answer": "D；行政機關就法律適用作補充解釋",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "內政部函令是行政機關處理主管業務所作的法規解釋。",
+        "D 最接近其功能；行政命令不高於法律，更不能以函釋違反憲法保障。"
+      ],
+      "pitfall": "「補充法律」不等於行政機關可以自行創設違法的權利限制。"
+    },
+    {
+      "id": "social-8-r1-civics-48",
+      "section": "civics",
+      "label": "第 48 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "藝術與表現自由",
+      "answer": "C；表現自由",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "歌曲、電影可傳達思想與情感，屬表現活動。",
+        "政府因內容而禁止或審查，直接涉及表現自由的限制，並非服公職權。"
+      ],
+      "pitfall": "此題只辨認權利類型，不必把題文所有歌曲史細節視為已查證。"
+    },
+    {
+      "id": "social-8-r1-civics-49",
+      "section": "civics",
+      "label": "第 49 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "非法拘禁與人身自由",
+      "answer": "B；侵害人身自由",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "刑求及非法長期拘禁直接控制身體、剝奪行動自由。",
+        "人身自由是行使其他權利的重要基礎，不能以政治立場不同合理化這種侵害。"
+      ],
+      "pitfall": "無法回家是拘禁的結果，核心不是選擇居所受到限制。"
+    },
+    {
+      "id": "social-8-r1-civics-50",
+      "section": "civics",
+      "label": "第 50 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "中央法律與地方規範",
+      "answer": "B；適用範圍不同",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目把總統公布的全國法律與臺南市政府發布的地方規範並列。",
+        "後者限地方管轄並不得牴觸上位規範，不能說兩者都由同一機關制定或全國效力相同。"
+      ],
+      "pitfall": "依原卷假設辨位階，不代表所列地方辦法名稱與現行補助內容已核實。"
+    },
+    {
+      "id": "social-8-r1-civics-51",
+      "section": "civics",
+      "label": "第 51 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "應考試服公職權",
+      "answer": "C；參加公務員考試並擔任公職",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "參政權涉及參與國家政治與公職事務，包括應考試、服公職。",
+        "組黨主要連結結社自由，陳情及求助也各有不同權利性質，因此選 C。"
+      ],
+      "pitfall": "「政治議題有關」不表示一定分類成參政權。"
+    },
+    {
+      "id": "social-8-r1-civics-52",
+      "section": "civics",
+      "label": "第 52 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "憲法最高性",
+      "answer": "B；選舉年齡載於憲法",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原卷所述2022年修憲複決未通過，討論的是憲法層次的年齡門檻。",
+        "普通法律不能牴觸憲法；若要改變憲法所定事項，就需依修憲程序處理。"
+      ],
+      "pitfall": "民法成年18歲與憲法選舉年齡是不同規範，不會自動連動。"
+    },
+    {
+      "id": "social-8-r1-civics-53",
+      "section": "civics",
+      "label": "第 53 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "就業條件與平等",
+      "answer": "C；性別平等與工作權",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "以性別等與工作需求無合理關聯的條件排除求職者，涉及不合理差別待遇。",
+        "彩妝師是在爭取公平就業機會，故平等與工作權最切題，並非公務員考試權。"
+      ],
+      "pitfall": "職業名稱常見某一性別，不代表可直接排除其他性別。"
+    },
+    {
+      "id": "social-8-r1-civics-54",
+      "section": "civics",
+      "label": "第 54 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "法律與命令的名稱",
+      "answer": "A；《著作權法》屬法律",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "《著作權法》是立法院議決、總統公布的法律層次規範。",
+        "憲法增修條文屬憲法層次；辦法、規則通常屬命令，B、C、D都混淆位階。"
+      ],
+      "pitfall": "名稱是辨識線索，判斷還須核對制定機關與法定程序。"
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "schema": 1,
+  "sourceId": "1D1ZhbmzzuvkZ3UjID_F82WCjuf0SKkKg",
+  "sourceSha256": "29cef30538eb648a9cdac0bbdb88587460ad9c6dd24cc46511acdc5e9bcd4f20",
+  "title": "114-2-1九年級理化科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題完成第 1～48 題原創解析，核對全部 6 個 PDF 實體頁與圖表；0 題已核對、1 題有爭議、47 題有來源或條件限制。本卷沒有獨立可見的解答頁；officialAnswer 取自原 PDF 文字層中各題括號的 48 個白色字元（#FFFFFF），並非從網路另找的答案。這可確認原檔含有鍵值，卻不能確認它們曾被可見方式發布，所以其餘 47 題即使獨立推理相符仍標示 limited；第 16 題另有交流電量公式爭議。answerPage 均指該題原始實體頁。此範圍僅為本份歷史段考，不表示所有教材均已完成。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "單選題（1～16）"
+    },
+    {
+      "id": "groups",
+      "title": "圖表與實驗題組（17～42）"
+    },
+    {
+      "id": "reading",
+      "title": "閱讀題（43～48）"
+    }
+  ],
+  "items": [
+    {
+      "id": "science-9-r1-1",
+      "section": "choice",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "電流效應與燃燒",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "手機充電、電鍍與通電發熱均涉及電流造成的能量或物質變化。",
+        "瓦斯爐主要靠燃料燃燒把化學能轉為熱能，不能把加熱水直接分類為電流熱效應。"
+      ],
+      "pitfall": "有加熱現象不一定有電流經過被加熱物。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-2",
+      "section": "choice",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "電能轉移與損耗",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "電池的化學反應維持電勢差，電路中的電場與電流共同完成能量轉移。",
+        "實際導線等元件也可能發熱耗能，不能說電子取得的能量全部交給燈泡，故 C 過度簡化。"
+      ],
+      "pitfall": "電子並不是到燈泡後被用完的燃料。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-3",
+      "section": "choice",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "交流電的週期",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "圖線跨越零點，電流正負交替，表示方向與大小都在改變。",
+        "若頻率為 60 Hz，一個完整週期是 1/60 秒，並非 60 秒；此類電為 AC。"
+      ],
+      "pitfall": "Hz 是每秒週期數，週期的單位才是秒。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-4",
+      "section": "choice",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "高壓輸電與焦耳損耗",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "輸送同樣功率時提高電壓可降低電流，線路熱損耗 I²R 因而減少。",
+        "銅線雖電阻低卻非零，所以仍有熱損，B 所稱完全避免錯誤。"
+      ],
+      "pitfall": "降低損耗與損耗恰為零是不同程度的敘述。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-5",
+      "section": "choice",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "車用電池的電功率與電量",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "依本卷車用鉛蓄電池 12 V 的模型，I＝12/6＝2 A，P＝VI＝24 W。",
+        "一小時電量 7200 C、能量 24×3600＝86400 J；每月 150 小時為 3.6 度、10.8 元，故只有 C 的 24 J 錯。"
+      ],
+      "pitfall": "W 是每秒能量，不是使用一小時後的總能量。",
+      "note": "以題目預期的 12 V 電池且忽略內阻、電壓下降計算。官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-6",
+      "section": "choice",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "一度電的換算",
+      "answer": "D（三者皆是）",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "一度電是 1 kWh，可由功率以 kW 乘時間以小時計算。",
+        "三者依序為 1×1、1.5×40/60、0.25×4，結果皆為 1 kWh。"
+      ],
+      "pitfall": "分鐘要先換成小時，不能直接和 kW 相乘當度數。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-7",
+      "section": "choice",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "短路一個串聯燈泡",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "導線跨接 A 兩端，使 A 的電壓近零而熄滅，等效電阻由 R_A＋R_B 降為約 R_B。",
+        "固定電壓下電流增大，B 的功率 I²R_B 增加，因此 B 不會維持原亮度。"
+      ],
+      "pitfall": "「短路」不是整條電路斷開，而是有一條低電阻路徑繞過元件。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-8",
+      "section": "choice",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "鐵鑰匙鍍銅的電極",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "圖中銅片接正極失電子溶出 Cu²⁺，鐵鑰匙接負極讓 Cu²⁺ 得電子沉積。",
+        "被鍍物因此是鑰匙；理想狀態下陽極補充銅離子，使溶液濃度大致維持。"
+      ],
+      "pitfall": "電鍍的被鍍物要接負極，不能只用金屬活性猜質量變化。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-9",
+      "section": "choice",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "碳鋅電池的電解質",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "一般碳鋅電池使用含氯化銨、氯化鋅等的糊狀電解質。",
+        "硫酸是鉛蓄電池的典型電解液，C 把兩種電池混淆。"
+      ],
+      "pitfall": "電池是否一次性和電解液酸鹼性，是兩個不同分類。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-10",
+      "section": "choice",
+      "label": "第 10 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "電流化學效應的對象",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "電解水、電鍍與電解精煉銅，都是通電促成物質化學變化。",
+        "小燈泡發亮主要是燈絲的熱與光效應，因此依題意選 A。"
+      ],
+      "pitfall": "電池內有化學反應，不等於外接燈泡發光就是電流化學效應。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-11",
+      "section": "choice",
+      "label": "第 11 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 1,
+      "topic": "水的電解與解離",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "水的電解總式為 2H₂O→2H₂＋O₂，而不是只生成 H⁺、OH⁻。",
+        "圖中 A、B 氣量比為 2：1，分別對應氫、氧；質量比為 4：32＝1：8。"
+      ],
+      "pitfall": "水的自解離與外加電能產生氫氧氣，是不同過程。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-12",
+      "section": "choice",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "銅與石墨電極的比較",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "兩裝置的負極乙、丁都讓 Cu²⁺ 得到電子，沉積金屬銅。",
+        "正極甲是銅溶出，丙是石墨上水被氧化而產氧，因此只有兩負極的反應相同。"
+      ],
+      "pitfall": "是否為正極相同，不能保證不同電極材料發生相同反應。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-13",
+      "section": "choice",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "電解時的電極質量",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "甲為接正極的銅片，Cu→Cu²⁺＋2e⁻，銅溶出使質量減少。",
+        "乙與丁均有銅析出而增重；石墨丙按理想惰性電極模型不因沉銅增重，因此 A 正確。"
+      ],
+      "pitfall": "先沿導線確認電極正負，再用氧化或還原判質量。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-14",
+      "section": "choice",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "保險絲的材料與接法",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "保險絲利用過大電流造成發熱熔斷，需要適當電阻及較低熔點。",
+        "B 把它說成相較導線更小電阻的材料，不符合本題利用局部較易發热熔斷的設計，故錯誤。"
+      ],
+      "pitfall": "保護元件須串聯，才能切斷被保護回路的電流。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-15",
+      "section": "choice",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "年度耗電量轉焦耳",
+      "answer": "D（1,468,800,000 J）",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "標示為每年 408 度，已是一整年的耗電量。",
+        "1 kWh＝1000×3600 J，所以年度能量為 408×1000×3600＝1.4688×10⁹ J。"
+      ],
+      "pitfall": "標示已含「每年」，不可再乘 365。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-16",
+      "section": "choice",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "交流電量公式的模型限制",
+      "answer": "B（等效 E/V 計算）",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "若把 110 V 當固定電壓，E＝VQ 可得 Q＝408×1000×3600/110，約 1.335×10⁷ C。",
+        "但住家 110 V 是交流有效值，電流反向且冰箱有功率因數，僅憑年度能量不能唯一求實際有向或累積通過電量。"
+      ],
+      "pitfall": "交流有效值不能無條件當成直流電壓套入任意電量定義。",
+      "note": "官方 B 保留，但這只能是課程的等效計算。若問真實導線電量，還需交代電流波形、相位及「電量」的計算方式。官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-17",
+      "section": "groups",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "電器銘牌與耗電比較",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "音響標有 AC 110 V 與 DC 9 V，其他圖示電器只列家用交流額定電源。",
+        "暖風機半小時用 600 Wh，立扇八小時用 760 Wh，故 C 錯；提高到 220 V 也不能保證額定 110 V 電器正常。"
+      ],
+      "pitfall": "電功率用 W，電能應用 J、Wh 或 kWh。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-18",
+      "section": "groups",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 2,
+      "topic": "電熱水壺的溫升",
+      "answer": "C（92°C）",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "1000 W 加熱 300 秒提供 300000 J，依題給 0.24 cal/J 約為 72000 cal。",
+        "1 L 水質量 1000 g，溫升 72000/(1000×1)＝72°C，加原先 20°C 得 92°C。"
+      ],
+      "pitfall": "72°C 是溫升，不是最後溫度。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-19",
+      "section": "groups",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "answerPage": 3,
+      "topic": "接地插腳的作用",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "圖中 B 有接地孔，C 沒有；移除接地插腳會失去原設計的保護路徑。",
+        "因此 D 描述的安全疑慮成立；B 的長短孔也不是都接活線。"
+      ],
+      "pitfall": "插得進去不表示安全，不能用拔除接地腳解決插座不合。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-20",
+      "section": "groups",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 3,
+      "topic": "鉛蓄電池充放電",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "放電時鉛與二氧化鉛兩電極逐步形成硫酸鉛。",
+        "充電是反向恢復鉛、二氧化鉛與硫酸，故 C 把充放電方向倒置。"
+      ],
+      "pitfall": "可充電電池的正極材料與負極材料不相同。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-21",
+      "section": "groups",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 3,
+      "topic": "鉛蓄電池串聯與充電",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "一般 12 V 鉛蓄電池以六個約 2 V 單電池串聯，提高總電壓。",
+        "充電需以適當直流電源促進反向反應，因此 B 正確，並聯與硫酸濃度下降的說法不符。"
+      ],
+      "pitfall": "六個電池並聯主要增加可用容量，不會把 2 V 加成 12 V。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-22",
+      "section": "groups",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 3,
+      "topic": "銅銀電池與鹽橋",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "銅端氧化形成 Cu²⁺，銀端的 Ag⁺ 還原析出，圖中 B 是銀側溶液。",
+        "銀側陽離子被消耗，鹽橋陽離子流入以維持電中性，因此 C 正確。"
+      ],
+      "pitfall": "外線靠電子流動，鹽橋靠離子移動，不能把兩者方向直接混用。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-23",
+      "section": "groups",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 3,
+      "topic": "串聯銅銀電池的濃度變化",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "兩組順向串聯須讓銀正極與下一組銅負極相接，甲為銅、乙為銀。",
+        "第 1、3 杯銅被氧化生成更多 Cu²⁺，藍色應趨深而非變淡，因此 D 錯誤。"
+      ],
+      "pitfall": "先確認哪個電極溶解，不能因燈泡耗能就推所有溶液都變淡。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-24",
+      "section": "groups",
+      "label": "第 24 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "製氣與電解水的對照",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "實驗 3 的鋅與酸產氫；實驗 4 的乙碳棒接負極，也產氫。",
+        "實驗 1 產 CO₂、2 產 O₂，實驗 5 的負極丙析銅，因此相同氣體組為 C。"
+      ],
+      "pitfall": "負極不一定都產氫，還要看電解液是否含可還原的金屬離子。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-25",
+      "section": "groups",
+      "label": "第 25 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "電解的能量與產物",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "電解水與電解硫酸銅都需要外加電能推動化學變化。",
+        "硫酸銅負極析銅增重、溶液藍色變淡，並非所有電極都產氣，所以 D 最正確。"
+      ],
+      "pitfall": "電解槽將電能轉為化學變化；伏打電池的自發放電方向相反。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-26",
+      "section": "groups",
+      "label": "第 26 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "大氣的垂直分層",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "中氣層溫度隨高度下降，其頂部附近通常是大氣最冷的區域。",
+        "雷雨主要在對流層，臭氧增溫主要在平流層，極光在更高處，故 C 正確。"
+      ],
+      "pitfall": "大氣分層以溫度隨高度的變化為重要依據，不按天氣名稱分層。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-27",
+      "section": "groups",
+      "label": "第 27 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "永久氣體與變動氣體",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "氮、氧和氬在近地面乾燥空氣中比例相對穩定，屬課程所稱永久氣體。",
+        "水氣、臭氧與二氧化碳的時空變化較明顯；A 把氬列為變動氣體，故錯誤。"
+      ],
+      "pitfall": "「永久」不是指其含量永遠不會改變，而是相對穩定的分類。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-28",
+      "section": "groups",
+      "label": "第 28 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "冷氣團的氣溫氣壓訊號",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "表中氣溫由 20°C 降到 12°C 時，氣壓由 1016 升到 1028 hPa。",
+        "降溫伴隨高壓增強，符合大陸冷氣團影響；颱風通常呈現低壓訊號。"
+      ],
+      "pitfall": "要把溫度與氣壓一起判讀，不只挑單一天氣溫。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-29",
+      "section": "groups",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "氣團的形成條件",
+      "answer": "A（臺灣）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "氣團需在廣大、地表性質較一致的區域停留，才能形成水平方向較均勻的溫溼度。",
+        "臺灣面積較小且地形、海陸差異大，比蒙古、南極與廣大太平洋更不適合作氣團源地。"
+      ],
+      "pitfall": "某地受到冷氣團影響，不等於冷氣團就在該地生成。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-30",
+      "section": "groups",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "臺灣降雨與乾旱風險",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "梅雨與颱風是臺灣重要降水來源，若這些時期少雨，累積水量不足的機會增加。",
+        "冬季寒潮主要來自大陸冷空氣，颱風也不是由冷氣團發展，故 D 正確。"
+      ],
+      "pitfall": "少雨增加乾旱風險，但仍須看其他雨季、蓄水與用水條件。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-31",
+      "section": "groups",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "順向坡的圖判",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "圖中岩層向右傾斜，A 房舍所在的坡面也向右下方傾斜。",
+        "岩層傾向與坡面方向一致稱順向坡，因此選 A。"
+      ],
+      "pitfall": "房子畫得高或低不是判準，要比較岩層與地表坡向。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-32",
+      "section": "groups",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "臺灣冬夏降雨的成因",
+      "answer": "D（僅阿期）",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "北部冬季常受冷鋒與東北季風影響，阿期的說明可成立。",
+        "西南部夏季降雨也受西南氣流、對流等影響，且颱風路徑不固定從南部登陸，阿玲錯誤。"
+      ],
+      "pitfall": "不能用「所有颱風」這種全稱敘述取代多種降雨成因。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-33",
+      "section": "groups",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 4,
+      "topic": "季節洋流圖",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "圖 A 顯示南海暖水向北，符合夏季；圖 B 多了沿中國海岸南下的冷流，符合冬季。",
+        "A 選項把兩季對調，所以錯誤；臺灣東部黑潮則大致全年向北。"
+      ],
+      "pitfall": "冬季中國沿岸流和全年黑潮可同時存在，不能只憑一支箭頭判季節。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-34",
+      "section": "groups",
+      "label": "第 34 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "等壓線判高低壓",
+      "answer": "B（甲 H、乙 L、丙 H）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "甲與丙由外往內的氣壓增高，屬高壓中心；乙由外向內降低，屬低壓。",
+        "因此依甲、乙、丙排列為 H、L、H，符合 B。"
+      ],
+      "pitfall": "線圈畫得多不代表一定是低壓，必須讀數值增減。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-35",
+      "section": "groups",
+      "label": "第 35 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "等壓線數值與間距",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "圖上臺北接近較高數值的等壓線，A 在乙低壓附近，故臺北氣壓較高。",
+        "風速通常需比較等壓線疏密，不能由絕對氣壓大小判定；圖值單位為 hPa。"
+      ],
+      "pitfall": "高氣壓數值與強風不是同義詞。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-36",
+      "section": "groups",
+      "label": "第 36 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "北半球地面高壓",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "丙是北半球高壓，近地面空氣大致順時針向外輻散。",
+        "高壓常伴下沉氣流，不利雲雨發展，故 D 的流向與天氣組合合理。"
+      ],
+      "pitfall": "晴朗是常見傾向，不是每個高壓區每一刻都絕對無雲。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-37",
+      "section": "groups",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "颱風外圍與颱風眼",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "颱風接近前可能受外圍下沉影響較晴熱，之後外圍雨帶可帶來陣風與短暫降雨。",
+        "眼內常較平靜，最強風雨多在眼牆，北半球環流逆時針，因此 B 正確。"
+      ],
+      "pitfall": "低壓最低處不必等於風雨最大處。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-38",
+      "section": "groups",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "颱風形成環境",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "颱風需要暖海面供能、充足水氣，且通常離赤道有一定緯度以利旋轉。",
+        "四項中低緯暖溼海面最符合；高緯寒冷或乾燥陸地都不利。"
+      ],
+      "pitfall": "低緯有利不代表赤道正上方最容易生成颱風。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-39",
+      "section": "groups",
+      "label": "第 39 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "暖鋒與臺灣",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "圖 C 是暖空氣推進到冷空氣上的暖鋒，符號為同側半圓。",
+        "臺灣較常受冷鋒與滯留鋒影響，相較韓國、日本，明顯暖鋒影響較少，故選 B。"
+      ],
+      "pitfall": "「較少」不等於從來不會受暖鋒影響。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-40",
+      "section": "groups",
+      "label": "第 40 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "梅雨與滯留鋒",
+      "answer": "A（圖 A）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "圖 A 的冷暖鋒符號分列兩側，表示冷暖空氣勢力相當的滯留鋒。",
+        "春末夏初影響臺灣的梅雨鋒面屬此類型，因此選 A。"
+      ],
+      "pitfall": "同側三角形與半圓的符號不可誤讀成滯留鋒。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-41",
+      "section": "groups",
+      "label": "第 41 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "冷鋒通過的變化",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "圖 B 為冷鋒，通過時臺北前後受不同性質空氣與環流影響。",
+        "風向改變是合理判斷，通過後通常降溫，不能保證風速減弱或雨量立刻減少。"
+      ],
+      "pitfall": "不要把所有鋒面前後變化都寫成固定同一數值。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-42",
+      "section": "groups",
+      "label": "第 42 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 5,
+      "topic": "梅雨鋒面的降雨作用",
+      "answer": "A（圖 A）",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "臺灣梅雨期間的滯留鋒可結合旺盛對流，造成局部豪雨與劇烈天氣。",
+        "其長時間降水同時補充水資源，因此題目整體情境最符合 A。"
+      ],
+      "pitfall": "雷雨也可伴隨其他鋒面；此題還須結合臺灣季節水資源的情境。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-43",
+      "section": "reading",
+      "label": "第 43 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 6,
+      "topic": "油電混合車的低速動力",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "文章描述低速或起步時多以電動馬達提供動力。",
+        "與文中較高負載時汽油引擎介入的情況區分後，可選 A。"
+      ],
+      "pitfall": "這是本文描述的混合動力策略，不能推成所有車型都完全相同。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-44",
+      "section": "reading",
+      "label": "第 44 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 6,
+      "topic": "再生煞車的能量路徑",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "再生煞車把部分車輛動能轉成電能，再存入電池。",
+        "部分減速由能量回收承擔，可減少摩擦煞車耗損；仍有損失，不能因此永遠不用充電。"
+      ],
+      "pitfall": "回收的是先前已有的動能，不是憑空創造能量。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-45",
+      "section": "reading",
+      "label": "第 45 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 6,
+      "topic": "能源補充方式的比較",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "limited",
+      "steps": [
+        "油車主要靠加油補充能源，對充電站密度的直接依賴較低。",
+        "混合車仍使用燃油，也可能排放廢氣；兩類電動化車皆可回收能量，所以 D 正確。"
+      ],
+      "pitfall": "尾氣排放和完整生命週期環境影響是不同範圍。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-46",
+      "section": "reading",
+      "label": "第 46 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 6,
+      "topic": "按每莫耳比較溫室效能",
+      "answer": "C（氟氯碳化物）",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "題表列 CFC-11、CFC-12 的每莫耳相對數值分別為 21000、25000。",
+        "兩者均高於甲烷 30、氧化亞氮 160 與 CO₂ 的 1，所以選 C。"
+      ],
+      "pitfall": "此題問每莫耳效能，不是整個大氣的總影響。",
+      "note": "只按題表的歷史簡化指標比較，不將數值當成現行、按質量定義的全球暖化潛勢。官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-47",
+      "section": "reading",
+      "label": "第 47 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 6,
+      "topic": "按題表比較大氣濃度",
+      "answer": "B（二氧化碳）",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "表列 CO₂ 為 350 ppm，甲烷 1.7、氧化亞氮 0.31，CFC 更低。",
+        "在此表的同一單位下，二氧化碳濃度最高，故選 B。"
+      ],
+      "pitfall": "表中的 350 ppm 是來源所給歷史值，不能當作今天的大氣濃度。",
+      "note": "官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    },
+    {
+      "id": "science-9-r1-48",
+      "section": "reading",
+      "label": "第 48 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 6,
+      "topic": "單位效能與濃度的乘積",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "表內 CO₂ 的乘積為 1×350＝350，高於甲烷 51、氧化亞氮 49.6、兩種 CFC 的 5.46 與 6。",
+        "二氧化碳不是每莫耳效能最大，而是濃度遠較高，故在題表模型中總比較值最大。"
+      ],
+      "pitfall": "不要把單位分子的效應強弱直接當成大氣總貢獻排名。",
+      "note": "本題只比較表列氣體與作者的乘積模型，未包含全部溫室氣體、光譜重疊與回饋效應。官方答案欄轉錄原 PDF 同題括號的白色文字（#FFFFFF）；畫面未顯示該答案，亦無獨立可見解答頁。此題科學推理已另行核對，答案鍵仍缺少可見的發布確認。"
+    }
+  ]
+}

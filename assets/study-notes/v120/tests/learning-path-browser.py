@@ -26,7 +26,10 @@ try:
         page.goto(url+'#/home',wait_until='networkidle')
         page.locator('[data-learning-entry]').click(); page.locator('[data-view="learn"]').wait_for()
         check('home opens seventh-grade first-semester guidance without downloading lessons',page.locator('[data-learning-grade]').inner_text()=='7年級上學期' and not any('/content/' in r for r in requests))
-        check('unverified Chinese reading guides remain clearly disclosed','未核對課文全文' in page.locator('[data-learning-course="115-1-7-chinese"]').inner_text())
+        reading_course=page.locator('[data-learning-course="115-1-7-chinese"]')
+        next_reading=reading_course.locator('[data-next-unit]').get_attribute('data-next-unit')
+        reading_notice=page.evaluate('(id)=>ReadingSupport.notice(STUDY_DATA.units.find(u=>u.id===id))',next_reading)
+        check('Chinese guidance discloses the next lesson source verification status',reading_course.locator('[data-reading-guide]').inner_text()==reading_notice)
         check('unanswered questions are not mistakes',page.locator('[data-fixed-wrong-count]').inner_text()=='0')
         page.screenshot(path=str(out/'learning-desktop.png'),full_page=True)
         for width in [320,390,768,1366]:

@@ -83,7 +83,10 @@ try:
         go('#/unit/catalog-285458f7a56563a2/notes','#unit-content')
         # Native beforeprint event generates the same content used by browser print shortcuts.
         page.evaluate("window.dispatchEvent(new Event('beforeprint'))")
-        check('print retains reading guide limitation','閱讀導引' in page.locator('#print-root').text_content() and '未核對' in page.locator('#print-root').text_content())
+        printed=page.locator('#print-root')
+        expected_scope=page.evaluate('STUDY_DATA.units.find(u=>u.id==="catalog-285458f7a56563a2").readingSupport.scopeNote')
+        expected_notice=page.evaluate('ReadingSupport.notice(STUDY_DATA.units.find(u=>u.id==="catalog-285458f7a56563a2"))')
+        check('print retains the audited reading scope and original-practice boundary',expected_scope in printed.text_content() and expected_notice in printed.text_content() and '原創閱讀練習' in printed.text_content())
         page.evaluate("window.dispatchEvent(new Event('afterprint'))")
         for width in [320,390,768,1366]:
             page.set_viewport_size({'width':width,'height':900}); go('#/home','.home-welcome')

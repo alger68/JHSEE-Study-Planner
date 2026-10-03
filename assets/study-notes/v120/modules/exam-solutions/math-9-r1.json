@@ -1,0 +1,569 @@
+{
+  "schema": 1,
+  "sourceId": "1MLsDcjGWTy7I3M7-5J60mOoFUwhVveUl",
+  "sourceSha256": "314afbb66c37839aa09b30c83439fefd8d3f089d024edc5c49e1f7e89b5e8281",
+  "title": "114-2-1九年級數學科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "涵蓋單選題 1–24、計算題 1(1)–3(2)，共 30 個編號小題。已目視檢查實體 PDF 第 1–6 頁，包括第 5 頁空白作答卷；官方解答在第 6 頁。計算題 3 的「最大值 3」與交點及圖形矛盾，兩小題均標為有爭議，並分開說明原題無解與修正為最小值後的官方推算。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、單選題"
+    },
+    {
+      "id": "calculation",
+      "title": "二、計算題"
+    }
+  ],
+  "items": [
+    {
+      "id": "math-9-r1-choice-1",
+      "section": "choice",
+      "label": "單選題 1",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "二次函數的形式",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "二次函數能寫成 y＝ax²＋bx＋c，且 a≠0；A 的 a＝1，符合定義。",
+        "B 的絕對值造成分段，C 的分母含 x，D 的根號涵蓋 2x²＋1，均不能在整個定義域寫成單一二次多項式。"
+      ],
+      "pitfall": "D 的根號不是只蓋住常數 2；要依原卷根號橫線範圍讀式。"
+    },
+    {
+      "id": "math-9-r1-choice-2",
+      "section": "choice",
+      "label": "單選題 2",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "兩點求拋物線係數",
+      "answer": "A（−7）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "兩點代入得到 4a＋c＝−4、9a＋c＝1，相減得 5a＝5，故 a＝1。",
+        "代回得 c＝−8，因此 a＋c＝−7。"
+      ],
+      "pitfall": "代入 x 時須先平方，不能把 2a 或 3a 當二次項。"
+    },
+    {
+      "id": "math-9-r1-choice-3",
+      "section": "choice",
+      "label": "單選題 3",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "第一四分位數",
+      "answer": "B（3）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "12 筆資料的下半部是前 6 筆，Q₁ 為這六筆的中位數。",
+        "取全體第 3、4 筆的平均，Q₁＝(2＋4)/2＝3。"
+      ],
+      "pitfall": "Q₁ 不是直接取全體第 3 筆；下半部有偶數筆時要平均中間兩筆。"
+    },
+    {
+      "id": "math-9-r1-choice-4",
+      "section": "choice",
+      "label": "單選題 4",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "水平線與拋物線相切",
+      "answer": "A（向上平移 3）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "原拋物線開口向上，頂點為 (3,4)。水平線若只有一個交點，必須通過頂點。",
+        "頂點高度須由 4 變為 7，故向上平移 3。"
+      ],
+      "pitfall": "左右平移不會改變頂點高度，仍會與 y＝7 交於兩點。"
+    },
+    {
+      "id": "math-9-r1-choice-5",
+      "section": "choice",
+      "label": "單選題 5",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "二次項係數與開口寬窄",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "在 y＝ax² 中，|a| 越大，離頂點相同高度時的水平距離越小，開口越窄。",
+        "四個 |a| 為 1、3、2、4，最大是 4，所以 D 的開口最小。"
+      ],
+      "pitfall": "負號決定方向，開口寬窄應比較係數絕對值。"
+    },
+    {
+      "id": "math-9-r1-choice-6",
+      "section": "choice",
+      "label": "單選題 6",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "次數分配的四分位組",
+      "answer": "B（40～50 分）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "共有 900 人，下半部 450 人的中位數為全體第 225、226 筆。",
+        "累積到 40 分以下為 23＋68＋56＋43＝190 人，累積到 50 分以下為 285 人，因此兩筆都在 40～50 分組。"
+      ],
+      "pitfall": "表中是各組人數，必須先累加才能找出排名所屬組別。"
+    },
+    {
+      "id": "math-9-r1-choice-7",
+      "section": "choice",
+      "label": "單選題 7",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 6,
+      "topic": "對稱拋物線的係數排序",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "由開口寬窄知 a＞b＝1＞c＞0；對稱於 x 軸又給出 d＝−a、e＝−1、f＝−c。",
+        "因此 a＋c＞1、a＋d＝0、a＋f＝a−c＞0，但 c＋d＝c−a＜0，所以 D 錯誤。"
+      ],
+      "pitfall": "下方拋物線的係數為負，不能只按開口寬窄排有號數值。"
+    },
+    {
+      "id": "math-9-r1-choice-8",
+      "section": "choice",
+      "label": "單選題 8",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "頂點式的最大值",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "係數 −2＜0，圖形開口向下，頂點為 (5,−4)，對稱軸是 x＝5。",
+        "因 −2(x−5)²≤0，故所有 y≤−4，並在 x＝5 達最大值 −4。"
+      ],
+      "pitfall": "向下開口的頂點給最大值；對稱軸是垂直線 x＝常數。"
+    },
+    {
+      "id": "math-9-r1-choice-9",
+      "section": "choice",
+      "label": "單選題 9",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "由盒狀圖求四分位距",
+      "answer": "C（20 公分）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖二盒子的兩端為 Q₁＝145、Q₃＝165。",
+        "四分位距＝165−145＝20 公分。"
+      ],
+      "pitfall": "盒子兩端才是四分位數，不能用鬚端的最小值和最大值。"
+    },
+    {
+      "id": "math-9-r1-choice-10",
+      "section": "choice",
+      "label": "單選題 10",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "由盒狀圖求全距",
+      "answer": "A（32 公分）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖二鬚端給出最小值 142、最大值 174。",
+        "全距＝174−142＝32 公分。"
+      ],
+      "pitfall": "全距描述全部資料的跨度，不是盒子本身的長度。"
+    },
+    {
+      "id": "math-9-r1-choice-11",
+      "section": "choice",
+      "label": "單選題 11",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "函數的唯一值與對稱軸",
+      "answer": "A",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "已知圖形通過 (3,−1)，因此同一 x＝3 不可能再對應 y＝8，A 一定不在圖上。",
+        "核對其餘三點：對稱軸為 x＝2，取 y＝3(x−2)²−4，便同時通過已知兩點及 B、C、D。"
+      ],
+      "pitfall": "函數對同一個 x 只能有一個 y，無須先完整求式就能排除 A。"
+    },
+    {
+      "id": "math-9-r1-choice-12",
+      "section": "choice",
+      "label": "單選題 12",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "累積次數找中位組",
+      "answer": "C（70～80 分）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "累積次數最後為 190，因此中位數由第 95、96 筆決定。",
+        "到 60～70 組累積 88 人，到 70～80 組累積 137 人；95、96 都落在後一組。"
+      ],
+      "pitfall": "累積表已經加總，不能再把各列累積次數相加。"
+    },
+    {
+      "id": "math-9-r1-choice-13",
+      "section": "choice",
+      "label": "單選題 13",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "拋物線軌跡與位置選根",
+      "answer": "B（−2−2√2）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "設 y＝a(x＋2)²＋4，代入籃框 (0,3)，得 a＝−1/4。",
+        "令 y＝2，得到 (x＋2)²＝8，故 x＝−2±2√2；原圖出手點在頂點左側，取 −2−2√2。"
+      ],
+      "pitfall": "平方方程式有兩根，需用圖中出手點在左側的條件選根。"
+    },
+    {
+      "id": "math-9-r1-choice-14",
+      "section": "choice",
+      "label": "單選題 14",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "對稱交點的橫坐標和",
+      "answer": "D（0）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "令 3x²＋13＝67，得到 x²＝18。",
+        "兩根為 3√2 與 −3√2，互為相反數，所以 a＋b＝0。"
+      ],
+      "pitfall": "67 是兩點共同的縱坐標，題目問橫坐標之和。"
+    },
+    {
+      "id": "math-9-r1-choice-15",
+      "section": "choice",
+      "label": "單選題 15",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 6,
+      "topic": "通過原點且有最大值",
+      "answer": "D（−3）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "通過原點表示常數項 k²−9＝0，因此 k＝3 或 −3。",
+        "有最大值表示開口向下，即 k＋2＜0；只有 k＝−3 符合。"
+      ],
+      "pitfall": "通過原點只能得到兩個候選值，還要檢查開口方向。"
+    },
+    {
+      "id": "math-9-r1-choice-16",
+      "section": "choice",
+      "label": "單選題 16",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "兩拋物線的交點數",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "相交時 (a−b)x²＝d−c，若要有兩個交點，須 x²＝(d−c)/(a−b)＞0。",
+        "C 中 a−b＜0 且 d−c＜0，商為正；其他選項的分子分母異號，沒有實數交點。"
+      ],
+      "pitfall": "兩個二次函數相交不能只看開口方向，還要比較頂點高度。"
+    },
+    {
+      "id": "math-9-r1-choice-17",
+      "section": "choice",
+      "label": "單選題 17",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "水平弦長與高度",
+      "answer": "B（y＝−3）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "頂點為 (2,6)，代入 (8,0) 得 y＝−(x−2)²/6＋6。水平線 y＝t 的交點橫坐標為 2±√[6(6−t)]。",
+        "弦長為 2√[6(6−t)]，t 越小弦越長；四條線中 −3 最小，所以 B 最長。"
+      ],
+      "pitfall": "向下開口時越低的水平線截出的弦越長。"
+    },
+    {
+      "id": "math-9-r1-choice-18",
+      "section": "choice",
+      "label": "單選題 18",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "四分位數的必然性",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "若 k＝4m，下半部共有 2m 筆，為偶數筆，Q₁ 必須取該半部中間兩筆的平均。",
+        "其他敘述非必然：極大值可拉高平均數至 Q₃ 以上，重複資料可使 Q₁＝Q₃，而中位數不必等於兩四分位數的平均。"
+      ],
+      "pitfall": "必定成立的敘述要涵蓋偏斜或有重複值的資料。"
+    },
+    {
+      "id": "math-9-r1-choice-19",
+      "section": "choice",
+      "label": "單選題 19",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "由圖形判斷係數與判別式",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖四向下開口，所以 a＜0；頂點在 y 軸右方，b＝−2ah＞0，且 y 軸截距 c＞0。",
+        "曲線穿過 x 軸兩次，表示 ax²＋bx＋c＝0 有兩個相異實根，因此 b²−4ac＞0。"
+      ],
+      "pitfall": "判別式判斷的是與 x 軸的交點數，不是頂點所在象限。"
+    },
+    {
+      "id": "math-9-r1-choice-20",
+      "section": "choice",
+      "label": "單選題 20",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "由直線係數判斷新頂點",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖五直線向右上升且與 y 軸交於正半軸，所以 a＞0、b＞0。",
+        "y＝p(x＋a)²＋b 的頂點為 (−a,b)，必在第二象限；四幅選項中只有 C 符合。"
+      ],
+      "pitfall": "括號 x＋a 對應頂點橫坐標 −a，符號與係數相反。"
+    },
+    {
+      "id": "math-9-r1-choice-21",
+      "section": "choice",
+      "label": "單選題 21",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "等差資料的四分位距",
+      "answer": "A（104）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "3＋4d＜40、3＋12d＞80，且 d 為正整數，所以 d 只能為 7、8、9。又 (n−1)d＝203−3＝200，只有 d＝8 可整除，故 n＝26。",
+        "下半部 13 筆的中位數是第 7 筆 51，上半部中位數是第 20 筆 155，因此四分位距為 155−51＝104。"
+      ],
+      "pitfall": "公差還須整除首末差 200；只用兩個不等式無法直接選定 d。"
+    },
+    {
+      "id": "math-9-r1-choice-22",
+      "section": "choice",
+      "label": "單選題 22",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 6,
+      "topic": "水平線與多個拋物線的交點數",
+      "answer": "B（y＝5）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "兩個向上開口的頂點高度是 3、5，兩個向下開口的最大值是 −7、−3。",
+        "y＝5 與第一條相交兩點、第二條在頂點相交一點，另兩條無交點，共 3 點；其他選項分別得 1、1、0 點。"
+      ],
+      "pitfall": "等於頂點高度算一個交點；低於最大值或高於最小值才算兩個。"
+    },
+    {
+      "id": "math-9-r1-choice-23",
+      "section": "choice",
+      "label": "單選題 23",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "比較離對稱軸的距離",
+      "answer": "C（a＞b＞c）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "頂點 (1,−2) 位於 x 軸下且圖形交 x 軸兩點，所以開口向上。",
+        "三點離對稱軸 x＝1 的距離依次為 5、2、1，距離越大 y 越大，因此 a＞b＞c。"
+      ],
+      "pitfall": "要比較與對稱軸的距離，不能直接比較 x 的正負或大小。"
+    },
+    {
+      "id": "math-9-r1-choice-24",
+      "section": "choice",
+      "label": "單選題 24",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 6,
+      "topic": "盒狀圖與排名",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "乙班 30 人且時間皆不同，72 是第 15、16 名的平均；第 15 名較大，所以其運動時間必大於 72。",
+        "甲班四分位距為 79−53＝26，乙班全距為 93−23＝70；甲班第 8 名為 76 仍可與第 7 名 82 平均成 Q₃＝79，因此 B、D 不對，A 也無法由最大值推知甲班第二名。"
+      ],
+      "pitfall": "偶數人數的中位數是中間兩名的平均，不等於任何一名的時間。"
+    },
+    {
+      "id": "math-9-r1-calculation-1-1",
+      "section": "calculation",
+      "label": "計算題 1(1)",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "以五數摘要畫盒狀圖",
+      "answer": "最小值 38、Q₁＝45、Q₂＝53、Q₃＝60、最大值 72（公斤）",
+      "officialAnswer": "盒狀圖標示 38、45、53、60、72",
+      "status": "verified",
+      "steps": [
+        "16 筆已排序資料的中位數為 (51＋55)/2＝53；下半部中間兩筆為 44、46，故 Q₁＝45；上半部中間兩筆為 58、62，故 Q₃＝60。",
+        "在體重軸上按等距刻度標 38、45、53、60、72；盒子從 45 畫到 60，在 53 畫中線，再把兩端鬚延伸至 38、72。"
+      ],
+      "pitfall": "刻度要按數值等比例配置，五個標記不能任意等間隔。"
+    },
+    {
+      "id": "math-9-r1-calculation-1-2",
+      "section": "calculation",
+      "label": "計算題 1(2)",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "篩選資料後重算中位數",
+      "answer": "60 公斤",
+      "officialAnswer": "60",
+      "status": "verified",
+      "steps": [
+        "原中位數為 53；取出大於或等於 53 的八筆資料為 55、55、56、58、62、64、66、72。",
+        "新中位數是其中第 4、5 筆的平均，即 (58＋62)/2＝60 公斤。"
+      ],
+      "pitfall": "篩選後筆數改變，須重新找中間位置，不能沿用原中位數。"
+    },
+    {
+      "id": "math-9-r1-calculation-2-1",
+      "section": "calculation",
+      "label": "計算題 2(1)",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "由頂點與一點求函數",
+      "answer": "y＝−x²＋4",
+      "officialAnswer": "y＝−x²＋4",
+      "status": "verified",
+      "steps": [
+        "頂點為 (0,4)，可設 y＝ax²＋4。",
+        "將 (1,3) 代入，3＝a＋4，得 a＝−1，所以 y＝−x²＋4。"
+      ],
+      "pitfall": "頂點在 y 軸上使一次項為 0；常數項是頂點的 y 值 4。"
+    },
+    {
+      "id": "math-9-r1-calculation-2-2",
+      "section": "calculation",
+      "label": "計算題 2(2)",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "以三角形面積求拋物線上的點",
+      "answer": "R＝(3,−5) 或 (−3,−5)",
+      "officialAnswer": "(3,−5)、(−3,−5)",
+      "status": "verified",
+      "steps": [
+        "令 y＝0 得 x＝±2，所以 PQ＝4。面積 10＝4×高÷2，得高＝5，也就是 |yᴿ|＝5。",
+        "曲線最大值僅為 4，排除 yᴿ＝5；令 −x²＋4＝−5，得 x＝±3，故兩點為 (±3,−5)。"
+      ],
+      "pitfall": "高是到 x 軸的距離，要先考慮 y＝±5，再用函數範圍排除不可能的正值。"
+    },
+    {
+      "id": "math-9-r1-calculation-3-1",
+      "section": "calculation",
+      "label": "計算題 3(1)",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "檢查極值條件是否一致",
+      "answer": "原題無符合全部條件的二次函數；若「最大值」改為「最小值」，則 y＝(x−3)²/2＋3。",
+      "officialAnswer": "y＝(x−3)²/2＋3",
+      "status": "disputed",
+      "steps": [
+        "由直線與 B 的橫坐標得 B＝(1,5)，其 y＝5 已大於題幹所稱最大值 3，原條件互相矛盾。",
+        "若採圖形與官方推算所用的最小值 3，設 y＝a(x−3)²＋3，代入 B 得 5＝4a＋3，故 a＝1/2；此式也通過 C＝(9,21)。"
+      ],
+      "pitfall": "不能把向上開口函數的頂點值稱作最大值。",
+      "note": "實體第 4 頁文字寫「最大值 3」，圖七卻向上開口；第 6 頁官方答案係數為正，實際有最小值 3。官方式只在修正該字後成立，原題條件無解。"
+    },
+    {
+      "id": "math-9-r1-calculation-3-2",
+      "section": "calculation",
+      "label": "計算題 3(2)",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "answerPage": 6,
+      "topic": "矛盾條件下的條件式面積",
+      "answer": "原題條件無法成立；若依圖及官方答案修正為最小值 3，面積為 24 平方單位。",
+      "officialAnswer": "24 平方單位",
+      "status": "disputed",
+      "steps": [
+        "原題所稱最大值 3 與 B(1,5)、C(9,21) 衝突，因此原敘述不存在所指定的拋物線。",
+        "若沿用修正後的 A(3,3)，取 D＝(0,3)，以 AD＝3 為共同底，C、B 到 y＝3 的高度為 18、2。",
+        "△BAC＝△DAC−△DAB＝3×(18−2)/2＝24 平方單位。"
+      ],
+      "pitfall": "24 是修正極值敘述後的結果，不應宣稱它滿足原題所有文字條件。",
+      "note": "此小題承接計算題 3(1) 的矛盾；依官方採用的最小值情境可算出 24，但保留原「最大值」則沒有這個幾何配置。"
+    }
+  ]
+}

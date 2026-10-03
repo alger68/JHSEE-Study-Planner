@@ -1,0 +1,1008 @@
+{
+  "schema": 1,
+  "sourceId": "1IyRF_yDq4Yg31aM-kK3BCA0Eo0VEBw4A",
+  "sourceSha256": "a58fa6e3d6a8766a94ab707767b1e666aec4c1dae7b49db0cfb81b6551ac4e78",
+  "title": "114-2-2八年級社會科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "全卷第 1–54 題，三科各 18 題，已視讀全部 7 個實體 PDF 頁面，核對地圖、指向圖、漫畫、海報及第 7 頁答案。第 20 題原答案為「送分」；第 40、41、54 題另有法律推論或適用範圍爭議。其餘按原卷條件解說，時事與虛構化姓名不視為即時事實。",
+  "sections": [
+    {
+      "id": "geography",
+      "title": "地理｜第 1–18 題"
+    },
+    {
+      "id": "history",
+      "title": "歷史｜第 19–36 題"
+    },
+    {
+      "id": "civics",
+      "title": "公民｜第 37–54 題"
+    }
+  ],
+  "items": [
+    {
+      "id": "social-8-r2-geography-01",
+      "section": "geography",
+      "label": "第 1 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "撒哈拉的乾旱成因",
+      "answer": "C；副熱帶高氣壓",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "撒哈拉大部分位於副熱帶高壓影響區，下沉氣流不易凝結成雨。",
+        "這可解釋大範圍乾旱；山地背風或距海遠只能解釋局部，不能概括整片沙漠。"
+      ],
+      "pitfall": "先比較成因的空間尺度，別用局部地形解釋整個北非。"
+    },
+    {
+      "id": "social-8-r2-geography-02",
+      "section": "geography",
+      "label": "第 2 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "乾燥區的節水灌溉",
+      "answer": "A；滴灌提高用水效率",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "滴灌把水少量送到根部，減少大面積地表蒸發與不必要用水。",
+        "坎井主要導引地下水，井泉常形成點狀綠洲，河流沿岸才是帶狀，故其餘配對錯誤。"
+      ],
+      "pitfall": "滴灌可降低鹽分累積風險，但不能保證所有土壤完全不鹽化。",
+      "note": "官方A的「避免」須理解為配合水質、排水及灌溉管理降低風險，不宜當成滴灌必然消除鹽鹼化。"
+    },
+    {
+      "id": "social-8-r2-geography-03",
+      "section": "geography",
+      "label": "第 3 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "綠洲的多層農業",
+      "answer": "A；遮蔭降低蒸發",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "高層棗椰樹遮擋強烈日照，讓下層果樹與蔬菜的環境較涼。",
+        "在水源稀少的綠洲，降低底層蒸發可有效利用同一片土地與灌溉水。"
+      ],
+      "pitfall": "多種作物是結果之一，題目主要問乾燥環境下的節水目的。"
+    },
+    {
+      "id": "social-8-r2-geography-04",
+      "section": "geography",
+      "label": "第 4 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "水壩攔沙的下游效應",
+      "answer": "B；三角洲補沙減少",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "高壩把上游帶來的泥沙留在水庫，輸往河口的沉積物減少。",
+        "當河口補沙不足而海浪仍侵蝕海岸，三角洲可能退縮；有穩定水不代表天然肥沃度上升。"
+      ],
+      "pitfall": "水量調節與泥沙輸送是兩條不同的影響路徑。"
+    },
+    {
+      "id": "social-8-r2-geography-05",
+      "section": "geography",
+      "label": "第 5 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "宗教人口分布圖",
+      "answer": "C；伊斯蘭教",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "深色集中在印尼、南亞部分國家及西亞北非，符合穆斯林人口分布。",
+        "若是印度教應更集中印度，若是基督宗教則歐美等地的重要性不會如此低。"
+      ],
+      "pitfall": "圖例表示信徒人數，不是各國信徒占人口比例。"
+    },
+    {
+      "id": "social-8-r2-geography-06",
+      "section": "geography",
+      "label": "第 6 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "衣著與乾熱氣候",
+      "answer": "D；防曬、防沙且利通風",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題文強調烈日下仍較涼爽，提示衣著的氣候調適功能。",
+        "長袍遮蔽皮膚、寬鬆處留有空氣流通，切合乾熱多沙環境。"
+      ],
+      "pitfall": "服飾亦有文化因素，但問句指定的是材料中的主要環境功能。"
+    },
+    {
+      "id": "social-8-r2-geography-07",
+      "section": "geography",
+      "label": "第 7 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "庫德族分布辨圖",
+      "answer": "D；安納托力亞高原",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "斜線範圍包括土耳其東部及其與伊拉克、伊朗等地的交界。",
+        "選項中安納托力亞高原位於土耳其，最符合；北非沙漠與阿富汗都不在所示分布區。"
+      ],
+      "pitfall": "族群分布可跨國界，不能只用一國名稱取代整片居住區。"
+    },
+    {
+      "id": "social-8-r2-geography-08",
+      "section": "geography",
+      "label": "第 8 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "地中海型氣候",
+      "answer": "B；夏乾冬雨",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B 的高溫期在年中，雨量卻集中於年初、年底，呈夏乾冬雨。",
+        "這與夏季副熱帶高壓、冬季西風吹來水氣相符；C 則是夏季雨多。"
+      ],
+      "pitfall": "先確認北半球的夏季月份，再看雨量高峰。"
+    },
+    {
+      "id": "social-8-r2-geography-09",
+      "section": "geography",
+      "label": "第 9 題",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 7,
+      "topic": "逐水草而居",
+      "answer": "D；游牧",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "居民隨水源與牧草移動，並使用易搬遷帳篷，表示人畜居住地隨之改變。",
+        "這是游牧的核心；欄牧有固定圈養地，綠洲農業則以定點栽培為主。"
+      ],
+      "pitfall": "「放牧」範圍較廣，題幹反覆強調遷移，應選更精確的游牧。"
+    },
+    {
+      "id": "social-8-r2-geography-10",
+      "section": "geography",
+      "label": "第 10 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "油氣資源與所得差異",
+      "answer": "C；石油、天然氣分布",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "波斯灣沿岸集中重要油氣資源，出口收入能支持較高所得與投資。",
+        "北非並非雨量過多，也不是完全不臨重要海域，因此另兩個自然條件說法錯誤。"
+      ],
+      "pitfall": "油氣是此題主要因素，人均所得仍受人口、制度與分配影響。"
+    },
+    {
+      "id": "social-8-r2-geography-11",
+      "section": "geography",
+      "label": "第 11 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "麥加朝向判讀",
+      "answer": "A；印尼",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "指向卡巴的箭頭朝西北方；麥加在阿拉伯半島西部。",
+        "印尼位於麥加東南方，朝向大致西北最相合；英國、埃及向麥加的方向不同。"
+      ],
+      "pitfall": "讀清箭頭尖端及 N、E、S、W，別把尾端當成方向。"
+    },
+    {
+      "id": "social-8-r2-geography-12",
+      "section": "geography",
+      "label": "第 12 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "沙漠綠洲作物",
+      "answer": "D；棗椰樹",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "國徽上的羽狀葉棕櫚形植物，對應阿拉伯地區常見的棗椰。",
+        "棗椰能適應炎熱乾燥空氣，在有灌溉或地下水的綠洲生長；茶、橡膠、黃麻需更濕潤環境。"
+      ],
+      "pitfall": "耐乾不代表完全不需水，綠洲作物仍仰賴水源。"
+    },
+    {
+      "id": "social-8-r2-geography-13",
+      "section": "geography",
+      "label": "第 13 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "產業多角化",
+      "answer": "C；發展觀光與金融",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "高樓、人工島與飯店是城市觀光、商務服務投資的線索。",
+        "題目重點是減少對石油收入的依賴，而非兩河農業或庫德族山區衝突。"
+      ],
+      "pitfall": "多角化不表示整個國家已完全不依賴石油。"
+    },
+    {
+      "id": "social-8-r2-geography-14",
+      "section": "geography",
+      "label": "第 14 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "幼發拉底河上下游",
+      "answer": "C；甲伊拉克、乙土耳其",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "上游安納托力亞高原在土耳其，下游美索不達米亞平原主要位於伊拉克。",
+        "上游築壩可改變下游來水，因而形成跨境水資源協調問題。"
+      ],
+      "pitfall": "尼羅河也有水壩爭議，但不能忽略題名已指定幼發拉底河。"
+    },
+    {
+      "id": "social-8-r2-geography-15",
+      "section": "geography",
+      "label": "第 15 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "耶路撒冷的宗教地位",
+      "answer": "A；基督宗教、伊斯蘭教、猶太教",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題意所指的共同聖城是耶路撒冷，三個宗教都與此地有重要信仰連結。",
+        "四個組合中只有 A 同時符合三者，佛教、印度教與神道不屬這個聖城組合。"
+      ],
+      "pitfall": "加薩與耶路撒冷不是同一城市，也不能由此題推定領土主權。",
+      "note": "解答只辨認宗教組合；原卷對衝突的敘述屬簡化背景，本指南不據此裁定耶路撒冷地位或以單一原因解釋戰爭。"
+    },
+    {
+      "id": "social-8-r2-geography-16",
+      "section": "geography",
+      "label": "第 16 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "紅海航路的關鍵通道",
+      "answer": "D；蘇伊士運河",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖中原航線穿越紅海北端並連接地中海，X 標在此路線要口。",
+        "商船避開紅海，就減少通過蘇伊士的需求；荷莫茲則連接波斯灣，不在此位置。"
+      ],
+      "pitfall": "攻擊發生的曼達布與受到流量影響的蘇伊士是不同地點。"
+    },
+    {
+      "id": "social-8-r2-geography-17",
+      "section": "geography",
+      "label": "第 17 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "繞行非洲的成本",
+      "answer": "B；航程與燃料成本增加",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "圖示改道需向南繞至好望角再北返，比經蘇伊士更遠。",
+        "較長航程增加航行時間與燃料等成本，並非縮短航程或全改走內海。"
+      ],
+      "pitfall": "改道避開一處風險，不代表整條航路沒有風浪或其他成本。"
+    },
+    {
+      "id": "social-8-r2-geography-18",
+      "section": "geography",
+      "label": "第 18 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 7,
+      "topic": "伊斯蘭教的義務",
+      "answer": "B；施捨濟貧",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "伊斯蘭信仰中的天課強調按規範捐助、扶助需要的人。",
+        "朝覲目的地是麥加，齋戒主要於每日白晝，禁忌也不是一律禁止牛肉，因此選 B。"
+      ],
+      "pitfall": "不能把齋戒月理解成連續整月完全不飲食。"
+    },
+    {
+      "id": "social-8-r2-history-19",
+      "section": "history",
+      "label": "第 19 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "關稅自主與十年建設",
+      "answer": "D；十年建設時期",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "南京國民政府於北伐告一段落後推動外交修約與財政改革。",
+        "1928年前後回收關稅自主的進展，屬通常所稱1928–1937年十年建設。"
+      ],
+      "pitfall": "關稅自主與1943年廢除領事裁判權是不同時間的成果。"
+    },
+    {
+      "id": "social-8-r2-history-20",
+      "section": "history",
+      "label": "第 20 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "事件年代與城市誤配",
+      "answer": "送分；四個選項皆有錯置",
+      "officialAnswer": "送分",
+      "status": "disputed",
+      "steps": [
+        "黃埔軍校創立於1924年；九一八應在瀋陽，七七事變在北平附近，不能套用圖中錯誤代號。",
+        "長征從江西出發到陝北，亦不符合選項所列路線；因此無法選出完整正確的一項。"
+      ],
+      "pitfall": "歷史地圖題要同時核對年份、事件與地點，不能只對一半。",
+      "note": "實體第7頁官方答案明列「送分」，並非A–D。保留原狀，不代替出題者指定新單一答案。"
+    },
+    {
+      "id": "social-8-r2-history-21",
+      "section": "history",
+      "label": "第 21 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "西安事變的地點",
+      "answer": "B；乙西安",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "張學良、楊虎城兵諫及停止內戰是西安事變的線索。",
+        "圖乙在陝西，對應西安；旅遊手冊因此應介紹該地，而不是南京或重慶。"
+      ],
+      "pitfall": "看事件關鍵詞後還要回圖核對代號。"
+    },
+    {
+      "id": "social-8-r2-history-22",
+      "section": "history",
+      "label": "第 22 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "國共分合的事件",
+      "answer": "C；清黨分共、西安事變",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "圖甲在民國16年，即1927年，對應國共分裂的清黨。",
+        "乙在民國25年，即1936年，對應西安事變，早於1937年七七事變。"
+      ],
+      "pitfall": "民國年加1911才是西元年，別把25年看成1937年。"
+    },
+    {
+      "id": "social-8-r2-history-23",
+      "section": "history",
+      "label": "第 23 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "抗戰起點的定義",
+      "answer": "C；九一八事變",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "若從1931年日本侵占東北算到1945年，便得到14年的期間。",
+        "若從1937年七七事變全面戰爭算起，則為8年；差別在起算事件。"
+      ],
+      "pitfall": "年數差異反映分期尺度，不能說1931與1937是同一場事件。"
+    },
+    {
+      "id": "social-8-r2-history-24",
+      "section": "history",
+      "label": "第 24 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "滿洲國的時空",
+      "answer": "D；1932年成立於東北",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "滿洲國由日本扶植，1932年成立，溥儀出任統治者。",
+        "D 同時把年份寫成1937、把位置放在非東北的丁區，與史實不符。"
+      ],
+      "pitfall": "有一個詞「溥儀」正確，不代表整列都正確。"
+    },
+    {
+      "id": "social-8-r2-history-25",
+      "section": "history",
+      "label": "第 25 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 7,
+      "topic": "日本的對外擴張",
+      "answer": "A；日本軍國主義的擴張",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前題串列日俄戰爭、吞併朝鮮、侵占山東與建立傀儡政權。",
+        "共同主體為日本，範圍跨東亞各地，最適合以對外擴張為主題。"
+      ],
+      "pitfall": "速戰速決是特定戰略，不能概括數十年的所有擴張事件。"
+    },
+    {
+      "id": "social-8-r2-history-26",
+      "section": "history",
+      "label": "第 26 題",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "answerPage": 7,
+      "topic": "南京的國民政府",
+      "answer": "B；國民政府",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "材料指定1930年代以南京為首都，並推動交通、財政與法制建設。",
+        "這符合南京國民政府的十年建設；袁世凱與臨時政府都在更早年代。"
+      ],
+      "pitfall": "作答材料在前一頁，必須把跨頁題組一起讀。"
+    },
+    {
+      "id": "social-8-r2-history-27",
+      "section": "history",
+      "label": "第 27 題",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "answerPage": 7,
+      "topic": "中共早期農村動員",
+      "answer": "A；農民",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "資料明言動員發生在內陸鄉村，直接指向農村人口。",
+        "中共在這一階段建立農村根據地，農民是重要動員對象，而非只限城市工人。"
+      ],
+      "pitfall": "政黨理論重視工人，不表示每個歷史階段的實際群眾基礎都相同。"
+    },
+    {
+      "id": "social-8-r2-history-28",
+      "section": "history",
+      "label": "第 28 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "日本南進與美國禁運",
+      "answer": "B；美國對日石油禁運",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "表格將臺灣基地建設與奪取東南亞油、橡膠相連，指向日本南進。",
+        "侵略擴張加劇與美英的衝突，促成美國等國限制對日石油供應。"
+      ],
+      "pitfall": "雅爾達與開羅的參與國不同，日本也未殖民占領夏威夷。"
+    },
+    {
+      "id": "social-8-r2-history-29",
+      "section": "history",
+      "label": "第 29 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "行憲與動員戡亂",
+      "answer": "C；動員戡亂限制憲政",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "1947年憲法施行時，國共內戰仍持續。",
+        "政府以動員戡亂體制及其後臨時條款擴張緊急權力，使正常憲政受到限制。"
+      ],
+      "pitfall": "中日戰爭1945年已結束，不能拿1937年的爆發作1947年的直接原因。"
+    },
+    {
+      "id": "social-8-r2-history-30",
+      "section": "history",
+      "label": "第 30 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "政府遷臺的背景",
+      "answer": "A；惡性通膨與共軍擴張",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "報紙標題是中央政府遷設臺北，對應國共內戰後期。",
+        "1949年前後國民政府面臨軍事失利及經濟危機，與A一致；其餘為1941或1945年的對日戰爭事件。"
+      ],
+      "pitfall": "先辨報紙標題所示時間，再選同時期背景。"
+    },
+    {
+      "id": "social-8-r2-history-31",
+      "section": "history",
+      "label": "第 31 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "開羅宣言的內容",
+      "answer": "B；開羅會議",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "1943年中、美、英的開羅宣言列入日本歸還所占中國領土的戰後目標。",
+        "東北、臺灣等地是材料的共同線索，最符合開羅；雅爾達主要涉及戰後安排與蘇聯參戰。"
+      ],
+      "pitfall": "會議宣言、戰爭結束及實際接收是不同層次，不能只靠宣言一項解釋全部過程。"
+    },
+    {
+      "id": "social-8-r2-history-32",
+      "section": "history",
+      "label": "第 32 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "中美合作抗日的時期",
+      "answer": "A；共同參與開羅會議",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "海報把蔣中正與羅斯福並列，並以中美合作打敗日本為口號。",
+        "1943年開羅會議正處第二次世界大戰中；馬歇爾調停則在戰後國共衝突時期。"
+      ],
+      "pitfall": "「中美合作」在不同年代都可能出現，還要看對抗的對象。"
+    },
+    {
+      "id": "social-8-r2-history-33",
+      "section": "history",
+      "label": "第 33 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "1943年平等新約",
+      "answer": "D；1943年",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "領事裁判權及內河航行特權的取消，對應戰時中美、中英平等新約。",
+        "這些新約簽於1943年，不可與1928年前後的關稅自主混同。"
+      ],
+      "pitfall": "先找喪失的特權種類，不要看到「廢約」就只背一個年份。"
+    },
+    {
+      "id": "social-8-r2-history-34",
+      "section": "history",
+      "label": "第 34 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "雅爾達與蘇聯參戰",
+      "answer": "C；依戰時盟國協議對日作戰",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "雅爾達會議安排蘇聯在歐洲戰爭結束後參與對日作戰。",
+        "1945年8月蘇軍進入東北，與此時序相符，不是日本奪取蘇聯東南亞殖民地所致。"
+      ],
+      "pitfall": "「聯共抗日」與蘇聯的國際戰略不是同一層次。"
+    },
+    {
+      "id": "social-8-r2-history-35",
+      "section": "history",
+      "label": "第 35 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "內戰與動員戡亂",
+      "answer": "C；宣布動員戡亂",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "兩圖的中共控制區由分散變得更廣，呈現內戰形勢對國民政府不利。",
+        "國民政府以動員戡亂因應；「以空間換時間」與遷都重慶主要屬抗日時期策略。"
+      ],
+      "pitfall": "同樣是戰爭，必須辨認對手是日軍或共軍。"
+    },
+    {
+      "id": "social-8-r2-history-36",
+      "section": "history",
+      "label": "第 36 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 7,
+      "topic": "宣傳立場與報紙產地",
+      "answer": "D；瀋陽",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "報導用勝利語氣稱頌日軍攻擊美英，顯示受日本勢力影響的宣傳立場。",
+        "瀋陽位於當時的滿洲國，也是盛京之所在；另三地不合這組地名與政治線索。"
+      ],
+      "pitfall": "宣傳表格中的戰果不應直接當成精確、獨立查證的軍事統計。"
+    },
+    {
+      "id": "social-8-r2-civics-37",
+      "section": "civics",
+      "label": "第 37 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "自訴與告訴",
+      "answer": "B；委任律師提起自訴",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "被害人依法可委任律師直接向法院自訴，與向檢警提出告訴不同。",
+        "按鈴申告本身不是公訴；公訴由檢察官提出，偵查資料也不得為滿足好奇任意公布。"
+      ],
+      "pitfall": "刑事責任與民事賠償可並存，不能說刑案一律沒有民事責任。"
+    },
+    {
+      "id": "social-8-r2-civics-38",
+      "section": "civics",
+      "label": "第 38 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "自落果實的所有權",
+      "answer": "B；屬鄰地所有人即非不法占有",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "原卷引用民法798條，成熟果實自然落入一般鄰地，依法歸鄰地所有人。",
+        "依此設定小王食用自己的果實，無從以意圖不法占有他人財物認定竊盜。"
+      ],
+      "pitfall": "自然掉落不同於伸手摘取；警察也沒有作不起訴處分的權限。"
+    },
+    {
+      "id": "social-8-r2-civics-39",
+      "section": "civics",
+      "label": "第 39 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "被害人的告訴",
+      "answer": "C；告訴",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "小飛以自認被害人的身分，向警方表達希望追究刑事責任。",
+        "此程序為告訴；告發通常不限被害人，自訴則是向法院提起。"
+      ],
+      "pitfall": "提出告訴並不表示指控內容必然成立。"
+    },
+    {
+      "id": "social-8-r2-civics-40",
+      "section": "civics",
+      "label": "第 40 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "不起訴的理由與權限",
+      "answer": "官方 A；但本題不應以情節輕微為前提",
+      "officialAnswer": "A",
+      "status": "disputed",
+      "steps": [
+        "A 描述檢察官決定不提起公訴，角色判斷在四項中最接近正確。",
+        "然而依第38題的同一事實，小王依法取得果實，應先判斷不構成犯罪，不是已有犯罪而因輕微獲寬免。"
+      ],
+      "pitfall": "法定不起訴與裁量不起訴的法律理由不同，不能互換。",
+      "note": "保留A，但題幹與前題的所有權推論衝突；不起訴也有法定救濟，不能把「案子就不會進法院」理解成永久絕無審查可能。"
+    },
+    {
+      "id": "social-8-r2-civics-41",
+      "section": "civics",
+      "label": "第 41 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "調解的民刑事界線",
+      "answer": "官方 B；僅在合法民事調解範圍成立",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "經法院核定的民事調解具有民事確定判決效力，B 表達了此一規則。",
+        "但題組前文持續談刑事竊盜，而普通竊盜不是告訴乃論；民事和解不能直接消滅國家的刑事追訴。"
+      ],
+      "pitfall": "一定要分清調解的是賠償爭議，還是可依法調解的告訴乃論刑事案件。",
+      "note": "B沒有區分民事調解與刑事追訴，在本題竊盜脈絡下範圍過廣。鄉鎮市調解條例第1、27條須合併理解，不能只截取「等同判決」。"
+    },
+    {
+      "id": "social-8-r2-civics-42",
+      "section": "civics",
+      "label": "第 42 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "法官中立審判",
+      "answer": "D；依法中立、公平審理",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "法官負責判斷證據及法律適用，不能在審理前就預定被告有罪。",
+        "D 符合中立審判；被害人委任律師自訴不是公訴，法袍顏色也不能取代角色判斷。"
+      ],
+      "pitfall": "法庭「金三角」是審判、追訴與辯護的概念，不是每個人都有相同職權。"
+    },
+    {
+      "id": "social-8-r2-civics-43",
+      "section": "civics",
+      "label": "第 43 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "私下和解的執行力",
+      "answer": "B；普通私下協議非執行名義",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "村長見證的協議原則是私法契約，不因此具有法院確定判決的效力。",
+        "若不履約，通常需取得判決等法定執行名義，不能直接請警察強制收錢。"
+      ],
+      "pitfall": "有證人或簽名能幫助證明契約，不會自動產生強制執行力。",
+      "note": "官方B的「須先提起民事訴訟」為常見途徑的簡化；依法也可能透過支付命令等方式取得執行名義，不是只能走通常訴訟。"
+    },
+    {
+      "id": "social-8-r2-civics-44",
+      "section": "civics",
+      "label": "第 44 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "法院核定的民事調解",
+      "answer": "C；與民事確定判決同效",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "買賣瑕疵及賠償屬民事爭議，可向有管轄的鄉鎮市調解委員會申請。",
+        "雙方成立調解並經法院核定後，具法定效力，不能只因後悔就重提同一爭議。"
+      ],
+      "pitfall": "調解委員不是法官，不能因一方不出席便判其敗訴。"
+    },
+    {
+      "id": "social-8-r2-civics-45",
+      "section": "civics",
+      "label": "第 45 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 7,
+      "topic": "訴訟上和解",
+      "answer": "D；不能隨意反悔要求續審",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "法庭上成立的和解並作成筆錄，具有與確定判決相同的效力。",
+        "因此不能毫無法律理由地反悔；不履行時，可依法以和解筆錄聲請執行。"
+      ],
+      "pitfall": "若有法定無效或撤銷事由另當別論，但「隨時反悔」不是救濟理由。"
+    },
+    {
+      "id": "social-8-r2-civics-46",
+      "section": "civics",
+      "label": "第 46 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "罪刑法定",
+      "answer": "C；行為受罰須有法律依據",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "題目設定當時沒有可適用的處罰規定，重點是國家不得自行創造罪刑。",
+        "即使行為造成損害，刑罰仍須以法律明文為前提，此為罪刑法定。"
+      ],
+      "pitfall": "本題辨原則，不把經簡化的CIH故事視為完整判決史。"
+    },
+    {
+      "id": "social-8-r2-civics-47",
+      "section": "civics",
+      "label": "第 47 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "刑事責任的辨識",
+      "answer": "A；以造假方式逃避兵役",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題幹以刑罰處理偷拍，要求找同樣涉及刑事違法的類型。",
+        "造假逃役可涉及刑事責任；配偶權爭議主要為民事，單純不友善也非當然犯罪。"
+      ],
+      "pitfall": "「同種法律責任」不等於觸犯同一條罪名。"
+    },
+    {
+      "id": "social-8-r2-civics-48",
+      "section": "civics",
+      "label": "第 48 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "視覺障礙與責任能力",
+      "answer": "C；視障本身不排除刑事責任能力",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "刑事責任能力關乎辨識違法及依辨識控制行為的能力。",
+        "單純視覺障礙不等於精神障礙、監護宣告或故意殺人；依題設可有過失責任。"
+      ],
+      "pitfall": "不能以身體障礙推定心智能力，也不能把無照一律說成故意致死。",
+      "note": "C限於原卷沒有另設心智障礙等責任能力因素；具體犯罪成立仍須審查過失、因果關係等要件。"
+    },
+    {
+      "id": "social-8-r2-civics-49",
+      "section": "civics",
+      "label": "第 49 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "無罪推定與審判",
+      "answer": "D；須經合法審判認定",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "當場制伏與有無犯罪嫌疑是偵查事項，確定有罪仍須依法審理。",
+        "無罪推定適用於嚴重案件；責任能力仍須審查，民眾不能以憤怒為由私刑。"
+      ],
+      "pitfall": "無罪推定是程序保障，不表示禁止依法逮捕現行犯。"
+    },
+    {
+      "id": "social-8-r2-civics-50",
+      "section": "civics",
+      "label": "第 50 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "同態報復與應報",
+      "answer": "D；應報的懲罰",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題示用相應痛苦回應已發生侵害，重點放在對行為的報償。",
+        "此較接近應報論；教化與矯正著重改變行為人，預防則面向未來犯罪。"
+      ],
+      "pitfall": "這裡只比較刑罰觀念，不代表現代刑法採用字面上的以眼還眼。",
+      "note": "不沿用題幹「世界最早」的絕對說法；本題可由所給同態報復原則直接辨認應報。"
+    },
+    {
+      "id": "social-8-r2-civics-51",
+      "section": "civics",
+      "label": "第 51 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "未滿十四歲的刑事年齡",
+      "answer": "A；不得以刑罰處罰",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "原卷設定行為人12歲，低於刑法規定的14歲可罰年齡。",
+        "這不等於沒有少年保護處遇或民事賠償可能，更不會由父母代受刑罰。"
+      ],
+      "pitfall": "刑罰、少年保護與民事賠償是不同制度。"
+    },
+    {
+      "id": "social-8-r2-civics-52",
+      "section": "civics",
+      "label": "第 52 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "褫奪公權的效果",
+      "answer": "A；不得登記公職候選人",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "題目設定仍處褫奪公權期間，刑法所限制的包括公務員及公職候選人資格。",
+        "投票權並不因褫奪公權一併消失，升學也不是其直接限制內容。"
+      ],
+      "pitfall": "刑期服滿不表示所有附隨資格限制都立即消滅。",
+      "note": "依題設辨資格，不核認題中虛構人物或12月選舉日期；貪污等前科另可能有選罷法限制，不能推論褫奪期滿就必然可參選。"
+    },
+    {
+      "id": "social-8-r2-civics-53",
+      "section": "civics",
+      "label": "第 53 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "刑法不溯及既往",
+      "answer": "B；以行為時法律為出發點",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "題目所述行為發生在新罪章施行前，不能用後來新增的犯罪規定追溯處罰。",
+        "法院仍可依行為時已存在且符合要件的法律處理，不表示舊行為全無責任。"
+      ],
+      "pitfall": "新法更有利時的比較適用另有規則，不能把本題背成永遠只看舊法。"
+    },
+    {
+      "id": "social-8-r2-civics-54",
+      "section": "civics",
+      "label": "第 54 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 7,
+      "topic": "犯罪所得與單獨沒收",
+      "answer": "官方 C；但單獨宣告仍有法定條件",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "用犯罪所得買車屬所得變得之物，可在法定範圍宣告沒收；自用不是當然豁免。",
+        "然而通常在裁判時併宣告，單獨沒收須符合法律另定情形，不能只因有不法所得就無條件啟動。"
+      ],
+      "pitfall": "宣告、裁判確定與執行是不同階段；沒收已非從刑。",
+      "note": "C漏列刑法第40條單獨宣告要件，題幹又已設定有罪定讞，無從據此推得須另行單獨沒收。保留官方C並明示其法律表述不完整。"
+    }
+  ]
+}

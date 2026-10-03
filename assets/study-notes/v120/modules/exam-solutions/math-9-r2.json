@@ -1,0 +1,470 @@
+{
+  "schema": 1,
+  "sourceId": "1GYtpXl0VFDNN-GYkdyOaoc0TqMTmOYUj",
+  "sourceSha256": "ef10325b58e054ac76bc99d99ea5b695aa126660530e09831ebdaa080d351c2b",
+  "title": "114-2-2九年級數學科(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "涵蓋單選題 1–25，共 25 個編號題目。已目視檢查實體 PDF 第 1–4 頁及全部圖表，官方解答在第 4 頁。第 10 題盒狀圖無法保證官方所稱及格人數嚴格較多，第 22 題正六角錐邊長無法構成實體，均標為有爭議並保留官方答案與獨立反例或檢查。",
+  "sections": [
+    {
+      "id": "choice",
+      "title": "一、單選題"
+    }
+  ],
+  "items": [
+    {
+      "id": "math-9-r2-choice-1",
+      "section": "choice",
+      "label": "單選題 1",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "同高水平弦的長度",
+      "answer": "A（A₁A₂＞B₁B₂＞C₁C₂）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "令 y＝−5，三條曲線的交點橫坐標分別為 ±√5、±√(5/2)、±√(5/3)。",
+        "弦長依序為這些正根的兩倍；5＞5/2＞5/3，所以 A₁A₂＞B₁B₂＞C₁C₂。"
+      ],
+      "pitfall": "係數絕對值越大曲線越窄，同高度的水平弦反而越短。"
+    },
+    {
+      "id": "math-9-r2-choice-2",
+      "section": "choice",
+      "label": "單選題 2",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "最小值決定係數符號",
+      "answer": "A（a＞b）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "二次函數有最小值表示開口向上，因此 a＞0。",
+        "頂點式中的 b 就是最小值 −1，所以 a＞0＞−1＝b。"
+      ],
+      "pitfall": "不需要求 a 的確切值，只要知道它為正數即可比較。"
+    },
+    {
+      "id": "math-9-r2-choice-3",
+      "section": "choice",
+      "label": "單選題 3",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "頂點式的最大值",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "y＝−5(x＋1)²＋8 的頂點是 (−1,8)。",
+        "平方項乘負數後不大於 0，所以 y≤8，在 x＝−1 時取得最大值 8。"
+      ],
+      "pitfall": "括號 x＋1 對應 x＝−1，且負係數給最大值。"
+    },
+    {
+      "id": "math-9-r2-choice-4",
+      "section": "choice",
+      "label": "單選題 4",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "二次函數的平移",
+      "answer": "C（y＝2(x−4)²−12）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "原頂點為 (1,−5)，右移 3、下移 7 後變為 (4,−12)。",
+        "平移不改變二次項係數 2，故新式為 y＝2(x−4)²−12。"
+      ],
+      "pitfall": "向右移使頂點橫坐標增加，但頂點式括號仍寫 x 減該坐標。"
+    },
+    {
+      "id": "math-9-r2-choice-5",
+      "section": "choice",
+      "label": "單選題 5",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "與 x 軸的交點數",
+      "answer": "B",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "B 令 y＝0 得 (x＋3)²＝1，有 x＝−4、−2 兩個解。",
+        "A 全在 x 軸下，C 全在 x 軸上，D 僅在頂點 (−1,0) 接觸 x 軸，因此只有 B 有兩個交點。"
+      ],
+      "pitfall": "拋物線有頂點不代表必有兩個 x 軸交點，須看頂點高度及開口方向。"
+    },
+    {
+      "id": "math-9-r2-choice-6",
+      "section": "choice",
+      "label": "單選題 6",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "平移保留開口形狀",
+      "answer": "D",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "平移只改變頂點位置，不改變二次項係數 a。",
+        "目標曲線係數為 5，所以必須 a＝5，四組中只有 D 符合；b、c 可用水平與垂直平移調整。"
+      ],
+      "pitfall": "係數 −5 雖然絕對值相同，開口方向相反，不能只靠平移重合。"
+    },
+    {
+      "id": "math-9-r2-choice-7",
+      "section": "choice",
+      "label": "單選題 7",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "由平移和通過點求係數和",
+      "answer": "A（0）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "由原曲線可知 a＝−3，對稱軸 x＝−1 給 h＝−1。",
+        "代入 (−2,1)：1＝−3(−2＋1)²＋k，得 k＝4；所以 a＋h＋k＝−3−1＋4＝0。"
+      ],
+      "pitfall": "h 是對稱軸的橫坐標 −1，不是括號中看見的正 1。"
+    },
+    {
+      "id": "math-9-r2-choice-8",
+      "section": "choice",
+      "label": "單選題 8",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "由頂點和一點求開口係數",
+      "answer": "B（2）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "頂點 (−3,−4) 給出 y＝a(x＋3)²−4。",
+        "代入 (0,14) 得 14＝9a−4，因此 9a＝18、a＝2。"
+      ],
+      "pitfall": "頂點 y 值是 −4，代入時不能漏掉負號。"
+    },
+    {
+      "id": "math-9-r2-choice-9",
+      "section": "choice",
+      "label": "單選題 9",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "同高點的中點在對稱軸",
+      "answer": "B（4）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "同高的 (−2,1)、(6,1) 關於對稱軸對稱，因此對稱軸 x＝(−2＋6)/2＝2。",
+        "同高的另外兩點也以 x＝2 為中點，所以 (m＋n)/2＝2，得 m＋n＝4。"
+      ],
+      "pitfall": "對稱軸是橫坐標的平均，所求和須再乘 2。"
+    },
+    {
+      "id": "math-9-r2-choice-10",
+      "section": "choice",
+      "label": "單選題 10",
+      "sourcePages": [
+        1
+      ],
+      "answerPage": 4,
+      "topic": "盒狀圖不能保證嚴格人數差",
+      "answer": "官方選 C，但圖示可讓兩班皆 14 人及格，無法保證甲班嚴格較多。",
+      "officialAnswer": "C",
+      "status": "disputed",
+      "steps": [
+        "甲班 Q₁＝40、Q₂＝70、Q₃＝90；乙班 Q₁＝40、Q₂＝50、Q₃＝70。中位數比較不能直接換成 60 分門檻的精確人數比較。",
+        "反例：甲班可有圖示最小值 1 人、40 分 12 人、50 分 1 人、90 分 13 人、100 分 1 人；共 28 人，五數摘要符合圖示且 14 人及格。",
+        "乙班可有 30 分 1 人、40 分 13 人、60 分 6 人、70 分 2 人、90 分 6 人；同樣 28 人、五數摘要符合圖示且 14 人及格。故 C 的「比較多」並非必然。"
+      ],
+      "pitfall": "盒狀圖給出分位數，除非門檻與資料位置足以定出嚴格差，不能推論精確及格人數。",
+      "note": "官方 C 是按中位數位置判斷，但原題未禁止同分，且合法反例使兩班及格人數相同。A、B 與圖中全距及四分位距相反；D 也不能取代此嚴格比較。需補充原始分數或修訂措辭。"
+    },
+    {
+      "id": "math-9-r2-choice-11",
+      "section": "choice",
+      "label": "單選題 11",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "排序後求四分位距",
+      "answer": "D（7）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "排序後為 0、3、7、9、10、11、12、13、13、17、18、19。",
+        "Q₁＝(7＋9)/2＝8，Q₃＝(13＋17)/2＝15，所以 Q₃−Q₁＝7。"
+      ],
+      "pitfall": "原資料沒有排序，不能直接按原位置挑出四分位數。"
+    },
+    {
+      "id": "math-9-r2-choice-12",
+      "section": "choice",
+      "label": "單選題 12",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "盒狀圖與跨校排名",
+      "answer": "C",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "甲校中位數為 50，60 分高於中位數；乙校中位數為 73，60 分低於中位數，所以甲校 60 分者排名較前，C 說反了。",
+        "三校最大值都是 100，乙校中位數也確實最高；丙校第 450 筆為 Q₃＝90，至少 150 人達 90，甲、乙 Q₃ 都低於 90，最多各 149 人達 90。"
+      ],
+      "pitfall": "相同分數在不同分布中的排名不同，不能把較高的學校中位數理解成個人排名較前。"
+    },
+    {
+      "id": "math-9-r2-choice-13",
+      "section": "choice",
+      "label": "單選題 13",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "機率與空間幾何敘述",
+      "answer": "C（2 個）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "必然事件機率為 1，甲正確；正四面體的對邊 AB、CD 不平行也不相交，互為歪斜，丙正確。",
+        "六次擲骰不保證各點數恰一次，乙錯；正角錐側面通常斜向底面，並非垂直，丁錯，所以共 2 個。"
+      ],
+      "pitfall": "等可能不表示短短幾次實驗一定平均出現每種結果。"
+    },
+    {
+      "id": "math-9-r2-choice-14",
+      "section": "choice",
+      "label": "單選題 14",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "指定花色與點數的機率",
+      "answer": "D（1/13）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "大於 5 且小於 10 的點數為 6、7、8、9；每個點數只有一張紅心，共 4 張符合。",
+        "全部 52 張等可能，故機率為 4/52＝1/13。"
+      ],
+      "pitfall": "分母包含全部四種花色，不能直接把紅心的 13 張當全部樣本。"
+    },
+    {
+      "id": "math-9-r2-choice-15",
+      "section": "choice",
+      "label": "單選題 15",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "不重複排列的偶數機率",
+      "answer": "C（3/7）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "十位、個位依序選取不同數字，共 7×6＝42 個等可能二位數。",
+        "偶數的個位只能為 2、4、6，共 3 選擇，每種可搭 6 個十位數，故機率 18/42＝3/7。"
+      ],
+      "pitfall": "判斷偶數只看個位；兩位不能使用同一數字。"
+    },
+    {
+      "id": "math-9-r2-choice-16",
+      "section": "choice",
+      "label": "單選題 16",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "等量混合後的機率",
+      "answer": "A（13/36）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "設每箱有 12k 球，紅球數分別為 6k、2k、5k。",
+        "混合後紅球 13k、總球 36k，所以機率為 13/36。"
+      ],
+      "pitfall": "三箱總球數相同才能直接平均三個比例，不能把比例相加後就當最終機率。"
+    },
+    {
+      "id": "math-9-r2-choice-17",
+      "section": "choice",
+      "label": "單選題 17",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "兩骰點數和為質數",
+      "answer": "B（5/12）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "兩骰共有 36 個等可能有序結果；可能的質數和為 2、3、5、7、11。",
+        "這些和分別有 1、2、4、6、2 種，共 15 種，因此機率為 15/36＝5/12。"
+      ],
+      "pitfall": "不同點數和並非等可能，不能用五種質數和除以所有和的種類數。"
+    },
+    {
+      "id": "math-9-r2-choice-18",
+      "section": "choice",
+      "label": "單選題 18",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 4,
+      "topic": "梯形柱的體積與表面積",
+      "answer": "D（712）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "底面梯形高為 √[5²−((12−6)/2)²]＝4，底面積為 (6＋12)×4/2＝36，體積 a＝36×10＝360。",
+        "底面周長 6＋12＋5＋5＝28，表面積 b＝2×36＋28×10＝352，所以 a＋b＝712。"
+      ],
+      "pitfall": "梯形的腰長 5 不是垂直高；表面積包含兩個底面。"
+    },
+    {
+      "id": "math-9-r2-choice-19",
+      "section": "choice",
+      "label": "單選題 19",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "角錐的頂點邊面計數",
+      "answer": "D（11）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "n 角錐有 n＋1 個頂點、2n 條邊、n＋1 個面。",
+        "總和為 4n＋2＝46，解得 n＝11。"
+      ],
+      "pitfall": "側面有 n 個，還要加一個底面；邊也要分底邊與側稜計算。"
+    },
+    {
+      "id": "math-9-r2-choice-20",
+      "section": "choice",
+      "label": "單選題 20",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "長方體的空間對角線",
+      "answer": "A（3√26 公分）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "三個互相垂直的邊長為 8、7、11，先以底面畢氏定理得對角線平方 8²＋7²＝113。",
+        "再與高 11 合用畢氏定理，AG＝√(113＋121)＝√234＝3√26 公分。"
+      ],
+      "pitfall": "AG 是穿過內部的空間對角線，不能只用同一個面上的兩邊。"
+    },
+    {
+      "id": "math-9-r2-choice-21",
+      "section": "choice",
+      "label": "單選題 21",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "接合圓柱的外露表面積",
+      "answer": "A（104π）",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "圖中大圓柱半徑 4、高 7，小圓柱半徑 2、高 4。側面積合計 2π×4×7＋2π×2×4＝72π。",
+        "水平外露面積為大圓柱頂面 16π、底面環形 16π−4π、小圓柱底面 4π，共 32π；總面積＝104π。"
+      ],
+      "pitfall": "接合面不露在外面，不能把兩個完整圓柱表面積直接相加。"
+    },
+    {
+      "id": "math-9-r2-choice-22",
+      "section": "choice",
+      "label": "單選題 22",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "檢查正角錐是否能成立",
+      "answer": "原題不存在這樣的正六角錐；若僅形式加總所列七個面的面積，得到官方 B（54√3＋72）。",
+      "officialAnswer": "B",
+      "status": "disputed",
+      "steps": [
+        "正六邊形邊長為 6 時，中心到每個頂點的距離也是 6。正角錐頂點在中心正上方，若側稜長為 5，則高 h 滿足 h²＋6²＝5²，即 h²＝−11，不可能。",
+        "官方數式來自底面 6×(6²√3/4)＝54√3，以及每片側面高 √(5²−3²)＝4、六片面積 6×6×4/2＝72；各片雖可單獨計算，卻無法組成題述正角錐。"
+      ],
+      "pitfall": "可計算個別面的面積，不表示這些面能拼成指定的空間立體。",
+      "note": "側稜 5 小於正六邊形底面的外接圓半徑 6，違反正角錐幾何條件。保留官方 B 作形式面積總和，不能把它標為真實正六角錐的已核實表面積。"
+    },
+    {
+      "id": "math-9-r2-choice-23",
+      "section": "choice",
+      "label": "單選題 23",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "圓錐展開圖的弧長",
+      "answer": "C（108π 平方公分）",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "半徑 12 的半圓弧長為 12π，等於底圓周長 2πr，所以 r＝6。",
+        "側面積為 π×12²/2＝72π，底面積為 π×6²＝36π，總表面積＝108π。"
+      ],
+      "pitfall": "展開扇形半徑是母線長，底圓半徑須用弧長另求。"
+    },
+    {
+      "id": "math-9-r2-choice-24",
+      "section": "choice",
+      "label": "單選題 24",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "圓內扇形與圓錐底圓",
+      "answer": "B（10 公分）",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "∠BAC＝90°且 A、B、C 在原圓上，所以 BC 是直徑 40√2；扇形兩半徑 AB＝AC，故 AB＝40。",
+        "90°扇形弧長為 2π×40×(90/360)＝20π，等於新圓錐底圓周長，故底圓半徑為 10。"
+      ],
+      "pitfall": "鐵皮圓的半徑不同於剪下扇形的半徑；扇形圓心是 A，不是 O。"
+    },
+    {
+      "id": "math-9-r2-choice-25",
+      "section": "choice",
+      "label": "單選題 25",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 4,
+      "topic": "旋轉容器的等體積與相似",
+      "answer": "D（36/13）",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "初始截面是兩股 5、12 的直角三角形，總面積 30；水高 3，頂端空氣小三角形的高為 2，與整體相似比 2/5，所以空氣面積比為 4/25。",
+        "改以斜邊 13 為底時，整體高為 2×30/13＝60/13。空氣體積未變且柱長同為 20，截面面積比仍為 4/25，故空氣高仍占整高的 2/5。",
+        "水高為 (1−2/5)×60/13＝36/13。"
+      ],
+      "pitfall": "旋轉後保持的是水的體積，不是水面高度或底邊比例。"
+    }
+  ]
+}

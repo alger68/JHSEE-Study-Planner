@@ -1,0 +1,573 @@
+{
+  "version": "2.1.3",
+  "checked": "2026-10-03",
+  "baselineCommit": "716e80b79db62131e1594b32247adc8a8a27e9cf",
+  "local": {
+    "notesTests": 189,
+    "plannerTests": 74,
+    "paperCount": 40,
+    "totalItems": 2027,
+    "verifiedItems": 1756,
+    "disputedItems": 64,
+    "limitedItems": 207,
+    "newPapers": 25,
+    "newItems": 1229,
+    "newSourcePdfPages": 164,
+    "htmlBytes": 1981937,
+    "gzipBytes": 327103,
+    "htmlSha256": "336e3b0b3536c4a173de5e957c1776f4e5f0f3ea6fcdce0791f9684c83bc31ff",
+    "units": 763,
+    "fixedQuestions": 4578,
+    "oldFifteenFilesUnchanged": true,
+    "readingSupport": {
+      "schema": 1,
+      "checked": "2026-10-03",
+      "total": 74,
+      "originalVerified": 28,
+      "editionVerified": 22,
+      "sourceNeeded": 24
+    },
+    "paperInventory": [
+      {
+        "sourceId": "1mhODyYiigJbMFUlGcIXpqStXy8k22YAp",
+        "grade": 7,
+        "subject": "biology",
+        "round": 2,
+        "totalItems": 50,
+        "verifiedItems": 47,
+        "disputedItems": 3,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1wzSlzGsc6jieQaOUSbLH4EI1qoao0wdy",
+        "grade": 7,
+        "subject": "biology",
+        "round": 3,
+        "totalItems": 50,
+        "verifiedItems": 45,
+        "disputedItems": 3,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "16lHnZKBz68Zchogwdu-DK12f8dKd9Ri-",
+        "grade": 7,
+        "subject": "biology",
+        "round": 1,
+        "totalItems": 50,
+        "verifiedItems": 48,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1DU3eK79DYE_UPTCQKg00LYFr1dPlEYxc",
+        "grade": 7,
+        "subject": "chinese",
+        "round": 2,
+        "totalItems": 68,
+        "verifiedItems": 64,
+        "disputedItems": 2,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "1wEFf3z0T-lHSsAfspB1Uhvaib20CNjKo",
+        "grade": 7,
+        "subject": "chinese",
+        "round": 3,
+        "totalItems": 65,
+        "verifiedItems": 64,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1DA07pJtN9zAs50hz6jvCuhklVE3pXGiB",
+        "grade": 8,
+        "subject": "chinese",
+        "round": 1,
+        "totalItems": 70,
+        "verifiedItems": 66,
+        "disputedItems": 2,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "1CO8nUlZQz8QNg-DJBiNpMehEsB3Gh88H",
+        "grade": 8,
+        "subject": "chinese",
+        "round": 2,
+        "totalItems": 68,
+        "verifiedItems": 66,
+        "disputedItems": 1,
+        "limitedItems": 1
+      },
+      {
+        "sourceId": "10aLnWgVaf0FJR1kj5fR6joUQFy2EN6zH",
+        "grade": 8,
+        "subject": "chinese",
+        "round": 3,
+        "totalItems": 68,
+        "verifiedItems": 66,
+        "disputedItems": 0,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "1jnfOi9iJsZWlFMjb6PUrNiu925sRa18Y",
+        "grade": 9,
+        "subject": "chinese",
+        "round": 1,
+        "totalItems": 50,
+        "verifiedItems": 49,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1lEwmkLbTJEmyqys7V0g4CuhKZrnGNxmd",
+        "grade": 9,
+        "subject": "chinese",
+        "round": 2,
+        "totalItems": 36,
+        "verifiedItems": 36,
+        "disputedItems": 0,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1YESuB3iwULTIECFo-LrOuncaJx_FShhG",
+        "grade": 7,
+        "subject": "chinese",
+        "round": 1,
+        "totalItems": 67,
+        "verifiedItems": 65,
+        "disputedItems": 1,
+        "limitedItems": 1
+      },
+      {
+        "sourceId": "1I2VQ69Uwdui4rI34BLV_5zzeQAg9rh1w",
+        "grade": 7,
+        "subject": "english",
+        "round": 2,
+        "totalItems": 63,
+        "verifiedItems": 43,
+        "disputedItems": 0,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1wdkVy2j6gHLRXdylFr4_F2mP0l9A8-4R",
+        "grade": 7,
+        "subject": "english",
+        "round": 3,
+        "totalItems": 63,
+        "verifiedItems": 43,
+        "disputedItems": 0,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1Z57sbQQO2sgE9O_c4Id2fTxQ3jr8ZtdK",
+        "grade": 8,
+        "subject": "english",
+        "round": 1,
+        "totalItems": 69,
+        "verifiedItems": 48,
+        "disputedItems": 1,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1UTAgwXKE4XprzdtR_UP44iiniucOy4p6",
+        "grade": 8,
+        "subject": "english",
+        "round": 2,
+        "totalItems": 67,
+        "verifiedItems": 46,
+        "disputedItems": 1,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1hmBMIbFoeSjFKWlr4TK80vlCh95tmnl-",
+        "grade": 8,
+        "subject": "english",
+        "round": 3,
+        "totalItems": 67,
+        "verifiedItems": 47,
+        "disputedItems": 0,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1a7GbukWHFHjv9PT1LQnH9vViJ_t2gca8",
+        "grade": 9,
+        "subject": "english",
+        "round": 1,
+        "totalItems": 62,
+        "verifiedItems": 41,
+        "disputedItems": 1,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1_pQpySF_oySBmCVAf0NmFnlL7fJ-DhS4",
+        "grade": 9,
+        "subject": "english",
+        "round": 2,
+        "totalItems": 50,
+        "verifiedItems": 49,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1y-WISb58yzXEQcY4XNImmABwH-nQtp85",
+        "grade": 7,
+        "subject": "english",
+        "round": 1,
+        "totalItems": 63,
+        "verifiedItems": 42,
+        "disputedItems": 1,
+        "limitedItems": 20
+      },
+      {
+        "sourceId": "1NESvIAIjE8O3K7dLULS0WP_cVmZzcWOm",
+        "grade": 7,
+        "subject": "math",
+        "round": 2,
+        "totalItems": 33,
+        "verifiedItems": 33,
+        "disputedItems": 0,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "19QeEP9fXfSdlpk6qVvmr2E5edrWxn2QT",
+        "grade": 7,
+        "subject": "math",
+        "round": 3,
+        "totalItems": 33,
+        "verifiedItems": 32,
+        "disputedItems": 0,
+        "limitedItems": 1
+      },
+      {
+        "sourceId": "1HpyIoO9iL-D9aFoTgqWoyh9KvWtmT9rQ",
+        "grade": 8,
+        "subject": "math",
+        "round": 1,
+        "totalItems": 28,
+        "verifiedItems": 28,
+        "disputedItems": 0,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1LLnx3KeM42N-Hald4PrRPR6XUU22i63C",
+        "grade": 8,
+        "subject": "math",
+        "round": 2,
+        "totalItems": 28,
+        "verifiedItems": 24,
+        "disputedItems": 1,
+        "limitedItems": 3
+      },
+      {
+        "sourceId": "1RjR8S-h_0PQdN5mXLVMGg1rbpptFM_Py",
+        "grade": 8,
+        "subject": "math",
+        "round": 3,
+        "totalItems": 30,
+        "verifiedItems": 30,
+        "disputedItems": 0,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1MLsDcjGWTy7I3M7-5J60mOoFUwhVveUl",
+        "grade": 9,
+        "subject": "math",
+        "round": 1,
+        "totalItems": 30,
+        "verifiedItems": 28,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1GYtpXl0VFDNN-GYkdyOaoc0TqMTmOYUj",
+        "grade": 9,
+        "subject": "math",
+        "round": 2,
+        "totalItems": 25,
+        "verifiedItems": 23,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1NtKDPIaNNX8EXp4DCyJwIlvqOfDm6QsS",
+        "grade": 7,
+        "subject": "math",
+        "round": 1,
+        "totalItems": 31,
+        "verifiedItems": 29,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1I0GmSDOe_TyHFVivtQZpCBhSuQ94tFxy",
+        "grade": 8,
+        "subject": "physical",
+        "round": 1,
+        "totalItems": 45,
+        "verifiedItems": 40,
+        "disputedItems": 5,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "11pbFThEcQkfUMRHrNxW2cfRMsLOQAO6k",
+        "grade": 8,
+        "subject": "physical",
+        "round": 2,
+        "totalItems": 46,
+        "verifiedItems": 39,
+        "disputedItems": 4,
+        "limitedItems": 3
+      },
+      {
+        "sourceId": "1KTvqzTeca7LQxUJ51MGfCfuIZBbpFdbc",
+        "grade": 8,
+        "subject": "physical",
+        "round": 3,
+        "totalItems": 45,
+        "verifiedItems": 40,
+        "disputedItems": 4,
+        "limitedItems": 1
+      },
+      {
+        "sourceId": "1D1ZhbmzzuvkZ3UjID_F82WCjuf0SKkKg",
+        "grade": 9,
+        "subject": "science",
+        "round": 1,
+        "totalItems": 48,
+        "verifiedItems": 0,
+        "disputedItems": 1,
+        "limitedItems": 47
+      },
+      {
+        "sourceId": "1_F1cLTaFQsdt5kOiS3dGb5DSnPV590bP",
+        "grade": 9,
+        "subject": "science",
+        "round": 2,
+        "totalItems": 36,
+        "verifiedItems": 35,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1rrQS-GBG9hbXxC9YrNdUMbrBfCFA68vU",
+        "grade": 7,
+        "subject": "social",
+        "round": 2,
+        "totalItems": 54,
+        "verifiedItems": 53,
+        "disputedItems": 1,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1-nBB_Jfvt8vdTap6V3VN1yua-vaPZQJ6",
+        "grade": 7,
+        "subject": "social",
+        "round": 3,
+        "totalItems": 54,
+        "verifiedItems": 51,
+        "disputedItems": 3,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1_trQDYvE0HoHOXdAPwC_ClEojDxobBG9",
+        "grade": 8,
+        "subject": "social",
+        "round": 1,
+        "totalItems": 54,
+        "verifiedItems": 52,
+        "disputedItems": 2,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1IyRF_yDq4Yg31aM-kK3BCA0Eo0VEBw4A",
+        "grade": 8,
+        "subject": "social",
+        "round": 2,
+        "totalItems": 54,
+        "verifiedItems": 50,
+        "disputedItems": 4,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1WMoIrWrnb0IQIU-TtyLc-IV0HNkw_VrG",
+        "grade": 8,
+        "subject": "social",
+        "round": 3,
+        "totalItems": 54,
+        "verifiedItems": 49,
+        "disputedItems": 5,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1rs9_ok0Lvg3aMD0xTmcJK-RWbwOz7bk6",
+        "grade": 9,
+        "subject": "social",
+        "round": 1,
+        "totalItems": 54,
+        "verifiedItems": 50,
+        "disputedItems": 4,
+        "limitedItems": 0
+      },
+      {
+        "sourceId": "1PnrXy3WNh36U85zGrEf9L_anYI--ciTx",
+        "grade": 9,
+        "subject": "social",
+        "round": 2,
+        "totalItems": 45,
+        "verifiedItems": 42,
+        "disputedItems": 1,
+        "limitedItems": 2
+      },
+      {
+        "sourceId": "1vfRoMIOb3So4d-0osG7LDcYm1aZOF8ql",
+        "grade": 7,
+        "subject": "social",
+        "round": 1,
+        "totalItems": 54,
+        "verifiedItems": 53,
+        "disputedItems": 1,
+        "limitedItems": 0
+      }
+    ],
+    "gzipLevel": 6,
+    "gzipImplementation": "Node zlib, default level 6"
+  },
+  "remainingSources": [
+    {
+      "sectionId": "115-1-7-chinese/第二課",
+      "title": "生之歌選",
+      "requirement": "缺康軒115上第二課完整選文；須同時核〈一顆珍珠〉與〈手的故事〉的起訖、刪節及出處。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-7-chinese/第五課",
+      "title": "論語選",
+      "requirement": "缺康軒115上第五課各則首句及完整章次；不同冊次、總複習書可能合併不同選則。 已找到出版社總複習試閱中的選則索引，但它跨版本彙整，不能直接證明本校115上課本的完整選則。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-7-chinese/第六課",
+      "title": "那默默的一群",
+      "requirement": "缺康軒115上第六課或張騰蛟原篇完整文本；作者介紹、課程目標與教案目錄不足以核情節。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-7-chinese/第十課",
+      "title": "鬧元宵",
+      "requirement": "缺康軒115上第十課／朱天衣原篇完整選文與收錄出處；一般元宵習俗介紹不是本文。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-9-chinese/第二課",
+      "title": "詞選",
+      "requirement": "學校115上計畫確認李清照〈如夢令〉及辛棄疾〈南鄉子〉；仍缺各詞首句與康軒完整選文，不能只憑詞牌唯一識別作品。 已讀學校課程計畫第6頁並查出版社目錄；尚未取得本課逐句文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-9-chinese/第三課",
+      "title": "人間好時節",
+      "requirement": "缺康軒115上第三課實際選段及完整原篇；同名書的導言與商品簡介不等於這篇課文。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-9-chinese/第六課",
+      "title": "獵人",
+      "requirement": "缺康軒115上第六課或作者同篇完整原文；相關人權教案搜尋線索未成功取得可核附錄。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-9-chinese/第八課",
+      "title": "畫說湖心亭看雪",
+      "requirement": "缺康軒115上第八課劉墉完整畫說文本與圖像；僅讀張岱古文不能涵蓋後人的解說、圖文安排及選段。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-9-chinese/第九課",
+      "title": "喂——出來！",
+      "requirement": "缺康軒115上第九課的中文譯者、完整譯文及選文界線；日文題名與他人梗概不足以核課本用語。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "115-1-7-taiwanese/一",
+      "title": "白糖粿",
+      "requirement": "缺長鴻115上七年級第一課作者及全文；已讀校課程計畫，食譜、商家介紹與同題競賽文章不能直接視為同篇。 已查長鴻相關公開資源並閱讀學校課程計畫，仍只有課名和教學目標。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-chinese/第三課",
+      "title": "情緒是生命的指引",
+      "requirement": "缺康軒114下第三課完整選段；需核《療癒，從感受情緒開始》對應篇章與課本刪節，不能換成別位作者的近似題文。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-chinese/第八課",
+      "title": "成功是失敗之母",
+      "requirement": "缺康軒114下第八課／《山居功課》原篇的完整文本；高希均另有同題文章，不能互換作者與論證。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-chinese/第九課",
+      "title": "罐頭由來",
+      "requirement": "缺康軒114下第九課完整原文，及《飲膳佳會：餐桌上的文化史》對應選段。商品目錄與食品常識不能證明作者用了哪些史料。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-9-chinese/第一課",
+      "title": "臺灣竹枝詞選",
+      "requirement": "缺康軒114下第一課實際選詩首句與課本文字；原作者作品不只一首，不能由總題名推定選取範圍。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-9-chinese/第四課",
+      "title": "火車與熱氣球",
+      "requirement": "缺康軒114下第四課或《寫在課本留白處》同篇完整文本；出版社書目只能確認篇目，不能代替正文。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-9-chinese/第六課",
+      "title": "后羿射月",
+      "requirement": "缺康軒114下第六課完整劇本及舞臺指示；這是現代創作，不能替換成后羿射日的古代神話。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-7-taiwanese/第一課",
+      "title": "ChatGPT敢會曉講閩南語？",
+      "requirement": "缺康軒114下七年級第一課作者、刊載日期及完整臺語文章；題名不是對今日模型能力的查證結果。 已查出版社臺語教學資源與原题搜尋，尚未取得可公開閱讀的署名全文。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-7-taiwanese/第二課",
+      "title": "收成",
+      "requirement": "缺康軒114下七年級第二課署名與全文；同題作品眾多，插畫作品集線索不足以確認課文作者。 已查出版社與相關創作線索，但沒有可相互核對的完整選文。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-7-taiwanese/第三課",
+      "title": "工作犬",
+      "requirement": "缺康軒114下七年級第三課作者及完整選文；一般犬種或訓練百科不能確定本文寫的是哪種工作。 已查出版社、作者／教育公開資源，尚未取得能核對本課完整選文的公開文本。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-taiwanese/第一課",
+      "title": "人生逐位會開花",
+      "requirement": "缺真平114下八年級第一課完整詩文、用字與音讀；出版社書目可核作者和同題作品，但尚未取得可核的完整原篇。 已查出版社收錄目錄及歌詞資料線索；全文來源本次未能取得可讀頁面，保留待核。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-taiwanese/第二課",
+      "title": "固定心態，沿路阻礙；成長心態，一生無礙",
+      "requirement": "缺真平114下八年級第二課作者及全文；學校計畫只能核心態比較主題，不能證明原課舉例或學術歸屬。 已讀學校課程計畫並查出版社資源，未取得全文。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-taiwanese/語文天地一",
+      "title": "連接詞(一)",
+      "requirement": "缺真平114下語文天地一完整詞表、例句及音讀；學校計畫第14頁可核並列、選擇、因果、先後四類。 已核教育部辭典兩詞與校課程範圍，但課本其餘選詞、句式未取得；此處僅是核查清單。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-taiwanese/第四課",
+      "title": "太平洋的風",
+      "requirement": "缺真平114下八年級第四課作者及全文；學校計畫第25–26頁指向太魯閣文化脈絡，不能替換成胡德夫歌曲或其他同名散文。 已讀本校課程計畫並搜尋同題來源，排除作者、文類不符的結果後仍未取得正文。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    },
+    {
+      "sectionId": "114-2-8-taiwanese/語文天地二",
+      "title": "連接詞(二)",
+      "requirement": "缺真平114下語文天地二完整詞表、例句及音讀；學校計畫第28頁可核漸進、轉折、假設、條件四類。 已核教育部辭典兩詞與校課程範圍，尚未取得其餘教材句例；此處僅是核查清單。 本節原有自編閱讀練習保留，不能當作同名課文原文。"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "model": "gpt-6-astra",
+    "baseCommit": "716e80b79db62131e1594b32247adc8a8a27e9cf",
+    "reviewedCommit": "6d846ee6c278fa5131fdb0f6197e63766775b032",
+    "criticalFindings": 0,
+    "importantFindings": 0,
+    "independentPaperRoutes": 40,
+    "independentReadingAndPrintRoutes": 74,
+    "runtimeErrors": 0,
+    "freshHomeContentDownloads": 0,
+    "sourceBoundariesExplicit": true
+  },
+  "publicRelease": {
+    "status": "pending"
+  }
+}

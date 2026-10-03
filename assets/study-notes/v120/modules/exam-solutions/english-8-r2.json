@@ -1,0 +1,1300 @@
+{
+  "schema": 1,
+  "sourceId": "1UTAgwXKE4XprzdtR_UP44iiniucOy4p6",
+  "sourceSha256": "9e4b3349cd6d697d749309682b0cd853ed24a18a821ebf9a5b83faeb0fef2241",
+  "title": "114-2-2八年級英文科試題(公告).pdf",
+  "checked": "2026-10-03",
+  "coverageNote": "已逐題整理第 1～67 題，目視核對全部 8 個 PDF 實體頁面，包含圖像、兩年份圓餅圖、拍攝時程、作答卷與答案。第 1～20 題缺原始音檔，僅依紙本聽力稿核對，均標示核對受限；第 36 題官方意圖可辨，但假設結果的時態有問題，列為待釐清；第 26 題另提示原句句構缺陷。第 7 頁只重列翻譯作答格，不重複計題；解析採實體頁碼，非卷首頁數 6 或頁尾 7。此為 114-2 歷年題解，不代表 115-1 考試範圍。",
+  "sections": [
+    {
+      "id": "listening-words",
+      "title": "聽力：單字辨識"
+    },
+    {
+      "id": "listening-images",
+      "title": "聽力：圖片辨識"
+    },
+    {
+      "id": "listening-responses",
+      "title": "聽力：基本問答"
+    },
+    {
+      "id": "listening-dialogue",
+      "title": "聽力：言談理解"
+    },
+    {
+      "id": "grammar",
+      "title": "字彙與文法"
+    },
+    {
+      "id": "cloze",
+      "title": "克漏字"
+    },
+    {
+      "id": "reading",
+      "title": "閱讀測驗"
+    },
+    {
+      "id": "translation",
+      "title": "中翻英"
+    }
+  ],
+  "items": [
+    {
+      "id": "english-8-r2-1",
+      "section": "listening-words",
+      "label": "第 1 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "母雞 hens",
+      "answer": "B：hens",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說蛋來自農場的母雞，目標字是 hens。",
+        "hens 是 hen 的複數，與會產蛋的動物相符，選 B。"
+      ],
+      "pitfall": "hands 是手，不能只因開頭 h 與結尾 s 相同就混淆。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-2",
+      "section": "listening-words",
+      "label": "第 2 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "綿羊 sheep",
+      "answer": "C：sheep",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿把動物描述為摸起來柔軟，並明列 sheep。",
+        "選項 C 是綿羊；ship 是船、shape 是形狀。"
+      ],
+      "pitfall": "此題涉及母音辨識，不能宣稱只有稿文就已核對錄音發音。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-3",
+      "section": "listening-words",
+      "label": "第 3 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "計畫參加夏令營",
+      "answer": "B：plan",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿的動作是計畫報名夏令營，使用 plan to。",
+        "plan 後加不定詞表打算做事，與 B 相符。"
+      ],
+      "pitfall": "plant 多一個字尾 t，plane 則是飛機。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-4",
+      "section": "listening-words",
+      "label": "第 4 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "池塘 pond",
+      "answer": "A：pond",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿描述魚在池塘裡游泳，地點名詞是 pond。",
+        "三個選項中 A 才是池塘，與 swimming in 相連。"
+      ],
+      "pitfall": "pound 是重量單位或動詞，不能取代 pond。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-5",
+      "section": "listening-words",
+      "label": "第 5 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "到達 reach",
+      "answer": "C：reach",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說花四小時到達玉山山頂，使用 reach。",
+        "reach 可直接接受詞山頂，選 C。"
+      ],
+      "pitfall": "rich 是富有的，peach 是桃子，不能表到達。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-6",
+      "section": "listening-images",
+      "label": "第 6 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "看狗與主人玩耍",
+      "answer": "C：狗正和主人玩的圖",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿同時提到男孩在看，以及狗與主人玩耍。",
+        "C 有狗與主人互動，A、B 沒有另一位主人配合。"
+      ],
+      "pitfall": "不要只找到男孩和狗而漏掉 with its owner。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-7",
+      "section": "listening-images",
+      "label": "第 7 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "水中與石上的動物",
+      "answer": "B：鵝在池中、龜在石上",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿指定鵝在水裡，烏龜停在石頭上。",
+        "B 同時符合種類和位置；A 石上是青蛙，C 把位置交換。"
+      ],
+      "pitfall": "比較圖時必須核對動物名稱及介系詞位置。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-8",
+      "section": "listening-images",
+      "label": "第 8 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "未戴眼鏡看不清",
+      "answer": "B：沒戴眼鏡且讀不清的圖",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說奶奶沒戴眼鏡，無法清楚看見文字。",
+        "B 沒有眼鏡且對話泡泡模糊，符合兩項條件。"
+      ],
+      "pitfall": "C 有眼鏡，即使文字模糊仍不符 without glasses。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-9",
+      "section": "listening-images",
+      "label": "第 9 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "舞蹈表現排序",
+      "answer": "B：Tom 最佳、Amy 次之、Emma 最後",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿說 Amy 比 Emma 好，但不如 Tom。",
+        "B 的數字依序為 Tom 3000、Amy 500、Emma 100，排序相符。"
+      ],
+      "pitfall": "要整合兩個比較式，不能只看 Amy 勝過 Emma。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-10",
+      "section": "listening-images",
+      "label": "第 10 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "搜救犬在狹小處嗅聞",
+      "answer": "C：瓦礫間搜尋的狗",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿強調搜救犬能進入狹小空間且嗅覺敏銳。",
+        "C 顯示犬隻低頭在瓦礫間搜尋，與這兩項能力相符。"
+      ],
+      "pitfall": "B 的互動場景沒有呈現搜救，不能只認出背心就選。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-11",
+      "section": "listening-responses",
+      "label": "第 11 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "詢問歌唱方式",
+      "answer": "A：唱得優美",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿使用 How 詢問 Phoebe 唱得如何。",
+        "beautifully 是修飾唱歌表現的副詞，直接回答方式。"
+      ],
+      "pitfall": "every day 回答頻率，at the party 回答地點或場合。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-12",
+      "section": "listening-responses",
+      "label": "第 12 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "老師要求做什麼",
+      "answer": "A：讓我們分享想法",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿問老師讓學生做什麼，have 人 do 表使某人做事。",
+        "A 使用 had us share，直接對應指定的活動。"
+      ],
+      "pitfall": "老師吃了什麼或有多少作業，並非學生被要求做的事。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-13",
+      "section": "listening-responses",
+      "label": "第 13 題",
+      "sourcePages": [
+        1,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "協助童工的方法",
+      "answer": "B：向他人傳達他們的故事",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿詢問能如何幫助童工，答案須有支援或提高關注的方向。",
+        "分享處境能讓更多人了解，B 最合適。"
+      ],
+      "pitfall": "work day and night 是剝削情境，不是提供幫助的方法。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-14",
+      "section": "listening-responses",
+      "label": "第 14 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "答應核對律師資料",
+      "answer": "A：沒問題，資料是真的",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿以 Could you 請人查核關於律師的資訊。",
+        "A 先接受請求，再回報核對結果，最符合問句功能。"
+      ],
+      "pitfall": "I agree 回應觀點，不直接接受查資料的請求。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-15",
+      "section": "listening-responses",
+      "label": "第 15 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "颱風前採買",
+      "answer": "C：稍後去購物",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿提出颱風將至，需要準備食物。",
+        "C 的購物建議可以落實備糧，與前句直接相接。"
+      ],
+      "pitfall": "手電筒和蠟燭有防災用途，但沒有回應此處食物需求。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-16",
+      "section": "listening-dialogue",
+      "label": "第 16 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "由看診對話判斷職業",
+      "answer": "C：眼科醫師",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿的患者說看不清標誌、閱读和使用電腦困難。",
+        "男子請她張眼以便檢查，職業最符合眼科醫師。"
+      ],
+      "pitfall": "提到交通標誌不表示正在與警察對話。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-17",
+      "section": "listening-dialogue",
+      "label": "第 17 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "延長會員方案",
+      "answer": "C：會續訂會員",
+      "officialAnswer": "C",
+      "status": "limited",
+      "steps": [
+        "紙本稿說會員兩週後到期，十五集難以看完，兩人同意延長。",
+        "因此結論是續訂方案，選 C。"
+      ],
+      "pitfall": "稿文是 fifteen，選項 fifty 的五十集不相同。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-18",
+      "section": "listening-dialogue",
+      "label": "第 18 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "由苦味理解同情",
+      "answer": "B：同情童工",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "紙本稿中男子知道童工處境後，表示要傳達故事並停止購買。",
+        "巧克力變苦是心情轉變的表述，重點是對童工感到難過。"
+      ],
+      "pitfall": "不能只抓 bitter 而忽略後續幫助童工的意圖。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-19",
+      "section": "listening-dialogue",
+      "label": "第 19 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "男子提出的行動",
+      "answer": "B：向勞工主管機關反映老闆行為",
+      "officialAnswer": "B",
+      "status": "limited",
+      "steps": [
+        "女子先提出找律師，男子回答不是，接著提出向 Labor Department 反映。",
+        "題目問男子的建議，因此選 B 而非女子原先猜測。"
+      ],
+      "pitfall": "要注意說話者與 No 之後真正的提議；本題僅解讀對話。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-20",
+      "section": "listening-dialogue",
+      "label": "第 20 題",
+      "sourcePages": [
+        2,
+        8
+      ],
+      "answerPage": 8,
+      "topic": "經營影片頻道所需",
+      "answer": "A：必須有許多點子",
+      "officialAnswer": "A",
+      "status": "limited",
+      "steps": [
+        "紙本稿中女子反駁工作很容易，強調要有有趣題材才能吸引觀眾。",
+        "她認為創作者需投入時間構思，因此選 A。"
+      ],
+      "pitfall": "能賺錢與旅遊是男子開頭的想像，不是女子重點。",
+      "note": "未取得原始音檔；僅核對紙本聽力稿、題目及官方答案，不能視為已驗證實際播放內容或發音。"
+    },
+    {
+      "id": "english-8-r2-21",
+      "section": "grammar",
+      "label": "第 21 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "陽臺圖像辨識",
+      "answer": "D：燃燒的蠟燭",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖中陽臺有正在發光的蠟燭，星星位於天空而不是陽臺。",
+        "貓畫成睜眼狀態，並非 sleeping；所以完整相符的是 D。"
+      ],
+      "pitfall": "物件存在不夠，還需核對其狀態與位置。"
+    },
+    {
+      "id": "english-8-r2-22",
+      "section": "grammar",
+      "label": "第 22 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "容納更多人的空間",
+      "answer": "C：space",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "演唱會已擠滿人，後句表示無法再容納更多人。",
+        "space 在此指可用空間，符合 no space for more。"
+      ],
+      "pitfall": "service 是服務，不能表示場地容量。"
+    },
+    {
+      "id": "english-8-r2-23",
+      "section": "grammar",
+      "label": "第 23 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "火車形狀的蛋糕",
+      "answer": "D：shape",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "題句在描述蛋糕外形像火車。",
+        "in the shape of 表呈某物的形狀，故選 D。"
+      ],
+      "pitfall": "sharp 是尖銳的形容詞，與 shape 的名詞用法不同。"
+    },
+    {
+      "id": "english-8-r2-24",
+      "section": "grammar",
+      "label": "第 24 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "到達山頂",
+      "answer": "D：reached",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "空格後直接接山頂名詞片語，需要能直接接受詞的動詞。",
+        "reach the top 表到達山頂；get 通常要補 to 才能表相同意思。"
+      ],
+      "pitfall": "不要寫 got the top 來代替 got to the top。"
+    },
+    {
+      "id": "english-8-r2-25",
+      "section": "grammar",
+      "label": "第 25 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "條件與勉強完成",
+      "answer": "B：If；is pushing it",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "若沒時間吃晚餐，就改喝杯飲料，前句是條件建議，用 If。",
+        "三十分鐘內吃完太勉強，is pushing it 表超出合理限度。"
+      ],
+      "pitfall": "give it a try 表試看看，不能直接代替太勉強。"
+    },
+    {
+      "id": "english-8-r2-26",
+      "section": "grammar",
+      "label": "第 26 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "價格急遽上漲",
+      "answer": "A：sharply",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "供應地出問題、船運困難，語境指油價漲幅大。",
+        "sharply 可修飾 going up 表急遽上漲，最合語意。"
+      ],
+      "pitfall": "brightly、loudly 描述光或聲音，不描述價格漲幅。",
+      "note": "此題空格答案明確；原句 talking about 後直接接完整陳述句，整體句構不自然，可改成 talking about the sharp rise in oil prices。本解析只核對空格，不將原句當成文法範本。"
+    },
+    {
+      "id": "english-8-r2-27",
+      "section": "grammar",
+      "label": "第 27 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "吹熄生日蠟燭",
+      "answer": "B：blew out",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "生日蛋糕與許願的情境，需要吹熄蠟燭的動作。",
+        "blow out 的過去式 blew out 符合前文過去事件。"
+      ],
+      "pitfall": "go out 可表火熄滅，但不能以人作主詞直接帶 candles 表吹熄。"
+    },
+    {
+      "id": "english-8-r2-28",
+      "section": "grammar",
+      "label": "第 28 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "不光彩的工作",
+      "answer": "C：dirty",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "前文猜測 Mark 找人替他弄壞眼鏡，是做壞事的情境。",
+        "do the dirty work 指替人做不光彩或不願親自做的事。"
+      ],
+      "pitfall": "dirty 在此是比喻，不只表示物理上的髒。"
+    },
+    {
+      "id": "english-8-r2-29",
+      "section": "grammar",
+      "label": "第 29 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "手機噪音與對待方式",
+      "answer": "A：noise；treat",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "母親無法忍受手機發出的聲響，第一格用 noise。",
+        "兒子要求別把自己當孩子對待，treat 人 like… 符合句型。"
+      ],
+      "pitfall": "let 與 make 的使役結構不能直接代替 treat…like。"
+    },
+    {
+      "id": "english-8-r2-30",
+      "section": "grammar",
+      "label": "第 30 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "說明 decluttering 的意思",
+      "answer": "C：means",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "第二句要為整理雜物作定義，描述丟掉不需要的物品。",
+        "動名詞主詞 Decluttering 視為單數，搭配 means。"
+      ],
+      "pitfall": "tell 通常需指出告訴誰或告知內容，不能在此直接表示意謂。"
+    },
+    {
+      "id": "english-8-r2-31",
+      "section": "grammar",
+      "label": "第 31 題",
+      "sourcePages": [
+        2
+      ],
+      "answerPage": 8,
+      "topic": "條件句與停止下雨",
+      "answer": "B：stops raining",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "未來的 if 條件子句通常用現在式，故不用 won't rain。",
+        "stop 加動名詞表示停止該動作，stops raining 即雨停。"
+      ],
+      "pitfall": "stop to rain 是停下來為了下雨，意思不合。"
+    },
+    {
+      "id": "english-8-r2-32",
+      "section": "grammar",
+      "label": "第 32 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "使役動詞的平行結構",
+      "answer": "A：and brush",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "has me 後的動作是 eat 和 brush，兩者都用原形。",
+        "以 and 並列兩項動作，形成 eat breakfast and brush my teeth。"
+      ],
+      "pitfall": "第三人稱 s 已在 has 上，不再加到 brush。"
+    },
+    {
+      "id": "english-8-r2-33",
+      "section": "grammar",
+      "label": "第 33 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "最不該做的事與存在句",
+      "answer": "B：should；be",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "the last thing people should do 表最不該做的事，符合危險觀浪。",
+        "There should be 是助動詞後接原形的存在句。"
+      ],
+      "pitfall": "there have 不是此處「有警告標誌」的標準存在結構。"
+    },
+    {
+      "id": "english-8-r2-34",
+      "section": "grammar",
+      "label": "第 34 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "祈使句與副詞同級比較",
+      "answer": "D：Practice speaking；well",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "開頭勸人每天練習，祈使句用原形 Practice，且 practice 後接動名詞 speaking。",
+        "修飾 speak 用副詞 well；as…as 之間用原級。"
+      ],
+      "pitfall": "better 是比較級，不放在此處 as…as 中間。"
+    },
+    {
+      "id": "english-8-r2-35",
+      "section": "grammar",
+      "label": "第 35 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "跳舞表現的副詞比較",
+      "answer": "B：poorly",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "後句說 Ken 仍跳得比較美，前句應表示 Lillian 表現較差。",
+        "poorly 是副詞，可形成 more poorly 修飾 dances。"
+      ],
+      "pitfall": "worse 已是比較級，不能再加 more；課內 badly 的比較級是 worse。"
+    },
+    {
+      "id": "english-8-r2-36",
+      "section": "grammar",
+      "label": "第 36 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "幫忙修車與假設結果",
+      "answer": "A：helped；Without（官方意圖，後句需修訂）",
+      "officialAnswer": "A",
+      "status": "disputed",
+      "steps": [
+        "Luke 感謝 Jenny 的善意，第一格應是 helped，help 人接原形 fix。",
+        "第二格想表「若沒有她的善意便得走路」，Without 合意圖，但完整的過去假設應用 would have had to walk，原印 had to 造成語意不順。"
+      ],
+      "pitfall": "不要把已獲幫忙的過去事實和未發生的假設結果混為一談。",
+      "note": "官方答案 A。helped 與 Without 符合命題意圖，但原句在已獲幫助的背景下寫 Without her kind heart, he had to walk，未正確表達過去反事實；宜改 would have had to walk。此外 thanked 後漏了受詞 her。保留官方選項並不把整句當成正確範本。"
+    },
+    {
+      "id": "english-8-r2-37",
+      "section": "grammar",
+      "label": "第 37 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "條件後的祈使主句",
+      "answer": "D：remember to give",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "If 子句完成條件，後面需要完整主句，可用祈使句 remember。",
+        "remember to give 表記得去做尚未做的事，give…a try 表試試。"
+      ],
+      "pitfall": "條件子句後不再加 and；remembering 本身不能作此主句動詞。"
+    },
+    {
+      "id": "english-8-r2-38",
+      "section": "grammar",
+      "label": "第 38 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "連綴動詞與動作副詞",
+      "answer": "D：sad；waving；happily",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "look sad 表看起來難過，用形容詞；see 人 waving 表看見正在揮手。",
+        "末句 looked at 是觀看的動作，需用副詞 happily 描述方式。"
+      ],
+      "pitfall": "look 作連綴動詞與 look at 作動作時，後接詞性不同。"
+    },
+    {
+      "id": "english-8-r2-39",
+      "section": "grammar",
+      "label": "第 39 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "年齡比較與代替動詞",
+      "answer": "D：older；and she does",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "Kelly 先出生三分鐘，因此比兄弟年長，用 older。",
+        "後半肯定她也須做家事，以 does 代替 has to do housework。"
+      ],
+      "pitfall": "have to 的 have 是一般動詞，附加肯定句用 does，不是 has。"
+    },
+    {
+      "id": "english-8-r2-40",
+      "section": "grammar",
+      "label": "第 40 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "回應遛狗要求",
+      "answer": "C：理解運動需求但認為一小時太多",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "問句請人評價每天遛狗時間，C 同時回應狗的需求與時間負擔。",
+        "其他選項不是直接評價此規定，或把狗與勞工單位不當連結。"
+      ],
+      "pitfall": "本題是對話閱讀，不應把題內新聞敘述當成現行法律說明。"
+    },
+    {
+      "id": "english-8-r2-41",
+      "section": "cloze",
+      "label": "第 41 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "長動作被短事件打斷",
+      "answer": "A：was doing；hit",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "寫作業是地震發生時正在進行的背景，用過去進行式 was doing。",
+        "地震來襲是插入的事件，用簡單過去式 hit。"
+      ],
+      "pitfall": "不要因兩件事同時出現，就兩個都一律用過去進行式。"
+    },
+    {
+      "id": "english-8-r2-42",
+      "section": "cloze",
+      "label": "第 42 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "更糟的處境",
+      "answer": "D：Worst of all",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "前面已有掉落與破裂情形，接著又說三樓只有自己一人。",
+        "這是進一步加重害怕程度，Worst of all 最連貫。"
+      ],
+      "pitfall": "For example 引例，不能直接表達情況變得更糟。"
+    },
+    {
+      "id": "english-8-r2-43",
+      "section": "cloze",
+      "label": "第 43 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "工作到很晚",
+      "answer": "A：late",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "角色擔心父親尚未回家，works late 表工作到很晚。",
+        "late 本身可作副詞；lately 則表示最近，與此處習慣晚歸不同。"
+      ],
+      "pitfall": "加上 -ly 不一定只是詞性轉換，也可能改變字義。"
+    },
+    {
+      "id": "english-8-r2-44",
+      "section": "cloze",
+      "label": "第 44 題",
+      "sourcePages": [
+        3
+      ],
+      "answerPage": 8,
+      "topic": "害怕時的反應",
+      "answer": "D：忍不住哭泣",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "角色獨處黑暗中、聯絡不到家人，最後又感嘆夜晚可怕。",
+        "哭泣最符合這些情緒線索，選 D。"
+      ],
+      "pitfall": "不能忽略全文害怕的情緒而選吃飯或玩牌等中性活動。"
+    },
+    {
+      "id": "english-8-r2-45",
+      "section": "cloze",
+      "label": "第 45 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "偏鄉就醫的必要路程",
+      "answer": "C：have to",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "前後文解釋為何村民無法輕易就醫，原因是必須走很遠。",
+        "have to travel 表客觀情況造成的必要，不是自願長途旅行。"
+      ],
+      "pitfall": "want to 表想要，會改變醫療不便的因果關係。"
+    },
+    {
+      "id": "english-8-r2-46",
+      "section": "cloze",
+      "label": "第 46 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "有限停留時間中的效率",
+      "answer": "A：as fast as they can",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "列車只停留幾週，因此要把握時間迅速協助民眾。",
+        "as fast as they can 表盡可能快，兼顧語法與段落語意。"
+      ],
+      "pitfall": "more better 是雙重比較，不能使用。"
+    },
+    {
+      "id": "english-8-r2-47",
+      "section": "cloze",
+      "label": "第 47 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "服務帶來正面結果",
+      "answer": "A：thanks to this service",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "前文列出治療及培訓，後句是居民能過更健康的生活。",
+        "thanks to 指有利原因，能連接服務與改善結果。"
+      ],
+      "pitfall": "without this service 會把因果方向完全反轉。"
+    },
+    {
+      "id": "english-8-r2-48",
+      "section": "reading",
+      "label": "第 48 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "從指稱判斷 pistachios",
+      "answer": "B：一種堅果",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章說樹木產生 nuts，並以 this nut 回指 pistachios。",
+        "因此它是用於巧克力餡料的堅果，而不是巧克力本身。"
+      ],
+      "pitfall": "成為某食品的原料，不代表與該食品是同一類。"
+    },
+    {
+      "id": "english-8-r2-49",
+      "section": "reading",
+      "label": "第 49 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "依生長條件選地點",
+      "answer": "C：伊朗六月炎熱少雨",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "文章給的兩項條件是 hot 與 dry。",
+        "C 同時有高溫與少雨；其他選項至少違反冷或多雨的一項。"
+      ],
+      "pitfall": "不能只看臺灣八月很熱，還需檢查降雨條件。"
+    },
+    {
+      "id": "english-8-r2-50",
+      "section": "reading",
+      "label": "第 50 題",
+      "sourcePages": [
+        4
+      ],
+      "answerPage": 8,
+      "topic": "代名詞 this 的指涉",
+      "answer": "A：羅馬人把堅果帶到歐非",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "this 前一句剛說羅馬人把開心果帶到歐洲和非洲。",
+        "後句更多人認識並食用的結果，正由傳播到新地區造成。"
+      ],
+      "pitfall": "指示詞通常回指近處完整事件，不能跳回首段甜點熱潮。"
+    },
+    {
+      "id": "english-8-r2-51",
+      "section": "reading",
+      "label": "第 51 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "傳統嗜好再度流行",
+      "answer": "B：舊嗜好在年輕人間變熱門",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章從烘焙、縫紉、種植介紹年輕人的新興興趣。",
+        "後段解釋放鬆與滿足的好處，支持傳統嗜好重新流行這一主旨。"
+      ],
+      "pitfall": "建議減少手機時間不等於要求完全停止使用。"
+    },
+    {
+      "id": "english-8-r2-52",
+      "section": "reading",
+      "label": "第 52 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "由語境推知 satisfied",
+      "answer": "C：對所做的事感到開心",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "前後文說手作能減壓、放鬆、感覺更好。",
+        "satisfied 因此是對完成的事感到滿意，與 C 最接近。"
+      ],
+      "pitfall": "不要看到反覆手作就自行推成無聊，文章評價是正面的。"
+    },
+    {
+      "id": "english-8-r2-53",
+      "section": "reading",
+      "label": "第 53 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "比較兩張圓餅圖",
+      "answer": "D：祖母嗜好在 2026 年更熱門",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "圖上 Grandma Hobbies 由 2024 年 5% 增為 2026 年 25%。",
+        "運動也由 20% 升至 25%，Others 維持 10%，故只有 D 符合。"
+      ],
+      "pitfall": "需比同一分類的兩年份，不要把扇形位置當大小變化。"
+    },
+    {
+      "id": "english-8-r2-54",
+      "section": "reading",
+      "label": "第 54 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "找文章未解釋的事",
+      "answer": "B：為何在母國找不到好工作",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章描述工作、住處、思鄉與來臺提高收入的盼望。",
+        "它並未詳細解釋母國就業機會不佳的原因，B 是未交代的資訊。"
+      ],
+      "pitfall": "題目問 NOT；不要把文章有說的辛苦生活選為答案。"
+    },
+    {
+      "id": "english-8-r2-55",
+      "section": "reading",
+      "label": "第 55 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "由付費關係推知 brokers",
+      "answer": "C：安排工作並收取費用的人",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "段落說外籍工作者需要先工作一段時間還錢給 brokers。",
+        "结合跨國就業情境，可推為安排工作並收費的仲介，選 C。"
+      ],
+      "pitfall": "其他選項描述的是工作者本身，應區分付費者與收費者。"
+    },
+    {
+      "id": "english-8-r2-56",
+      "section": "reading",
+      "label": "第 56 題",
+      "sourcePages": [
+        5
+      ],
+      "answerPage": 8,
+      "topic": "由處境推論作者態度",
+      "answer": "A：應善待並感謝外籍工作者",
+      "officialAnswer": "A",
+      "status": "verified",
+      "steps": [
+        "文中描寫長工時、思親、還款壓力及他們的貢獻。",
+        "這些線索支持體諒與善待，而非認定賺錢容易或喜歡離家。"
+      ],
+      "pitfall": "推論須立足文中人物處境，不能把辛苦概括成每個人的喜好。"
+    },
+    {
+      "id": "english-8-r2-57",
+      "section": "reading",
+      "label": "第 57 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "文中教育理念",
+      "answer": "B：孩子可以免費上學",
+      "officialAnswer": "B",
+      "status": "verified",
+      "steps": [
+        "文章明說建立免費學校，並提到男女及貧富兒童一同受教。",
+        "B 直接轉述免付費，其他選項都增加文中沒有的排除限制。"
+      ],
+      "pitfall": "這是依題內電影文案作答，不是對歷史細節的額外查證。"
+    },
+    {
+      "id": "english-8-r2-58",
+      "section": "reading",
+      "label": "第 58 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "藝術科學與城市變化",
+      "answer": "D：藝術和科學蓬勃發展",
+      "officialAnswer": "D",
+      "status": "verified",
+      "steps": [
+        "文中先說新學校推動藝術與科學發展，再說俄國看起來更美。",
+        "依相鄰因果關係，原因是 D，而非衣服、宮殿或移民。"
+      ],
+      "pitfall": "美麗在此承接教育成果，不應任意補上建築情節。"
+    },
+    {
+      "id": "english-8-r2-59",
+      "section": "reading",
+      "label": "第 59 題",
+      "sourcePages": [
+        6
+      ],
+      "answerPage": 8,
+      "topic": "由場景對應拍攝週次",
+      "answer": "C：第 9～11 週",
+      "officialAnswer": "C",
+      "status": "verified",
+      "steps": [
+        "扮演士兵占領土地，對應讓國家疆域擴大的 Scene 3。",
+        "表格把 Scene 3 排在第 9～11 週，因此選 C。"
+      ],
+      "pitfall": "Scene 2 是教育與藝術，不能只憑場次數字猜日期。"
+    },
+    {
+      "id": "english-8-r2-60",
+      "section": "translation",
+      "label": "第 60 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "鵝的單數",
+      "answer": "goose",
+      "officialAnswer": "goose",
+      "status": "verified",
+      "steps": [
+        "中文鵝的單數名詞是 goose。",
+        "題區特別要求單數，不使用不規則複數 geese。"
+      ],
+      "pitfall": "goose 的 oo 與 geese 的 ee 表示單複數不同。"
+    },
+    {
+      "id": "english-8-r2-61",
+      "section": "translation",
+      "label": "第 61 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "網頁名稱",
+      "answer": "web page",
+      "officialAnswer": "web page",
+      "status": "verified",
+      "steps": [
+        "網頁由 web 與 page 組成，官方答案採兩個字。",
+        "page 表單一頁面，符合題目單數要求。"
+      ],
+      "pitfall": "網站 website 和其中一個網頁 web page 概念不同。"
+    },
+    {
+      "id": "english-8-r2-62",
+      "section": "translation",
+      "label": "第 62 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "梨的英文",
+      "answer": "pear",
+      "officialAnswer": "pear",
+      "status": "verified",
+      "steps": [
+        "梨的名稱是 pear，依題意填單數。",
+        "注意字尾是 -ear，不需加入複數 s。"
+      ],
+      "pitfall": "pear 與 pair 同音但意思不同，拼字須對應水果。"
+    },
+    {
+      "id": "english-8-r2-63",
+      "section": "translation",
+      "label": "第 63 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "嘈雜的形容詞",
+      "answer": "noisy",
+      "officialAnswer": "noisy",
+      "status": "verified",
+      "steps": [
+        "題目要求形容詞「嘈雜的」，由 noise 對應 noisy。",
+        "形容人或地方很吵時用 noisy，不能直接填名詞 noise。"
+      ],
+      "pitfall": "注意去掉 noise 的 e 再接 y。"
+    },
+    {
+      "id": "english-8-r2-64",
+      "section": "translation",
+      "label": "第 64 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "美國人的英文",
+      "answer": "American",
+      "officialAnswer": "American",
+      "status": "verified",
+      "steps": [
+        "表示美國人可用單數名詞 American。",
+        "國籍相關詞首字母大寫，保留 American 的 A。"
+      ],
+      "pitfall": "不要只寫 America，該字是地名而非此處人的稱呼。"
+    },
+    {
+      "id": "english-8-r2-65",
+      "section": "translation",
+      "label": "第 65 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "山羊的英文",
+      "answer": "goat",
+      "officialAnswer": "goat",
+      "status": "verified",
+      "steps": [
+        "山羊對應 goat，與綿羊 sheep 不同。",
+        "此區要求單數，所以寫 goat 原形。"
+      ],
+      "pitfall": "不要把 goat 與 coat 的起首子音混淆。"
+    },
+    {
+      "id": "english-8-r2-66",
+      "section": "translation",
+      "label": "第 66 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "使役動詞與休息",
+      "answer": "He makes us work day and night and seldom lets us take a break.",
+      "officialAnswer": "He makes (made) us work/ day and night/ and seldom lets (let) us/ take a break.",
+      "status": "verified",
+      "steps": [
+        "make／let 人接原形動詞，故使用 makes us work 與 lets us take。",
+        "以 day and night 表日夜，seldom 放在 lets 前；若改過去式，made 與 let 須一致。"
+      ],
+      "pitfall": "不要在使役動詞後的 work、take 前加 to，也不要讓兩半時態不一致。"
+    },
+    {
+      "id": "english-8-r2-67",
+      "section": "translation",
+      "label": "第 67 題",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "answerPage": 8,
+      "topic": "嗅覺的倍數比較",
+      "answer": "Dogs’ sense of smell is thousands of times better than ours.",
+      "officialAnswer": "Dogs’ (A dog’s)/ sense of smell/ is thousands of times/ better than/ ours.",
+      "status": "verified",
+      "steps": [
+        "被比較的核心是單數 sense，所以用 is；以 Dogs’ 表狗的所有格。",
+        "倍數 thousands of times 放在比較級 better 前，ours 代替 our sense of smell。"
+      ],
+      "pitfall": "須比較嗅覺與嗅覺，不能用 us 把能力與人直接相比。"
+    }
+  ]
+}
