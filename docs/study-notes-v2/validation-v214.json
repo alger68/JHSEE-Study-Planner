@@ -59,12 +59,52 @@
       "status": "passed",
       "tests": 74
     },
-    "gitDiffCheck": "passed"
+    "gitDiffCheck": "passed",
+    "ciNotes": 189,
+    "ciPlanner": 74
   },
   "review": {
-    "status": "pending"
+    "status": "passed",
+    "model": "gpt-6-astra",
+    "reviewedCommit": "5817992ab3d6860bdac9006ff5c2beef46de0df3",
+    "baselineCommit": "2bb3b86ae2922a09ed4e6b541ff3fac60a653cad",
+    "criticalFindings": 0,
+    "importantFindings": 0,
+    "minorFindings": 0,
+    "independentlyRebuiltSha256": "e017eeb99f8b84a2750f9c305faf00f76384ef0307623ccec65e35b42acf7f21",
+    "priorFiftyRowsIndependentlyUnchanged": true,
+    "limits": [
+      "Native browser and public delivery require CI gates",
+      "Unchanged content preserves prior audits rather than reauthoring",
+      "Fifteen new Chinese items are original-verified, not exact adopted-edition collation"
+    ]
   },
   "publicRelease": {
-    "status": "pending"
+    "status": "passed",
+    "runtimeCommit": "28c8d38fbb45e836143bee76b789e9ebcf521502",
+    "testedTree": "6d4762e242980e88887a0d56bb4013cfda3c568e",
+    "actionsRun": 37114678820,
+    "actionsUrl": "https://github.com/alger68/JHSEE-Study-Planner/actions/runs/37114678820",
+    "testAndBuild": "success",
+    "deploy": "success",
+    "nativePaperRoutes": 40,
+    "nativeReadingRoutes": 74,
+    "readingMobile320Routes": 74,
+    "runtimeErrors": 0,
+    "progressPreserved": true,
+    "freshHomeContentDownloads": 0,
+    "liveHtmlSha256": "e017eeb99f8b84a2750f9c305faf00f76384ef0307623ccec65e35b42acf7f21",
+    "liveHtmlMatchesTestedBuild": true,
+    "liveFortyPaperHashesVerified": true,
+    "liveFullContentHashVerified": true,
+    "visibleChecks": [
+      "V2.1.4 homepage shows43original/27edition/4needed",
+      "Grade8 Taiwanese 太平洋的風 shows exact114edition,周蘇宗 and newly authored teaching",
+      "Expanded reading check shows concrete answer and PPT/book source basis",
+      "Returned to homepage; no quiz submissions, completion flags or bookmarks changed"
+    ],
+    "homeUrl": "https://alger68.github.io/JHSEE-Study-Planner/assets/study-notes/?v=2.1.4#/home",
+    "inspectedLessonUrl": "https://alger68.github.io/JHSEE-Study-Planner/assets/study-notes/?v=2.1.4#/unit/catalog-94abfd6b2c483cc5/notes?concept=c1",
+    "screenshot": "v214-reading.jpg"
   }
 }
