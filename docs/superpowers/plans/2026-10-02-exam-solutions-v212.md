@@ -6,7 +6,7 @@ Global constraints: no original full-paper republication, no fabricated certaint
 
 1. [x] Download and fingerprint ten PDFs; parallel independent subject audits produce ten validated JSON files and five audit records. Cross-check section/item inventories and representative disputed/numeric answers.
 2. [x] Add a failing lazy-coverage-note regression, move notes into paper bundles only, and verify direct load/retry/standalone behavior. Update the version and release/native coverage gates to fifteen papers after independent inventories establish totals. Run all notes and Planner tests.
-3. [ ] Fresh independent review of the entire branch; resolve important findings with regression coverage. Publish with a non-force GitHub ref update, pass native CI and public hash checks, inspect visible browser behavior, open the homepage, and record evidence.
+3. [x] Fresh independent review of the entire branch; resolve important findings with regression coverage. Publish with a non-force GitHub ref update, pass native CI and public hash checks, inspect visible browser behavior, open the homepage, and record evidence.
 
 Review focus: omissions or double-counted subparts; physical PDF page references; official-key transcription; missing-audio claims; unchanged first-round files; long coverage notes still visible after lazy loading; immutable old progress; homepage budget; all fifteen native paper routes.
 
