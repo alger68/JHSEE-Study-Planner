@@ -16,7 +16,7 @@ function build(input){
  h=replace(h,"else if(route.view==='atlas') main.innerHTML=window.SourceAtlasUI.render(D,C,route.params);","else if(route.view==='atlas') main.innerHTML=window.SourceAtlasUI.render(D,C,route.params);\n    else if(route.view==='resources') main.innerHTML=window.FreeResourcesUI.render(D,C,route.params);");
  h=replace(h,"const labels = {atlas:","const labels = {resources:'免費教學補充',atlas:");
  h=replace(h,'<div class="nav-label">學科目錄</div>','<a class="nav-item${active(\'resources\')}" href="#/resources"><span class="nav-icon">↗</span>免費教學補充</a><div class="nav-label">學科目錄</div>');
- h=replace(h,'<div id="unit-content">','${window.FreeResourcesUI.unit(D,u)}<div id="unit-content">');
+ h=replace(h,'<div id="unit-content" tabindex="-1">','${window.FreeResourcesUI.unit(D,u)}<div id="unit-content" tabindex="-1">');
  h=replace(h,'}<details class="atlas-evidence">','}${window.FreeResourcesUI.section(D,s)}<details class="atlas-evidence">');
  h=replace(h,"return h+registry(A,grade)+'</div>';","return h+window.FreeResourcesUI.alternatives(D,grade,subject,period)+registry(A,grade)+'</div>';");
  h=replace(h,'<a class="btn primary" href="#/atlas">教學與測驗地圖 →</a></section>','<div class="actions"><a class="btn primary" href="#/atlas">教學與測驗地圖 →</a><a class="btn secondary" href="#/resources">免費教學補充 ↗</a></div></section>');

@@ -12,3 +12,17 @@
 @media(max-width:900px){.lesson-switcher{top:69px}}
 @media(max-width:600px){.lesson-switcher{top:66px;grid-template-columns:1fr 1fr;gap:6px;padding:8px}.lesson-picker{grid-column:1/-1;grid-row:1}.lesson-step{padding:6px}.lesson-picker span{font-size:12px}}
 @media print{.lesson-switcher{display:none!important}}
+
+/* Keep lesson metadata compact and offer a next step at the end of reading. */
+[data-view="unit"] .catalog-breadcrumb{margin-bottom:6px}
+[data-view="unit"]>.back-link{margin-bottom:4px}
+[data-view="unit"] .atlas-unit-trail{margin:8px 0}
+[data-view="unit"] .unit-hero{padding:18px 24px}
+[data-view="unit"] .unit-hero h1{margin:8px 0;font-size:26px}
+[data-view="unit"] .unit-hero .actions{margin-top:12px}
+[data-view="unit"] .tabs{margin:14px 0 18px}
+.reading-next{margin:24px 0;padding:20px;border:1px solid var(--line);border-radius:14px;background:#edf4ea}
+.reading-next>.actions{margin-top:12px}.reading-next .btn{min-height:44px;font-size:14px}
+#unit-content:focus-visible{outline:2px solid var(--green);outline-offset:5px}
+@media(max-width:600px){[data-view="unit"] .unit-hero{padding:16px}.reading-next{padding:16px}.reading-next .actions{display:grid;grid-template-columns:1fr}.reading-next .btn{justify-content:center}}
+@media print{.reading-next,[data-reading-start]{display:none!important}}

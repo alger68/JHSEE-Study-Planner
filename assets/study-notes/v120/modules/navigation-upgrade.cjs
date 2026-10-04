@@ -19,10 +19,21 @@ function academy(s){
     liveSig='';navigate('#/practice?'+p);break;
    }
    case 'new':fresh();break;`);
- s=replace(s,'return{home,versions,practice,examPage,backupPanel,click,change};','return{home,library,visitUnit:browsing.visitUnit,unitBreadcrumb:browsing.unitBreadcrumb,versions,practice,examPage,backupPanel,click,change};');
+ s=replace(s,'return{home,versions,practice,examPage,backupPanel,click,change};','return{home,library,visitUnit:browsing.visitUnit,unitBreadcrumb:browsing.unitBreadcrumb,readingNext:browsing.readingNext,versions,practice,examPage,backupPanel,click,change};');
  return s;
 }
 function app(s){
+ s=replace(s,'  function render() {',`  let lastRenderedLesson=null;
+  function focusLessonContent(){const content=document.getElementById('unit-content');if(content){content.focus({preventScroll:true});content.scrollIntoView({block:'start',behavior:'instant'});}}
+  function render() {`);
+ s=replace(s,'    window.scrollTo(0,0);',`    const withinLesson=route.view==='unit'&&lastRenderedLesson?.id===route.id&&lastRenderedLesson.tab!==route.tab;
+    lastRenderedLesson=route.view==='unit'?{id:route.id,tab:route.tab}:null;
+    if(withinLesson)focusLessonContent();else window.scrollTo(0,0);`);
+ s=replace(s,'<div id="unit-content">','<div id="unit-content" tabindex="-1">');
+ s=replace(s,'<div class="content-end">','${academy.readingNext(u,route.tab)}<div class="content-end">');
+ s=replace(s,'<div class="actions"><button class="btn primary" data-action="read"','<div class="actions"><button class="btn primary" data-reading-start>直接看內容 ↓</button><button class="btn secondary" data-action="read"');
+ s=replace(s,"  document.addEventListener('click',e=>{",`  document.addEventListener('click',e=>{
+    if(e.target.closest('[data-reading-start]')){focusLessonContent();return;}`);
  s=replace(s,'  function home(subject) { return window.CourseChaptersUI.banner(D,C)+academy.home(subject,route.params); }','  function home(subject) { return subject?academy.library(new URLSearchParams({s:subject.id})):academy.home(); }');
  s=replace(s,'    return result;','    return window.LibraryNavigation.normalizeRoute(result);');
  s=replace(s,'    route=routeFromHash(); navigation();',`    route=routeFromHash();

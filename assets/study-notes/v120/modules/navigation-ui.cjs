@@ -68,6 +68,10 @@
    const edge=(target,side,label)=>target?`<a class="lesson-step" data-lesson-${side} href="${E(lessonTarget(u.id,target.id))}" aria-label="${label}：${E(target.chapter)} ${E(target.title)}">${label}</a>`:`<span class="lesson-step" data-lesson-${side} aria-disabled="true">${label}</span>`;
    return `<nav class="lesson-switcher" aria-label="課程快速切換">${edge(list[index-1],'prev','← 上一課')}<label class="lesson-picker"><span>選擇其他課 <small>${index+1} / ${list.length}</small></span><select data-lesson-jump data-current-unit="${E(u.id)}" aria-label="選擇其他課">${list.map(x=>`<option value="${E(x.id)}"${x.id===u.id?' selected':''}>${E(x.chapter)} · ${E(x.title)}</option>`).join('')}</select></label>${edge(list[index+1],'next','下一課 →')}</nav>`;
   }
+  function readingNext(u,tab){
+   const link=(t,label,primary)=>`<a class="btn ${primary?'primary':'secondary'}" ${t==='quiz'?'data-reading-quiz':''} href="#/unit/${E(u.id)}/${t}">${label}</a>`;
+   return `<nav class="reading-next" aria-label="本課下一步"><strong>${tab==='quiz'?'回看重點，再繼續學習':'讀完了？確認一下理解'}</strong><div class="actions">${tab==='quiz'?link('notes','← 回看本課重點',true):link('quiz','開始本課檢測 →',true)}${tab==='notes'?link('quick','考前快速複習',false):tab!=='quiz'?link('notes','回看本課重點',false):''}<a class="btn secondary" href="${E(catalogURL(u))}">回本課目錄</a></div></nav>`;
+  }
   function unitBreadcrumb(u){return catalogHeader(String(u.grade),u.subject,String(u.semester))+`<a class="back-link" href="${E(catalogURL(u))}">← 回到${u.grade}年級${termName(u.semester)}${E(subjectName(u.subject))}教材目錄</a>`+lessonSwitcher(u);}
 
   function library(params){
@@ -92,7 +96,7 @@
    }else h+='<p class="scope-note">目前未在本站逐節核對這個學期／科目的正式目錄；上方共同核心指南不能視為完整課程進度。</p>';
    return h+'</div>';
   }
-  return {home,library,visitUnit,unitBreadcrumb,lessonTarget};
+  return {home,library,visitUnit,unitBreadcrumb,lessonTarget,readingNext};
  }
  return {KEY,catalogURL,normalizeRoute,create};
 });
