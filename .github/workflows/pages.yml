@@ -90,6 +90,8 @@ jobs:
         run: python assets/study-notes/v120/tests/exam-solutions-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/exam-solutions
       - name: Validate source-scoped reading additions and saved progress
         run: python assets/study-notes/v120/tests/reading-support-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/reading-support
+      - name: Validate direct lesson switching and mobile navigation
+        run: python assets/study-notes/v120/tests/lesson-navigation-browser.py .pages/assets/study-notes/index.html notes-browser-evidence/lesson-navigation
       - name: Archive tracked study-notes source
         run: git archive --format=tar HEAD assets/study-notes .github/workflows/pages.yml > notes-browser-evidence/study-notes-source.tar
       - name: Upload verification evidence
@@ -138,7 +140,7 @@ jobs:
                   m=re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});\s*</script>',html,re.S)
                   assert m, 'Embedded curriculum missing'
                   data=json.loads(m.group(1))
-                  assert data['appVersion']=='2.1.4', 'Pages cache still holds earlier version'
+                  assert data['appVersion']=='2.1.5', 'Pages cache still holds earlier version'
                   assert 'data-learning-entry' in html.split('window.STUDY_DATA =')[0], 'Learning entry missing from homepage'
                   assert len(html.encode('utf-8'))<2000000, 'Homepage payload budget exceeded'
                   assert '今天，從哪一科開始' in html.split('window.STUDY_DATA =')[0], 'Prerendered homepage missing'

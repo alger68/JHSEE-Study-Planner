@@ -27,7 +27,7 @@
   const D=JSON.parse(JSON.stringify(input)),seen=new Set();
   const all=papers.map(p=>{if(seen.has(p.sourceId))throw Error('Duplicate solution paper');seen.add(p.sourceId);const s=D.atlas.exams.find(s=>s.sourceId===p.sourceId);validatePaper(p,s);return{...JSON.parse(JSON.stringify(p)),grade:s.grade,year:s.year,term:s.term,round:s.round,subject:s.subject,subjectName:s.subjectName,pdfPages:s.pdfPages,url:s.url,...counts(p)};});
   const total={totalItems:0,verifiedItems:0,disputedItems:0,limitedItems:0};for(const p of all)for(const k of Object.keys(total))total[k]+=p[k];
-  D.examSolutions={schema:1,version:'2.1.4',paperCount:all.length,...total,papers:all};
+  D.examSolutions={schema:1,version:'2.1.5',paperCount:all.length,...total,papers:all};
   const gap=D.atlas.gaps?.find(g=>g.scope==='題解驗證');if(gap)gap.status=`已整理${all.length}／${D.atlas.exams.length}份原創逐題詳解；${total.verifiedItems}題核對一致、${total.disputedItems}題有疑義、${total.limitedItems}題核對有限。題本覆蓋與答案核對狀態分別計算，請查看各題說明。`;
   return D;
  }

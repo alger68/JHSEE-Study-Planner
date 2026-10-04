@@ -49,7 +49,27 @@
   function catalogHeader(g,s,t){
    return `<nav class="catalog-breadcrumb" aria-label="教材路徑"><a href="#/home">首頁</a><span>›</span><a href="${E(href(g,'all',t))}">${g==='all'?'選擇年級':g+'年級'}</a><span>›</span><span>${termName(Number(t))}</span>${s==='all'?'':`<span>›</span><strong>${E(subjectName(s))}</strong>`}</nav>`;
   }
-  function unitBreadcrumb(u){return catalogHeader(String(u.grade),u.subject,String(u.semester))+`<a class="back-link" href="${E(catalogURL(u))}">← 回到${u.grade}年級${termName(u.semester)}${E(subjectName(u.subject))}教材目錄</a>`;}
+  function lessonSequence(u){
+   const matches=x=>x&&x.grade===u.grade&&x.semester===u.semester&&x.subject===u.subject;
+   const courses=D.atlas?.courses||[];
+   const course=courses.find(c=>c.id===u.atlasCourseId&&c.sections.some(s=>s.unitId===u.id))||courses.find(c=>c.sections.some(s=>s.unitId===u.id));
+   const book=!course&&D.courseMap?.books?.find(b=>b.sections.some(s=>s.unitId===u.id));
+   const rows=(course||book)?.sections;
+   const list=rows?rows.map(s=>byId.get(s.unitId)).filter(matches):units.filter(x=>matches(x)&&x.coverage===u.coverage&&x.domain===u.domain&&x.schoolYear===u.schoolYear);
+   return [...new Map(list.map(x=>[x.id,x])).values()];
+  }
+  function lessonTarget(currentId,targetId){
+   const u=byId.get(currentId);
+   return u&&lessonSequence(u).some(x=>x.id===targetId)?'#/unit/'+encodeURIComponent(targetId)+'/notes':null;
+  }
+  function lessonSwitcher(u){
+   const list=lessonSequence(u),index=list.findIndex(x=>x.id===u.id);
+   if(index<0)return '';
+   const edge=(target,side,label)=>target?`<a class="lesson-step" data-lesson-${side} href="${E(lessonTarget(u.id,target.id))}" aria-label="${label}：${E(target.chapter)} ${E(target.title)}">${label}</a>`:`<span class="lesson-step" data-lesson-${side} aria-disabled="true">${label}</span>`;
+   return `<nav class="lesson-switcher" aria-label="課程快速切換">${edge(list[index-1],'prev','← 上一課')}<label class="lesson-picker"><span>選擇其他課 <small>${index+1} / ${list.length}</small></span><select data-lesson-jump data-current-unit="${E(u.id)}" aria-label="選擇其他課">${list.map(x=>`<option value="${E(x.id)}"${x.id===u.id?' selected':''}>${E(x.chapter)} · ${E(x.title)}</option>`).join('')}</select></label>${edge(list[index+1],'next','下一課 →')}</nav>`;
+  }
+  function unitBreadcrumb(u){return catalogHeader(String(u.grade),u.subject,String(u.semester))+`<a class="back-link" href="${E(catalogURL(u))}">← 回到${u.grade}年級${termName(u.semester)}${E(subjectName(u.subject))}教材目錄</a>`+lessonSwitcher(u);}
+
   function library(params){
    const {g,s,t,valid}=filters(params);
    if(!valid)return '<div class="empty" data-view="library"><h1>篩選條件無效</h1><p>請重新選擇年級、學期及科目；沒有自動改成其他範圍。</p><a class="btn primary" href="#/library">回教材目錄</a></div>';
@@ -72,7 +92,7 @@
    }else h+='<p class="scope-note">目前未在本站逐節核對這個學期／科目的正式目錄；上方共同核心指南不能視為完整課程進度。</p>';
    return h+'</div>';
   }
-  return {home,library,visitUnit,unitBreadcrumb};
+  return {home,library,visitUnit,unitBreadcrumb,lessonTarget};
  }
  return {KEY,catalogURL,normalizeRoute,create};
 });

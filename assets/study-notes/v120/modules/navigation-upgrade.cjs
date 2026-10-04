@@ -8,6 +8,8 @@ function academy(s){
  function home(){return browsing.home();}
  function library(params){return browsing.library(params);}
 `+s.slice(b);
+ s=replace(s,'function change(e){',`function change(e){
+  if(e.target.matches('[data-lesson-jump]')){const target=browsing.lessonTarget(e.target.dataset.currentUnit,e.target.value);if(target)navigate(target);return;}`);
  s=replace(s,"navigate('#/home?'+p);return;","navigate('#/library?'+p);return;");
  s=replace(s,"   case 'new':fresh();break;",`   case 'home-wrong':{
     const qs=state.mistakes.slice(-20).map(x=>x.q);if(!qs.length){toast('目前沒有已存錯題。');break;}
