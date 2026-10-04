@@ -7,7 +7,17 @@
   "gzipBytes": 327954,
   "sha256": "9da8928b9bf85111807893fcd7fd2f7de21b23bb7fb56ca304b040a6580fb677",
   "notesTests": 192,
-  "nativeCI": "pending",
-  "review": "pending",
-  "release": "pending"
+  "nativeCI": "passed",
+  "review": "No blocking findings",
+  "release": "published",
+  "runtimeCommit": "b19c6b8840346484560943276c22bda7dadd1d8f",
+  "workflowRun": 37164008725,
+  "plannerTests": 74,
+  "nativeNavigationChecks": 17,
+  "publicHtmlMatchesTestedBuild": true,
+  "liveBrowser": [
+    "first lesson next opens second",
+    "picker jumps directly to fifth lesson"
+  ],
+  "screenshot": "v215-navigation.jpg"
 }
