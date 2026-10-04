@@ -7,7 +7,19 @@
   "gzipBytes": 328533,
   "sha256": "2f8ba5d5a49990c5c6ad1dd71cd0b9883c6a826041cba5b5b96adda42d7ca7ee",
   "notesTests": 194,
-  "nativeCI": "pending",
-  "review": "pending",
-  "release": "pending"
+  "nativeCI": "passed",
+  "review": "No Critical or Important issues",
+  "release": "published",
+  "runtimeCommit": "dc4c724912a04a2f47f0003167cae1f49f42cf5c",
+  "workflowRun": 37193692725,
+  "plannerTests": 74,
+  "nativeNavigationChecks": 32,
+  "newReadingFlowChecks": 15,
+  "publicHtmlMatchesTestedBuild": true,
+  "liveBrowser": [
+    "direct content button focuses and positions content",
+    "reading footer opens quiz with content at 230px",
+    "quiz footer returns to same lesson notes"
+  ],
+  "screenshot": "v216-reading-flow.jpg"
 }
